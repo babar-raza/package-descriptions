@@ -31,9 +31,9 @@ Aspose.Slides for C++ is a native C++ library that supports 64-bit operating sys
 ## Getting Started with Aspose.Slides for C++
 Let's give Aspose.Slides for C++ a try! Simply execute `Install-Package Aspose.Slides.Cpp` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Slides for C++ and want to upgrade the version, please execute `Update-Package Aspose.Slides.Cpp` to get the latest version.
 
+## Create PPTX Presentation using C++
 Try executing below code snippet to see how Aspose.Slides for C++ performs in your environment or check the [GitHub Repository](https://github.com/aspose-slides/Aspose.Slides-for-C) for other common usage scenarios. 
 
-### Create PPTX Presentation using C++
 ```c++
 // instantiate Presentation class that represents PPTX file
 SharedPtr<Presentation> pres = MakeObject<Presentation>();
@@ -45,8 +45,9 @@ slide->get_Shapes()->AddAutoShape(Aspose::Slides::ShapeType::Line, 50.0, 150.0, 
 pres->Save(u"output.pptx", Aspose::Slides::Export::SaveFormat::Pptx);
 ```
 
-### Convert PPTX to PDF
-The following code sample demonstrates the conversion of Microsoft PowerPoint PPTX presentation to PDF format with C++.
+## Convert PPTX to PDF using C++
+The following code sample demonstrates the conversion of Microsoft PowerPoint PPTX presentation to PDF format with C++:
+
 ```c++
 // instantiate Presentation class that represents PPTX file
 SharedPtr<Presentation> pres = MakeObject<Presentation>(u"template.pptx");

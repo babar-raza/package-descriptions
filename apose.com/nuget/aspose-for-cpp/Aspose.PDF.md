@@ -21,9 +21,9 @@ Aspose.PDF for C++ is a native C++ library that allows to create, process, manip
 ## Getting Started with Aspose.PDF for C++
 Are you ready to give Aspose.PDF for C++ a try? Simply execute `Install-Package Aspose.PDF.Cpp` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.PDF for C++ and want to upgrade the version, please execute `Update-Package Aspose.PDF.Cpp` to get the latest version.
 
+## Extract Text from a PDF Document with C++
 Try the below code snippet to see how Aspose.PDF for C++ performs in your environment or check the [GitHub Repository](https://github.com/aspose-pdf/Aspose.Pdf-for-C) for other common usage scenarios. 
 
-### Extract Text from a PDF Document with C++
 ```c++
 auto extractor = MakeObject<Facades::PdfExtractor>();	
 extractor->BindPdf(u"..\\Data\\Text\\input.pdf");
@@ -37,8 +37,8 @@ String allText = unicode->GetString(memStream->ToArray());
 Console::WriteLine(allText);
 ```
 
-### Convert PDF to DOC Format
-One of the most popular feature of Aspose.PDF for C++ is to convert PDF documents to other formats without needing to understand the underlying structure of the resultant format. Give the following snippet a try with your own samples.
+## Convert PDF to DOC Format
+One of the most popular feature of Aspose.PDF for C++ is to convert PDF documents to other formats without needing to understand the underlying structure of the resultant format. Give the following snippet a try with your own sample:
 ```c++
 auto doc = MakeObject<Document>(u"template.pdf");
 doc->Save(u"output.doc", MakeObject<DocSaveOptions>());

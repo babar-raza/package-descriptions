@@ -18,8 +18,9 @@ Aspose.Email for C++ enables your C++ applications to work with various Outlook 
 ## Getting Started with Aspose.Email for C++
 Are you ready to give Aspose.Email for C++ a try? Simply execute `Install-Package Aspose.Email.Cpp` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Email for C++ and want to upgrade the version, please execute `Update-Package Aspose.Email.Cpp` to get the latest version.
 
-Try executing the below code snippet to see how Aspose.Email for C++ performs in your environment. You may also check the [GitHub Repository](https://github.com/aspose-email/Aspose.Email-for-C) for other common usage scenarios. The following code sample shows 
-### Create New Message & Save in EML & MSG Formats
+## Create New Message & Save in EML & MSG Formats
+Try executing the below code snippet to see how Aspose.Email for C++ performs in your environment. You may also check the [GitHub Repository](https://github.com/aspose-email/Aspose.Email-for-C) for other common usage scenarios. The following code sample shows how to create new email message and save it in EML & MSG formats using C++:
+
 ```c++
 // create a new instance of MailMessage class
 System::SharedPtr<MailMessage> message = System::MakeObject<MailMessage>();

@@ -3,25 +3,25 @@ A standalone C++ class library to load, save, format & convert Microsoft Word® 
 Aspose.Words for C++ is a powerful on premise API that can be used for a great range of document processing tasks such as; working with paragraphs, text, images, text boxes, shapes, tables, rows, cells, fields, form fields, hyperlinks, bookmarks, document sections, headers, footers, footnotes, end-notes, and comments.
 
 ## Word File Processing Features
-- Copy & move elements from one document to another
-- Join or split documents
-- Get and set document properties
-- Find and replace text
-- Accept all revisions of a document
-- Powerful layout engine
-- Render documents to PDF & image formats
-- Insert HTML into documents
-- Insert SVG images into documents
-- Insert online video
-- Create DML charts
-- Work with Table of Contents (TOC) & page layout
-- Compare two Microsoft Word documents
-- Read & write support for VBA Macros
-- Save document to Printer Command Language (PCL) format
-- Preserve OLE objects and ActiveX controls in the document
-- Work with Web Extension Elements
-- Create or modify a Microsoft Word mail merge data source for a document
-- Preserve mail merge settings & data sources
+- Copy & move elements from one document to another.
+- Join or split documents.
+- Get and set document properties.
+- Find and replace text.
+- Accept all revisions of a document.
+- Powerful layout engine.
+- Render documents to PDF & image formats.
+- Insert HTML into documents.
+- Insert SVG images into documents.
+- Insert online video.
+- Create DML charts.
+- Work with Table of Contents (TOC) & page layout.
+- Compare two Microsoft Word documents.
+- Read & write support for VBA Macros.
+- Save document to Printer Command Language (PCL) format.
+- Preserve OLE objects and ActiveX controls in the document.
+- Work with Web Extension Elements.
+- Create or modify a Microsoft Word mail merge data source for a document.
+- Preserve mail merge settings & data sources.
 
 
 ## Read & Write Word Processing Files
@@ -40,9 +40,9 @@ Aspose.Words for C++ is a powerful on premise API that can be used for a great r
 ## Getting Started with Aspose.Words for C++
 Are you ready to give Aspose.Words for C++ a try? Simply execute `Install-Package Aspose.Words.Cpp` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Words for C++ and want to upgrade the version, please execute `Update-Package Aspose.Words.Cpp` to get the latest version.
 
+## Create DOCX with HelloWorld Text via C++
 Try executing the following snippet to see how Aspose.Words for C++ performs in your own environment or check the [GitHub Repository](https://github.com/aspose-words/Aspose.Words-for-C) for other common usage scenarios. 
 
-### Create DOCX with HelloWorld Text via C++
 ```c++
 // create a blank document.
 System::SharedPtr<Document> doc = System::MakeObject<Document>();
@@ -57,9 +57,8 @@ doc->Save(outputPath);
 ```
 
 ### Convert DOC to EPUB Format
-Aspose.Words for C++ allows you to convert Microsoft Word® formats into bytes, EPUB, HTML and other file formats. 
+Aspose.Words for C++ allows you to convert Microsoft Word® formats into bytes, EPUB, HTML and other file formats. Following code sample displays how to convert a DOC file into an EPUB format using C++:
 
-Following code sample displays how to convert a DOC file into an EPUB format using C++:
 ```c++
 // load the document from disk.
 System::SharedPtr<Document> doc = System::MakeObject<Document>(u"template.doc");

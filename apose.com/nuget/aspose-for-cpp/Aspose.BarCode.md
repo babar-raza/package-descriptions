@@ -11,12 +11,12 @@ You can modify and customize barcode properties, such as, font, foreground color
 - Save barcode labels as images of popular formats including PNG, JPG, BMP and more.
 - Encode non-english characters in 2D types.
 
-## Barcode Sanning Features
+## Barcode Scanning Features
 - Read 1D & 2D barcode types of 50+ symbologies.
 - Recognize codes from stream or image file.
 - Scan a specific area of image to detect barcode.
 - Get region information for the barcodes recognized in the image.
-- Decode non-english characters in 2D types.
+- Decode non-English characters in 2D types.
 
 ## Barcode Imaging Features
 - Customize the barcode image's borders, border color, style, margins, width and so on.
@@ -40,7 +40,8 @@ You can modify and customize barcode properties, such as, font, foreground color
 **Images:** EMF, SVG
 
 ## Generate Code128 Barcode in PNG Format
-You can execute below code snippet to see how Aspose.BarCode API works for you. You may also check the [GitHub Repository](https://github.com/aspose-barcode/Aspose.Barcode-for-C) for other common usage scenarios. 
+You can execute below code snippet to see how Aspose.BarCode API works in your development environment. You may also check the [GitHub Repository](https://github.com/aspose-barcode/Aspose.Barcode-for-C) for other common usage scenarios.
+
 ```c++
 // instantiate barcode object and set CodeText & Barcode Symbology
 System::SharedPtr<BarcodeGenerator> generator = System::MakeObject<BarcodeGenerator>(EncodeTypes::Code128, u"1234");
@@ -48,7 +49,8 @@ generator->Save(dir + u"output.png");
 ```
 
 ## Hide Barcode Label Text using C++
-Aspose.BarCode for C++ allows you to customize various properties of barcodes, such as, borders, color, type, bar height as well as barcode text. Following example shows, how simple it is to hide the barcode text using C++.
+Aspose.BarCode for C++ allows you to customize various properties of barcodes, such as, borders, color, type, bar height as well as barcode text. Following example shows, how simple it is to hide the barcode text using C++:
+
 ```c++
 System::String codeText = System::String(u"The quick brown fox jumps over the lazy dog\n") + u"The quick brown fox jumps over the lazy dog\n";
 

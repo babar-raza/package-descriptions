@@ -36,9 +36,9 @@ The component provides an easy to use API for manipulating Microsoft Project fil
 ## Getting Started with Aspose.Tasks for C++
 Are you ready to give Aspose.Tasks for C++ a try? Simply execute `Install-Package Aspose.Tasks.Cpp` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Tasks for C++ and want to upgrade the version, please execute `Update-Package Aspose.Tasks.Cpp` to get the latest version.
 
+### Convert Microsoft Project MPP Data to HTML
 Try executing the below code to see how Aspose.Tasks for C++ performs in your environment. You may also check the [GitHub Repository](https://github.com/aspose-tasks/Aspose.Tasks-for-C) for other common usage scenarios. 
 
-### Convert Microsoft Project MPP Data to HTML
 ```c++
 System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"template.mpp");
 System::SharedPtr<HtmlSaveOptions> option = System::MakeObject<HtmlSaveOptions>();
@@ -46,7 +46,8 @@ project->Save(dataDir + u"output.html", option);
 ```
 
 ### Create Project from Scratch using C++
-Following code sample shows how to create a project file using C++ and then create a task and a sub-task within that project.
+Following code sample shows how to create a project file using C++ and then create a task and a sub-task within that project:
+
 ```c++
 // Create project instance
 System::SharedPtr<Project> project = System::MakeObject<Project>();

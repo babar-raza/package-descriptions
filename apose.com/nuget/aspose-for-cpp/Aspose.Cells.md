@@ -27,9 +27,10 @@ Some of the basic tasks developers can perform after integrating Aspose.Cells fo
 ## Getting Started with Aspose.Cells for C++
 Are you ready to give Aspose.Cells for C++ a try? Simply execute `Install-Package Aspose.Cells.Cpp` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Cells for C++ and want to upgrade the version, please execute `Update-Package Aspose.Cells.Cpp` to get the latest version.
 
-Try executing below snippet to see how API works in your environomet or check the [GitHub Repository](https://github.com/aspose-cells/Aspose.Cells-for-C) for other common usage scenarios. 
 
 ### Convert XLS to XLSX, XLSB & CSV using C++
+Try executing below snippet to see how API works in your environment or check the [GitHub Repository](https://github.com/aspose-cells/Aspose.Cells-for-C) for other common usage scenarios. 
+
 ```c++
 // load the file to be converted
 intrusive_ptr<IWorkbook> book = Factory::CreateIWorkbook(dir->StringAppend(new String("template.xls")));
