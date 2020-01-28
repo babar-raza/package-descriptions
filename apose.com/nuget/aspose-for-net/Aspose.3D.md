@@ -1,4 +1,4 @@
-Aspose.3D for .NET is a standalone, on-premise API to help developers seamlessly integrate 3D processing & rendering functionality into .NET based applications.
+Aspose.3D for .NET is a standalone, on premise API to help developers seamlessly integrate 3D processing & rendering functionality into .NET based applications.
 
 Aspose.3D for .NET enhances your .NET applications to work with various materials (lambert, phong, shader-based, PBR, PBR specular), textures (diffuse, advanced texture), meshes (polygon, triangle-based) geometries (vertex, NURBS, parameterized), vertex elements, local transformation, instancing, scene graph, custom property, skeleton, morph deformer, property animation, mesh compression and more. 
 
