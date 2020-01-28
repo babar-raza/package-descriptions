@@ -2,7 +2,7 @@ Aspose.Cells for .NET consists of API and GUI controls to create, process, manip
 
 Some of the basic tasks developers can perform after integrating the API are management of worksheets, rows, columns & cells, creating spreadsheet contents and styles from scratch, importing data onto the worksheets from different data sources, adding common and complex mathematical, financial and text formulas, manipulation of charts, pictures, comments, drawing objects and much more.
 
-Aspose.Cells for .NET provides a Grid solution with two GUI based .NET controls. One for the desktop applications and the other for .NET based web applications. The users can import/export Excel files, manipulate data & formatting, customize grid design and layout, manage multiple worksheets, create and calculate Excel formulas and numerous other Excel-like operations while using these controls. 
+Aspose.Cells for .NET provides a Grid solution with two GUI based .NET controls. One for the desktop applications and the other for .NET based web applications. You can import/export Excel files, manipulate data & formatting, customize grid design and layout, manage multiple worksheets, create and calculate Excel formulas and numerous other Excel-like operations while using these controls. 
 
 ## Excel File Processing Features
 - Spreadsheet generation & manipulation via API.
@@ -29,7 +29,7 @@ Aspose.Cells for .NET provides a Grid solution with two GUI based .NET controls.
 **Images:** JPEG, PNG, BMP, SVG, TIFF, EMF, GIF
 
 ## Platform Independence
-Aspose.Cells for .NET can be used to build ASP.NET, Web Services, WinForms or other .NET applications for framework 2.0 or later on 32-bit and 64-bit operating systems. It also provides dedicated assemblies for Xamarin.Android (use in native Android apps), Xamarin.iOS (use in native iOS apps), COM (use with pre-.NET technologies), Mono, and Windows Azure.
+Aspose.Cells for .NET can be used to build ASP.NET, Web Services, WinForms or other .NET applications for framework 2.0 or later on 32-bit and 64-bit operating systems. It also provides dedicated assemblies for Xamarin.Android (for native Android apps), Xamarin.iOS (for native iOS apps), COM (for pre-.NET technologies), Mono, and Windows Azure.
 
 ## Getting Started with Aspose.Cells for .NET
 Are you ready to give Aspose.Cells for .NET a try? Simply execute `Install-Package Aspose.Cells` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Cells for .NET and want to upgrade the version, please execute `Update-Package Aspose.Cells` to get the latest version.
