@@ -7,7 +7,7 @@ Aspose.PDF for .NET allows to work with PDF documents, pages, text, images, atta
 - Supports 14 core, Type 1, TruType, Type 3, CJK & Unicode fonts.
 - Extract text from PDF pages or search for particular text segment using regular expressions.
 - Add or extract text & images to & from PDF documents.
-- Concatenate or split PDF files
+- Concatenate or split PDF files.
 - Linearization of PDF documents for web optimization.
 - Validation support for PDF/A-1a, PDF/A-1b & PDF/A-2a.
 - Manage PDF tables & graphs using easy to understand object model.
@@ -39,9 +39,9 @@ Aspose.PDF for .NET can be used to build applications for Windows, Mac OS X x64 
 ## Getting Started with Aspose.PDF for .NET
 Are you ready to give Aspose.PDF for .NET a try? Simply execute `Install-Package Aspose.PDF` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.PDF for .NET and want to upgrade the version, please execute `Update-Package Aspose.PDF` to get the latest version.
 
+## Create a PDF file via C#
 Execute below code snippet to see how Aspose.PDF API performs in your environment or check the [GitHub Repository](https://github.com/aspose-pdf/Aspose.Pdf-for-.NET) for other common usage scenarios. 
 
-### Create a PDF file via C#
 ```csharp
 // initialize document object
 Document document = new Document();
@@ -53,10 +53,10 @@ page.Paragraphs.Add(new Aspose.Pdf.Text.TextFragment("Hello World!"));
 document.Save(dir + "output.pdf");
 ```
 
-### Save PDF as Office & HTML Formats
+## Save PDF as Office & HTML Formats
 One of the most popular feature of Aspose.PDF for .NET is to convert PDF documents to other formats without needing to understand the underlying structure of the resultant format. 
 
-Give the following snippet a try with your own samples.
+Give the following snippet a try with your own samples:
 ```csharp
 // load the file to be converted
 var pfile = new Aspose.Pdf.Document(dir + "template.pdf");

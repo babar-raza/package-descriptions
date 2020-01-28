@@ -29,7 +29,7 @@ Aspose.BarCode for .NET can easily be used in any .NET 32-bit or 64-bit applicat
 ## Getting Started with Aspose.BarCode for .NET
 Are you ready to give Aspose.BarCode for .NET a try? Simply execute `Install-Package Aspose.BarCode` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.BarCode for .NET and want to upgrade the version, please execute `Update-Package Aspose.BarCode` to get the latest version.
 
-### Generate a Barcode Label with Code128
+## Generate a Barcode Label with Code128
 Try the following snippet to see how Aspose.BarCode API performs in your environment or check the [GitHub Repository](https://github.com/aspose-barcode/Aspose.BarCode-for-.NET) for other common usage scenarios.
 ```csharp
 // instantiate object and set different barcode properties
@@ -40,7 +40,7 @@ generator.Parameters.Barcode.XDimension.Millimeters = 1f;
 generator.Save(dir + "output.jpg", BarCodeImageFormat.Jpeg);
 ```
 
-### Hide Barcode Text from the PNG Label via C#
+## Hide Barcode Text from the PNG Label via C#
 Aspose.BarCode for .NET allows you to customize various properties of barcodes, such as, borders, color, type, bar height as well as barcode text. Following example shows, how simple it is to hide the barcode text using C#.
 ```csharp
 string codeText = "This text is hidden.\n" + "This text is hidden.\n"; ;

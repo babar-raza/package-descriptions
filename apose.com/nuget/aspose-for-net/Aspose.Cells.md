@@ -16,7 +16,7 @@ Aspose.Cells for .NET provides a Grid solution with two GUI based .NET controls.
 - Convert Excel files to various other formats.
 - Formula calculation engine that supports all basic and advanced Excel functions.
 
-## Read & Write Spreadsheet Files
+## Read & Write Spreadsheet Formats
 **Microsoft Excel:** XLS, XLSX, XLSB, XLT, XLTX, XLTM, XLSM, XML
 **OpenOffice:** ODS
 **Text:** CSV, TSV
@@ -34,7 +34,7 @@ Aspose.Cells for .NET can be used to build ASP.NET, Web Services, WinForms or ot
 ## Getting Started with Aspose.Cells for .NET
 Are you ready to give Aspose.Cells for .NET a try? Simply execute `Install-Package Aspose.Cells` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Cells for .NET and want to upgrade the version, please execute `Update-Package Aspose.Cells` to get the latest version.
 
-### Create a New Excel File via C#
+## Create a New Excel File via C#
 You can execute below code snippet to see how Aspose.Cells API performs in your environment or check the [GitHub Repository](https://github.com/aspose-cells/Aspose.Cells-for-.NET) for other common usage scenarios.
 
 ```csharp

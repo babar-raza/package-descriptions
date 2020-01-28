@@ -39,7 +39,7 @@ Aspose.3D for .NET is written in C# and supports Windows Forms as well as ASP<sp
 ## Getting Started with Aspose.3D for .NET
 Are you ready to give Aspose.3D for .NET a try? Simply execute `Install-Package Aspose.3D` from the Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.3D for .NET and want to upgrade the version, please execute `Update-Package Aspose.3D` to get the latest version.
 
-### Build a Scene with Primitive 3D Models using C#
+## Build a Scene with Primitive 3D Models using C#
 You can execute below code snippet to see how Aspose.3D API performs in your environment or check the [GitHub Repository](https://github.com/aspose-3d/Aspose.3D-for-.NET) for other common usage scenarios.
 ```csharp
 // initialize a Scene object

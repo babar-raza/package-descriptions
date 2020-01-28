@@ -8,14 +8,14 @@ Aspose.Diagram for .NET can also be used to apply protection to the Microsoft Vi
 -  Create Microsoft Visio diagrams from scratch via API.
 -  Read or write Microsoft Visio drawings with Automation.
 -  Export Visio diagrams to various popular formats including PDF, images, HTML and more.
--  Print Visio diagrams on phlysical printer or on a server using XpsPrint API.
+-  Print Visio diagrams on physical printer or on a server using XpsPrint API.
 -  Access Visio diagram properties.
 -  Protect Visio diagrams via applying locks on various levels.
 -  Manipulate the embedded OLE objects in the Visio diagrams.
 -  Insert ActiveX control within the Visio file.
 -  Customize the gradient of a Visio shape.
 
-## Read & Write Visio Files
+## Read & Write Visio Formats
 **Microsoft Visio:** VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM
 
 ## Save Visio Diagrams As
@@ -33,8 +33,8 @@ You can use Aspose.Diagram for .NET to build any type of a 32-bit or 64-bit .NET
 ## Getting Started with Aspose.Diagram for .NET
 Are you ready to give Aspose.Diagram for .NET a try? Simply execute `Install-Package Aspose.Diagram` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Diagram for .NET and want to upgrade the version, please execute `Update-Package Aspose.Diagram` to get the latest version.
 
-### Load a VSS Template to Create a Visio Diagram with C#
-You can execute below code snippet to see how Aspose.Diagram API performs against your own samples or check the [GitHub Repository](https://github.com/aspose-diagram/Aspose.Diagram-for-.NET) for other common usage scenarios. 
+## Load a VSS Template to Create a Visio Diagram with C#
+You can execute below code snippet to see how Aspose.Diagram API performs in your own environment or check the [GitHub Repository](https://github.com/aspose-diagram/Aspose.Diagram-for-.NET) for other common usage scenarios. 
 
 ```csharp
 // create a new diagram
@@ -51,8 +51,8 @@ shape.Text.Value.Add(new Txt(@"Hexagon text."));
 diagram.Save(dir + "output.vdx", SaveFileFormat.VDX);
 ```
 
-### Retrieve Layers of a Visio VSDX Diagram
-Aspose.Diagram for .NET allows .NET applications to work with layers of Visio drawings. The following C# code example shows how to fetch all the layers of a VSDX file.
+## Retrieve Layers of a Visio VSDX Diagram
+Aspose.Diagram for .NET allows .NET applications to work with layers of Visio drawings. The following C# code example shows how to fetch all the layers of a VSDX file:
 ```csharp
 // load source Visio diagram
 var diagram = new Diagram(dataDir + "Drawing1.vsdx");

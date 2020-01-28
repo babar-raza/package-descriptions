@@ -1,4 +1,4 @@
-It is a standalone on-premise API that helps in recognizing the optical marks from images of scanned documents, surveys, questionnaires, quizzes and examination papers.
+It is a standalone on-premise API that helps in recognizing the human-marked data from images of scanned documents, surveys, questionnaires, quizzes and examination papers.
 
 Aspose.OMR for .NET not only acts as an Optical Mark Recognition engine. It also provides a handy graphical control which can be used for manual tuning of the threshold and markup to see changes in the real-time.
 
@@ -6,7 +6,7 @@ Aspose.OMR for .NET not only acts as an Optical Mark Recognition engine. It also
 - Recognition of scanned images and photos.
 - Ability to process rotated and perspective (side viewed) images.
 - Recognize data from tests, exams, questionnaires, surveys etc.
-- High accuracy rate & ability to pxport the results in CSV format.
+- High accuracy rate & ability to export the results in CSV format.
 - Create templates and images from text markup.
 
 ## Save OMR Results As
@@ -23,7 +23,7 @@ Are you ready to give Aspose.OMR for .NET a try? Simply execute `Install-Package
 
 Simply execute the below code snippet to see how Aspose.OMR API performs in your environment or check the [GitHub Repository](https://github.com/aspose-omr/Aspose.OMR-for-.NET) for other common usage scenarios. 
 
-### Perform OMR on a JPG Image & Get Results in a CSV
+## Perform OMR on a JPG Image & Get Results in the CSV format
 ```csharp
 // recognize image and receive result
 RecognitionResult result = templateProcessor.RecognizeImage(dir + "template.jpg");

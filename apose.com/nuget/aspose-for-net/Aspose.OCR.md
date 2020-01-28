@@ -1,6 +1,6 @@
 It is a standalone OCR API that enhances your .NET apps to perform the OCR operation on JPEG, PNG, GIF, BMP & TIFF images for extraction of English, French, Spanish & Portuguese content.
 
-Aspose.OCR for .NET not only provides the Optical Character Recognition engine but more. You can also apply Blur, Gaussian Blur, and Median filter to reduce noise before document recognition and can set the OcrEngine to ignore non-textual blocks, maintain correct text order during & automatically correct spellings of the recognized text.
+Aspose.OCR for .NET not only provides the Optical Character Recognition engine but more. You can also apply Blur, Gaussian Blur, and Median filter to reduce noise before document recognition and can set the OcrEngine to ignore non-textual blocks, maintain correct text order during document text recognition & automatically correct spellings of the document text.
 
 ## Image OCR API Features
 - Programmatically detect, identify and read characters from images.
@@ -15,14 +15,14 @@ Aspose.OCR for .NET not only provides the Optical Character Recognition engine b
 **Raster Formats:** JPEG, PNG, GIF, BMP, TIFF
 
 ## Platform Independence
-You can use Aspose.OCR for .NET to develop applications in any development environment that targets the .NET Framework 2.0 and higher. This includes supports for Mono and Client Profile. 
+You can use Aspose.OCR for .NET to develop applications in any development environment that targets the .NET Framework 2.0 and higher. This includes support for Mono and Client Profiles. 
 
 ## Getting Started with Aspose.OCR for .NET
 Are you ready to give Aspose.OCR for .NET a try? Simply execute `Install-Package Aspose.OCR` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.OCR for .NET and want to upgrade the version, please execute `Update-Package Aspose.OCR` to get the latest version.
 
 Execute the following code snippet to see how Aspose.OCR API performs with your own samples or check the [GitHub Repository](https://github.com/aspose-ocr/Aspose.OCR-for-.NET) for other common usage scenarios. 
 
-### Perform simple OCR on a BMP image for text extraction using C#.
+## Perform simple OCR on a BMP image for text extraction using C#.
 ```csharp
 // initialize an instance of OcrEngine
 OcrEngine ocrEngine = new OcrEngine();
@@ -34,7 +34,7 @@ ocrEngine.Process();
 Console.WriteLine(ocrEngine.Text);
 ```
 
-### Load a Remote Image for OCR Operation
+## Load a Remote Image for OCR Operation
 Aspose.OCR for .NET enables your .NET applications to perform OCR in various scenarios such as accessing a remote JPG image via URL.
 ```csharp
 // initialize an instance of OcrEngine

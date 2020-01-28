@@ -9,7 +9,7 @@ Aspose.Slides' object model gives complete control over presentation elements su
 - Control access to presentations & slides or certain objects via advanced security features.
 - Create shapes such as rectangles, lines, poly-lines & ellipses on-the-fly.
 - Copy or clone slides for the same or different presentation.
-- Avalability of 24 pre-defined textures & 48 patterns for quick styling.
+- Availability of 24 pre-defined textures & 48 patterns for quick styling.
 
 ## Read & Write Presentations
 **Microsoft PowerPoint:** PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM
@@ -26,7 +26,7 @@ You can use Aspose.Slides for .NET to build any type of a 32-bit or 64-bit .NET 
 ## Getting Started with Aspose.Slides for .NET
 Let's give Aspose.Slides for .NET a try! Simply execute `Install-Package Aspose.Slides.NET` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Slides for .NET and want to upgrade the version, please execute `Update-Package Aspose.Slides.NET` to get the latest version.
 
-### Create a PPTX Presentation from Scratch with C#
+## Create a PPTX Presentation from Scratch with C#
 You can execute below code snippet to see how Aspose.Slides API performs in your environment or check the [GitHub Repository](https://github.com/aspose-slides/Aspose.Slides-for-.NET) for other common usage scenarios. 
 
 ```csharp
@@ -42,8 +42,9 @@ using (Presentation presentation = new Presentation())
 }
 ```
 
-### Convert Specific Slides to PDF Format using C#
-Aspose.Slides for .NET works as an independent rendering engine for presentations and slides with flexability override certain aspects such as converting specific PowerPoint slides to PDF format.
+## Convert Specific Slides to PDF Format using C#
+Aspose.Slides for .NET works as an independent rendering engine for presentations and slides with flexibly overriding certain aspects such as converting specific PowerPoint slides to PDF format.
+
 ```csharp
 // instantiate a Presentation object that represents a presentation file
 using (Presentation presentation = new Presentation(dir + "template.pptx"))

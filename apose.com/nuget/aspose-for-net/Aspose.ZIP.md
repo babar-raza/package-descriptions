@@ -25,7 +25,7 @@ Aspose.ZIP for .NET is implemented using Managed C# and can be used with any .NE
 ## Getting Started with Aspose.ZIP for .NET
 Are you ready to give Aspose.ZIP for .NET a try? Simply execute `Install-Package Aspose.Zip` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.ZIP for .NET and want to upgrade the version, please execute `Update-Package Aspose.Zip` to get the latest version.
 
-### Compress DAT as ZIP using C#
+## Compress DAT as ZIP using C#
 You can execute the following code snippet to see how Aspose.ZIP API works in your environment or check the [GitHub Repository](https://github.com/aspose-zip/Aspose.ZIP-for-.NET) for other common usage scenarios. 
 ```csharp
 using (var arch = new Archive())
@@ -34,7 +34,7 @@ using (var arch = new Archive())
    arch.Save(dir + "result.zip");
 }
 ```
-### Create 7z Archive with AES Encryption
+## Create 7z Archive with AES Encryption
 Aspose.Zip for .NET allows you to apply password protection and encryption to zipped archives. The following C# code sample demonstrates the creation of a Seven Zip file with AES encryption setting.
 ```csharp
 using (var archive = new SevenZipArchive(new SevenZipEntrySettings(null, new SevenZipAESEncryptionSettings("p@s$"))))
@@ -44,4 +44,4 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(null, new Sev
 }
 ```
 
-[Product Page](https://products.aspose.com/zip/net) | [Documentation](https://docs.aspose.com/display/zipnet/Home) | [API Reference](https://apireference.aspose.com/) | [Code Examples](https://github.com/aspose-zip/Aspose.ZIP-for-.NET) | [Blog](https://blog.aspose.com/category/zip/) | [Free Support](https://forum.aspose.com/c/zip) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/zip/net) | [Documentation](https://docs.aspose.com/display/zipnet/Home) | [API Reference](https://apireference.aspose.com/net/zip) | [Code Examples](https://github.com/aspose-zip/Aspose.ZIP-for-.NET) | [Blog](https://blog.aspose.com/category/zip/) | [Free Support](https://forum.aspose.com/c/zip) | [Temporary License](https://purchase.aspose.com/temporary-license)

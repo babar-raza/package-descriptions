@@ -18,7 +18,7 @@ Aspose.Note for .NET can be used for printing ONE documents as well as manipulat
 **Web:** HTML
 **Images:** GIF, JPEG, PNG, BMP, TIFF
 
-## Read Other Formats
+## Read Formats
 ONETOC2 
 
 ## Platform Independence
@@ -27,8 +27,9 @@ Aspose.Note for .NET can be used to build both the 32-bit and the 64-bit .NET ap
 ## Getting Started with Aspose.Note for .NET
 Are you ready to give Aspose.Note for .NET a try? Simply execute `Install-Package Aspose.Note` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Note for .NET and want to upgrade the version, please execute `Update-Package Aspose.Note` to get the latest version.
 
-### Convert Microsoft OneNote to PDF Format using C#
-Execute below code snippet to see how Aspose.Note API performs in your environment or check the [GitHub Repository](https://github.com/aspose-note/Aspose.Note-for-.NET) for other common usage scenarios. 
+## Convert Microsoft OneNote to PDF Format using C#
+Execute below code snippet to see how Aspose.Note API performs in your environment or check the [GitHub Repository](https://github.com/aspose-note/Aspose.Note-for-.NET) for other common usage scenarios.
+
 ```csharp
 // load the document into Aspose.Note.
 Document oneFile = new Document(dir + "template.one");
@@ -36,8 +37,9 @@ Document oneFile = new Document(dir + "template.one");
 oneFile.Save(dir + "output.pdf", SaveFormat.Pdf);
 ```
 
-### Extract Images from Microsoft OneNote Document
-Aspose.Note for .NET enables your .NET applications to list and manipulate images from a OneNote documents as demonstrated with following snippet.
+## Extract Images from Microsoft OneNote Document
+Aspose.Note for .NET enables your .NET applications to list and manipulate images from an OneNote document as demonstrated with following snippet:
+
 ```csharp
 // load the document into Aspose.Note.
 Document oneFile = new Document(dir + "template.one");

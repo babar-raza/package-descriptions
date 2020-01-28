@@ -1,4 +1,4 @@
-The GIS .NET API helps developers render maps, read, write & convert geographic information fetched from vector-based geospatial data formats without needing any other GIS software.
+This GIS .NET API helps developers render maps, read, write & convert geographic information fetched from vector-based geospatial data formats without needing any other GIS software.
 
 Aspose.GIS for .NET supports working with Shapefile, GeoJSON, ESRI File Geodatabase (FileGDB), Geography Markup Language (GML), Keyhole Markup Language (KML), Scalable Vector Graphics (SVG) and many others.
 
@@ -38,14 +38,15 @@ GIS .NET API allows you to read and write GIS data, convert GIS file formats, an
 **Images:** SVG, PNG, JPEG, JPG, BMP
 
 ## Platform Independence
-Aspose.GIS for .NET API's uniform model is based on 100% managed code. This API can be used to develop several different types of .NET apps including ASP,NET, WinForms and Windows Services. It is easy to use & deploy, and provides the ideal solution to work with geo-spatial information with NET Framework 4.7 & .NET Standard 2.0.
+Aspose.GIS for .NET API's uniform model is based on 100% managed code. This API can be used to develop several different types of .NET apps including ASP.NET, WinForms and Windows Services. It is easy to use & deploy, and provides the ideal solution to work with geo-spatial information with .NET Framework 4.7 & .NET Standard 2.0.
 
 ## Getting Started with Aspose.GIS for .NET
 Are you ready to give Aspose.GIS for .NET a try? Simply execute `Install-Package Aspose.GIS` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.GIS for .NET and want to upgrade the version, please execute `Update-Package Aspose.GIS` to get the latest version.
 
+
+## Convert a Shapefile to GeoJSON Format with C#
 You can execute below code snippet to see how Aspose.GIS API works after adding Aspose.GIS for .NET to your project or check the [GitHub Repository](https://github.com/aspose-gis/Aspose.GIS-for-.NET) for other common usage scenarios. 
 
-### Convert a Shapefile to GeoJSON Format with C#
 ```csharp
 VectorLayer.Convert(dir + "template.shp", Drivers.Shapefile, dir + "output.json", Drivers.GeoJson);
 ```

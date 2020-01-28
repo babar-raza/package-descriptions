@@ -16,8 +16,8 @@ You can use Aspose.PUB for .NET to develop applications in any development envir
 ## Getting Started with Aspose.PDF for .NET
 Are you ready to give Aspose.PUB for .NET a try? Simply execute `Install-Package Aspose.PUB` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.PUB for .NET and want to upgrade the version, please execute `Update-Package Aspose.PUB` to get the latest version.
 
-### Convert a Microsoft Publisher File to PDF using C#
-You can execute below code snippet to see how Aspose.PDF API performs against your own samples or check the [GitHub Repository](https://github.com/aspose-pub/Aspose.PUB-for-.NET) for other common usage scenarios. 
+## Convert a Microsoft Publisher File to PDF using C#
+You can execute below code snippet to see how Aspose.PDF API performs in your own development environment or check the [GitHub Repository](https://github.com/aspose-pub/Aspose.PUB-for-.NET) for other common usage scenarios. 
 
 ```csharp
 var parser = PubFactory.CreateParser(dir + "template.pub");
@@ -25,8 +25,9 @@ var doc = parser.Parse();
 PubFactory.CreatePdfConvertor().ConvertToPdf(doc, dir + "output.pdf");
 ```
 
-### Edit Metadata of Microsoft Publisher Files
-Following C# code sample shows how to edit the metadata of a Microsoft Publisher file;
+## Edit Metadata of Microsoft Publisher Files
+Following C# code sample shows how to edit the metadata of a Microsoft Publisher file:
+
 ```csharp
 IPubParser parser = PubFactory.CreateParser(dir + "template.pub");
 Document document = parser.Parse();

@@ -8,7 +8,7 @@ Aspose.Imaging for .NET offers robust image compression and high processing spee
 - Converting images to various formats.
 - Apply masking as well as Median & Wiener filters.
 - Crop, rotate & resize images via API.
-- Deskew & transform images.
+- De-skew & transform images.
 - Set image properties.
 
 ## Read & Write Image Formats
@@ -20,7 +20,7 @@ Aspose.Imaging for .NET offers robust image compression and high processing spee
 **Fixed:** PDF
 **Photoshop:** PSD
 
-## Read Image Files
+## Read Image Formats
 **Various:** DICOM, DjVu, DNG, ODG, CMX, CDR, DIB, OTG, FODG, EPS (raster preview only)
 
 
@@ -42,6 +42,7 @@ using (Image image = Image.Load(dir + "template.jpg"))
 ```
 ## Recover a Broken TIFF
 You can programmatically recover a damaged TIFF file with the help of Aspose.Imaging for .NET API as demonstrated below.
+
 ```csharp
 // create an instance of LoadOptions and set LoadOptions properties
 var loadOptions = new LoadOptions();

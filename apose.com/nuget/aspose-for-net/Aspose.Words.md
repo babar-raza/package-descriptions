@@ -32,7 +32,7 @@ You can also build applications with Mono as well as on Windows Azure, Microsoft
 ## Getting Started with Aspose.Words for .NET
 Are you ready to give Aspose.Words for .NET a try? Simply execute `Install-Package Aspose.Words` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Words for .NET and want to upgrade the version, please execute `Update-Package Aspose.Words` to get the latest version.
 
-### Create a DOC from Scratch via C#
+## Create a DOC from Scratch via C#
 You can execute this snippet in your environment to see how Aspose.Words performs in your environment or check the [GitHub Repository](https://github.com/aspose-words/Aspose.Words-for-.NET) for other common usage scenarios.
 
 ```csharp
@@ -47,8 +47,9 @@ builder.Writeln("Hello World!");
 doc.Save(dir + "output.docx");
 ```
 
-### Export DOC as EPUB using C#
-Aspose.Words for .NET allows you to convert Microsoft Word® formats into bytes, HTML, EPUB, MHTML and other file formats. Following snippet demonstrates the conversion of a DOC file to an EPUB file.
+## Export DOC as EPUB using C#
+Aspose.Words for .NET allows you to convert Microsoft Word® formats into bytes, HTML, EPUB, MHTML and other file formats. Following snippet demonstrates the conversion of a DOC file to an EPUB file:
+
 ```csharp
 // load the document from disc
 Document doc = new Document(dir + "template.doc");
