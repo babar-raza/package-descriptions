@@ -34,14 +34,13 @@ Aspose.3D for .NET enhances your .NET applications to work with various material
 **Other:** DXF, ASF, VRML, 3MF
 
 ## Platform Independence
-Aspose.3D for .NET is written in C# and supports Windows Forms as well as ASP.NET apps. Development can be performed on any platform that has .NET environment for both 32-bit and 64-bit applications. It supports .NET Frameworks 2.0 up til 4.7.2 as well as Client Profile version for .NET Framework 4.0.
+Aspose.3D for .NET is written in C# and supports Windows Forms as well as ASP<span>.</span>NET apps. Development can be performed on any platform that has .NET environment for both 32-bit and 64-bit applications. It supports .NET Frameworks 2.0 uptil 4.7.2 as well as Client Profile version for .NET Framework 4.0.
 
 ## Getting Started with Aspose.3D for .NET
 Are you ready to give Aspose.3D for .NET a try? Simply execute `Install-Package Aspose.3D` from the Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.3D for .NET and want to upgrade the version, please execute `Update-Package Aspose.3D` to get the latest version.
 
 ### Build a Scene with Primitive 3D Models using C#
-You can execute below code snippet to see how Aspose.3D API performs in your environment or check the [GitHub Repository](https://github.com/aspose-3d/Aspose.3D-for-.NET) for other common usage scenarios. 
-
+You can execute below code snippet to see how Aspose.3D API performs in your environment or check the [GitHub Repository](https://github.com/aspose-3d/Aspose.3D-for-.NET) for other common usage scenarios.
 ```csharp
 // initialize a Scene object
 Scene scene = new Scene();
@@ -54,7 +53,7 @@ scene.Save(dir + "output.fbx", FileFormat.FBX7500ASCII);
 ```
 
 ## Export 3D Scene to Compressed AMF via C#
-Aspose.3D for .NET enables you to save 3D meshes in custom binary format, get all property values of 3D scenes as well as flip their coordinate system. Following example demonstrates the conversion of a 3D scene to AMF format while compress it.
+Aspose.3D for .NET enables you to save 3D meshes in custom binary format, get all property values of 3D scenes as well as flip their coordinate system. Following example demonstrates the conversion of a 3D scene to AMF format while applying compression to it.
 ```csharp
 // load a scene
 Scene scene = new Scene();
