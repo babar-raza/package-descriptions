@@ -41,9 +41,8 @@ Aspose.CAD for .NET supports, .NET framework (ASP.NET applications & Windows app
 ## Getting Started with Aspose.CAD for .NET
 Are you ready to give Aspose.CAD for .NET a try? Simply execute `Install-Package Aspose.CAD` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.CAD for .NET and want to upgrade the version, please execute `Update-Package Aspose.CAD` to get the latest version. 
 
-### Add Watermark to a AutoCAD File using C#
-You can execute below code snippet to see how the API performs in your environment or check the [GitHub Repository](https://github.com/aspose-cad/Aspose.CAD-for-.NET) for other common usage scenarios
-
+### Add Watermark to an AutoCAD File using C#
+You can execute below code snippet to see how the API performs in your environment or check the [GitHub Repository](https://github.com/aspose-cad/Aspose.CAD-for-.NET) for other common usage scenarios.
 ```csharp
 CadText text = new CadText();
 text.DefaultValue = "Watermark text";
@@ -54,7 +53,7 @@ text.FirstAlignment = new Cad3DPoint(300, 40);
 ### Export DXF Drawing to PDF using C#
 Aspose.CAD for .NET enables your applications to perform various export operations on AutoCAD files. It supports to read and export ACAD Proxy Entities as well as IGES files. Similarly you can load a DGN file and convert it to a raster image or PDF file format. 
 
-The following example highlights, how to export DXF file to PDF  format using simple C# code.
+The following example highlights, how to export DXF file to PDF format using simple C# code:
 ```csharp
 var rasterizationOptions = new CadRasterizationOptions();
 rasterizationOptions.PageWidth = 500;
