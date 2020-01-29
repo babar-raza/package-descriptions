@@ -1,4 +1,4 @@
-It is a standalone .NET API to manipulate & process archive formats including ZIP, BZIP, BZ2 & TAR. 
+It is a standalone .NET API to create, manipulate, extract & protect archive formats including ZIP, BZIP, BZ2 & TAR. 
 
 Aspose.ZIP for .NET class library allows your .NET applications to compress/decompress files and folders without getting into the complexity of coding new compression algorithms or understanding the existing ones. Enable your programs to work with a vast range of features, such as, creating archives, saving archives, archive extraction, encrypting/decrypting archives, compressing single or multiple files as well as directory contents. It also allows you to apply security to your archived and compressed files and folders via password, AES (128, 192, 256) encryption or mixed encryption.mixed encryption.
 

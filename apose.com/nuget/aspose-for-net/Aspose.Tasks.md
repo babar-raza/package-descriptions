@@ -1,4 +1,4 @@
-Aspose.Tasks for .NET API C# library assists you to generate, update, render, & convert project files within your .NET projects without Microsoft Project®.
+Aspose.Tasks for .NET is a C# library that assists developers in generating, editing, rendering & conversion of Project files without needing Microsoft Project®.
 
 Aspose.Tasks for .NET on premise API enables you to work with projects, formulas, calendars, calendar exceptions, tasks, task links, task baselines, project resources, resource assignments, currencies, handling exceptions, reporting services, and project risk analysis (Monte Carlo Simulation).
 
@@ -21,7 +21,7 @@ Aspose.Tasks for .NET on premise API enables you to work with projects, formulas
 
 ## Save Projects As
 **Primavera:** P6 XML, PM XER
-**Microsoft Excel®:** XLSX, XML
+**Microsoft Offic:** XLSX
 **Fixed Layout:** PDF
 **Images:** JPEG, PNG, BMP, TIFF, SVG
 **Text:** TXT
@@ -38,10 +38,10 @@ Are you ready to give Aspose.Tasks for .NET a try? Simply execute `Install-Packa
 You can execute below code snippet to see how Aspose.Tasks API performs against your own samples or check the [GitHub Repository](https://github.com/aspose-tasks/Aspose.Tasks-for-.NET) for other common usage scenarios.
 
 ```csharp
-Project project = new Project(dataDir + "template.mpp");
+Project project = new Project(dir + "template.mpp");
 
 // Save project in desired format
-project.Save(dataDir + "output.xml", SaveFileFormat.MPX);
+project.Save(dir + "output.xml", SaveFileFormat.MPX);
 ```
 
 ## Create a Project file, a Task and Sub-task within it using C# 
@@ -54,7 +54,7 @@ Project project = new Project();
 // Add task, sub task and save project
 Task task = project.RootTask.Children.Add("Summary1");
 Task subtask = task.Children.Add("Subtask1");
-project.Save(dataDir + "CreateTasks_out.xml", SaveFileFormat.XML);
+project.Save(dir + "output.xml", SaveFileFormat.XML);
 ```
 
 [Product Page](https://products.aspose.com/tasks/net) | [Documentation](https://docs.aspose.com/display/tasksnet/Home) | [API Reference](https://apireference.aspose.com/net/tasks) | [Code Examples](https://github.com/aspose-tasks/Aspose.Tasks-for-.NET) | [Blog](https://blog.aspose.com/category/tasks/) | [Free Support](https://forum.aspose.com/c/tasks) |  [Temporary License](https://purchase.aspose.com/temporary-license)

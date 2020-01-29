@@ -40,9 +40,9 @@ Are you ready to give Aspose.Tasks for C++ a try? Simply execute `Install-Packag
 Try executing the below code to see how Aspose.Tasks for C++ performs in your environment. You may also check the [GitHub Repository](https://github.com/aspose-tasks/Aspose.Tasks-for-C) for other common usage scenarios. 
 
 ```c++
-System::SharedPtr<Project> project = System::MakeObject<Project>(dataDir + u"template.mpp");
+System::SharedPtr<Project> project = System::MakeObject<Project>(u"template.mpp");
 System::SharedPtr<HtmlSaveOptions> option = System::MakeObject<HtmlSaveOptions>();
-project->Save(dataDir + u"output.html", option);
+project->Save(u"output.html", option);
 ```
 
 ### Create Project from Scratch using C++
@@ -55,7 +55,7 @@ System::SharedPtr<Project> project = System::MakeObject<Project>();
 // Add task, sub task and save project
 System::SharedPtr<Task> task = project->get_RootTask()->get_Children()->Add(u"Summary1");
 System::SharedPtr<Task> subtask = task->get_Children()->Add(u"Subtask1");
-project->Save(dataDir + u"output.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
+project->Save(u"output.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
 ```
 
 ## Limitations

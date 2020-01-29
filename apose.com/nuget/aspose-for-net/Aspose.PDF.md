@@ -1,4 +1,4 @@
-Integrate PDF Processing, Manipulation & Conversion features into your own .NET applications without needing Adobe Acrobat®. 
+Integrate PDF creation, processing, manipulation & conversion features into your own .NET applications without needing Adobe Acrobat®. 
 
 Aspose.PDF for .NET allows to work with PDF documents, pages, text, images, attachments, fonts, bookmarks, annotations, forms, operators, stamps, watermarks, links, security, signatures, and printing.
 

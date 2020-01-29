@@ -30,7 +30,7 @@ Aspose.Imaging for .NET can be used to develop applications on Windows Desktop (
 ## Getting Started with Aspose.Imaging for .NET
 Are you ready to give Aspose.Imaging for .NET a try? Simply execute `Install-Package Aspose.Imaging` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Imaging for .NET and want to upgrade the version, please execute `Update-Package Aspose.Imaging` to get the latest version.
 
-### Resize a JPG Imaging using C#
+### Resize a JPG Image via C#
 Execute below code snippet to see how Aspose.Imaging performs in your environment or check the [GitHub Repository](https://github.com/aspose-imaging/Aspose.Imaging-for-.NET) for other common usage scenarios. 
 
 ```csharp

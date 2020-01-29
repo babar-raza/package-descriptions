@@ -22,7 +22,7 @@ Are you ready to give Aspose.OCR for .NET a try? Simply execute `Install-Package
 
 Execute the following code snippet to see how Aspose.OCR API performs with your own samples or check the [GitHub Repository](https://github.com/aspose-ocr/Aspose.OCR-for-.NET) for other common usage scenarios. 
 
-## Perform simple OCR on a BMP image for text extraction using C#.
+## Convert Image to Text via C#
 ```csharp
 // initialize an instance of OcrEngine
 OcrEngine ocrEngine = new OcrEngine();

@@ -44,7 +44,7 @@ glyphs.Fill = xDocs.CreateSolidColorBrush(Color.Black);
 // save result
 xDocs.Save(dir + "output.xps");
 ```
-## Convert a PostScript (PS) file to PDF
+## Convert a PostScript (PS) File to PDF Format
 Aspose.Page for .NET allows you to work with document conversion, such as; PS to images, PS to PDF, XPS to images, XPS to PDF and so on. The following snippet demonstrates the conversion of PS to PDF using streams:
 
 ```csharp

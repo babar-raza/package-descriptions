@@ -26,7 +26,7 @@ Try the below code snippet to see how Aspose.PDF for C++ performs in your enviro
 
 ```c++
 auto extractor = MakeObject<Facades::PdfExtractor>();	
-extractor->BindPdf(u"..\\Data\\Text\\input.pdf");
+extractor->BindPdf(u"template.pdf");
 extractor->ExtractText();
 	
 auto memStream = MakeObject<IO::MemoryStream>();

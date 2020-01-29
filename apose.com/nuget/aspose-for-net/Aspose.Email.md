@@ -41,6 +41,6 @@ mamessageilMsg.Body = "This is test body";
 // create an instance of the MapiMessage class and pass object of MailMessage as argument
 var msg = MapiMessage.FromMailMessage(message);
 // save file on disc
-msg.Save(dir + "output.msg);
+msg.Save(dir + "output.msg");
 ```
 [Product Page](https://products.aspose.com/email/net) | [Documentation](https://docs.aspose.com/display/emailnet/Home) | [API Reference](https://apireference.aspose.com/net/email) | [Code Examples](https://github.com/aspose-email/Aspose.Email-for-.NET) | [Blog](https://blog.aspose.com/category/email/) | [Free Support](https://forum.aspose.com/c/email) | [Temporary License](https://purchase.aspose.com/temporary-license)

@@ -40,7 +40,7 @@ Aspose.Words for C++ is a powerful on premise API that can be used for a great r
 ## Getting Started with Aspose.Words for C++
 Are you ready to give Aspose.Words for C++ a try? Simply execute `Install-Package Aspose.Words.Cpp` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Words for C++ and want to upgrade the version, please execute `Update-Package Aspose.Words.Cpp` to get the latest version.
 
-## Create DOCX with HelloWorld Text via C++
+### Create DOCX with HelloWorld Text via C++
 Try executing the following snippet to see how Aspose.Words for C++ performs in your own environment or check the [GitHub Repository](https://github.com/aspose-words/Aspose.Words-for-C) for other common usage scenarios. 
 
 ```c++
@@ -52,8 +52,7 @@ System::SharedPtr<DocumentBuilder> builder = System::MakeObject<DocumentBuilder>
 builder->Writeln(u"Hello World!");
 // save the document. 
 // the format to save as is inferred from the extension of the file name.
-System::String outputPath = dir + u"output.docx";
-doc->Save(outputPath);
+doc->Save(u"output.docx");
 ```
 
 ### Convert DOC to EPUB Format

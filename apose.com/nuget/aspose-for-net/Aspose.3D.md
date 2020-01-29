@@ -70,6 +70,6 @@ scene.RootNode.CreateChildNode();
 scene.RootNode.CreateChildNode().CreateChildNode(box);
 scene.RootNode.CreateChildNode().CreateChildNode(box);
 // save compressed AMF file
-scene.Save(RunExamples.GetOutputFilePath(dir + "output.amf"), new AMFSaveOptions() { EnableCompression = true });
+scene.Save(dir + "output.amf", new AMFSaveOptions() { EnableCompression = true });
 ```
 [Product Page](https://products.aspose.com/3d/net) | [Documentation](https://docs.aspose.com/display/3dnet/Home) | [API Reference](https://apireference.aspose.com/net/3d) | [Code Examples](https://github.com/aspose-3d/Aspose.3D-for-.NET) | [Blog](https://blog.aspose.com/category/3d/) | [Free Support](https://forum.aspose.com/c/3d) |  [Temporary License](https://purchase.aspose.com/temporary-license)
