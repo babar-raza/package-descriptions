@@ -29,7 +29,7 @@ Aspose.Tasks for .NET on premise API enables you to work with projects, formulas
 
 
 ## Platform Independence
-You can use Aspose.Tasks for .NET to build any type of a 32-bit or 64-bit .NET application including ASP<span>.</span>NET, WCF, WinForms, WPF etc. It is possible to use Aspose.Tasks for .NET via COM Interop from ASP, Perl, PHP and Python. You can also use Aspose.Tasks for .NET to build applications with Mono.
+You can use Aspose.Tasks for .NET to build any type of a 32-bit or 64-bit .NET application including ASP.NET, WCF, WinForms, WPF etc. It is possible to use Aspose.Tasks for .NET via COM Interop from ASP, Perl, PHP and Python. You can also use Aspose.Tasks for .NET to build applications with Mono.
 
 ## Getting Started with Aspose.Tasks for .NET
 Are you ready to give Aspose.Tasks for .NET a try? Simply execute `Install-Package Aspose.Tasks` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Tasks for .NET and want to upgrade the version, please execute `Update-Package Aspose.Tasks` to get the latest version.

@@ -25,7 +25,7 @@ It is a powerful on-premise class library that can be used for numerous document
 **Others:** PCL, EPUB, XamlFixed, XamlFlow, XamlFlowPack
 
 ## Platform Independence
-Aspose.Words for .NET API can be used to develop applications for a vast range of operating systems (Windows, Linux & Mac OS) and platforms. You can build both 32-bit and 64-bit applications including ASP<span>.</span>NET, WCF & WinForms. Aspose.Words for .NET can also be used via COM Interop from ASP, PHP, Perl and Python. 
+Aspose.Words for .NET API can be used to develop applications for a vast range of operating systems (Windows, Linux & Mac OS) and platforms. You can build both 32-bit and 64-bit applications including ASP.NET, WCF & WinForms. Aspose.Words for .NET can also be used via COM Interop from ASP, PHP, Perl and Python. 
 
 You can also build applications with Mono as well as on Windows Azure, Microsoft SharePoint, Microsoft Silverlight, Xamarin.Android, Xamarin.iOS & Xamarin.Mac.
 

@@ -19,7 +19,7 @@ Aspose.ZIP for .NET class library allows your .NET applications to compress/deco
 **Decompression:** ZIP, TAR, GZIP, BZ2
 
 ## Platform Independence
-Aspose.ZIP for .NET is implemented using Managed C# and can be used with any .NET language like C#, VB<span>.</span>NET, F# and so on. It can be integrated with any kind of .NET application, from ASP.NET web applications to Windows .NET applications. 
+Aspose.ZIP for .NET is implemented using Managed C# and can be used with any .NET language like C#, VB.NET, F# and so on. It can be integrated with any kind of .NET application, from ASP.NET web applications to Windows .NET applications. 
 
 
 ## Getting Started with Aspose.ZIP for .NET
