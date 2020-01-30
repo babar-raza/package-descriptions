@@ -34,7 +34,7 @@ Aspose.3D for .NET enhances your .NET applications to work with various material
 **Other:** DXF, ASF, VRML, 3MF
 
 ## Platform Independence
-Aspose.3D for .NET is written in C# and supports Windows Forms as well as ASP<span>.</span>NET apps. Development can be performed on any platform that has .NET environment for both 32-bit and 64-bit applications. It supports .NET Frameworks 2.0 uptil 4.7.2 as well as Client Profile version for .NET Framework 4.0.
+Aspose.3D for .NET is written in C# and supports Windows Forms as well as ASP.NET apps. Development can be performed on any platform that has .NET environment for both 32-bit and 64-bit applications. It supports .NET Frameworks 2.0 uptil 4.7.2 as well as Client Profile version for .NET Framework 4.0.
 
 ## Getting Started with Aspose.3D for .NET
 Are you ready to give Aspose.3D for .NET a try? Simply execute `Install-Package Aspose.3D` from the Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.3D for .NET and want to upgrade the version, please execute `Update-Package Aspose.3D` to get the latest version.

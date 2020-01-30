@@ -1,8 +1,8 @@
 Aspose.Words for .NET is a Word Document Processing API that allows the developers to work with Microsoft Word® documents without needing Office Automation. 
 
-It is a powerful on-premise class library that can be used for numerous document processing tasks, enabling the developers to enhance their own applications with feature such as, document generation, modification, conversion, rendering and printing without relying on Microsoft Word or Office Automation.
+It is a powerful on-premise class library that can be used for numerous document processing tasks, enabling the developers to enhance their own applications with feature such as, document generation, modification, conversion, rendering and printing without relying on Microsoft Word or automation.
 
-## Microsoft Word File Processing Features
+## Word API Features
 - Comprehensive document import and export with 35+ supported file formats.
 - High fidelity rendering of document pages - exactly like Microsoft Word would have rendered.
 - Rich object model that allows to generate, combine, modify, parse or otherwise examine loaded documents.
@@ -11,14 +11,14 @@ It is a powerful on-premise class library that can be used for numerous document
 - Generate reports with Mail Merge that allows populating documents with data from various sources.
 - LINQ Reporting Engine to fetch data from databases, XML, JSON, OData, external documents and more.
 
-## Read & Write Word Processing Formats
+## Read & Write Document Formats
 **Microsoft Word:** DOC, DOCX, RTF, DOT, DOTX, DOTM, DOCM FlatOPC, FlatOpcMacroEnabled, FlatOpcTemplate, FlatOpcTemplateMacroEnabled
 **OpenOffice:** ODT, OTT
 **WordprocessingML:** WordML
 **Web:** HTML, MHTML
 **Text:** TXT
 
-## Save Word Documents As
+## Save Word Files As
 **Fixed Layout:** PDF, PDF/A, XPS, OpenXPS, PostScript (PS)
 **Images:** TIFF, JPEG, PNG, BMP, SVG, EMF, GIF
 **Web:** HtmlFixed
