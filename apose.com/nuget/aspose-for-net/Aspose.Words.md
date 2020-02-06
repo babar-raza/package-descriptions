@@ -67,6 +67,8 @@ doc.Save(dir + "output.epub");
 
 ## Using C# to Import PDF and Save as a DOCX File
 
+The following code sample demonstrates, how you can import a PDF document into your .NET application and export it as a DOCX format file without the need to install the Microsoft Word®:
+
 ```csharp
 // Load the PDF document from directory
 Document doc = new Document(dir + "input.pdf");
