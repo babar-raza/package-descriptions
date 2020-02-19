@@ -1,19 +1,15 @@
-A standalone class library to read, write, manipulate & convert Microsoft PowerPoint® presentations without installing PowerPoint or requiring Office Automation.
-
-Aspose.Slides' object model gives complete control over presentation elements such as slides, shapes, charts, multimedia, embedded objects, tables, text, transitions and formatting. Developers can directly use this object model to create complex PowerPoint File Processing application that can dynamically generate presentation files, manipulate slides, apply transitions or animation effects, convert presentations to other popular formats as well as render slides to images for easy viewing.
+Aspose.Slides for .NET is a cross-platform API that helps in developing applications with the ability to create, manipulate, inspect or convert Microsoft PowerPoint and OpenOffice presentation files without any dependency. 
 
 ## Presentation Processing Features
-- Create presentations from scratch via API or templates & data.
-- Load presentation files from various sources for editing or just examining.
-- High-fidelity rendering of presentation or slides to fixed-layout & images formats.
-- Control access to presentations & slides or certain objects via advanced security features.
-- Create shapes such as rectangles, lines, poly-lines & ellipses on-the-fly.
-- Copy or clone slides for the same or different presentation.
+- Intuitive Document Object Model: Aspose.Slides' object model gives complete control over presentation elements such as slides, shapes, frames charts, multimedia, embedded objects, controls, tables, text, transitions and formatting. Developers can use this object model to create complex PowerPoint File Processing applications that can dynamically generate presentations, create or manipulate presentation slides, apply transitions or add animation effects. 
+- File Format Conversion: API allows to load & convert PowerPoint presentation, template & slideshow file formats to other supported formats without needing to understand the underlying structure of source or destination formats. The conversion process is simple yet reliable with results identical to the original file in its native application.
+- Rendering & Printing: Developers can render the whole presentation or selective slides to fixed layout formats such as PDF & XPS as well as raster & vector image formats including PNG, JPEG, SVG and so on. It is also possible to print presentations via physical or virtual printers.
+- Presentation Security: Load protected presentations or control access to presentations, slides or objects via advanced security features. 
 - Availability of 24 pre-defined textures & 48 patterns for quick styling.
 
 ## Read & Write Presentations
 **Microsoft PowerPoint:** PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM
-**OpenOffice:** ODP
+**OpenOffice:** ODP, OTP
 
 ## Save Presentations As
 **Fixed Layout:** PDF, PDF/A, XPS
@@ -21,7 +17,7 @@ Aspose.Slides' object model gives complete control over presentation elements su
 **Web:** HTML
 
 ## Platform Independence
-You can use Aspose.Slides for .NET to build any type of a 32-bit or 64-bit .NET application including ASP.NET, WCF & WinForms as well as via COM Interop from ASP, Perl, PHP and Python. Aspose.Slides for .NET works with Mono, on various flavors of Linux and on Mac OS X.
+Aspose.Slides for .NET can be used to build any type of a 32-bit or 64-bit .NET application including ASP.NET, WCF & WinForms as well as via COM Interop while using diverse programming languages including C++, VBScript & classic ASP. The package provides assemblies to be used with Mono on various flavors of Linux, .NET Core, Xamarin.Android & Xamarin.Mac.
 
 ## Getting Started with Aspose.Slides for .NET
 Let's give Aspose.Slides for .NET a try! Simply execute `Install-Package Aspose.Slides.NET` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Slides for .NET and want to upgrade the version, please execute `Update-Package Aspose.Slides.NET` to get the latest version.
