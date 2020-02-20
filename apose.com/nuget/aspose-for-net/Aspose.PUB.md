@@ -13,7 +13,7 @@ Aspose.PUB for .NET is a simple API that allows to read & convert Microsoft Publ
 ## Platform Independence
 You can use Aspose.PUB for .NET to develop applications in any development environment that targets the .NET platform including .NET Framework, .NET Core & Mono to develop both 32-bit & 64-bit applications.
 
-## Getting Started with Aspose.PDF for .NET
+## Getting Started with Aspose.PUB for .NET
 Are you ready to give Aspose.PUB for .NET a try? Simply execute `Install-Package Aspose.PUB` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.PUB for .NET and want to upgrade the version, please execute `Update-Package Aspose.PUB` to get the latest version.
 
 ## Convert a Microsoft Publisher File to PDF using C#
