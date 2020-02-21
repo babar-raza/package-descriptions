@@ -44,9 +44,7 @@ GroupDocs.Editor for .NET does not require any external software or third party 
 
 ## Getting Started with GroupDocs.Editor for .NET
 
-You do not need to install anything to get started with GroupDocs.Editor for .Net. Just create an account at GroupDocs for Cloud and get your application information. That is all! You are ready to use GroupDocs.Editor for .Net.
-
-Simply execute `Install-Package GroupDocs.Editor` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Editor assembly in your project. If you already have GroupDocs.Editor for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Editor` to get the latest version.
+Are you ready to give GroupDocs.Editor for .NET a try? Simply execute `Install-Package GroupDocs.Editor` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Editor assembly in your project. If you already have GroupDocs.Editor for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Editor` to get the latest version.
 
 Please check the [GitHub Repository](https://github.com/groupdocs-editor/GroupDocs.Editor-for-.NET) for other common usage scenarios.
 

@@ -66,9 +66,7 @@ GroupDocs.Annotation for .NET supported platforms are listed below:
 
 ## Getting Started with GroupDocs.Annotation for .Net
 
-You do not need to install anything to get started with GroupDocs.Annotation for .Net. Just create an account at GroupDocs for Cloud and get your application information. That is all! You are ready to use GroupDocs.Annotation for .Net.
-
-Simply execute `Install-Package GroupDocs.Annotation` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Annotation assembly in your project. If you already have GroupDocs.Annotation for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Annotation` to get the latest version.
+Are you ready to give GroupDocs.Annotation for .NET a try? Simply execute `Install-Package GroupDocs.Annotation` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Annotation assembly in your project. If you already have GroupDocs.Annotation for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Annotation` to get the latest version.
 
 Please check the [GitHub Repository](https://github.com/groupdocs-annotation/GroupDocs.Annotation-for-.NET) for other common usage scenarios.
 

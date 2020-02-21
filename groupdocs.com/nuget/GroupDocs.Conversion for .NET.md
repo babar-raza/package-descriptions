@@ -63,9 +63,7 @@ GroupDocs.Conversion for .NET does not require any external software or third pa
 
 ## Getting Started with GroupDocs.Conversion for .NET
 
-You do not need to install anything to get started with GroupDocs.Conversion for .Net. Just create an account at GroupDocs for Cloud and get your application information. That is all! You are ready to use GroupDocs.Conversion for .Net.
-
-Simply execute `Install-Package GroupDocs.Conversion` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Conversion assembly in your project. If you already have GroupDocs.Conversion for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Conversion` to get the latest version.
+Are you ready to give GroupDocs.Conversion for .NET a try? Simply execute `Install-Package GroupDocs.Conversion` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Conversion assembly in your project. If you already have GroupDocs.Conversion for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Conversion` to get the latest version.
 
 Please check the [GitHub Repository](https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET) for other common usage scenarios.
 

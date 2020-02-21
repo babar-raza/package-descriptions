@@ -41,9 +41,7 @@ A .NET component that enables your apps to detect content, style & formatting di
 
 ## Getting Started with GroupDocs.Comparison for .NET
 
-You do not need to install anything to get started with GroupDocs.Comparison for .Net. Just create an account at GroupDocs for Cloud and get your application information. That is all! You are ready to use GroupDocs.Comparison for .Net.
-
-Simply execute `Install-Package GroupDocs.Comparison` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Comparison assembly in your project. If you already have GroupDocs.Comparison for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Comparison` to get the latest version.
+Are you ready to give GroupDocs.Comparison for .NET a try? Simply execute `Install-Package GroupDocs.Comparison` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Comparison assembly in your project. If you already have GroupDocs.Comparison for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Comparison` to get the latest version.
 
 Please check the [GitHub Repository](https://docs.groupdocs.com/display/comparisonnet/home) for other common usage scenarios.
 

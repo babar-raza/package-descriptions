@@ -73,9 +73,7 @@ GroupDocs.Signature for .NET does not require any external software or third par
 
 ## Getting Started with GroupDocs.Signature for .NET
 
-You do not need to install anything to get started with GroupDocs.Signature for .Net. Just create an account at GroupDocs for Cloud and get your application information. That is all! You are ready to use GroupDocs.Signature for .Net.
-
-Simply execute `Install-Package GroupDocs.Signature` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Signature assembly in your project. If you already have GroupDocs.Signature for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Signature` to get the latest version.
+Are you ready to give GroupDocs.Signature for .NET a try? Simply execute `Install-Package GroupDocs.Signature` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Signature assembly in your project. If you already have GroupDocs.Signature for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Signature` to get the latest version.
 
 Please check the [GitHub Repository](https://github.com/groupdocs-signature/GroupDocs.Signature-for.NET) for other common usage scenarios.
 

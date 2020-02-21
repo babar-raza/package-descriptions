@@ -52,9 +52,7 @@ GroupDocs.Metadata for .NET does not require any external software or third part
 
 ## Getting Started with GroupDocs.Metadata for .NET
 
-You do not need to install anything to get started with GroupDocs.Metadata for .Net. Just create an account at GroupDocs for Cloud and get your application information. That is all! You are ready to use GroupDocs.Metadata for .Net.
-
-Simply execute `Install-Package GroupDocs.Metadata` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Metadata assembly in your project. If you already have GroupDocs.Metadata for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Metadata` to get the latest version.
+Are you ready to give GroupDocs.Metadata for .NET a try? Simply execute `Install-Package GroupDocs.Metadata` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Metadata assembly in your project. If you already have GroupDocs.Metadata for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Metadata` to get the latest version.
 
 Please check the [GitHub Repository](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET) for other common usage scenarios.
 

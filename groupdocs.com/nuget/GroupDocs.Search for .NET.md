@@ -89,9 +89,7 @@ GroupDocs.Search for .NET does not require any external software or third party 
 
 ## Getting Started with GroupDocs.Search for .NET
 
-You do not need to install anything to get started with GroupDocs.Search for .Net. Just create an account at GroupDocs for Cloud and get your application information. That is all! You are ready to use GroupDocs.Search for .Net.
-
-Simply execute `Install-Package GroupDocs.Search` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Search assembly in your project. If you already have GroupDocs.Search for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Search` to get the latest version.
+Are you ready to give GroupDocs.Search for .NET a try? Simply execute `Install-Package GroupDocs.Search` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Search assembly in your project. If you already have GroupDocs.Search for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Search` to get the latest version.
 
 Please check the [GitHub Repository](https://github.com/groupdocs-search/GroupDocs.Search-for-.NET) for other common usage scenarios.
 

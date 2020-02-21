@@ -44,9 +44,7 @@ GroupDocs.Redaction for .NET does not require any external software or third par
 
 ## Getting Started with GroupDocs.Redaction for .NET
 
-You do not need to install anything to get started with GroupDocs.Redaction for .Net. Just create an account at GroupDocs for Cloud and get your application information. That is all! You are ready to use GroupDocs.Redaction for .Net.
-
-Simply execute `Install-Package GroupDocs.Redaction` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Redaction assembly in your project. If you already have GroupDocs.Redaction for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Redaction` to get the latest version.
+Are you ready to give GroupDocs.Redaction for .NET a try? Simply execute `Install-Package GroupDocs.Redaction` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Redaction assembly in your project. If you already have GroupDocs.Redaction for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Redaction` to get the latest version.
 
 Please check the [GitHub Repository](https://github.com/groupdocs-redaction/GroupDocs.Redaction-for-.NET) for other common usage scenarios.
 
