@@ -4,7 +4,7 @@ Generate new barcodes (Linear, 2D & Postal), configure barcode properties and at
 
 ## BarCode Processing Features
 
-- Generate, san and customize 1D (linear), 2D and postal barcodes.
+- Generate, scan and customize 1D (linear), 2D and postal barcodes.
 - Generate and recognize barcodes with checksum option.
 - Fetch barcode as an image stream or save barcode to the local disk.
 - Configure barcode height, width, angle quality, margin & resolution.
@@ -59,7 +59,7 @@ api.barCodeGetBarCodeGenerate("Aspose.BarCode for Cloud Sample", "Pdf417", "png"
            fs.writeFile("out.png", apiResult.body);
            console.log("Saved to out.png ");
        }
-   });
+});
 ```
 
 [Product Page](https://products.aspose.cloud/barcode/nodejs) | [Documentation](https://docs.aspose.cloud/display/barcodecloud/Home) | [API Reference](https://apireference.aspose.cloud/barcode/) | [Code Samples](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-node) | [Blog](https://blog.aspose.cloud/category/barcode/) | [Free Support](https://forum.aspose.cloud/c/barcode) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
