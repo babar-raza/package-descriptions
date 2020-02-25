@@ -1,4 +1,4 @@
-This Cloud SDK allows you to easily build cloud-based PDF creator, editor & converter apps in C#, ASP.NET or other .NET languages for various cloud platforms.
+This Cloud SDK allows you to easily build cloud-based PDF creator, editor & converter apps in Python language for various cloud platforms.
 
 Aspose.PDF Cloud SDK for Python is available to you under an MIT license and is a wrapper around Aspose.PDF REST API. Access images embedded in the PDF documents for customization, work with; annotations, stamps, PDF form fields, watermarks, as well as the OCR layers within the PDF files.
 
@@ -6,13 +6,13 @@ Aspose.PDF Cloud SDK for Python is available to you under an MIT license and is 
 
 - Add PDF document's header & footer in text or image format.
 - Add tables & stamps (text or image) to PDF documents.
-- Append multiple PDF documents to an existing file.
+- [Append multiple PDF documents](https://docs.aspose.cloud/display/pdfcloud/Append+PDF+Files) to an existing file.
 - Work with PDF attachments, annotations, & form fields.
-- Apply encryption or decryption to PDF documents & set password.
+- Apply [encryption or decryption to PDF documents](https://docs.aspose.cloud/display/pdfcloud/Encrypting+and+Decrypting+PDF+Documents) & set password.
 - Delete all stamps & tables from a page or entire PDF document.
 - Delete a specific stamp or table from the PDF document by its ID.
 - Replace a single or multiple instances of a text on a PDF page or from entire document.
-- Extensive support for converting PDF documents to various other file formats.
+- Extensive support for [converting PDF documents](https://docs.aspose.cloud/display/pdfcloud/Convert+PDF+to+Other+File+Formats) to various other file formats.
 - Extract various elements of PDF file & make PDF document optimized.
 
 ## Read & Write PDF Formats
@@ -37,16 +37,21 @@ You do not need to install anything to get started with Aspose.PDF Cloud SDK for
 
 You can use it directly in your project via the source code or get its PyPI Package, `pip install aspose-pdf-cloud`. The complete source code is available at the [GitHub Repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python).
 
-## [HEADING]
+## Convert PDF file to HTML Zipped Archive using Python
 
 ```python
+from configuration import *
+file_name = '4pages.pdf'
+result_file_name = "result.zip"
 
+opts = {
+    "file": test_data_path + file_name
+}
+
+response = pdf_api.put_pdf_in_request_to_html(
+    temp_folder + '/' + result_file_name, **opts)
+
+pprint(response)
 ```
 
-## [HEADING]
-
-```python
-
-```
-
-[Product Page](https://products.aspose.cloud/pdf/net) | [Documentation](https://docs.aspose.cloud/display/pdfcloud/Home) | [API Reference](https://apireference.aspose.cloud/pdf/) | [Code Samples](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/pdf/) | [Free Support](https://forum.aspose.cloud/c/pdf) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/pdf/python) | [Documentation](https://docs.aspose.cloud/display/pdfcloud/Home) | [API Reference](https://apireference.aspose.cloud/pdf/) | [Code Samples](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python) | [Blog](https://blog.aspose.cloud/category/pdf/) | [Free Support](https://forum.aspose.cloud/c/pdf) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
