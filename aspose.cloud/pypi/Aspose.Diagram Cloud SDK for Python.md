@@ -1,4 +1,4 @@
-This cloud SDK enables your C#, ASP.NET & other .NET cloud apps to create & process Visio diagrams from within your apps without installing Microsoft Visio.
+This cloud SDK enables your Python cloud apps to create & process Visio diagrams from within your apps without installing Microsoft Visio.
 
 Aspose.Diagram Cloud SDK for Python is built on top of Aspose.Diagram REST API and is distributed for use under an MIT license.
 
@@ -35,10 +35,15 @@ You do not need to install anything to get started with Aspose.Diagram Cloud SDK
 
 You can use it directly in your project via the source code or get its PyPI Package, `pip install aspose-diagram-cloud`. The complete source code is available at the [GitHub Repository](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python).
 
-## [HEADING]
+## Use Python Code to Convert Diagram
 
 ```python
-
+kwargs['_return_http_data_only'] = True
+if kwargs.get('callback'):
+    return self.convert_document_with_http_info(name, file, **kwargs)
+else:
+(data) = self.convert_document_with_http_info(name, file, **kwargs)
+return data
 ```
 
-[Product Page](https://products.aspose.cloud/diagram/net) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/diagram/python) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
