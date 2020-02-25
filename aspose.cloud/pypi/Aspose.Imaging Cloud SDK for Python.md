@@ -1,14 +1,14 @@
-This cloud SDK assists to process & manipulate images from within your C#, ASP.NET & other .NET based cloud applications, without installing any 3rd party tool.
+This cloud SDK assists to process & manipulate images from within your Python based cloud applications, without installing any 3rd party tool.
 
-Apose.Imaging Cloud SDK for Python is built on top of Aspose.Imaging REST API and is distributed under an MIT license. Aspose.Imaging Cloud SDK for Python enables your C# code to fetch images from cloud storage and perform various operations, such as, resizing, cropping, merging, scaling, and converting images. You can also perform various operations on TIFF images. Extract a single TIFF from to crop, resize, rotate, or flip it. Aspose.Imaging Cloud SDK for Python also enables you to convert TIFF to fax compatible format.
+Apose.Imaging Cloud SDK for Python is built on top of Aspose.Imaging REST API and is distributed under an MIT license. Aspose.Imaging Cloud SDK for Python enables your Python code to fetch images from cloud storage and perform various operations, such as, resizing, cropping, merging, scaling, and converting images. You can also perform various operations on TIFF images. Extract a single TIFF from to crop, resize, rotate, or flip it. Aspose.Imaging Cloud SDK for Python also enables you to convert TIFF to fax compatible format.
 
 ## Image Processing Features
 
 - Fetch or update properties of cloud hosted images.
 - Scale, flip, crop and export an image with a single API call.
-- Resize, crop, flip, convert and export an image to other supported formats.
+- Resize, crop, flip, convert and [export an image](https://docs.aspose.cloud/display/imagingcloud/Export+Image+to+Another+Format) to other supported formats.
 - Update image parameters of JPEG2000 & WEBP images.
-- Access and multi-frame TIFF image and extract the desired frames from it.
+- Access a multi-frame TIFF image and [extract the desired](https://docs.aspose.cloud/display/imagingcloud/Extract+Frame+from+a+Multi-Frame+TIFF+Image) frames from it.
 - Rotate, flip, crop, resize or fetch properties of the selected TIFF frame.
 - Merge multiple TIFF images.
 
@@ -34,10 +34,11 @@ You do not need to install anything to get started with Aspose.Imaging Cloud SDK
 
 You can use it directly in your project via the source code or get its PyPI Package, `pip install aspose-imaging-cloud`. The complete source code is available at the [GitHub Repository](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-python).
 
-## [HEADING]
+## Using Python to Compare two Images
 
 ```python
-
+http_request = request.to_http_info(self.api_client.configuration)
+return self.__make_request(http_request, 'POST', 'SearchResultsSet')
 ```
 
-[Product Page](https://products.aspose.cloud/imaging/net) | [Documentation](https://docs.aspose.cloud/display/imagingcloud/Home) | [API Reference](https://apireference.aspose.cloud/imaging/) | [Code Samples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/imaging/) | [Free Support](https://forum.aspose.cloud/c/imaging) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/imaging/python) | [Documentation](https://docs.aspose.cloud/display/imagingcloud/Home) | [API Reference](https://apireference.aspose.cloud/imaging/) | [Code Samples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-python) | [Blog](https://blog.aspose.cloud/category/imaging/) | [Free Support](https://forum.aspose.cloud/c/imaging) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
