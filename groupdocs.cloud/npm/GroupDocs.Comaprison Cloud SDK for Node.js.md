@@ -3,15 +3,15 @@ This cloud REST API enhances your Node.js cloud apps to compare two documents, f
 ## Cloud Document Comparison Features
 
 - Compare two documents and fetch changes.
-- Fetch document changes based on change category, such as, numeric only.
+- [Fetch document changes](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-document-changes/) based on change category, such as, numeric only.
 - Accept or reject the changes that come up after document comparison.
-- Get the image stream of resultant document via JsonRequest object.
+- [Get the image stream of resultant document](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-stream-of-images-of-result-document-changes/) via JsonRequest object.
 - Save the resultant document to streams as set of images.
 - Get the resultant document path.
 - Add summary page to resultant document after comparison.
 - Show deleted components in the resultant document.
 - Detect style changes.
-- Get or set password to the the resultant document.
+- Get or set password of the resultant document.
 
 ## Supported Document Formats
 
@@ -39,14 +39,38 @@ GroupDocs.Comparison Cloud's platform independent document manipulation API is a
 
 You do not need to install anything to get started with GroupDocs.Comparison Cloud SDK for Node.js. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
 
-The complete source code is available at the [GitHub Repository](). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
 
 To install GroupDocs.Annotation for Cloud via NPM, please execute from the command line, `npm install groupdocs-comparison-cloud`.
 
-## [HEADING]
+## Compare Documents using Node.js
 
 ```js
+public async comparisons(requestObj: model.ComparisonsRequest): Promise<model.Link> {
+    if (requestObj === null || requestObj === undefined) {
+        throw new Error('Required parameter "requestObj" was null or undefined when calling comparisons.');
+    }
 
+    const localVarPath = this.configuration.getServerUrl() + "/comparison/comparisons";
+    const queryParameters: any = {};
+
+    // verify required parameter 'requestObj.comparisonOptions' is not null or undefined
+    if (requestObj.comparisonOptions === null || requestObj.comparisonOptions === undefined) {
+        throw new Error('Required parameter "requestObj.comparisonOptions" was null or undefined when calling comparisons.');
+    }
+
+    const requestOptions: request.Options = {
+        method: "POST",
+        qs: queryParameters,
+        uri: localVarPath,
+        json: true,
+        body: Serializer.serialize(requestObj.comparisonOptions, requestObj.comparisonOptions.constructor.name === "Object" ? "Options" : requestObj.comparisonOptions.constructor.name),
+    };
+
+    const response = await invokeApiMethod(requestOptions, this.configuration);
+    const result =  Serializer.deserialize(response.body, "Link");
+    return Promise.resolve(result);
+}
 ```
 
-[Product Page]() | [Documentation]() | [API Reference]() | [Code Samples]() | [Blog]() | [Free Support]() | [Free Trial]()
+[Product Page](https://products.groupdocs.cloud/comparison/nodejs) | [Documentation](https://wiki.groupdocs.cloud/comparisoncloud/) | [API Reference](https://apireference.groupdocs.cloud/comparison/) | [Code Samples](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-node) | [Blog](https://blog.groupdocs.cloud/category/comparison/) | [Free Support](https://forum.groupdocs.cloud/c/comparison) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

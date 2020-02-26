@@ -53,4 +53,4 @@ To install GroupDocs.Annotation for Cloud via NPM, please execute from the comma
 
 ```
 
-[Product Page]() | [Documentation]() | [API Reference]() | [Code Samples]() | [Blog]() | [Free Support]() | [Free Trial]()
+[Product Page]() | [Documentation]() | [API Reference]() | [Code Samples]() | [Blog]() | [Free Support]() | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
