@@ -1,4 +1,4 @@
-This cloud REST API enhances your Node.js cloud apps to compare two documents, fetch, accept or reject the changes. Supports 90+ file formats.
+This cloud REST API enhances your Node.js cloud apps to [compare two documents](https://products.groupdocs.cloud/comparison/nodejs), fetch, accept or reject the changes. Supports 90+ file formats.
 
 ## Cloud Document Comparison Features
 

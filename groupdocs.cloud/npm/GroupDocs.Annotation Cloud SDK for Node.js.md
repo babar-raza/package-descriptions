@@ -1,4 +1,4 @@
-This REST API enhances your Node.js cloud apps to import, export & process text & figure annotations within documents for 35+ file formats.
+This REST API enhances your Node.js cloud apps to [import, export & process text & figure annotations within documents](https://products.groupdocs.cloud/annotation/nodejs) for 35+ file formats.
 
 ## Cloud Document Annotation Features
 
