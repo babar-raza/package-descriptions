@@ -112,25 +112,24 @@ infoApi.getSupportedFileFormats()
 ## Merge Multiple Documents using Node.js
 
 ```js
-Configuration configuration = new Configuration(MyAppSid, MyAppKey);
-DocumentApi apiInstance = new DocumentApi(configuration);
+global.appSid = "XXXX-XXXX-XXXX-XXXX"; // Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+global.appKey = "XXXXXXXXXXXXXXXX"; // Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+  
+global.documentApi = merger_cloud.DocumentApi.fromKeys(appSid, appKey);
 
-FileInfo fileInfo1 = new FileInfo();
-fileInfo1.setFilePath("foldername/doc1.docx");
-JoinItem item1 = new JoinItem();
-item1.setFileInfo(fileInfo1);
+let item1 = new merger_cloud.JoinItem();
+item1.fileInfo = new merger_cloud.FileInfo();
+item1.fileInfo.filePath = "WordProcessing/four-pages.docx";
 
-FileInfo fileInfo2 = new FileInfo();
-fileInfo2.setFilePath("foldername/doc2.docx");
-JoinItem item2 = new JoinItem();
-item2.setFileInfo(fileInfo2);
+let item2 = new merger_cloud.JoinItem();
+item2.fileInfo = new merger_cloud.FileInfo();
+item2.fileInfo.filePath = "WordProcessing/one-page.docx";
 
-JoinOptions options = new JoinOptions();
-options.setJoinItems(Arrays.asList(item1, item2));
-options.setOutputPath("output/mergedDoc.docx");
+let options = new merger_cloud.JoinOptions();
+options.joinItems = [item1, item2];
+options.outputPath = "Output/joined.docx";
 
-JoinRequest request = new JoinRequest(options);
-DocumentResult response = apiInstance.join(request);
+let result = await documentApi.join(new merger_cloud.JoinRequest(options));
 ```
 
 ## Licensing
