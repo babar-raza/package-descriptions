@@ -48,13 +48,69 @@ This REST API enhances your Node.js cloud apps to [import, export & process text
 
 GroupDocs.Annotation Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started
+## Installation
 
-You do not need to install anything to get started with GroupDocs.Annotation Cloud SDK for Node.js. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
 
 The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
 
-To install GroupDocs.Annotation for Cloud via NPM, please execute from the command line, `npm install groupdocs-annotation-cloud`.
+A package `groupdocs-annotation-cloud` is available at [npmjs.com](https://www.npmjs.com/package/groupdocs-annotation-cloud). You can install it with:
+
+`npm install groupdocs-annotation-cloud`
+
+## Getting Started
+
+Please follow the installation procedure and then run the following JavaScript code:
+
+```js
+// load the module
+var GroupDocs = require('groupdocs-annotation-cloud');
+
+// get your appSid and appKey at https://dashboard.groupdocs.cloud (free registration is required).
+var appSid = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
+var appKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+
+// construct AnnotationApi
+var infoApi = GroupDocs.InfoApi.fromKeys(appSid, appKey);
+
+// retrieve supported file-formats
+infoApi.getSupportedFileFormats()
+    .then(function (response) {
+        console.log("Supported file-formats:")
+        response.formats.forEach(function (format) {
+            console.log(format.fileFormat + " (" + format.extension + ")");
+        });
+    })
+    .catch(function (error) {
+        console.log("Error: " + error.message)
+    });
+```
+
+Or compile and run same written in TypeScript:
+
+```js
+// load the module
+import { InfoApi } from "groupdocs-annotation-cloud";
+
+// get your appSid and appKey at https://dashboard.groupdocs.cloud (free registration is required).
+const appSid: string = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
+const appKey: string = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+
+// construct AnnotationApi
+const infoApi: InfoApi = InfoApi.fromKeys(appSid, appKey);
+
+// retrieve supported file-formats
+infoApi.getSupportedFileFormats()
+    .then((result) => {
+        console.log("Supported file-formats:");
+        result.formats.forEach((format) => {
+            console.log(format.fileFormat + " (" + format.extension + ")");
+        });
+    })
+    .catch((error) => {
+        console.log("Error: " + error.message);
+    });
+```
 
 ## Add Text Annotation using Node.js
 
@@ -62,7 +118,6 @@ To install GroupDocs.Annotation for Cloud via NPM, please execute from the comma
 "use strict";
 class Annotation_Node_Add_Area_Annotation {
     static Run() {
-
         let a1 = new groupdocs_annotation_cloud_1.AnnotationInfo();
         a1.annotationPosition = new groupdocs_annotation_cloud_1.Point();
         a1.annotationPosition.x = 852;
@@ -92,5 +147,9 @@ class Annotation_Node_Add_Area_Annotation {
 }
 module.exports = Annotation_Node_Add_Area_Annotation;
 ```
+
+## Licensing
+
+GroupDocs.Annotation Cloud Node.js SDK licensed under [MIT License](https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-node/blob/HEAD/LICENSE).
 
 [Product Page](https://products.groupdocs.cloud/annotation/nodejs) | [Documentation](https://wiki.groupdocs.cloud/annotationcloud/) | [API Reference](https://apireference.groupdocs.cloud/annotation/) | [Code Samples](https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-node) | [Blog](https://blog.groupdocs.cloud/category/annotation/) | [Free Support](https://forum.groupdocs.cloud/c/annotation) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
