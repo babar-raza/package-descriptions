@@ -1,19 +1,16 @@
-A standalone C# class library that developers can use to embed Microsoft Visio® file creation, manipulation & processing capabilities to their own C#, VB.NET or other .NET applications.
+# .NET API for Microsoft Visio® File Formats
+[Aspose.Diagram for .NET](https://products.aspose.com/diagram/net) API is a solution for Microsoft Visio file manipulation requirements. It allows the .NET applications to read, write, export and process Microsoft Visio diagrams while supporting all Visio objects & properties including shapes, pages, images, shape masters, stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, geometries, text boxes, and comments. 
 
-Aspose.Diagram for .NET API is a comprehensive solution for all Microsoft Visio manipulation requirements while allowing the .NET applications to read, write, export and process Microsoft Visio diagrams. It supports all Visio objects such as shapes, pages, images, shape masters, Visio stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, font operations, printing, geometries, SQL Server data sources, text boxes, and comments. 
-
-Aspose.Diagram for .NET can also be used to apply protection to the Microsoft Visio drawings by locking backgrounds,  stencils (master) as well as  shapes and styles to avoid any accidental amendments.
+Aspose.Diagram for .NET can also be used to [apply protection to the Microsoft Visio drawings](https://docs.aspose.com/display/diagramnet/Working+with+Protection) by locking backgrounds, stencils (master) as well as  shapes and styles to avoid any accidental amendments.
 
 ## Visio File Processing Features
 -  Create Microsoft Visio diagrams from scratch via API.
--  Read or write Microsoft Visio drawings with Automation.
--  Export Visio diagrams to various popular formats including PDF, images, HTML and more.
--  Print Visio diagrams on physical printer or on a server using XpsPrint API.
--  Access Visio diagram properties.
+-  Read or write Microsoft Visio drawings.
+-  [Export Visio diagrams](https://docs.aspose.com/display/diagramnet/How+to+Convert+a+Visio+Diagram) to various popular formats including PDF, images, HTML and more.
+-  Print Visio diagrams on physical or virtual printer.
+-  Access Visio diagram properties for manipulation or just inspection.
 -  Protect Visio diagrams via applying locks on various levels.
--  Manipulate the embedded OLE objects in the Visio diagrams.
--  Insert ActiveX control within the Visio file.
--  Customize the gradient of a Visio shape.
+-  [Manipulate the embedded OLE objects in the Visio diagrams](https://docs.aspose.com/display/diagramnet/Manipulate+the+Embedded+OLE+Objects+in+Visio+Diagram).
 
 ## Read & Write Visio Formats
 **Microsoft Visio:** VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM

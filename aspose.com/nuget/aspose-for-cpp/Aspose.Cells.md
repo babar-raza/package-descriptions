@@ -1,6 +1,7 @@
-Aspose.Cells for C++ is a native C++ library to create, manipulate, process and convert Microsoft Excel® files without needing Microsoft Office® or Automation.
+# C++ Library for Excel File Formats
+[Aspose.Cells for C++]() is a native C++ library to create, manipulate, process and convert Microsoft Excel® files without needing Microsoft Office® or Automation. The Excel C++ API supports Excel 97-2003 (XLS), Excel 2007-2013/2016 (XLSX, XLSM, XLSB), OpenOffice XML and other formats such as CSV, TSV and more. 
 
-Some of the basic tasks developers can perform after integrating Aspose.Cells for C++ are management of worksheets, rows, columns & cells, creating spreadsheet contents and styles from scratch, importing data onto the worksheets from different data sources, adding common and complex mathematical, financial and text formulas, manipulation of charts, pictures, comments, drawing objects and much more.
+It allows the developers to manage worksheets, rows, columns & cells, create spreadsheet contents and styles from scratch, import data onto the worksheets from different data sources, add common, complex mathematical, financial and text formulas to calculate results on runtime, create & manipulate charts & Pivot Tables, manage pictures, comments, drawing objects from their own C++ applications.
 
 ## Excel File Processing Features
 - Spreadsheet generation & manipulation via API.
@@ -8,10 +9,10 @@ Some of the basic tasks developers can perform after integrating Aspose.Cells fo
 - Combine, modify, protect or parse Excel sheets.
 - Apply worksheet, row, column & cell formatting.
 - Configure and apply page setup for the worksheets.
-- Create, customize & refresh charts, Pivot Tables, conditional formatting rules & spark-lines.
+- Create, customize & refresh [Excel charts](https://docs.aspose.com/display/cellscpp/Creating+and+Customizing+Charts), [Pivot Tables](https://docs.aspose.com/display/cellscpp/Create+Pivot+Table), & Named Ranges.
 - Convert spreadsheet charts to images & PDF.
 - Convert Excel files to various other formats.
-- Formula calculation engine that supports all basic and advanced Excel functions.
+- [Formula Calculation Engine](https://docs.aspose.com/display/cellscpp/Formulas) that supports all basic and advanced Excel functions.
 
 ## Read & Write Formats
 **Microsoft Excel:** XLS, XLSX, XLSB
@@ -38,6 +39,41 @@ intrusive_ptr<IWorkbook> book = Factory::CreateIWorkbook(dir->StringAppend(new S
 book->Save(dir->StringAppend(new String("output.xlsx")), SaveFormat_Xlsx);
 book->Save(dir->StringAppend(new String("output.xlsb")), SaveFormat_Xlsb);
 book->Save(dir->StringAppend(new String("output.csv")), SaveFormat_CSV);
+```
+
+### Create a Custom Excel Chart with C++
+
+```c++
+// create a new workbook
+intrusive_ptr<IWorkbook> workbook = Factory::CreateIWorkbook();
+
+// get first worksheet which is created by default
+intrusive_ptr<IWorksheet> worksheet = workbook->GetIWorksheets()->GetObjectByIndex(0);
+
+// add sample data
+worksheet->GetICells()->GetObjectByIndex(new String("A1"))->PutValue(50);
+worksheet->GetICells()->GetObjectByIndex(new String("A2"))->PutValue(100);
+worksheet->GetICells()->GetObjectByIndex(new String("A3"))->PutValue(150);
+worksheet->GetICells()->GetObjectByIndex(new String("A4"))->PutValue(110);
+worksheet->GetICells()->GetObjectByIndex(new String("B1"))->PutValue(260);
+worksheet->GetICells()->GetObjectByIndex(new String("B2"))->PutValue(12);
+worksheet->GetICells()->GetObjectByIndex(new String("B3"))->PutValue(50);
+worksheet->GetICells()->GetObjectByIndex(new String("B4"))->PutValue(100);
+
+// add a chart to the worksheet
+int chartIndex = worksheet->GetICharts()->Add(Aspose::Cells::Charts::ChartType::ChartType_Column, 5, 0, 20, 8);
+
+// access the instance of the newly added chart
+intrusive_ptr<Aspose::Cells::Charts::IChart> chart = worksheet->GetICharts()->GetObjectByIndex(chartIndex);
+
+// add SeriesCollection (chart data source) to the chart ranging from A1 to B4
+chart->GetNISeries()->Add(new String("A1:B4"), true);
+
+// set the chart type of 2nd NSeries to display as line chart
+chart->GetNISeries()->GetObjectByIndex(1)->SetType(Aspose::Cells::Charts::ChartType::ChartType_Line);
+
+// save the Excel file
+workbook->Save(new String("output.xlsx")));
 ```
 
 [Product Page](https://products.aspose.com/cells/cpp) | [Documentation](https://docs.aspose.com/display/cellscpp/Home) | [API Reference](https://apireference.aspose.com/cpp/cells) | [Code Examples](https://github.com/aspose-cells/Aspose.Cells-for-C) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) |  [Temporary License](https://purchase.aspose.com/temporary-license)
