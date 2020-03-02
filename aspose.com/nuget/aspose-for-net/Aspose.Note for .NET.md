@@ -1,33 +1,42 @@
-It is a standalone class library that allows to interact with Microsoft OneNote® documents for processing and conversion. 
+# .NET API for OneNote Document Processing
 
-Aspose.Note for .NET can be used for printing ONE documents as well as manipulation of pages, images, text, tables, attachments, tags, tasks, text styles, and hyperlinks, without needing Microsoft OneNote.
+It is a standalone class library that allows to interact with [Microsoft OneNote® documents for processing](https://products.aspose.com/note/net) and conversion.
+
+Aspose.Note for .NET can be used for printing ONE documents as well as manipulation of [pages](https://docs.aspose.com/display/notenet/Working+with+Pages), [images](https://docs.aspose.com/display/notenet/Working+with+Images), [text](https://docs.aspose.com/display/notenet/Working+with+Text), [tables](https://docs.aspose.com/display/notenet/Working+with+Tables), [attachments](https://docs.aspose.com/display/notenet/Working+with+Attachments), [tags](https://docs.aspose.com/display/notenet/Working+with+Tags), [tasks](https://docs.aspose.com/display/notenet/Working+with+Tasks), [text styles](https://docs.aspose.com/display/notenet/Working+with+Text+Styles), and [hyperlinks](https://docs.aspose.com/display/notenet/Working+with+Hyperlinks), without needing Microsoft OneNote.
 
 ## Microsoft OneNote File Processing Features
--  Load, edit and save Microsoft OneNote documents via API.
--  Navigate through the OneNote Document Object Model (DOM).
--  Insert an image into an OneNote file.
--  Parse and export various numbered list formats.
--  Extract text from any part of an OneNote document.
--  Export OneNote documents as other popular formats.
+
+- [Load, edit and save](https://docs.aspose.com/display/notenet/Loading%2C+Saving+and+Converting) Microsoft OneNote documents via API.
+- Navigate through the OneNote Document Object Model (DOM).
+- Insert an [image into an OneNote file](https://docs.aspose.com/display/notenet/Loading%2C+Saving+and+Converting).
+- Parse and export various numbered list formats.
+- Extract text from any part of an OneNote document.
+- Export OneNote documents as other popular formats.
 
 ## Read & Write OneNote Format
+
 **Microsoft OneNote:** ONE
 
 ## Save OneNote Files As
+
 **Fixed Layout:** PDF
 **Web:** HTML
 **Images:** GIF, JPEG, PNG, BMP, TIFF
 
 ## Read Formats
-ONETOC2 
+
+ONETOC2
 
 ## Platform Independence
+
 Aspose.Note for .NET can be used to build both the 32-bit and the 64-bit .NET applications, including ASP.NET, Web Services & WinForms. Its deployment is very easy and consists of a single assembly with no dependencies (except for the .NET framework). Aspose.Note.dll is CLS compliant, written entirely in C# and contains only safe managed code for .NET Framework, .NET Core & Sliverlight 3.
 
 ## Getting Started with Aspose.Note for .NET
+
 Are you ready to give Aspose.Note for .NET a try? Simply execute `Install-Package Aspose.Note` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Note for .NET and want to upgrade the version, please execute `Update-Package Aspose.Note` to get the latest version.
 
-## Convert Microsoft OneNote to PDF Format using C#
+## Convert Microsoft OneNote to PDF Format via C# Code
+
 Execute below code snippet to see how Aspose.Note API performs in your environment or check the [GitHub Repository](https://github.com/aspose-note/Aspose.Note-for-.NET) for other common usage scenarios.
 
 ```csharp
@@ -38,6 +47,7 @@ oneFile.Save(dir + "output.pdf", SaveFormat.Pdf);
 ```
 
 ## Extract Images from Microsoft OneNote Document
+
 Aspose.Note for .NET enables your .NET applications to list and manipulate images from an OneNote document as demonstrated with following snippet:
 
 ```csharp

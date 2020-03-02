@@ -1,7 +1,9 @@
 # .NET Email API
-[Aspose.Email for .NET](https://products.aspose.com/email/net) allows you to work with MIME messages, appointments, Microsoft Outlook® items, Outlook storage files, various clients & protocols ([SMTP](https://docs.aspose.com/display/emailnet/Working+with+SMTP+Client), [POP3](https://docs.aspose.com/display/emailnet/Working+with+POP3+Client), [IMAP](https://docs.aspose.com/display/emailnet/Working+with+IMAP+Client), [Exchange EWS](https://docs.aspose.com/display/emailnet/Working+with+Exchange+EWS+Client), [Exchange WebDav](https://docs.aspose.com/display/emailnet/Working+with+Exchange+WebDav+Client), [Gmail](https://docs.aspose.com/display/emailnet/Programming+with+Gmail), [Thunderbird](https://docs.aspose.com/display/emailnet/Programming+with+Thunderbird), [Zimbra](https://docs.aspose.com/display/emailnet/Working+with+Zimbra), [IBM Notes](https://docs.aspose.com/display/emailnet/Working+with+IBM+Notes) & AMP HTML emails and more. 
+
+[Aspose.Email for .NET](https://products.aspose.com/email/net) allows you to work with MIME messages, appointments, Microsoft Outlook® items, Outlook storage files, various clients & protocols ([SMTP](https://docs.aspose.com/display/emailnet/Working+with+SMTP+Client), [POP3](https://docs.aspose.com/display/emailnet/Working+with+POP3+Client), [IMAP](https://docs.aspose.com/display/emailnet/Working+with+IMAP+Client), [Exchange EWS](https://docs.aspose.com/display/emailnet/Working+with+Exchange+EWS+Client), [Exchange WebDav](https://docs.aspose.com/display/emailnet/Working+with+Exchange+WebDav+Client), [Gmail](https://docs.aspose.com/display/emailnet/Programming+with+Gmail), [Thunderbird](https://docs.aspose.com/display/emailnet/Programming+with+Thunderbird), [Zimbra](https://docs.aspose.com/display/emailnet/Working+with+Zimbra), [IBM Notes](https://docs.aspose.com/display/emailnet/Working+with+IBM+Notes) & AMP HTML emails and more.
 
 ## Email API Features
+
 - Open or save emails in Microsoft Outlook & other formats.
 - Conversion of email files to various formats.
 - Parse, read & save MS Outlook emails, PST & OST files.
@@ -13,21 +15,50 @@
 - Tools to verify email addresses, email syntax, email domain, mail server & MX records.
 - Extract objects from various mail storage formats as well as [create email storage files from scratch](https://docs.aspose.com/display/emailnet/Create+New+PST+File+and+Add+SubFolders).
 
+## New Features in v.20.2
+
+- [Support for OAuth 2.0](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.2+Release+Notes) using POP3Client.
+
+The following constructors are added to initialize POP3Client using OAuth:
+
+```csharp
+public Pop3Client(
+            string host, /*The host name*/
+            int port, /*The port number*/
+            string username, /*The user name*/
+            ITokenProvider tokenProvider, /*TokenProvider allowing to retrieve access token*/
+            SecurityOptions securityOptions) /*Security mode for a mail client*/
+
+public Pop3Client(
+            string host, /*The host name*/
+            int port, /*The port number*/
+            string username, /*The user name*/
+            string authInfo, /*The user password or XOAUTH2 access token*/
+            bool useOAuth, /*Defines whether SASL XOAUTH2 mechanism is used to login to the server*/
+            SecurityOptions securityOptions) /*Security mode for a mail client*/
+
+```
+
 ## Read & Write Email Formats
+
 **Microsoft Outlook:** MSG, PST, OST, OFT
 **Email:** EML, EMLX, MBOX
 **Others:** ICS, VCF, HTML, MHTML
 
 ## Read Email Formats
+
 **Mac Outlook:** OLM
 
 ## Platform Independence
+
 Aspose.Email for .NET is implemented using Managed C# and can be used with any .NET based languages including C#, VB.NET, J# and so on. Aspose.Email for .NET can be integrated with any kind of application on Windows, Linux, Mac OS X and Xamarin Platforms.
 
 ## Getting Started with Aspose.Email for .NET
+
 Are you ready to give Aspose.Email for .NET a try? Simply execute `Install-Package Aspose.Email` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Email for .NET and want to upgrade the version, please execute `Update-Package Aspose.Email` to get the latest version.
 
-## Create an Email Message & Save it in MSG Format using C#
+## Create an Email Message & Save it in MSG Format using C# Code
+
 You can execute below code snippet to see how Aspose.Email API performs in your environment or check the [GitHub Repository](https://github.com/aspose-email/Aspose.Email-for-.NET) for other common usage scenarios. 
 
 ```csharp
@@ -43,6 +74,7 @@ var msg = MapiMessage.FromMailMessage(message);
 // save file on disc
 msg.Save(dir + "output.msg");
 ```
+
 ## Send Bulk Emails via SMTP
 
 ```csharp
@@ -61,10 +93,10 @@ manyMsg.Add(message2);
 manyMsg.Add(message3);
 
 // send emails in bulk
-client.Send(manyMsg);                
+client.Send(manyMsg);
 ```
 
-## Create an ICS Appointment via C#
+## Use C# to Create an ICS Appointment
 
 ```csharp
 // create and initialize an instance of the Appointment class

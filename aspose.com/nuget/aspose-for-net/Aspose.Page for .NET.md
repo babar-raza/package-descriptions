@@ -1,10 +1,13 @@
-Aspose.Page for .NET is an on premise .NET API that allows you to add XPS manipulation features to your own applications. The API also supports to convert XPS, EPS & PS documents to other formats.
+# XPS File Manipulation via .NET API
 
-Developers can perform various operations on XPS documents, such as, add text, images, pages, gradient, grid using visual brush, transparency object and set opacity mask. It allows to create, edit and convert the file pages as well as the ability to manipulate documents and elements, create vector graphics, group shapes and specifying colors in different color spaces including sRGB, scRGB, and any space based on ICC profile.
+[Aspose.Page for .NET](https://products.aspose.com/page/net) is an on premise .NET API that allows you to add XPS manipulation features to your own applications. The API also supports to convert XPS, EPS & PS documents to other formats.
+
+Developers can perform various operations on XPS documents, such as, add [text](https://docs.aspose.com/display/pagenet/Working+with+Text), [images](https://docs.aspose.com/display/pagenet/Working+with+Images), [pages](https://docs.aspose.com/display/pagenet/Working+with+Pages), [gradient](https://docs.aspose.com/display/pagenet/Working+with+Gradient), grid using [visual brush](https://docs.aspose.com/display/pagenet/Working+with+Visual+Brush), [transparency object](https://docs.aspose.com/display/pagenet/Add+Transparent+Object+inside+XPS+Document) and [set opacity mask](https://docs.aspose.com/display/pagenet/Set+Opacity+Mask). It allows to create, edit and convert the file pages as well as the ability to manipulate documents and elements, create vector graphics, group shapes and specifying colors in different color spaces including sRGB, scRGB, and any space based on ICC profile.
 
 ## XPS, EPS & PS Processing Features
+
 - Create & modify XPS documents via API.
-- Add or delete pages of XPS documents.
+- [Add pages to XPS](https://docs.aspose.com/display/pagenet/Add+Pages+to+XPS+Document) documents.
 - Create vector graphic shapes (Path element) and text strings (Glyphs element).
 - Group various elements as well as modify the appearance of text strings and graphics.
 - Support for visual brush, image brush, solid color brush and more.
@@ -15,24 +18,29 @@ Developers can perform various operations on XPS documents, such as, add text, i
 - Supports PostScript language levels 1-3 with an exception of font types: Type2 (CFF), Type14 (Chameleon), Types 9, 10, 11, 32 (CID-Keyed).
 
 ## Read & Write XPS Format
+
 **Fixed Layout:** XPS
 
-
 ## Save XPS, PS & EPS Documents As
+
 **Fixed Layout:** PDF
 **Images:** PNG, JPEG, TIFF, BMP
 
 ## Save PS & EPS Documents As
+
 **Metafiles:** EMF, WMF
 **Animation:** GIF
 
 ## Platform Independence
+
 Aspose.Page for .NET can be integrated with any kind of ASP.NET Web Application or a Windows Application.
 
 ## Getting Started with Aspose.Page for .NET
+
 Are you ready to give Aspose.Page for .NET a try? Simply execute `Install-Package Aspose.Page` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Page for .NET and want to upgrade the version, please execute `Update-Package Aspose.Page` to get the latest version.
 
-## Create an XPS Document from Scratch via C#
+## Create an XPS Document from Scratch via C# Code
+
 Execute below code snippet to see how Aspose.Page API performs in your own environment or check the [GitHub Repository](https://github.com/aspose-page/Aspose.Page-for-.NET) for other common usage scenarios. 
 
 ```csharp
@@ -44,7 +52,9 @@ glyphs.Fill = xDocs.CreateSolidColorBrush(Color.Black);
 // save result
 xDocs.Save(dir + "output.xps");
 ```
+
 ## Convert a PostScript (PS) File to PDF Format
+
 Aspose.Page for .NET allows you to work with document conversion, such as; PS to images, PS to PDF, XPS to images, XPS to PDF and so on. The following snippet demonstrates the conversion of PS to PDF using streams:
 
 ```csharp

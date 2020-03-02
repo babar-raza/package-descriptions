@@ -1,16 +1,18 @@
-Aspose.Words for .NET is a Word Document Processing API that allows the developers to work with Microsoft Word® documents without needing Office Automation.
+# .NET API for Word File Formats
 
-It is a powerful on-premise class library that can be used for numerous document processing tasks, enabling the developers to enhance their own applications with feature such as, document generation, modification, conversion, rendering and printing without relying on Microsoft Word or automation.
+Aspose.Words for .NET is a [Word Document Processing API](https://products.aspose.com/words/net) that allows the developers to work with Microsoft Word® documents without needing Office Automation.
+
+It is a powerful on-premise class library that can be used for numerous [document processing tasks](https://docs.aspose.com/display/wordsnet/Developer+Guide), enabling the developers to enhance their own applications with feature such as, document generation, modification, conversion, rendering and printing without relying on Microsoft Word or automation.
 
 ## Word API Features
 
-- Comprehensive document import and export with 35+ supported file formats.
-- High fidelity rendering of document pages - exactly like Microsoft Word would have rendered.
-- Rich object model that allows to generate, combine, modify, parse or otherwise examine loaded documents.
+- Comprehensive document import and export with [35+ supported file formats](https://docs.aspose.com/display/wordsnet/Supported+Document+Formats).
+- [High fidelity rendering](https://docs.aspose.com/display/wordsnet/Rendering) of document pages - exactly like Microsoft Word would have rendered.
+- [Rich object model](https://docs.aspose.com/display/wordsnet/Aspose.Words+Document+Object+Model) that allows to generate, combine, modify, parse or otherwise examine loaded documents.
 - Programmatic access to formatting properties of all document elements.
-- .NET printing infrastructure to print documents on physical and virtual printers.
+- .NET printing infrastructure to [print documents](https://docs.aspose.com/display/wordsnet/Print+a+Document).
 - Generate reports with Mail Merge that allows populating documents with data from various sources.
-- LINQ Reporting Engine to fetch data from databases, XML, JSON, OData, external documents and more.
+- [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) to fetch data from databases, XML, JSON, OData, external documents and more.
 
 ## Read & Write Document Formats
 
@@ -72,7 +74,7 @@ The following code sample demonstrates, how you can import a PDF document into y
 ```csharp
 // Load the PDF document from directory
 Document doc = new Document(dir + "input.pdf");
- 
+
 // Save the document in DOCX format
 doc.Save(dir + "output.docx");
 ```

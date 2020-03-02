@@ -1,9 +1,11 @@
 # .NET API for Excel File Formats
+
 [Aspose.Cells for .NET](https://products.aspose.com/cells/net) is an Excel Spreadsheet Programming API to speed up spreadsheet management and processing tasks. Excel .NET API supports to build cross-platform applications having the ability to generate, modify, convert, render and print spreadsheets. It allows developers to manage worksheets, rows, columns & cells, create spreadsheet contents and styles from scratch, import data onto the worksheets from different data sources, add common and complex mathematical, financial and text formulas, create & manipulate pivot tables, charts, hyperlinks, comments, drawing objects and much more.
 
-Aspose.Cells for .NET provides Grid solution with two GUI based .NET controls. [Aspose.Cells.GridDesktop](https://docs.aspose.com/display/cellsnet/Aspose.Cells.GridDesktop) supports desktop applications and [Aspose.Cells.GridWeb](https://docs.aspose.com/display/cellsnet/Aspose.Cells.GridWeb) is specifically designed for .NET based web applications. Both Gird controls allow to import/export Excel files, manipulate data & formatting, customize grid design and layout, manage multiple worksheets, create and calculate Excel formulas and numerous other Excel-like operations. 
+Aspose.Cells for .NET provides Grid solution with two GUI based .NET controls. [Aspose.Cells.GridDesktop](https://docs.aspose.com/display/cellsnet/Aspose.Cells.GridDesktop) supports desktop applications and [Aspose.Cells.GridWeb](https://docs.aspose.com/display/cellsnet/Aspose.Cells.GridWeb) is specifically designed for .NET based web applications. Both Gird controls allow to import/export Excel files, manipulate data & formatting, customize grid design and layout, manage multiple worksheets, create and calculate Excel formulas and numerous other Excel-like operations.
 
 ## Excel File Processing Features
+
 - Spreadsheet generation & manipulation via API.
 - High quality file format conversion & rendering.
 - Print Microsoft Excel files to physical or virtual printers.
@@ -16,6 +18,7 @@ Aspose.Cells for .NET provides Grid solution with two GUI based .NET controls. [
 - [Formula calculation engine that supports all basic and advanced Excel functions](https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions).
 
 ## Read & Write Spreadsheet Formats
+
 **Microsoft Excel:** XLS, XLSX, XLSB, XLT, XLTX, XLTM, XLSM, XML
 **OpenOffice:** ODS
 **Text:** CSV, TSV
@@ -23,17 +26,21 @@ Aspose.Cells for .NET provides Grid solution with two GUI based .NET controls. [
 **Numbers:** Apple's iWork office suite Numbers app documents
 
 ## Save Excel Files As
+
 **Fixed Layout:** PDF, PDF/A, XPS
 **Data Interchange:** DIF
 **Images:** JPEG, PNG, BMP, SVG, TIFF, EMF, GIF
 
 ## Platform Independence
+
 Aspose.Cells for .NET can be used to build ASP.NET, Web Services, WinForms or other .NET applications for framework 2.0 or later on 32-bit and 64-bit operating systems. It also provides dedicated assemblies for Xamarin.Android (for native Android apps), Xamarin.iOS (for native iOS apps), COM (for pre-.NET technologies), Mono, and Windows Azure.
 
 ## Getting Started with Aspose.Cells for .NET
+
 Are you ready to give Aspose.Cells for .NET a try? Simply execute `Install-Package Aspose.Cells` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Cells for .NET and want to upgrade the version, please execute `Update-Package Aspose.Cells` to get the latest version.
 
 ## Create XLSX Excel File from Scratch via C#
+
 You can execute below code snippet to see how Aspose.Cells API performs in your environment or check the [GitHub Repository](https://github.com/aspose-cells/Aspose.Cells-for-.NET) for other common usage scenarios.
 
 ```csharp
@@ -48,7 +55,9 @@ cells["A1"].Value = "Hello World";
 // save spreadsheet to disc
 book.Save("output.xlsx", SaveFormat.Xlsx);
 ```
+
 ## Convert Excel Files to PDF, XPS & HTML
+
 Aspose.Cells for .NET is capable of converting spreadsheets to numerous other popular formats including PDF, XPS & HTML formats while maintaining the highest visual fidelity. The conversion process is simple, configurable and reliable.
 
 ```csharp
@@ -60,8 +69,9 @@ workbook.Save(dir + "output.xps", Aspose.Cells.SaveFormat.XPS);
 workbook.Save(dir + "output.html", Aspose.Cells.SaveFormat.Html);
 ```
 
-## Encrypt Excel File with C#
-```
+## Encrypt Excel File with C# Code
+
+```csharp
 var workbook = new Aspose.Cells.Workbook(dir+ "template.xls");
 
 // specify XOR encryption type
@@ -76,8 +86,10 @@ workbook.Settings.Password = "1234";
 // save the file
 workbook.Save(dir+ "output.xls");
 ```
-## Create an Excel Line Chart via C#
-```
+
+## Use C# to Create an Excel Line Chart
+
+```csharp
 var workbook = new Aspose.Cells.Workbook();
 
 // add a new worksheet to the Excel object
@@ -106,4 +118,5 @@ chart.NSeries.Add("A1:B3", true);
 // save the Excel file
 workbook.Save( dir + "output.xls");
 ```
+
 [Product Page](https://products.aspose.com/cells/net) | [Documentation](https://docs.aspose.com/display/cellsnet/Home) | [API Reference](https://apireference.aspose.com/net/cells) | [Code Examples](https://github.com/aspose-cells/Aspose.Cells-for-.NET) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) |  [Temporary License](https://purchase.aspose.com/temporary-license)
