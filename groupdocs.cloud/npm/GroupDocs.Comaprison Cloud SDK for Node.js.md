@@ -1,4 +1,4 @@
-This cloud REST API enhances your Node.js cloud apps to compare two documents, fetch, accept or reject the changes. Supports 90+ file formats.
+This cloud REST API enhances your Node.js cloud apps to [compare two documents](https://products.groupdocs.cloud/comparison/nodejs), fetch, accept or reject the changes. Supports 90+ file formats.
 
 ## Cloud Document Comparison Features
 
@@ -35,13 +35,69 @@ This cloud REST API enhances your Node.js cloud apps to compare two documents, f
 
 GroupDocs.Comparison Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started
+## Installation
 
-You do not need to install anything to get started with GroupDocs.Comparison Cloud SDK for Node.js. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
 
 The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
 
-To install GroupDocs.Annotation for Cloud via NPM, please execute from the command line, `npm install groupdocs-comparison-cloud`.
+A package `groupdocs-comparison-cloud` is available at [npmjs.com](https://www.npmjs.com/package/groupdocs-comparison-cloud). You can install it with:
+
+`npm install groupdocs-comparison-cloud`
+
+## Getting Started
+
+Please follow the [installation](https://www.npmjs.com/package/groupdocs-comparison-cloud#installation) procedure and then run the following JavaScript code:
+
+```js
+// load the module
+var GroupDocs = require('groupdocs-comparison-cloud');
+
+// get your appSid and appKey at https://dashboard.groupdocs.cloud (free registration is required).
+var appSid = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
+var appKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+
+// construct ComparisonApi
+var infoApi = GroupDocs.InfoApi.fromKeys(appSid, appKey);
+
+// retrieve supported file-formats
+infoApi.getSupportedFileFormats()
+    .then(function (response) {
+        console.log("Supported file-formats:")
+        response.formats.forEach(function (format) {
+            console.log(format.fileFormat + " (" + format.extension + ")");
+        });
+    })
+    .catch(function (error) {
+        console.log("Error: " + error.message)
+    });
+```
+
+Or compile and run same written in TypeScript:
+
+```js
+// load the module
+import { InfoApi } from "groupdocs-comparison-cloud";
+
+// get your appSid and appKey at https://dashboard.groupdocs.cloud (free registration is required).
+const appSid: string = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX";
+const appKey: string = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+
+// construct ComparisonApi
+const infoApi: InfoApi = InfoApi.fromKeys(appSid, appKey);
+
+// retrieve supported file-formats
+infoApi.getSupportedFileFormats()
+    .then((result) => {
+        console.log("Supported file-formats:");
+        result.formats.forEach((format) => {
+            console.log(format.fileFormat + " (" + format.extension + ")");
+        });
+    })
+    .catch((error) => {
+        console.log("Error: " + error.message);
+    });
+```
 
 ## Compare Documents using Node.js
 
@@ -72,5 +128,9 @@ public async comparisons(requestObj: model.ComparisonsRequest): Promise<model.Li
     return Promise.resolve(result);
 }
 ```
+
+## Licensing
+
+GroupDocs.Comparison Cloud Node.js SDK licensed under [MIT License](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-node/blob/HEAD/LICENSE).
 
 [Product Page](https://products.groupdocs.cloud/comparison/nodejs) | [Documentation](https://wiki.groupdocs.cloud/comparisoncloud/) | [API Reference](https://apireference.groupdocs.cloud/comparison/) | [Code Samples](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-node) | [Blog](https://blog.groupdocs.cloud/category/comparison/) | [Free Support](https://forum.groupdocs.cloud/c/comparison) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
