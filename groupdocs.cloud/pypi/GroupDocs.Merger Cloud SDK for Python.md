@@ -1,15 +1,15 @@
-This REST API enables your C#, ASP.NET, & other .NET apps to perform document merging & joining for 40+ file formats, while page manipulation for 35+ formats.
+This REST API enables your Python apps to [perform document merging & joining](https://products.groupdocs.cloud/merger/python) for [40+ file formats](https://wiki.groupdocs.cloud/mergercloud/getting-started/supported-document-formats/), while page manipulation for 35+ formats.
 
 ## Cloud Document Merger Features
 
-- Merge two of more documents into a single file.
+- [Merge two of more documents](https://wiki.groupdocs.cloud/mergercloud/developer-guide/document-operations/join-multiple-documents/) into a single file.
 - Merge specific pages from several different documents into a single file.
 - Join page ranges from various documents into a single resultant file.
 - Split a source document into many different files.
 - Generate image representation of document pages as preview.
 - Create document image preview of all pages, specific pages, or a page range.
 - Move, remove, rotate, swap, and extract document pages.
-- Change portrait or landscape orientation of the document pages.
+- [Change portrait or landscape orientation](https://wiki.groupdocs.cloud/mergercloud/developer-guide/pages-operations/change-page-orientation/) of the document pages.
 - Set, update or remove document password.
 - Extract basic information about the document.
 
@@ -47,69 +47,57 @@ The following file formats are supported for trimming, moving, swapping pages or
 
 GroupDocs.Merger Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
+## Installation
+
+Install `groupdocs-merger-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
+
+`pip install groupdocs-merger-cloud`
+
+Or clone repository and install it via [Setuptools](http://pypi.python.org/pypi/setuptools):
+
+`python setup.py install`
+
+Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-python) for other common usage scenarios.
+
 ## Getting Started
 
-You do not need to install anything to get started with GroupDocs.Merger Cloud SDK for .Net. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+Please follow the [installation procedure](https://pypi.org/project/groupdocs-merger-cloud/#installation) and then run following:
 
-Simply execute `Install-Package GroupDocs.Merger-Cloud` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Merger assembly in your project. If you already have GroupDocs.Merger Cloud SDK for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Merger-Cloud` to get the latest version.
+```python
+# Import module
+import groupdocs_merger_cloud
 
-Please check the [GitHub Repository](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-dotnet) for other common usage scenarios.
+# Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
+app_sid = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+app_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-## Merge Multiple Documents using C# Code
+# Create instance of the API
+api = groupdocs_merger_cloud.InfoApi.from_keys(app_sid, app_key)
 
-```csharp
-var configuration = new Configuration(Common.MyAppSid, Common.MyAppKey);
-var apiInstance = new DocumentApi(configuration);
-var item1 = new JoinItem
-{
-    FileInfo = new FileInfo
-    {
-    FilePath = "WordProcessing/four-pages.docx"
-    }
-};
+try:
+    # Retrieve supported file-formats
+    response = api.get_supported_file_formats()
 
-var item2 = new JoinItem
-{
-    FileInfo = new FileInfo
-    {
-        FilePath = "WordProcessing/one-page.docx"
-    }
-};
-
-var options = new JoinOptions
-{
-    JoinItems = new List<JoinItem> { item1, item2 },
-    OutputPath = "Output/joined.docx"
-};
-
-var request = new JoinRequest(options);
-var response = apiInstance.Join(request);
-Console.WriteLine("Output file path: " + response.Path);
+    # Print out supported file-formats
+    print("Supported file-formats:")
+    for format in response.formats:
+        print('{0} ({1})'.format(format.file_format, format.extension)) 
+except groupdocs_merger_cloud.ApiException as e:
+    print("Exception when calling get_supported_file_formats: {0}".format(e.message))
 ```
 
-## Use C# to Split a DOCX File into Several Multi-Page Documents
+## Split Single Document to Multiple Documents using Python
 
-```csharp
-var configuration = new Configuration(Common.MyAppSid, Common.MyAppKey);
-var apiInstance = new DocumentApi(configuration);
+```python
+kwargs['_return_http_data_only'] = True
 
-var fileInfo = new FileInfo
-{
-    FilePath = "WordProcessing/sample-10-pages.docx"
-};
-var options = new SplitOptions
-{
-    FileInfo = fileInfo,
-    OutputPath = "Output/split-to-multipage-document",
-    Pages = new List<int?> { 3, 6, 8 },
-    Mode = SplitOptions.ModeEnum.Intervals
-};
-var request = new SplitRequest(options);
-var response = apiInstance.Split(request);
-foreach (var document in response.Documents)
-{
-    Console.WriteLine("Output file path: " + document.Path);
-}
+        if kwargs.get('is_async'):
+            return self._split_with_http_info(request, **kwargs)  # noqa: E501
+
+        (data) = self._split_with_http_info(request, **kwargs)  # noqa: E501
+        return data
 ```
 
-[Product Page](https://products.groupdocs.cloud/merger/net) | [Documentation](https://wiki.groupdocs.cloud/mergercloud/) | [API Reference](https://apireference.groupdocs.cloud/merger/) | [Code Samples](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/merger/) | [Free Support](https://forum.groupdocs.cloud/c/merger) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+[Product Page](https://products.groupdocs.cloud/merger/python) | [Documentation](https://wiki.groupdocs.cloud/mergercloud/) | [API Reference](https://apireference.groupdocs.cloud/merger/) | [Code Samples](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/merger/) | [Free Support](https://forum.groupdocs.cloud/c/merger) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

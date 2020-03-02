@@ -1,11 +1,13 @@
-This cloud REST API enhances your C#, ASP.NET & other .NET cloud apps to compare two documents, fetch, accept or reject the changes. Supports 90+ file formats.
+# Document Comparison Python REST API
+
+This cloud REST API enhances your Python cloud apps to [compare two documents](https://products.groupdocs.cloud/comparison/python), fetch, accept or reject the changes. Supports 90+ file formats.
 
 ## Cloud Document Comparison Features
 
-- Compare two documents and fetch changes.
-- Fetch document changes based on change category, such as, numeric only.
-- Accept or reject the changes that come up after document comparison.
-- Get the image stream of resultant document via JsonRequest object.
+- [Compare two documents](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-changes/) and fetch changes.
+- Fetch [document changes based on change category](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-changes-categories/), such as, numeric only.
+- [Accept or reject the changes](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-document-changes/) that come up after document comparison.
+- Get the [image stream of resultant document](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-stream-of-images-of-result-document-changes/) via JsonRequest object.
 - Save the resultant document to streams as set of images.
 - Get the resultant document path.
 - Add summary page to resultant document after comparison.
@@ -35,96 +37,61 @@ This cloud REST API enhances your C#, ASP.NET & other .NET cloud apps to compare
 
 GroupDocs.Comparison Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
+## Installation
+
+Install `groupdocs-comparison-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
+
+`pip install groupdocs-comparison-cloud`
+
+Or clone repository and install it via [Setuptools](http://pypi.python.org/pypi/setuptools):
+
+`python setup.py install`
+
+Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-python) for other common usage scenarios.
+
 ## Getting Started
 
-You do not need to install anything to get started with GroupDocs.Comparison Cloud SDK for .Net. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+Please follow the [installation procedure](https://pypi.org/project/groupdocs-comparison-cloud/#installation) and then run following:
 
-Simply execute `Install-Package GroupDocs.Comparison-Cloud` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Comparison assembly in your project. If you already have GroupDocs.Comparison Cloud SDK for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Comparison-Cloud` to get the latest version.
+```python
+# Import module
+import groupdocs_comparison_cloud
 
-Please check the [GitHub Repository](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-dotnet) for other common usage scenarios.
+# Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
+app_sid = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+app_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-## Use C# Code to Compare two DOCX Files and Fetch Changes
+# Create instance of the API
+api = groupdocs_comparison_cloud.InfoApi.from_keys(app_sid, app_key)
 
-```csharp
-var configuration = new Configuration
-{
-    AppSid = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
-    AppKey = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-};
+try:
+    # Retrieve supported file-formats
+    response = api.get_supported_file_formats()
 
-// Initiate API object
-var apiInstance = new ChangesApi(configuration);
-
-// Comparison Request
-ComparisonRequest comparisonRequest = new ComparisonRequest()
-{
-    // Comparison Request Settings
-    Settings = new ComparisonRequestSettings()
-    {
-        GenerateSummaryPage = true,
-        ShowDeletedContent = true,
-        StyleChangeDetection = true,
-        UseFramesForDelInsElements = false,
-        DetailLevel = "Low",
-        DeletedItemsStyle = new StyleSettingsValues()
-        {
-            BeginSeparatorString = "",
-            EndSeparatorString = "",
-            Color = new Color().Red
-        },
-        InsertedItemsStyle = new StyleSettingsValues()
-        {
-            BeginSeparatorString = "",
-            EndSeparatorString = "",
-            Color = new Color().Blue
-        },
-        StyleChangedItemsStyle = new StyleSettingsValues()
-        {
-            BeginSeparatorString = "",
-            EndSeparatorString = "",
-            Color = new Color().Green
-        },
-        CalculateComponentCoordinates = false,
-        CloneMetadata = "Source",
-        MarkDeletedInsertedContentDeep = false,
-        MetaData = new ComparisonMetadataValues()
-        {
-            Author = "GroupDocs",
-            Company = "GroupDocs",
-            LastSaveBy = "GroupDocs"
-        },
-        Password = "",
-        PasswordSaveOption = ""
-    },
-    // Source file
-    SourceFile = new ComparisonFileInfo()
-    {
-        Folder = "comparisons",
-        Name = "source.docx",
-        Password = ""
-    }
-};
-
-List<ComparisonFileInfo> targets = new List<ComparisonFileInfo>();
-// Target file
-targets.Add(new ComparisonFileInfo()
-{
-    Folder = "comparisons",
-    Name = "target.docx",
-    Password = ""
-});
-// Target file - single or multiple target files are allowed.
-comparisonRequest.TargetFiles = targets.ToArray();
-
-// Accept or Reject changes
-comparisonRequest.Changes = new List<ComparisonChange>();
-comparisonRequest.Changes.Add(new ComparisonChange() { Id = 0, Action = "Accept" });
-comparisonRequest.Changes.Add(new ComparisonChange() { Id = 1, Action = "Reject" });
-
-// API call for response.
-var response = apiInstance.PostChanges(new Model.Requests.PostChangesRequest() { Request = comparisonRequest });
-
-Console.WriteLine(string.Format("{0}: {1}", "response is List<ComparisonChange>", response.Count.ToString()));
+    # Print out supported file-formats
+    print("Supported file-formats:")
+    for format in response.formats:
+        print('{0} ({1})'.format(format.file_format, format.extension))
+except groupdocs_comparison_cloud.ApiException as e:
+    print("Exception when calling get_supported_file_formats: {0}".format(e.message))
 ```
 
-[Product Page](https://products.groupdocs.cloud/comparison/net) | [Documentation](https://wiki.groupdocs.cloud/comparisoncloud/) | [API Reference](https://apireference.groupdocs.cloud/comparison/) | [Code Samples](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/comparison/) | [Free Support](https://forum.groupdocs.cloud/c/comparison) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+## Compare Documents via Cloud SDK for Python
+
+```python
+kwargs['_return_http_data_only'] = True
+
+        if kwargs.get('is_async'):
+            return self._comparisons_with_http_info(request, **kwargs)  # noqa: E501
+
+        (data) = self._comparisons_with_http_info(request, **kwargs)  # noqa: E501
+        return data
+```
+
+## Licensing
+
+GroupDocs.Comparison Cloud Python SDK licensed under [MIT License](http://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-python/LICENSE).
+
+[Product Page](https://products.groupdocs.cloud/comparison/python) | [Documentation](https://wiki.groupdocs.cloud/comparisoncloud/) | [API Reference](https://apireference.groupdocs.cloud/comparison/) | [Code Samples](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/comparison/) | [Free Support](https://forum.groupdocs.cloud/c/comparison) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

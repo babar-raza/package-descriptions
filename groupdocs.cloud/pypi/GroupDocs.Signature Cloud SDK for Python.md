@@ -1,4 +1,4 @@
-Use this REST API to search, verify & create signatures of 6 different types for a lot of file formats from within your C#, ASP.NET, & other .NET cloud apps.
+Use this REST API to [search, verify & create signatures](https://products.groupdocs.cloud/signature/python) of 6 different types for a lot of file formats from within your Python cloud apps.
 
 ## Cloud Document Signing Features
 
@@ -66,43 +66,62 @@ The following file formats are supported for the barcode, image, QR-code, stamp 
 
 GroupDocs.Signature Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
+## Installation
+
+Install `groupdocs-signature-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
+
+`pip install groupdocs-signature-cloud`
+
+Or clone repository and install it via [Setuptools](http://pypi.python.org/pypi/setuptools):
+
+`python setup.py install`
+
+Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-python) for other common usage scenarios.
+
 ## Getting Started
 
-You do not need to install anything to get started with GroupDocs.Signature Cloud SDK for .Net. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+Please follow the [installation procedure](https://pypi.org/project/groupdocs-signature-cloud/#installation) and then run following:
 
-Simply execute `Install-Package GroupDocs.Signature-Cloud` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Signature assembly in your project. If you already have GroupDocs.Signature Cloud SDK for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Signature-Cloud` to get the latest version.
+```python
+# Import module
+import groupdocs_signature_cloud
 
-Please check the [GitHub Repository](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-dotnet) for other common usage scenarios.
+# Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
+app_sid = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+app_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-## Verifying QRCode Signature in a Document via C# Code
+# Create instance of the API
+api = groupdocs_signature_cloud.InfoApi.from_keys(app_sid, app_key)
 
-```csharp
-var configuration = new Configuration
-{
-    AppSid = Sid,
-    AppKey = Key
-};
+try:
+    # Retrieve supported file-formats
+    response = api.get_supported_file_formats()
 
-var apiInstance = new SignatureApi(configuration);
-var verifyOptionsData = new GroupDocs.Signature.Cloud.Sdk.Model.PdfVerifyQRCodeOptionsData()
-{
-    DocumentPageNumber = 1,
-    QRCodeTypeName="QR",
-    Text = "1234567890",
-    VerifyAllPages = false
-};
-    var request = new PostVerificationQRCodeRequest
-{
-    Name = "02_pages.pdf",
-    VerifyOptionsData = verifyOptionsData,
-    Password = null,
-    Folder = "Output"
-};
-
-var response = apiInstance.PostVerificationQRCode(request);
-
-Debug.Print("FleName: " + response.FileName);
-Debug.Print("Result: " + response.Result);
+    # Print out supported file-formats
+    print("Supported file-formats:")
+    for format in response.formats:
+        print('{0} ({1})'.format(format.file_format, format.extension)) 
+except groupdocs_signature_cloud.ApiException as e:
+    print("Exception when calling get_supported_file_formats: {0}".format(e.message))
 ```
 
-[Product Page](https://products.groupdocs.cloud/signature/net) | [Documentation](https://wiki.groupdocs.cloud/signaturecloud/) | [API Reference](https://apireference.groupdocs.cloud/signature/) | [Code Samples](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/signature/) | [Free Support](https://forum.groupdocs.cloud/c/signature) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+## [HEADING]
+
+```python
+# Import module
+ def test_sign_barcode_image(self):
+        test_file = TestFile.image_jpg()
+        signedFileName = "Output\\ImageBarcodeSigned.jpg"
+        settings = self.populate_sign_options(signedFileName, 'Image', test_file)
+        response = self.sign_api.create_signatures(CreateSignaturesRequest(settings))
+        self.check_response(response, signedFileName)
+```
+
+## Licensing
+
+GroupDocs.Signature Cloud Python SDK licensed under [MIT License](http://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-python/LICENSE).
+
+
+[Product Page](https://products.groupdocs.cloud/signature/python) | [Documentation](https://wiki.groupdocs.cloud/signaturecloud/) | [API Reference](https://apireference.groupdocs.cloud/signature/) | [Code Samples](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/signature/) | [Free Support](https://forum.groupdocs.cloud/c/signature) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

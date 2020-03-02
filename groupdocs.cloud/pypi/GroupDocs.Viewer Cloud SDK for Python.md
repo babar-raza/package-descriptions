@@ -39,71 +39,56 @@ This REST API enhances your C#, ASP.NET, & other .NET based cloud apps to render
 
 GroupDocs.Viewer Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
+## Installation
+
+Install `groupdocs-viewer-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
+
+`pip install groupdocs-viewer-cloud`
+
+Or clone repository and install it via [Setuptools](http://pypi.python.org/pypi/setuptools):
+
+`python setup.py install`
+
+Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+
+The complete source code is available at the [GitHub Repository]() for other common usage scenarios.
+
 ## Getting Started
 
-You do not need to install anything to get started with GroupDocs.Viewer Cloud SDK for .Net. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+Please follow the [installation procedure](https://pypi.org/project/groupdocs-viewer-cloud/#installation) and then run following:
 
-Simply execute `Install-Package GroupDocs.Viewer-Cloud` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Viewer assembly in your project. If you already have GroupDocs.Viewer Cloud SDK for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Viewer-Cloud` to get the latest version.
+```python
+# Import module
+import groupdocs_viewer_cloud
 
-Please check the [GitHub Repository](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-dotnet) for other common usage scenarios.
+# Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
+app_sid = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+app_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-## Render DOCX Page as Responsive HTML
+# Create instance of the API
+api = groupdocs_viewer_cloud.InfoApi.from_keys(app_sid, app_key)
 
-```csharp
-var configuration = new Configuration
-{
-    AppSid = Sid,
-    AppKey = Key
-};
+try:
+    # Retrieve supported file-formats
+    response = api.get_supported_file_formats()
 
-var apiInstance = new ViewerApi(configuration);
-
-var request = new HtmlGetPageRequest
-{
-    FileName = "input.docx",
-    EnableResponsiveRendering = true,
-    PageNumber = 1,
-    EmbedResources = true,
-    Folder = null,
-    Storage = null,
-};
-
-var response = apiInstance.HtmlGetPage(request);
-
-Debug.Print("Result as IO Stream :" + response.Length.ToString());
+    # Print out supported file-formats
+    print("Supported file-formats:")
+    for format in response.formats:
+        print('{0} ({1})'.format(format.file_format, format.extension)) 
+except groupdocs_viewer_cloud.ApiException as e:
+    print("Exception when calling get_supported_file_formats: {0}".format(e.message))
 ```
 
-## Use C# to Render Outlook Data Files as HTML
+## [HEADING]
 
-```csharp
-var configuration = new Configuration("XXXX-XXXX-XXX", "XXXXXXXXXXX");
+```python
 
-var apiInstance = new ViewerApi(configuration);
-
-var file = "data.pst";
-var htmlOptions = new HtmlOptions
-{
-    EmbedResources = true,
-    OutlookOptions = new OutlookOptions
-    {
-        MaxItemsInFolder = 5
-    }
-};
-
-var request = new HtmlCreatePagesCacheFromContentRequest
-{
-    HtmlOptions = this.SerializeObject(htmlOptions),
-    File = this.GetTestFileStream(file),
-    FileName = null,
-    FontsFolder = null,
-    Folder = FromContentFolder,
-    Storage = null,
-};
-
-var response = apiInstance.HtmlCreatePagesCacheFromContent(request);
-
-Console.Write("File name:" + response.FileName);
-Console.Write("PageCount: " + response.Pages.Count);
 ```
 
-[Product Page](https://products.groupdocs.cloud/viewer/net) | [Documentation](https://wiki.groupdocs.cloud/viewercloud/) | [API Reference](https://apireference.groupdocs.cloud/viewer/) | [Code Samples](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/viewer/) | [Free Support](https://forum.groupdocs.cloud/c/viewer) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+## Licensing
+
+GroupDocs.Viewer Cloud Python SDK licensed under [MIT License](http://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-python/LICENSE).
+
+
+[Product Page]() | [Documentation](https://wiki.groupdocs.cloud/viewercloud/) | [API Reference](https://apireference.groupdocs.cloud/viewer/) | [Code Samples]() | [Blog](https://blog.groupdocs.cloud/category/viewer/) | [Free Support](https://forum.groupdocs.cloud/c/viewer) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
