@@ -1,10 +1,11 @@
-Aspose.BarCode for C++ class library enables the developers to perform barcode generation, recognition and manipulation operation from within their own C++ applications.
+# Barcode Generation & Scanning API for C++
+[Aspose.BarCode for C++](https://products.aspose.com/barcode/cpp) enables the developers to generate, scan and manipulate barcodes from within their own C++ applications. C++ Barcode Library allows to modify and customize barcode properties including font, foreground & background colors, alignment, barcode label location and barcode caption. 
 
-You can modify and customize barcode properties, such as, font, foreground color, background color, alignment, barcode location, and barcode caption. Aspose.BarCode for C++ supports most of the popular barcode symbologies, including but not limited to, EAN13, EAN8, Code11, Codabar, Databar, Code128, GS1Code128, PDF417, QR, Micro QR etc. It supports both encoding and decoding of the supported symbologies.
+Aspose.BarCode for C++ supports most of the popular barcode symbologies, including but not limited to, QR Code, Aztec, Data Matrix, ISBN, code 39 and 93, PDF417, UPC, EAN, and GS1 DataMatrix. 
 
 ## Barcode Generation Features
-- Write 1D & 2D barcode types of 50+ symbologies.
-- Customize barcode text, style & formatting.
+- Write 1D & [2D barcode types](https://docs.aspose.com/display/barcodecpp/Two+Dimensional+2D+Barcodes) of 50+ symbologies.
+- [Customize barcode text, style & formatting](https://docs.aspose.com/display/barcodecpp/Working+with+BarCode+Text+Appearance).
 - Support of X-dimension & Y-dimension for 2D barcodes.
 - Support of wide to narrow ratio for selective symbologies.
 - Exceptional optimization of Code128 encoding.
@@ -12,11 +13,12 @@ You can modify and customize barcode properties, such as, font, foreground color
 - Encode non-english characters in 2D types.
 
 ## Barcode Scanning Features
-- Read 1D & 2D barcode types of 50+ symbologies.
+- [Read 1D & 2D barcode types](https://docs.aspose.com/display/barcodecpp/Read+Barcodes+with+Aspose.BarCode+APIs) of 50+ symbologies.
 - Recognize codes from stream or image file.
 - Scan a specific area of image to detect barcode.
 - Get region information for the barcodes recognized in the image.
 - Decode non-English characters in 2D types.
+- [Optimize barcode scanning process](https://docs.aspose.com/display/barcodecpp/Improve+Barcode+Recognition).
 
 ## Barcode Imaging Features
 - Customize the barcode image's borders, border color, style, margins, width and so on.
@@ -24,7 +26,6 @@ You can modify and customize barcode properties, such as, font, foreground color
 - Rotate barcode images to any angle.
 - Generate high-quality barcode images with custom resolution.
 - Support for anti-Aliasing.
-- Specify size in inches and millimetres.
 - Create barcode images in any desired image format like BMP, JPEG, GIF, PNG, TIFF.
 - Create device resolution dependent images.
 

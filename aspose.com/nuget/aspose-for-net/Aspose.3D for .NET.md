@@ -1,16 +1,14 @@
-## Aspose.3D in a Nutshell
-Aspose.3D for .NET is a standalone, on premise API to help developers seamlessly integrate 3D processing & rendering functionality into .NET based applications.
-
-Aspose.3D for .NET enhances your .NET applications to work with various materials (lambert, phong, shader-based, PBR, PBR specular), textures (diffuse, advanced texture), meshes (polygon, triangle-based) geometries (vertex, NURBS, parameterized), vertex elements, local transformation, instancing, scene graph, custom property, skeleton, morph deformer, property animation, mesh compression and more. 
+# .NET API for 3D File Formats
+[Aspose.3D for .NET](http://products.aspose.com/3d/net) empowers .NET applications to connect with 3D document formats. 3D .NET API lets engineers read, convert, build, alter and control the substance of the [3D document formats](https://docs.aspose.com/display/3dnet/Supported+File+Formats) without any 3D modeling and rendering software installed on the machine.
 
 ## 3D File Processing Features
-- Detect format of a 3D file.
+- [Import 3D scenes from PDF](https://docs.aspose.com/display/3dnet/Import+3D+Scenes+and+Contents+from+a+PDF).
 - Import, create, customize, & save 3D scenes.
-- Create 3D mesh & scale geometries of a 3D scene.
+- [Create 3D mesh](https://docs.aspose.com/display/3dnet/Create+3D+Mesh+and+Scene) & [scale geometries of a 3D scene](https://docs.aspose.com/display/3dnet/Scale+geometries+of+a+3D+Scene).
 - Configure cube by setting up normals or UV.
 - Perform element formatting using 3D transformations.
 - Share geometry data among multiple nodes of a mesh.
-- Add 3D scene animation.
+- [Add 3D scene animation](https://docs.aspose.com/display/3dnet/Add+Animation+Property+and+Setup+Target+Camera+in+3D+document).
 - Work with 3D objects & models.
 
 ## Read & Write 3D Formats
@@ -35,13 +33,13 @@ Aspose.3D for .NET enhances your .NET applications to work with various material
 **Other:** DXF, ASF, VRML, 3MF
 
 ## Platform Independence
-Aspose.3D for .NET is written in C# and supports Windows Forms as well as ASP.NET apps. Development can be performed on any platform that has .NET environment for both 32-bit and 64-bit applications. It supports .NET Frameworks 2.0 uptil 4.7.2 as well as Client Profile version for .NET Framework 4.0.
+Aspose.3D for .NET is written in C# and supports Windows Forms as well as ASP.NET apps. Development can be performed on any platform that has .NET environment for both 32-bit and 64-bit applications. It supports .NET Frameworks 2.0 till 4.7.2 as well as Client Profile version for .NET Framework 4.0.
 
 ## Getting Started with Aspose.3D for .NET
 Are you ready to give Aspose.3D for .NET a try? Simply execute `Install-Package Aspose.3D` from the Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.3D for .NET and want to upgrade the version, please execute `Update-Package Aspose.3D` to get the latest version.
 
 ## Build a Scene with Primitive 3D Models using C#
-You can execute below code snippet to see how Aspose.3D API performs in your environment or check the [GitHub Repository](https://github.com/aspose-3d/Aspose.3D-for-.NET) for other common usage scenarios.
+You can execute below code snippet to see how Aspose.3D performs in your environment or check the [GitHub Repository](https://github.com/aspose-3d/Aspose.3D-for-.NET) for other common usage scenarios.
 ```csharp
 // initialize a Scene object
 Scene scene = new Scene();

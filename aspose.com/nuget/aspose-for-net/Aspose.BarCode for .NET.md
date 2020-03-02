@@ -1,13 +1,12 @@
-A standalone C# library to help developers generate, recognize, customize & format 1D & 2D barcodes (40+ symbologies) from within .NET based applications.
-
-Aspose.BarCode for .NET doesn't just create or recognize barcodes but it provides a complete framework to control almost everything about them. Developers can customization the barcode's appearance including bar height, color, margins, borders and so on. While scanning for barcode, developers can specify area where a barcode can be found as well as direct the engine to look for rotated barcodes.
+# Barcode Generation & Recognition Library for .NET Applications
+[Aspose.BarCode for .NET](https://products.aspose.com/barcode/net) doesn't just create or recognize barcodes but it provides a complete framework to control almost everything about barcodes. Developers can customization the barcode's appearance including bar height, color, margins, borders and so on. While scanning for barcode, developers can specify area where a barcode can be found as well as direct the engine to look for rotated barcodes.
 
 ## Barcode API Features
-- Generate & recognize 40+ barcode symbologies
+- [Generate](https://docs.aspose.com/display/barcodenet/Generate+Barcodes+with+Aspose.BarCode+APIs) & [recognize](https://docs.aspose.com/display/barcodenet/Read+Barcodes+with+Aspose.BarCode+APIs) 40+ barcode symbologies with just a few lines of code.
 - Read 1D & 2D barcodes at any angle.
 - Easily print barcode labels to physical or virtual printers.
-- Format barcode text.
-- Support for supplement data and checksum.
+- [Export barcode as XML](https://docs.aspose.com/display/barcodenet/Barcode+in+XML).
+- Support for [barcode supplement data and checksum](https://docs.aspose.com/display/barcodenet/Use+Checksum+and+Supplement+Data).
 - Optimized code128 encoding.
 - Specify image area to scan barcode.
 - Create device resolution dependent images.
@@ -24,7 +23,7 @@ Aspose.BarCode for .NET doesn't just create or recognize barcodes but it provide
 **Images:** EMF, SVG
 
 ## Platform Independence
-Aspose.BarCode for .NET can easily be used in any .NET 32-bit or 64-bit application, including, WinForms, WPF, ASP.NET, and .NET core. In short, you can easily develop apps using Aspose.BarCode for .NET where the .NET framework is available.
+Aspose.BarCode for .NET can easily be used in any .NET 32-bit or 64-bit application, including, WinForms, WPF, ASP.NET, and .NET core. In short, you can develop apps using Aspose.BarCode for .NET where the .NET framework is available.
 
 ## Getting Started with Aspose.BarCode for .NET
 Are you ready to give Aspose.BarCode for .NET a try? Simply execute `Install-Package Aspose.BarCode` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.BarCode for .NET and want to upgrade the version, please execute `Update-Package Aspose.BarCode` to get the latest version.
