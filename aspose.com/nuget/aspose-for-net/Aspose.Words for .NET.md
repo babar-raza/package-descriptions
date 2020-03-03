@@ -14,6 +14,17 @@ It is a powerful on-premise class library that can be used for numerous [documen
 - Generate reports with Mail Merge that allows populating documents with data from various sources.
 - [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) to fetch data from databases, XML, JSON, OData, external documents and more.
 
+## New Features in Version 20.3.0
+
+- LINQ Reporting Engine - Option to fit the image within textbox bounds while maintaining ratio.
+- Ability to set different attributes of Shape inside `IFieldMergingCallback.ImageFieldMerging`.
+- `FindReplaceOptions` new properties.
+- Ability to get column of table by bookmark.
+- Implement color change for side faces.
+- Implement correct contour rendering for volume shapes.
+
+For a detailed list of new features, enhancements as well as public API and backward incompatible changes, please visit [Aspose.Words for .NET 20.3 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.3+Release+Notes).
+
 ## Read & Write Document Formats
 
 **Microsoft Word:** DOC, DOCX, RTF, DOT, DOTX, DOTM, DOCM FlatOPC, FlatOpcMacroEnabled, FlatOpcTemplate, FlatOpcTemplateMacroEnabled
