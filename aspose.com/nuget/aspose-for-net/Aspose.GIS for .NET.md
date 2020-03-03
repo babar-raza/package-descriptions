@@ -21,6 +21,17 @@ It allows to read and write GIS data, [convert GIS file formats](https://docs.as
 - Perform vector analysis & [manipulate geometries](https://docs.aspose.com/display/gisnet/Working+with+Geometries).
 - Support for [Spatial Reference Systems](https://docs.aspose.com/display/gisnet/Spatial+Reference+Systems).
 
+## New Features in Version 20.2.0
+
+- Export style properties to KML.
+
+## Enhancements in Version 20.2.0
+
+- Read `BBOX` members from `GeoJSON`.
+- Generate `BBOX` members in created `GeoJSON`.
+
+For detailed notes, please visit [Aspose.GIS for .NET 20.02 Release Notes](https://docs.aspose.com/display/gisnet/Aspose.GIS+for+.NET+20.02+Release+Notes).
+
 ## Read & Write GIS Formats
 
 **ESRI Shapefile:** SHP, SHX, DBF

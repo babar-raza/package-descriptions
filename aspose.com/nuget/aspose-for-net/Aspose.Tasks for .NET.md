@@ -19,6 +19,53 @@ Aspose.Tasks for .NET on premise API enables you to work with projects, formulas
 - Encode MPX files.
 - Comprehensive project reporting (15+ types of reports).
 
+## Major features in Version 20.2.0
+
+Support to work with the built-in and custom properties of a project.
+
+### Old meta properties API
+
+```csharp
+// custom properties are available through the dictionary of untyped properties
+foreach (KeyValuePair<string, object> documentCustomProperty in document.CustomProperties)
+{
+  Console.WriteLine(documentCustomProperty.Key);
+  Console.WriteLine(documentCustomProperty.Value);
+}
+// built-in properties are available through the Project class
+var project = new Project("Project.mpp");
+Console.WriteLine(project.Get(Prj.Title));
+Console.WriteLine(project.Get(Prj.Author));
+// ... etc.
+```
+
+### New meta properties API
+
+```csharp
+// custom properties are available through the typed collection
+foreach (var property in project.CustomProps)
+{
+   Console.WriteLine(property.Type);
+   Console.WriteLine(property.Name);
+   Console.WriteLine(property.Value);
+}
+ 
+// built-in properties are available directly
+Console.WriteLine(project.BuiltInProps.Author);
+Сonsole.WriteLine(project.BuiltInProps.Title);
+// ... etc.
+ 
+// or as an item of built-in property collection
+foreach (var property in project.BuiltInProps)
+{
+   Console.WriteLine(property.Name);
+   Console.WriteLine(property.Value);
+   // ... etc.
+}
+```
+
+For the detailed notes, please visit [Aspose.Tasks for .NET 20.2 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.2+Release+Notes).
+
 ## Read & Write Project Formats
 
 **Microsoft Project:** MPP, MPT, MPX, XML

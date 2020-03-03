@@ -18,6 +18,28 @@ The classes and properties of Aspose.HTML for .NET API have similar names as tha
 - Extract CSS styling information.
 - Configuring Sandbox for the environment independent of the execution machine.
 
+## Added APIs in Version 20.2.0
+
+Added new service `IRuntimeService`, which provides `JavaScriptTimeout` property, that allows you to specify JavaScript processing timeout. It can be used to speed up the rendering process or to stop the execution of infinite JavaScripts.
+
+```csharp
+namespace Aspose.Html.Services
+{
+    /// <summary>
+    /// This service is used to configure runtime related properties.
+    /// </summary>
+    public interface IRuntimeService : IService
+    {
+        /// <summary>
+        /// Gets or sets <see cref="TimeSpan"/> which limits JavaScript execution time. If script is executed longer than provided <see cref="TimeSpan"/>, it will be cancelled. You can specify infinite timeout by setting <see cref="TimeSpan"/> equal to -1 millisecond. Default value is 1 minute.
+        /// </summary>
+        TimeSpan JavaScriptTimeout { get; set; }
+    }
+}
+```
+
+For detailed notes, please visit [Aspose.HTML for .NET 20.2 Release Notes](https://docs.aspose.com/display/htmlnet/Aspose.HTML+for+.NET+20.2+Release+Notes).
+
 ## Read & Write Web Formats
 
 **Web:** HTML, XHTML, MHTML

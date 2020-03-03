@@ -15,7 +15,14 @@ Aspose.Cells for .NET provides Grid solution with two GUI based .NET controls. [
 - Create & customize [Excel charts](https://docs.aspose.com/display/cellsnet/Creating+and+Customizing+Charts), [Pivot Tables](https://docs.aspose.com/display/cellsnet/Pivot+Tables), conditional formatting rules, [slicers](https://docs.aspose.com/display/cellsnet/Slicers), [tables](https://docs.aspose.com/display/cellsnet/Tables) & spark-lines.
 - Convert Excel charts to images & PDF.
 - Convert Excel files to various other formats.
-- [Formula calculation engine that supports all basic and advanced Excel functions](https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions).
+- [Formula calculation engine](https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions) that supports all basic and advanced Excel functions.
+
+## New Features in Version 20.2.0
+
+- Pipe-delimited / CSV to JSON conversion.
+- Link between the Pivot Table and the external connection.
+
+For a detailed list, please visit [Aspose.Cells for .NET 20.2 Release Notes](https://docs.aspose.com/display/cellsnet/Aspose.Cells+for+.NET+20.2+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 

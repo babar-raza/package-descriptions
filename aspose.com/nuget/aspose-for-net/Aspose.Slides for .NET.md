@@ -10,6 +10,13 @@
 - Presentation Security: Load protected presentations or control access to presentations, slides or objects via advanced security features.
 - Availability of 24 pre-defined textures & 48 patterns for quick styling.
 
+## New Features in Version 20.2.0
+
+- Support for getting size of paragraph and portion inside table cell text frame.
+- Update custom document properties directly on the source document.
+
+For a detailed list, please visit [Aspose.Slides for .NET 20.2 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.2+Release+Notes).
+
 ## Read & Write Presentations
 
 **Microsoft PowerPoint:** PPT, PPTX, PPS, POT, PPSX, PPTM, PPSM, POTX, POTM

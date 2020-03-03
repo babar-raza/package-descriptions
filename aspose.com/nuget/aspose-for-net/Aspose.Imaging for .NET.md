@@ -14,6 +14,17 @@ Aspose.Imaging for .NET offers robust image compression and high processing spee
 - De-skew & transform images.
 - Set image properties.
 
+## New Features in Version 20.2.0
+
+- Support for different raster data types in TIFF format.
+- Exception on converting TIFF to PNG.
+- Allow speed or memory optimization strategies for Tiff format.
+- Allow speed or memory optimization strategies for Gif format.
+- Unify processing of multi-page image export.
+- Introduced new classes for vector and multi-page images.
+
+For a detailed list, please visit [Aspose.Imaging for .NET 20.2 - Release Notes](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+20.2+-+Release+notes).
+
 ## Read & Write Image Formats
 
 **Raster Formats:** JPEG2000, JPEG, BMP, TIFF, GIF, PNG

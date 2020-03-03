@@ -13,25 +13,21 @@
 - [Add 3D scene animation](https://docs.aspose.com/display/3dnet/Add+Animation+Property+and+Setup+Target+Camera+in+3D+document).
 - Work with 3D objects & models.
 
-## New Features in Version 20.2
+## Enhancements in Version 20.3.0
 
-- IFC compatible procedural `I` shape generation.
-- IFC compatible procedural `C` shape generation.
-- IFC compatible procedural `Z` shape generation.
-- IFC compatible procedural `L` shape generation.
-- IFC compatible procedural `T` shape generation.
-- IFC compatible procedural `U` shape generation.
-- IFC compatible procedural rectangle shape generation.
-- IFC compatible procedural circle shape generation.
-- IFC compatible procedural ellipse shape generation.
+- Text rendering support in web renderer.
+- Ruler render in web renderer.
 
-## Enhancements in Version 20.2
+## New Members Added in Version 20.3.0
 
-- Added transparency rendering support in web renderer.
-- Display bounding box if node selected in Asset browser.
-- Added the rendering support of shape.
+- Added new members in class `Aspose.ThreeD.Formats.HTML5SaveOptions`.
 
-For detailed examples of each new feature, please visit [Aspose.3D for .NET 20.2 Release Notes](https://docs.aspose.com/display/3dnet/Aspose.3D+for+.NET+20.2+Release+Notes).
+```csharp
+Scene s = new Scene("test.fbx");
+s.Save("output.html", new HTML5SaveOptions() { ShowRulers = true });
+```
+
+For a detailed list as well as the public API and backward incompatible changes, please visit [Aspose.3D for .NET 20.3 Release Notes](https://docs.aspose.com/display/3dnet/Aspose.3D+for+.NET+20.3+Release+Notes).
 
 ## Read & Write 3D Formats
 

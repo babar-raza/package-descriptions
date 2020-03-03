@@ -22,6 +22,15 @@ Integrate PDF creation, processing, manipulation & conversion features into your
 - Print PDF documents to physical or virtual printers with or without print dialog.
 - Set document viewer preferences as well as manipulate document information & XMP metadata.
 
+## Added APIs in Version 20.2.0
+
+- Property `Aspose.Pdf.Annotations.Annotation.TextHorizontalAlignment`
+- Property `Aspose.Pdf.DocSaveOptions.BatchSize`
+- Property `Aspose.Pdf.Facades.PdfFileEditor.KeepActions`
+- Property `Aspose.Pdf.Forms.TextBoxField.TextVerticalAlignment`
+
+For a detailed list, please visit [Aspose.PDF for .NET 20.2 Release Notes](https://docs.aspose.com/display/pdfnet/Aspose.PDF+for+.NET+20.2+Release+Notes).
+
 ## Read & Write PDF & Other Formats
 
 **Fixed Layout:** PDF, PDF/A, PDF/UA, XPS

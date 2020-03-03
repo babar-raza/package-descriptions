@@ -7,6 +7,18 @@
 - Read Microsoft Publisher [(PUB) files for conversion to PDF](https://docs.aspose.com/display/pubnet/PUB+to+PDF) format.
 - [Read & write metadata of PUB files](https://docs.aspose.com/display/pubnet/Programming+with+Documents#ProgrammingwithDocuments-EditMetaDataofPUBFiles) via API.
 
+## New Features in Version 20.2.0
+
+- Support [multi-page documents](https://docs.aspose.com/display/pubnet/PUB+to+PDF).
+- Add [product version information](https://docs.aspose.com/display/pubnet/Installation#Installation-GetAssemblyBuildVersionInformation): `BuildVersionInfo` class.
+
+## Enhancements in Version 20.2.0
+
+- Refactor [Converter classes](https://docs.aspose.com/display/pubnet/PUB+to+PDF).
+- Refactor tests. Improved work with templates.
+
+For the detailed notes, please visit [Aspose.PUB for .NET 20.2 Release Notes](https://docs.aspose.com/display/pubnet/Aspose.PUB+for+.NET+20.2+Release+Notes).
+
 ## Read PUB Files
 
 **Microsoft Publisher:** PUB
