@@ -1,8 +1,9 @@
-This cloud SDK assists you to seamlessly integrate barcode generation, processing & conversion functionality into your Node.js cloud apps.
+Node.js Cloud SDK wraps Aspose.BarCode Cloud API so you could seamlessly integrate barcode generation & recognition features into your own Node.js apps.
 
-Generate new barcodes (Linear, 2D & Postal), configure barcode properties and attributes, such as, barcode height, dimensions, image format, and more. Scan existing barcodes belonging to 60+ symbologies, including, Codabar, PDF417, QR, MicroQR, EAN, Postnet, UPC, RM4SCC and many more.
+# Barcode Generation & Recognition in the Cloud
+Generate barcodes (Linear, 2D & Postal), configure barcode properties and attributes, such as, barcode height, dimensions, image format, and more. Scan existing barcodes from 60+ symbologies, including, Codabar, PDF417, QR, MicroQR, EAN, Postnet, UPC, RM4SCC and many more.
 
-## BarCode Processing Features
+## Barcode Read & Write Features
 
 - Generate, scan and customize 1D (linear), 2D and postal barcodes.
 - Generate and recognize barcodes with checksum option.
@@ -16,11 +17,11 @@ Generate new barcodes (Linear, 2D & Postal), configure barcode properties and at
 - Recognize specified number of barcodes.
 - Apply image processing algorithms to read barcodes.
 
-## Read & Write BarCode Formats
+## Read & Write BarCode From Images
 
 JPEG, TIFF, PNG, BMP, GIF
 
-## Save BarCode As
+## Save BarCode Labels As
 
 EMF, SVG
 
@@ -37,28 +38,45 @@ Postnet, Planet, USPS OneCode, Australia Post, Deutsche Post Identcode, Deutsche
 
 ## Platform Independence
 
-Aspose.BarCode Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+Aspose.BarCode Cloud’s is a true REST API that can be used from any platform. You can use it with any language that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started
+## Getting Started with Aspose.BarCode Cloud SDK for Node.js
 
 You do not need to install anything to get started with Aspose.BarCode Cloud SDK for Node.js. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
 
-The complete source code is available at the [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
+The complete source code is available at [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
 
-To install Aspose.BarCode for Cloud via NPM, please execute from the command line, `npm install aspose-barcode-cloud-node --save`.
+Please execute `npm install aspose-barcode-cloud-node --save` from the command line to install Aspose.BarCode for Cloud via NPM.
 
-## Using C# to Generate PDF417 Barcode
+## Using Node.js to Generate PDF417 Barcode
 
 ```js
 const { barcode, fs } = require("aspose-barcode-cloud-node", "fs");
-
 var api = new barcode.BarCodeApi(AppSid, AppKey);
-
 api.barCodeGetBarCodeGenerate("Aspose.BarCode for Cloud Sample", "Pdf417", "png").then((apiResult) => {
        if (apiResult.response.statusCode == 200) {
-           fs.writeFile("out.png", apiResult.body);
-           console.log("Saved to out.png ");
+           fs.writeFile("output.png", apiResult.body);
        }
+});
+```
+
+## Send Barcode Image in Request for Scanning via Node.js
+```js
+var config = {'appSid':AppSID,'apiKey':AppKey , 'debug' : true};
+var storageApi = new StorageApi(config);
+var barcodeApi = new BarcodeApi(config);
+var name = "template.jpeg";
+
+storageApi.PutCreate(name  , null, null, data_path + name  , function(responseMessage) 
+{
+	barcodeApi.PostBarcodeRecognizeFromUrlorContent(null, null, null, null, null, data_path + name, function(responseMessage) 
+	{		
+		responseMessage.body.Barcodes.forEach(function(barcode) 
+		{
+			console.log("Type :: " + barcode.BarcodeType);
+			console.log("Codetext :: " + barcode.BarcodeValue);
+		});
+	});
 });
 ```
 
