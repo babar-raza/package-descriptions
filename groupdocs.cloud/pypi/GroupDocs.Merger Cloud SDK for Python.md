@@ -47,6 +47,10 @@ The following file formats are supported for trimming, moving, swapping pages or
 
 GroupDocs.Merger Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
+## Dependencies
+
+- Python 2.7 or 3.4+
+
 ## Installation
 
 Install `groupdocs-merger-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
@@ -88,16 +92,30 @@ except groupdocs_merger_cloud.ApiException as e:
     print("Exception when calling get_supported_file_formats: {0}".format(e.message))
 ```
 
-## Split Single Document to Multiple Documents using Python
+## Python SDK to Join DOCX Document Pages
 
 ```python
-kwargs['_return_http_data_only'] = True
+# For complete examples and data files, please go to https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-python-samples
+app_sid = "XXXX-XXXX-XXXX-XXXX" # Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+app_key = "XXXXXXXXXXXXXXXX" # Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+  
+documentApi = groupdocs_merger_cloud.DocumentApi.from_keys(app_sid, app_key)
 
-        if kwargs.get('is_async'):
-            return self._split_with_http_info(request, **kwargs)  # noqa: E501
+item1 = groupdocs_merger_cloud.JoinItem()
+item1.file_info = groupdocs_merger_cloud.FileInfo("WordProcessing/sample-10-pages.docx")
+item1.pages = [3, 6, 8]
 
-        (data) = self._split_with_http_info(request, **kwargs)  # noqa: E501
-        return data
+item2 = groupdocs_merger_cloud.JoinItem()
+item2.file_info = groupdocs_merger_cloud.FileInfo("WordProcessing/four-pages.docx")
+item2.start_page_number = 1
+item2.end_page_number = 4
+item2.range_mode = "OddPages"
+
+options = groupdocs_merger_cloud.JoinOptions()
+options.join_items = [item1, item2]
+options.output_path = "Output/joined-pages.docx"
+
+result = documentApi.join(groupdocs_merger_cloud.JoinRequest(options))
 ```
 
 [Product Page](https://products.groupdocs.cloud/merger/python) | [Documentation](https://wiki.groupdocs.cloud/mergercloud/) | [API Reference](https://apireference.groupdocs.cloud/merger/) | [Code Samples](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/merger/) | [Free Support](https://forum.groupdocs.cloud/c/merger) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

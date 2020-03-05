@@ -1,18 +1,21 @@
 # Barcode Generation & Scanning API for C++
+
 [Aspose.BarCode for C++](https://products.aspose.com/barcode/cpp) enables the developers to generate, scan and manipulate barcodes from within their own C++ applications. C++ Barcode Library allows to modify and customize barcode properties including font, foreground & background colors, alignment, barcode label location and barcode caption. 
 
-Aspose.BarCode for C++ supports most of the popular barcode symbologies, including but not limited to, QR Code, Aztec, Data Matrix, ISBN, code 39 and 93, PDF417, UPC, EAN, and GS1 DataMatrix. 
+Aspose.BarCode for C++ supports most of the popular barcode symbologies, including but not limited to, QR Code, Aztec, Data Matrix, ISBN, code 39 and 93, PDF417, UPC, EAN, and GS1 DataMatrix.
 
 ## Barcode Generation Features
+
 - Write 1D & [2D barcode types](https://docs.aspose.com/display/barcodecpp/Two+Dimensional+2D+Barcodes) of 50+ symbologies.
 - [Customize barcode text, style & formatting](https://docs.aspose.com/display/barcodecpp/Working+with+BarCode+Text+Appearance).
 - Support of X-dimension & Y-dimension for 2D barcodes.
 - Support of wide to narrow ratio for selective symbologies.
 - Exceptional optimization of Code128 encoding.
 - Save barcode labels as images of popular formats including PNG, JPG, BMP and more.
-- Encode non-english characters in 2D types.
+- Encode non-English characters in 2D types.
 
 ## Barcode Scanning Features
+
 - [Read 1D & 2D barcode types](https://docs.aspose.com/display/barcodecpp/Read+Barcodes+with+Aspose.BarCode+APIs) of 50+ symbologies.
 - Recognize codes from stream or image file.
 - Scan a specific area of image to detect barcode.
@@ -21,6 +24,7 @@ Aspose.BarCode for C++ supports most of the popular barcode symbologies, includi
 - [Optimize barcode scanning process](https://docs.aspose.com/display/barcodecpp/Improve+Barcode+Recognition).
 
 ## Barcode Imaging Features
+
 - Customize the barcode image's borders, border color, style, margins, width and so on.
 - Customize barcode image's color, back color and bar color.
 - Rotate barcode images to any angle.
@@ -30,17 +34,21 @@ Aspose.BarCode for C++ supports most of the popular barcode symbologies, includi
 - Create device resolution dependent images.
 
 ## Supported Barcode Symbologies
+
 **Numeric Only:** EAN13,  EAN8, UPCA, UPCE, ISBN, ISMN, ISSN, Interleaved2of5,  Standard2of5, MSI, Code11, Codabar, Postnet, Planet, EAN14(SCC14), SSCC18, ITF14, IATA2of5, DatabarOmniDirectional, DatabarStackedOmniDirectional, DatabarExpandedStacked,   DatabarStacked, DatabarLimited, DatabarTruncated
 **Alpha-Numeric:** GS1Code128, Code128, Code39 Extended, Code39 Standard, Code93 Extended, Code93 Standard, Australia Post, Italian Post 25, Matrix2of5, DatabarExpanded. PatchCode
 **2D Symbologies:** PDF417, DataMatrix, Aztec, QR, MicroQR, GS1DataMatrix, Code16K, CompactPDF417, Swiss QR (QR Bill)
 
 ## Read & Write Barcode Labels
+
 **Images:** JPEG, TIFF, PNG, BMP, GIF, EXIF
 
 ## Save Barcode Labels As
+
 **Images:** EMF, SVG
 
 ## Generate Code128 Barcode in PNG Format
+
 You can execute below code snippet to see how Aspose.BarCode API works in your development environment. You may also check the [GitHub Repository](https://github.com/aspose-barcode/Aspose.Barcode-for-C) for other common usage scenarios.
 
 ```c++
@@ -50,6 +58,7 @@ generator->Save(dir + u"output.png");
 ```
 
 ## Hide Barcode Label Text using C++
+
 Aspose.BarCode for C++ allows you to customize various properties of barcodes, such as, borders, color, type, bar height as well as barcode text. Following example shows, how simple it is to hide the barcode text using C++:
 
 ```c++
@@ -61,4 +70,5 @@ System::SharedPtr<BarcodeGenerator> generator = [&] { auto tmp_0 = System::MakeO
 tmp_0->get_Parameters()->get_Barcode()->get_CodeTextParameters()->set_Location(CodeLocation::None); return tmp_0; }();
 generator->Save(dir + u"output.png", BarCodeImageFormat::Png);
 ```
+
 [Product Page](https://products.aspose.com/barcode/cpp) | [Documentation](https://docs.aspose.com/display/barcodecpp/Home) | [API Reference](https://apireference.aspose.com/cpp/barcode) | [Code Examples](https://github.com/aspose-barcode/Aspose.Barcode-for-C) | [Blog](https://blog.aspose.com/category/barcode/) | [Free Support](https://forum.aspose.com/c/barcode) | [Temporary License](https://purchase.aspose.com/temporary-license)

@@ -1,14 +1,14 @@
-Use this REST API to [search, verify & create signatures](https://products.groupdocs.cloud/signature/python) of 6 different types for a lot of file formats from within your Python cloud apps.
+Use this REST API to [search, verify & create signatures](https://products.groupdocs.cloud/signature/python) of 6 different types for a [lot of file formats](https://wiki.groupdocs.cloud/signaturecloud/getting-started/supported-document-formats/) from within your Python cloud apps.
 
 ## Cloud Document Signing Features
 
 - Supports application of several types of document signatures.
+- Create and apply [highly configurable](https://wiki.groupdocs.cloud/signaturecloud/developer-guide/common-resources/signature-options-objects/) signatures.
 - Specify pages (even, odd, specific etc.) to apply the signature on.
 - Configure page padding options.
 - Specify font, color, alignment & other appearance settings for the signature.
 - Apply crop settings for the signature background.
 - Setting to repeat the signature string to fill the specified area.
-- Supports CryptoApi & XmlDsig methods of digital signatures.
 - Configure alignment of text string along the barcode type signature.
 - Support for various types of brushes to perform signature formatting.
 - Apply signature to password-protected documents.
@@ -66,6 +66,10 @@ The following file formats are supported for the barcode, image, QR-code, stamp 
 
 GroupDocs.Signature Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
+## Dependencies
+
+- Python 2.7 or 3.4+
+
 ## Installation
 
 Install `groupdocs-signature-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
@@ -107,21 +111,49 @@ except groupdocs_signature_cloud.ApiException as e:
     print("Exception when calling get_supported_file_formats: {0}".format(e.message))
 ```
 
-## [HEADING]
+## Use Python SDK to Search Barcode Signature in a Spreadsheet at Provided URL
 
 ```python
 # Import module
- def test_sign_barcode_image(self):
-        test_file = TestFile.image_jpg()
-        signedFileName = "Output\\ImageBarcodeSigned.jpg"
-        settings = self.populate_sign_options(signedFileName, 'Image', test_file)
-        response = self.sign_api.create_signatures(CreateSignaturesRequest(settings))
-        self.check_response(response, signedFileName)
+from groupdocs_signature_cloud.rest import ApiException
+from Common_Utilities.Utils import Common_Utilities
+from groupdocs_signature_cloud.models.cells_search_barcode_options_data import CellsSearchBarcodeOptionsData
+from groupdocs_signature_cloud.models.requests.post_search_barcode_from_url_request import PostSearchBarcodeFromUrlRequest
+
+class Search_Signature_Barcode_From_Url:
+
+    @staticmethod
+    def Post_Search_Signature_Barcode_From_Url():
+
+        try:
+            # Getting instance of the API
+            api = Common_Utilities.Get_SignatureApi_Instance();
+
+            Url = "https://www.dropbox.com/s/o9k7gweapq8k15l/SignedForVerificationAll.xlsx?dl=1"
+            password = ""
+
+            options = CellsSearchBarcodeOptionsData()
+
+            # set barcode properties
+            options.barcode_type_name ="Code39Standard"
+            options.text = "12345678"
+            # set match type
+            options.match_type ="Contains"
+            #set pages for search
+            options.document_page_number = 1
+
+            request = PostSearchBarcodeFromUrlRequest(Url, options, password, Common_Utilities.storage_name)
+
+            response = api.post_search_barcode_from_url(request)
+
+            print("Searched Count: " + str(len(response.signatures)));
+
+        except ApiException as e:
+            print("Exception when calling SignatureApi: {0}".format(e.message))
 ```
 
 ## Licensing
 
 GroupDocs.Signature Cloud Python SDK licensed under [MIT License](http://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-python/LICENSE).
-
 
 [Product Page](https://products.groupdocs.cloud/signature/python) | [Documentation](https://wiki.groupdocs.cloud/signaturecloud/) | [API Reference](https://apireference.groupdocs.cloud/signature/) | [Code Samples](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/signature/) | [Free Support](https://forum.groupdocs.cloud/c/signature) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

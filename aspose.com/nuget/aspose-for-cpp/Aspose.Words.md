@@ -1,8 +1,11 @@
+# C++ API for Word Document Processing
+
 A standalone C++ class library to load, save, format & convert Microsoft Word® documents without Office Automation.
 
-Aspose.Words for C++ is a powerful on premise API that can be used for a great range of document processing tasks such as; working with paragraphs, text, images, text boxes, shapes, tables, rows, cells, fields, form fields, hyperlinks, bookmarks, document sections, headers, footers, footnotes, end-notes, and comments.
+[Aspose.Words for C++](https://products.aspose.com/words/cpp) is a powerful on premise API that can be used for a great range of document processing tasks such as; working with paragraphs, text, images, text boxes, shapes, tables, rows, cells, fields, form fields, hyperlinks, bookmarks, document sections, headers, footers, footnotes, end-notes, and comments.
 
 ## Word File Processing Features
+
 - Copy & move elements from one document to another.
 - Join or split documents.
 - Get and set document properties.
@@ -23,8 +26,30 @@ Aspose.Words for C++ is a powerful on premise API that can be used for a great r
 - Create or modify a Microsoft Word mail merge data source for a document.
 - Preserve mail merge settings & data sources.
 
+## New Features in Version 20.2.0
+
+- Support for encrypted documents.
+- Supports Elliptic Curve Digital Signature Algorithm (ECDSA) signatures.
+- Supports field formats when `FieldMergingArgs.Text` is used.
+- Append `VBA` from one document to another using `Document.AppendDocument`.
+- Export `w:colFirst` and `w:colLast` properties of `bookmarkStart`.
+
+## Limitations and API Differences in Version 20.2.0
+
+Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. The functionality that is not available in the current release is as follows:
+
+- Some cryptography features are not supported, i.e., it cannot verify and sign documents.
+- Downloading remote resources from the Internet.
+- Metered license.
+- Multipage TIFF format.
+- LINQ and Reporting features.
+- Limited support for database features - C++ does not have a common API for DB like .NET `System.Data`.
+- Only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
+
+For the detailed notes, please visit [Aspose.Words for CPP 20.2 Release Notes](https://docs.aspose.com/display/wordscpp/Aspose.Words+for+CPP+20.2+Release+Notes).
 
 ## Read & Write Word Processing Files
+
 **Microsoft Word:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, RTF, FlatOPC, FlatOpcMacroEnabled, FlatOpcTemplate, FlatOpcTemplateMacroEnabled
 **WordprocessingML:** WordML
 **Web:** HTML, MHTML
@@ -32,16 +57,19 @@ Aspose.Words for C++ is a powerful on premise API that can be used for a great r
 **Other:** TXT, MOBI
 
 ## Save Word Documents As
+
 **Fixed Layout:** PDF, XPS, OpenXPS
 **Graphics:** SVG, EMF
 **Web:** HtmlFixed
 **Other:** PS, PCL, XamlFlow, XamlFixed, EPUB
 
 ## Getting Started with Aspose.Words for C++
+
 Are you ready to give Aspose.Words for C++ a try? Simply execute `Install-Package Aspose.Words.Cpp` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Words for C++ and want to upgrade the version, please execute `Update-Package Aspose.Words.Cpp` to get the latest version.
 
 ### Create DOCX with HelloWorld Text via C++
-Try executing the following snippet to see how Aspose.Words for C++ performs in your own environment or check the [GitHub Repository](https://github.com/aspose-words/Aspose.Words-for-C) for other common usage scenarios. 
+
+Try executing the following snippet to see how Aspose.Words for C++ performs in your own environment or check the [GitHub Repository](https://github.com/aspose-words/Aspose.Words-for-C) for other common usage scenarios.
 
 ```c++
 // create a blank document.
@@ -66,6 +94,7 @@ doc->Save(u"output.epub");
 ```
 
 ## Limitations
+
 - No support for encrypted documents.
 - No support for downloading remote resources from the Internet.
 - Limited and unstable support for rendering features.

@@ -17,6 +17,11 @@ This REST API allows your Python cloud-based apps to [convert documents](https:/
 - Use PDF as an intermediary format while converting.
 - Apply [watermark during conversion](https://wiki.groupdocs.cloud/conversioncloud/developer-guide/data-structures/convertoptions/) process.
 
+## New Features Added in Version 20.2.0
+
+- Support of encoding for source CSV and TXT documents.
+- Added `TimeZoneOffset`, `ConvertAttachments` for source Email documents.
+
 ## Conversion File Formats
 
 GroupDocs.Conversion Cloud SDK for Python allows you to convert any of the following type of file formats:
@@ -42,6 +47,11 @@ to the following formats:
 **Image:** BMP, GIF, ICO, JPEG, JPG, PNG, TIF, TIFF
 **Fixed Layout:** PDF, XPS
 **Markup:** HTM, HTML
+
+## Conversion File Formats Added in Version 20.2.0
+
+**Source Conversion Formats:** DIB, XLT, POT, XLAM, MPX, JPC, DWT, JPEG-LS
+**Target Conversion Formats:** WMF, EMF, XLAM
 
 ## Platform Independence
 
@@ -118,5 +128,8 @@ request = groupdocs_conversion_cloud.ConvertDocumentRequest(settings)
 response = api.convert_document(request)
 ```
 
+## Licensing
+
+GroupDocs.Conversion Cloud Python SDK licensed under [MIT License](http://github.com/groupdocs-conversion-cloud/groupdocs-conversion-cloud-python/LICENSE).
 
 [Product Page](https://products.groupdocs.cloud/conversion/python) | [Documentation](https://wiki.groupdocs.cloud/conversioncloud/) | [API Reference](https://apireference.groupdocs.cloud/conversion/) | [Code Samples](https://github.com/groupdocs-conversion-cloud/groupdocs-conversion-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/conversion/) | [Free Support](https://forum.groupdocs.cloud/c/conversion) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

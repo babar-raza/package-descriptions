@@ -64,6 +64,11 @@ Other - the other classes of documents or cases where the classifier is not sure
 
 GroupDocs.Classification Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
+## Dependencies
+
+- Python 2.7 and 3.4+
+- Referenced packages (see [here](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python/blob/master/setup.py) for more details)
+
 ## Installation
 
 If the python package is hosted on [Github](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python), you can install directly from Github:
@@ -119,27 +124,32 @@ classification.classify_raw_text()
 
 [Test](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python/blob/master/test) contain various examples of using the SDK. Please put your credentials into [Configuration](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python/blob/master/groupdocsclassificationcloud/configuration.py).
 
-## Dependencies
-
-- Python 2.7 and 3.4+
-- referenced packages (see [here](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python/blob/master/setup.py) for more details)
-
-## Get Supported File Formats using Python
+## Classify Document using Python
 
 ```python
-kwargs['_return_http_data_only'] = True
-    try:
-        if kwargs.get('is_async'):
-            return self.get_supported_file_formats_with_http_info(request, **kwargs)  # noqa: E501
-        (data) = self.get_supported_file_formats_with_http_info(request, **kwargs)  # noqa: E501
-        return data
-    except ApiException as e:
-        if e.status == 401:
-            self.__request_token()
-            if kwargs.get('is_async'):
-                return self.get_supported_file_formats_with_http_info(request, **kwargs)  # noqa: E501
-        (data) = self.get_supported_file_formats_with_http_info(request, **kwargs)  # noqa: E501
-        return data
+from __future__ import absolute_import
+
+from os.path import join
+import unittest
+
+from groupdocsclassificationcloud import BaseRequest, ClassifyRequest, FileInfo
+from test import BaseTestContext
+
+filename = 'test_multi_pages.docx'
+file_path = join(self.local_common_folder, filename)
+    with open(file_path, 'rb') as f:
+        file_data = f.read()
+
+file_upload_response = self.storage_api.put_create(self.remote_test_folder + '/' + filename, file_data)
+# Check if file uploaded successfully to Cloud Storage
+if (file_upload_response["code"] == 200 and file_upload_response["status"] == "OK"):
+    request = ClassifyRequest(BaseRequest(document=FileInfo(name=filename, folder=self.remote_test_folder)))
+    result = self.classification_api.classify(request)
+    print("Result {}".format(result))
+
+request = ClassifyRequest(BaseRequest("Try text classification"), 3)
+result = self.classification_api.classify(request)
+print(result)
 ```
 
 [Product Page](https://products.groupdocs.cloud/classification/python) | [Documentation](https://wiki.groupdocs.cloud/classificationcloud/) | [API Reference](https://apireference.groupdocs.cloud/classification/) | [Code Samples](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/classification/) | [Free Support](https://forum.groupdocs.cloud/c/classification) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

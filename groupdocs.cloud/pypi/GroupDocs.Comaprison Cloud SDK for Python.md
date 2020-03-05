@@ -78,16 +78,24 @@ except groupdocs_comparison_cloud.ApiException as e:
     print("Exception when calling get_supported_file_formats: {0}".format(e.message))
 ```
 
-## Compare Documents via Cloud SDK for Python
+## Compare Spreadsheets via Cloud SDK for Python
 
 ```python
-kwargs['_return_http_data_only'] = True
+from __future__ import absolute_import
 
-        if kwargs.get('is_async'):
-            return self._comparisons_with_http_info(request, **kwargs)  # noqa: E501
+import unittest
 
-        (data) = self._comparisons_with_http_info(request, **kwargs)  # noqa: E501
-        return data
+from groupdocs_comparison_cloud import *
+from test.test_context import TestContext
+from test.test_file import TestFile, TestFiles
+
+options = Options()
+options.source_file = source.ToFileInfo()
+options.output_path = "/resultFilePath/" + source.file_name
+
+options = self.GetComparisonOptions(TestFiles.SourceCell, TestFiles.TargetCell)
+response = self.compare_api.comparisons(ComparisonsRequest(options))
+self.assertEqual(response.href, options.output_path)
 ```
 
 ## Licensing

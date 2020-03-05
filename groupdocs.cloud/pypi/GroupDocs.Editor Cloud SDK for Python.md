@@ -71,7 +71,7 @@ except groupdocs_editor_cloud.ApiException as e:
     print("Exception when calling get_supported_file_formats: {0}".format(e.message))
 ```
 
-## Working with Presentations using Python
+## Working with Presentations using Python SDK
 
 ```python
 # For complete examples and data files, please go to https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-python-samples
@@ -118,5 +118,9 @@ saveResult = editApi.save(groupdocs_editor_cloud.SaveRequest(saveOptions))
 # Done
 print("Document edited: " + saveResult.path)
 ```
+
+## Licensing
+
+GroupDocs.Editor Cloud Python SDK licensed under [MIT License](http://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-python/LICENSE).
 
 [Product Page](https://products.groupdocs.cloud/editor/python) | [Documentation](https://wiki.groupdocs.cloud/editorcloud/) | [API Reference](https://apireference.groupdocs.cloud/editor/) | [Code Samples](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/editor/) | [Free Support](https://forum.groupdocs.cloud/c/editor) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
