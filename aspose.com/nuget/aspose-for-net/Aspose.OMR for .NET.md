@@ -12,6 +12,16 @@ It is a standalone on-premise API that helps in [recognizing the human-marked da
 - High accuracy rate & ability to export the results in CSV format.
 - [Create OMR templates](https://docs.aspose.com/display/omrnet/Create+OMR+Template) from text markup.
 
+## New Features in Version 19.9.0
+
+- Supports export options for `XML` and `JSON`.
+
+## Added Methods in Version 19.9.0
+
+- `Aspose.OMR.Model.RecognitionResult.GetJson`
+- `Aspose.OMR.Model.RecognitionResult.GetXml`
+- `Aspose.OMR.Model.IOmrElement.GetAnswer`
+
 ## Save OMR Results As
 
 CSV, XML, JSON
