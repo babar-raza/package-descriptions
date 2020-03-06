@@ -22,6 +22,12 @@
 - Add [display or audio reminder](https://docs.aspose.com/display/emailcpp/Working+with+Outlook+Calendar+Items) to email calendar items.
 - So many more [features](https://docs.aspose.com/display/emailcpp/Developer+Guide).
 
+## New Features in Version 19.9.0
+
+- Support for Exchange Web Services (EWS) protocol.
+
+For the detailed notes, please visit [Aspose.Email for CPP 19.9 Release Notes](https://docs.aspose.com/display/emailcpp/Aspose.Email+for+CPP+19.9+Release+Notes).
+
 ## Read & Write Email Formats
 
 **Microsoft Outlook:** MSG, PST, OST, OFT
