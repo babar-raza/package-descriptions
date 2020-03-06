@@ -1,33 +1,27 @@
-Aspose.Page for C++ is an on premise C++ API that allows you to add XPS manipulation features to your own applications. The API also supports to convert XPS, EPS & PS documents to other formats.
+# C++ API for XPS Page Manipulation
 
-Developers can perform various operations on XPS documents, such as, add text, images, pages, gradient, grid using visual brush, transparency object and set opacity mask. It allows to create, edit and convert the file pages as well as the ability to manipulate documents and elements, create vector graphics, group shapes and specifying colors in different color spaces including sRGB, scRGB, and any space based on ICC profile.
+[Aspose.Page for C++](https://products.aspose.com/page/cpp) is an on premise C++ API that allows you to add XPS manipulation features to your own applications. The API also supports to convert XPS, EPS & PS documents to other formats.
 
-## XPS, EPS & PS Processing Features
+## XPS Processing Features
 
-- Create & modify XPS documents via API.
-- Add or delete pages of XPS documents.
-- Create vector graphic shapes (Path element) and text strings (Glyphs element).
-- Group various elements as well as modify the appearance of text strings and graphics.
-- Support for visual brush, image brush, solid color brush and more.
-- Work with multiple documents within an XPS document.
-- Preserve print tickets and  add default print tickets to new XPS documents.
-- Perform cross-package operations such as, inserting a page from another document.
-- Conversion of XPS, PS & EPS documents to other popular formats.
-- Supports PostScript language levels 1-3 with an exception of font types: Type2 (CFF), Type14 (Chameleon), Types 9, 10, 11, 32 (CID-Keyed).
+- Create and [edit `XPS` documents](https://docs.aspose.com/display/pagecpp/Add+Text+in+XPS+Document).
+- Add or remove [pages of `XPS` document](https://docs.aspose.com/display/pagecpp/Add+Pages+to+XPS+Document).
+- Create vector graphics shapes (Path element) using a set of primitives (elliptical arcs, Bezier curve segments, and straight-line segments).
+- Create text strings (Glyphs element).
+- Group elements (Canvas element) to manipulate a group as a whole.
+- [Supports brushes of various types](https://docs.aspose.com/display/pagecpp/Add+Grid+using+Visual+Brush), such as, solid color brush, image brush, visual brush, etc.
+- Supports different color spaces including `sRGB`, `scRGB` and any space-based on `ICC` profile.
+- Works for multiple documents inside an `XPS` document.
+- Add default print tickets into new `XPS` document or preserve print tickets in opened `XPS`.
+- Save `XPS` documents in various [supported file formats](https://docs.aspose.com/display/pagecpp/Supported+File+Formats).
 
-## Read & Write XPS Format
+## Save XPS as
 
-**Fixed Layout:** XPS
+PDF, BMP, TIFF, JPEG, PNG
 
-## Save XPS, PS & EPS Documents As
+# Save EPS/PS as
 
-**Fixed Layout:** PDF
-**Images:** PNG, JPEG, TIFF, BMP
-
-## Save PS & EPS Documents As
-
-**Metafiles:** EMF, WMF
-**Animation:** GIF
+PDF, BMP, TIFF, JPEG, PNG, EMF, WMF, GIF
 
 ## Platform Independence
 
