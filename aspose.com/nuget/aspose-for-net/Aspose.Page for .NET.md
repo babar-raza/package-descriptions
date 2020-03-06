@@ -17,6 +17,12 @@ Developers can perform various operations on XPS documents, such as, add [text](
 - Conversion of XPS, PS & EPS documents to other popular formats.
 - Supports PostScript language levels 1-3 with an exception of font types: Type2 (CFF), Type14 (Chameleon), Types 9, 10, 11, 32 (CID-Keyed).
 
+## New Features Added in Version 20.1.0
+
+- Increase allowable size of `PS/EPS` input file in the unlicensed mode.
+
+For the detailed notes, please visit [Aspose.Page for .NET 20.1 Release Notes](https://docs.aspose.com/display/pagenet/Aspose.Page+for+.NET+20.1+Release+Notes).
+
 ## Read & Write XPS Format
 
 **Fixed Layout:** XPS
