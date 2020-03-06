@@ -12,14 +12,31 @@
 - [Adjust AutoCAD drawing size before rendering](https://docs.aspose.com/display/cadnet/Adjusting+CAD+Drawing+Size).
 - Track the file conversion process.
 
+## New Features in Version 20.1.0
+
+- [Support for `OBJ` Format](https://docs.aspose.com/display/cadnet/Working+with+OBJ+File+Format). The `OBJ` file format is a 3D geometry that contains texture maps, 3D coordinates, polygonal faces, and other object information.
+- [Convert `DWG` to `DWF` format](https://docs.aspose.com/display/cadnet/Convert+DWG+to+DWF).
+- Ability to [update hyperlinks in an AutoCAD DWG](https://docs.aspose.com/display/cadnet/Working+with+Hyperlinks) drawing.
+- Ability to read hyperlinks and OLE object links section.
+
+For the detailed notes, please visit [Aspose.CAD for .NET 20.1 - Release Notes](https://docs.aspose.com/display/cadnet/Aspose.CAD+for+.NET+20.1+-+Release+Notes).
+
 ## Read AutoCAD File Formats
 
-DWG Release 11, 12, 13, 14, DWG 2000/2000i/2002, DWG 2004/2005/2006, DWG 2010/2011/2012, DWG 2013/2014/2015/2016, AutoCAD® DXF, Autodesk DWF, DGN, Industry Foundation Classes (IFC), STereoLithography (STL)
+**AutoCAD:** DWG, DWT, DWF, IFC, PLT
+**MicroStation:** DGN
+**The Advanced Visualizer:** OBJ
+**Other:** STL, IGES, CFF2
 
 ## Save AutoCAD Drawings As
 
 **Fixed Layout:** PDF
 **Raster Images:** PNG, BMP, TIFF, JPEG, GIF
+
+## Read & Write Formats
+
+**AutoCAD:** DXF
+(Write features is partially supported.)
 
 ## Platform Independence
 

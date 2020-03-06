@@ -13,6 +13,16 @@ Aspose.Note for .NET can be used for printing ONE documents as well as manipulat
 - Extract text from any part of an OneNote document.
 - Export OneNote documents as other popular formats.
 
+## New Features in Version 20.1.0
+
+- Set quality while saving an image.
+
+## New Public Properties Added in Version 20.1.0
+
+- `Aspose.Note.Saving.ImageSaveOptions.Quality` - Gets or sets a value determining the quality of the saved image.
+
+For the detailed notes, please visit [Aspose.Note for .NET 20.1 Release Notes](https://docs.aspose.com/display/notenet/Aspose.Note+for+.NET+20.1+Release+Notes).
+
 ## Read & Write OneNote Format
 
 **Microsoft OneNote:** ONE
