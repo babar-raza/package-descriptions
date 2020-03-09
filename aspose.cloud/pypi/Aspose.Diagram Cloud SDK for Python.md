@@ -1,6 +1,6 @@
-This cloud SDK enables your Python cloud apps to create & process Visio diagrams from within your apps without installing Microsoft Visio.
+Python Cloud SDK wraps Aspose.Diagram REST API so you could seamlessly integrate Microsoft Visio® diagram generation, manipulation & conversion features into your own Python applications.
 
-Aspose.Diagram Cloud SDK for Python is built on top of Aspose.Diagram REST API and is distributed for use under an MIT license.
+[Aspose.Diagram Cloud SDK for Python](https://products.aspose.cloud/diagram/python) offers to create new Visio files as well as export Visio files (VSD, VSDX, VSS, VSSX, VTX, VDX, VDW, VST, VSTX, and VSX) to image formats (PNG, SVG, EMF, TIFF, BMP & JPEG), export Visio flowcharts to HTML, SWF & XAML, and export diagrams to fixed-layouts, such as PDF & XPS. Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/diagramcloud/Developer+Guide) for all usage scenarios. 
 
 ## Visio Processing Features
 
@@ -25,25 +25,38 @@ Aspose.Diagram Cloud SDK for Python is built on top of Aspose.Diagram REST API a
 
 **Microsoft Visio:** VDW, VSD, VSS, VST
 
-## Platform Independence
+## Getting Started with Aspose.Diagram Cloud SDK for Python
 
-Aspose.Diagram Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `pip install asposediagramcloud` from the command line to get the get the SDK from PIP. The complete source code is available at [GitHub Repository](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python).
 
-## Getting Started
-
-You do not need to install anything to get started with Aspose.Diagram Cloud SDK for Python. All you need to do is create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
-
-You can use it directly in your project via the source code or get its PyPI Package, `pip install aspose-diagram-cloud`. The complete source code is available at the [GitHub Repository](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python).
-
-## Use Python Code to Convert Diagram
+## Use Python Code to Convert Visio VDX to PDF
 
 ```python
-kwargs['_return_http_data_only'] = True
-if kwargs.get('callback'):
-    return self.convert_document_with_http_info(name, file, **kwargs)
-else:
-(data) = self.convert_document_with_http_info(name, file, **kwargs)
-return data
+import os
+import asposediagramcloud
+from asposediagramcloud.apis.diagram_file_api import DiagramFileApi
+from asposediagramcloud.models import FileFormatRequest
+import examples_base
+
+api_client = examples_base.GetApiClient()
+diagramAPI = asposediagramcloud.apis.diagram_file_api.DiagramFileApi(api_client)
+
+ABSPATH = os.path.abspath(os.path.realpath(os.path.dirname(__file__)) + "/..")
+dataFolder = os.path.join(ABSPATH, "testData")
+
+filename ='file_get_1.vdx'
+
+# Upload file to Cloud Storage
+filePath = os.path.join(dataFolder, filename)
+examples_base.Upload(filePath, filename, folder=None, storage=None)
+
+# Convert file to PDF format
+folder = ""
+is_overwrite = "true"
+format =FileFormatRequest(format="pdf")
+newfilename = "file_saveas_python.pdf"
+result = diagramAPI.diagram_file_post_save_as(filename, folder=folder, newfilename=newfilename, format=format, is_overwrite=is_overwrite)
+print(result);
 ```
 
 [Product Page](https://products.aspose.cloud/diagram/python) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

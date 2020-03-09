@@ -1,42 +1,69 @@
-This cloud SDK assists to process & manipulate images from within your Node.js based cloud applications, without installing any 3rd party tool.
+Node.js Cloud SDK wraps Aspose.Imaging REST API so you could seamlessly integrate image file creation, manipulation & conversion features into your own Node.js applications.
 
-Apose.Imaging Cloud SDK for Node.js is built on top of Aspose.Imaging REST API and is distributed under an MIT license. Aspose.Imaging Cloud SDK for Node.js enables your Node.js code to fetch images from cloud storage and perform various operations, such as, resizing, cropping, merging, scaling, and converting images. You can also perform various operations on TIFF images. Extract a single TIFF from to crop, resize, rotate, or flip it. Aspose.Imaging Cloud SDK for Node.js also enables you to convert TIFF to fax compatible format.
+# Create, Manipulate & Convert Images in the Cloud
+
+[Aspose.Imaging Cloud](https://products.aspose.cloud/imaging) is a true [REST API](https://apireference.aspose.cloud/imaging/) that enables you to perform a wide range of image processing operations including creation, manipulation and conversion in the cloud, with zero initial cost. 
 
 ## Image Processing Features
 
+- Export images to variety of other formats.
 - Fetch or update properties of cloud hosted images.
-- Scale, flip, crop and export an image with a single API call.
-- Resize, crop, flip, convert and export an image to other supported formats.
+- Scale, flip, crop, rotate and export images with a single API call.
 - Update image parameters of JPEG2000 & WEBP images.
-- Access and multi-frame TIFF image and extract the desired frames from it.
-- Rotate, flip, crop, resize or fetch properties of the selected TIFF frame.
+- Access multi-frame TIFF image and extract the desired frames.
 - Merge multiple TIFF images.
+- Imaging AI operations:
+	- Content-based image search
+	- Image duplicates search
+	- Image search by custom registered tags
+	- Image comparison and similarity detection
+	- Image features extraction (for now, AKAZE detector is supported)
 
 ## Read & Write Image Formats
 
 BMP, GIF, JPEG, JPEG2000, PSD, TIFF, WEBP, PNG, WMF, EMF, SVG
 
-## Save Image As
+## Save Images As
 
 PDF
 
-## Read Image Formats
+## Read Images From
 
 DJVU, DICOM, CDR, CMX, ODG, DNG
 
-## Platform Independence
+## Storage API Support
+Since version 19.4, SDK includes support of storage operations for better user experience and unification, so now there's no need to use 2 different SDKs!
 
-Aspose.Imaging Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+It gives the ability to:
 
-## Getting Started
+- Upload, download, copy, move and delete files, including versions handling (if you are using Cloud storage that supports this feature - true by default).
+- Create, copy, move and delete folders.
+- Copy and move files and folders accross separate storages in scope of a single operation.
+- Check if certain file, folder or storage exists.
 
-You do not need to install anything to get started with Aspose.Imaging Cloud SDK for Node.js. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+## Getting Started with Aspose.Imaging Cloud SDK for Node.js
 
-The complete source code is available at the [GitHub Repository](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install @asposecloud/aspose-imaging-cloud --save` from the command line to install Aspose.Imaging Cloud SDK for Node.js via NPM. The complete source code is available at [GitHub Repository](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-node).
 
-To install Aspose.Imaging for Cloud via NPM, please execute from the command line, `npm install aspose-imaging-cloud-node --save`.
+Add the nmp package to your project.json as a dependency.
 
-## Use Node.js to Compare two Images
+```
+{
+  "dependencies": {
+    "@asposecloud/aspose-imaging-cloud": "^20.2.0"
+  }
+}
+```
+
+### Import the Dependencies
+
+```
+import * as imaging from "@asposecloud/aspose-imaging-cloud";
+```
+
+The best way to become familiar with how to use the SDK is to read the [Developer Guide](https://docs.aspose.cloud/display/imagingcloud/Developer+Guide) whereas the [Getting Started](https://docs.aspose.cloud/display/imagingcloud/Getting+Started) section will help you understand the common concepts.
+
+## Using Node.js to Compare Images
 
 ```js
 const imagingApi = new imaging.ImagingApi("yourAppKey", "yourAppSID");

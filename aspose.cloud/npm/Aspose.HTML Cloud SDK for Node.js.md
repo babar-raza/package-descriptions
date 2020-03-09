@@ -2,7 +2,7 @@ Node.js Cloud SDK wraps Aspose.HTML REST API so you could seamlessly integrate m
 
 # Process HTML, SVG, MD & EPUB Files in the Cloud
 
-Aspose.HTML Cloud API offers its consumers to load markup of HTML, MHTML, XHTML, EPUB, XML & SVG formats from file, cloud storage or URL. The loaded document can be traversed or inspected via CSS selector & XPath query or can be converted to images, PDF as well as other supported markup formats. The HTML REST API also alows to extract images from the HTML and populate HTML template with data from JSON or XML.
+[Aspose.HTML Cloud SDK for Node.js](https://products.aspose.cloud/html/nodejs) offers its consumers to load markup of HTML, MHTML, XHTML, EPUB, XML & SVG formats from file, cloud storage or URL. The loaded document can be traversed or inspected via CSS selector & XPath query or can be converted to images, PDF as well as other supported markup formats. The HTML REST API also alows to extract images from the HTML and populate HTML template with data from JSON or XML.
 
 ## HTML Processing Features
 
@@ -28,7 +28,7 @@ HTML, XHTML, zipped HTML, zipped XHTML, MHTML, Markdown, JSON
 
 ## Getting Started with Aspose.HTML Cloud SDK for Node.js
 
-Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install @asposecloud/aspose-email-cloud --save` from the command line to install Aspose.Email Cloud SDK for Node.js via NPM.
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install @asposecloud/aspose-email-cloud --save` from the command line to install Aspose.HTML Cloud SDK for Node.js via NPM.
 
 The complete source code is available at [GitHub Repository](https://github.com/aspose-html-cloud/aspose-html-cloud-nodejs).
 

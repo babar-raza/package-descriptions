@@ -1,6 +1,7 @@
-This Cloud SDK allows you to easily build cloud-based PDF creator, editor & converter apps in Node.js language for various cloud platforms.
+Node.js Cloud SDK wraps Aspose.PDF REST API so you could seamlessly integrate PDF document generation, manipulation, conversion & inspection features into your own Node.js applications.
 
-Aspose.PDF Cloud SDK for Node.js is available to you under an MIT license and is a wrapper around Aspose.PDF REST API. Access images embedded in the PDF documents for customization, work with; annotations, stamps, PDF form fields, watermarks, as well as the OCR layers within the PDF files.
+# PDF Document Processing in the Cloud
+[Aspose.PDF Cloud SDK for Node.js](https://products.aspose.cloud/pdf/nodejs) enhances your Node.js code to generate new PDF documents & pages, delete pages from existing PDF files as well as manage PDF bookmarks, annotations, signatures, stamps, watermarks, attachments, header, footer, hyperlinks, form fields, text items and images via simple Node.js REST API calls. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/pdfcloud/Developer+Guide) for all possible usage scenarios. 
 
 ## PDF Processing Features
 
@@ -15,7 +16,7 @@ Aspose.PDF Cloud SDK for Node.js is available to you under an MIT license and is
 - Extensive support for converting PDF documents to various other file formats.
 - Extract various elements of PDF file & make PDF document optimized.
 
-## Read & Write PDF Formats
+## Read & Write Formats
 
 PDF, EPUB, HTML, TeX, SVG, XML, XPS, FDF, XFDF
 
@@ -23,21 +24,33 @@ PDF, EPUB, HTML, TeX, SVG, XML, XPS, FDF, XFDF
 
 XLS, XLSX, PPTX, DOC, DOCX, MobiXML, JPEG, EMF, PNG, BMP, GIF, TIFF, Text
 
-## Read PDF Formats
+## Read Formats
 
 MHT, PCL, PS, XSLFO, MD
 
-## Platform Independence
+## Getting Started with Aspose.PDF Cloud SDK for Node.js
 
-Aspose.PDF Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install aspose-pdf-cloud-node --save` from the command line to install Aspose.PDF Cloud SDK for Node.js via NPM.
 
-## Getting Started
+The complete source code is available at [GitHub Repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-node.js).
 
-You do not need to install anything to get started with Aspose.PDF Cloud SDK for Node.js. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+## Get Page Annotation from PDF via Node.js
 
-The complete source code is available at the [GitHub Repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-node.js). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
-
-To install Aspose.PDF for Cloud via NPM, please execute from the command line, `npm install aspose-pdf-cloud-node --save`.
+```js
+const { PdfApi } = require("asposepdfcloud");
+ 
+let pdfApi = new PdfApi(AppSid, AppKey);
+ 
+let pageNumber = 1;
+let pdfDocName = "example.pdf";
+let remoteFolder = "folderName"; 
+ 
+pdfApi.getPageAnnotations(pdfDocName, pageNumber, null, remoteFolder)
+.then((result) => {
+console.log(result.response);
+console.log(result.body);
+});
+```
 
 ## Use Node.js to Split a PDF Document via REST API
 
@@ -45,8 +58,6 @@ To install Aspose.PDF for Cloud via NPM, please execute from the command line, `
 const { PdfApi } = require("asposepdfcloud");
 
 pdfApi = new PdfApi("XXXX", "XXXXXXX")
-
-
 
 console.log('running example');
 pdfApi.postSplitDocument("4pages.pdf", null, null, null, null, null)

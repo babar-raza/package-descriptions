@@ -1,24 +1,20 @@
-This Cloud SDK enhances your Python cloud-based apps to process & manipulate Microsoft Excel spreadsheets in the cloud, without MS Office.
+Python Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate Microsoft Excel® spreadsheet generation, manipulation, conversion & inspection features into your own Python applications.
 
-It enables your Python cloud-based programs to process workbooks, worksheets, spreadsheets, columns, rows, and individual cells. You can also work with Microsoft Excel OleObjects, pivot tables, ListObjects, shapes, tasks, hyperlinks and comments from within your your cloud-based applications. Aspose.Cells Cloud SDK for Python also lets you apply auto-filtering or perform conditional formatting on the spreadsheet level. Aspose.Cells Cloud SDK for Python is a wrapper around Aspose.Cells REST API and is available for use under an MIT license.
+[Aspose.Cells Cloud SDK for Python](https://products.aspose.cloud/cells/python) offers Excel® file creation, manipulation, conversion, & rendering. Developers can format worksheets, rows, columns or cells to the most granular level, create & manipulate chart & pivot tables, render worksheets, charts and specific data ranges to PDF & images, add & calculate Excel's builtin and custom formulas and much more. Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/cellscloud/Developer+Guide) for all usage scenarios. 
 
-## Spreadsheet Processing Features
+## Manipulate Excel Files in the Cloud with Python
 
-- Built-in email client.
-- Supports Artificial Intelligence (AI), such as, Business card recognition.
-- Add, update or delete charts, worksheet pictures, shapes, hyperlinks & validations.
-- Add or remove cells area for conditional formatting, or OleObjects from Excel worksheets.
-- Insert or delete, horizontal or vertical page breaks.
-- Add ListObject at a specific place within an Excel file & convert them to a range of cells.
-- Delete specific or all ListObjects in a worksheet or summarize its data with pivot table.
-- Apply custom criteria to list filters of various types.
-- Get, update, show or hide chart legend & titles.
-- Manipulate page setup, header & footer.
-- Create, update, fetch or delete document properties.
-- Fetch the required shape from worksheet.
-- Load & Process Excel Spreadsheets via Cloud SDK.
-- Cloud SDK to Read & Process Excel Worksheets.
-- Leverage the Power of Pivot Tables & Ranges.
+- Create Excel files via API.
+- Create & refresh Pivot Tables & charts.
+- Create & manipulate sparklines & conditional formatting.
+- Convert charts, worksheets or data ranges to images or PDF.
+- Manage comments & hyperlinks.
+- Set complex formulas & calculate results via API.
+- Set protection on workbook, worksheet, cell, column or row.
+- Create & manipulate named ranges.
+- Populate worksheets through Smart Markers.
+- Convert worksheets to PDF, XPS & SVG formats.
+- Inter-convert files to popular Excel formats.
 
 ## Read & Write Spreadsheet Formats
 
@@ -28,7 +24,7 @@ It enables your Python cloud-based programs to process workbooks, worksheets, sp
 **Text:** CSV, TSV, TXT (TabDelimited)
 **Web:** HTML, MHTML
 
-## Save Spreadsheet As
+## Save Spreadsheets As
 
 DIF, PDF, XPS, TIFF, SVG, MD (Markdown)
 
@@ -36,38 +32,96 @@ DIF, PDF, XPS, TIFF, SVG, MD (Markdown)
 
 SXC, FODS
 
-## Platform Independence
+## Getting Started with Aspose.Cells Cloud SDK for Python
 
-Aspose.Cells Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `pip install asposecellscloud` from the command line to get the get the SDK from PIP. The complete source code is available at [GitHub Repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-python).
 
-## Getting Started
-
-You do not need to install anything to get started with Aspose.Cells Cloud SDK for Python. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
-
-You can use it directly in your project via the source code or get its PyPI Package, `pip install aspose-cells-cloud`. The complete source code is available at the [GitHub Repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-python).
-
-## Process Email through Synchronous/Asynchronous API Calls via Python
+## Create Spreadsheet from a Template in the Cloud via Python
 
 ```python
-result = email_api.get_calendar(
-    requests.GetCalendarRequest(
-        calendar_file,
-        folder,
-        storage))
-# or
-async_result = email_api.get_calendar_async( #returns multiprocessing.pool.AsyncResult
-    requests.GetCalendarRequest(
-        calendar_file,
-        folder,
-        storage))
-result = async_result.get()
+#Instantiate Aspose Storage API SDK
+storage_apiClient = asposestoragecloud.ApiClient.ApiClient(apiKey, appSid, True)
+storageApi = StorageApi(storage_apiClient)
+#Instantiate Aspose Cells API SDK
+api_client = asposecellscloud.ApiClient.ApiClient(apiKey, appSid, True)
+cellsApi = CellsApi(api_client);
+
+#set input file name
+filename = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(8)) + ".xls"
+
+#The template file, if the data not provided default workbook is created.
+templatefile = "Sample_SmartMarker.xlsx"
+
+#Smart marker data file, if the data not provided the request content is checked for the data.
+datafile = "Sample_SmartMarker_Data.xml"
+
+#upload SmartMarker template file to aspose cloud storage
+storageApi.PutCreate(Path=templatefile, file=data_folder + templatefile)
+
+#upload SmartMarker template data file to aspose cloud storage
+storageApi.PutCreate(Path=datafile, file=data_folder + datafile)
+
+try:
+    #invoke Aspose.Cells Cloud SDK API to create a workbook from a SmartMarker template
+    response = cellsApi.PutWorkbookCreate(name=filename, file=None, templateFile=templatefile, dataFile=datafile)
+
+    if response.Status == "OK":
+
+        outputfilename = response.Workbook.FileName
+        print "FileName: " + outputfilename
+        #download Workbook from storage server
+        response = storageApi.GetDownload(Path=outputfilename)
+        outfilename = "c:/temp/" +  outputfilename
+        with open(outfilename, 'wb') as f:
+                    for chunk in response.InputStream:
+                        f.write(chunk)
+
+except ApiException as ex:
+            print "ApiException:"
+            print "Code:" + str(ex.code)
+            print "Message:" + ex.message
 ```
 
-## Using Python to Add an attachment to Email document  
+## Convert Excel to PDF via Python 
 
 ```python
-http_request = request.to_http_info(self.api_client.configuration)
-return self.__make_request(http_request, 'POST', 'EmailDocumentResponse')
+#Instantiate Aspose Storage API SDK
+storage_apiClient = asposestoragecloud.ApiClient.ApiClient(apiKey, appSid, True)
+storageApi = StorageApi(storage_apiClient)
+#Instantiate Aspose Cells API SDK
+api_client = asposecellscloud.ApiClient.ApiClient(apiKey, appSid, True)
+cellsApi = CellsApi(api_client);
+
+#set input file name
+name = "Sample_Test_Book"
+filename = name + ".xls"
+format = "pdf"
+outputfilename = name + "." + format
+
+body = SaveOptions.SaveOptions()
+
+#upload file to aspose cloud storage
+storageApi.PutCreate(Path=filename, file=data_folder + filename)
+
+try:
+    #invoke Aspose.Cells Cloud SDK API to convert workbook to different file formats using cloud storage
+    response = cellsApi.PostDocumentSaveAs(name=filename, body=body, newfilename=outputfilename)
+
+    if response.Status == "OK":
+
+        destfilename = response.SaveResult.DestDocument.Href
+        print "FileName: " + destfilename
+        #download Workbook from storage server
+        response = storageApi.GetDownload(Path=destfilename)
+        outfilename = "c:/temp/" +  destfilename
+        with open(outfilename, 'wb') as f:
+                    for chunk in response.InputStream:
+                        f.write(chunk)
+
+except ApiException as ex:
+            print "ApiException:"
+            print "Code:" + str(ex.code)
+            print "Message:" + ex.message
 ```
 
 [Product Page](https://products.aspose.cloud/cells/python) | [Documentation](https://docs.aspose.cloud/display/cellscloud/Home) | [API Reference](https://apireference.aspose.cloud/cells/) | [Code Samples](https://github.com/aspose-cells-cloud/aspose-cells-cloud-python) | [Blog](https://blog.aspose.cloud/category/cells/) | [Free Support](https://forum.aspose.cloud/c/cells) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

@@ -1,7 +1,7 @@
 Node.js Cloud SDK wraps Aspose.BarCode Cloud API so you could seamlessly integrate barcode generation & recognition features into your own Node.js apps.
 
 # Barcode Generation & Recognition in the Cloud
-Generate barcodes (Linear, 2D & Postal), configure barcode properties and attributes, such as, barcode height, dimensions, image format, and more. Scan existing barcodes from 60+ symbologies, including, Codabar, PDF417, QR, MicroQR, EAN, Postnet, UPC, RM4SCC and many more.
+[Aspose.BarCode Cloud SDK for Node.js](https://products.aspose.cloud/barcode/nodejs) helps you generate barcodes (Linear, 2D & Postal), configure barcode properties and attributes, such as, barcode height, dimensions, image format, and more. Scan existing barcodes from 60+ symbologies, including, Codabar, PDF417, QR, MicroQR, EAN, Postnet, UPC, RM4SCC and many more.
 
 ## Barcode Read & Write Features
 
@@ -36,17 +36,11 @@ PDF417, MacroPDF417, MicroPDF417, CompactPDF417 (Decode only), DataMatrix, Aztec
 **Postal barcode symbologies**:
 Postnet, Planet, USPS OneCode, Australia Post, Deutsche Post Identcode, Deutsche Post Leticode, RM4SCC, SingaporePost, AustralianPosteParcel, SwissPostParcel, UpcaGs1DatabarCoupon.
 
-## Platform Independence
-
-Aspose.BarCode Cloud’s is a true REST API that can be used from any platform. You can use it with any language that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
 ## Getting Started with Aspose.BarCode Cloud SDK for Node.js
 
-You do not need to install anything to get started with Aspose.BarCode Cloud SDK for Node.js. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install aspose-barcode-cloud-node --save` from the command line to install Aspose.BarCode Cloud SDK for Node.js via NPM.
 
-The complete source code is available at [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
-
-Please execute `npm install aspose-barcode-cloud-node --save` from the command line to install Aspose.BarCode for Cloud via NPM.
+The complete source code is available at [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-node).
 
 ## Using Node.js to Generate PDF417 Barcode
 

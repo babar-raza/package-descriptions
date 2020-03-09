@@ -1,6 +1,7 @@
-This REST API enables your Node.js cloud-based apps to process & manipulate PPT, PPTX, ODP, OTP presentations in the cloud.
+Node.js Cloud SDK wraps Aspose.Slides REST API so you could seamlessly integrate PowerPoint® presentation generation, manipulation, conversion & inspection features into your own Node.js applications.
 
-Aspose.Slides Cloud SDK for Node.js is a wrapper around Aspose.Slides REST API and is offered under an MIT license. Enhance your Node.js programs to create presentations in the cloud, pick and merge specific slides, split presentations, extract images from presentation in any of the supported file formats, extract & download slide notes, clone master slide information, and so much more.
+# PowerPoint File Processing in the Cloud
+[Aspose.Slides Cloud SDK for Node.js](https://products.aspose.cloud/slides/nodejs) enhance your Node.js programs to create presentations in the cloud, pick and merge specific slides, split presentations, extract images from presentation in any of the supported file formats, extract & download slide notes, clone master slide information, and more. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/slidescloud/Developer+Guide) for all possible usage scenarios. 
 
 ## Presentation Processing Features
 
@@ -16,26 +17,38 @@ Aspose.Slides Cloud SDK for Node.js is a wrapper around Aspose.Slides REST API a
 **Microsoft PowerPoint:** PPT, PPTX, PPS, PPSX, PPTM, PPSM, POTX, POTM
 **OpenOffice:** ODP, OTP
 
-## Save Presentation As
+## Save Presentations As
 
 **Fixed Layout:** PDF, PDF/A, XPS
 **Images:** JPEG, PNG, BMP, TIFF, SVG
 **Web:** HTML
 **Other:** SWF (export whole presentations)
 
-## Platform Independence
+## Getting Started with Aspose.Slides Cloud SDK for Node.js
 
-Aspose.Slides Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install asposeslidescloud --save` from the command line to install Aspose.Slides Cloud SDK for Node.js via NPM.
 
-## Getting Started
+The complete source code is available at [GitHub Repository](https://github.com/aspose-slides-cloud/aspose-slides-cloud-nodejs).
 
-You do not need to install anything to get started with Aspose.Slides Cloud SDK for Node.js. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
 
-The complete source code is available at the [GitHub Repository](https://github.com/aspose-slides-cloud/aspose-slides-cloud-nodejs). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
+## Convert PowerPoint to PDF in the Cloud
 
-To install Aspose.Slides for Cloud via NPM, please execute from the command line, `npm install aspose-slides-cloud-node --save`.
+```js
+const api = require("asposeslidescloud");
+const fs = require('fs');
+ 
+const slidesApi = new api.SlidesApi("MyAppSid", "MyAppKey");
+const postSlidesConvertRequest = new api.GetSlidesApiInfoRequest();
+postSlidesConvertRequest.format = 'pdf';
+postSlidesConvertRequest.document = fs.createReadStream("MyPresentation.pptx");
+slidesApi.postSlidesConvert(postSlidesConvertRequest).then((response) => {
+    fs.writeFile("MyPresentation.pdf", response.body, (err) => {
+        if (err) throw err;
+    });
+});
+```
 
-## Fetch PPTX Presentation Slides to Image Format using Node.js
+## Fetch & Save Images from Presentation using Node.js
 
 ```js
 const sdkApi = require("asposeslidescloud/api");

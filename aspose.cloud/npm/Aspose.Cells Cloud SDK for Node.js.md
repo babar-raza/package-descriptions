@@ -34,10 +34,6 @@ DIF, PDF, XPS, TIFF, SVG, MD (Markdown)
 
 SXC, FODS
 
-## Platform Independence
-
-Aspose.Cells Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
 ## Storage API Support
 Since version 19.9, SDK includes support of storage operations for better user experience and unification, so now there's no need to use 2 different SDKs!
 
@@ -49,11 +45,9 @@ It gives you an ability to:
 
 ## Getting Started with Aspose.Cells Cloud SDK for Node.js
 
-You do not need to install anything to get started with Aspose.Cells Cloud SDK for Node.js. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install asposecellscloud --save` from the command line to install Aspose.Cells Cloud SDK for Node.js via NPM.
 
-The complete source code is available at the [GitHub Repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-node). You can directly use it in your project via source code or get nmpjs distribution (recommended).
-
-Please execute `npm install aspose-cells-cloud-node --save` from the command line to install Aspose.Cells for Cloud via NPM, .
+The complete source code is available at [GitHub Repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-node).
 
 ## Convert Excel to PDF via Node.js
 ```js

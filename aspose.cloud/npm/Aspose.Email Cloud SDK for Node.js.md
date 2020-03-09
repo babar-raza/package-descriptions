@@ -1,7 +1,7 @@
 Node.js Cloud SDK wraps Aspose.Email REST API so you could seamlessly integrate Microsoft Outlook® email generation, manipulation, conversion & inspection features into your own Node.js applications.
 
 # Process Emails in the Cloud
-Aspose.Email Cloud is a REST API to create email processing applications that could work with common email file formats in the cloud. You can convert email to other formats, read message properties and download attachment from messages your Node.js applications. Not only that, Aspose.Email Cloud allows you to work with [iCalendar (RFC 5545)](https://docs.aspose.cloud/display/emailcloud/iCalendar+Support), [MAPI (X.400 XAPIA)](https://docs.aspose.cloud/display/emailcloud/MAPI+Support) & [VCard](https://docs.aspose.cloud/display/emailcloud/Operate+VCard) via API models. Have a look at the [API Endpoints](https://github.com/aspose-email-cloud/aspose-email-cloud-node/blob/master/doc/README.md) to know all possible functions.
+[Aspose.Email Cloud SDK for Node.js](https://products.aspose.cloud/email/nodejs) allows you to create email processing applications that could work with common email file formats in the cloud. You can convert email to other formats, read message properties and download attachment from messages your Node.js applications. Not only that, Aspose.Email Cloud allows you to work with [iCalendar (RFC 5545)](https://docs.aspose.cloud/display/emailcloud/iCalendar+Support), [MAPI (X.400 XAPIA)](https://docs.aspose.cloud/display/emailcloud/MAPI+Support) & [VCard](https://docs.aspose.cloud/display/emailcloud/Operate+VCard) via API models. Have a look at the [API Endpoints](https://github.com/aspose-email-cloud/aspose-email-cloud-node/blob/master/doc/README.md) to know all possible functions.
 
 ## Email Processing Features
 
@@ -19,9 +19,7 @@ Aspose.Email Cloud is a REST API to create email processing applications that co
 
 ## Getting Started with Aspose.Email Cloud SDK for Node.js
 
-Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install @asposecloud/aspose-email-cloud --save` from the command line to install Aspose.Email Cloud SDK for Node.js via NPM.
-
-The complete source code is available at [GitHub Repository](https://github.com/aspose-email-cloud/aspose-email-cloud-node).
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install @asposecloud/aspose-email-cloud --save` from the command line to install Aspose.Email Cloud SDK for Node.js via NPM. The complete source code is available at [GitHub Repository](https://github.com/aspose-email-cloud/aspose-email-cloud-node).
 
 ### Initialize EmailApi
 You should create an EmailApi object to use the API.
