@@ -1,11 +1,19 @@
-A .NET component that enables your applications to analyze text and files as well as classify them based on IAB-2 and Documents taxonomies.
+# .NET API for Data Classification
+
+A .NET component that enables your applications to [analyze text and files as well as classify](https://products.groupdocs.com/classification/net) them based on [IAB-2 and Documents taxonomies](https://docs.groupdocs.com/display/classificationnet/Taxonomies).
 
 ## Classification Processing Features
 
-- Support for IAB-2 and Documents taxonomies.
+- Support for [IAB-2](https://docs.groupdocs.com/display/classificationnet/Classify+document+by+path) and [Documents](https://docs.groupdocs.com/display/classificationnet/Classify+document+from+stream) taxonomies.
 - Select the number of results to return.
 - Select precision/recall balance for Documents taxonomy.
 - Classify document from stream.
+
+## New Features in Version 20.2.0
+
+- Supports Metered Licensing.
+
+For the detailed list, please visit [GroupDocs.Classification for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/classificationnet/GroupDocs.Classification+for+.NET+20.2+Release+Notes).
   
 ## Other File Formats
 
