@@ -1,4 +1,6 @@
-This .NET on-premise API lets your apps perform merging, trimming, reordering, swapping and lots of other operations on document pages of various file formats.
+# Document Merger .NET API
+
+This .NET on-premise API lets your apps [perform merging, trimming, reordering, swapping](https://products.groupdocs.com/merger/net) and lots of other operations on document pages of [various file formats](https://docs.groupdocs.com/display/mergernet/Supported+Document+Types).
 
 ## Document Merger Processing Features
 
@@ -20,6 +22,12 @@ This .NET on-premise API lets your apps perform merging, trimming, reordering, s
 - Generate image representation of the document pages.
 - Ability to log document manipulation process information.
 - Load document from local disk, stream or from URL.
+
+## New Features in Version 20.2.0
+
+- Added support for the MHTML file format.
+
+For the detailed list, please visit [GroupDocs.Merger for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/mergernet/GroupDocs.Merger+for+.NET+20.2+Release+Notes).
 
 ## Join & Split File Formats
 
@@ -48,7 +56,7 @@ GroupDocs.Merger for .NET supports the following file formats to trim page, move
 **Microsoft Visio:** VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX
 **Microsoft OneNote:** ONE
 **OpenOffice:** ODT, OTT, ODP, OTP, ODS
-**Web:** HTML, MHT
+**Web:** HTML, MHT, MHTML
 **Portable:** PDF, XPS
 **Text:** TXT
 **Other:** TEX, EPUB
