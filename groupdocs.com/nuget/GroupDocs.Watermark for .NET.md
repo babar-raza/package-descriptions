@@ -1,4 +1,6 @@
-This .NET component offers read & write watermark support for the documents of 40+ file formats. Supports watermark search, customization & extraction as well.
+# .NET API to Watermark Documents
+
+This .NET component offers [read & write watermark](https://products.groupdocs.com/watermark/net) support for the documents of [40+ file formats](https://docs.groupdocs.com/display/watermarknet/Supported+Document+Formats). Supports watermark search, customization & extraction as well.
 
 ## Document Watermark Processing Features
 
@@ -13,6 +15,12 @@ This .NET component offers read & write watermark support for the documents of 4
 - Search watermarks by text formatting (font, color etc.).
 - Set background image for charts in Excel and PowerPoint documents.
 - Work with PDF and email attachments.
+
+## New Features in Version 20.2.0
+
+- Added the support for `.NET Standard 2.0`.
+
+For the detailed notes, please visit [GroupDocs.Watermark for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/watermarknet/GroupDocs.Watermark+for+.NET+20.2+Release+Notes).
 
 ## Read & Write Watermark Formats
 
