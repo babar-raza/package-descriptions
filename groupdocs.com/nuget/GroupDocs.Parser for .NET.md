@@ -1,4 +1,6 @@
-This text parser on-premise API works well to search & extract formatted text as well as the raw text from a variety of documents of supported file formats.
+# Document Parser .NET API
+
+This text parser on-premise API works well to [search & extract formatted text](https://products.groupdocs.com/parser/net) as well as the raw text from a variety of documents of [supported file formats](https://docs.groupdocs.com/display/parsernet/Supported+Document+Formats).
 
 ## Document Parser Processing Features
 
@@ -11,6 +13,19 @@ This text parser on-premise API works well to search & extract formatted text as
 - Extract formatted text, metadata, images, containers, and attachments.
 - Extract table of contents for some supported document formats.
 - Parse form data from PDF documents.
+
+## New Features in Version 20.1.0
+
+- Extract text by TOC item.
+- Extract TOC form:
+  - Word Processing documents
+  - PDF documents
+
+## Breaking Changes in Version 20.1.0
+
+- Legacy API are removed (all types from `GroupDocs.Parser.Legacy` namespace are removed).
+
+For the detailed notes, please visit [GroupDocs.Parser for .NET 20.1 Release Notes](https://docs.groupdocs.com/display/parsernet/GroupDocs.Parser+for+.NET+20.1+Release+Notes).
 
 **Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
 **Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, XLA, XLAM, NUMBERS
