@@ -1,4 +1,6 @@
-This .NET component makes it very easy to remove classified or sensitive data from documents via your own .NET apps. Multiple redaction types are supported.
+# .NET API to Redact Documents
+
+This .NET component makes it very easy to [remove classified or sensitive data](https://products.groupdocs.com/redaction/net) from documents via your own .NET apps. Multiple redaction types are supported.
 
 ## Document Redaction Processing Features
 
@@ -9,6 +11,12 @@ This .NET component makes it very easy to remove classified or sensitive data fr
 - Set the redaction scope to a specific worksheet or column.
 - Apply multiple redaction in a single call.
 - Modify compliance level from PDF/A-1b to PDF/A-1a during rasterizing PDF.
+
+## Enhancements in the Version 20.2.0
+
+- Support for metadata redaction of raster images (i.e. ability to edit or erase image metadata).
+
+For the detailed notes, please visit [GroupDocs.Redaction for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/redactionnet/GroupDocs.Redaction+for+.NET+20.2+Release+Notes).
 
 ## Document Body & Metadata Redaction Formats
 
