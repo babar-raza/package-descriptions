@@ -1,8 +1,10 @@
-A .NET component that enables your apps to detect content, style & formatting differences among two documents, and allows you to accept or reject the changes.
+# .NET API for Comparing Documents
+
+A .NET component that enables your apps to [detect content, style & formatting differences among two documents](https://products.groupdocs.com/comparison/net), and allows you to accept or reject the changes.
 
 ## Document Comparison Processing Features
 
-- Compare and detect differences among source and target documents.
+- [Compare and detect differences](https://docs.groupdocs.com/display/comparisonnet/Comparison) among source and target documents.
 - Comparison works at the paragraph, word as well as the character level.
 - Identify content styling and formatting modifications.
 - Choose the modifications to accept or reject.
@@ -11,6 +13,16 @@ A .NET component that enables your apps to detect content, style & formatting di
 - Fetch coordinates of the modifications in document preview images.
 - Support to set metadata from the source, target files or keep it user-defined.
 - Make the resultant document password protected.
+
+## New Features in Version 20.2.0
+
+- Implement file comparison for:
+  - Groovy, JSON, ActionScript, Perl, Objective C\C++, Ruby, Shell\batch script, Log, Diff, Config, LESS, PHP, SQL, C-based, Scala, JavaScript, Assembler, Python, Java, C#.
+- Implement Multi-comparer for:
+  - Cells
+  - Note
+
+For the detailed list, please visit [GroupDocs.Comparison for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/comparisonnet/GroupDocs.Comparison+for+.NET+20.2+Release+Notes).
 
 ## Microsoft Office Formats
 
