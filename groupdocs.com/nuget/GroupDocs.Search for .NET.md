@@ -1,4 +1,6 @@
-This .NET API enhances your apps to perform robust search & index operations based on fuzzy as well as synonym algorithms. Supports several types of searches.
+# .NET API for Search & Index
+
+This .NET API enhances your apps to [perform robust search & index operations](https://products.groupdocs.com/search/net) based on fuzzy as well as synonym algorithms. Supports several types of searches.
 
 ## Document Search Processing Features
 
@@ -27,6 +29,18 @@ This .NET API enhances your apps to perform robust search & index operations bas
 - Multiple simultaneous thread safe search.
 - Thread safe search during indexing, updating or merging operation.
 - Search over several indexes simultaneously.
+
+## Enhancements in Version 20.1.0
+
+- Support for `.Net Standard 2.0`.
+- Support for index statuses reflecting possible operations.
+- Support options for metadata indexing.
+
+## Breaking Changes in Version 20.1.0
+
+- All types from the `GroupDocs.Search.Legacy` namespace have been removed.
+
+For the detailed notes, please visit [GroupDocs.Search for .NET 20.1 Release Notes](https://docs.groupdocs.com/display/searchnet/GroupDocs.Search+for+.NET+20.1+Release+Notes).
 
 ## Indexing Content File Formats
 
