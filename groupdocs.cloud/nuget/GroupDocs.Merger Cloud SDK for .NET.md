@@ -1,4 +1,6 @@
-This REST API enables your C#, ASP.NET, & other .NET apps to perform document merging & joining for 40+ file formats, while page manipulation for 35+ formats.
+# Document Merger .NET Cloud REST API
+
+This REST API enables your C#, ASP.NET, & other .NET apps to [perform document merging & joining](https://products.groupdocs.cloud/merger/net) for 40+ file formats, while page manipulation for 35+ formats.
 
 ## Cloud Document Merger Features
 
