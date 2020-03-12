@@ -1,6 +1,6 @@
-This cloud SDK provides seamless integration of cloud document processing & manipulation features into your cloud-based C#, ASP.NET & other .NET apps.
+# .NET REST API for Cloud Document Processing
 
-Aspose.Words Cloud SDK for .NET is built on top of Aspose.Words REST API and is provided to you under an MIT license. Using Aspose.Words Cloud SDK for .NET, you can work with document comparison, headers, footers, page numbering, tables, sections, document comments, drawing objects, FormFields, fonts, hyperlinks, ranges, paragraphs, math objects, watermarks, track changes and document protection. Aspose.Words Cloud SDK for .NET also assists you in appending documents, splitting documents as well as converting document into other supported file formats.
+This cloud SDK provides seamless integration of [cloud document processing & manipulation features](https://products.aspose.cloud/words/net) into your cloud-based C#, ASP.NET & other .NET apps.
 
 ## Document Processing Features
 
@@ -13,6 +13,14 @@ Aspose.Words Cloud SDK for .NET is built on top of Aspose.Words REST API and is 
 - Convert a document to desired file format along with detailed settings.
 - Convert an encrypted PDF document into MS Word document format.
 - So many more features.
+
+## Enhancements in Version 20.1.0
+
+- Moved property `ColorMode` from `SaveOptionsData` to `FixedPageSaveOptionsData`.
+- Replaced `MemoryStream` and `byte[]` with `SixLabors.ImageSharp.IImage` in image processing.
+- Included support of `ICC` profiles and implement `ICCBased` color space.
+
+For the detailed notes, please visit [Aspose.Words Cloud 20.1 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.1+Release+Notes).
 
 ## Read & Write Document Formats
 
