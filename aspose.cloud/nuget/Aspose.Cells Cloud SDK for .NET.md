@@ -1,6 +1,6 @@
-This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to process & manipulate Microsoft Excel spreadsheets in the cloud, without MS Office.
+# .NET REST API for Spreadsheet Processing in Cloud
 
-It enables your C# cloud-based programs to process workbooks, worksheets, spreadsheets, columns, rows, and individual cells. You can also work with Microsoft Excel OleObjects, pivot tables, ListObjects, shapes, tasks, hyperlinks and comments from within your your cloud-based applications. Aspose.Cells Cloud SDK for .NET also lets you apply auto-filtering or perform conditional formatting on the spreadsheet level. Aspose.Cells Cloud SDK for .NET is a wrapper around Aspose.Cells REST API and is available for use under an MIT license.
+This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to [process & manipulate Microsoft Excel spreadsheets](https://products.aspose.cloud/cells/net) in the cloud, without MS Office.
 
 ## Spreadsheet Processing Features
 
@@ -17,6 +17,10 @@ It enables your C# cloud-based programs to process workbooks, worksheets, spread
 - Load & Process Excel Spreadsheets via Cloud SDK.
 - Cloud SDK to Read & Process Excel Worksheets.
 - Leverage the Power of Pivot Tables & Ranges.
+
+## Enhancements in Version 20.2.0
+
+- Automatically refresh authorization Token in SDK.
 
 ## Read & Write Spreadsheet Formats
 
