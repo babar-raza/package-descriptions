@@ -1,6 +1,6 @@
-This REST API enables your C#, ASP.NET & other .NET cloud-based apps to process & manipulate PPT, PPTX, ODP, OTP presentations in the cloud.
+# .NET REST API to Process Presentation in Cloud
 
-Aspose.Slides Cloud SDK for .NET is a wrapper around Aspose.Slides REST API and is offered under an MIT license. Enhance your .NET programs to create presentations in the cloud, pick and merge specific slides, split presentations, extract images from presentation in any of the supported file formats, extract & download slide notes, clone master slide information, and so much more.
+This REST API enables your C#, ASP.NET & other .NET cloud-based apps to [process & manipulate PPT, PPTX, ODP, OTP presentations](https://products.aspose.cloud/slides/net) in the cloud.
 
 ## Presentation Processing Features
 
@@ -10,6 +10,12 @@ Aspose.Slides Cloud SDK for .NET is a wrapper around Aspose.Slides REST API and 
 - Programmatically create presentation from HTML & export it to various formats.
 - Merge multiple presentations or split single presentation into multiple ones.
 - Extract and replace text from specific slide or entire presentation.
+
+## Enhancements & Changes in Version 20.2.0
+
+- Do not include empty & default field values in `JSON` response for Chart shape object.
+
+For the detailed notes, please visit [Aspose.Slides Cloud 20.2 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.2+Release+Notes).
 
 ## Read & Write Presentation Formats
 
