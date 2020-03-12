@@ -1,6 +1,6 @@
-This cloud SDK enhances your C#, ASP.NET & other .NET cloud-based apps to work with, manage & convert email format files in the cloud without a 3rd party tool.
+# Manage & Convert Email in Cloud via .NET REST API
 
-Aspose.Email Cloud SDK for .NET is a wrapper around Aspose.Email REST API and is available for use under an MIT license. It supports with with common email file formats, such as, MSG and EML.
+This cloud SDK enhances your C#, ASP.NET & other .NET cloud-based apps to work with, [manage & convert email](https://products.aspose.cloud/email/net) format files in the cloud without a 3rd party tool.
 
 ## Email Processing Features
 
@@ -12,6 +12,10 @@ Aspose.Email Cloud SDK for .NET is a wrapper around Aspose.Email REST API and is
 - Supports email file format conversion among popular email formats.
 - Get email properties.
 - Create, list or delete email folders.
+
+## New Features in Version 20.2.0
+
+- Fetch email client configuration settings, such as, name, protocol type, host, port, and socket type etc.
 
 ## Read & Write Email Formats
 
