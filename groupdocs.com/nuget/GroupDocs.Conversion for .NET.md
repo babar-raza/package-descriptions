@@ -1,4 +1,6 @@
-This .NET API can seamlessly integrate and enables your C#, ASP.NET & other .NET apps to convert document formats, without installing any 3rd party tools.
+# .NET API for Document Conversion
+
+This .NET API can seamlessly integrate and enables your C#, ASP.NET & other .NET apps to [convert document formats](https://products.groupdocs.com/conversion/net), without installing any 3rd party tools.
 
 ## Document Conversion Processing Features
 
@@ -15,6 +17,20 @@ This .NET API can seamlessly integrate and enables your C#, ASP.NET & other .NET
 - Load document via stream or from a specific URL.
 - Load password protected documents.
 - Enable listening of conversion process stages.
+
+## Important Announcement about 20.1.0 Release
+
+In this version the Legacy API of GroupDocs.Conversion has been removed. So from version 20.1.0 `GroupDocs.Conversion.Legacy` does not exist anymore.
+
+## New Features in Version 20.1.0
+
+- Support for `EML` to `MSG` conversion.
+- Convert attachments from a mail document.
+- Retrieve prepared default `ConvertOptions` for desired target conversion.
+- `GetAllPossibleConversions` method to return all supported conversions.
+- `GetPossibleConversions` for a specific document format without instantiating a Converter.
+
+For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.1 Release Notes](https://docs.groupdocs.com/display/conversionnet/GroupDocs.Conversion+for+.NET+20.1+Release+Notes).
 
 ## Conversion File Formats
 

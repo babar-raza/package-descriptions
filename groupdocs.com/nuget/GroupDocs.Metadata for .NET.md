@@ -1,4 +1,6 @@
-This .NET API can be consumed to intergrate metadata viewer, editor, reader, writer, and remover operations within your .NET apps.
+# .NET API for Metadata Processing
+
+This .NET API can be consumed to [integrate metadata viewer](https://products.groupdocs.com/metadata/net), editor, reader, writer, and remover operations within your .NET apps.
 
 ## Document Metadata Processing Features
 
@@ -17,6 +19,14 @@ This .NET API can be consumed to intergrate metadata viewer, editor, reader, wri
 - Load a file of a specific format or load a password protected file.
 - Traverse a whole metadata tree.
 - Work with the APEv2, ID3v1, ID3v2, Lyrics & other tags of MP3 metadata.
+
+## Enhancements in Version 20.1.0
+
+- Support to obtain known property descriptors in the public API.
+- Support for an alternative way to extract metadata property values.
+- Add support for `.Net Standard 2.0`.
+
+For the detailed notes, please visit [GroupDocs.Metadata for .NET 20.1 Release Notes](https://docs.groupdocs.com/display/metadatanet/GroupDocs.Metadata+for+.NET+20.1+Release+Notes).
 
 ## Read & Write Metadata Formats
 

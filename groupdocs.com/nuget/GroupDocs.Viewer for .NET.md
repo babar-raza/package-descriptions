@@ -1,4 +1,6 @@
-This robust .NET on-premise file viewer API supports rendering of 130+ format types in HTML, image & PDF formats. 90+ formats are supported for auto-detection.
+# Document Viewer .NET API
+
+This robust .NET on-premise [file viewer API](https://products.groupdocs.com/viewer/net) supports rendering of 130+ format types in HTML, image & PDF formats. 90+ formats are supported for auto-detection.
 
 ## Document Viewer Processing Features
 
@@ -21,6 +23,13 @@ This robust .NET on-premise file viewer API supports rendering of 130+ format ty
 - Apply watermark on the output pages of HTML, image or PDF files.
 - Render documents with comments, notes, and custom fonts.
 - Replace missing fonts while rendering.
+
+## New Features in Version 20.2.0
+
+- Supports retrieving an attachment file type.
+- Display folder name in the header when viewing archives.
+
+For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/viewernet/GroupDocs.Viewer+for+.NET+20.2+Release+Notes).
 
 ## HTML, Image, PDF Rendering Supported Formats
 

@@ -1,4 +1,6 @@
-Its an on-premise API that seamlessly integrates document annotation features into your .NET applications. Apply graphic, text and watermark annotations.
+# .NET API for Document Annotation
+
+Its an on-premise API that seamlessly [integrates document annotation features](https://products.groupdocs.com/annotation/net) into your .NET applications. Apply graphic, text and watermark annotations.
 
 ## Document Annotation Processing Features
 
@@ -8,11 +10,22 @@ Its an on-premise API that seamlessly integrates document annotation features in
 - Render document pages as images.
 - Generate document thumbnails or document image preview.
 - Support for default cache (local disk) or custom cache (Amazon S3,Dropbox etc.).
-- Get list of supported file formats.
+- [Get list](https://docs.groupdocs.com/display/annotationnet/Get+supported+file+formats) of [supported file formats](https://docs.groupdocs.com/display/annotationnet/Supported+Document+Formats).
 - Fetch document information, such as, page count & file size.
-- Extract annotations from a document and serialize to XML format.
+- [Extract annotations from a document](https://docs.groupdocs.com/display/annotationnet/Extract+annotations+from+document) and serialize to XML format.
 - Remove previously added annotations from a document.
 - Update specific annotation properties (size, color etc.).
+
+## New Features in Version 20.2.0
+
+- Ability to add Image annotation to Diagrams.
+
+## Enhancements in Version 20.2.0
+
+- Added overloads for Annotator Remove Method.
+- Implement image extracting to `ImageAnnotation`.
+
+For the detailed list, please visit [GroupDocs.Annotation for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/annotationnet/GroupDocs.Annotation+for+.NET+20.2+Release+Notes).
 
 ## Microsoft Office Annotation Formats
 

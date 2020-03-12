@@ -1,9 +1,11 @@
-An on-premise API to generate documents of various formats based on user-defined templates as well as from other data sources, such as, XML, OData, JSON etc.
+# .NET API for Document Assembly
+
+An on-premise [API to generate documents of various formats](https://products.groupdocs.com/assembly/net) based on user-defined templates as well as from other data sources, such as, XML, OData, JSON etc.
 
 ## Document Assembly Processing Features
 
-- Support for multiple data formats.
-- Perform sequential data operations.
+- Support for [multiple data formats](https://docs.groupdocs.com/display/assemblynet/Supported+Document+Formats).
+- Perform [sequential data](https://docs.groupdocs.com/display/assemblynet/Template+Syntax+-+Part+2+of+2#TemplateSyntax-Part2of2-OutputtingSequentialData) operations.
 - Supports upper, lower, capital, first-cap formatting to template syntax strings.
 - Apply ordinal, cardinal, alphabetic, numeric formatting in template syntax.
 - Use custom variables in the template documents.
@@ -11,7 +13,7 @@ An on-premise API to generate documents of various formats based on user-defined
 - Dynamically insert document content & hyperlinks in reports.
 - Apply attributes to email message body.
 - Dynamically apply email attachments.
-- Generate barcode in reports.
+- [Generate barcode](https://docs.groupdocs.com/display/assemblynet/Working+with+Barcode+Image+Generation) in reports.
 - Dynamically set background color of HTML documents.
 - Supports formatting of numeric, text, image, date-time, chart elements in template.
 - Apply conditional formatting on template text elements.
@@ -25,6 +27,15 @@ An on-premise API to generate documents of various formats based on user-defined
 - Instead of exception throwing, support for inline template syntax errors in generated docs.
 - Load template documents from HTML with resources.
 - Save assembled documents to HTML with resources.
+
+## New Features in Version 20.1.0
+
+- Support for dynamic insertion of bookmarks for the following:
+  - Word Processing documents.
+  - Emails with HTML and RTF bodies.
+- Support for dynamic naming of cell ranges for Spreadsheets.
+
+For a detailed list, please visit [GroupDocs.Assembly for .NET 20.1 Release Notes](https://docs.groupdocs.com/display/assemblynet/GroupDocs.Assembly+for+.NET+20.1+Release+Notes).
 
 ## Read & Write Microsoft Office Formats
 

@@ -1,4 +1,6 @@
-This on-premise .NET API lets your app end-users sign their electronic documents from a wide range of file formats. Supports several types of e-signing methods.
+# .NET API for Document Signature
+
+This on-premise .NET API lets your app end-users [sign the electronic documents](https://products.groupdocs.com/signature/net) from a wide range of file formats. Supports several types of e-signing methods.
 
 ## Document Signature Processing Features
 
@@ -10,6 +12,23 @@ This on-premise .NET API lets your app end-users sign their electronic documents
 - Generate image representation of document pages for preview.
 - Distinguish created signatures from the actual document.
 - Put encrypted text into QR-code signature or embed custom data objects.
+
+## New Features in Version 20.2.0
+
+- Extended Image Signature with image data content for following:
+  - Presentation Documents
+  - Word Processing Documents
+  - Spreadsheet Documents
+  - PDF Documents
+- Support to implement Image Size filter for Image Search functionality.
+- Support to implement output Image format property for Image Search Options.
+
+## Enhancements in the Version 20.2.0
+
+- Extended Document Information with list of existing signatures and document Form Fields.
+- Improved ability to search over simple `SignatureType` argument or several.
+
+For the detailed notes, please visit [GroupDocs.Signature for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/signaturenet/GroupDocs.Signature+for+.NET+20.2+Release+Notes).
 
 ## Signature Supported Formats
 
