@@ -1,4 +1,6 @@
-This REST API enhances your C#, ASP.NET & other .NET cloud apps to import, export & process text & figure annotations within documents for 35+ file formats.
+# Document Annotation .NET Cloud REST API
+
+This REST API enhances your C#, ASP.NET & other .NET cloud apps to [import, export & process text & figure annotations](https://products.groupdocs.cloud/annotation/net) within documents for 35+ file formats.
 
 ## Cloud Document Annotation Features
 
@@ -10,6 +12,14 @@ This REST API enhances your C#, ASP.NET & other .NET cloud apps to import, expor
 - Get image representation of the document pages.
 - Render documents to PDF format with storage URL or stream output.
 - Add or remove document or image annotations of various types.
+
+## New Features in Version 19.5.0
+
+- This is the first release of a completely new version of the API `GroupDocs.Annotation.Cloud v2.0`.
+- `V2` provides much simpler and intuitive API comparing with `V1`.
+- `V2` includes Storage and File API which enables users to manage storage and files.
+
+For the detailed notes, please visit [GroupDocs.Annotation Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/annotationcloud/release-notes/2019/groupdocs-annotation-cloud-19-5-release-notes/).
 
 ## Supported Annotation Formats
 
