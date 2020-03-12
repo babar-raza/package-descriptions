@@ -1,6 +1,6 @@
-This Cloud SDK enables you to perform Optical Mark Recognition (OMR) operations on human-marked data from within your cloud-based C#, ASP.NET & other .NET apps. 
+# .NET REST API for OMR Processing
 
-Aspose.OMR Cloud SDK for .NET enhances your C# and other .NET cloud applications to define and generate OMR templates with support for numerous types of elements, such as, text, grid, multi-column answer sheets, and logo images. You can also use various types of barcodes (code39, ean, ean13, ean8, qr, aruci, jan, upc & upca) within your user-defined OMR templates. Using Aspose.OMR Cloud SDK for .NET, you can also define your own answer grading rules to perform automatic grading of OMR mark sheets. Support to extract and export the OMR data to CSV format is also available. Aspose.OMR Cloud SDK for .NET also allows your to create mark sheets, surveys, questionnaires, quizzes as well as other OMR readable sheets based on your defined OMR templates. Aspose.OMR Cloud SDK for .NET is a wrapper around Aspose.OMR REST API and it works without installing any 3rd party software. Aspose.OMR Cloud SDK for .NET is distributed under an MIT license.
+This Cloud SDK enables you to [perform Optical Mark Recognition (OMR)](https://products.aspose.cloud/omr/net) operations on human-marked data from within your cloud-based C#, ASP.NET & other .NET apps.
 
 ## OMR Processing Features
 
