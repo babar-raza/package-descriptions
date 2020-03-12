@@ -1,6 +1,6 @@
-This cloud SDK assists to process & manipulate images from within your C#, ASP.NET & other .NET based cloud applications, without installing any 3rd party tool.
+# Image Processing in Cloud via .NET REST API
 
-Apose.Imaging Cloud SDK for .NET is built on top of Aspose.Imaging REST API and is distributed under an MIT license. Aspose.Imaging Cloud SDK for .NET enables your C# code to fetch images from cloud storage and perform various operations, such as, resizing, cropping, merging, scaling, and converting images. You can also perform various operations on TIFF images. Extract a single TIFF from to crop, resize, rotate, or flip it. Aspose.Imaging Cloud SDK for .NET also enables you to convert TIFF to fax compatible format.
+This cloud SDK assists to [process & manipulate images](https://products.aspose.cloud/imaging/net) from within your C#, ASP.NET & other .NET based cloud applications, without installing any 3rd party tool.
 
 ## Image Processing Features
 
@@ -11,6 +11,10 @@ Apose.Imaging Cloud SDK for .NET is built on top of Aspose.Imaging REST API and 
 - Access and multi-frame TIFF image and extract the desired frames from it.
 - Rotate, flip, crop, resize or fetch properties of the selected TIFF frame.
 - Merge multiple TIFF images.
+
+## New Features in Version 20.2.0
+
+- Support for image grayscale feature.
 
 ## Read & Write Image Formats
 
