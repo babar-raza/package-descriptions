@@ -1,17 +1,28 @@
-This cloud REST API enhances your C#, ASP.NET & other .NET cloud apps to compare two documents, fetch, accept or reject the changes. Supports 90+ file formats.
+# Document Comparison .NET Cloud REST API
+
+This cloud REST API enhances your C#, ASP.NET & other .NET cloud apps to [compare two documents](https://products.groupdocs.cloud/comparison/net), fetch, accept or reject the changes. Supports 90+ file formats.
 
 ## Cloud Document Comparison Features
 
 - Compare two documents and fetch changes.
 - Fetch document changes based on change category, such as, numeric only.
 - Accept or reject the changes that come up after document comparison.
-- Get the image stream of resultant document via JsonRequest object.
+- Get the image stream of resultant document via `JsonRequest` object.
 - Save the resultant document to streams as set of images.
 - Get the resultant document path.
 - Add summary page to resultant document after comparison.
 - Show deleted components in the resultant document.
 - Detect style changes.
 - Get or set password to the the resultant document.
+
+## New Features in Version 19.5.0
+
+- This is the first release of a completely new version of the API `GroupDocs.Comparison.Cloud v2.0`.
+- `V2` provides much simpler and intuitive API as compared to `V1`.
+- `V2` includes Storage and File API which enables you to manage storage and files.
+- Internal cloud solution is based on the modern micro-service architecture.
+
+For the detailed notes, please visit [GroupDocs.Comparison Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/comparisoncloud/release-notes/2019/groupdocs-comparison-cloud-19-5-release-notes/).
 
 ## Supported Document Formats
 
