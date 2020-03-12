@@ -1,4 +1,6 @@
-This REST API allows your C#, ASP.NET & other .NET cloud-based apps to convert documents of 50+ file formats from within your apps without any 3rd party tool.
+# .NET Cloud REST API for Document Conversion
+
+This REST API allows your C#, ASP.NET & other .NET cloud-based apps to [convert documents](https://products.groupdocs.cloud/conversion/net) of 50+ file formats from within your apps without any 3rd party tool.
 
 ## Cloud Document Conversion Features
 
@@ -15,31 +17,47 @@ This REST API allows your C#, ASP.NET & other .NET cloud-based apps to convert d
 - Use PDF as an intermediary format while converting.
 - Apply watermark during conversion process.
 
+## New Features in Version 20.2.0
+
+- **New Source Formats:** DIB, XLT, POT, XLAM, MPX, JPC, DWT, JPEG-LS.
+- **New Target Formats:** WMF, EMF, XLAM.
+- Supports encoding for source `CSV` and `TXT` documents.
+- Supports `TimeZoneOffset` and `ConvertAttachments` for source Email documents.
+
+## Enhancements in Version 20.2.0
+
+- Improved quality of Diagram to Word document conversion.
+- Converting multi-page `TIFF` to `PDF`.
+- Improvement in `MPP` to `XLS` conversion.
+
+For the detailed notes, please note, [GroupDocs.Conversion Cloud 20.2 Release Notes](https://wiki.groupdocs.cloud/conversioncloud/release-notes/2020/groupdocs-conversion-cloud-20-2-release-notes/).
+
 ## Conversion File Formats
 
 GroupDocs.Conversion Cloud SDK for .NET allows you to convert any of the following type of file formats:
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT
-**Microsoft Excel:** XLS, XLS2003, XLSB, XLSM, XLSX, CSV
-**Microsoft PowerPoint:** PPS, PPSX, PPT, PPTX
+**Microsoft Excel:** XLS, XLT, XLS2003, XLSB, XLSM, XLAM, XLSX, CSV
+**Microsoft PowerPoint:** PPS, PPSX, PPT, PPTX, POT
 **Microsoft Visio:** VDW, VDX, VSD, VSDX, VSS, VST, VSX, VTX
-**Microsoft Project:** MPP, MPT
+**Microsoft Project:** MPP, MPT, MPX
 **OpenOffice:** ODP, ODS, ODT, OTT
 **Adobe Photoshop:** PSD
-**AutoCAD:** DWG, DXF
-**Image:** BMP, GIF, ICO, JPEG, JPG, PNG, SVG, TIF, TIFF
+**AutoCAD:** DWG, DWT, DXF
+**Image:** BMP, GIF, ICO, JPEG, JPEG-LS, JPG, JPC, PNG, SVG, TIF, TIFF, DIB
 **Email:** EML, EMLX, MSG
 **Fixed Layout:** PDF, XPS
 **Markup:** HTM, HTML, MHT
 
 to the following formats:
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT
-**Microsoft Excel:** XLS, XLS2003, XLSB, XLSM, XLSX, CSV
+**Microsoft Excel:** XLS, XLS2003, XLSB, XLSM, XLAM, XLSX, CSV
 **Microsoft PowerPoint:** PPS, PPSX, PPT, PPTX
 **OpenOffice:** ODP, ODS, ODT, OTT
 **Adobe Photoshop:** PSD
 **Image:** BMP, GIF, ICO, JPEG, JPG, PNG, TIF, TIFF
 **Fixed Layout:** PDF, XPS
 **Markup:** HTM, HTML
+**Metafile:** WMF, EMF
 
 ## Platform Independence
 
