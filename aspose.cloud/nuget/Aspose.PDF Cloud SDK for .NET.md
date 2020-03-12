@@ -1,6 +1,6 @@
-This Cloud SDK allows you to easily build cloud-based PDF creator, editor & converter apps in C#, ASP.NET or other .NET languages for various cloud platforms.
+# .NET REST API to Process PDF in Cloud
 
-Aspose.PDF Cloud SDK for .NET is available to you under an MIT license and is a wrapper around Aspose.PDF REST API. Access images embedded in the PDF documents for customization, work with; annotations, stamps, PDF form fields, watermarks, as well as the OCR layers within the PDF files.
+This Cloud SDK allows you to [easily build cloud-based PDF creator](https://products.aspose.cloud/pdf/net), editor & converter apps in C#, ASP.NET or other .NET languages for various cloud platforms.
 
 ## PDF Processing Features
 
@@ -14,6 +14,11 @@ Aspose.PDF Cloud SDK for .NET is available to you under an MIT license and is a 
 - Replace a single or multiple instances of a text on a PDF page or from entire document.
 - Extensive support for converting PDF documents to various other file formats.
 - Extract various elements of PDF file & make PDF document optimized.
+
+## New Features in Version 20.2.0
+
+- Convert PDFA to PDF and upload the resulting file to storage.
+- Convert PDFA to PDF and return resulting file in response.
 
 ## Read & Write PDF Formats
 
