@@ -1,26 +1,30 @@
-This [REST API](https://products.groupdocs.cloud/viewer/python) enhances your C#, ASP.NET, & other .NET based cloud apps to [render 85+ types of file formats](https://wiki.groupdocs.cloud/viewercloud/getting-started/supported-document-formats/) to image, PDF or HTML formats from within your apps.
+Python Cloud SDK wraps GroupDocs.Viewer Cloud API so you could seamlessly integrate Document Viewing features into your own Python apps.
 
-## Cloud Document Viewer Features
+[GroupDocs.Viewer Cloud SDK for Python](https://products.groupdocs.cloud/viewer/python) helps developers implement document merging for over 85+ file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Visio®, Project®, Adobe, markup & image file formats to view as HTML, PDF or images. 
 
-- Support for rendering lots of document and image file formats.
-- Fetch the [list of all installed fonts](https://wiki.groupdocs.cloud/viewercloud/developer-guide/fonts-resource/#HGetFontsResource) or [delete the fonts cache](https://wiki.groupdocs.cloud/viewercloud/developer-guide/fonts-resource/#HDeleteFontsCache).
-- Download [HTML page resources](https://wiki.groupdocs.cloud/viewercloud/developer-guide/page-resources/), e.g., images, CSS, fonts etc.
-- Render a document to PDF for HTML or image representation and download it.
+Check out the [API Reference](https://apireference.groupdocs.cloud/viewer/) to know all about the GroupDocs.Viewer REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
+
+# View Documents in the Cloud
+
+- [Render documents pages as images](https://wiki.groupdocs.cloud/viewercloud/developer-guide/document-pages/rendering-document-pages/).
+- Fetch the list of all installed fonts or delete the fonts cache.
+- Download HTML page resources, e.g., images, CSS, fonts etc.
+- Render document as PDF, HTML or image representation and download as ZIP.
 - Fetch document information via various methods.
-- Obtain list of links to document pages as HTML or images.
-- Fetch and download ZIP archive of document pages as HTML or images.
+- Obtain list of links to document pages as HTML.
 - Rotate and reorder document pages.
 - Specify image quality while rendering PDF as HTML.
-- Decrease the resultant file size by excluding fonts when rendering as HTML.
-- Render specific sections of worksheets defined as "print area" as HTML.
-- Choose to include or exclude hidden content in Excel documents.
-- Make the output content in [HTML and SVG minified](https://wiki.groupdocs.cloud/viewercloud/developer-guide/document-pages/minification-of-html-and-svg/).
-- Render a [document to responsive HTML](https://wiki.groupdocs.cloud/viewercloud/developer-guide/document-pages/rendering-document-to-responsive-html/).
-- Render email messages & render Outlook data files as HTML.
-- Get list of all email attachments in its HTML or image representation.
-- Download resources of a specific email attachment page for HTML representation.
+- Decrease the resultant file size by excluding fonts.
+- Render specific sections of worksheets defined as "Print Area".
+- Choose to include or exclude hidden content.
+- [Save result in minified HTML and SVG ](https://wiki.groupdocs.cloud/viewercloud/developer-guide/document-pages/minification-of-html-and-svg/).
+- Render documents [responsive HTML](https://wiki.groupdocs.cloud/viewercloud/developer-guide/document-pages/rendering-document-to-responsive-html/).
+- Render email messages & Outlook data files.
+- Integrated storage API.
 
 ## Supported File Formats
+
+GroupDocs.Viewer Cloud API [supports 85+ file formats](https://wiki.groupdocs.cloud/viewercloud/getting-started/supported-document-formats/) that it can load & render.
 
 **Word Processing:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, ODT, OTT, RTF, TXT
 **Spreadsheet:** XLS, XLSB, XLSM, XLSX, ODS, OTS, CSV, TSV
@@ -35,31 +39,11 @@ This [REST API](https://products.groupdocs.cloud/viewer/python) enhances your C#
 **Image:** BMP, CGM, DCM, DJVU, DNG, EMF, EPS, GIF, ICO, JP2, JPF, JPX, J2K, J2C, JPM, JPG, JPEG, ODG, PCL, PNG, PS, PSD, SVG, TIF, TIFF, WEBP, WMF
 **eBook:** EPUB, MOBI
 
-## Platform Independence
+## Getting Started with GroupDocs.Viewer Cloud SDK for Python
 
-GroupDocs.Viewer Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-python). You can either directly use the source code or get PIP distribution via `pip install groupdocs-viewer-cloud`.
 
-## Dependencies
-
-- Python 2.7 or 3.4+
-
-## Installation
-
-Install `groupdocs-viewer-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
-
-`pip install groupdocs-viewer-cloud`
-
-Or clone repository and install it via [Setuptools](http://pypi.python.org/pypi/setuptools):
-
-`python setup.py install`
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-python) for other common usage scenarios.
-
-## Getting Started
-
-Please follow the [installation procedure](https://pypi.org/project/groupdocs-viewer-cloud/#installation) and then run following:
+Execute following snippet to load supported document formats.
 
 ```python
 # Import module

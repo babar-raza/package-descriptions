@@ -17,7 +17,7 @@ Node.js Cloud SDK wraps Aspose.BarCode Cloud API so you could seamlessly integra
 - Recognize specified number of barcodes.
 - Apply image processing algorithms to read barcodes.
 
-## Read & Write BarCode From Images
+## Generate & Recognize Barcode As
 
 JPEG, TIFF, PNG, BMP, GIF
 

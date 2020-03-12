@@ -1,21 +1,22 @@
-# Document Comparison Python REST API
+Python Cloud SDK wraps GroupDocs.Comparison Cloud API so you could seamlessly integrate Document Comparison features into your own Python apps.
 
-This cloud REST API enhances your Python cloud apps to [compare two documents](https://products.groupdocs.cloud/comparison/python), fetch, accept or reject the changes. Supports 90+ file formats.
+[GroupDocs.Comparison Cloud SDK for Python](https://products.groupdocs.cloud/comparison/python) helps developers implement document comparison for over 90 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe, CAD, markup & image file formats, and compare 2 similar documents to retrieve differences as a file or array of images. 
 
-## Cloud Document Comparison Features
+Check out the [API Reference](https://apireference.groupdocs.cloud/comparison/) to know all about the GroupDocs.Comparison REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
 
-- [Compare two documents](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-changes/) and fetch changes.
-- Fetch [document changes based on change category](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-changes-categories/), such as, numeric only.
-- [Accept or reject the changes](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-document-changes/) that come up after document comparison.
-- Get the [image stream of resultant document](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-stream-of-images-of-result-document-changes/) via JsonRequest object.
-- Save the resultant document to streams as set of images.
-- Get the resultant document path.
+# Document Comparison in the Cloud
+
+- Load password protected documents.
+- [Fetch document changes](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-document-changes/) based on category, such as, change in numeric values only.
+- Accept or reject retrieved changes.
+- [Get the image stream of resultant document](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-stream-of-images-of-result-document-changes/).
+- Detect changes in text style.
 - Add summary page to resultant document after comparison.
 - Show deleted components in the resultant document.
-- Detect style changes.
-- Get or set password to the the resultant document.
 
-## Supported Document Formats
+## Compare Document Formats
+
+GroupDocs.Comparison Cloud API [supports 90+ file formats](https://wiki.groupdocs.cloud/comparisoncloud/getting-started/supported-document-formats/) that it can load & compare.
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, ODT, OTT, RTF, TXT
 **Microsoft Excel:** XLS, XLSB, XLSM, XLSX, XLTM, XLTX, ODS, OTS, CSV, TSV
@@ -33,27 +34,11 @@ This cloud REST API enhances your Python cloud apps to [compare two documents](h
 **Metafile:** EMF, WMF
 **Other:** PCL, PS
 
-## Platform Independence
+## Getting Started with GroupDocs.Comparison Cloud SDK for Python
 
-GroupDocs.Comparison Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-python). You can either directly use the source code or get PIP distribution via `pip install groupdocs-comparison-cloud`.
 
-## Installation
-
-Install `groupdocs-comparison-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
-
-`pip install groupdocs-comparison-cloud`
-
-Or clone repository and install it via [Setuptools](http://pypi.python.org/pypi/setuptools):
-
-`python setup.py install`
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-python) for other common usage scenarios.
-
-## Getting Started
-
-Please follow the [installation procedure](https://pypi.org/project/groupdocs-comparison-cloud/#installation) and then run following:
+Execute following snippet to load supported formats.
 
 ```python
 # Import module

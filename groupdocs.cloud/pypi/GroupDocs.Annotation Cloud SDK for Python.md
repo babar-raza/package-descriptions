@@ -1,19 +1,24 @@
-# Document Annotation Python REST API
+Python Cloud SDK wraps GroupDocs.Annotation Cloud API so you could seamlessly integrate Document Annotation features into your own Python apps.
 
-This REST API enhances your Python cloud apps to [import, export & process text & figure annotations](https://products.groupdocs.cloud/annotation/python) within documents for [35+ file formats](https://wiki.groupdocs.cloud/annotationcloud/getting-started/supported-document-formats/).
+[GroupDocs.Annotation Cloud SDK for Python](https://products.groupdocs.cloud/annotation/python) helps developers implement document annotation for over 35 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe, metafile, markup & image file formats, and add area, arrow, distance, point, polyline, text or watermark annotation. 
 
-## Cloud Document Annotation Features
+Check out the [API Reference](https://apireference.groupdocs.cloud/annotation/) to know all about the GroupDocs.Annotation REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
 
-- [Fetch document description](https://wiki.groupdocs.cloud/annotationcloud/developer-guide/document-information/) with meta data and coordinates of text on pages.
-- Fetch annotation data from files of supported formats.
-- Import annotation information from documents.
-- [Export annotation information](https://wiki.groupdocs.cloud/annotationcloud/developer-guide/working-with-annotations/#HExportAnnotation) to a document and fetch it as a stream.
-- Remove document annotations.
-- Get image representation of the document pages.
-- Render documents to PDF format with storage URL or stream output.
-- Add or remove document or image annotations of various types.
+
+## Document Annotation in the Cloud
+
+- Load protected documents.
+- Add, remove or extract document annotation.
+- Generate image representation from document pages.
+- Inspect document information.
+- Get & set various annotation settings.
+- [Export annotation](https://wiki.groupdocs.cloud/annotationcloud/developer-guide/working-with-annotations/#HExportAnnotationandgetDocumentasStream) information to a document.
+- [Render documents to PDF](https://wiki.groupdocs.cloud/annotationcloud/developer-guide/rendering-documents/).
+- Intergrated storage API.
 
 ## Supported Annotation Formats
+
+GroupDocs.Annotation Cloud API [supports 35+ file formats](https://wiki.groupdocs.cloud/annotationcloud/getting-started/supported-document-formats/) that it can load & annotate.
 
 **Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
 **Microsoft Excel:** XLS, XLSX, XLSB, XLSX
@@ -46,27 +51,11 @@ This REST API enhances your Python cloud apps to [import, export & process text 
 **Watermark** – create text-based watermark overlays.
 **Distance** – measure the distance between any objects in a document.
 
-## Platform Independence
+## Getting Started with GroupDocs.Annotation Cloud SDK for Python
 
-GroupDocs.Annotation Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-python). You can either directly use the source code in your project or get PIP distribution via `pip install groupdocs-annotation-cloud`.
 
-## Installation
-
-Install `groupdocs-annotation-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
-
-`pip install groupdocs-annotation-cloud`
-
-Or clone repository and install it via [Setuptools](http://pypi.python.org/pypi/setuptools):
-
-`python setup.py install`
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-python) for other common usage scenarios.
-
-## Getting Started
-
-Please follow the [installation procedure](https://pypi.org/project/groupdocs-annotation-cloud/#installation) and then run following:
+Execute following snippet to load supported formats.
 
 ```python
 # Import module
@@ -91,7 +80,7 @@ except groupdocs_annotation_cloud.ApiException as e:
     print("Exception when calling get_supported_file_formats: {0}".format(e.message))
 ```
 
-## Use Python Cloud SDK to Add Arrow Annotation
+## Use Python Cloud SDK to Add Arrow Annotation to DOCX
 
 ```python
 # Import modules

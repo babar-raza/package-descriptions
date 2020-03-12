@@ -1,30 +1,33 @@
-# Document Conversion Python REST API
+Python Cloud SDK wraps GroupDocs.Conversion Cloud API so you could seamlessly integrate Document Conversion features into your own Python apps.
 
-This REST API allows your Python cloud-based apps to [convert documents](https://products.groupdocs.cloud/conversion/python) of [50+ file formats](https://wiki.groupdocs.cloud/conversioncloud/getting-started/supported-document-formats/) from within your apps without any 3rd party tool.
+[GroupDocs.Conversion Cloud SDK for Python](https://products.groupdocs.cloud/conversion/python) helps developers implement document conversion for over 50 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe, CAD, markup & image file formats, and export to various other formats. 
 
-## Cloud Document Conversion Features
+Check out the [API Reference](https://apireference.groupdocs.cloud/conversion/) to know all about the GroupDocs.Conversion REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try it from Swagger UI.
 
-- Specify [document conversion settings](https://wiki.groupdocs.cloud/conversioncloud/developer-guide/data-structures/conversionsettings/).
-- Specify page width & height while converting CAD diagrams.
-- Choose specific CAD diagram layouts to be converted.
-- Substitute specific fonts during cells document conversion.
-- Convert specific cell range while converting to non-cell formats.
-- Skip empty rows and columns when converting cells documents.
-- Display or hide email header, "from", "to", "cc" & "bcc".
-- Substitute specific fonts when converted some supported formats.
-- Start converting from specified page number.
-- Convert a specific number of pages from the specified page.
+## Document Conversion in the Cloud
+
+- Load password protected documents.
+- Protect destination document (if supported).
+- Convert specific document pages.
+- Convert N consecutive pages.
+- Add watermark to destination document.
+- Get document metadata.
+- Get possible conversion options for any input document.
 - Use PDF as an intermediary format while converting.
-- Apply [watermark during conversion](https://wiki.groupdocs.cloud/conversioncloud/developer-guide/data-structures/convertoptions/) process.
+- Intergrated storage API.
 
-## New Features Added in Version 20.2.0
+## Document Specific REST Models
 
-- Support of encoding for source CSV and TXT documents.
-- Added `TimeZoneOffset`, `ConvertAttachments` for source Email documents.
+- Convert specific cell range, skip empty rows & columns or substitute font during Excel document conversion.
+- Display or hide email headers like "from", "to", "cc" & "bcc".
+- Adjust resolution, contrast, brightness or gamma for image conversion. Also rotate, flip or convert to grayscale.
+- Set page's DPI & zoom level while converting Word documents.
+- Render specific CAD layouts.
 
-## Conversion File Formats
+## Read File Formats for Conversion
 
-GroupDocs.Conversion Cloud SDK for Python allows you to convert any of the following type of file formats:
+GroupDocs.Conversion Cloud API [supports 50+ file formats](https://wiki.groupdocs.cloud/conversioncloud/getting-started/supported-document-formats/) that it can load & export.
+
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT
 **Microsoft Excel:** XLS, XLS2003, XLSB, XLSM, XLSX, CSV
 **Microsoft PowerPoint:** PPS, PPSX, PPT, PPTX
@@ -38,7 +41,8 @@ GroupDocs.Conversion Cloud SDK for Python allows you to convert any of the follo
 **Fixed Layout:** PDF, XPS
 **Markup:** HTM, HTML, MHT
 
-to the following formats:
+## Save Documents As
+
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT
 **Microsoft Excel:** XLS, XLS2003, XLSB, XLSM, XLSX, CSV
 **Microsoft PowerPoint:** PPS, PPSX, PPT, PPTX
@@ -48,32 +52,12 @@ to the following formats:
 **Fixed Layout:** PDF, XPS
 **Markup:** HTM, HTML
 
-## Conversion File Formats Added in Version 20.2.0
+## Getting Started with GroupDocs.Conversion Cloud SDK for Python
 
-**Source Conversion Formats:** DIB, XLT, POT, XLAM, MPX, JPC, DWT, JPEG-LS
-**Target Conversion Formats:** WMF, EMF, XLAM
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-conversion-cloud/groupdocs-conversion-cloud-python). You can either directly use it in your project via source code or get PIP distribution as `pip install groupdocs-conversion-cloud`.
 
-## Platform Independence
 
-GroupDocs.Conversion Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
-## Installation
-
-Install `groupdocs-conversion-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
-
-`pip install groupdocs-conversion-cloud`
-
-Or clone repository and install it via [Setuptools](http://pypi.python.org/pypi/setuptools):
-
-`python setup.py install`
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-conversion-cloud/groupdocs-conversion-cloud-python) for other common usage scenarios.
-
-## Getting Started
-
-Please follow the [installation procedure](https://pypi.org/project/groupdocs-conversion-cloud/#installation) and then run following:
+Execute following snippet to load all supported conversion formats.
 
 ```python
 # Import module

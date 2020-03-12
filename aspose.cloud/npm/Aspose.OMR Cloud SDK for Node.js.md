@@ -1,8 +1,10 @@
 Node.js Cloud SDK wraps Aspose.OMR REST API so you could seamlessly integrate OMR (Optical Mark Recognition) features to your own Node.js applications.
 
+# Optical Mark Recognition in the Cloud 
+
 [Aspose.OMR Cloud SDK for Node.js](https://products.aspose.cloud/omr/nodejs) allows to define and generate OMR templates with support for numerous types of elements, such as, text, grid, multi-column answer sheets, and images. Using Aspose.OMR Cloud SDK for Node.js, developers can also define answer grading rules to perform automatic grading of OMR mark sheets, surveys, questionnaires & quizzes while extracting the OMR data to CSV format.
 
-## OMR Processing Features
+## OMR Features
 
 - Ability to perform OMR on rotated & perspective (within 25 deg) photos.
 - Extract & recognize human-marked data from scanned tests, exams, surveys etc.

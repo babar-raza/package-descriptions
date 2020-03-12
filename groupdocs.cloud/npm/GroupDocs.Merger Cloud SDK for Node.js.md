@@ -1,7 +1,18 @@
-This REST API enables your Node.js apps to [perform document merging & joining](https://products.groupdocs.cloud/merger/nodejs) for 40+ file formats, while page manipulation for 35+ formats.
+Node.js Cloud SDK wraps GroupDocs.Merger Cloud API so you could seamlessly integrate Document Joining features into your own Node.js apps.
 
-## Cloud Document Merger Features
+# Document Merging in the Cloud
 
+[GroupDocs.Merger Cloud SDK for Node.js](https://products.groupdocs.cloud/merger/nodejs) helps developers implement document merging for over 35 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe & markup file formats, and merge documents. 
+
+Check out the [API Reference](https://apireference.groupdocs.cloud/merger/) to know all about the GroupDocs.Merger REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
+
+## Utility Features
+
+- Load password protected documents.
+- [Integrated storage API](https://wiki.groupdocs.cloud/editorcloud/developer-guide/storage-operations/) for unified access to files & folders.
+- Extract basic information about the document.
+- Set, update or remove document password.
+- Change portrait or landscape orientation of the document pages.
 - [Merge two of more documents](https://wiki.groupdocs.cloud/mergercloud/developer-guide/document-operations/join-multiple-documents/) into a single file.
 - Merge specific pages from several different documents into a single file.
 - Join page ranges from various documents into a single resultant file.
@@ -9,11 +20,10 @@ This REST API enables your Node.js apps to [perform document merging & joining](
 - Generate image representation of document pages as preview.
 - Create document image preview of all pages, specific pages, or a page range.
 - [Move, remove, rotate, swap, and extract](https://wiki.groupdocs.cloud/mergercloud/developer-guide/pages-operations/) document pages.
-- Change portrait or landscape orientation of the document pages.
-- Set, update or remove document password.
-- Extract basic information about the document.
 
 ## Merge & Split File Formats
+
+GroupDocs.Merger Cloud API [supports 35+ file formats](https://wiki.groupdocs.cloud/mergercloud/getting-started/supported-document-formats/) that it can load & perform merge or split operations.
 
 **Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF
 **Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM
@@ -27,7 +37,8 @@ This REST API enables your Node.js apps to [perform document merging & joining](
 
 ## Page Manipulation File Formats
 
-The following file formats are supported for trimming, moving, swapping pages or changing page orientation:
+The following file formats are supported for trimming, moving, swapping pages or changing page orientation.
+
 **Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF
 **Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM
 **Microsoft PowerPoint:** PPT, PPTX, PPS, PPSX
@@ -43,21 +54,11 @@ The following file formats are supported for trimming, moving, swapping pages or
 **Fixed Layout:** PDF, XPS
 **Other:** TEX, EPUB
 
-## Platform Independence
+## Getting Started with GroupDocs.Merger Cloud SDK for Node.js
 
-GroupDocs.Merger Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-node). You can either directly use it in your project via source code or get NPM distribution via `npm install groupdocs-merger-cloud`.
 
-## Installation
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information. The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
-
-A package `groupdocs-merger-cloud` is available at [npmjs.com](https://www.npmjs.com/package/groupdocs-merger-cloud). You can install it with:
-
- `npm install groupdocs-merger-cloud`
-
-## Getting Started
-
-Please follow the [installation](https://www.npmjs.com/package/groupdocs-merger-cloud#installation) procedure and then run the following JavaScript code:
+Execute following snippet to load supported formats.
 
 ```js
 // load the module
@@ -109,7 +110,7 @@ infoApi.getSupportedFileFormats()
     });
 ```
 
-## Merge Multiple Documents using Node.js
+## Merge Multiple Documents in the Cloud using Node.js
 
 ```js
 global.appSid = "XXXX-XXXX-XXXX-XXXX"; // Get AppKey and AppSID from https://dashboard.groupdocs.cloud

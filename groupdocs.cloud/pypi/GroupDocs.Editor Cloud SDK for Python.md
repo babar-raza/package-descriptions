@@ -1,24 +1,31 @@
-# Document Editing Python REST API
+Python Cloud SDK wraps GroupDocs.Editor Cloud API so you could seamlessly integrate Document Editing features into your own Python apps.
 
-Use this REST API to enhance your Python apps to [edit documents](https://products.groupdocs.cloud/editor/python), spreadsheets, presentations of [40+ file formats](https://wiki.groupdocs.cloud/editorcloud/getting-started/supported-document-formats/) from within your cloud apps.
+[GroupDocs.Comparison Cloud SDK for Python](https://products.groupdocs.cloud/editor/python) helps developers implement document comparison for over 40 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, text & markup file formats, and edit documents using front-end WYSIWYG editor. 
 
-## Cloud Document Editor Features
+Check out the [API Reference](https://apireference.groupdocs.cloud/editor/) to know all about the GroupDocs.Editor REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
 
-- Edit word processing documents in [flow or paged mode](https://wiki.groupdocs.cloud/editorcloud/getting-started/features-overview/).
+## Document Editing in the Cloud
+
+- Load password protected documents.
+- [Integrated storage API](https://wiki.groupdocs.cloud/editorcloud/developer-guide/storage-operations/) for unified access to files & folders.
+- Extract basic information about the document.
+- Support for highlighting and formatting options.
+
+## Document Specific REST Models
+- [Edit word processing documents](https://wiki.groupdocs.cloud/editorcloud/developer-guide/document-edit-operations/working-with-wordprocessing-documents/) in flow or paged mode.
 - Extract font information for a consistent look and feel of the edited documents.
-- Support for the editing of multi-tabbed spreadsheets.
-- Ability to specify the index of the currently edited worksheet.
-- [Works with DSV](https://wiki.groupdocs.cloud/editorcloud/developer-guide/document-edit-operations/working-with-dsv-documents/) (Delimiter Separated Values) files.
-- Specify the separator for the CSV and TSV files.
-- Flexible conversion options for dates and numbers in TSV, CSV files.
-- Optimize memory usage of large CSV, TSV files.
+- Editing multi-tabbed spreadsheets with the ability to specify the index of the worksheet.
+- [Edit DSV files](https://wiki.groupdocs.cloud/editorcloud/developer-guide/document-edit-operations/working-with-dsv-documents/).
+- Specify the separator for the CSV and TSV files with flexible conversion options for dates and numbers.
+- Optimize memory usage for large files.
 - Fix incorrect document structure of the XML files.
 - Recognize email addresses and URIs in the XML files.
-- Support for highlighting and formatting options for XML files.
-- Ability to extract basic information about the document.
-- Support to work with files and folders in the cloud.
+- Enable pagination and protection while saving Word documents.
 
-## Supported File Formats
+
+## Supported File Formats for Editing
+
+GroupDocs.Editor Cloud API [supports 40+ file formats](https://wiki.groupdocs.cloud/editorcloud/getting-started/supported-document-formats/) that it can load & edit.
 
 **Word Processing:** DOC, DOCX, DOCM, DOT, DOTM, DOTX, FlatOPC, ODT, OTT, RTF, WordML
 **Spreadsheet:** XLS, XLT, XLSX, XLSM, XLTX, XLTM, XLSB, XLAM, SXC, SpreadsheetML, ODS, FODS, DIF, DSV, CSV, TSV
@@ -26,27 +33,11 @@ Use this REST API to enhance your Python apps to [edit documents](https://produc
 **Markup:** HTML, XML
 **Other:** TXT
 
-## Platform Independence
+## Getting Started with GroupDocs.Editor Cloud SDK for Python
 
-GroupDocs.Editor Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-python). You can either directly use the source code or get PIP distribution via `pip install groupdocs-editor-cloud`.
 
-## Installation
-
-Install `groupdocs-editor-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
-
-`pip install groupdocs-editor-cloud`
-
-Or clone repository and install it via [Setuptools](http://pypi.python.org/pypi/setuptools):
-
-`python setup.py install`
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-python) for other common usage scenarios.
-
-## Getting Started
-
-Please follow the [installation procedure](https://pypi.org/project/groupdocs-editor-cloud/#installation) and then run following:
+Execute following snippet to load supported formats.
 
 ```python
 # Import module
@@ -71,7 +62,7 @@ except groupdocs_editor_cloud.ApiException as e:
     print("Exception when calling get_supported_file_formats: {0}".format(e.message))
 ```
 
-## Working with Presentations using Python SDK
+## Edit Presentations in the Cloud using Python SDK
 
 ```python
 # For complete examples and data files, please go to https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-python-samples

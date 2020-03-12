@@ -1,19 +1,24 @@
-This cloud REST API enhances your Node.js cloud apps to [compare two documents](https://products.groupdocs.cloud/comparison/nodejs), fetch, accept or reject the changes. Supports 90+ file formats.
+Node.js Cloud SDK wraps GroupDocs.Comparison Cloud API so you could seamlessly integrate Document Comparison features into your own Node.js apps.
 
-## Cloud Document Comparison Features
+# Document Comparison in the Cloud
 
-- Compare two documents and fetch changes.
-- [Fetch document changes](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-document-changes/) based on change category, such as, numeric only.
-- Accept or reject the changes that come up after document comparison.
-- [Get the image stream of resultant document](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-stream-of-images-of-result-document-changes/) via JsonRequest object.
-- Save the resultant document to streams as set of images.
-- Get the resultant document path.
+[GroupDocs.Comparison Cloud SDK for Node.js](https://products.groupdocs.cloud/comparison/nodejs) helps developers implement document comparison for over 90 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe, CAD, markup & image file formats, and compare 2 similar documents to retrieve differences as a file or array of images. 
+
+Check out the [API Reference](https://apireference.groupdocs.cloud/comparison/) to know all about the GroupDocs.Comparison REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
+
+# Addon Features
+
+- Load password protected documents.
+- [Fetch document changes](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-document-changes/) based on category, such as, change in numeric values only.
+- Accept or reject retrieved changes.
+- [Get the image stream of resultant document](https://wiki.groupdocs.cloud/comparisoncloud/developer-guide/changes-resource/get-stream-of-images-of-result-document-changes/).
+- Detect changes in text style.
 - Add summary page to resultant document after comparison.
 - Show deleted components in the resultant document.
-- Detect style changes.
-- Get or set password of the resultant document.
 
-## Supported Document Formats
+## Compare Document Formats
+
+GroupDocs.Comparison Cloud API [supports 90+ file formats](https://wiki.groupdocs.cloud/comparisoncloud/getting-started/supported-document-formats/) that it can load & compare.
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, ODT, OTT, RTF, TXT
 **Microsoft Excel:** XLS, XLSB, XLSM, XLSX, XLTM, XLTX, ODS, OTS, CSV, TSV
@@ -31,23 +36,11 @@ This cloud REST API enhances your Node.js cloud apps to [compare two documents](
 **Metafile:** EMF, WMF
 **Other:** PCL, PS
 
-## Platform Independence
+## Getting Started with GroupDocs.Comparison Cloud SDK for Node.js
 
-GroupDocs.Comparison Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-Comparison-cloud/groupdocs-Comparison-cloud-node). You can either directly use it in your project via source code or get NPM distribution via `npm install groupdocs-comparison-cloud`.
 
-## Installation
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
-
-A package `groupdocs-comparison-cloud` is available at [npmjs.com](https://www.npmjs.com/package/groupdocs-comparison-cloud). You can install it with:
-
-`npm install groupdocs-comparison-cloud`
-
-## Getting Started
-
-Please follow the [installation](https://www.npmjs.com/package/groupdocs-comparison-cloud#installation) procedure and then run the following JavaScript code:
+Execute following snippet to load supported formats.
 
 ```js
 // load the module
@@ -73,7 +66,7 @@ infoApi.getSupportedFileFormats()
     });
 ```
 
-Or compile and run same written in TypeScript:
+Or compile and run the same written in TypeScript:
 
 ```js
 // load the module
@@ -99,7 +92,7 @@ infoApi.getSupportedFileFormats()
     });
 ```
 
-## Compare Documents using Node.js
+## Compare Documents in the Cloud using Node.js 
 
 ```js
 public async comparisons(requestObj: model.ComparisonsRequest): Promise<model.Link> {

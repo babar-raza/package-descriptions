@@ -9,7 +9,7 @@ Python Cloud SDK wraps Aspose.Imaging REST API so you could seamlessly integrate
 - Export images to variety of other formats.
 - Fetch or update properties of cloud hosted images.
 - Scale, flip, crop, rotate and export images with a single API call.
-- Update image parameters of JPEG2000 & WEBP images.
+- Update parameters of JPEG2000 & WEBP images.
 - Access multi-frame TIFF image and extract the desired frames.
 - Merge multiple TIFF images.
 - Imaging AI operations:

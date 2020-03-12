@@ -1,23 +1,34 @@
-This REST API allows your [Node.js cloud-based apps to convert documents](https://products.groupdocs.cloud/conversion/nodejs) of 50+ file formats from within your apps without any 3rd party tool.
+Node.js Cloud SDK wraps GroupDocs.Conversion Cloud API so you could seamlessly integrate Document Conversion features into your own Node.js apps.
 
-## Cloud Document Conversion Features
+# Document Conversion in the Cloud
 
-- Specify document conversion settings.
-- Specify page width & height while converting CAD diagrams.
-- Choose [specific CAD diagram layouts to be converted](https://wiki.groupdocs.cloud/conversioncloud/getting-started/features-overview/).
-- Substitute specific fonts during cells document conversion.
-- Convert specific cell range while converting to non-cell formats.
-- Skip empty rows and columns when converting cells documents.
-- Display or hide email header, "from", "to", "cc" & "bcc".
-- Substitute specific fonts when converted some supported formats.
-- Start converting from specified page number.
-- [Convert a specific number of pages](https://wiki.groupdocs.cloud/conversioncloud/developer-guide/common-conversion-options/convert-n-consecutive-pages/) from the specified page.
+[GroupDocs.Conversion Cloud SDK for Node.js](https://products.groupdocs.cloud/conversion/nodejs) helps developers implement document conversion for over 50 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe, CAD, markup & image file formats, and export to various other formats. 
+
+Check out the [API Reference](https://apireference.groupdocs.cloud/conversion/) to know all about the GroupDocs.Conversion REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try it from Swagger UI.
+
+## Conversion Utility Features
+
+- Load password protected documents.
+- Protect destination document (if supported).
+- Convert specific document pages.
+- Convert N consecutive pages.
+- Add watermark to destination document.
+- Get document metadata.
+- Get possible conversion options for any input document.
 - Use PDF as an intermediary format while converting.
-- Apply watermark during conversion process.
+- Intergrated storage API.
 
-## Conversion File Formats
+## Document Specific REST Models
+- Convert specific cell range, skip empty rows & columns or substitute font during Excel document conversion.
+- Display or hide email headers like "from", "to", "cc" & "bcc".
+- Adjust resolution, contrast, brightness or gamma for image conversion. Also rotate, flip or convert to grayscale.
+- Set page's DPI & zoom level while converting Word documents.
+- Render specific CAD layouts.
 
-GroupDocs.Conversion Cloud SDK for Node.js allows you to convert any of the following type of file formats:
+## Read File Formats for Conversion
+
+GroupDocs.Conversion Cloud API [supports 50+ file formats](https://wiki.groupdocs.cloud/conversioncloud/getting-started/supported-document-formats/) that it can load & export.
+
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT
 **Microsoft Excel:** XLS, XLS2003, XLSB, XLSM, XLSX, CSV
 **Microsoft PowerPoint:** PPS, PPSX, PPT, PPTX
@@ -31,7 +42,8 @@ GroupDocs.Conversion Cloud SDK for Node.js allows you to convert any of the foll
 **Fixed Layout:** PDF, XPS
 **Markup:** HTM, HTML, MHT
 
-to the following formats:
+## Save Documents As
+
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT
 **Microsoft Excel:** XLS, XLS2003, XLSB, XLSM, XLSX, CSV
 **Microsoft PowerPoint:** PPS, PPSX, PPT, PPTX
@@ -41,22 +53,12 @@ to the following formats:
 **Fixed Layout:** PDF, XPS
 **Markup:** HTM, HTML
 
-## Platform Independence
+## Getting Started with GroupDocs.Conversion Cloud SDK for Node.js
 
-GroupDocs.Conversion Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-conversion-cloud/groupdocs-conversion-cloud-node). You can either directly use it in your project via source code or get NPM distribution `npm install groupdocs-conversion-cloud`.
 
-## Getting Started
 
-You do not need to install anything to get started with GroupDocs.Conversion Cloud SDK for Node.js. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-conversion-cloud/groupdocs-conversion-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
-
-## Installation
-
-A package groupdocs-conversion-cloud is available at [npmjs.com](https://www.npmjs.com/package/groupdocs-conversion-cloud). You can install it with:
-`npm install groupdocs-conversion-cloud`
-
-Please follow the [installation](https://www.npmjs.com/package/groupdocs-conversion-cloud#installation) procedure and then run the following JavaScript code:
+Execute following snippet to load all supported conversion formats.
 
 ```js
 // load the module

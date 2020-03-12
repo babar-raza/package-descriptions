@@ -1,17 +1,26 @@
-This REST API enhances your Node.js cloud apps to [import, export & process text & figure annotations within documents](https://products.groupdocs.cloud/annotation/nodejs) for 35+ file formats.
+Node.js Cloud SDK wraps GroupDocs.Annotation Cloud API so you could seamlessly integrate Document Annotation features into your own Node.js apps.
 
-## Cloud Document Annotation Features
+# Document Annotation in the Cloud
 
-- Fetch document description with meta data and coordinates of text on pages.
-- Fetch annotation data from files of supported formats.
-- Import annotation information from documents.
-- [Export annotation](https://wiki.groupdocs.cloud/annotationcloud/developer-guide/working-with-annotations/#HExportAnnotationandgetDocumentasStream) information to a document and fetch it as a stream.
-- Remove document annotations.
-- Get image representation of the document pages.
-- [Render documents to PDF](https://wiki.groupdocs.cloud/annotationcloud/developer-guide/rendering-documents/) format with storage URL or stream output.
-- Add or remove document or image annotations of various types.
+[GroupDocs.Annotation Cloud SDK for Node.js](https://products.groupdocs.cloud/annotation/nodejs) helps developers implement document annotation for over 35 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe, metafile, markup & image file formats, and add area, arrow, distance, point, polyline, text or watermark annotation. 
+
+Check out the [API Reference](https://apireference.groupdocs.cloud/annotation/) to know all about the GroupDocs.Annotation REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
+
+
+## Addon Features
+
+- Load protected documents.
+- Add, remove or extract document annotation.
+- Generate image representation from document pages.
+- Inspect document information.
+- Get & set various annotation settings.
+- [Export annotation](https://wiki.groupdocs.cloud/annotationcloud/developer-guide/working-with-annotations/#HExportAnnotationandgetDocumentasStream) information to a document.
+- [Render documents to PDF](https://wiki.groupdocs.cloud/annotationcloud/developer-guide/rendering-documents/).
+- Intergrated storage API.
 
 ## Supported Annotation Formats
+
+GroupDocs.Annotation Cloud API [supports 35+ file formats](https://wiki.groupdocs.cloud/annotationcloud/getting-started/supported-document-formats/) that it can load & annotate.
 
 **Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF, TXT
 **Microsoft Excel:** XLS, XLSX, XLSB, XLSX
@@ -44,23 +53,11 @@ This REST API enhances your Node.js cloud apps to [import, export & process text
 **Watermark** – create text-based watermark overlays.
 **Distance** – measure the distance between any objects in a document.
 
-## Platform Independence
+## Getting Started with GroupDocs.Annotation Cloud SDK for Node.js
 
-GroupDocs.Annotation Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-node). You can either directly use it in your project via source code or get NPM distribution via `npm install groupdocs-annotation-cloud`.
 
-## Installation
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-annotation-cloud/groupdocs-annotation-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
-
-A package `groupdocs-annotation-cloud` is available at [npmjs.com](https://www.npmjs.com/package/groupdocs-annotation-cloud). You can install it with:
-
-`npm install groupdocs-annotation-cloud`
-
-## Getting Started
-
-Please follow the installation procedure and then run the following JavaScript code:
+Execute following snippet to load supported formats.
 
 ```js
 // load the module

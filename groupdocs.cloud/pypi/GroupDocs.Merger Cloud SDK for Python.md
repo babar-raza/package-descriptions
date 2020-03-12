@@ -1,19 +1,27 @@
-This REST API enables your Python apps to [perform document merging & joining](https://products.groupdocs.cloud/merger/python) for [40+ file formats](https://wiki.groupdocs.cloud/mergercloud/getting-started/supported-document-formats/), while page manipulation for 35+ formats.
+Python Cloud SDK wraps GroupDocs.Merger Cloud API so you could seamlessly integrate Document Joining features into your own Python apps.
 
-## Cloud Document Merger Features
+[GroupDocs.Merger Cloud SDK for Python](https://products.groupdocs.cloud/merger/python) helps developers implement document merging for over 35 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe & markup file formats, and merge documents. 
 
+Check out the [API Reference](https://apireference.groupdocs.cloud/merger/) to know all about the GroupDocs.Merger REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
+
+## Document Merging in the Cloud
+
+- Load password protected documents.
+- [Integrated storage API](https://wiki.groupdocs.cloud/editorcloud/developer-guide/storage-operations/) for unified access to files & folders.
+- Extract basic information about the document.
+- Set, update or remove document password.
+- Change portrait or landscape orientation of the document pages.
 - [Merge two of more documents](https://wiki.groupdocs.cloud/mergercloud/developer-guide/document-operations/join-multiple-documents/) into a single file.
 - Merge specific pages from several different documents into a single file.
 - Join page ranges from various documents into a single resultant file.
-- Split a source document into many different files.
+- [Split a source document](https://wiki.groupdocs.cloud/mergercloud/developer-guide/document-operations/split-document/) into many different files.
 - Generate image representation of document pages as preview.
 - Create document image preview of all pages, specific pages, or a page range.
-- Move, remove, rotate, swap, and extract document pages.
-- [Change portrait or landscape orientation](https://wiki.groupdocs.cloud/mergercloud/developer-guide/pages-operations/change-page-orientation/) of the document pages.
-- Set, update or remove document password.
-- Extract basic information about the document.
+- [Move, remove, rotate, swap, and extract](https://wiki.groupdocs.cloud/mergercloud/developer-guide/pages-operations/) document pages.
 
 ## Merge & Split File Formats
+
+GroupDocs.Merger Cloud API [supports 35+ file formats](https://wiki.groupdocs.cloud/mergercloud/getting-started/supported-document-formats/) that it can load & perform merge or split operations.
 
 **Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF
 **Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM
@@ -27,7 +35,8 @@ This REST API enables your Python apps to [perform document merging & joining](h
 
 ## Page Manipulation File Formats
 
-The following file formats are supported for trimming, moving, swapping pages or changing page orientation:
+The following file formats are supported for trimming, moving, swapping pages or changing page orientation.
+
 **Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF
 **Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM
 **Microsoft PowerPoint:** PPT, PPTX, PPS, PPSX
@@ -43,31 +52,11 @@ The following file formats are supported for trimming, moving, swapping pages or
 **Fixed Layout:** PDF, XPS
 **Other:** TEX, EPUB
 
-## Platform Independence
+## Getting Started with GroupDocs.Merger Cloud SDK for Python
 
-GroupDocs.Merger Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-python). You can either directly use the source code or get PIP distribution via `pip install groupdocs-merger-cloud`.
 
-## Dependencies
-
-- Python 2.7 or 3.4+
-
-## Installation
-
-Install `groupdocs-merger-cloud` with [PIP](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/) by:
-
-`pip install groupdocs-merger-cloud`
-
-Or clone repository and install it via [Setuptools](http://pypi.python.org/pypi/setuptools):
-
-`python setup.py install`
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-python) for other common usage scenarios.
-
-## Getting Started
-
-Please follow the [installation procedure](https://pypi.org/project/groupdocs-merger-cloud/#installation) and then run following:
+Execute following snippet to load supported formats.
 
 ```python
 # Import module

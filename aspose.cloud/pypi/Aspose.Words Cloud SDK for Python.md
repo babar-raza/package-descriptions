@@ -1,18 +1,20 @@
-This cloud SDK provides seamless integration of cloud document processing & manipulation features into your cloud-based Python apps.
+Python Cloud SDK wraps Aspose.Words Cloud API so you could seamlessly integrate Microsoft Word® file generation, manipulation, conversion & inspection features into your own python applications.
 
-Aspose.Words Cloud SDK for Python is built on top of Aspose.Words REST API and is provided to you under an MIT license. Using Aspose.Words Cloud SDK for Python, you can work with document comparison, headers, footers, page numbering, tables, sections, document comments, drawing objects, FormFields, fonts, hyperlinks, ranges, paragraphs, math objects, watermarks, track changes and document protection. Aspose.Words Cloud SDK for Python also assists you in appending documents, splitting documents as well as converting document into other supported file formats.
+[Aspose.Words Cloud SDK for Python](https://products.aspose.cloud/slides/python) allows to work with Word document headers, footers, page numbering, tables, sections, document comments, drawing objects, FormFields, fonts, hyperlinks, ranges, paragraphs, math objects, watermarks, revisions and document protection. It also assists in appending documents, splitting documents as well as converting document to other supported file formats. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/wordscloud/Developer+Guide) for all possible usage scenarios. 
 
 ## Document Processing Features
 
 - Programmatically create new documents of various file formats.
-- Fetch a web page via its URL and save it in Microsoft Word file format.
-- Get document information, by default, in JSON/XML representation.
+- Availability of Mail Merge and report generation features.
+- Split or merge documents on demand.
+- Manage watermarks and protection.
+- Full read & write access to Document Object Model.
+- Fetch web pages via URL and save in Microsoft Word file formats.
+- Get document information in JSON or XML representation.
 - [Fetch statistical data](https://docs.aspose.cloud/display/wordscloud/Get+Document+Statistics) of a document.
-- Render complex elements (table, DrawingObject etc.) of the document in supported formats.
 - [Remove all macros](https://docs.aspose.cloud/display/wordscloud/Remove+all+Macros+from+Document) contained in a specific document.
 - [Convert a document to desired file format](https://docs.aspose.cloud/display/wordscloud/Convert+Document+to+Destination+Format+with+Detailed+Settings+and+Save+Result+to+Storage) along with detailed settings.
-- Convert an encrypted PDF document into MS Word document format.
-- So many more features.
+- Convert an encrypted PDF document into Word document format.
 
 ## Read & Write Document Formats
 
@@ -35,26 +37,39 @@ Aspose.Words Cloud’s platform independent document manipulation API is a true 
 
 ## Getting Started with Aspose.Words Cloud SDK for Python
 
-You do not need to install anything to get started with Aspose.Words Cloud SDK for Python. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `pip install aspose-words-cloud` from the command line to fetch the SDK. Then import the package via `import asposewordscloud`. 
 
-You can use it directly in your project via the source code or get its PyPI Package, `pip install aspose-words-cloud`. The complete source code is available at the [GitHub Repository](https://github.com/aspose-words-cloud/aspose-words-cloud-python).
+### Install via Setuptools
 
-## Convert document to the specified format via Python
+Execute `python setup.py install --user` and import the package as `import asposewordscloud`.
+
+The complete source code is available at [GitHub Repository](https://github.com/aspose-words-cloud/aspose-words-cloud-python).
+
+## Delete Watermarks from Word Document via Python
 
 ```python
-kwargs['_return_http_data_only'] = True
-    try:
-        if kwargs.get('is_async'):
-            return self.convert_document_with_http_info(request, **kwargs)  # noqa: E501
-        (data) = self.convert_document_with_http_info(request, **kwargs)  # noqa: E501
-        return data
-    except ApiException as e:
-        if e.status == 401:
-            self.__request_token()
-            if kwargs.get('is_async'):
-                return self.convert_document_with_http_info(request, **kwargs)  # noqa: E501
-        (data) = self.convert_document_with_http_info(request, **kwargs)  # noqa: E501
-        return data
+import asposewordscloud
+import asposewordscloud.models.requests
+
+api_client = asposewordscloud.ApiClient()
+api_client.configuration.host = 'https://api.aspose.cloud'
+api_client.configuration.api_key['api_key'] = '' # Put your appKey here
+api_client.configuration.api_key['app_sid'] = '' # Put your appSid here
+storage_api = asposestoragecloud.StorageApi(asposestoragecloud.ApiClient('', '')) # Same credentials for storage
+storage_api.api_client.configuration.base_url = 'https://api.aspose.cloud/v1.1'
+words_api = asposewordscloud.WordsApi(api_client)
+filename = 'test_doc.docx'
+remote_name = 'TestDeleteDocumentWatermark.docx'
+
+with open(os.path.join(self.local_common_folder, filename), 'rb') as f:
+    file = f.read()
+self.storage_api.put_create(os.path.join(self.remote_test_folder, self.test_folder, remote_name), file)
+request = asposewordscloud.models.requests.DeleteDocumentWatermarkRequest(remote_name,
+                                                                           os.path.join(
+                                                                                 self.remote_test_folder,
+                                                                                 self.test_folder))
+result = words_api.delete_document_watermark(request)
+self.assertTrue(result.code == 200, 'Error has occurred while delete document watermark')
 ```
 
 [Product Page](https://products.aspose.cloud/words/python) | [Documentation](https://docs.aspose.cloud/display/wordscloud/Home) | [API Reference](https://apireference.aspose.cloud/words/) | [Code Samples](https://github.com/aspose-words-cloud/aspose-words-cloud-python) | [Blog](https://blog.aspose.cloud/category/words/) | [Free Support](https://forum.aspose.cloud/c/words) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
