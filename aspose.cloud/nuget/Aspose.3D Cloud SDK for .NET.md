@@ -1,6 +1,6 @@
-Aspose.3D Cloud SDK for .NET REST API provides you a seamless way to integrate 3D object manipulation features into your cloud-based C# & other .NET apps.
+# 3D File Processing via .NET REST API
 
-Aspose.3D Cloud SDK for .NET is available under an MIT license. It enhances your C# code to create 3D entities, objects and models in the cloud. Your .NET cloud-based apps would be able to work with various 3D entities, such as, box, sphere, plane, torus, & cylinder. Aspose.3D Cloud SDK for .NET allows your C# cloud apps to extract raw data or 3D content from Adobe Acrobat 3D PDF files.
+[Aspose.3D Cloud SDK for .NET REST API](https://products.aspose.cloud/3d/net) provides you a seamless way to integrate 3D object manipulation features into your cloud-based C# & other .NET apps.
 
 ## 3D Processing Features
 
@@ -16,6 +16,14 @@ Aspose.3D Cloud SDK for .NET is available under an MIT license. It enhances your
 - Supports working with triangulate meshes, triangulate whole or part of the 3D scene.
 - Address nodes by object addressing path or remove nodes with attached light or camera.
 - Remove 3D objects from a scene.
+
+## New Features in Version 19.11.0
+
+- This is the initial release. The key features are as follows:
+  - **Read/Write:** Save or convert between a multitude of file types.
+  - **Modeling & Data Processing:** Extract scene information from input files.
+  - **Utilities processing:** Miscellaneous functions to process 3D files.
+  - **Launch as Microservice:** Deploy as a set of loosely coupled services.
 
 ## Read & Write 3D Formats
 
