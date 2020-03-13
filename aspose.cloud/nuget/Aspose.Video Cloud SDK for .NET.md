@@ -1,6 +1,6 @@
-This video manipulation REST API helps your cloud-based applications to retrieve video files hosted on the cloud & modify them from within your C# & .NET apps.
+# .NET Cloud REST API for Video Processing
 
-Aspose.Video Cloud SDK for .NET is available to use under an MIT license. Enhance your C#, ASP.NET, and other .NET cloud programs to join multiple cloud videos into a single clip, change the video codec (x265, x264, QuickTime H.264 and others). Aspose.Video Cloud SDK for .NET supports all popular video formats and assists you in setting various properties of cloud videos, such as, resolution, volume level, FPS and others. Use this REST API to add an additional audio track to your video clip.
+This video manipulation REST API helps your cloud-based applications to [retrieve video files hosted on the cloud](https://products.aspose.cloud/video/net) & modify them from within your C# & .NET apps.
 
 ## Video Processing Features
 
@@ -17,6 +17,11 @@ Aspose.Video Cloud SDK for .NET is available to use under an MIT license. Enhanc
 - Fetch all properties of a particular video file.
 - Fetch video file from web and upload it to the cloud storage.
 
+## New Features in Version 18.2.1
+
+- This is the first version of Aspose.Video for Cloud.
+
+For the detailed notes, please visit [Aspose.Video Cloud 18.2.1 Release Notes](https://docs.aspose.cloud/display/videocloud/Aspose.Video+Cloud+18.2.1+Release+Notes).
 
 ## Supported Video Formats
 
