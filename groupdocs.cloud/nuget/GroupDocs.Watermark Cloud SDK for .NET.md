@@ -1,4 +1,6 @@
-Use this REST API to enable your cloud-based C#, ASP.NET, & other .NET apps to search, edit, remove & add watermarks to documents of 40+ different file formats.
+# .NET Cloud REST API to Watermark Documents
+
+Use this REST API to enable your cloud-based C#, ASP.NET, & other .NET apps to [search, edit, remove & add watermarks](https://products.groupdocs.cloud/watermark/net) to documents of 40+ different file formats.
 
 ## Cloud Document Watermarking Features
 
@@ -8,6 +10,12 @@ Use this REST API to enable your cloud-based C#, ASP.NET, & other .NET apps to s
 - Search for the collection of image or text-based watermarks inside a document.
 - Edit properties of the existing editable watermarks.
 - Remove watermarks from specific pages or remove specific watermarks from the document.
+
+## New features in Version 19.12.0
+
+- This is the first release of a completely new version of the GroupDocs.Watermark.Cloud API.
+
+For the detailed notes, please visit [GroupDocs.Watermark Cloud 19.12 Release Notes](https://wiki.groupdocs.cloud/watermarkcloud/release-notes/release-notes-2019/groupdocs-watermark-cloud-19-12/).
 
 ## Supported File Formats
 
