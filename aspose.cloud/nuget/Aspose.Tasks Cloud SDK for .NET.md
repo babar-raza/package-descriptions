@@ -1,6 +1,6 @@
-This task management REST API enhances your C#, ASP.NET & other .NET cloud-based apps to access and manage Microsoft Project & Primavera P6 files in the cloud.
+# Manipulate Project Files via .NET Cloud REST API
 
-Aspose.Tasks Cloud SDK for .NET is available to you under an MIT license. Enable your cloud-based app users to retrieve project tasks and documents from cloud hosted storage to process & manipulate them within your cloud-based apps without installing Microsoft Project or Primavera P6. Aspose.Tasks Cloud SDK for .NET allows your to fetch existing assignments, add new project assignments, change task parent, change position of the tasks within the project hierarchy, add a project calendar along with calendar exceptions, get VBA project, get time-scaled data of project, get a collection of all work weeks belonging to a project, and so much more.
+This task management REST API enhances your C#, ASP.NET & other .NET cloud-based apps to [access and manage Microsoft Project & Primavera P6 files](https://products.aspose.cloud/tasks/net) in the cloud.
 
 ## MS Project Processing Features
 
@@ -16,6 +16,13 @@ Aspose.Tasks Cloud SDK for .NET is available to you under an MIT license. Enable
 - Calculate slacks & recalculate project completion or incompletion work.
 - Fetch a project document in the desired format.
 - Delete project task with its related references & rebuild task tree.
+
+## New Features in Version 19.12.0
+
+- Imported projects from Project Online (Server) can now be saved as `MPP` file.
+- Imported projects from a database can now be saved as `MPP` file.
+
+For the detailed notes, please visit [Aspose.Tasks Cloud 19.12 Release Notes](https://docs.aspose.cloud/display/taskscloud/Aspose.Tasks+Cloud+19.12+Release+Notes).
 
 ## Read & Write MS Project Formats
 
