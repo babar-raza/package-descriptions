@@ -1,10 +1,12 @@
-This REST API enhances your C#, ASP.NET, & other .NET based cloud apps to render 85+ types of file formats to image, PDF or HTML formats from within your apps.
+# .NET Cloud REST API for Document Rendering
+
+This REST API enhances your C#, ASP.NET, & other .NET based cloud apps to [render](https://products.groupdocs.cloud/viewer/net) 85+ types of file formats to image, PDF or HTML formats from within your apps.
 
 ## Cloud Document Viewer Features
 
 - Support for rendering lots of document and image file formats.
 - Fetch the list of all installed fonts or delete the fonts cache.
-- Download HTML page resources, e.g., images, css, fonts etc.
+- Download HTML page resources, e.g., images, CSS, fonts etc.
 - Render a document to PDF for HTML or image representation and download it.
 - Fetch document information via various methods.
 - Obtain list of links to document pages as HTML or images.
@@ -19,6 +21,12 @@ This REST API enhances your C#, ASP.NET, & other .NET based cloud apps to render
 - Render email messages & render Outlook data files as HTML.
 - Get list of all email attachments in its HTML or image representation.
 - Download resources of a specific email attachment page for HTML representation.
+
+## Enhancements in Version 19.5.0
+
+- Improved Cloud products API Reference grouping.
+
+For the detailed notes, please visit [GroupDocs.Viewer Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/viewercloud/release-notes/2019/groupdocs-viewer-cloud-19-5-release-notes/).
 
 ## Supported File Formats
 
