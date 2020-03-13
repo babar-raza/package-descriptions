@@ -1,6 +1,6 @@
-This cloud SDK assists to develop cloud-based HTML page rendering, processing, translation & conversion apps in C#, ASP.NET & other .NET languages via REST API.
+# HTML Rendering & Conversion .NET Cloud REST API
 
-Aspose.HTML Cloud SDK for .NET lets you access your desired HTML document from the cloud storage, or fetch the HTML page with all its linked resources as a ZIP archive via page URL.
+This cloud SDK assists to develop cloud-based [HTML page rendering, processing, translation & conversion](https://products.aspose.cloud/html/net) apps in C#, ASP.NET & other .NET languages via REST API.
 
 ## HTML Processing Features
 
@@ -9,6 +9,16 @@ Aspose.HTML Cloud SDK for .NET lets you access your desired HTML document from t
 - Load data from local file to populate HTML document template.
 - Use request body to populate HTML document template.
 - Convert HTML page to numerous other file formats.
+
+## New Features in Version 19.11.0
+
+- Added following SEO analysis points in the current version:
+  - detection of broken links.
+  - validation of e-mail addresses.
+  - checking of `IMG` tags for the absence of `ALT` attribute.
+  - checking for duplicated `H1` elements.
+
+For the detailed notes, please visit [Aspose.HTML Cloud 19.11 Release Notes](https://docs.aspose.cloud/display/htmlcloud/Aspose.HTML+Cloud+19.11+Release+Notes).
 
 ## Read & Write HTML Formats
 
