@@ -1,9 +1,23 @@
-Use this REST API to [search, verify & create signatures](https://products.groupdocs.cloud/signature/nodejs) of 6 different types for a lot of file formats from within your Node.js cloud apps.
+Node.js Cloud SDK wraps GroupDocs.Signature Cloud API so you could seamlessly integrate Document Signing features into your own Node.js apps.
 
-## Cloud Document Signing Features
+# e-Sign Documents in the Cloud
 
-- Supports application of several types of document signatures.
-- Specify pages (even, odd, specific etc.) to apply the signature on.
+[GroupDocs.Signature Cloud SDK for Node.js](https://products.groupdocs.cloud/signature/nodejs) helps developers implement document merging for over 40 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe & image file formats to search, verify or add digital signatures. 
+
+Check out the [API Reference](https://apireference.groupdocs.cloud/signature/) to know all about the GroupDocs.Signature REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
+
+## Supported Signature Types
+
+- Text
+- Image
+- Barcode
+- QR-code
+- Digital
+- Stamp
+
+## Document Signing Features
+
+- Specify pages (even, odd, specific etc.) to apply the signature.
 - Configure page padding options.
 - Specify font, color, alignment & other appearance settings for the signature.
 - Apply crop settings for the signature background.
@@ -16,9 +30,10 @@ Use this REST API to [search, verify & create signatures](https://products.group
 - Get or set the time at which the document was digitally signed.
 - Option to search some type of signatures from the document.
 
-## Signature Supported File Formats
+## Supported File Formats
 
-The following file formats are supported for the barcode, image, QR-code, stamp and text type of signatures:
+GroupDocs.Signature Cloud API [supports 35+ file formats](https://wiki.groupdocs.cloud/signaturecloud/getting-started/supported-document-formats/) that it can load & add barcode, image, QR-code, stamp or text signatures.
+
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
 **Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
 **Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSM, PPSX, POTX, POTM
@@ -53,32 +68,11 @@ The following file formats are supported for the barcode, image, QR-code, stamp 
 **Adobe Photoshop:** PSD
 **Adobe Acrobat:** PDF
 
-## Supported Signature Types
+## Getting Started with GroupDocs.Signature Cloud SDK for Node.js
 
-- Text
-- Image
-- Barcode
-- QR-code
-- Digital
-- Stamp
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-node). You can either directly use it in your project via source code or get NPM distribution via `npm install groupdocs-signature-cloud`.
 
-## Platform Independence
-
-GroupDocs.Signature Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
-## Installation
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-A package `groupdocs-signature-cloud` is available at [npmjs.com](https://www.npmjs.com/package/groupdocs-signature-cloud). You can install it with:
-
-`npm install groupdocs-signature-cloud`
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
-
-## Getting Started
-
-Please follow the [installation](https://www.npmjs.com/package/groupdocs-signature-cloud#installation) procedure and then run the following JavaScript code:
+Execute following snippet to load supported document formats.
 
 ```js
 // load the module

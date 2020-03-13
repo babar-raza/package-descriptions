@@ -1,6 +1,6 @@
-This Cloud SDK allows you to easily build cloud-based PDF creator, editor & converter apps in Python language for various cloud platforms.
+Python Cloud SDK wraps Aspose.PDF REST API so you could seamlessly integrate PDF file creation, manipulation & conversion features to your own Python applications.
 
-Aspose.PDF Cloud SDK for Python is available to you under an MIT license and is a wrapper around Aspose.PDF REST API. Access images embedded in the PDF documents for customization, work with; annotations, stamps, PDF form fields, watermarks, as well as the OCR layers within the PDF files.
+[Aspose.PDF Cloud SDK for Python](https://products.aspose.cloud/pdf/python) allows the developers to generate new PDF documents & pages, delete pages from existing PDF files as well as manage PDF bookmarks, annotations, signatures, stamps, watermarks, attachments, header, footer, hyperlinks, form fields, text items and images via simple REST API calls. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/pdfcloud/Developer+Guide) for all possible usage scenarios. 
 
 ## PDF Processing Features
 
@@ -15,34 +15,28 @@ Aspose.PDF Cloud SDK for Python is available to you under an MIT license and is 
 - Extensive support for [converting PDF documents](https://docs.aspose.cloud/display/pdfcloud/Convert+PDF+to+Other+File+Formats) to various other file formats.
 - Extract various elements of PDF file & make PDF document optimized.
 
-## Read & Write PDF Formats
+## Read & Write Formats
 
 PDF, EPUB, HTML, TeX, SVG, XML, XPS, FDF, XFDF
 
-## Save PDF As
+## Save PDF Documents As
 
 XLS, XLSX, PPTX, DOC, DOCX, MobiXML, JPEG, EMF, PNG, BMP, GIF, TIFF, Text
 
-## Read PDF Formats
+## Read Formats
 
 MHT, PCL, PS, XSLFO, MD
 
-## Platform Independence
-
-Aspose.PDF Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
 ## Getting Started with Aspose.PDF Cloud SDK for Python
 
-You do not need to install anything to get started with Aspose.PDF Cloud SDK for Python. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `pip install aspose-pdf-cloud` from the command line to fetch the SDK. The complete source code is available at [GitHub Repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python).
 
-You can use it directly in your project via the source code or get its PyPI Package, `pip install aspose-pdf-cloud`. The complete source code is available at the [GitHub Repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python).
-
-## Convert PDF file to HTML Zipped Archive using Python
+## Convert PDF to HTML Zipped Archive using Python
 
 ```python
 from configuration import *
-file_name = '4pages.pdf'
-result_file_name = "result.zip"
+file_name = 'template.pdf'
+result_file_name = "output.zip"
 
 opts = {
     "file": test_data_path + file_name

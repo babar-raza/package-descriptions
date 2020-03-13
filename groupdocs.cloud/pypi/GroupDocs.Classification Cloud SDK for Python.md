@@ -1,6 +1,8 @@
-# Text & Document Classification Python REST API
+Python Cloud SDK wraps GroupDocs.Classification Cloud API so you could seamlessly integrate Document Classification features into your own Python apps.
 
-This cloud REST API enables your Python apps to [perform classification of raw text & documents](https://products.groupdocs.cloud/classification/python). Supports [IAB-2 & Documents taxonomies](https://wiki.groupdocs.cloud/classificationcloud/developer-guide/common-resources/taxonomy/).
+[GroupDocs.Classification Cloud SDK for Python](https://products.groupdocs.cloud/classification/python) helps developers implement document classification for over 10 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, PDF & text files to classify based on IAB-2 & document taxonomies. 
+
+Check out the [API Reference](https://apireference.groupdocs.cloud/classification/) to know all about the GroupDocs.Classification REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
 
 ## Classification Processing Features
 
@@ -14,7 +16,7 @@ This cloud REST API enables your Python apps to [perform classification of raw t
 **Portable:** PDF
 **Other:** RTF, TXT
 
-## Supported IAB-2 Taxonomy
+## Supported IAB-2 Taxonomies
 
 'Automotive',
 'Books_and_Literature',
@@ -46,7 +48,7 @@ This cloud REST API enables your Python apps to [perform classification of raw t
 'Travel',
 'Video_Gaming'
 
-## Supported Documents Taxonomy
+## Supported Document Taxonomies
 
 ADVE - advertisements, brochures.
 Email
@@ -60,40 +62,11 @@ Resume
 Scientific - scientific papers.
 Other - the other classes of documents or cases where the classifier is not sure.
 
-## Platform Independence
+## Getting Started with GroupDocs.Classification Cloud SDK for Python
 
-GroupDocs.Classification Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python). You can either directly use the source code or get PIP distribution via `pip install groupdocsclassificationcloud`.
 
-## Dependencies
-
-- Python 2.7 and 3.4+
-- Referenced packages (see [here](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python/blob/master/setup.py) for more details)
-
-## Installation
-
-If the python package is hosted on [Github](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python), you can install directly from Github:
-
-`pip install groupdocsclassificationcloud`
-
-(you may need to run `pip` with root permission: `sudo pip install groupdocsclassificationcloud`)
-
-Then import the package:
-
-`import groupdocsclassificationcloud`
-
-Install via [Setuptools](http://pypi.python.org/pypi/setuptools).
-
-`python setup.py install --user`
-
-(or `sudo python setup.py install` to install the package for all users)
-
-Then import the package:
-
-`import groupdocsclassificationcloud`
-
-## Getting Started
-
-Please follow the installation procedure and then run the following:
+Execute following snippet to get started.
 
 ```python
 import os

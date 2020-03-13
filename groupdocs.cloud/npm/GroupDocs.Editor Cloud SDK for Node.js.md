@@ -1,22 +1,33 @@
-Use this REST API to [enhance your Node.js apps to edit documents](https://products.groupdocs.cloud/editor/nodejs), spreadsheets, presentations of 40+ file formats from within your cloud apps.
+Node.js Cloud SDK wraps GroupDocs.Editor Cloud API so you could seamlessly integrate Document Editing features into your own Node.js apps.
 
-## Cloud Document Editor Features
+# Document Editing in the Cloud
 
+[GroupDocs.Comparison Cloud SDK for Node.js](https://products.groupdocs.cloud/editor/nodejs) helps developers implement document comparison for over 40 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice & markup file formats, and edit documents using front-end WYSIWYG editor. 
+
+Check out the [API Reference](https://apireference.groupdocs.cloud/editor/) to know all about the GroupDocs.Editor REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
+
+## Addon Features
+
+- Load password protected documents.
+- [Integrated storage API](https://wiki.groupdocs.cloud/editorcloud/developer-guide/storage-operations/) for unified access to files & folders.
+- Extract basic information about the document.
+- Support for highlighting and formatting options.
+
+## Document Specific REST Models
 - [Edit word processing documents](https://wiki.groupdocs.cloud/editorcloud/developer-guide/document-edit-operations/working-with-wordprocessing-documents/) in flow or paged mode.
 - Extract font information for a consistent look and feel of the edited documents.
-- Support for the editing of multi-tabbed spreadsheets.
-- Ability to specify the index of the currently edited worksheet.
-- [Works with DSV](https://wiki.groupdocs.cloud/editorcloud/developer-guide/document-edit-operations/working-with-dsv-documents/) (Delimiter Separated Values) files.
-- Specify the separator for the CSV and TSV files.
-- Flexible conversion options for dates and numbers in TSV, CSV files.
-- Optimize memory usage of large CSV, TSV files.
+- Editing multi-tabbed spreadsheets with the ability to specify the index of the worksheet.
+- [Edit DSV files](https://wiki.groupdocs.cloud/editorcloud/developer-guide/document-edit-operations/working-with-dsv-documents/).
+- Specify the separator for the CSV and TSV files with flexible conversion options for dates and numbers.
+- Optimize memory usage for large files.
 - Fix incorrect document structure of the XML files.
 - Recognize email addresses and URIs in the XML files.
-- Support for highlighting and formatting options for XML files.
-- Ability to extract basic information about the document.
-- Support to [work with files and folders in the cloud](https://wiki.groupdocs.cloud/editorcloud/developer-guide/storage-operations/).
+- Enable pagination and protection while saving Word documents.
 
-## Supported File Formats
+
+## Supported File Formats for Editing
+
+GroupDocs.Editor Cloud API [supports 40+ file formats](https://wiki.groupdocs.cloud/editorcloud/getting-started/supported-document-formats/) that it can load & edit.
 
 **Word Processing:** DOC, DOCX, DOCM, DOT, DOTM, DOTX, FlatOPC, ODT, OTT, RTF, WordML
 **Spreadsheet:** XLS, XLT, XLSX, XLSM, XLTX, XLTM, XLSB, XLAM, SXC, SpreadsheetML, ODS, FODS, DIF, DSV, CSV, TSV
@@ -24,23 +35,11 @@ Use this REST API to [enhance your Node.js apps to edit documents](https://produ
 **Markup:** HTML, XML
 **Other:** TXT
 
-## Platform Independence
+## Getting Started with GroupDocs.Editor Cloud SDK for Node.js
 
-GroupDocs.Editor Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-node). You can either directly use it in your project via source code or get NPM distribution via `npm install groupdocs-editor-cloud`.
 
-## Installation
-
-Please create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
-
-The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-node). You can either directly use it in your project via source code or get nmpjs distribution (recommended).
-
-A package `groupdocs-editor-cloud` is available at [npmjs.com](https://www.npmjs.com/package/groupdocs-editor-cloud). You can install it with:
-
-`npm install groupdocs-editor-cloud`
-
-## Getting Started
-
-Please follow the [installation](https://www.npmjs.com/package/groupdocs-editor-cloud#installation) procedure and then run the following JavaScript code:
+Execute following snippet to load supported formats.
 
 ```js
 // load the module
@@ -92,7 +91,7 @@ infoApi.getSupportedFileFormats()
     });
 ```
 
-## Edit Cloud Spreadsheets using Node.js
+## Edit Spreadsheets in the Cloud using Node.js
 
 ```js
 global.editor_cloud = require("groupdocs-editor-cloud");
