@@ -1,6 +1,6 @@
-This cloud SDK enables your C#, ASP.NET & other .NET cloud apps to create & process Visio diagrams from within your apps without installing Microsoft Visio.
+# .NET Cloud REST API for Visio Processing
 
-Aspose.Diagram Cloud SDK for .NET is built on top of Aspose.Diagram REST API and is distributed for use under an MIT license.
+This cloud SDK enables your C#, ASP.NET & other .NET cloud apps to [create & process Visio diagrams](https://products.aspose.cloud/diagram/net) from within your apps without installing Microsoft Visio.
 
 ## Visio Processing Features
 
@@ -9,6 +9,16 @@ Aspose.Diagram Cloud SDK for .NET is built on top of Aspose.Diagram REST API and
 - Convert Visio flow-charts to other supported formats.
 - Upload your business oriented Visio diagrams to cloud storage.
 - Export Visio files to raster images, fixed-layout and HTML formats.
+
+## New Features in Version 19.10.0
+
+- General enhancements to the Aspose.Diagram Cloud REST API.
+- Added `SaveOption` parameter for `saveAs` API.
+- Enhancement in the `Convert` API.
+- Added support for multiple files exports that convert files to HTML.
+- Integrated Aspose.Storage Cloud feature into Aspose.Diagram Cloud.
+
+For the detailed notes, please visit [Aspose.Diagram Cloud 19.10 Release Notes](https://docs.aspose.cloud/display/diagramcloud/Aspose.Diagram+Cloud+19.10+Release+Notes).
 
 ## Read & Write Visio Formats
 
