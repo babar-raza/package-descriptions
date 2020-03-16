@@ -13,11 +13,17 @@ Node.js Cloud SDK wraps Aspose.Imaging REST API so you could seamlessly integrat
 - Access multi-frame TIFF image and extract the desired frames.
 - Merge multiple TIFF images.
 - Imaging AI operations:
-	- Content-based image search
-	- Image duplicates search
-	- Image search by custom registered tags
-	- Image comparison and similarity detection
-	- Image features extraction (for now, AKAZE detector is supported)
+  - Content-based image search
+  - Image duplicates search
+  - Image search by custom registered tags
+  - Image comparison and similarity detection
+  - Image features extraction (for now, AKAZE detector is supported)
+
+## New Features in Version 20.2.0
+
+- Added image grayscale feature.
+
+For the detailed notes, please visit [Aspose.Imaging Cloud 20.2 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.2+-+Release+Notes).
 
 ## Read & Write Image Formats
 
@@ -32,22 +38,24 @@ PDF
 DJVU, DICOM, CDR, CMX, ODG, DNG
 
 ## Storage API Support
+
 Since version 19.4, SDK includes support of storage operations for better user experience and unification, so now there's no need to use 2 different SDKs!
 
 It gives the ability to:
 
 - Upload, download, copy, move and delete files, including versions handling (if you are using Cloud storage that supports this feature - true by default).
 - Create, copy, move and delete folders.
-- Copy and move files and folders accross separate storages in scope of a single operation.
+- Copy and move files and folders across separate storages in scope of a single operation.
 - Check if certain file, folder or storage exists.
 
 ## Getting Started with Aspose.Imaging Cloud SDK for Node.js
 
 Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install @asposecloud/aspose-imaging-cloud --save` from the command line to install Aspose.Imaging Cloud SDK for Node.js via NPM. The complete source code is available at [GitHub Repository](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-node).
 
-Add the nmp package to your project.json as a dependency.
+Add the `NPM` package to your `project.json` as a dependency.
 
-```
+```js
+
 {
   "dependencies": {
     "@asposecloud/aspose-imaging-cloud": "^20.2.0"
@@ -57,7 +65,8 @@ Add the nmp package to your project.json as a dependency.
 
 ### Import the Dependencies
 
-```
+```js
+
 import * as imaging from "@asposecloud/aspose-imaging-cloud";
 ```
 
@@ -67,19 +76,19 @@ The best way to become familiar with how to use the SDK is to read the [Develope
 
 ```js
 const imagingApi = new imaging.ImagingApi("yourAppKey", "yourAppSID");
- 
+
 // create search context or use existing search context ID if search context was created earlier
 const apiResponse = await imagingApi.createImageSearch(
     new imaging.CreateImageSearchRequest());
 const searchContextId = apiResponse.id;
- 
+
 // specify images for comparing (image ID is a path to image in storage)
 const imageInStorage1 = "WorkFolder\Image1.jpg";
 const imageInStorage2 = "WorkFolder\Image2.jpg";
   
 // compare images
 const response = await imagingApi.compareImages(
-    new imaging.CompareImagesRequest({ 
+    new imaging.CompareImagesRequest({
         searchContextId, imageId1: imageInStorage1, imageId2: imageInStorage2 }));
 const similarity = response.results[0].similarity;
 ```
