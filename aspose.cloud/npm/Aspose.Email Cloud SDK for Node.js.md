@@ -1,6 +1,7 @@
 Node.js Cloud SDK wraps Aspose.Email REST API so you could seamlessly integrate Microsoft Outlook® email generation, manipulation, conversion & inspection features into your own Node.js applications.
 
 # Process Emails in the Cloud
+
 [Aspose.Email Cloud SDK for Node.js](https://products.aspose.cloud/email/nodejs) allows you to create email processing applications that could work with common email file formats in the cloud. You can convert email to other formats, read message properties and download attachment from messages your Node.js applications. Not only that, Aspose.Email Cloud allows you to work with [iCalendar (RFC 5545)](https://docs.aspose.cloud/display/emailcloud/iCalendar+Support), [MAPI (X.400 XAPIA)](https://docs.aspose.cloud/display/emailcloud/MAPI+Support) & [VCard](https://docs.aspose.cloud/display/emailcloud/Operate+VCard) via API models. Have a look at the [API Endpoints](https://github.com/aspose-email-cloud/aspose-email-cloud-node/blob/master/doc/README.md) to know all possible functions.
 
 ## Email Processing Features
@@ -10,10 +11,18 @@ Node.js Cloud SDK wraps Aspose.Email REST API so you could seamlessly integrate 
 - Add or extract attachments to & from email messages.
 - Process iCalendar, MAPI & VCard file types.
 - Supports AI functionalities:
-	- Business card recognition.
-	- Parse and handle personal names.
+  - Business card recognition.
+  - Parse and handle personal names.
+
+## New Features in Version 20.3.0
+
+- Ability to determine whether an email address is disposable or not.
+- Ability to create virtual multi-account to search, fetch and delete messages from several accounts at the same time.
+
+For the detailed notes, please visit [Aspose.Email Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/emailcloud/Aspose.Email+Cloud+20.3+Release+Notes).
 
 ## Read & Write
+
 **Email:** MSG, EML
 **Web:** HTML, MHTML
 
@@ -22,7 +31,8 @@ Node.js Cloud SDK wraps Aspose.Email REST API so you could seamlessly integrate 
 Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install @asposecloud/aspose-email-cloud --save` from the command line to install Aspose.Email Cloud SDK for Node.js via NPM. The complete source code is available at [GitHub Repository](https://github.com/aspose-email-cloud/aspose-email-cloud-node).
 
 ### Initialize EmailApi
-You should create an EmailApi object to use the API.
+
+You should create an `EmailApi` object to use the API.
 
 ```js
 var appKey = "Your App Key";
@@ -86,7 +96,9 @@ public async getEmailAttachment(requestObj: requestModels.GetEmailAttachmentRequ
 ```
 
 ## Getting Started with Business Card API
-The following are a few common usacases. Read more about the [Business Card API](https://docs.aspose.cloud/display/emailcloud/Working+with+Contact+Cards).
+
+The following are a few common use-cases. Read more about the [Business Card API](https://docs.aspose.cloud/display/emailcloud/Working+with+Contact+Cards).
+
 ### Parse Business Card Images to VCard File with Node.js
 
 ```js
@@ -126,6 +138,7 @@ contactProperties.body.internalProperties
 ```
 
 ### Parse VCard Images without using Storage
+
 ```js
 //Read image from file and convert it to Base64 string
 var imageData = fs.readFileSync('some/business/card/image/file/on/disk').toString('base64');
@@ -142,7 +155,9 @@ contactProperties.internalProperties
 ```
 
 ## Getting Started with the Name API
-The following are a few common usacases. Read more about the [Name API](https://docs.aspose.cloud/display/emailcloud/Working+with+Name+API).
+
+The following are a few common use-cases. Read more about the [Name API](https://docs.aspose.cloud/display/emailcloud/Working+with+Name+API).
+
 ### Detect Person's Gender from Name
 
 ```js
@@ -151,12 +166,16 @@ var result = await api.aiNameGenderize(new requests.AiNameGenderizeRequest('John
 //all hypothesis include score, so you can use the most scored version, which will be the first in a list:
 console.log(result.body.value[0].gender); //prints 'Male'
 ```
+
 ### Expand Person's Name into a List of Alternatives
+
 ```js
+
 var result = await api.aiNameExpand(new requests.AiNameExpandRequest(
     'Smith Bobby'));
 var names = result.body.names
     .map(weighted => weighted.name)
     .forEach(name => console.log(name)); //prints 'Mr. Smith', 'B. Smith', etc.
 ```
+
 [Product Page](https://products.aspose.cloud/email/nodejs) | [Documentation](https://docs.aspose.cloud/display/emailcloud/Home) | [API Reference](https://apireference.aspose.cloud/email/) | [Code Samples](https://github.com/aspose-email-cloud/aspose-email-cloud-node) | [Blog](https://blog.aspose.cloud/category/email/) | [Free Support](https://forum.aspose.cloud/c/email) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
