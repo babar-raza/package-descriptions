@@ -1,9 +1,11 @@
 Node.js Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate Excel® file generation, manipulation, conversion & processing features into your own Node.js applications.
 
 # Process Excel® Files in the Cloud with Node.js
+
 [Aspose.Cells Cloud SDK for Node.js](https://products.aspose.cloud/cells/nodejs) allows developers to create, edit, process & convert Excel spreadsheets in the Cloud. The Excel Cloud SDK gets its functionality from Aspose.Cells Cloud API, allowing your Node.js apps to work with all Excel file formats and features including worksheet & cell management, conditional formatting, auto-filters, auto-shapes, charts, OleObjects, page breaks, ListObjects, Pivot Tables, charts and much more. 
 
 ## Excel File Processing Features
+
 - Create Excel files from scratch using the API. 
 - Load, process & convert spreadsheets via Cloud SDK.
 - Add, update or delete worksheet, charts, pictures, shapes, hyperlinks & validations.
@@ -17,6 +19,13 @@ Node.js Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate 
 - Create, update, fetch or delete document properties.
 - Fetch the required shape from worksheet.
 - Leverage the Power of Pivot Tables & ranges.
+
+## New Features in Version 20.3.0
+
+- Support to export area or page of sheet to JPEG.
+- Support to add background for workbook.
+
+For the detailed notes, please visit [Aspose.Cells Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.3+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
@@ -35,12 +44,14 @@ DIF, PDF, XPS, TIFF, SVG, MD (Markdown)
 SXC, FODS
 
 ## Storage API Support
+
 Since version 19.9, SDK includes support of storage operations for better user experience and unification, so now there's no need to use 2 different SDKs!
 
 It gives you an ability to:
+
 - Upload, download, copy, move and delete files, including versions handling (if you are using Cloud storage that supports this feature - true by default).
 - Create, copy, move and delete folders.
-- Copy and move files and folders accross separate storages in scope of a single operation.
+- Copy and move files and folders across separate storages in scope of a single operation.
 - Check if certain file, folder or storage exists.
 
 ## Getting Started with Aspose.Cells Cloud SDK for Node.js
