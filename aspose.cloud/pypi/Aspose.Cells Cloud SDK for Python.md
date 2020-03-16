@@ -1,12 +1,12 @@
 Python Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate Microsoft Excel® spreadsheet generation, manipulation, conversion & inspection features into your own Python applications.
 
-[Aspose.Cells Cloud SDK for Python](https://products.aspose.cloud/cells/python) offers Excel® file creation, manipulation, conversion, & rendering. Developers can format worksheets, rows, columns or cells to the most granular level, create & manipulate chart & pivot tables, render worksheets, charts and specific data ranges to PDF & images, add & calculate Excel's builtin and custom formulas and much more. Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/cellscloud/Developer+Guide) for all usage scenarios. 
+[Aspose.Cells Cloud SDK for Python](https://products.aspose.cloud/cells/python) offers Excel® file creation, manipulation, conversion, & rendering. Developers can format worksheets, rows, columns or cells to the most granular level, create & manipulate chart & pivot tables, render worksheets, charts and specific data ranges to PDF & images, add & calculate Excel's built-in and custom formulas and much more. Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/cellscloud/Developer+Guide) for all usage scenarios. 
 
 ## Manipulate Excel Files in the Cloud with Python
 
 - Create Excel files via API.
 - Create & refresh Pivot Tables & charts.
-- Create & manipulate sparklines & conditional formatting.
+- Create & manipulate spark-lines & conditional formatting.
 - Convert charts, worksheets or data ranges to images or PDF.
 - Manage comments & hyperlinks.
 - Set complex formulas & calculate results via API.
@@ -15,6 +15,13 @@ Python Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate M
 - Populate worksheets through Smart Markers.
 - Convert worksheets to PDF, XPS & SVG formats.
 - Inter-convert files to popular Excel formats.
+
+## New Features in Version 20.3.0
+
+- Support to export area or page of sheet to `JPEG`.
+- Support to add background for workbook.
+
+For the detailed notes, please visit [Aspose.Cells Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.3+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
