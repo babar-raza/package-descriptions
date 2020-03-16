@@ -14,6 +14,15 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/comparison/) 
 - Add summary page to resultant document after comparison.
 - Show deleted components in the resultant document.
 
+## New Features in Version 19.5.0
+
+- This is the first release of a completely new version of the API `GroupDocs.Comparison.Cloud v2.0`.
+- `V2` provides much simpler and intuitive API as compared to `V1`.
+- `V2` includes Storage and File API which enables you to manage storage and files.
+- Internal cloud solution is based on the modern micro-service architecture.
+
+For the detailed notes, please visit [GroupDocs.Comparison Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/comparisoncloud/release-notes/2019/groupdocs-comparison-cloud-19-5-release-notes/).
+
 ## Compare Document Formats
 
 GroupDocs.Comparison Cloud API [supports 90+ file formats](https://wiki.groupdocs.cloud/comparisoncloud/getting-started/supported-document-formats/) that it can load & compare.
