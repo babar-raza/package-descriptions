@@ -2,7 +2,7 @@ Node.js Cloud SDK wraps GroupDocs.Merger Cloud API so you could seamlessly integ
 
 # Document Merging in the Cloud
 
-[GroupDocs.Merger Cloud SDK for Node.js](https://products.groupdocs.cloud/merger/nodejs) helps developers implement document merging for over 35 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe & markup file formats, and merge documents. 
+[GroupDocs.Merger Cloud SDK for Node.js](https://products.groupdocs.cloud/merger/nodejs) helps developers implement document merging for over 35 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe & markup file formats, and merge documents.
 
 Check out the [API Reference](https://apireference.groupdocs.cloud/merger/) to know all about the GroupDocs.Merger REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
 
