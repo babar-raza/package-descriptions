@@ -10,6 +10,16 @@ Python Cloud SDK wraps Aspose.HTML REST API so you could seamlessly integrate ma
 - Use request body to [populate HTML document template](https://docs.aspose.cloud/display/htmlcloud/Populate+HTML+Document+Template+with+Data).
 - Convert HTML page to numerous other file formats.
 
+## New Features in Version 19.11.0
+
+- Added following SEO analysis points in the current version:
+  - detection of broken links.
+  - validation of e-mail addresses.
+  - checking of `IMG` tags for the absence of `ALT` attribute.
+  - checking for duplicated `H1` elements.
+
+For the detailed notes, please visit [Aspose.HTML Cloud 19.11 Release Notes](https://docs.aspose.cloud/display/htmlcloud/Aspose.HTML+Cloud+19.11+Release+Notes).
+
 ## Read & Write HTML Formats
 
 HTML, XHTML, zipped HTML, zipped XHTML, MHTML, HTML containing SVG markup, Markdown, JSON
