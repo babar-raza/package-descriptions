@@ -14,6 +14,7 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/editor/) to k
 - Support for highlighting and formatting options.
 
 ## Document Specific REST Models
+
 - [Edit word processing documents](https://wiki.groupdocs.cloud/editorcloud/developer-guide/document-edit-operations/working-with-wordprocessing-documents/) in flow or paged mode.
 - Extract font information for a consistent look and feel of the edited documents.
 - Editing multi-tabbed spreadsheets with the ability to specify the index of the worksheet.
@@ -23,7 +24,6 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/editor/) to k
 - Fix incorrect document structure of the XML files.
 - Recognize email addresses and URIs in the XML files.
 - Enable pagination and protection while saving Word documents.
-
 
 ## Supported File Formats for Editing
 
