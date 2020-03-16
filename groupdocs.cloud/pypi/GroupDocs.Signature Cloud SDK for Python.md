@@ -11,13 +11,21 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/signature/) t
 - Specify font, color, alignment & other appearance settings for the signature.
 - Apply crop settings for the signature background.
 - Setting to repeat the signature string to fill the specified area.
-- Supports CryptoApi & XmlDsig methods of digital signatures.
+- Supports `CryptoApi` & `XmlDsig` methods of digital signatures.
 - Configure alignment of text string along the barcode type signature.
 - Support for various types of brushes to perform signature formatting.
 - Apply signature to password-protected documents.
 - Perform document signature verification.
 - Get or set the time at which the document was digitally signed.
 - Option to search some type of signatures from the document.
+
+## New Features in Version 19.5.0
+
+- This is the first release of a completely new version of the API `GroupDocs.Signature.Cloud v2.0`.
+- `V2` provides a much simpler and intuitive API comparing with `V1`.
+- `V2` includes Storage and File API which enables you to manage storage and files.
+
+For the detailed notes, please visit [GroupDocs.Signature Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/signaturecloud/release-notes/release-notes-2019/groupdocs-signature-cloud-19-5-release-notes/).
 
 ## Supported Signature Types
 
