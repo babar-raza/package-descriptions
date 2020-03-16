@@ -6,7 +6,7 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/viewer/) to k
 
 # View Documents in the Cloud
 
-- [Render documents pages as images](https://wiki.groupdocs.cloud/viewercloud/developer-guide/document-pages/rendering-document-pages/).
+- [Render documents pages](https://wiki.groupdocs.cloud/viewercloud/developer-guide/document-pages/rendering-document-pages/) as images.
 - Fetch the list of all installed fonts or delete the fonts cache.
 - Download HTML page resources, e.g., images, CSS, fonts etc.
 - Render document as PDF, HTML or image representation and download as ZIP.
@@ -17,10 +17,16 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/viewer/) to k
 - Decrease the resultant file size by excluding fonts.
 - Render specific sections of worksheets defined as "Print Area".
 - Choose to include or exclude hidden content.
-- [Save result in minified HTML and SVG ](https://wiki.groupdocs.cloud/viewercloud/developer-guide/document-pages/minification-of-html-and-svg/).
+- Save result in [minified HTML and SVG](https://wiki.groupdocs.cloud/viewercloud/developer-guide/document-pages/minification-of-html-and-svg/).
 - Render documents [responsive HTML](https://wiki.groupdocs.cloud/viewercloud/developer-guide/document-pages/rendering-document-to-responsive-html/).
 - Render email messages & Outlook data files.
 - Integrated storage API.
+
+## New Features in Version 19.5.0
+
+- Improve Cloud products API Reference grouping.
+
+For the detailed notes, please visit [GroupDocs.Viewer Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/viewercloud/release-notes/2019/groupdocs-viewer-cloud-19-5-release-notes/).
 
 ## Supported File Formats
 
