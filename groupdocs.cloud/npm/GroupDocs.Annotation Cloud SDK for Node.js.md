@@ -6,7 +6,6 @@ Node.js Cloud SDK wraps GroupDocs.Annotation Cloud API so you could seamlessly i
 
 Check out the [API Reference](https://apireference.groupdocs.cloud/annotation/) to know all about the GroupDocs.Annotation REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
 
-
 ## Addon Features
 
 - Load protected documents.
@@ -16,7 +15,15 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/annotation/) 
 - Get & set various annotation settings.
 - [Export annotation](https://wiki.groupdocs.cloud/annotationcloud/developer-guide/working-with-annotations/#HExportAnnotationandgetDocumentasStream) information to a document.
 - [Render documents to PDF](https://wiki.groupdocs.cloud/annotationcloud/developer-guide/rendering-documents/).
-- Intergrated storage API.
+- Integrated storage API.
+
+## New Features in Version 19.5.0
+
+- This is the first release of a completely new version of the API `GroupDocs.Annotation.Cloud v2.0`.
+- `V2` provides much simpler and intuitive API comparing with `V1`.
+- `V2` includes Storage and File API which enables users to manage storage and files.
+
+For the detailed notes, please visit [GroupDocs.Annotation Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/annotationcloud/release-notes/2019/groupdocs-annotation-cloud-19-5-release-notes/).
 
 ## Supported Annotation Formats
 
