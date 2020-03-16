@@ -30,7 +30,7 @@ This REST API allows your C#, ASP.NET & other .NET cloud-based apps to [convert 
 - Converting multi-page `TIFF` to `PDF`.
 - Improvement in `MPP` to `XLS` conversion.
 
-For the detailed notes, please note, [GroupDocs.Conversion Cloud 20.2 Release Notes](https://wiki.groupdocs.cloud/conversioncloud/release-notes/2020/groupdocs-conversion-cloud-20-2-release-notes/).
+For the detailed notes, please visit, [GroupDocs.Conversion Cloud 20.2 Release Notes](https://wiki.groupdocs.cloud/conversioncloud/release-notes/2020/groupdocs-conversion-cloud-20-2-release-notes/).
 
 ## Conversion File Formats
 

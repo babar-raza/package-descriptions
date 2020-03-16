@@ -16,42 +16,57 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/conversion/) 
 - Get document metadata.
 - Get possible conversion options for any input document.
 - Use PDF as an intermediary format while converting.
-- Intergrated storage API.
+- Integrated storage API.
 
 ## Document Specific REST Models
+
 - Convert specific cell range, skip empty rows & columns or substitute font during Excel document conversion.
 - Display or hide email headers like "from", "to", "cc" & "bcc".
 - Adjust resolution, contrast, brightness or gamma for image conversion. Also rotate, flip or convert to grayscale.
 - Set page's DPI & zoom level while converting Word documents.
 - Render specific CAD layouts.
 
-## Read File Formats for Conversion
+## New Features in Version 20.2.0
 
-GroupDocs.Conversion Cloud API [supports 50+ file formats](https://wiki.groupdocs.cloud/conversioncloud/getting-started/supported-document-formats/) that it can load & export.
+- **New Source Formats:** DIB, XLT, POT, XLAM, MPX, JPC, DWT, JPEG-LS.
+- **New Target Formats:** WMF, EMF, XLAM.
+- Supports encoding for source `CSV` and `TXT` documents.
+- Supports `TimeZoneOffset` and `ConvertAttachments` for source Email documents.
 
+## Enhancements in Version 20.2.0
+
+- Improved quality of Diagram to Word document conversion.
+- Converting multi-page `TIFF` to `PDF`.
+- Improvement in `MPP` to `XLS` conversion.
+
+For the detailed notes, please visit, [GroupDocs.Conversion Cloud 20.2 Release Notes](https://wiki.groupdocs.cloud/conversioncloud/release-notes/2020/groupdocs-conversion-cloud-20-2-release-notes/).
+
+## Conversion File Formats
+
+GroupDocs.Conversion Cloud SDK for Node.js allows you to convert any of the following type of file formats:
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT
-**Microsoft Excel:** XLS, XLS2003, XLSB, XLSM, XLSX, CSV
-**Microsoft PowerPoint:** PPS, PPSX, PPT, PPTX
+**Microsoft Excel:** XLS, XLT, XLS2003, XLSB, XLSM, XLAM, XLSX, CSV
+**Microsoft PowerPoint:** PPS, PPSX, PPT, PPTX, POT
 **Microsoft Visio:** VDW, VDX, VSD, VSDX, VSS, VST, VSX, VTX
-**Microsoft Project:** MPP, MPT
+**Microsoft Project:** MPP, MPT, MPX
 **OpenOffice:** ODP, ODS, ODT, OTT
 **Adobe Photoshop:** PSD
-**AutoCAD:** DWG, DXF
-**Image:** BMP, GIF, ICO, JPEG, JPG, PNG, SVG, TIF, TIFF
+**AutoCAD:** DWG, DWT, DXF
+**Image:** BMP, GIF, ICO, JPEG, JPEG-LS, JPG, JPC, PNG, SVG, TIF, TIFF, DIB
 **Email:** EML, EMLX, MSG
 **Fixed Layout:** PDF, XPS
 **Markup:** HTM, HTML, MHT
 
-## Save Documents As
-
+to the following formats:
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT
-**Microsoft Excel:** XLS, XLS2003, XLSB, XLSM, XLSX, CSV
+**Microsoft Excel:** XLS, XLS2003, XLSB, XLSM, XLAM, XLSX, CSV
 **Microsoft PowerPoint:** PPS, PPSX, PPT, PPTX
 **OpenOffice:** ODP, ODS, ODT, OTT
 **Adobe Photoshop:** PSD
 **Image:** BMP, GIF, ICO, JPEG, JPG, PNG, TIF, TIFF
 **Fixed Layout:** PDF, XPS
 **Markup:** HTM, HTML
+**Metafile:** WMF, EMF
 
 ## Getting Started with GroupDocs.Conversion Cloud SDK for Node.js
 
