@@ -2,7 +2,7 @@ Node.js Cloud SDK wraps Aspose.Words REST API so you could seamlessly integrate 
 
 # Word Document Processing in the Cloud
 
-[Aspose.Words Cloud SDK for Node.js](https://products.aspose.cloud/slides/nodejs) allows to work with document headers, footers, page numbering, tables, sections, document comments, drawing objects, FormFields, fonts, hyperlinks, ranges, paragraphs, math objects, watermarks, track changes and document protection. It also assists in appending documents, splitting documents as well as converting document to other supported file formats. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/wordscloud/Developer+Guide) for all possible usage scenarios. 
+[Aspose.Words Cloud SDK for Node.js](https://products.aspose.cloud/slides/nodejs) allows to work with document headers, footers, page numbering, tables, sections, document comments, drawing objects, FormFields, fonts, hyperlinks, ranges, paragraphs, math objects, watermarks, track changes and document protection. It also assists in appending documents, splitting documents as well as converting document to other supported file formats. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/wordscloud/Developer+Guide) for all possible usage scenarios.
 
 ## Document Processing Features
 
@@ -13,6 +13,14 @@ Node.js Cloud SDK wraps Aspose.Words REST API so you could seamlessly integrate 
 - Find and replace text.
 - Add & remove watermarks and protection.
 - Read & write access to Document Object Model.
+
+## Enhancements in Version 20.1.0
+
+- Moved property `ColorMode` from `SaveOptionsData` to `FixedPageSaveOptionsData`.
+- Replaced `MemoryStream` and `byte[]` with `SixLabors.ImageSharp.IImage` in image processing.
+- Included support of `ICC` profiles and implement `ICCBased` color space.
+
+For the detailed notes, please visit [Aspose.Words Cloud 20.1 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.1+Release+Notes).
 
 ## Read & Write Document Formats
 
@@ -36,6 +44,7 @@ Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/
 The complete source code is available at [GitHub Repository](https://github.com/aspose-words-cloud/aspose-words-cloud-node).
 
 ### SDK Dependencies
+
 - [@types/request](https://www.npmjs.com/package/@types/request) (version 2.48.3+)
 - [lodash](https://www.npmjs.com/package/lodash) (version 4.17.15+)
 - [lodash.template](https://www.npmjs.com/package/lodash.template) (version 4.5.0+)
