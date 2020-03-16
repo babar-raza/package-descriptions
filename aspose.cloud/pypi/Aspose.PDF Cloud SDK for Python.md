@@ -15,6 +15,13 @@ Python Cloud SDK wraps Aspose.PDF REST API so you could seamlessly integrate PDF
 - Extensive support for [converting PDF documents](https://docs.aspose.cloud/display/pdfcloud/Convert+PDF+to+Other+File+Formats) to various other file formats.
 - Extract various elements of PDF file & make PDF document optimized.
 
+## New features in Version 20.2.0
+
+- Implemented a method to convert `PDFA` to `PDF` and upload the resulting file to storage.
+- Implemented a method to convert `PDFA` to `PDF` and return resulting file in response.
+
+For the detailed notes, please visit [Aspose.PDF Cloud 20.2 Release Notes](https://docs.aspose.cloud/display/pdfcloud/Aspose.PDF+Cloud+20.2+Release+Notes).
+
 ## Read & Write Formats
 
 PDF, EPUB, HTML, TeX, SVG, XML, XPS, FDF, XFDF
