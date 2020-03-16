@@ -12,6 +12,16 @@ Node.js Cloud SDK wraps Aspose.HTML REST API so you could seamlessly integrate m
 - Use request body to populate HTML document template.
 - Convert HTML page to numerous other file formats.
 
+## New Features in Version 19.11.0
+
+- Added following SEO analysis points in the current version:
+  - detection of broken links.
+  - validation of e-mail addresses.
+  - checking of `IMG` tags for the absence of `ALT` attribute.
+  - checking for duplicated `H1` elements.
+
+For the detailed notes, please visit [Aspose.HTML Cloud 19.11 Release Notes](https://docs.aspose.cloud/display/htmlcloud/Aspose.HTML+Cloud+19.11+Release+Notes).
+
 ## Read & Write Formats
 
 HTML, XHTML, zipped HTML, zipped XHTML, MHTML, Markdown, JSON
@@ -23,6 +33,7 @@ HTML, XHTML, zipped HTML, zipped XHTML, MHTML, Markdown, JSON
 **Other:** TXT, ZIP (images)
 
 ## Read HTML Formats
+
 **eBook:** EPUB
 **Other:** XML, SVG
 
