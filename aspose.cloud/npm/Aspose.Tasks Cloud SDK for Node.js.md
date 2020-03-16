@@ -2,7 +2,7 @@ Node.js Cloud SDK wraps Aspose.Tasks REST API so you could seamlessly integrate 
 
 # Project Processing in the Cloud
 
-[Aspose.Tasks Cloud SDK for Node.js](https://products.aspose.cloud/tasks/nodejs) allows to retrieve project tasks and documents to process & manipulate without installing Microsoft Project or Primavera P6. Aspose.Tasks Cloud SDK for Node.js allows your to fetch existing assignments, add new project assignments, change task parent, change position of the tasks within the project hierarchy, add a project calendar along with calendar exceptions, get VBA project, get time-scaled data of project, get a collection of all work weeks belonging to a project, and more. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/taskscloud/Developer+Guide) for all possible usage scenarios. 
+[Aspose.Tasks Cloud SDK for Node.js](https://products.aspose.cloud/tasks/nodejs) allows to retrieve project tasks and documents to process & manipulate without installing Microsoft Project or Primavera P6. Aspose.Tasks Cloud SDK for Node.js allows your to fetch existing assignments, add new project assignments, change task parent, change position of the tasks within the project hierarchy, add a project calendar along with calendar exceptions, get VBA project, get time-scaled data of project, get a collection of all work weeks belonging to a project, and more. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/taskscloud/Developer+Guide) for all possible usage scenarios.
 
 ## Microsoft Project Processing Features
 
@@ -18,6 +18,13 @@ Node.js Cloud SDK wraps Aspose.Tasks REST API so you could seamlessly integrate 
 - Calculate slacks & recalculate project completion or incompletion work.
 - Fetch a project document in the desired format.
 - Delete project task with its related references & rebuild task tree.
+
+## Enhancements in Version 19.12.0
+
+- Imported projects from Project Online (Server) now can be saved as `MPP` file.
+- Imported projects from a database now can be saved as `MPP` file.
+
+For the detailed notes, please visit [Aspose.Tasks Cloud 19.12 Release Notes](https://docs.aspose.cloud/display/taskscloud/Aspose.Tasks+Cloud+19.12+Release+Notes).
 
 ## Read & Write Project Formats
 
