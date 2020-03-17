@@ -2,7 +2,9 @@ Node.js Cloud SDK wraps Aspose.Words REST API so you could seamlessly integrate 
 
 # Word Document Processing in the Cloud
 
-[Aspose.Words Cloud SDK for Node.js](https://products.aspose.cloud/slides/nodejs) allows to work with document headers, footers, page numbering, tables, sections, document comments, drawing objects, FormFields, fonts, hyperlinks, ranges, paragraphs, math objects, watermarks, track changes and document protection. It also assists in appending documents, splitting documents as well as converting document to other supported file formats. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/wordscloud/Developer+Guide) for all possible usage scenarios. 
+[Aspose.Words Cloud SDK for Node.js](https://products.aspose.cloud/slides/nodejs) allows to work with document headers, footers, page numbering, tables, sections, document comments, drawing objects, FormFields, fonts, hyperlinks, ranges, paragraphs, math objects, watermarks, track changes and document protection. It also assists in appending documents, splitting documents as well as converting document to other supported file formats. 
+
+Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/wordscloud/Developer+Guide) & [API Reference](https://apireference.aspose.cloud/words/) to know all about Aspose.Words Cloud API. 
 
 ## Document Processing Features
 
@@ -36,6 +38,7 @@ Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/
 The complete source code is available at [GitHub Repository](https://github.com/aspose-words-cloud/aspose-words-cloud-node).
 
 ### SDK Dependencies
+
 - [@types/request](https://www.npmjs.com/package/@types/request) (version 2.48.3+)
 - [lodash](https://www.npmjs.com/package/lodash) (version 4.17.15+)
 - [lodash.template](https://www.npmjs.com/package/lodash.template) (version 4.5.0+)

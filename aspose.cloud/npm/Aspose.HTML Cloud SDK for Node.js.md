@@ -2,7 +2,7 @@ Node.js Cloud SDK wraps Aspose.HTML REST API so you could seamlessly integrate m
 
 # Process HTML, SVG, MD & EPUB Files in the Cloud
 
-[Aspose.HTML Cloud SDK for Node.js](https://products.aspose.cloud/html/nodejs) offers its consumers to load markup of HTML, MHTML, XHTML, EPUB, XML & SVG formats from file, cloud storage or URL. The loaded document can be traversed or inspected via CSS selector & XPath query or can be converted to images, PDF as well as other supported markup formats. The HTML REST API also alows to extract images from the HTML and populate HTML template with data from JSON or XML.
+[Aspose.HTML Cloud SDK for Node.js](https://products.aspose.cloud/html/nodejs) offers its consumers to load markup of HTML, MHTML, XHTML, EPUB, XML & SVG formats from file, cloud storage or URL. The loaded document can be traversed or inspected via CSS selector & XPath query or can be converted to images, PDF, XPS as well as other supported markup formats. The HTML REST API also allows to extract images from the HTML and populate HTML template with data from JSON or XML. Checkout the [API Reference]([https://apireference.aspose.cloud/html/](https://apireference.aspose.cloud/html/)) & [Developer's Guide]([https://docs.aspose.cloud/display/htmlcloud/Developer+Guide](https://docs.aspose.cloud/display/htmlcloud/Developer+Guide)) for all possible functions.
 
 ## HTML Processing Features
 
@@ -11,6 +11,7 @@ Node.js Cloud SDK wraps Aspose.HTML REST API so you could seamlessly integrate m
 - Load data from local file to populate HTML document template.
 - Use request body to populate HTML document template.
 - Convert HTML page to numerous other file formats.
+- Validate HTML for SEO & structure errors.
 
 ## Read & Write Formats
 

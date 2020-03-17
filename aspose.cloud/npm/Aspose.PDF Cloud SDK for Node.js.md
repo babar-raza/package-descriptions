@@ -1,7 +1,9 @@
 Node.js Cloud SDK wraps Aspose.PDF REST API so you could seamlessly integrate PDF document generation, manipulation, conversion & inspection features into your own Node.js applications.
 
 # PDF Document Processing in the Cloud
-[Aspose.PDF Cloud SDK for Node.js](https://products.aspose.cloud/pdf/nodejs) enhances your Node.js code to generate new PDF documents & pages, delete pages from existing PDF files as well as manage PDF bookmarks, annotations, signatures, stamps, watermarks, attachments, header, footer, hyperlinks, form fields, text items and images via simple Node.js REST API calls. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/pdfcloud/Developer+Guide) for all possible usage scenarios. 
+[Aspose.PDF Cloud SDK for Node.js](https://products.aspose.cloud/pdf/nodejs) enhances your Node.js code to generate new PDF documents & pages, delete pages from existing PDF files as well as manage PDF bookmarks, annotations, signatures, stamps, watermarks, attachments, header, footer, hyperlinks, form fields, text items and images via simple Node.js REST API calls. 
+
+Explore the [Developer's Guide](https://docs.aspose.cloud/display/pdfcloud/Developer+Guide) & [API Reference](https://apireference.aspose.cloud/pdf/) to get acquainted with all possible usage scenarios. 
 
 ## PDF Processing Features
 
@@ -20,7 +22,7 @@ Node.js Cloud SDK wraps Aspose.PDF REST API so you could seamlessly integrate PD
 
 PDF, EPUB, HTML, TeX, SVG, XML, XPS, FDF, XFDF
 
-## Save PDF As
+## Save PDF Documents As
 
 XLS, XLSX, PPTX, DOC, DOCX, MobiXML, JPEG, EMF, PNG, BMP, GIF, TIFF, Text
 

@@ -1,4 +1,4 @@
-Node.js Cloud SDK wraps Aspose.BarCode Cloud API so you could seamlessly integrate barcode generation & recognition features into your own Node.js apps.
+Node.js Cloud SDK wraps Aspose.BarCode Cloud API so you could seamlessly integrate Barcode Generation & Recognition features into your own Node.js apps.
 
 # Barcode Generation & Recognition in the Cloud
 [Aspose.BarCode Cloud SDK for Node.js](https://products.aspose.cloud/barcode/nodejs) helps you generate barcodes (Linear, 2D & Postal), configure barcode properties and attributes, such as, barcode height, dimensions, image format, and more. Scan existing barcodes from 60+ symbologies, including, Codabar, PDF417, QR, MicroQR, EAN, Postnet, UPC, RM4SCC and many more.
@@ -27,13 +27,16 @@ EMF, SVG
 
 ## Supported Barcode Symbologies
 
-**Linear barcode symbologies**:
+**Linear Barcode Symbologies**:
+
 EAN13, EAN8, UPCA, UPCE, Interleaved2of5, Standard2of5, MSI, Code11, Codabar, EAN14(SCC14), SSCC18, ITF14, Matrix 2 of 5, PZN, Code128, Code39 Extended, Code39 Standard, Code93 Extended, Code16K, Code93 Standard, IATA 2 of 5, OPC, GS1Code128, ISBN, ISMN, ISSN, ITF6, VIN, Pharmacode, DatabarOmniDirectional, DatabarTruncated, DatabarLimited, DatabarExpanded, DatabarStackedOmniDirectional, DatabarExpandedStacked, DatabarStacked, PatchCode, Supplement (Decode only).
 
-**2D barcode symbologies**:
+**2D Barcode Symbologies**:
+
 PDF417, MacroPDF417, MicroPDF417, CompactPDF417 (Decode only), DataMatrix, Aztec, QR, MicroQR, DotCode, MaxiCode, Italian Post 25, GS1DataMatrix, Code16K.
 
-**Postal barcode symbologies**:
+**Postal Barcode Symbologies**:
+
 Postnet, Planet, USPS OneCode, Australia Post, Deutsche Post Identcode, Deutsche Post Leticode, RM4SCC, SingaporePost, AustralianPosteParcel, SwissPostParcel, UpcaGs1DatabarCoupon.
 
 ## Getting Started with Aspose.BarCode Cloud SDK for Node.js

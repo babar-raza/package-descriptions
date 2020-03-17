@@ -2,7 +2,9 @@ Node.js Cloud SDK wraps Aspose.Tasks REST API so you could seamlessly integrate 
 
 # Project Processing in the Cloud
 
-[Aspose.Tasks Cloud SDK for Node.js](https://products.aspose.cloud/tasks/nodejs) allows to retrieve project tasks and documents to process & manipulate without installing Microsoft Project or Primavera P6. Aspose.Tasks Cloud SDK for Node.js allows your to fetch existing assignments, add new project assignments, change task parent, change position of the tasks within the project hierarchy, add a project calendar along with calendar exceptions, get VBA project, get time-scaled data of project, get a collection of all work weeks belonging to a project, and more. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/taskscloud/Developer+Guide) for all possible usage scenarios. 
+[Aspose.Tasks Cloud SDK for Node.js](https://products.aspose.cloud/tasks/nodejs) allows to retrieve project tasks and documents to process & manipulate without installing Microsoft Project or Primavera P6. Aspose.Tasks Cloud SDK for Node.js allows your to fetch existing assignments, add new project assignments, change task parent, change position of the tasks within the project hierarchy, add a project calendar along with calendar exceptions, get VBA project, get time-scaled data of project, get a collection of all work weeks belonging to a project, and more. 
+
+Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/taskscloud/Developer+Guide) & [API Reference](https://apireference.aspose.cloud/tasks/) to know all about Aspose.Tasks Cloud API. 
 
 ## Microsoft Project Processing Features
 
@@ -15,7 +17,7 @@ Node.js Cloud SDK wraps Aspose.Tasks REST API so you could seamlessly integrate 
 - Create and set project document properties & fetch all or specific existing properties.
 - Get a project's extended attributes, time scaled data or recurring info of a specific task.
 - Reschedule project tasks, dates, and other settings.
-- Calculate slacks & recalculate project completion or incompletion work.
+- Calculate slacks & recalculate project completion.
 - Fetch a project document in the desired format.
 - Delete project task with its related references & rebuild task tree.
 
@@ -23,7 +25,7 @@ Node.js Cloud SDK wraps Aspose.Tasks REST API so you could seamlessly integrate 
 
 MPP, MPX, XER, XML, PrimaveraP6XML
 
-## Save Projects As
+## Save Project Data As
 
 HTML, BMP, PNG, JPEG, TIFF, SVG, CSV, TXT, XLSX, PDF, XPS
 
@@ -40,7 +42,7 @@ The complete source code is available at [GitHub Repository](https://github.com/
 ## Use Node.js to Fetch all Tasks of a Project Document
 
 ```js
-const tasksApi = new TasksApi("Youre AppSid here", "Youre AppKey here");
+const tasksApi = new TasksApi("Your AppSid here", "Your AppKey here");
 
 const request: GetTasksRequest = { name: "template.mpp", folder: "documents", storage: ""}
 
