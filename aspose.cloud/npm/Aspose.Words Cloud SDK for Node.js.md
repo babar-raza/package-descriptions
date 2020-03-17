@@ -2,7 +2,9 @@ Node.js Cloud SDK wraps Aspose.Words REST API so you could seamlessly integrate 
 
 # Word Document Processing in the Cloud
 
-[Aspose.Words Cloud SDK for Node.js](https://products.aspose.cloud/slides/nodejs) allows to work with document headers, footers, page numbering, tables, sections, document comments, drawing objects, FormFields, fonts, hyperlinks, ranges, paragraphs, math objects, watermarks, track changes and document protection. It also assists in appending documents, splitting documents as well as converting document to other supported file formats. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/wordscloud/Developer+Guide) for all possible usage scenarios.
+[Aspose.Words Cloud SDK for Node.js](https://products.aspose.cloud/slides/nodejs) allows to work with document headers, footers, page numbering, tables, sections, document comments, drawing objects, FormFields, fonts, hyperlinks, ranges, paragraphs, math objects, watermarks, track changes and document protection. It also assists in appending documents, splitting documents as well as converting document to other supported file formats. 
+
+Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/wordscloud/Developer+Guide) & [API Reference](https://apireference.aspose.cloud/words/) to know all about Aspose.Words Cloud API. 
 
 ## Document Processing Features
 
@@ -14,10 +16,10 @@ Node.js Cloud SDK wraps Aspose.Words REST API so you could seamlessly integrate 
 - Add & remove watermarks and protection.
 - Read & write access to Document Object Model.
 
-## Enhancements in Version 20.1.0
+## Enhancements in Version 20.1
 
 - Moved property `ColorMode` from `SaveOptionsData` to `FixedPageSaveOptionsData`.
-- Replaced `MemoryStream` and `byte[]` with `SixLabors.ImageSharp.IImage` in image processing.
+- Replaced `MemoryStream` and `byte[]` with `SixLabors.ImageSharp.IImage` for image processing.
 - Included support of `ICC` profiles and implement `ICCBased` color space.
 
 For the detailed notes, please visit [Aspose.Words Cloud 20.1 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.1+Release+Notes).

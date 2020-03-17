@@ -1,12 +1,10 @@
 Node.js Cloud SDK wraps Aspose.Diagram REST API so you could seamlessly integrate Microsoft Visio® file generation, manipulation, conversion & processing features into your own Node.js applications.
 
-# Process Visio® Files in the Cloud with Node.js
-
+# Process Visio® Files in the Cloud
 [Aspose.Diagram Cloud SDK for Node.js](https://products.aspose.cloud/diagram/nodejs) helps you develop Visio file manipulation applications while using the REST API. Diagram Cloud SDK allows your applications to work with Microsoft Visio Object Model in order to create the diragrams from scratch, edit existing diagrams or convert diagrams to popular formats including PDF, HTML, images and other Visio formats.
 
-## Visio File Processing Features
-
-- Programmatically create a new Microsoft Visio diagram file.
+## Diagram Processing Features
+- Programmatically create new Microsoft Visio diagrams via API.
 - Convert Visio flow-charts to other supported formats.
 - Retrieve document information of a Visio file.
 - Export Visio files to raster images, fixed-layout and HTML formats.
@@ -14,7 +12,7 @@ Node.js Cloud SDK wraps Aspose.Diagram REST API so you could seamlessly integrat
 
 Please refer to [Developer's Guide](https://docs.aspose.cloud/display/diagramcloud/Developer+Guide) to see what else you can achieve.
 
-## New Features in Version 19.10.0
+## New Features in Version 19.10
 
 - Added `SaveOption` parameter for `saveAs` API.
 - Added support for multiple files exports that convert files to `HTML`.

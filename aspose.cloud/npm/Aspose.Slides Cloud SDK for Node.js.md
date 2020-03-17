@@ -2,18 +2,21 @@ Node.js Cloud SDK wraps Aspose.Slides REST API so you could seamlessly integrate
 
 # PowerPoint File Processing in the Cloud
 
-[Aspose.Slides Cloud SDK for Node.js](https://products.aspose.cloud/slides/nodejs) enhance your Node.js programs to create presentations in the cloud, pick and merge specific slides, split presentations, extract images from presentation in any of the supported file formats, extract & download slide notes, clone master slide information, and more. Please feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/slidescloud/Developer+Guide) for all possible usage scenarios. 
+[Aspose.Slides Cloud SDK for Node.js](https://products.aspose.cloud/slides/nodejs) enhance your Node.js programs to create presentations in the cloud, pick and merge specific slides, split presentations, extract images from presentation in any of the supported file formats, extract & download slide notes, clone master slide information, and more. 
+
+Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/slidescloud/Developer+Guide) & [API Reference](https://apireference.aspose.cloud/slides/) to know all about Aspose.Slides Cloud API. 
 
 ## Presentation Processing Features
 
 - Fetch presentation images in any of the supported file formats.
 - Copy layout side or clone master slide from the source presentation.
 - Process slides shapes, slides notes, placeholders, colors & font theme info.
-- Programmatically create presentation from HTML & export it to various formats.
+- Create presentation from HTML & export to various popular formats.
 - Merge multiple presentations or split single presentation into multiple ones.
 - Extract and replace text from specific slide or entire presentation.
+- Manage shapes, animation, text, images, theme, notes & more with REST Models.
 
-## Enhancements in Version 20.2.0
+## Enhancements in Version 20.2
 
 - Scalar type model properties which are not required are nullable in SDKs.
 - Path request property is optional in SDKs.

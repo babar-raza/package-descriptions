@@ -20,10 +20,10 @@ Node.js Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate 
 - Fetch the required shape from worksheet.
 - Leverage the Power of Pivot Tables & ranges.
 
-## New Features in Version 20.3.0
+## New Features in Version 20.3
 
-- Support to export area or page of sheet to JPEG.
-- Support to add background for workbook.
+- Export area or page of worksheet to JPEG.
+- Add background to the workbook.
 
 For the detailed notes, please visit [Aspose.Cells Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.3+Release+Notes).
 
@@ -139,4 +139,5 @@ return cellsApi.cellsPostWorksheetMerge(req)
   });
 ```
 
-[Product Page](https://products.aspose.cloud/cells/net) | [Documentation](https://docs.aspose.cloud/display/cellscloud/Home) | [API Reference](https://apireference.aspose.cloud/cells/) | [Code Samples](https://github.com/aspose-cells-cloud/aspose-cells-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/cells/) | [Free Support](https://forum.aspose.cloud/c/cells) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/cells/nodejs) | [Documentation](https://docs.aspose.cloud/display/cellscloud/Home) | [API Reference](https://apireference.aspose.cloud/cells/) | [Code Samples](https://github.com/aspose-cells-cloud/aspose-cells-cloud-node) | [Blog](https://blog.aspose.cloud/category/cells/) | [Free Support](https://forum.aspose.cloud/c/cells) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+

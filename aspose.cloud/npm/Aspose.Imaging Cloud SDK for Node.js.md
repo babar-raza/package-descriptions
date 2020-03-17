@@ -2,26 +2,27 @@ Node.js Cloud SDK wraps Aspose.Imaging REST API so you could seamlessly integrat
 
 # Create, Manipulate & Convert Images in the Cloud
 
-[Aspose.Imaging Cloud](https://products.aspose.cloud/imaging) is a true [REST API](https://apireference.aspose.cloud/imaging/) that enables you to perform a wide range of image processing operations including creation, manipulation and conversion in the cloud, with zero initial cost. 
+[Aspose.Imaging Cloud](https://products.aspose.cloud/imaging) is a true [REST API](https://apireference.aspose.cloud/imaging/) that enables you to perform a wide range of image processing operations including creation, manipulation and conversion in the cloud, with zero initial cost. Checkout the [API Reference](https://apireference.aspose.cloud/imaging/) to know what else Aspose.Imaging Cloud can do.
 
 ## Image Processing Features
 
 - Export images to variety of other formats.
-- Fetch or update properties of cloud hosted images.
+- [Fetch or update properties of cloud hosted images](https://docs.aspose.cloud/display/imagingcloud/Working+with+Image+Properties).
 - Scale, flip, crop, rotate and export images with a single API call.
-- Update image parameters of JPEG2000 & WEBP images.
-- Access multi-frame TIFF image and extract the desired frames.
-- Merge multiple TIFF images.
+- Update image parameters of JPEG2000 & WEBP formats.
+- [Access multi-frame TIFF image](https://docs.aspose.cloud/display/imagingcloud/Working+with+TIFF+Frames) and extract the desired frames as well as merge multiple TIFF images.
+- Convert images for PDF.
+- Apply imaging filters.
 - Imaging AI operations:
-  - Content-based image search
-  - Image duplicates search
-  - Image search by custom registered tags
-  - Image comparison and similarity detection
-  - Image features extraction (for now, AKAZE detector is supported)
+	- Context-based image search.
+	- [Duplicate image search](https://docs.aspose.cloud/display/imagingcloud/Find+Duplicate+Images).
+	- [Image search by custom registered tags](https://docs.aspose.cloud/display/imagingcloud/Find+Images+By+Tags).
+	- Image comparison and similarity detection.
+	- Image features extraction (for now, AKAZE detector is supported).
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
-- Added image grayscale feature.
+- Added support for grayscale images.
 
 For the detailed notes, please visit [Aspose.Imaging Cloud 20.2 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.2+-+Release+Notes).
 
@@ -51,24 +52,6 @@ It gives the ability to:
 ## Getting Started with Aspose.Imaging Cloud SDK for Node.js
 
 Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install @asposecloud/aspose-imaging-cloud --save` from the command line to install Aspose.Imaging Cloud SDK for Node.js via NPM. The complete source code is available at [GitHub Repository](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-node).
-
-Add the `NPM` package to your `project.json` as a dependency.
-
-```js
-
-{
-  "dependencies": {
-    "@asposecloud/aspose-imaging-cloud": "^20.2.0"
-  }
-}
-```
-
-### Import the Dependencies
-
-```js
-
-import * as imaging from "@asposecloud/aspose-imaging-cloud";
-```
 
 The best way to become familiar with how to use the SDK is to read the [Developer Guide](https://docs.aspose.cloud/display/imagingcloud/Developer+Guide) whereas the [Getting Started](https://docs.aspose.cloud/display/imagingcloud/Getting+Started) section will help you understand the common concepts.
 
