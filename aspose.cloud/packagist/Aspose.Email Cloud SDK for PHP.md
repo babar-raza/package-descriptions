@@ -28,36 +28,31 @@ Aspose.Email Cloud’s platform independent document manipulation API is a true 
 
 ## Getting Started with Aspose.Email Cloud SDK for .NET
 
-You do not need to install anything to get started with Aspose.Email Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information. 
+This repository contains Aspose.Email Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Simply execute `Install-Package Aspose.Email-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Email assembly in your project. If you already have Aspose.Email Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.Email-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-email-cloud/aspose-email-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-email-cloud/aspose-email-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK
 
-## Convert an Email EML File to MSG Format via C# Code
+You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
 
-The following code sample demonstrates, how to fetch Microsoft Outlook, Apple Mail or Mozilla Thunderbird emails in the EML format and convert them into MSG format using simple call to Aspose.Email Cloud SDK for .NET in C# code:
+## Installation via Composer
 
-```csharp
-// Please get your APP_KEY & APP_ID by signing up for free at https://dashboard.aspose.cloud/#/apps.
-EmailApi emailApi = new EmailApi(Common.APP_KEY, Common.APP_SID, Common.BASEPATH);
-StorageApi storageApi = new StorageApi(Common.APP_KEY, Common.APP_SID, Common.BASEPATH);
+Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
 
-String name = "email_test";
-String fileName = name + ".eml";
-String format = "msg";
-String storage = "";
-String folder = "";
-String outPath = "";
-
-// Upload source file to aspose cloud storage
-storageApi.PutCreate(fileName, "", "", System.IO.File.ReadAllBytes(Common.GetDataDir() + fileName));
-
-// Invoke Aspose.Email Cloud SDK API to convert email to other formats
-ResponseMessage apiResponse = emailApi.GetDocumentWithFormat(fileName, format, storage, folder, outPath);
-
-System.IO.File.WriteAllBytes(Common.GetDataDir() + fileName, apiResponse.ResponseStream);
-Console.WriteLine("Convert Emails to Other Formats, Done!");
+```console
+composer require aspose/[PRODUCT_NAME]-cloud-php
 ```
 
-[Product Page](https://products.aspose.cloud/email/net) | [Documentation](https://docs.aspose.cloud/display/emailcloud/Home) | [API Reference](https://apireference.aspose.cloud/email/) | [Code Samples](https://github.com/aspose-email-cloud/aspose-email-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/email/) | [Free Support](https://forum.aspose.cloud/c/email) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
+
+```php
+require __DIR__ . '/vendor/autoload.php';
+```
+
+### Sample usage
+
+```php
+```
+
+[Product Page](https://products.aspose.cloud/email/php) | [Documentation](https://docs.aspose.cloud/display/emailcloud/Home) | [API Reference](https://apireference.aspose.cloud/email/) | [Code Samples](https://github.com/aspose-email-cloud/aspose-email-cloud-php) | [Blog](https://blog.aspose.cloud/category/email/) | [Free Support](https://forum.aspose.cloud/c/email) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

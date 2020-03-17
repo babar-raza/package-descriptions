@@ -35,43 +35,31 @@ Aspose.Slides Cloud’s platform independent document manipulation API is a true
 
 ## Getting Started with Aspose.Slides Cloud SDK for .NET
 
-You do not need to install anything to get started with Aspose.Slides Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.[PRODUCT_NAME] Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Simply execute `Install-Package Aspose.Slides-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Slides assembly in your project. If you already have Aspose.Slides Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.Slides-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-[PRODUCT_NAME]-cloud/aspose-[PRODUCT_NAME]-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-slides-cloud/aspose-slides-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK
 
-## Convert PPTX Presentation to JPEG Format via C# Code
+You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
 
-The following C# code sample elaborates, how to easily convert a cloud-based Microsoft PowerPoint presentation PPTX file to JPEG image format via REST API:
+## Installation via Composer
 
-```csharp
-PostSlidesSaveAsRequest request = new PostSlidesSaveAsRequest();
-// the presentation that is to be converted
-request.Name="Input_Presentation.pptx";
-// the export format for the PPTX file
-request.Format=ExportFormat.Jpeg;
+Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
 
-return request;
+```console
+composer require aspose/[PRODUCT_NAME]-cloud-php
 ```
 
-## Use C# to Replace Specific Text on the Selected PPTX Slide
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
 
-The following code sample demonstrates, how to replace a specific piece of text on the presentation slide of your choice using C# code:
+```php
+require __DIR__ . '/vendor/autoload.php';
+```
 
-```csharp
-PostSlidesSlideReplaceTextRequest request = new PostSlidesSlideReplaceTextRequest();
-// slide on which the text to be updated is present
-request.SlideIndex = 0;
-// name of the presentation that contains the text
-request.Name = "Input_Presentation.pptx";
-// text string that needs to be updated
-request.OldValue = "This text is going to be replaced.";
-// new text string that replaces the older value
-request.NewValue = "This text replaces the older text.";
-// the text manipulation is not case-sensitive
-request.IgnoreCase = true;
-return request;
+### Sample usage
+
+```php
 ```
 
 [Product Page](https://products.aspose.cloud/slides/net) | [Documentation](https://docs.aspose.cloud/display/slidescloud/Home) | [API Reference](https://apireference.aspose.cloud/slides/) | [Code Samples](https://github.com/aspose-slides-cloud/aspose-slides-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/slides/) | [Free Support](https://forum.aspose.cloud/c/slides) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

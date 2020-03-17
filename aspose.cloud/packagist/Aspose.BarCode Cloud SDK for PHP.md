@@ -1,6 +1,4 @@
-This cloud SDK assists you to seamlessly integrate barcode generation, processing & conversion functionality into your C#, ASP.NET & other .NET cloud apps.
-
-Generate new barcodes (Linear, 2D & Postal), configure barcode properties and attributes, such as, barcode height, dimensions, image format, and more. Scan existing barcodes belonging to 60+ symbologies, including, Codabar, PDF417, QR, MicroQR, EAN, Postnet, UPC, RM4SCC and many more.
+This cloud SDK assists you to seamlessly integrate barcode generation, processing & conversion functionality into your PHP cloud apps.
 
 ## BarCode Processing Features
 
@@ -26,45 +24,71 @@ EMF, SVG
 
 ## Supported Barcode Symbologies
 
-**Linear barcode symbologies**:
+**Linear barcode symbologies:**
 EAN13, EAN8, UPCA, UPCE, Interleaved2of5, Standard2of5, MSI, Code11, Codabar, EAN14(SCC14), SSCC18, ITF14, Matrix 2 of 5, PZN, Code128, Code39 Extended, Code39 Standard, Code93 Extended, Code16K, Code93 Standard, IATA 2 of 5, OPC, GS1Code128, ISBN, ISMN, ISSN, ITF6, VIN, Pharmacode, DatabarOmniDirectional, DatabarTruncated, DatabarLimited, DatabarExpanded, DatabarStackedOmniDirectional, DatabarExpandedStacked, DatabarStacked, PatchCode, Supplement (Decode only).
 
-**2D barcode symbologies**:
+**2D barcode symbologies:**
 PDF417, MacroPDF417, MicroPDF417, CompactPDF417 (Decode only), DataMatrix, Aztec, QR, MicroQR, DotCode, MaxiCode, Italian Post 25, GS1DataMatrix, Code16K.
 
-**Postal barcode symbologies**:
+**Postal barcode symbologie:s**
 Postnet, Planet, USPS OneCode, Australia Post, Deutsche Post Identcode, Deutsche Post Leticode, RM4SCC, SingaporePost, AustralianPosteParcel, SwissPostParcel, UpcaGs1DatabarCoupon.
 
 ## Platform Independence
 
 Aspose.BarCode Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started with Aspose.BarCode Cloud SDK for .NET
+## Getting Started with Aspose.BarCode Cloud SDK for PHP
 
-You do not need to install anything to get started with Aspose.BarCode Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.BarCode Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) (free registration of [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) is required for this).
 
-Simply execute `Install-Package Aspose.BarCode-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.BarCode Cloud assembly in your project. If you already have Aspose.BarCode Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.BarCode-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK
 
-## Using C# to Create a CodablockF Type Barcode
+You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/barcode-cloud-php) (recommended).
 
-The following code snippet demonstrates how to create a CodablockF barcode using C# code:
+## Installation via Composer
 
-```csharp
-// please get your APP_KEY and APP_SID signing in https://dashboard.aspose.cloud/#/apps
-BarcodeApi barcodeApi = new BarcodeApi(Common.APP_KEY, Common.APP_SID, Common.BASEPATH);
+Aspose.BarCode Cloud SDK for PHP is available on `Packagist` as the `barcode-cloud-php` package. Run the following command:
 
-string text = "(01)23456789012";
-string type = "codablockF";
-string format = "jpg";
-float? resolutionX = null;
-float? resolutionY = null;
-float? dimensionX = null;
-float? dimensionY = null;
-string enableChecksum = "";
-
-ResponseMessage apiResponse = barcodeApi.GetBarcodeGenerate(text, type, format, resolutionX, resolutionY, dimensionX, dimensionY, enableChecksum);
+```console
+composer require aspose/barcode-cloud-php
 ```
 
-[Product Page](https://products.aspose.cloud/barcode/net) | [Documentation](https://docs.aspose.cloud/display/barcodecloud/Home) | [API Reference](https://apireference.aspose.cloud/barcode/) | [Code Samples](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/barcode/) | [Free Support](https://forum.aspose.cloud/c/barcode) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
+
+```php
+require __DIR__ . '/vendor/autoload.php';
+```
+
+### Sample usage
+
+```php
+use Aspose\BarCode\Configuration;
+use Aspose\BarCode\BarCodeApi;
+use Aspose\BarCode\Requests\BarCodeGetBarCodeGenerateRequest;
+
+$config = new Configuration();
+$config->setAppKey("your_key");
+$config->setAppSid("your_sid");
+
+$request = new BarCodeGetBarCodeGenerateRequest();
+$request->type = "QR";
+$request->text = "PHP SDK Test";
+$request->format = "png";
+
+$api = new BarCodeApi(null, $config);
+$response = $api->BarCodeGetBarCodeGenerate($request);
+
+$type = 'image/png';
+$size = $response->getSize();
+header('Content-Type:'.$type);
+header('Content-Length: ' . $size);
+echo $response->fread($size);
+```
+
+## Licensing
+
+All Aspose.BarCode for Cloud SDKs, helper scripts and templates are licensed under [MIT License](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php/blob/HEAD/LICENSE).
+
+[Product Page](https://products.aspose.cloud/barcode/php) | [Documentation](https://docs.aspose.cloud/display/barcodecloud/Home) | [API Reference](https://apireference.aspose.cloud/barcode/) | [Code Samples](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) | [Blog](https://blog.aspose.cloud/category/barcode/) | [Free Support](https://forum.aspose.cloud/c/barcode) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

@@ -43,39 +43,45 @@ Aspose.Words Cloud’s platform independent document manipulation API is a true 
 
 ## Getting Started with Aspose.Words Cloud SDK for .NET
 
-You do not need to install anything to get started with Aspose.Words Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.[PRODUCT_NAME] Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Simply execute `Install-Package Aspose.Words-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Words assembly in your project. If you already have Aspose.Words Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.Words-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-[PRODUCT_NAME]-cloud/aspose-[PRODUCT_NAME]-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-words-cloud/aspose-words-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK
 
-## Use C# to Create a New MS Word DOCX Cloud Document
+You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/aspose-words-cloud) (recommended).
 
-The following C# code sample elaborates, how to programmatically create a new Microsoft Word DOCX document in the cloud:
+## Installation via Composer
 
-```csharp
-//Please get the AppKey and the AppSID from https://dashboard.aspose.cloud/
+Aspose.Words Cloud SDK for PHP is available on `Packagist` as the `aspose-words-cloud` package. Run the following command:
 
-var fileName = "NewDocument.docx";
-string folder = null; // File exists at the root of the storage
-
-var request = new PutCreateDocumentRequest { FileName = fileName, Folder = folder };
-
-var actual = wordsApi.PutCreateDocument(request);
+```console
+composer require aspose/aspose-words-cloud
 ```
 
-## Convert DOCX Document to PDF via C# Code
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
 
-The following code sample demonstrates, how to convert a DOCX cloud document from PDF using C# code:
-
-```csharp
-//Please get the AppKey and the AppSID from https://dashboard.aspose.cloud/
-
-var fileName = "input.docx";
-var format = "pdf";
-
-var request = new PutConvertDocumentRequest(File.OpenRead(@"c:\Data\" + fileName), format);
-var result = wordsApi.PutConvertDocument(request);
+```php
+require __DIR__ . '/vendor/autoload.php';
 ```
 
-[Product Page](https://products.aspose.cloud/words/net) | [Documentation](https://docs.aspose.cloud/display/wordscloud/Home) | [API Reference](https://apireference.aspose.cloud/words/) | [Code Samples](https://github.com/aspose-words-cloud/aspose-words-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/words/) | [Free Support](https://forum.aspose.cloud/c/words) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+### Sample usage
+
+```php
+$this->words = new WordsApi($creds["AppSid"], $creds["AppKey"], null);
+$upload_request = new Requests\UploadFileRequest($file, 'fileStoredInCloud.doc');
+$upload_result = $words->uploadFile($upload_request);
+$saveOptions = new SaveOptionsData(array("save_format" => "pdf", "file_name" => 'destination.pdf'));
+$request = new Requests\SaveAsRequest('fileStoredInCloud.doc', $saveOptions);
+$result = $words->saveAs($request);
+```
+
+## Samples
+
+[Tests](https://github.com/aspose-words-cloud/aspose-words-cloud-php/blob/HEAD/tests/Aspose/Words) contain various examples of using the SDK.
+
+## Licensing
+
+All Aspose.Words Cloud SDKs, helper scripts and templates are licensed under [MIT License](https://github.com/aspose-words-cloud/aspose-words-cloud-php/blob/master/LICENSE).
+
+[Product Page](https://products.aspose.cloud/words/php) | [Documentation](https://docs.aspose.cloud/display/wordscloud/Home) | [API Reference](https://apireference.aspose.cloud/words/) | [Code Samples](https://github.com/aspose-words-cloud/aspose-words-cloud-php) | [Blog](https://blog.aspose.cloud/category/words/) | [Free Support](https://forum.aspose.cloud/c/words) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

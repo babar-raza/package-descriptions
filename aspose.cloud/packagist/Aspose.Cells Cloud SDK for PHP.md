@@ -1,6 +1,6 @@
-# .NET REST API for Spreadsheet Processing in Cloud
+# PHP REST API for Spreadsheet Processing in Cloud
 
-This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to [process & manipulate Microsoft Excel spreadsheets](https://products.aspose.cloud/cells/net) in the cloud, without MS Office.
+This Cloud SDK enhances your PHP cloud-based apps to [process & manipulate Microsoft Excel spreadsheets](https://products.aspose.cloud/cells/php) in the cloud, without MS Office.
 
 ## Spreadsheet Processing Features
 
@@ -42,39 +42,49 @@ SXC, FODS
 
 Aspose.Cells Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started with Aspose.Cells Cloud SDK for .NET
+## Getting Started with Aspose.Cells Cloud SDK for PHP
 
-You do not need to install anything to get started with Aspose.Cells Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.Cells Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) (free registration of [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) is required for this). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
 
-Simply execute `Install-Package Aspose.Cells-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Cells assembly in your project. If you already have Aspose.Cells Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.Cells-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK
 
-## Using C# to Add a New Worksheet to an Excel File
+The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/cells-sdk-php) (recommended). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/cellscloud/Available+SDKs).
 
-The following code snippet demonstrates how to add a new worksheet to a Microsoft Excel document using C# code:
+## Installation via Composer
 
-```csharp
-CellsWorksheetsApi instance = new CellsWorksheetsApi(GetConfiguration());
-string name = "Input.xlsx";
-string sheetName = "Sheet1";
-int? position = 1;
-string sheettype = "VB";
-string folder = null;
-UpdateDataFile(folder, name);
-var response = instance.CellsWorksheetsPutAddNewWorksheet(name, sheetName, position, sheettype, folder);
+Aspose.Cells Cloud SDK for PHP is available on `Packagist` as the `cells-sdk-php` package. Run the following command:
+
+```console
+composer require aspose/cells-sdk-php
 ```
 
-## Using C# to Convert an Excel File to another File Format
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
 
-The following code example elaborates how you can use C# code to convert an Excel document to another file format in the cloud:
-
-```csharp
-// Upload source file to aspose cloud storage
-storageApi.PutCreate(inputfileName, "", "", System.IO.File.ReadAllBytes(Common.GetDataDir() + inputfileName));
-
-// Invoke Aspose.Cells Cloud SDK API to convert excel workbook to different format
-SaveResponse apiResponse = cellsApi.PostDocumentSaveAs(inputfileName, outputFileName, isAutoFitRows, isAutoFitColumns, storage, folder, body);
+```php
+require_once('vendor/autoload.php');
 ```
 
-[Product Page](https://products.aspose.cloud/cells/net) | [Documentation](https://docs.aspose.cloud/display/cellscloud/Home) | [API Reference](https://apireference.aspose.cloud/cells/) | [Code Samples](https://github.com/aspose-cells-cloud/aspose-cells-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/cells/) | [Free Support](https://forum.aspose.cloud/c/cells) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+## Sample usage
+
+```php
+$saveAsAPI = new CellsApi("appsid","appkey");
+$name ='Book1.xlsx';
+$saveOptions = null;
+$newfilename = "newbook.xlsx";
+$isAutoFitRows= 'true';
+$isAutoFitColumns= 'true';
+$folder = "Temp";
+$result = $saveAsAPI->cellsSaveAsPostDocumentSaveAs($name, $saveOptions, $newfilename,$isAutoFitRows, $isAutoFitColumns,$folder);
+```
+
+## Tests
+
+[Tests](https://github.com/aspose-cells-cloud/aspose-cells-cloud-php/tree/master/test/Api) contain various examples of using the SDK.
+
+## Licensing
+
+All Aspose.Cells Cloud SDKs are licensed under [MIT License](https://github.com/aspose-cells-cloud/aspose-cells-cloud-php/blob/master/LICENSE).
+
+[Product Page](https://products.aspose.cloud/cells/php) | [Documentation](https://docs.aspose.cloud/display/cellscloud/Home) | [API Reference](https://apireference.aspose.cloud/cells/) | [Code Samples](https://github.com/aspose-cells-cloud/aspose-cells-cloud-php) | [Blog](https://blog.aspose.cloud/category/cells/) | [Free Support](https://forum.aspose.cloud/c/cells) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

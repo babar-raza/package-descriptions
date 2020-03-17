@@ -42,57 +42,31 @@ Aspose.Tasks Cloud’s platform independent document manipulation API is a true 
 
 ## Getting Started with Aspose.Tasks Cloud SDK for .NET
 
-You do not need to install anything to get started with Aspose.Tasks Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.Tasks Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Simply execute `Install-Package Aspose.Tasks-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Tasks assembly in your project. If you already have Aspose.Tasks Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.Tasks-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-Tasks-cloud/aspose-Tass-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK
 
-## Use C# to Extract a Specific Task from Cloud MPP File
+You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/tasks-sdk-php) (recommended).
 
-The following C# code sample demonstrates, how to get Microsoft Project MPP file in the cloud and extract a specific task based on its UID:
+## Installation via Composer
 
-```csharp
-var remoteName = await UploadFileToStorageAsync("Input_Project_File.mpp");
+Aspose.Tasks Cloud SDK for PHP is available on `Packagist` as the `tasks-sdk-php` package. Run the following command:
 
-var tasksResponse = await TasksApi.GetTaskAsync(new GetTaskRequest
-    {
-        TaskUid = 5,
-        Name = remoteName,
-        Folder = this.DataFolder
-    });
-
-Assert.AreEqual((int)HttpStatusCode.OK, tasksResponse.Code);
-Assert.IsNotNull(tasksResponse.Task);
-Assert.AreEqual(5, tasksResponse.Task.Uid);
-CollectionAssert.AreEquivalent(new[] { 1, 2, 3, 4 }, tasksResponse.Task.SubtasksUids);
-Assert.AreEqual(new DateTime(2015, 8, 3, 8, 0, 0), tasksResponse.Task.Start);
-Assert.AreEqual(new DateTime(2015, 8, 6, 17, 0, 0), tasksResponse.Task.Finish);
-Assert.AreEqual(new TimeSpan(1, 8, 0, 0, 0), tasksResponse.Task.RemainingWork);
-Assert.AreEqual(1920, tasksResponse.Task.WorkVariance);
+```console
+composer require aspose/tasks-sdk-php
 ```
 
-## Generate Project Risk Analysis Report via C# Code
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
 
-The following code sample elaborates, how to fetch a cloud-based Microsoft Project MPP file and generate a Risk Analysis Report in the PDF format using C# code:
-
-```csharp
-var remoteName = await UploadFileToStorageAsync("Input_Project_File.mpp");
-var response = await TasksApi.GetRiskAnalysisReportAsync(new GetRiskAnalysisReportRequest()
-    {
-        DistributionType = ProbabilityDistributionType.Normal,
-        ConfidenceLevel = ConfidenceLevel.CL85,
-        Optimistic = 80,
-        Pessimistic = 130,
-        Iterations = 200,
-        TaskUid = 1,
-        Name = remoteName,
-        Folder = this.DataFolder
-    });
-Assert.IsTrue(response.Length > 0);
-var buffer = new byte[4];
-response.Read(buffer, 0, 4);
-Assert.AreEqual("%PDF", Encoding.ASCII.GetString(buffer));
+```php
+require __DIR__ . '/vendor/autoload.php';
 ```
 
-[Product Page](https://products.aspose.cloud/tasks/net) | [Documentation](https://docs.aspose.cloud/display/taskscloud/Home) | [API Reference](https://apireference.aspose.cloud/tasks/) | [Code Samples](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/tasks/) | [Free Support](https://forum.aspose.cloud/c/tasks) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+### Sample usage
+
+```php
+```
+
+[Product Page](https://products.aspose.cloud/tasks/php) | [Documentation](https://docs.aspose.cloud/display/taskscloud/Home) | [API Reference](https://apireference.aspose.cloud/tasks/) | [Code Samples](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-php) | [Blog](https://blog.aspose.cloud/category/tasks/) | [Free Support](https://forum.aspose.cloud/c/tasks) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

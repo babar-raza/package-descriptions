@@ -38,44 +38,31 @@ Aspose.PDF Cloud’s platform independent document manipulation API is a true RE
 
 ## Getting Started with Aspose.PDF Cloud SDK for .NET
 
-You do not need to install anything to get started with Aspose.PDF Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.[PRODUCT_NAME] Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Simply execute `Install-Package Aspose.PDF-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.PDF assembly in your project. If you already have Aspose.PDF Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.PDF-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-[PRODUCT_NAME]-cloud/aspose-[PRODUCT_NAME]-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK
 
-## Convert PDF File to DOC Format via C# Code
+You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
 
-The following code sample demonstrates how to convert a PDF file to DOC format using C# code via REST API:
+## Installation via Composer
 
-```csharp
-string name = "Input_Document.pdf";
-using (Stream stream = System.IO.File.OpenRead(Path.Combine("", name)))
-    {
-        string resFileName = "Output_Document.doc";
+Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
 
-        var response = api.PutPdfInRequestToDoc(Path.Combine(FolderName, resFileName), file: stream);
-        Console.WriteLine(response);
-    }
+```console
+composer require aspose/[PRODUCT_NAME]-cloud-php
 ```
 
-## Use C# Code to Optimize PDF Document
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
 
-The following C# code elaborates how to optimize various factors, such as, image compression & image quality, of a PDF document via REST API:
+```php
+require __DIR__ . '/vendor/autoload.php';
+```
 
-```csharp
-const string name = "Input_Document.pdf";
-UploadFile(name, name);
+### Sample usage
 
-var options = new OptimizeOptions(
-    AllowReusePageContent: false,
-    CompressImages: true,
-    ImageQuality: 100,
-    RemoveUnusedObjects: true,
-    RemoveUnusedStreams: true,
-    UnembedFonts: true);
-var response = api.PostOptimizeDocument(name, options, folder: FolderName);
-Console.WriteLine(response);
+```php
 ```
 
 [Product Page](https://products.aspose.cloud/pdf/net) | [Documentation](https://docs.aspose.cloud/display/pdfcloud/Home) | [API Reference](https://apireference.aspose.cloud/pdf/) | [Code Samples](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/pdf/) | [Free Support](https://forum.aspose.cloud/c/pdf) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

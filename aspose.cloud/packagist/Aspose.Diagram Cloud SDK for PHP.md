@@ -41,24 +41,37 @@ Aspose.Diagram Cloud’s platform independent document manipulation API is a tru
 
 ## Getting Started with Aspose.Diagram Cloud SDK for .NET
 
-You do not need to install anything to get started with Aspose.Diagram Cloud SDK for .NET. All you need to do is create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.BarCode Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Simply execute `Install-Package Aspose.Diagram-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Diagram assembly in your project. If you already have Aspose.Diagram Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.Diagram-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK
 
-## Using C# to Create a New VDX Format Diagram in the Cloud
+You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/aspose-words-cloud) (recommended).
 
-This code example demonstrates, how to create a new diagram of VDX format using C# code:
+## Installation via Composer
 
-```csharp
-DiagramFileApi instance = new DiagramFileApi(GetConfiguration());
+Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `aspose-words-cloud` package. Run the following command:
 
-string name = "New_Diagram.vdx";
-bool isOverwrite = true;
-string folder = null;
-
-var response = instance.DiagramFilePutCreate(name, folder, isOverwrite);
+```console
+composer require aspose/[PRODUCT_NAME]-cloud-php
 ```
 
-[Product Page](https://products.aspose.cloud/diagram/net) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
+
+```php
+require __DIR__ . '/vendor/autoload.php';
+```
+
+### Sample usage
+
+```php
+```
+
+## [CODE_HEADING]
+
+```php
+
+```
+
+[Product Page](https://products.aspose.cloud/diagram/php) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-php) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

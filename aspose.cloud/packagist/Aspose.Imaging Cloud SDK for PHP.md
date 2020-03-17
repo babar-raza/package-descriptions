@@ -34,29 +34,31 @@ Aspose.Imaging Cloud’s platform independent document manipulation API is a tru
 
 ## Getting Started with Aspose.Imaging Cloud SDK for .NET
 
-You do not need to install anything to get started with Aspose.Imaging Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.[PRODUCT_NAME] Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Simply execute `Install-Package Aspose.Imaging-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Imaging assembly in your project. If you already have Aspose.Imaging Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.Imaging-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-[PRODUCT_NAME]-cloud/aspose-[PRODUCT_NAME]-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK
 
-## Export an Image to PDF Format via C# Code
+You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
 
-This code sample demonstrates, how to convert an image to PDF format using C# code via REST API:
+## Installation via Composer
 
-```csharp
-string format = "pdf"; // specify the export output format
-string outPath = null; // Path to updated file (if this is empty, response contains streamed image)
-string storage = null; // Cloud Storage name
+Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
 
-var request = new CreateSavedImageAsRequest(inputImageStream, format, outPath, storage);
+```console
+composer require aspose/[PRODUCT_NAME]-cloud-php
+```
 
-Console.WriteLine($"Call CreateSavedImageAs with params: format:{format}");
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
 
-using (Stream updatedImage = this.ImagingApi.CreateSavedImageAs(request))
-    {
-        SaveUpdatedImageToOutput(updatedImage, true, format);
-    }
+```php
+require __DIR__ . '/vendor/autoload.php';
+```
+
+### Sample usage
+
+```php
 ```
 
 [Product Page](https://products.aspose.cloud/imaging/net) | [Documentation](https://docs.aspose.cloud/display/imagingcloud/Home) | [API Reference](https://apireference.aspose.cloud/imaging/) | [Code Samples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/imaging/) | [Free Support](https://forum.aspose.cloud/c/imaging) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

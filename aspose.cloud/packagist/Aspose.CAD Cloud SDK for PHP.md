@@ -1,6 +1,6 @@
-# AutoCAD File Processing .NET Cloud REST API
+# AutoCAD File Processing PHP Cloud REST API
 
-This Cloud SDK helps you perform [AutoCAD drawing conversion, processing & manipulation](https://products.aspose.cloud/cad/net) from within your C#, ASP.NET, & other .NET cloud apps without AutoCAD.
+This Cloud SDK helps you perform [AutoCAD drawing conversion, processing & manipulation](https://products.aspose.cloud/cad/php) from within your PHP cloud apps without AutoCAD.
 
 ## CAD Processing Features
 
@@ -28,47 +28,15 @@ DWG (13, 14, 2000, 2004), DWG (2010, 2013, 2014), DWG (2015, 2017, 2018), DWT (1
 
 Aspose.CAD Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started with Aspose.CAD Cloud SDK for .NET
+## Getting Started with Aspose.CAD Cloud SDK for PHP
 
-You do not need to install anything to get started with Aspose.CAD Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.CAD Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) (free registration of [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) is required for this).
 
-Simply execute `Install-Package Aspose.CAD-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.CAD assembly in your project. If you already have Aspose.CAD Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.CAD-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-cad-cloud/aspose-cad-cloud-dotnet) for other common usage scenarios.
+## [CODE_HEADING]
 
-## Using C# to Get Image Properties of a DXF File
-
-The following code sample demonstrates, how to retrieve image properties of a DXF file format drawing using C# code:
-
-```csharp
- CADApi cadApi = new CADApi(AppKey, AppSid);
-string fileName = "Input.dxf";
-
-// Upload document to Cloud Storage
-uploadFileToCloudStorage(fileName);
-
-var request = new GetImagePropertiesRequest(fileName, null, null);
-var properties = cadApi.GetImageProperties(request);
+```php
 ```
 
-## Using C# Convert DWG CAD drawing to PDF Format
-
-The following code snippet elaborates, how to convert a DWG file to PDF file format in the cloud using C# code:
-
-```csharp
-CADApi cadApi = new CADApi(AppKey, AppSid);
-string fileName = "Input.dwg";
-string formatToExport = "pdf";
-string destFileName = "Output.pdf";
-
-// Upload document to Cloud Storage
-uploadFileToCloudStorage(fileName);
-
-var request = new GetImageSaveAsRequest(fileName, formatToExport, null, null, null, null);
-var responseStream = cadApi.GetImageSaveAs(request);
-
-// Save the output file to disk
-saveFileToDisk(responseStream, destFileName);
-```
-
-[Product Page](https://products.aspose.cloud/cad/net) | [Documentation](https://docs.aspose.cloud/display/cadcloud/Home) | [API Reference](https://apireference.aspose.cloud/cad/) | [Code Samples](https://github.com/aspose-cad-cloud/aspose-cad-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/cad/) | [Free Support](https://forum.aspose.cloud/c/cad) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/cad/php) | [Documentation](https://docs.aspose.cloud/display/cadcloud/Home) | [API Reference](https://apireference.aspose.cloud/cad/) | [Code Samples](https://github.com/aspose-cad-cloud/aspose-cad-cloud-php) | [Blog](https://blog.aspose.cloud/category/cad/) | [Free Support](https://forum.aspose.cloud/c/cad) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

@@ -30,34 +30,31 @@ Aspose.OMR Cloud’s platform independent document manipulation API is a true RE
 
 ## Getting Started with Aspose.OMR Cloud SDK for .NET
 
-You do not need to install anything to get started with Aspose.OMR Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.[PRODUCT_NAME] Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Simply execute `Install-Package Aspose.OMR-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.OMR assembly in your project. If you already have Aspose.OMR Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.OMR-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-[PRODUCT_NAME]-cloud/aspose-[PRODUCT_NAME]-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-omr-cloud) for other common usage scenarios.
+## How to use the SDK
 
-## Use C# to Perform Optical Mark Recognition (OMR) on PNG Images
+You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
 
-The following code sample demonstrates, how to perform Optical Mark Recognition (OMR) operation on an PNG image file using C# code:
+## Installation via Composer
 
-```csharp
-// Please visit https://dashboard.aspose.cloud/#/apps to get your APIKEY & APPSID.
-StorageApi storageApi = new StorageApi(APIKEY, APPSID);
-OmrApi omrApi = new OmrApi(APIKEY, APPSID, BASEPATH);
+Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
 
-string name = "AnswerSheet.png";
+```console
+composer require aspose/[PRODUCT_NAME]-cloud-php
+```
 
-OMRFunctionParam param = new OMRFunctionParam();
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
 
-param.FunctionParam = packedTemplateJson;
+```php
+require __DIR__ . '/vendor/autoload.php';
+```
 
-string versionId = "";
-string storage = "";
-storageApi.PutCreate(name, versionId, storage, System.IO.File.ReadAllBytes(pathToTheImage + name));
+### Sample usage
 
-string folder = null;
-Com.Aspose.OMR.Model.OMRResponse response = omrApi.PostRunOmrTask(name, "CorrectTemplate", param, storage, folder);
-FileInfo[] resultFiles = response.Payload.Result.ResponseFiles;
+```php
 ```
 
 ## Limitations

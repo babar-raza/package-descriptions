@@ -40,34 +40,31 @@ Aspose.HTML Cloud’s platform independent document manipulation API is a true R
 
 ## Getting Started with Aspose.HTML Cloud SDK for .NET
 
-You do not need to install anything to get started with Aspose.HTML Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+This repository contains Aspose.BarCode Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Simply execute `Install-Package Aspose.HTML-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.HTML assembly in your project. If you already have Aspose.HTML Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.HTML-Cloud` to get the latest version.
+Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) for the source code and examples.
 
-Please check the [GitHub Repository](https://github.com/aspose-html-cloud/aspose-html-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK
 
-## Convert HTML Page to PDF based on its URL
+You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
 
-The following code sample demonstrates, how to programmatically fetch an HTML web page via its URL and convert it into a PDF file using C# code:
+## Installation via Composer
 
-```csharp
-string appSID = "xxxxxxxx";
-string appKey = "xxxxxxxx";
-string basePath = "https://api.aspose.cloud/v3.0";
+Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
 
-string sourceUrl = @"https://stallman.org/articles/anonymous-payments-thru-phones.html";
-
-Aspose.Html.Cloud.Sdk.Api.ConversionApi conversionApi = new Aspose.Html.Cloud.Sdk.Api.ConversionApi(appKey, appSID, basePath);
-var response = conversionApi.GetConvertDocumentToPdfByUrl(sourceUrl, 800, 1200);
+```console
+composer require aspose/[PRODUCT_NAME]-cloud-php
 ```
 
-## Extract all Images from a Web-based HTML Page using API
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
 
-The following C# code sample elaborates, how to programmatically extract all images of an HTML web page by providing its URL:
+```php
+require __DIR__ . '/vendor/autoload.php';
+```
 
-```csharp
-var url = @"http://www.sukidog.com/jpierre/strings/why.htm";
-Stream stream = DocumentApi.GetDocumentImagesByUrl(url);
+### Sample usage
+
+```php
 ```
 
 [Product Page](https://products.aspose.cloud/html/net) | [Documentation](https://docs.aspose.cloud/display/htmlcloud/Home) | [API Reference](https://apireference.aspose.cloud/html/) | [Code Samples](https://github.com/aspose-html-cloud/aspose-html-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/html/) | [Free Support](https://forum.aspose.cloud/c/html) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
