@@ -5,18 +5,32 @@ Python Cloud SDK wraps Aspose.OMR REST API so you could seamlessly integrate OMR
 ## OMR Features
 
 - Recognition of scanned photos of documents.
-- Perform OMR on rotated & perspective (within 25 deg) photos.
+- Perform OMR on rotated & perspective (within 25 deg.) photos.
 - Export OMR results to CSV file format.
 - Use textual markup to [generate OMR templates](https://docs.aspose.cloud/display/omrcloud/Template+generation).
 - Availability of [GUI OMR editor](https://docs.aspose.cloud/display/omrcloud/Creating+OMR+Template+and+Extracting+Data) as a cloud client.
 - Provide JSON rules to perform [OMR answer grading](https://docs.aspose.cloud/display/omrcloud/Answers+Grading).
 - Clip an area of interest from an image, save & perform OMR on it.
 
+## Enhancements in OMR.Kernel for SDK Version 19.2.0
+
+- Comprehensive and user-friendly messages on errors in `OMR.Kernel`.
+- Full `UTF8` support in `OMR.Kernel`.
+
+## Enhancements in GUI OMR Editor for SDK Version 19.2.0
+
+- Copy & Paste improvements:
+  - Improved positioning of pasted elements.
+  - Correct behavior of elements that are out of image bounds.
+- View fits width by default on image and template loading.
+
+For the detailed notes, please visit [Aspose.OMR Cloud 19.2 Release Notes](https://docs.aspose.cloud/display/omrcloud/Aspose.OMR+Cloud+19.2+Release+Notes).
+
 ## Save OMR Results As
 
 CSV
 
-## Read Formats to Peform OMR
+## Read Formats to Perform OMR
 
 JPEG, PNG, BMP, TIFF, PDF
 

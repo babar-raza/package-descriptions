@@ -22,7 +22,7 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/signature/) t
 - Specify font, color, alignment & other appearance settings for the signature.
 - Apply crop settings for the signature background.
 - Setting to repeat the signature string to fill the specified area.
-- Supports CryptoApi & XmlDsig methods of digital signatures.
+- Supports `CryptoApi` & `XmlDsig` methods of digital signatures.
 - Configure alignment of text string along the barcode type signature.
 - Support for various types of brushes to perform signature formatting.
 - Apply signature to password-protected documents.

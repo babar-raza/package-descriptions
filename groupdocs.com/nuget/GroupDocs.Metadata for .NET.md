@@ -20,13 +20,12 @@ This .NET API can be consumed to [integrate metadata viewer](https://products.gr
 - Traverse a whole metadata tree.
 - Work with the APEv2, ID3v1, ID3v2, Lyrics & other tags of MP3 metadata.
 
-## Enhancements in Version 20.1.0
+## New Features in Version 20.3.0
 
-- Support to obtain known property descriptors in the public API.
-- Support for an alternative way to extract metadata property values.
-- Add support for `.Net Standard 2.0`.
+- Ability to work with `EXIF` metadata in `PSD` images.
+- Ability to work with `XMP` metadata in `WEBP` images.
 
-For the detailed notes, please visit [GroupDocs.Metadata for .NET 20.1 Release Notes](https://docs.groupdocs.com/display/metadatanet/GroupDocs.Metadata+for+.NET+20.1+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Metadata for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/metadatanet/GroupDocs.Metadata+for+.NET+20.3+Release+Notes).
 
 ## Read & Write Metadata Formats
 

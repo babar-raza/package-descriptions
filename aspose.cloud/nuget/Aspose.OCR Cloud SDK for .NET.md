@@ -1,6 +1,6 @@
-This cloud SDK helps you perform optical character recognition (OCR) on various image formats using C#, ASP.NET or other .NET supported languages, in the cloud.
+# .NET Cloud REST API for OCR
 
-Aspose.OCR Cloud SDK for .NET is based on Aspose.OCR REST API and is available under an MIT license. Read character information of English, French & Spanish languages, and fetch the response in the XML and JSON formats. Provide X and Y coordinates of a specific section of the image to perform OCR operation on that particular section for text extraction.
+This cloud SDK helps you [perform optical character recognition (OCR)](https://products.aspose.cloud/ocr/net) on various image formats using C#, ASP.NET or other .NET supported languages, in the cloud.
 
 ## OCR Processing Features
 

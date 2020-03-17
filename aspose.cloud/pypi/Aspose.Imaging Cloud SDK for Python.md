@@ -2,7 +2,7 @@ Python Cloud SDK wraps Aspose.Imaging REST API so you could seamlessly integrate
 
 # Create, Manipulate & Convert Images in the Cloud
 
-[Aspose.Imaging Cloud](https://products.aspose.cloud/imaging) is a true [REST API](https://apireference.aspose.cloud/imaging/) that enables you to perform a wide range of image processing operations including creation, manipulation and conversion in the cloud, with zero initial cost. 
+[Aspose.Imaging Cloud](https://products.aspose.cloud/imaging) is a true [REST API](https://apireference.aspose.cloud/imaging/) that enables you to perform a wide range of image processing operations including creation, manipulation and conversion in the cloud, with zero initial cost.
 
 ## Image Processing Features
 
@@ -13,11 +13,17 @@ Python Cloud SDK wraps Aspose.Imaging REST API so you could seamlessly integrate
 - Access multi-frame TIFF image and extract the desired frames.
 - Merge multiple TIFF images.
 - Imaging AI operations:
-	- Content-based image search
-	- Image duplicates search
-	- Image search by custom registered tags
-	- Image comparison and similarity detection
-	- Image features extraction (for now, AKAZE detector is supported)
+  - Content-based image search
+  - Image duplicates search
+  - Image search by custom registered tags
+  - Image comparison and similarity detection
+  - Image features extraction (for now, AKAZE detector is supported)
+
+## New Features in Version 20.2.0
+
+- Added image grayscale feature.
+
+For the detailed notes, please visit [Aspose.Imaging Cloud 20.2 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.2+-+Release+Notes).
 
 ## Read & Write Image Formats
 
@@ -32,6 +38,7 @@ PDF
 DJVU, DICOM, CDR, CMX, ODG, DNG
 
 ## Storage API Support
+
 Since version 19.4, SDK includes support of storage operations for better user experience and unification, so now there's no need to use 2 different SDKs!
 
 It gives the ability to:

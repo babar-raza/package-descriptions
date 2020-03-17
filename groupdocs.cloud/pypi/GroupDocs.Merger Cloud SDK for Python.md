@@ -1,6 +1,6 @@
 Python Cloud SDK wraps GroupDocs.Merger Cloud API so you could seamlessly integrate Document Joining features into your own Python apps.
 
-[GroupDocs.Merger Cloud SDK for Python](https://products.groupdocs.cloud/merger/python) helps developers implement document merging for over 35 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe & markup file formats, and merge documents. 
+[GroupDocs.Merger Cloud SDK for Python](https://products.groupdocs.cloud/merger/python) helps developers implement document merging for over 35 file formats from diverse categories. It allows to load Microsoft Office®, OpenOffice, Adobe & markup file formats, and merge documents.
 
 Check out the [API Reference](https://apireference.groupdocs.cloud/merger/) to know all about the GroupDocs.Merger REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
 

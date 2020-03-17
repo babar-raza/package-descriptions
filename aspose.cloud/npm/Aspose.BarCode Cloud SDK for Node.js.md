@@ -1,6 +1,7 @@
 Node.js Cloud SDK wraps Aspose.BarCode Cloud API so you could seamlessly integrate Barcode Generation & Recognition features into your own Node.js apps.
 
 # Barcode Generation & Recognition in the Cloud
+
 [Aspose.BarCode Cloud SDK for Node.js](https://products.aspose.cloud/barcode/nodejs) helps you generate barcodes (Linear, 2D & Postal), configure barcode properties and attributes, such as, barcode height, dimensions, image format, and more. Scan existing barcodes from 60+ symbologies, including, Codabar, PDF417, QR, MicroQR, EAN, Postnet, UPC, RM4SCC and many more.
 
 ## Barcode Read & Write Features
@@ -58,6 +59,7 @@ api.barCodeGetBarCodeGenerate("Aspose.BarCode for Cloud Sample", "Pdf417", "png"
 ```
 
 ## Send Barcode Image in Request for Scanning via Node.js
+
 ```js
 var config = {'appSid':AppSID,'apiKey':AppKey , 'debug' : true};
 var storageApi = new StorageApi(config);
@@ -67,8 +69,8 @@ var name = "template.jpeg";
 storageApi.PutCreate(name  , null, null, data_path + name  , function(responseMessage) 
 {
 	barcodeApi.PostBarcodeRecognizeFromUrlorContent(null, null, null, null, null, data_path + name, function(responseMessage) 
-	{		
-		responseMessage.body.Barcodes.forEach(function(barcode) 
+	{
+		responseMessage.body.Barcodes.forEach(function(barcode)
 		{
 			console.log("Type :: " + barcode.BarcodeType);
 			console.log("Codetext :: " + barcode.BarcodeValue);

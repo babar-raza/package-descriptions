@@ -9,18 +9,27 @@ Python Cloud SDK wraps Aspose.Email REST API so you could seamlessly integrate M
 - Add or extract attachments to & from email messages.
 - Process iCalendar, MAPI & VCard file types.
 - Supports AI functionalities:
-	- Business card recognition.
-	- Parse and handle personal names.
+  - Business card recognition.
+  - Parse and handle personal names.
+
+## New Features in Version 20.3.0
+
+- Ability to determine whether an email address is disposable or not.
+- Ability to create virtual multi-account to search, fetch and delete messages from several accounts at the same time.
+
+For the detailed notes, please visit [Aspose.Email Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/emailcloud/Aspose.Email+Cloud+20.3+Release+Notes).
 
 ## Read & Write
+
 **Email:** MSG, EML
 **Web:** HTML, MHTML
 
 ## Getting Started with Aspose.Email Cloud SDK for Node.js
 
-Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `pip install aspose-email-cloud` from the command line to install Aspose.Email Cloud SDK for Python via PIP. 
+Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `pip install aspose-email-cloud` from the command line to install Aspose.Email Cloud SDK for Python via PIP.
 
-### Initialize EmailApi
+### Initialize `EmailApi`
+
 ```python
 from AsposeEmailCloudSdk import api #EmailApi class is here
 from AsposeEmailCloudSdk import models #REST API models are here
@@ -103,7 +112,9 @@ except ApiException as ex:
 ```
 
 ## Getting Started with Business Card API
-The following are a few common usacases. Read more about the [Business Card API](https://docs.aspose.cloud/display/emailcloud/Working+with+Contact+Cards).
+
+The following are a few common use-cases. Read more about the [Business Card API](https://docs.aspose.cloud/display/emailcloud/Working+with+Contact+Cards).
+
 ### Parse Business Card Images to VCard File with Python
 
 ```python
@@ -152,7 +163,8 @@ for prop in primitives:
     print('Property name: ' + prop.name + ' value: ' + prop.value)
 ```
 
-### Parse VCard Images without using Storage
+### Parse `VCard` Images without using Storage
+
 ```python
 # Read image from file and convert it to Base64 string
 image_file = 'some/business/card/image/file/on/disk.png'
@@ -173,7 +185,9 @@ for prop in primitives:
 ```
 
 ## Getting Started with the Name API
-The following are a few common usacases. Read more about the [Name API](https://docs.aspose.cloud/display/emailcloud/Working+with+Name+API).
+
+The following are a few common use-cases. Read more about the [Name API](https://docs.aspose.cloud/display/emailcloud/Working+with+Name+API).
+
 ### Detect Person's Gender from Name
 
 ```python
@@ -184,7 +198,9 @@ result = email_api.ai_name_genderize(
 # which will be the first in a list:
 print(result.value[0].gender) # prints 'Male'
 ```
+
 ### Expand Person's Name into a List of Alternatives
+
 ```python
 name = 'Smith Bobby'
 result = email_api.ai_name_expand(
@@ -193,6 +209,5 @@ expanded_names = list(weighted.name for weighted in result.names)
 for (expanded_name in expanded_names):
     print expanded_name # prints 'Mr. Smith', 'B. Smith', etc.
 ```
-
 
 [Product Page](https://products.aspose.cloud/email/python) | [Documentation](https://docs.aspose.cloud/display/emailcloud/Home) | [API Reference](https://apireference.aspose.cloud/email/) | [Code Samples](https://github.com/aspose-email-cloud/aspose-email-cloud-python) | [Blog](https://blog.aspose.cloud/category/email/) | [Free Support](https://forum.aspose.cloud/c/email) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

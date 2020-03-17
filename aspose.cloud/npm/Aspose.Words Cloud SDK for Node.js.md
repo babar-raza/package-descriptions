@@ -16,6 +16,14 @@ Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/w
 - Add & remove watermarks and protection.
 - Read & write access to Document Object Model.
 
+## Enhancements in Version 20.1
+
+- Moved property `ColorMode` from `SaveOptionsData` to `FixedPageSaveOptionsData`.
+- Replaced `MemoryStream` and `byte[]` with `SixLabors.ImageSharp.IImage` for image processing.
+- Included support of `ICC` profiles and implement `ICCBased` color space.
+
+For the detailed notes, please visit [Aspose.Words Cloud 20.1 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.1+Release+Notes).
+
 ## Read & Write Document Formats
 
 **Microsoft Word:** DOC, DOCX, RTF, DOT, DOTX, DOTM, FlatOPC (XML)

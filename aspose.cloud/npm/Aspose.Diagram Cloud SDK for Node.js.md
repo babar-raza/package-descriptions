@@ -10,8 +10,15 @@ Node.js Cloud SDK wraps Aspose.Diagram REST API so you could seamlessly integrat
 - Export Visio files to raster images, fixed-layout and HTML formats.
 - Upload your business oriented Visio diagrams to cloud storage.
 
-please refer to [Developer's Guide](https://docs.aspose.cloud/display/diagramcloud/Developer+Guide) to see what else you can achieve.
+Please refer to [Developer's Guide](https://docs.aspose.cloud/display/diagramcloud/Developer+Guide) to see what else you can achieve.
 
+## New Features in Version 19.10
+
+- Added `SaveOption` parameter for `saveAs` API.
+- Added support for multiple files exports that convert files to `HTML`.
+- Integrated `Aspose.Storage Cloud` feature into `Aspose.Diagram Cloud`.
+
+For the detailed notes, please visit [Aspose.Diagram Cloud 19.10 Release Notes](https://docs.aspose.cloud/display/diagramcloud/Aspose.Diagram+Cloud+19.10+Release+Notes).
 
 ## Read & Write Visio File Formats
 
@@ -29,12 +36,14 @@ please refer to [Developer's Guide](https://docs.aspose.cloud/display/diagramclo
 **Microsoft Visio:** VDW, VSD, VSS, VST
 
 ## Integrated Storage API
+
 Since version 19.10, SDK includes support of storage operations for better user experience and unification, so now there's no need to use 2 different SDKs!
 
 It gives you an ability to:
+
 - Upload, download, copy, move and delete files, including versions handling (if you are using Cloud storage that supports this feature - true by default).
 - Create, copy, move and delete folders.
-- Copy and move files and folders accross separate storages in scope of a single operation.
+- Copy and move files and folders across separate storages in scope of a single operation.
 - Check if certain file, folder or storage exists.
 
 ## Getting Started with Aspose.Digram Cloud SDK for Node.js
@@ -66,11 +75,12 @@ diagramFileApi.diagramFilePutCreate(req).then((result) => {
 ```
 
 ## Convert Visio to PDF in the Cloud via Node.js
+
 ```js
 const { DiagramFileApi, DiagramFile_PostSaveAsRequest, FileFormatRequest } = require("asposediagramcloud");
 
-var AppSid = "" 
-var AppKey = "" 
+var AppSid = ""
+var AppKey = ""
 
 diagramFileApi = new DiagramFileApi(AppSid, AppKey);
 
