@@ -1,6 +1,6 @@
-# .NET Cloud REST API for Visio Processing
+# PHP Cloud REST API for Visio Processing
 
-This cloud SDK enables your C#, ASP.NET & other .NET cloud apps to [create & process Visio diagrams](https://products.aspose.cloud/diagram/net) from within your apps without installing Microsoft Visio.
+This cloud SDK enables your PHP cloud apps to [create & process Visio diagrams](https://products.aspose.cloud/diagram/net) from within your apps without installing Microsoft Visio.
 
 ## Visio Processing Features
 

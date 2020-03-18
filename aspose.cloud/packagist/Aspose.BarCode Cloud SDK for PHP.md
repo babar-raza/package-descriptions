@@ -1,3 +1,5 @@
+# PHP Rest API for Barcode Manipulation in Cloud
+
 This cloud SDK assists you to seamlessly integrate barcode generation, processing & conversion functionality into your PHP cloud apps.
 
 ## BarCode Processing Features
@@ -30,7 +32,7 @@ EAN13, EAN8, UPCA, UPCE, Interleaved2of5, Standard2of5, MSI, Code11, Codabar, EA
 **2D barcode symbologies:**
 PDF417, MacroPDF417, MicroPDF417, CompactPDF417 (Decode only), DataMatrix, Aztec, QR, MicroQR, DotCode, MaxiCode, Italian Post 25, GS1DataMatrix, Code16K.
 
-**Postal barcode symbologie:s**
+**Postal barcode symbologies:**
 Postnet, Planet, USPS OneCode, Australia Post, Deutsche Post Identcode, Deutsche Post Leticode, RM4SCC, SingaporePost, AustralianPosteParcel, SwissPostParcel, UpcaGs1DatabarCoupon.
 
 ## Platform Independence

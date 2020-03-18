@@ -1,6 +1,6 @@
-# Image Processing in Cloud via .NET REST API
+# Image Processing in Cloud via PHP REST API
 
-This cloud SDK assists to [process & manipulate images](https://products.aspose.cloud/imaging/net) from within your C#, ASP.NET & other .NET based cloud applications, without installing any 3rd party tool.
+This cloud SDK assists to [process & manipulate images](https://products.aspose.cloud/imaging/net) from within your PHP based cloud applications, without installing any 3rd party tool.
 
 ## Image Processing Features
 
@@ -32,33 +32,33 @@ DJVU, DICOM, CDR, CMX, ODG, DNG
 
 Aspose.Imaging Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started with Aspose.Imaging Cloud SDK for .NET
+## Getting Started with Aspose.Imaging Cloud SDK for PHP
 
-This repository contains Aspose.[PRODUCT_NAME] Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
+- Sign Up. Before you begin, you need to sign up for an account on our [Dashboard](https://dashboard.aspose.cloud/) and retrieve your [credentials](https://dashboard.aspose.cloud/#/apps).
+- Minimum requirements. This SDK requires [PHP 5.6 or later](https://www.php.net/releases/).
+- Install Aspose.Imaging Cloud PHP SDK. Please, add the following [Packagist distribution](https://packagist.org/packages/aspose/aspose-imaging-cloud) to your project.
 
-Please check the [GitHub Repository](https://github.com/aspose-[PRODUCT_NAME]-cloud/aspose-[PRODUCT_NAME]-cloud-php) for the source code and examples.
-
-## How to use the SDK
-
-You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
-
-## Installation via Composer
-
-Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
-
-```console
-composer require aspose/[PRODUCT_NAME]-cloud-php
-```
-
-To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
+Please, add the following to your `composer.json` as a dependency.
 
 ```php
-require __DIR__ . '/vendor/autoload.php';
+{
+    "require": {
+        "aspose/aspose-imaging-cloud": ">=20.2"
+    }
+}
 ```
 
-### Sample usage
+Import the dependencies to your code as follows.
 
 ```php
+use \Aspose\Imaging\ImagingApi;
+use \Aspose\Imaging\Configuration;
+use \Aspose\Imaging\Model;
+use \Aspose\Imaging\Model\Requests;
 ```
+
+## Licensing
+
+All Aspose.Imaging Cloud SDKs, helper scripts and templates are licensed under [MIT License](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-php/blob/HEAD/LICENSE).
 
 [Product Page](https://products.aspose.cloud/imaging/net) | [Documentation](https://docs.aspose.cloud/display/imagingcloud/Home) | [API Reference](https://apireference.aspose.cloud/imaging/) | [Code Samples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/imaging/) | [Free Support](https://forum.aspose.cloud/c/imaging) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

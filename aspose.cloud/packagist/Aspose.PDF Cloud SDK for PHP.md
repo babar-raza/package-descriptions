@@ -1,6 +1,6 @@
-# .NET REST API to Process PDF in Cloud
+# PHP REST API to Process PDF in Cloud
 
-This Cloud SDK allows you to [easily build cloud-based PDF creator](https://products.aspose.cloud/pdf/net), editor & converter apps in C#, ASP.NET or other .NET languages for various cloud platforms.
+This Cloud SDK allows you to [easily build cloud-based PDF creator](https://products.aspose.cloud/pdf/net), editor & converter apps in PHP language for various cloud platforms.
 
 ## PDF Processing Features
 
@@ -36,33 +36,74 @@ MHT, PCL, PS, XSLFO, MD
 
 Aspose.PDF Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started with Aspose.PDF Cloud SDK for .NET
+## Getting Started with Aspose.PDF Cloud SDK for PHP
 
-This repository contains Aspose.[PRODUCT_NAME] Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
+This repository contains Aspose.PDF Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Please check the [GitHub Repository](https://github.com/aspose-[PRODUCT_NAME]-cloud/aspose-[PRODUCT_NAME]-cloud-php) for the source code and examples.
+Please check the [GitHub Repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php) for the source code and examples.
 
 ## How to use the SDK
 
-You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
+You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/pdf-sdk-php) (recommended).
 
-## Installation via Composer
+## Requirements
 
-Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
+- PHP 5.4.0 and later
+
+## Unit Tests
+
+Aspose PDF SDK includes a suite of unit tests within the "tests" subdirectory. These Unit Tests also serves as examples of how to use the Aspose PDF SDK.
+
+To run the unit tests:
 
 ```console
-composer require aspose/[PRODUCT_NAME]-cloud-php
+composer install
+./vendor/bin/phpunit
 ```
 
-To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
+## Usage
+
+APIs of this SDK can be called as follows:
 
 ```php
-require __DIR__ . '/vendor/autoload.php';
+<?php
+use Aspose\PDF\Api\PdfApi;
+use Aspose\PDF\Configuration;
+
+class PdfApiUsage
+{
+
+    protected $pdfApi;
+    protected $tempFolder;
+    protected $config;
+
+    protected function setUp()
+    {
+        // Get App key and App SID from https://cloud.aspose.com
+        $appSid = '';
+        $appKey = '';
+
+        $this->tempFolder = 'TempPdfCloud';
+
+        $this->config = new Configuration();
+        $this->config->setAppKey($appKey);
+        $this->config->setAppSid($appSid);
+
+        $this->pdfApi = new PdfApi(null, $this->config);
+    }
+
+    public function testGetPageAnnotations()
+    {
+        $name = 'PdfWithAnnotations.pdf';
+        $pageNumber = 2;
+
+        $response = $this->pdfApi->getPageAnnotations($name, $pageNumber, null, $this->tempFolder);
+    }
+}
 ```
 
-### Sample usage
+## Licensing
 
-```php
-```
+All Aspose.PDF Cloud SDKs are licensed under [MIT License](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-php/blob/HEAD/LICENSE).
 
 [Product Page](https://products.aspose.cloud/pdf/net) | [Documentation](https://docs.aspose.cloud/display/pdfcloud/Home) | [API Reference](https://apireference.aspose.cloud/pdf/) | [Code Samples](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/pdf/) | [Free Support](https://forum.aspose.cloud/c/pdf) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

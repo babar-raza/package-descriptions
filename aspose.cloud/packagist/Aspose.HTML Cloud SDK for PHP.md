@@ -1,6 +1,6 @@
-# HTML Rendering & Conversion .NET Cloud REST API
+# HTML Rendering & Conversion PHP Cloud REST API
 
-This cloud SDK assists to develop cloud-based [HTML page rendering, processing, translation & conversion](https://products.aspose.cloud/html/net) apps in C#, ASP.NET & other .NET languages via REST API.
+This cloud SDK assists to develop cloud-based [HTML page rendering, processing, translation & conversion](https://products.aspose.cloud/html/net) apps in PHP language via REST API.
 
 ## HTML Processing Features
 
@@ -31,6 +31,7 @@ HTML, XHTML, zipped HTML, zipped XHTML, MHTML, HTML containing SVG markup, Markd
 **Other:** TXT, ZIP (images)
 
 ## Read HTML Formats
+
 **eBook:** EPUB
 **Other:** XML, SVG
 
@@ -38,7 +39,7 @@ HTML, XHTML, zipped HTML, zipped XHTML, MHTML, HTML containing SVG markup, Markd
 
 Aspose.HTML Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started with Aspose.HTML Cloud SDK for .NET
+## Getting Started with Aspose.HTML Cloud SDK for PHP
 
 This repository contains Aspose.BarCode Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
@@ -46,25 +47,116 @@ Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/asp
 
 ## How to use the SDK
 
-You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
+You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/aspose-html-cloud-php) (recommended).
 
 ## Installation via Composer
 
-Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
+To install the bindings via [Composer](http://getcomposer.org/), add the following to `composer.json`:
+
+```php
+{
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/aspose-html-cloud/aspose-html-cloud-php.git"
+    }
+  ],
+  "require": {
+    "aspose/aspose-html-cloud-php": "dev-master"
+  }
+}
+```
+
+Then run `composer install`.
+
+## Manual Installation
+
+Download the files and include `autoload.php`:
 
 ```console
-composer require aspose/[PRODUCT_NAME]-cloud-php
+require_once('/path/to/aspose-html-cloud-php/vendor/autoload.php');
 ```
 
-To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
+## Usage Example
+
+Pass configuration to constructor (see in tests - BaseTest.php)
 
 ```php
-require __DIR__ . '/vendor/autoload.php';
+$conf = array(
+  "basePath" => "https://api.aspose.cloud/v3.0",
+  "authPath" => "https://api.aspose.cloud/connect/token",
+  "apiKey" => "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "appSID" => "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+  "testResult" => "\\testresult\\",
+  "testData" => "\\testdata\\",
+  "remoteFolder" => "HtmlTestDoc",
+  "defaultUserAgent" => "Webkit",
+  "debugFile" => "php://output",
+  "debug" => false
+);
+
+self::$api_html = new HtmlApi($configuration);
+self::$api_stor = new StorageApi($configuration);
+
+// optional for test
+self::$testFolder = realpath(__DIR__ . '/../..') . $configuration['testData'];
+self::$testResult = realpath(__DIR__ . '/../..') . $configuration['testResult'];
 ```
 
-### Sample usage
+### Note: do not forget to add in `php.ini`
 
 ```php
+...
+extension=php_openssl.dll
+...
+upload_max_filesize = 200M ; or 0 - unlimited
+...
+max_execution_time = 0 ; unlimited
+...
+default_socket_timeout = 3600 ; for long time operations
+```
+
+Please follow the [installation procedure](https://packagist.org/packages/aspose/aspose-html-cloud-php#user-content-installation--usage) and then run the following:
+
+```php
+<?php
+require_once(__DIR__ . '/vendor/autoload.php');
+
+$conf = array(
+  "basePath" => "https://api.aspose.cloud/v3.0",
+  "authPath" => "https://api.aspose.cloud/connect/token",
+  "apiKey" => "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  "appSID" => "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+  "testResult" => "\\testresult\\",
+  "testData" => "\\testdata\\",
+  "remoteFolder" => "HtmlTestDoc",
+  "defaultUserAgent" => "Webkit",
+  "debugFile" => "php://output",
+  "debug" => false
+);
+
+$apiInstance = new Client\Invoker\Api\HtmlApi($conf);
+
+$name = "name_example"; // string | Document name.
+$out_format = "png"; // string | Resulting image format.
+$width = 800; // int | Resulting image width.
+$height = 1000; // int | Resulting image height.
+$left_margin = 10; // int | Left resulting image margin.
+$right_margin = 10; // int | Right resulting image margin.
+$top_margin = 10; // int | Top resulting image margin.
+$bottom_margin = 10; // int | Bottom resulting image margin.
+$resolution = 300; // int | Resolution of resulting image.
+$folder = "folder_example"; // string | The source document folder.
+$storage = "storage_example"; // string | The source document storage.
+
+try {
+    $result = $apiInstance->getConvertDocumentToImage($name, $out_format, $width, $height, $left_margin, $right_margin, $top_margin, $bottom_margin, $resolution, $folder, $storage);
+    print_r($result);
+} catch (Exception $e) {
+    echo 'Exception when calling HtmlApi->getConvertDocumentToImage: ', $e->getMessage(), PHP_EOL;
+}
+
+?>
 ```
 
 [Product Page](https://products.aspose.cloud/html/net) | [Documentation](https://docs.aspose.cloud/display/htmlcloud/Home) | [API Reference](https://apireference.aspose.cloud/html/) | [Code Samples](https://github.com/aspose-html-cloud/aspose-html-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/html/) | [Free Support](https://forum.aspose.cloud/c/html) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

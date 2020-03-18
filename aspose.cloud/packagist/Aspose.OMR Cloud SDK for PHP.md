@@ -1,6 +1,6 @@
-# .NET REST API for OMR Processing
+# PHP REST API for OMR Processing
 
-This Cloud SDK enables you to [perform Optical Mark Recognition (OMR)](https://products.aspose.cloud/omr/net) operations on human-marked data from within your cloud-based C#, ASP.NET & other .NET apps.
+This Cloud SDK enables you to [perform Optical Mark Recognition (OMR)](https://products.aspose.cloud/omr/net) operations on human-marked data from within your cloud-based PHP apps.
 
 ## OMR Processing Features
 
@@ -28,33 +28,75 @@ JPEG, PNG, BMP, TIFF, PDF
 
 Aspose.OMR Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started with Aspose.OMR Cloud SDK for .NET
+## Getting Started with Aspose.OMR Cloud SDK for PHP
 
-This repository contains Aspose.[PRODUCT_NAME] Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
+This repository contains Aspose.OMR Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Please check the [GitHub Repository](https://github.com/aspose-[PRODUCT_NAME]-cloud/aspose-[PRODUCT_NAME]-cloud-php) for the source code and examples.
+Please check the [GitHub Repository](https://github.com/aspose-omr-cloud/aspose-omr-cloud-php) for the source code and examples.
 
 ## How to use the SDK
 
-You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
+You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/aspose-omr-cloud) (recommended).
 
-## Installation via Composer
+## Requirements
 
-Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
+- PHP 5.6 and later
+
+## PHP 5.6/Windows
+
+- Please make sure that local repository path and all paths of all required packages do not exceed maximum length of a path (usually 255 symbols).
+- Aspose.OMR for Cloud use Guzzle library to perform REST requests. Guzzle framework uses cURL (`libcurl`) as transport library. On windows platform you can face problems with accessing https resources depending on `libcurl` version you are using.
+  - If you are using `libcurl` built with `OpenSSL`, you need to download CA Certificates and update your `php.ini`:
+
+    ```php
+    ....
+    [curl]
+    curl.cainfo="<full path to cacert.pem file>"
+    [openssl]
+    openssl.cafile="<full path to cacert.pem file>"
+    ...
+    ```
+  
+  - If you are using `libcurl` built with WinSSL, you are ready to go because `WinSSL` uses windows certificates store
+
+`OpenSSL` and `WinSSL` based `libcurl` versions can be downloaded from [here](https://curl.haxx.se/gknw.net/7.40.0/). Just choose your platform (x86 or x64) and `OpenSSL` (look for `ssl` string in the file name) or `WinSSL` (look for `winssl` string in the file name)
+
+## Installation
+
+### Clone repository
+
+Clone `aspose-omr-cloud` with submodules:
 
 ```console
-composer require aspose/[PRODUCT_NAME]-cloud-php
+git clone https://github.com/aspose-omr-cloud/aspose-omr-cloud-php.git --recurse-submodules
 ```
 
-To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
+### Composer
+
+To install the bindings via Composer, add the following to `composer.json`:
 
 ```php
-require __DIR__ . '/vendor/autoload.php';
+{
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/aspose-omr-cloud/aspose-omr-cloud-php.git"
+    }
+  ],
+  "require": {
+    "aspose/aspose-omr-cloud": "*@dev"
+  }
+}
 ```
 
-### Sample usage
+Then run `composer install`.
 
-```php
+### Manual Installation
+
+Download the files and include `autoload.php`:
+
+```console
+require_once('/path/to/Aspose.OMR for Cloud/vendor/autoload.php');
 ```
 
 ## Limitations

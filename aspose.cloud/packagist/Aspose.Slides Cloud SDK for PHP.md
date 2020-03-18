@@ -1,6 +1,6 @@
-# .NET REST API to Process Presentation in Cloud
+# PHP REST API to Process Presentation in Cloud
 
-This REST API enables your C#, ASP.NET & other .NET cloud-based apps to [process & manipulate PPT, PPTX, ODP, OTP presentations](https://products.aspose.cloud/slides/net) in the cloud.
+This REST API enables your PHP cloud-based apps to [process & manipulate PPT, PPTX, ODP, OTP presentations](https://products.aspose.cloud/slides/net) in the cloud.
 
 ## Presentation Processing Features
 
@@ -33,33 +33,41 @@ For the detailed notes, please visit [Aspose.Slides Cloud 20.2 Release Notes](ht
 
 Aspose.Slides Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started with Aspose.Slides Cloud SDK for .NET
+## Getting Started with Aspose.Slides Cloud SDK for PHP
 
-This repository contains Aspose.[PRODUCT_NAME] Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
+This repository contains Aspose.Slides Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Please check the [GitHub Repository](https://github.com/aspose-[PRODUCT_NAME]-cloud/aspose-[PRODUCT_NAME]-cloud-php) for the source code and examples.
+Please check the [GitHub Repository](https://github.com/aspose-slides-cloud/aspose-slides-cloud-php) for the source code and examples.
 
 ## How to use the SDK
 
-You can either directly use it in your project via source code or get [Packagist distribution]() (recommended).
+You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/slides-sdk-php) (recommended).
 
-## Installation via Composer
+## Installation
 
-Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `[PRODUCT_NAME]-cloud-php` package. Run the following command:
+From the command line:
 
 ```console
-composer require aspose/[PRODUCT_NAME]-cloud-php
+composer require aspose/slides-sdk-php
 ```
 
-To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
+## Sample usage
+
+The example code below converts a PowerPoint document to PDF format using `slides-sdk-php` library:
 
 ```php
-require __DIR__ . '/vendor/autoload.php';
-```
+use Aspose\Slides\Cloud\Sdk\Api\Configuration;
+use Aspose\Slides\Cloud\Sdk\Api\SlidesApi;
+use Aspose\Slides\Cloud\Sdk\Model\ExportFormat;
+use Aspose\Slides\Cloud\Sdk\Model\Requests\PostSlidesConvertRequest;
 
-### Sample usage
-
-```php
+$config = new Configuration();
+$config->setAppSid("MyAppSid");
+$config->setAppKey("MyAppKey");
+$api = new SlidesApi(null, $config);
+$request = new PostSlidesConvertRequest(ExportFormat::PDF, fopen("MyPresentation.pptx", 'r'));
+$result = $api->postSlidesConvert($request);
+echo "My PDF was saved to " . $result->getPathname();
 ```
 
 [Product Page](https://products.aspose.cloud/slides/net) | [Documentation](https://docs.aspose.cloud/display/slidescloud/Home) | [API Reference](https://apireference.aspose.cloud/slides/) | [Code Samples](https://github.com/aspose-slides-cloud/aspose-slides-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/slides/) | [Free Support](https://forum.aspose.cloud/c/slides) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

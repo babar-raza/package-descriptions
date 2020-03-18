@@ -15,6 +15,10 @@
 - Add default print tickets into new `XPS` document or preserve print tickets in opened `XPS`.
 - Save `XPS` documents in various [supported file formats](https://docs.aspose.com/display/pagecpp/Supported+File+Formats).
 
+## Enhancements in Version 20.3
+
+For the detailed notes, please visit [Aspose.Page for CPP 20.3 Release Notes](https://docs.aspose.com/display/pagecpp/Aspose.Page+for+CPP+20.3+Release+Notes).
+
 ## Save XPS as
 
 PDF, BMP, TIFF, JPEG, PNG

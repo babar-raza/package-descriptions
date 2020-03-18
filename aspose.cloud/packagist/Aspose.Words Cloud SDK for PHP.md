@@ -1,6 +1,6 @@
-# .NET REST API for Cloud Document Processing
+# PHP REST API for Cloud Document Processing
 
-This cloud SDK provides seamless integration of [cloud document processing & manipulation features](https://products.aspose.cloud/words/net) into your cloud-based C#, ASP.NET & other .NET apps.
+This cloud SDK provides seamless integration of [cloud document processing & manipulation features](https://products.aspose.cloud/words/net) into your cloud-based PHP apps.
 
 ## Document Processing Features
 
@@ -41,11 +41,11 @@ For the detailed notes, please visit [Aspose.Words Cloud 20.1 Release Notes](htt
 
 Aspose.Words Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started with Aspose.Words Cloud SDK for .NET
+## Getting Started with Aspose.Words Cloud SDK for PHP
 
-This repository contains Aspose.[PRODUCT_NAME] Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
+This repository contains Aspose.Words Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
 
-Please check the [GitHub Repository](https://github.com/aspose-[PRODUCT_NAME]-cloud/aspose-[PRODUCT_NAME]-cloud-php) for the source code and examples.
+Please check the [GitHub Repository](https://github.com/aspose-words-cloud/aspose-words-cloud-php) for the source code and examples.
 
 ## How to use the SDK
 
