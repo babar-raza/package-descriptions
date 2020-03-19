@@ -1,0 +1,90 @@
+# Document Comparison Ruby Cloud REST API
+
+This cloud REST API enhances your Ruby cloud apps to [compare two documents](https://products.groupdocs.cloud/comparison/ruby), fetch, accept or reject the changes. Supports 90+ file formats.
+
+## Cloud Document Comparison Features
+
+- Compare two documents and fetch changes.
+- Fetch document changes based on change category, such as, numeric only.
+- Accept or reject the changes that come up after document comparison.
+- Get the image stream of resultant document via `JsonRequest` object.
+- Save the resultant document to streams as set of images.
+- Get the resultant document path.
+- Add summary page to resultant document after comparison.
+- Show deleted components in the resultant document.
+- Detect style changes.
+- Get or set password to the the resultant document.
+
+## New Features in Version 19.5.0
+
+- This is the first release of a completely new version of the API `GroupDocs.Comparison.Cloud v2.0`.
+- `V2` provides much simpler and intuitive API as compared to `V1`.
+- `V2` includes Storage and File API which enables you to manage storage and files.
+- Internal cloud solution is based on the modern micro-service architecture.
+
+For the detailed notes, please visit [GroupDocs.Comparison Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/comparisoncloud/release-notes/2019/groupdocs-comparison-cloud-19-5-release-notes/).
+
+## Supported Document Formats
+
+**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, ODT, OTT, RTF, TXT
+**Microsoft Excel:** XLS, XLSB, XLSM, XLSX, XLTM, XLTX, ODS, OTS, CSV, TSV
+**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POTM, POTX, ODP, OTP
+**Microsoft Visio:** VDW, VDX, VSD, VSDML, VSDX, VSS, VSSM, VSSX, VST, VSTM, VSTX, VSX, VTX
+**Microsoft Project:** MPP, MPT
+**Microsoft OneNote:** ONE
+**Email:** EML, EMLX, MSG, OST, PST
+**Adobe Photoshop:** PSD
+**AutoCAD:** DGN, DWF, DWG, DXF, IFC, STL
+**eBook:** EPUB, MOBI
+**Image:** BMP, CGM, DCM, DJVU, DNG, EPS, GIF, ICO, JP2, JPF, JPX, J2K, J2C, JPM, JPG, JPEG, ODG, PNG, SVG, TIF, TIFF, WEBP
+**Markup:** HTML, MHT, MHTML, XML
+**Portable:** PDF, TEX, XPS
+**Metafile:** EMF, WMF
+**Other:** PCL, PS
+
+## Platform Independence
+
+GroupDocs.Comparison Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+
+## Getting Started
+
+The complete source code is available at the [GitHub Repository](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-ruby). You can either directly use it in your project via source code or get [RubyGem](https://rubygems.org/gems/groupdocs_comparison_cloud) (recommended).
+
+## Installation
+
+A gem of *groupdocs_comparison_cloud* is available at [rubygems.org](https://rubygems.org/). You can install it with:
+
+`gem install groupdocs_comparison_cloud`
+
+To add dependency to your app copy following into your *Gemfile* and run `bundle install`:
+
+`gem "groupdocs_comparison_cloud", "~> 19.5"`
+
+Please follow the installation procedure and then run the following code:
+
+```ruby
+# Load the gem
+require 'groupdocs_comparison_cloud'
+
+# Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
+app_sid = "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+app_key = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+
+# Create instance of the API class
+api = GroupDocsComparisonCloud::InfoApi.from_keys(app_sid, app_key)
+
+# Retrieve supported file-formats
+response = api.get_supported_file_formats
+
+# Print out supported file-formats
+puts("Supported file-formats:")
+response.formats.each do |format|
+  puts("#{format.file_format} (#{format.extension})")
+end
+```
+
+## Licensing
+
+GroupDocs.Comparison Cloud Ruby SDK licensed under [MIT License](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-ruby/blob/master/LICENSE).
+
+[Product Page](https://products.groupdocs.cloud/comparison/ruby) | [Documentation](https://wiki.groupdocs.cloud/comparisoncloud/) | [API Reference](https://apireference.groupdocs.cloud/comparison/) | [Code Samples](https://github.com/groupdocs-comparison-cloud/groupdocs-comparison-cloud-ruby) | [Blog](https://blog.groupdocs.cloud/category/comparison/) | [Free Support](https://forum.groupdocs.cloud/c/comparison) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
