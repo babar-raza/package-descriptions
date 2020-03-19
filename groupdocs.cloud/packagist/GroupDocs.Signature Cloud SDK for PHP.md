@@ -1,6 +1,6 @@
-# .NET Cloud REST API for eSigning Documents
+# PHP Cloud REST API for eSigning Documents
 
-Use this REST API to [search, verify & create signatures](https://products.groupdocs.cloud/signature/net) of 6 different types for a lot of file formats from within your C#, ASP.NET, & other .NET cloud apps.
+Use this REST API to [search, verify & create signatures](https://products.groupdocs.cloud/signature/php) of 6 different types for a lot of file formats from within your PHP cloud apps.
 
 ## Cloud Document Signing Features
 
@@ -76,43 +76,90 @@ The following file formats are supported for the barcode, image, QR-code, stamp 
 
 GroupDocs.Signature Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
 
-## Getting Started
+## Dependencies
 
-You do not need to install anything to get started with GroupDocs.Signature Cloud SDK for .Net. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.
+- PHP 5.5 or later
 
-Simply execute `Install-Package GroupDocs.Signature-Cloud` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Signature assembly in your project. If you already have GroupDocs.Signature Cloud SDK for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Signature-Cloud` to get the latest version.
+## Authorization
 
-Please check the [GitHub Repository](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-dotnet) for other common usage scenarios.
+To use SDK you need AppSID and AppKey authorization keys. You can your AppSID and AppKey at [GroupDocs Cloud for Dashboard](https://dashboard.groupdocs.cloud) (free registration is required).
 
-## Verifying QRCode Signature in a Document via C# Code
+## Installation & Usage
 
-```csharp
-var configuration = new Configuration
+### Composer
+
+The package is available at [Packagist](https://packagist.org/) and it can be installed via [Composer](https://packagist.org/) by executing following command:
+
+`composer require groupdocscloud/signature-sdk-php`
+
+Or you can install SDK via Composer directly from this repository, add the following to `composer.json`:
+
+```php
 {
-    AppSid = Sid,
-    AppKey = Key
-};
-
-var apiInstance = new SignatureApi(configuration);
-var verifyOptionsData = new GroupDocs.Signature.Cloud.Sdk.Model.PdfVerifyQRCodeOptionsData()
-{
-    DocumentPageNumber = 1,
-    QRCodeTypeName="QR",
-    Text = "1234567890",
-    VerifyAllPages = false
-};
-    var request = new PostVerificationQRCodeRequest
-{
-    Name = "02_pages.pdf",
-    VerifyOptionsData = verifyOptionsData,
-    Password = null,
-    Folder = "Output"
-};
-
-var response = apiInstance.PostVerificationQRCode(request);
-
-Debug.Print("FleName: " + response.FileName);
-Debug.Print("Result: " + response.Result);
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php.git"
+    }
+  ],
+  "require": {
+    "groupdocscloud/signature-sdk-php": "*"
+  }
+}
 ```
 
-[Product Page](https://products.groupdocs.cloud/signature/net) | [Documentation](https://wiki.groupdocs.cloud/signaturecloud/) | [API Reference](https://apireference.groupdocs.cloud/signature/) | [Code Samples](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/signature/) | [Free Support](https://forum.groupdocs.cloud/c/signature) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+Then run `composer install`.
+
+## Manual Installation
+
+Clone or download this repository, then run `composer install` in the root directory to install dependencies and include `autoload.php` into your code file:
+
+```php
+require_once('/path/to/groupdocs-signature-cloud-php/vendor/autoload.php');
+```
+
+## Tests
+
+To run the unit tests set your AppSID and AppKey in [json.config](https://packagist.org/) and execute following commands:
+
+```php
+composer install
+./vendor/bin/phpunit
+```
+
+## Getting Started
+
+Please follow the installation procedure and then run the following:
+
+```php
+<?php
+
+require_once(__DIR__ . '/vendor/autoload.php');
+
+//TODO: Get your AppSID and AppKey at https://dashboard.groupdocs.cloud (free registration is required).
+$configuration = new GroupDocs\Signature\Configuration();
+$configuration->setAppSid("XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX");
+$configuration->setAppKey("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX");
+
+$signatureApi = new GroupDocs\Signature\SignatureApi($configuration); 
+
+try {
+    $request = new GroupDocs\Signature\Model\Requests\GetSupportedFileFormatsRequest();
+    $response = $signatureApi->getSupportedFileFormats($request);
+
+    foreach ($response->getFormats() as $key => $format) {
+        echo $format->getFileFormat() . " - " .  $format->getExtension(), "\n";
+    }
+} catch (Exception $e) {
+    echo  "Something went wrong: ",  $e->getMessage(), "\n";
+    PHP_EOL;
+}
+
+?>
+```
+
+## Licensing
+
+GroupDocs.Signature for Cloud SDK for PHP is licensed under [MIT License](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php/blob/master/LICENSE).
+
+[Product Page](https://products.groupdocs.cloud/signature/php) | [Documentation](https://wiki.groupdocs.cloud/signaturecloud/) | [API Reference](https://apireference.groupdocs.cloud/signature/) | [Code Samples](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-php) | [Blog](https://blog.groupdocs.cloud/category/signature/) | [Free Support](https://forum.groupdocs.cloud/c/signature) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
