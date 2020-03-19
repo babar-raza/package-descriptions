@@ -43,8 +43,6 @@ Aspose.Diagram Cloud’s platform independent document manipulation API is a tru
 
 You do not need to install anything to get started with Aspose.Diagram Cloud SDK for Ruby. All you need to do is create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
 
-Simply execute `Install-Package Aspose.Diagram-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Diagram assembly in your project. If you already have Aspose.Diagram Cloud SDK for Ruby and want to upgrade it, please execute `Update-Package Aspose.Diagram-Cloud` to get the latest version.
-
 Please check the [GitHub Repository](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-dotnet) for other common usage scenarios.
 
 ## Usage

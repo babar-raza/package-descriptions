@@ -45,37 +45,48 @@ Aspose.Words Cloud’s platform independent document manipulation API is a true 
 
 You do not need to install anything to get started with Aspose.Words Cloud SDK for Ruby. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
 
-Simply execute `Install-Package Aspose.Words-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Words assembly in your project. If you already have Aspose.Words Cloud SDK for Ruby and want to upgrade it, please execute `Update-Package Aspose.Words-Cloud` to get the latest version.
+The complete source code is available at the [GitHub Repository](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby).
 
-Please check the [GitHub Repository](https://github.com/aspose-words-cloud/aspose-words-cloud-dotnet) for other common usage scenarios.
+## How to use the SDK?
 
-## Use C# to Create a New MS Word DOCX Cloud Document
+The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [RubyGem](https://rubygems.org/gems/aspose_words_cloud) (recommended).
 
-The following C# code sample elaborates, how to programmatically create a new Microsoft Word DOCX document in the cloud:
+## Prerequisites
 
-```csharp
-//Please get the AppKey and the AppSID from https://dashboard.aspose.cloud/
+To use Aspose Words for Cloud Ruby SDK you need to register an account with [Aspose Cloud](https://www.aspose.cloud/) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby/blob/master/tests).
 
-var fileName = "NewDocument.docx";
-string folder = null; // File exists at the root of the storage
+## Installation
 
-var request = new PutCreateDocumentRequest { FileName = fileName, Folder = folder };
+To install this package do the following: 
 
-var actual = wordsApi.PutCreateDocument(request);
+update your `Gemfile`:
+
+`gem 'aspose_words_cloud', '~> 20.3'`
+
+or install directly
+
+`gem install aspose_words_cloud`
+
+## Sample usage
+
+```ruby
+AsposeWordsCloud.configure do |config|
+        config.api_key['api_key'] = AppKey
+        config.api_key['app_sid'] = AppSid
+        config.host = host
+request = DeleteWatermarkRequest.new remote_name, remote_test_folder + test_folder
+result = @words_api.delete_watermark request
+
+[Tests](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby/blob/master/tests) contain various examples of using the SDK.
 ```
 
-## Convert DOCX Document to PDF via C# Code
+## Dependencies
 
-The following code sample demonstrates, how to convert a DOCX cloud document from PDF using C# code:
+- Ruby 2.3 or later
+- referenced packages (see [here](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby/blob/master/Gemfile) for more details)
 
-```csharp
-//Please get the AppKey and the AppSID from https://dashboard.aspose.cloud/
+## Licensing
 
-var fileName = "input.docx";
-var format = "pdf";
+All Aspose.Words Cloud SDKs, helper scripts and templates are licensed under [MIT License](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby/blob/master/LICENSE).
 
-var request = new PutConvertDocumentRequest(File.OpenRead(@"c:\Data\" + fileName), format);
-var result = wordsApi.PutConvertDocument(request);
-```
-
-[Product Page](https://products.aspose.cloud/words/net) | [Documentation](https://docs.aspose.cloud/display/wordscloud/Home) | [API Reference](https://apireference.aspose.cloud/words/) | [Code Samples](https://github.com/aspose-words-cloud/aspose-words-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/words/) | [Free Support](https://forum.aspose.cloud/c/words) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/words/net) | [Documentation](https://docs.aspose.cloud/display/wordscloud/Home) | [API Reference](https://apireference.aspose.cloud/words/) | [Code Samples](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby) | [Blog](https://blog.aspose.cloud/category/words/) | [Free Support](https://forum.aspose.cloud/c/words) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

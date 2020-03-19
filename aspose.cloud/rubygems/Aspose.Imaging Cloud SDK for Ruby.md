@@ -34,29 +34,37 @@ Aspose.Imaging Cloud’s platform independent document manipulation API is a tru
 
 ## Getting Started with Aspose.Imaging Cloud SDK for Ruby
 
-You do not need to install anything to get started with Aspose.Imaging Cloud SDK for Ruby. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+The complete source code is available at the [GitHub Repository](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-ruby). You can either directly use it in your project via source code or get [RubyGem](https://rubygems.org/gems/aspose_imaging_cloud) (recommended).
 
-Simply execute `Install-Package Aspose.Imaging-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Imaging assembly in your project. If you already have Aspose.Imaging Cloud SDK for Ruby and want to upgrade it, please execute `Update-Package Aspose.Imaging-Cloud` to get the latest version.
+- Sign Up. Before you begin, you need to sign up for an account on our [Dashboard](https://dashboard.aspose.cloud/) and retrieve your [credentials](https://dashboard.aspose.cloud/#/apps).
+- Minimum requirements. This SDK requires [Ruby](https://www.ruby-lang.org/en/downloads/).
+- Install Aspose.Imaging Cloud Python SDK.
+    Please, install the following [Ruby gem](https://rubygems.org/gems/aspose-imaging-cloud/) using command line.
+    `gem install aspose_imaging_cloud`
+    Import the dependencies to your code as follows.
+    `require 'aspose_imaging_cloud'`
+- Using the SDK. The best way to become familiar with how to use the SDK is to read the [Developer Guide](https://docs.aspose.cloud/display/imagingcloud/Developer+Guide). The [Getting Started Guide](https://docs.aspose.cloud/display/imagingcloud/Getting+Started) will help you to become familiar with the common concepts.
 
-Please check the [GitHub Repository](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-dotnet) for other common usage scenarios.
+## Quick Examples
 
-## Export an Image to PDF Format via C# Code
+Please, look at [Examples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-ruby/blob/master/EXAMPLES.md) document for basic usage or use the [Examples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-ruby/blob/master/Examples) folder for more sophisticated scenarios.
 
-This code sample demonstrates, how to convert an image to PDF format using C# code via REST API:
+## Aspose Cloud-hosted service VS on-premise deployment (experimental feature)
 
-```csharp
-string format = "pdf"; // specify the export output format
-string outPath = null; // Path to updated file (if this is empty, response contains streamed image)
-string storage = null; // Cloud Storage name
+Starting from v19.7, you can choose either to use Aspose Cloud-hosted image processing service (the standard way) or the Docker image from Docker Hub deployed on-premise to serve the requests. The details about key differences and deployment process will be described on the dedicated Docker Hub page as soon as it's released.
 
-var request = new CreateSavedImageAsRequest(inputImageStream, format, outPath, storage);
+To succeed with your on-premise service usage by the SDK, you need to:
 
-Console.WriteLine($"Call CreateSavedImageAs with params: format:{format}");
+- Use the API class constructor with base URL required parameter, API version and debug mode optional parameters, skipping the credentials parameters.
+    `ImagingApi.new(nil, nil, 'yourServiceUrl')`
+- Set storage or storageName parameters for each request where they're present (mandatory!).
 
-using (Stream updatedImage = this.ImagingApi.CreateSavedImageAs(request))
-    {
-        SaveUpdatedImageToOutput(updatedImage, true, format);
-    }
-```
+## Dependencies
 
-[Product Page](https://products.aspose.cloud/imaging/net) | [Documentation](https://docs.aspose.cloud/display/imagingcloud/Home) | [API Reference](https://apireference.aspose.cloud/imaging/) | [Code Samples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/imaging/) | [Free Support](https://forum.aspose.cloud/c/imaging) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+- Ruby 2.5 or later
+
+## Licensing
+
+All Aspose.Imaging Cloud SDKs, helper scripts and templates are licensed under [MIT License](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-ruby/blob/master/LICENSE).
+
+[Product Page](https://products.aspose.cloud/imaging/ruby) | [Documentation](https://docs.aspose.cloud/display/imagingcloud/Home) | [API Reference](https://apireference.aspose.cloud/imaging/) | [Code Samples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-ruby) | [Blog](https://blog.aspose.cloud/category/imaging/) | [Free Support](https://forum.aspose.cloud/c/imaging) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
