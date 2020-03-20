@@ -14,18 +14,64 @@ This text parser on-premise API works well to [search & extract formatted text](
 - Extract table of contents for some supported document formats.
 - Parse form data from PDF documents.
 
-## New Features in Version 20.1.0
+## Enhancements in Version 20.3
 
-- Extract text by TOC item.
-- Extract TOC form:
-  - Word Processing documents
-  - PDF documents
+- Improved the support of text structure extraction.
+- Improved table of contents extraction API.
 
-## Breaking Changes in Version 20.1.0
+For the detailed notes, please visit [GroupDocs.Parser for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/parsernet/GroupDocs.Parser+for+.NET+20.3+Release+Notes).
 
-- Legacy API are removed (all types from `GroupDocs.Parser.Legacy` namespace are removed).
+## Parse Document by Template
 
-For the detailed notes, please visit [GroupDocs.Parser for .NET 20.1 Release Notes](https://docs.groupdocs.com/display/parsernet/GroupDocs.Parser+for+.NET+20.1+Release+Notes).
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF, TXT
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, CSV, XLA, XLAM, NUMBERS
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
+**Portable:** PDF
+
+## Extract Text (Accurate)
+
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF, TXT
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, CSV, XLA, XLAM, NUMBERS
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
+**Email:** EML, EMLX, MSG
+**Markup:** HTML, XHTML, MHTML, MD, XML
+**eBooks:** CHM, EPUB, FB2
+**Portable:** PDF
+**Notes:** ONE
+**Databases:** Databases are supported via ADO.NET. To work with the corresponding database format install its database provider.
+
+## Extract Text (Raw)
+
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, XLA, XLAM
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM
+**Portable:** PDF
+
+## Extract Structured Text and Formatted Text
+
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLTX, XLTM, XLA, XLAM
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
+**Email:** EML, EMLX, MSG
+**Markup:** MD (Formatted Text is Not supported)
+**eBooks:** CHM, EPUB, FB2
+
+## Extract Text Areas
+
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, XLA, XLAM, NUMBERS
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
+**Portable:** PDF
+
+## Extract Metadata
+
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, XLA, XLAM
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
+**Email:** EML, EMLX, MSG
+**eBooks:** EPUB, FB2
+**Portable:** PDF
+
+## Extract Images
 
 **Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
 **Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, XLA, XLAM, NUMBERS
@@ -34,21 +80,21 @@ For the detailed notes, please visit [GroupDocs.Parser for .NET 20.1 Release Not
 **Portable:** PDF
 **Archive:** ZIP
 
-### Extract Containers and Attachments
+## Extract Containers and Attachments
 
 **Email:** PST, OST, EML, EMLX, MSG
 **Portable:** PDF
 **Archive:** ZIP
 
-### Parse Form Data
+## Parse Form Data
 
 **Portable:** PDF
 
-### Extract Table of Contents
+## Extract Table of Contents
 
 **Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
+**eBooks:** CHM, EPUB
 **Portable:** PDF
-**eBook:** CHM, EPUB
 **Databases:** Databases are supported via ADO.NET. To work with the corresponding database format install its database provider.
 
 ## Platform Independence
