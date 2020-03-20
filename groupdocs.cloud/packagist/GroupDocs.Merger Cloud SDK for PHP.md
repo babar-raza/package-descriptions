@@ -130,6 +130,31 @@ try {
 ?>
 ```
 
+## Extract Document Pages by Page Number using PHP REST API
+
+```php
+// For complete examples and data files, please go to https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-php-samples
+$AppSid = 'XXXX-XXXX-XXXX-XXXX'; // Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+$AppKey = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'; // Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+  
+$configuration = new GroupDocs\Merger\Configuration();
+$configuration->setAppSid(CommonUtils::$AppSid);
+$configuration->setAppKey(CommonUtils::$AppKey);
+
+$pagesApi = GroupDocs\Merger\PagesApi($configuration);
+  
+$fileInfo = new Model\FileInfo();
+$fileInfo->setFilePath("WordProcessing/sample-10-pages.docx");
+
+$options = new Model\ExtractOptions();
+$options->setFileInfo($fileInfo);
+$options->setOutputPath("Output/extract-pages-by-numbers.docx");
+$options->setPages([2, 4, 7]);
+
+$request = new Requests\extractRequest($options);
+$response = $pagesApi->extract($request);
+```
+
 ## Licensing
 
 GroupDocs.Merger Cloud SDK for PHP is licensed under [MIT License](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-php/blob/master/LICENSE).

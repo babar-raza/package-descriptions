@@ -17,14 +17,14 @@ This REST API allows your PHP cloud-based apps to [convert documents](https://pr
 - Use PDF as an intermediary format while converting.
 - Apply watermark during conversion process.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - **New Source Formats:** DIB, XLT, POT, XLAM, MPX, JPC, DWT, JPEG-LS.
 - **New Target Formats:** WMF, EMF, XLAM.
 - Supports encoding for source `CSV` and `TXT` documents.
 - Supports `TimeZoneOffset` and `ConvertAttachments` for source Email documents.
 
-## Enhancements in Version 20.2.0
+## Enhancements in Version 20.2
 
 - Improved quality of Diagram to Word document conversion.
 - Converting multi-page `TIFF` to `PDF`.
@@ -141,6 +141,42 @@ try {
 }
 
 ?>
+```
+
+## Use PHP REST API to Convert DOCX Document Format
+
+```php
+include(dirname(__DIR__) . '\CommonUtils.php');
+
+$convertApi = CommonUtils::GetConvertApiInstance();
+
+$settings = new GroupDocs\Conversion\Model\ConvertSettings();
+
+$settings->setStorageName(CommonUtils::$MyStorage);
+$settings->setFilePath("conversions\\password-protected.docx");
+$settings->setFormat("xlsx");
+
+$loadOptions = new GroupDocs\Conversion\Model\DocxLoadOptions();
+$loadOptions->setPassword("password");
+$loadOptions->setHideWordTrackedChanges(true);
+$loadOptions->setDefaultFont("Arial");
+
+$settings->setLoadOptions($loadOptions);
+
+$convertOptions = new GroupDocs\Conversion\Model\XlsxConvertOptions();
+$convertOptions->setFromPage(1);
+$convertOptions->setPagesCount(2);
+$convertOptions->setFromPage(1);
+$convertOptions->setPassword("password");
+$convertOptions->setUsePdf(true);
+$settings->setConvertOptions($convertOptions);
+
+$settings->setOutputPath("converted\\tocells");
+
+$request = new GroupDocs\Conversion\Model\Requests\ConvertDocumentRequest($settings);
+
+$response = $convertApi->convertDocument($request);
+echo "Document converted successfully: ", $response[0]->getUrl();
 ```
 
 ## Licensing

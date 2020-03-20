@@ -22,7 +22,7 @@ This REST API enhances your PHP based cloud apps to [render](https://products.gr
 - Get list of all email attachments in its HTML or image representation.
 - Download resources of a specific email attachment page for HTML representation.
 
-## Enhancements in Version 19.5.0
+## Enhancements in Version 19.5
 
 - Improved Cloud products API Reference grouping.
 
@@ -126,6 +126,37 @@ try {
 }
 
 ?>
+```
+
+## DWF File View Options using PHP REST API
+
+```php
+include(dirname(__DIR__) . '\CommonUtils.php');
+
+$apiInstance = CommonUtils::GetViewApiInstance();
+
+$viewOptions = new GroupDocs\Viewer\Model\ViewOptions();
+
+$fileInfo = new GroupDocs\Viewer\Model\FileInfo();
+$fileInfo->setFilePath("viewerdocs\\three-layouts.dwf");
+$fileInfo->setPassword("");
+$fileInfo->setStorageName(CommonUtils::$MyStorage);
+
+$viewOptions->setFileInfo($fileInfo);
+
+$renderOptions = new GroupDocs\Viewer\Model\RenderOptions();
+
+$cadOptions = new GroupDocs\Viewer\Model\CadOptions();
+$cadOptions->setWidth(800);
+
+$renderOptions->setCadOptions($cadOptions);
+
+$viewOptions->setRenderOptions($renderOptions);
+
+$request = new GroupDocs\Viewer\Model\Requests\CreateViewRequest($viewOptions);
+$response = $apiInstance->createView($request);
+
+echo "Expected response type is ViewResult: ", $response;
 ```
 
 ## Licensing
