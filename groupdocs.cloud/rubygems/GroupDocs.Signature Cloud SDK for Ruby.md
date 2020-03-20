@@ -18,7 +18,7 @@ Use this REST API to [search, verify & create signatures](https://products.group
 - Get or set the time at which the document was digitally signed.
 - Option to search some type of signatures from the document.
 
-## New Features in Version 19.5.0
+## New Features in Version 19.5
 
 - This is the first release of a completely new version of the API `GroupDocs.Signature.Cloud v2.0`.
 - `V2` provides a much simpler and intuitive API comparing with `V1`.
@@ -113,6 +113,47 @@ response = api.get_supported_file_formats
 puts("Supported file-formats:")
 response.formats.each do |format|
   puts("#{format.file_format} (#{format.extension})")
+end
+```
+
+## Working with Digital Signatures using Ruby REST API
+
+```ruby
+# Load the gem
+require 'groupdocs_signature_cloud'
+require 'common_utilities/Utils.rb'
+
+class Signing_Documents
+  def self.Signature_Ruby_Digital_Signature()
+
+    # Getting instance of the API
+    api = Common_Utilities.Get_SignApi_Instance()
+
+    $info = GroupDocsSignatureCloud::FileInfo.new()
+    $info.file_path = "signaturedocs\\one-page.docx"
+    $info.password = nil
+
+    $opts = GroupDocsSignatureCloud::SignDigitalOptions.new()
+    $opts.document_type = "WordProcessing"
+    $opts.signature_type = 'Digital'
+    $opts.image_guid = "signaturedocs\\signature.jpg"
+    $opts.certificate_guid = "signaturedocs\\temp.pfx"
+    $opts.password = '1234567890'
+
+    $settings = GroupDocsSignatureCloud::SignSettings.new()
+    $settings.options = [$opts]
+
+    $settings.save_options = GroupDocsSignatureCloud::SaveOptions.new()
+    $settings.save_options.output_file_path = "signaturedocs\\signedDigitalOne_page.docx"
+    $settings.file_info = $info
+
+    $request = GroupDocsSignatureCloud::CreateSignaturesRequest.new($settings)
+
+    # Executing an API.
+    $response = api.create_signatures($request)
+
+    puts("file_path: " + $response.file_info.file_path)
+  end
 end
 ```
 

@@ -63,8 +63,6 @@ To add dependency to your app copy following into your *Gemfile* and run `bundle
 
 `gem "groupdocs_merger_cloud", "~> 19.10"`
 
-## Getting Started
-
 Please follow the installation procedure and then run the following code:
 
 ```ruby
@@ -86,6 +84,24 @@ puts("Supported file-formats:")
 response.formats.each do |format|
   puts("#{format.file_format} (#{format.extension})")
 end
+```
+
+## Extract DOCX Pages by Page Numbers using Ruby REST API
+
+```ruby
+# For complete examples and data files, please go to https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-ruby-samples
+$app_sid = "XXXX-XXXX-XXXX-XXXX" # Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+$app_key = "XXXXXXXXXXXXXXXX" # Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+
+pagesApi = GroupDocsMergerCloud::PagesApi.from_keys($app_sid, $app_key)
+
+options = GroupDocsMergerCloud::ExtractOptions.new
+options.file_info = GroupDocsMergerCloud::FileInfo.new
+options.file_info.file_path = 'WordProcessing/sample-10-pages.docx'
+options.output_path = "Output/extract-pages-by-numbers.docx"
+options.pages = [2, 4, 7]
+
+result = pagesApi.extract(GroupDocsMergerCloud::ExtractRequest.new(options))
 ```
 
 ## Licensing

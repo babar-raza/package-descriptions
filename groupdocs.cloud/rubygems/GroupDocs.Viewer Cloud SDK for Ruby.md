@@ -22,7 +22,7 @@ This REST API enhances your Ruby based cloud apps to [render](https://products.g
 - Get list of all email attachments in its HTML or image representation.
 - Download resources of a specific email attachment page for HTML representation.
 
-## Enhancements in Version 19.5.0
+## Enhancements in Version 19.5
 
 - Improved Cloud products API Reference grouping.
 
@@ -83,6 +83,44 @@ response = api.get_supported_file_formats
 puts("Supported file-formats:")
 response.formats.each do |format|
   puts("#{format.file_format} (#{format.extension})")
+end
+```
+
+## Use Ruby REST API to View DWF Files
+
+```ruby
+# Load the gem
+require 'groupdocs_viewer_cloud'
+require 'common_utilities/Utils.rb'
+
+class Working_With_View
+  def self.Viewer_Ruby_Create_View_With_CAD_Options()
+
+    # Getting instance of the API
+    $api = Common_Utilities.Get_ViewApi_Instance()
+
+    $viewOptions = GroupDocsViewerCloud::ViewOptions.new()
+
+    $fileInfo = GroupDocsViewerCloud::FileInfo.new()
+    $fileInfo.file_path = "viewerdocs/three-layouts.dwf"
+    $fileInfo.password = ""
+    $fileInfo.storage_name = $myStorage
+
+    $viewOptions.file_info = $fileInfo;
+
+    $renderOptions = GroupDocsViewerCloud::RenderOptions.new()
+
+    $cadOptions = GroupDocsViewerCloud::CadOptions.new()
+    $cadOptions.scale_factor = 50
+
+    $renderOptions.cad_options = $cadOptions
+    $viewOptions.render_options = $renderOptions
+
+    $request = GroupDocsViewerCloud::CreateViewRequest.new($viewOptions)
+    $response = $api.create_view($request)
+
+    puts("Expected response type is ViewResult: " + ($response).to_s)
+  end
 end
 ```
 

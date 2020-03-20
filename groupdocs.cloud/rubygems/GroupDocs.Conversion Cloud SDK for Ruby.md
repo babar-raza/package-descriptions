@@ -17,14 +17,14 @@ This REST API allows your Ruby cloud-based apps to [convert documents](https://p
 - Use PDF as an intermediary format while converting.
 - Apply watermark during conversion process.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - **New Source Formats:** DIB, XLT, POT, XLAM, MPX, JPC, DWT, JPEG-LS.
 - **New Target Formats:** WMF, EMF, XLAM.
 - Supports encoding for source `CSV` and `TXT` documents.
 - Supports `TimeZoneOffset` and `ConvertAttachments` for source Email documents.
 
-## Enhancements in Version 20.2.0
+## Enhancements in Version 20.2
 
 - Improved quality of Diagram to Word document conversion.
 - Converting multi-page `TIFF` to `PDF`.
@@ -99,6 +99,33 @@ response = api.get_supported_conversion_types(request)
 puts("Supported file-formats:")
 response.each do |format|
 puts("#{format.source_format} to [#{format.target_formats.join(', ')}]")
+```
+
+## Advanced Document Conversion Options using Ruby REST API
+
+```ruby
+# For complete examples and data files, please go to https://github.com/groupdocs-conversion-cloud/groupdocs-conversion-cloud-ruby-samples
+require 'groupdocs_conversion_cloud'
+
+$app_sid = "XXXX-XXXX-XXXX-XXXX" # Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+$app_key = "XXXXXXXXXXXXXXXX" # Get AppKey and AppSID from https://dashboard.groupdocs.cloud
+  
+# Create necessary API instances
+apiInstance = GroupDocsConversionCloud::ConvertApi.from_keys($app_sid, $app_key)
+
+# Prepare convert settings
+settings = GroupDocsConversionCloud::ConvertSettings.new
+settings.file_path = "WordProcessing/four-pages.docx"
+settings.format = "html"
+convertOptions = GroupDocsConversionCloud::HtmlConvertOptions.new
+convertOptions.from_page = 1
+convertOptions.pages_count = 1
+convertOptions.fixed_layout = true
+settings.convert_options = convertOptions
+settings.output_path = "converted"
+
+# Convert
+result = apiInstance.convert_document(GroupDocsConversionCloud::ConvertDocumentRequest.new(settings))
 ```
 
 ## Licensing
