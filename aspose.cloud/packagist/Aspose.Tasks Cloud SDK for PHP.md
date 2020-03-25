@@ -17,7 +17,7 @@ This task management REST API enhances your PHP cloud-based apps to [access and 
 - Fetch a project document in the desired format.
 - Delete project task with its related references & rebuild task tree.
 
-## New Features in Version 19.12.0
+## New Features in Version 19.12
 
 - Imported projects from Project Online (Server) can now be saved as `MPP` file.
 - Imported projects from a database can now be saved as `MPP` file.
@@ -64,9 +64,36 @@ To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.m
 require __DIR__ . '/vendor/autoload.php';
 ```
 
-### Sample usage
+### Using PHP Code to Add Calendar to MPP Project
 
 ```php
+require_once realpath(__DIR__ . '/..') . '/vendor/autoload.php';
+require_once realpath(__DIR__ . '/..') . '/Utils.php';
+
+use Aspose\Tasks\TasksApi;
+use Aspose\Tasks\AsposeApp;
+
+class Calendars {
+
+    public $tasksApi;
+
+    public function __construct() {
+        AsposeApp::$appSID = Utils::appSID;
+        AsposeApp::$apiKey = Utils::apiKey;
+        $this->tasksApi = new TasksApi();
+    }
+
+    public function postProjectCalendar() {
+        $body = '{"Name": "TestCalender", "Uid": 0}';
+        $name = 'sample-project.mpp';
+        Utils::uploadFile($name);
+        $result = $this->tasksApi->PostProjectCalendar($name, $fileName = null, $storage = null, $folder = null, $body);
+        print_r($result);
+    }
+}
+
+$calendars = new Calendars();
+$calendars->postProjectCalendar();
 ```
 
 [Product Page](https://products.aspose.cloud/tasks/php) | [Documentation](https://docs.aspose.cloud/display/taskscloud/Home) | [API Reference](https://apireference.aspose.cloud/tasks/) | [Code Samples](https://github.com/aspose-tasks-cloud/aspose-tasks-cloud-php) | [Blog](https://blog.aspose.cloud/category/tasks/) | [Free Support](https://forum.aspose.cloud/c/tasks) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
