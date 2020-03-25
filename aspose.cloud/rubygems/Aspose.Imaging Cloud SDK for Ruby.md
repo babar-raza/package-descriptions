@@ -16,6 +16,8 @@ This cloud SDK assists to [process & manipulate images](https://products.aspose.
 
 - Support for image grayscale feature.
 
+For the detailed notes, please visit [Aspose.Imaging Cloud 20.2 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.2+-+Release+Notes).
+
 ## Read & Write Image Formats
 
 BMP, GIF, JPEG, JPEG2000, PSD, TIFF, WEBP, PNG, WMF, EMF, SVG
@@ -48,6 +50,30 @@ The complete source code is available at the [GitHub Repository](https://github.
 ## Quick Examples
 
 Please, look at [Examples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-ruby/blob/master/EXAMPLES.md) document for basic usage or use the [Examples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-ruby/blob/master/Examples) folder for more sophisticated scenarios.
+
+## Convert Image from Request Stream to another Format using Ruby Code
+
+```ruby
+# optional parameters are base URL, API version and debug mode
+imaging_api = ImagingApi.new('yourAppKey', 'yourAppSid')
+
+begin
+  # convert image from request stream to JPEG and save it to storage
+  # please, use outPath parameter for saving the result to storage
+  imaging_api.create_saved_image_as(AsposeImagingCloud::CreateSavedImageAsRequest.new(File.open(local_input_image), 'jpg', remote_result_image, test_storage))
+
+  # download saved image from storage
+  saved_file = imaging_api.download_file(AsposeImagingCloud::DownloadFileRequest.new(remote_result_image, test_storage))
+  # process resulting image from storage
+
+  # convert image from request stream to JPEG and read it from
+  # resulting stream
+  image_stream = imaging_api.create_saved_image_as(AsposeImagingCloud::CreateSavedImageAsRequest.new(File.open(local_input_image), 'jpg', nil, test_storage))
+  # process resulting image from response stream
+ensure
+  imaging_api.delete_file(AsposeImagingCloud::DeleteFileRequest.new(remote_result_image, test_storage))
+end
+```
 
 ## Aspose Cloud-hosted service VS on-premise deployment (experimental feature)
 
