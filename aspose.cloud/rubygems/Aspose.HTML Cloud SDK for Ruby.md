@@ -10,7 +10,7 @@ This cloud SDK assists to develop cloud-based [HTML page rendering, processing, 
 - Use request body to populate HTML document template.
 - Convert HTML page to numerous other file formats.
 
-## New Features in Version 19.11.0
+## New Features in Version 19.11
 
 - Added following SEO analysis points in the current version:
   - detection of broken links.
@@ -112,7 +112,7 @@ Flow: application
 Authorization URL: "https://api.aspose.cloud/connect/token"
 Scopes: N/A
 
-## Usage Sample
+## Convert from HTML to PNG Format using Ruby Code
 
 ```ruby
 # Load the gem
