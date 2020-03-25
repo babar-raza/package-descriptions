@@ -18,9 +18,17 @@ This Cloud SDK enhances your PHP cloud-based apps to [process & manipulate Micro
 - Cloud SDK to Read & Process Excel Worksheets.
 - Leverage the Power of Pivot Tables & Ranges.
 
-## Enhancements in Version 20.2.0
+## New Features in Version 20.3
 
-- Automatically refresh authorization Token in SDK.
+- Support to export whole page of sheet or an area to `JPEG` format.
+- Support to add workbook background.
+
+## Enhancements in Version 20.3
+
+- Update `Aspose.Cells.DLL` to 20.2.4 for Aspose.Cells Cloud.
+- Enhancements in creating and splitting workbooks.
+
+For the detailed notes, please visit [Aspose.Cells Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.3+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
@@ -38,23 +46,17 @@ DIF, PDF, XPS, TIFF, SVG, MD (Markdown)
 
 SXC, FODS
 
-## Platform Independence
-
-Aspose.Cells Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
-## Getting Started with Aspose.Cells Cloud SDK for PHP
-
-This repository contains Aspose.Cells Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) (free registration of [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) is required for this). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
-
-Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) for the source code and examples.
-
 ## How to use the SDK
 
-The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/cells-sdk-php) (recommended). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/cellscloud/Available+SDKs).
+The complete source code is available at the [GitHub Repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-php). You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/cells-sdk-php) (recommended). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/cellscloud/Available+SDKs).
+
+## Prerequisites
+
+To use Aspose Cells Cloud SDK you need to register an account with [Aspose Cloud](https://www.aspose.cloud/) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
 
 ## Installation via Composer
 
-Aspose.Cells Cloud SDK for PHP is available on `Packagist` as the `cells-sdk-php` package. Run the following command:
+*cells-sdk-php* is available on [Packagist](https://packagist.org/packages/aspose/cells-sdk-php) as the `cells-sdk-php` package. Run the following command:
 
 ```console
 composer require aspose/cells-sdk-php
@@ -66,17 +68,51 @@ To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.m
 require_once('vendor/autoload.php');
 ```
 
-## Sample usage
+## Using PHP Code to Import Data in Excel Worksheet
 
 ```php
-$saveAsAPI = new CellsApi("appsid","appkey");
-$name ='Book1.xlsx';
-$saveOptions = null;
-$newfilename = "newbook.xlsx";
-$isAutoFitRows= 'true';
-$isAutoFitColumns= 'true';
-$folder = "Temp";
-$result = $saveAsAPI->cellsSaveAsPostDocumentSaveAs($name, $saveOptions, $newfilename,$isAutoFitRows, $isAutoFitColumns,$folder);
+require_once realpath(__DIR__ . '/..') . '/vendor/autoload.php';
+require_once realpath(__DIR__ . '/..') . '/Utils.php';
+
+use Aspose\Cells\CellsApi;
+use Aspose\Cells\AsposeApp;
+
+class Workbook {
+
+    public $cells;
+
+    public function __construct() {
+        AsposeApp::$appSID = Utils::appSID;
+        AsposeApp::$apiKey = Utils::apiKey;
+        $this->cells = new CellsApi();
+    }
+
+    public function postImportDataCloudFile() {
+        $options = array('{"BatchData":null,"DestinationWorksheet":"Sheet1","IsInsert":false,"ImportDataType":"BatchData","Source":{"FileSourceType":1,"FilePath":"Batch_data_json.txt"}}',
+            '{"FirstRow":1,"FirstColumn":2,"IsVertical":true,"Data":null,"DestinationWorksheet":"Sheet1","IsInsert":true,"ImportDataType":"StringArray","Source":{"FileSourceType":1,"FilePath":"Array_string_json.txt"}}',
+            '{"FirstRow":1,"FirstColumn":2,"IsVertical":true,"Data":null,"DestinationWorksheet":"Sheet1","IsInsert":true,"ImportDataType":"IntArray","Source":{"FileSourceType":1,"FilePath":"Array_int_json.txt"}}',
+            '{"FirstRow":1,"FirstColumn":2,"IsVertical":true,"Data":null,"DestinationWorksheet":"Sheet1","IsInsert":true,"ImportDataType":"DoubleArray","Source":{"FileSourceType":1,"FilePath":"Array_double_json.txt"}}'
+            );
+
+        $dataFiles = array("Batch_data_json.txt", "Array_string_json.txt", "Array_int_json.txt", "Array_double_json.txt");
+
+        foreach($options as $index=>$option) {
+            // Upload file to Aspose Cloud Storage
+            $name = "Book1.xlsx";
+            Utils::uploadFile($name);
+            $dataFile = $dataFiles[$index];
+            Utils::uploadFile($dataFile);
+
+            $body = $option;
+
+            $result = $this->cells->PostImportDataCloudFile($name, $storage = null, $folder = null, $body);
+            print_r($result);
+        }
+    }
+}
+
+$workbook = new Workbook();
+$workbook->postImportDataCloudFile();
 ```
 
 ## Tests
