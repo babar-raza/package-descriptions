@@ -13,9 +13,12 @@ This cloud SDK enhances your C#, ASP.NET & other .NET cloud-based apps to work w
 - Get email properties.
 - Create, list or delete email folders.
 
-## New Features in Version 20.2
+## New Features in Version 20.3
 
-- Fetch email client configuration settings, such as, name, protocol type, host, port, and socket type etc.
+- Check whether an email address is disposable or not.
+- Create virtual multi-account to search, fetch and delete messages from several accounts at the same time.
+
+For the detailed notes, please visit [Aspose.Email Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/emailcloud/Aspose.Email+Cloud+20.3+Release+Notes).
 
 ## Read & Write Email Formats
 
