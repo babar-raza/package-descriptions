@@ -10,7 +10,7 @@ This cloud SDK enables your PHP cloud apps to [create & process Visio diagrams](
 - Upload your business oriented Visio diagrams to cloud storage.
 - Export Visio files to raster images, fixed-layout and HTML formats.
 
-## New Features in Version 19.10.0
+## New Features in Version 19.10
 
 - General enhancements to the Aspose.Diagram Cloud REST API.
 - Added `SaveOption` parameter for `saveAs` API.
@@ -35,43 +35,69 @@ For the detailed notes, please visit [Aspose.Diagram Cloud 19.10 Release Notes](
 
 **Microsoft Visio:** VDW, VSD, VSS, VST
 
-## Platform Independence
-
-Aspose.Diagram Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
-## Getting Started with Aspose.Diagram Cloud SDK for .NET
-
-This repository contains Aspose.BarCode Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
-
-Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) for the source code and examples.
-
 ## How to use the SDK
 
-You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/aspose-words-cloud) (recommended).
+The complete source code is available at the [GitHub Repository](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-php). You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/diagram-sdk-php) (recommended). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/diagramcloud/Home).
+
+## Prerequisites
+
+To use Aspose Cells Cloud SDK you need to register an account with [Aspose Cloud](https://www.aspose.cloud/) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
 
 ## Installation via Composer
 
-Aspose.[PRODUCT_NAME] Cloud SDK for PHP is available on `Packagist` as the `aspose-words-cloud` package. Run the following command:
+*diagram-sdk-php* is available on [Packagist](https://packagist.org/packages/aspose/diagram-sdk-php) as the `diagram-sdk-php` package. Run the following command:
 
 ```console
-composer require aspose/[PRODUCT_NAME]-cloud-php
+composer require aspose/diagram-sdk-php
 ```
 
 To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
 
 ```php
-require __DIR__ . '/vendor/autoload.php';
+require_once('vendor/autoload.php');
 ```
 
-### Sample usage
+## Examples
+
+Please, look at [Examples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-php/blob/master/EXAMPLES.md) document for basic usage or use the [Examples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-php/blob/master/Examples) folder for more sophisticated scenarios.
+
+## Use PHP Code to Convert VDX Diagram to other Formats
 
 ```php
-```
+require_once(__DIR__ . '/vendor/autoload.php');
+require_once(__DIR__ . '/Utils.php');
 
-## [CODE_HEADING]
+use Aspose\Diagram\Cloud\Api\DiagramFileApi;
+use \Aspose\Diagram\Cloud\Configuration;
+use \Aspose\Diagram\Cloud\Model;
+use \Aspose\Diagram\Cloud\ObjectSerializer;
 
-```php
+class DiagramFile {
 
+    public $diagramApi;
+
+    public function __construct() {
+        $this->diagramApi = new DiagramFileApi();
+        $config = $this->diagramApi->getConfig();
+        $token = Utils::getAccessToken();
+        $config ->setAccessToken($token);
+    }
+
+    public function saveFileAsAnotherFormat() {
+        $fileName ='file_get_1.vdx';
+        $isOverwrite = 'true';
+        $folder= "";
+        $format = new \Aspose\Diagram\Cloud\Model\FileFormatRequest();
+        $format->setFormat("pdf");
+        $newfilename = "file_saveas_php.pdf";
+        $result = $this->diagramApi->DiagramFilePostSaveAs($fileName, $format, $newfilename, $folder, $isOverwrite);
+        $json = json_decode($result);
+        print_r ( $json );
+    }
+}
+
+$diagramFile = new DiagramFile();
+$diagramFile->saveFileAsAnotherFormat();
 ```
 
 [Product Page](https://products.aspose.cloud/diagram/php) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-php) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
