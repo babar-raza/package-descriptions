@@ -15,10 +15,11 @@ This Cloud SDK allows you to [easily build cloud-based PDF creator](https://prod
 - Extensive support for converting PDF documents to various other file formats.
 - Extract various elements of PDF file & make PDF document optimized.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.3
 
-- Convert PDFA to PDF and upload the resulting file to storage.
-- Convert PDFA to PDF and return resulting file in response.
+- Prepared Aspose.PDF Cloud using the latest version of Aspose.PDF for .NET.
+
+For the detailed notes, please visit [Aspose.PDF Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/pdfcloud/Aspose.PDF+Cloud+20.3+Release+Notes).
 
 ## Read & Write PDF Formats
 
@@ -100,6 +101,34 @@ class PdfApiUsage
         $response = $this->pdfApi->getPageAnnotations($name, $pageNumber, null, $this->tempFolder);
     }
 }
+```
+
+## Fetch Annotations from a PDF Document using PHP Code
+
+```php
+require __DIR__.'/../vendor/autoload.php';
+
+use Aspose\PDF\Api\PdfApi;
+use Aspose\PDF\Configuration;
+
+
+$appSid = 'XXXXXXXXX';
+$appKey = 'XXXXXXXXX';
+
+
+$tempFolder = null;
+
+$config = new Configuration();
+$config->setAppKey($appKey);
+$config->setAppSid($appSid);
+
+$pdfApi = new PdfApi(null, $config);
+$name = 'PdfWithAnnotations.pdf';
+
+
+$response = $pdfApi->getDocumentAnnotations($name, null, $tempFolder);
+
+echo $response
 ```
 
 ## Licensing
