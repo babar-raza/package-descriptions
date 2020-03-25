@@ -13,32 +13,29 @@ This cloud SDK enhances your PHP cloud-based apps to work with, [manage & conver
 - Get email properties.
 - Create, list or delete email folders.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.3
 
-- Fetch email client configuration settings, such as, name, protocol type, host, port, and socket type etc.
+- Check whether an email address is disposable or not.
+- Create virtual multi-account to search, fetch and delete messages from several accounts at the same time.
+
+For the detailed notes, please visit [Aspose.Email Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/emailcloud/Aspose.Email+Cloud+20.3+Release+Notes).
 
 ## Read & Write Email Formats
 
 **Microsoft Outlook:** MSG
 **Email:** EML
 
-## Platform Independence
-
-Aspose.Email Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
-## Getting Started with Aspose.Email Cloud SDK for PHP
-
-This repository contains Aspose.Email Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
-
-Please check the [GitHub Repository](https://github.com/aspose-email-cloud/aspose-email-cloud-php) for the source code and examples.
-
 ## How to use the SDK
 
-You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/aspose-email-cloud) (recommended).
+You can either directly use it in your project via [source code](https://github.com/aspose-email-cloud/aspose-email-cloud-php) or get [Packagist distribution](https://packagist.org/packages/aspose/aspose-email-cloud) (recommended).
+
+## Prerequisites
+
+To use this SDK, you need an App SID and an App Key; they can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) (it requires free registration in Aspose Cloud for this).
 
 ## Installation via Composer
 
-Aspose.Email Cloud SDK for PHP is available on `Packagist` as the `aspose-email-cloud` package. Run the following command:
+Aspose.Email Cloud SDK for PHP is available on [Packagist](https://packagist.org/packages/aspose/aspose-email-cloud) as the `aspose-email-cloud` package. Run the following command:
 
 ```console
 composer require aspose/aspose-email-cloud
