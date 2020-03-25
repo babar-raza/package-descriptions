@@ -18,9 +18,17 @@ This Cloud SDK enhances your Ruby cloud-based apps to [process & manipulate Micr
 - Cloud SDK to Read & Process Excel Worksheets.
 - Leverage the Power of Pivot Tables & Ranges.
 
-## Enhancements in Version 20.2
+## New Features in Version 20.3
 
-- Automatically refresh authorization Token in SDK.
+- Support to export whole page of sheet or an area to `JPEG` format.
+- Support to add workbook background.
+
+## Enhancements in Version 20.3
+
+- Update `Aspose.Cells.DLL` to 20.2.4 for Aspose.Cells Cloud.
+- Enhancements in creating and splitting workbooks.
+
+For the detailed notes, please visit [Aspose.Cells Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.3+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
@@ -66,14 +74,42 @@ or install directly
 gem install aspose_cells_cloud
 ```
 
-## Sample usage
+## Using Ruby Code to Delete Row from a Worksheet
 
 ```ruby
-@instance = AsposeCellsCloud::CellsApi.new("appsid","appkey")
- name = 'Book1.xlsx'
- text = 'test'
- folder = 'Temp'
- @instance.cells_workbook_post_workbooks_text_search(name, text, { :folder=>folder})
+# For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-Cloud
+require 'aspose_cells_cloud'
+
+class Row
+
+  include AsposeCellsCloud
+  include AsposeStorageCloud
+
+  def initialize
+    #Get App key and App SID from https://cloud.aspose.com
+    AsposeApp.app_key_and_sid("APP_KEY", "APP_SID")
+    @cells_api = CellsApi.new  
+  end
+
+  def upload_file(file_name)
+    @storage_api = StorageApi.new 
+    response = @storage_api.put_create(file_name, File.open("../../../data/" << file_name,"r") { |io| io.read } )
+  end
+
+  # Delete worksheet row.
+  def delete_worksheet_row
+    file_name = "myWorkbook.xlsx"
+    upload_file(file_name)
+
+    sheet_name = "Sheet1"
+    row_index = 1
+    response = @cells_api.delete_worksheet_row(file_name, sheet_name, row_index)
+  end
+
+end
+
+row = Row.new()
+puts row.delete_worksheet_row
 ```
 
 ## Tests
