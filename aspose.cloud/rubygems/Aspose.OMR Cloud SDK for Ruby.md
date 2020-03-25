@@ -97,7 +97,7 @@ git submodule update --remote --merge
 
 - Library uses `OAUTH2` internally
 
-## Code example
+## OMR Demo
 
 You can check out [OMR Demo](https://github.com/aspose-omr-cloud/aspose-omr-cloud-ruby/blob/master/demo) project to get started with Aspose.OMR for Cloud.
 
