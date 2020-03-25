@@ -10,7 +10,7 @@ This cloud SDK enables your Ruby cloud apps to [create & process Visio diagrams]
 - Upload your business oriented Visio diagrams to cloud storage.
 - Export Visio files to raster images, fixed-layout and HTML formats.
 
-## New Features in Version 19.10.0
+## New Features in Version 19.10
 
 - General enhancements to the Aspose.Diagram Cloud REST API.
 - Added `SaveOption` parameter for `saveAs` API.
@@ -47,15 +47,11 @@ Please check the [GitHub Repository](https://github.com/aspose-diagram-cloud/asp
 
 ## Usage
 
-Please, add the following gem to your project.
+Please, add the following [gem](https://rubygems.org/gems/aspose_diagram_cloud) to your project.
 
 ```ruby
 gem install aspose_diagram_cloud
 ```
-
-## Examples
-
-Please, look at [Examples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-ruby/blob/master/EXAMPLES.md) document for basic usage or use the [Examples folder](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-ruby/blob/master/Examples) for more sophisticated scenarios.
 
 ### Aspose Cloud-hosted service VS on-premise deployment (experimental feature)
 
@@ -64,10 +60,11 @@ Starting from v19.10, you can choose either to use Aspose Cloud-hosted image pro
 To succeed with your on-premise service usage by the SDK, you need to:
 
 - Use the new API class constructor with grantType parameter, clientId and clientSecret parameters.
-    
+
     ```ruby
     $diagramApi = AsposeDiagramCloud::DiagramApi.new($grant_type,$client_id,$client_secret)
     ```
+
 - Set storage or storageName parameters for each request where they're present (mandatory!).
 
 ## Licensing
