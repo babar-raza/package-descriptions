@@ -24,19 +24,56 @@ DXF (R12/2007/2010)
 
 DWG (13, 14, 2000, 2004), DWG (2010, 2013, 2014), DWG (2015, 2017, 2018), DWT (13, 14, 2000, 2004), DWT (2010, 2013, 2014), DWT (2015, 2017, 2018), DWF, DGN v7, IGES (IGS), PLT, Industry Foundation Classes (IFC), STereoLithography (STL)
 
-## Platform Independence
+## How to use the SDK
 
-Aspose.CAD Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
+The complete source code is available at the [GitHub Repository](https://github.com/aspose-cad-cloud/aspose-cad-cloud-php). You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/cad-sdk-php) (recommended). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/cadcloud/Available+SDKs).
 
-## Getting Started with Aspose.CAD Cloud SDK for PHP
+## Prerequisites
 
-This repository contains Aspose.CAD Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) (free registration of [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) is required for this).
+To use Aspose CAD for Cloud PHP SDK you need to register an account with [Aspose Cloud](https://www.aspose.cloud/) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
 
-Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) for the source code and examples.
+## Dependencies
 
-## [CODE_HEADING]
+- PHP 5.6 or later
+- referenced packages (see [here](https://github.com/aspose-cad-cloud/aspose-cad-cloud-php/blob/master/composer.json) for more details)
+
+## Installation via Composer
+
+*cad-sdk-php* is available on Packagist as the `cad-sdk-php` package. Run the following command:
+
+```console
+composer require aspose/cad-sdk-php
+```
+
+To use the SDK, use Composer's [autoload](https://getcomposer.org/doc/00-intro.md#autoloading):
 
 ```php
+require_once('vendor/autoload.php');
 ```
+
+## PHP Code to Convert CAD Drawing to Raster Image
+
+```php
+public function getDrawingSaveAs()
+    {
+        $localName = "galeon.stl";
+        $outputFormat = "jpg";
+        $remoteName = $localName;
+        $subfolder = "";
+        $fullName = self::$baseRemoteFolder . $subfolder . $remoteName;
+        $destName = self::$baseTestOut . $remoteName ."." . $outputFormat;
+
+        $file = realpath(__DIR__ . self::$relativeRootPath) . '/TestData/' . $localName;
+        $putRequest = new \Aspose\Storage\Model\Requests\PutCreateRequest($fullName, $file);
+        $this->storage->PutCreate($putRequest);
+
+        $request = new \Aspose\CAD\Model\Requests\GetDrawingSaveAsRequest($remoteName, $outputFormat, $folder=trim(self::$baseRemoteFolder . $subfolder), null, null);
+
+        list($response, $code, $headers) = $this->CAD->getDrawingSaveAsWithHttpInfo($request);
+        Assert::assertEquals(200, $code);
+    }
+```
+
+[Tests](https://github.com/aspose-cad-cloud/aspose-cad-cloud-php/blob/master/tests/Aspose/cad) contain various examples of using the SDK. Please put your credentials into [Configuration](https://github.com/aspose-cad-cloud/aspose-cad-cloud-php/blob/master/src/Aspose/cad/Configuration.php).
 
 [Product Page](https://products.aspose.cloud/cad/php) | [Documentation](https://docs.aspose.cloud/display/cadcloud/Home) | [API Reference](https://apireference.aspose.cloud/cad/) | [Code Samples](https://github.com/aspose-cad-cloud/aspose-cad-cloud-php) | [Blog](https://blog.aspose.cloud/category/cad/) | [Free Support](https://forum.aspose.cloud/c/cad) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
