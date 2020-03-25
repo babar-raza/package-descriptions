@@ -55,21 +55,29 @@ or install directly:
 gem install aspose_CAD_cloud
 ```
 
-## Sample usage
+## Convert DXF Drawing to JPG Format using Ruby Code
 
 ```ruby
-@config = Configuration.new
-@config.api_key['api_key'] = '' # Put your's api_key and app_sid
-@config.api_key['app_sid'] = ''
-@api_client = ApiClient.new @config
-@CAD_api = CADApi.new @api_client
-AsposeApp.app_key_and_sid(@config.api_key['api_key'], @config.api_key['app_sid'])
-@storage_api = StorageApi.new
-request = DeleteDocumentWatermarkRequest.new remote_name, remote_test_folder + test_folder
-result = @CAD_api.delete_document_watermark request
+#
+    # Convert Drawing into PDF and save result to storage
+    # For complete examples, please visit https://github.com/aspose-cad-cloud/aspose-cad-cloud-ruby
+    #
+    def test_get_drawing_save_as
+      filename = '910609.dxf'
+      remote_name = filename
+      output_format = "jpg"
+      dest_name = remote_test_out + remote_name
+
+      st_request = PutCreateRequest.new remote_test_folder + remote_name, File.open(local_test_folder + filename, "r").read
+      @storage_api.put_create st_request
+
+      request = GetDrawingSaveAsRequest.new remote_name, output_format, remote_test_folder, nil, nil
+      result = @Cad_api.get_drawing_save_as_with_http_info request
+      assert_equal 200, result[1]
+    end
 ```
 
-## Rotate & Flip Drawing using Ruby Cloud REST API
+## Rotate & Flip DWG Drawing using Ruby Code
 
 ```ruby
 module AsposeCadCloud
