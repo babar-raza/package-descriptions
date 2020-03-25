@@ -11,7 +11,7 @@ This REST API enables your PHP cloud-based apps to [process & manipulate PPT, PP
 - Merge multiple presentations or split single presentation into multiple ones.
 - Extract and replace text from specific slide or entire presentation.
 
-## Enhancements & Changes in Version 20.2.0
+## Enhancements & Changes in Version 20.2
 
 - Do not include empty & default field values in `JSON` response for Chart shape object.
 
@@ -51,9 +51,9 @@ From the command line:
 composer require aspose/slides-sdk-php
 ```
 
-## Sample usage
+## Convert a PPTX document to PDF format using PHP Code
 
-The example code below converts a PowerPoint document to PDF format using `slides-sdk-php` library:
+The example code below uses the `slides-sdk-php` library:
 
 ```php
 use Aspose\Slides\Cloud\Sdk\Api\Configuration;
