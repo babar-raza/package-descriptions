@@ -24,79 +24,63 @@ CSV
 
 JPEG, PNG, BMP, TIFF, PDF
 
-## Platform Independence
-
-Aspose.OMR Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
-## Getting Started with Aspose.OMR Cloud SDK for PHP
-
-This repository contains Aspose.OMR Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
-
-Please check the [GitHub Repository](https://github.com/aspose-omr-cloud/aspose-omr-cloud-php) for the source code and examples.
-
-## How to use the SDK
-
-You can either directly use it in your project via source code or get [Packagist distribution](https://packagist.org/packages/aspose/aspose-omr-cloud) (recommended).
-
 ## Requirements
 
-- PHP 5.6 and later
+- [PHP 5.6 or later](https://www.php.net/releases/)
 
-## PHP 5.6/Windows
+### PHP 5.6/Windows
 
 - Please make sure that local repository path and all paths of all required packages do not exceed maximum length of a path (usually 255 symbols).
-- Aspose.OMR for Cloud use Guzzle library to perform REST requests. Guzzle framework uses cURL (`libcurl`) as transport library. On windows platform you can face problems with accessing https resources depending on `libcurl` version you are using.
-  - If you are using `libcurl` built with `OpenSSL`, you need to download CA Certificates and update your `php.ini`:
-
-    ```php
+- Aspose.OMR for Cloud use [Guzzle](http://guzzle3.readthedocs.io/getting-started/overview.html) library to perform REST requests. Guzzle framework uses cURL (libcurl) as transport library. On windows platform you can face problems with accessing https resources depending on libcurl version you are using.
+        If you are using libcurl built with OpenSSL, you need to download [CA Certificates](https://curl.haxx.se/docs/caextract.html) and update your php.ini:
+  
+  ```curl
     ....
     [curl]
     curl.cainfo="<full path to cacert.pem file>"
     [openssl]
     openssl.cafile="<full path to cacert.pem file>"
     ...
-    ```
-  
-  - If you are using `libcurl` built with WinSSL, you are ready to go because `WinSSL` uses windows certificates store
+  ```
 
-`OpenSSL` and `WinSSL` based `libcurl` versions can be downloaded from [here](https://curl.haxx.se/gknw.net/7.40.0/). Just choose your platform (x86 or x64) and `OpenSSL` (look for `ssl` string in the file name) or `WinSSL` (look for `winssl` string in the file name)
+- If you are using libcurl built with WinSSL, you are ready to go becuase WinSSL uses windows certificates store
+
+OpenSSL and WinSSL based libcurl versions can be downloaded from here. Just choose your platform (x86 or x64) and OpenSSL (look for `ssl` string in the file name) or WinSSL (look for winssl string in the file name)
 
 ## Installation
 
-### Clone repository
+- Sign Up. Before you begin, you need to sign up for an account on our [Dashboard](https://dashboard.aspose.cloud/) and retrieve your [credentials](https://dashboard.aspose.cloud/#/apps).
+- Minimum requirements. This SDK requires [PHP 5.6 or later](https://www.php.net/releases/).
+- Install Aspose.Imaging Cloud PHP SDK. Please, add the following [Packagist package](https://packagist.org/packages/aspose/aspose-imaging-cloud) to your project.
 
-Clone `aspose-omr-cloud` with submodules:
+Please, add the following to your composer.json as a dependency.
 
 ```console
-git clone https://github.com/aspose-omr-cloud/aspose-omr-cloud-php.git --recurse-submodules
-```
-
-### Composer
-
-To install the bindings via Composer, add the following to `composer.json`:
-
-```php
 {
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/aspose-omr-cloud/aspose-omr-cloud-php.git"
+    "require": {
+        "aspose/aspose-imaging-cloud": ">=20.2"
     }
-  ],
-  "require": {
-    "aspose/aspose-omr-cloud": "*@dev"
-  }
 }
 ```
 
-Then run `composer install`.
+Import the dependencies to your code as follows.
 
-### Manual Installation
+```php
+use \Aspose\Imaging\ImagingApi;
+use \Aspose\Imaging\Configuration;
+use \Aspose\Imaging\Model;
+use \Aspose\Imaging\Model\Requests;
+```
 
-Download the files and include `autoload.php`:
+## Usage
+
+### Update submodule
+
+Make sure you've cloned [aspose-omr-cloud-demo-data](https://github.com/aspose-omr-cloud/aspose-omr-cloud-demo-data) submodule, that contains all data required to run demo. In case you are missing submodules use the following git commands to initialize and update them:
 
 ```console
-require_once('/path/to/Aspose.OMR for Cloud/vendor/autoload.php');
+git submodule init
+git submodule update --remote --merge
 ```
 
 ## Limitations
