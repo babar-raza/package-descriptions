@@ -22,27 +22,28 @@ A standalone C++ class library to load, save, format & convert Microsoft Word® 
 - [Clone VBA Project](https://docs.aspose.com/display/wordscpp/Working+with+VBA+Macros#WorkingwithVBAMacros-CloneVBAProject) or VBA Module.
 - So many more [features](https://docs.aspose.com/display/wordscpp/Developer+Guide).
 
-## New Features in Version 20.2.0
+## New Features in Version 20.3
 
-- Support for encrypted documents.
-- Supports Elliptic Curve Digital Signature Algorithm (ECDSA) signatures.
-- Supports field formats when `FieldMergingArgs.Text` is used.
-- Append `VBA` from one document to another using `Document.AppendDocument`.
-- Export `w:colFirst` and `w:colLast` properties of `bookmarkStart`.
+- Ability to set different attributes of Shape inside `IFieldMergingCallback.ImageFieldMerging`.
+- New properties `FindReplaceOptions`.
+- Implemented color change for side faces.
+- Ability to get a column of table by bookmark.
+- Implemented correct contour rendering for volume shapes.
 
-## Limitations and API Differences in Version 20.2.0
+## Limitations and API Differences in Version 20.3
 
-Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. The functionality that is not available in the current release is as follows:
+Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release. The missing features will be added in future releases.
 
-- Some cryptography features are not supported, i.e., it cannot verify and sign documents.
-- Downloading remote resources from the Internet.
-- Metered license.
-- Multipage TIFF format.
-- LINQ and Reporting features.
-- Limited support for database features - C++ does not have a common API for DB like .NET `System.Data`.
+- The current release does not support:
+  - Some cryptography features - it cannot verify and sign documents.
+  - Downloading remote resources from the Internet.
+  - The Metered license.
+  - Multipage TIFF format.
+  - LINQ and Reporting features.
+- Limited support for database features - C++ does not have a common API for DB like .Net System.Data.
 - Only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
 
-For the detailed notes, please visit [Aspose.Words for CPP 20.2 Release Notes](https://docs.aspose.com/display/wordscpp/Aspose.Words+for+CPP+20.2+Release+Notes).
+For the detailed notes, please visit [Aspose.Words for CPP 20.3 Release Notes](https://docs.aspose.com/display/wordscpp/Aspose.Words+for+CPP+20.3+Release+Notes).
 
 ## Read & Write Word Processing Files
 
