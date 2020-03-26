@@ -13,21 +13,16 @@
 - Specify image area to scan barcode.
 - Create device resolution dependent images.
 
-## Public API & Backward Incompatible Changes in Version 20.2.0
+## New Features in Version 20.3
 
-- added property `Aspose.BarCode.Generation.BarcodeParameters.BarColor`
-- added property `Aspose.BarCode.Generation.BaseGenerationParameters.AutoSizeMode`
-- added property `Aspose.BarCode.Generation.BaseGenerationParameters.ImageHeight`
-- added property `Aspose.BarCode.Generation.BaseGenerationParameters.ImageWidth`
+- Generate *DataMatrix* barcode with `X12`, `EDIFACT` and `Base 256` encoding.
 
-- added method `Aspose.BarCode.BarCodeRecognition.Code128DataPortion.ToString`
-- added method `Aspose.BarCode.BarCodeRecognition.BarCodeReader.ExportToXml(System.IO.Stream)`
-- added method `Aspose.BarCode.BarCodeRecognition.BarCodeReader.ImportFromXml(System.IO.Stream)`
+## Public API and Backward Incompatible Changes
 
-- marked obsolete property `Aspose.BarCode.Generation.BarcodeParameters.ForeColor`
-- marked obsolete property `Aspose.BarCode.Generation.BarcodeParameters.AutoSizeMode`
-- marked obsolete property `Aspose.BarCode.Generation.BarcodeParameters.BarCodeWidth`
-- marked obsolete property `Aspose.BarCode.Generation.BarcodeParameters.BarCodeHeight`
+- Added property `Aspose.BarCode.DataMatrixEncodeMode.ANSIX12`
+- Added property `Aspose.BarCode.DataMatrixEncodeMode.EDIFACT`
+
+For the detailed notes, please visit [Aspose.BarCode for .NET 20.3 Release Notes](https://docs.aspose.com/display/barcodenet/Aspose.BarCode+for+.NET+20.3+Release+Notes).
 
 ## Barcode Symbologies
 
