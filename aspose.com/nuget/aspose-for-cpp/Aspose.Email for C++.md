@@ -22,11 +22,16 @@
 - Add [display or audio reminder](https://docs.aspose.com/display/emailcpp/Working+with+Outlook+Calendar+Items) to email calendar items.
 - So many more [features](https://docs.aspose.com/display/emailcpp/Developer+Guide).
 
-## New Features in Version 19.9.0
+## Limitations and API Differences in Version 20.2
 
-- Support for Exchange Web Services (EWS) protocol.
+Aspose.Email for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 
-For the detailed notes, please visit [Aspose.Email for CPP 19.9 Release Notes](https://docs.aspose.com/display/emailcpp/Aspose.Email+for+CPP+19.9+Release+Notes).
+The missing features are:
+
+- Microsoft Graph REST API v1.0
+- Exchange WebDav API
+
+For the detailed notes, please visit [Aspose.Email for CPP 20.2 Release Notes](https://docs.aspose.com/display/emailcpp/Aspose.Email+for+CPP+20.2+Release+Notes).
 
 ## Read & Write Email Formats
 
