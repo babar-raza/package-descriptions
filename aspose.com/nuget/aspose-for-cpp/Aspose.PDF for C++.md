@@ -22,14 +22,14 @@
 - [Configure various access privileges for the PDF](https://docs.aspose.com/display/pdfcpp/Encrypt%2C+Decrypt+and+set+Privileges+on+PDF+documents) document.
 - [Extract text from all pages of a PDF](https://docs.aspose.com/pages/viewpage.action?pageId=51479222) file.
 
-## APIs Added in Version 20.2.0
+## APIs Added in Version 20.3
 
-- Property `Aspose.Pdf.Annotations.Annotation.TextHorizontalAlignment`
-- Property `Aspose.Pdf.DocSaveOptions.BatchSize`
-- Property `Aspose.Pdf.Facades.PdfFileEditor.KeepActions`
-- Property `Aspose.Pdf.Forms.TextBoxField.TextVerticalAlignment`
+- Class `Aspose.Pdf.Annotations.CustomExplicitDestination`
+- Method `Aspose.Pdf.Annotations.CustomExplicitDestination.ToString`
+- Property `Aspose.Pdf.PclLoadOptions.BatchSize`
+- Property `Aspose.Pdf.PptxSaveOptions.CustomProgressHandler`
 
-Please refer to [Aspose.PDF for C++ API Reference](https://apireference.aspose.com/cpp/pdf/) for more insights about the newly added properties.
+For the detailed notes, please visit [Aspose.PDF for CPP 20.3 Release Notes](https://docs.aspose.com/display/pdfcpp/Aspose.PDF+for+CPP+20.3+Release+Notes).
 
 ## Read & Write PDF & Other Formats
 
