@@ -8,16 +8,12 @@ A [standalone C++ class library](https://products.aspose.com/slides/cpp) to crea
 - [Convert presentation](https://docs.aspose.com/display/slidescpp/Converting+a+Presentation) to any of the [supported file formats](https://docs.aspose.com/display/slidescpp/Supported+File+Formats).
 - Adding, formatting, and manipulating [charts](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+Charts), [shapes](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+Shapes), [slides](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+Slides), [SmartArt](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+SmartArt), [tables](https://docs.aspose.com/display/slidescpp/Adding%2C+Updating+and+Manipulating+Tables), and [text](https://docs.aspose.com/display/slidescpp/Adding+Formatting+and+Manipulating+Text) in presentations.
 
-## New Features in Version 20.2.0
+## Enhancements in Version 20.3
 
-- Support for getting size of paragraph and portion inside table cell text frame.
-- Update custom document properties directly on the source document.
+- Keep the sequence of numbered list that has `NumberedBulletStartWith`.
+- Improved thumbnails rendering quality.
 
-## Public API Changes in Version 20.2.0
-
-- `IPortion::GetRect()` method has been added. This method extends and replaces the `IPortion::GetCoordinates()` method. `IPortion::GetRect()` and `IParagraph::GetRect()` methods can be applied to the text within table cells.
-
-For the detailed notes, please visit [Aspose.Slides for CPP 20.2 Release Notes](https://docs.aspose.com/display/slidescpp/Aspose.Slides+for+CPP+20.2+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides for CPP 20.3 Release Notes](https://docs.aspose.com/display/slidescpp/Aspose.Slides+for+CPP+20.3+Release+Notes).
 
 ## Read & Write PowerPoint Files
 
