@@ -14,27 +14,11 @@ Aspose.Diagram for .NET can also be used to [apply protection to the Microsoft V
 - Protect Visio diagrams via applying locks on various levels.
 - [Manipulate the embedded OLE objects in the Visio diagrams](https://docs.aspose.com/display/diagramnet/Manipulate+the+Embedded+OLE+Objects+in+Visio+Diagram).
 
-## Public API and Backward Incompatible Changes in Version 20.2.0
+## Enhancements in Version 20.3
 
-### Added `EnlargePage` in `ImageSaveOptions`.
+- Several enhancements are made in this version.
 
-Specifies whether to enlarge page:
-
-```csharp
-Aspose.Diagram.Saving.ImageSaveOptions opt = new 
-Aspose.Diagram.Saving.ImageSaveOptions(Aspose.Diagram.SaveFileFormat.PNG);
-opt.EnlargePage = false;
-```
-
-### Added `HasHiddenInfo` in `Diagram`
-
-Indicates whether this diagram has hidden information:
-
-```csharp
-diagram.HasHiddenInfo();
-```
-
-For a detailed list of all the notes, please visit [Aspose.Diagram for .NET 20.2 Release Notes](https://docs.aspose.com/display/diagramnet/Aspose.Diagram+for+.NET+20.2+Release+Notes).
+For the detailed notes, please visit [Aspose.Diagram for .NET 20.3 Release Notes](https://docs.aspose.com/display/diagramnet/Aspose.Diagram+for+.NET+20.3+Release+Notes).
 
 ## Read & Write Visio Formats
 
