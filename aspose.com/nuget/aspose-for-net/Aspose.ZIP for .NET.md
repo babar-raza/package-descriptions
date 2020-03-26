@@ -7,19 +7,19 @@ It is a standalone .NET API to create, manipulate, extract & protect archive for
 ## Archive Processing Features
 
 - [Compress files](https://docs.aspose.com/display/zipnet/Compressing+and+Decompressing+Files#CompressingandDecompressingFiles-CompressingFiles) and [folders](https://docs.aspose.com/display/zipnet/Compressing+and+Decompressing+Folders#CompressingandDecompressingFolders-CompressingDirectoryContents) into standard ZIP formats.
-- Supports Deflate, Bzip2 & LZMA compression algorithms.
-- Apply simple password or [AES128](https://docs.aspose.com/display/zipnet/Password+Protecting+Archives#PasswordProtectingArchives-EncryptionofFileswithAES128), [AES192](https://docs.aspose.com/display/zipnet/Password+Protecting+Archives#PasswordProtectingArchives-EncryptionofFileswithAES192), [AES256](https://docs.aspose.com/display/zipnet/Password+Protecting+Archives#PasswordProtectingArchives-EncryptionofFileswithAES256) encryption to archives.
+- Supports Deflate, `Bzip2` & `LZMA` compression algorithms.
+- Apply simple password or [`AES128`](https://docs.aspose.com/display/zipnet/Password+Protecting+Archives#PasswordProtectingArchives-EncryptionofFileswithAES128), [`AES192`](https://docs.aspose.com/display/zipnet/Password+Protecting+Archives#PasswordProtectingArchives-EncryptionofFileswithAES192), [`AES256`](https://docs.aspose.com/display/zipnet/Password+Protecting+Archives#PasswordProtectingArchives-EncryptionofFileswithAES256) encryption to archives.
 - Employ different protection scheme to each file within an archive.
 - Append more files to an existing zipped archive.
-- Use Gzip or Bzip2 to pack files & folders into a TAR archive.
-- Supports LZMA or LZMA2 compression & optional encryption to create 7z archives.
+- Use `Gzip` or `Bzip2` to pack files & folders into a `TAR` archive.
+- Supports `LZMA` or `LZMA2` compression & optional encryption to create `7z` archives.
 - Create self-extracting compressed archives.
 
-## Enhancements in Version 20.2.0
+## Enhancements in Version 20.3
 
-- ZIP entry with `PPMd` compression.
+- `ZIP` entry with `PPMd` compression.
 
-For the detailed notes, please visit [Aspose.ZIP for .NET 20.2 Release Notes](https://docs.aspose.com/display/zipnet/Aspose.ZIP+for+.NET+20.2+Release+Notes).
+For the detailed notes, please visit [Aspose.ZIP for .NET 20.3 Release Notes](https://docs.aspose.com/display/zipnet/Aspose.ZIP+for+.NET+20.3+Release+Notes).
 
 ## Compress Files As
 
