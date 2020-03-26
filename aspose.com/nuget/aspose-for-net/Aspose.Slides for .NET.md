@@ -10,12 +10,11 @@
 - Presentation Security: Load protected presentations or control access to presentations, slides or objects via advanced security features.
 - Availability of 24 pre-defined textures & 48 patterns for quick styling.
 
-## New Features in Version 20.2.0
+## Enhancements in Version 20.3
 
-- Support for getting size of paragraph and portion inside table cell text frame.
-- Update custom document properties directly on the source document.
+- Keep the sequence of numbered list that has *NumberedBulletStartWith*.
 
-For a detailed list, please visit [Aspose.Slides for .NET 20.2 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.2+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides for .NET 20.3 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.3+Release+Notes).
 
 ## Read & Write Presentations
 
