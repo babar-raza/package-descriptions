@@ -18,19 +18,18 @@ This .NET API can seamlessly integrate and enables your C#, ASP.NET & other .NET
 - Load password protected documents.
 - Enable listening of conversion process stages.
 
-## Important Announcement about 20.1.0 Release
+## New Features in Version 20.3
 
-In this version the Legacy API of GroupDocs.Conversion has been removed. So from version 20.1.0 `GroupDocs.Conversion.Legacy` does not exist anymore.
+- Support for page numeration in the output document when convert `HTML` to *Wordprocessing* documents.
+- Hide / remove borders while converting `DOCX` to `HTML`.
+- Rename email fields when converting an Email file.
 
-## New Features in Version 20.1.0
+## Enhancements in Version 20.3
 
-- Support for `EML` to `MSG` conversion.
-- Convert attachments from a mail document.
-- Retrieve prepared default `ConvertOptions` for desired target conversion.
-- `GetAllPossibleConversions` method to return all supported conversions.
-- `GetPossibleConversions` for a specific document format without instantiating a Converter.
+- Change date format when converting from email formats.
+- Enhanced loading times in general / for Converter.
 
-For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.1 Release Notes](https://docs.groupdocs.com/display/conversionnet/GroupDocs.Conversion+for+.NET+20.1+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/conversionnet/GroupDocs.Conversion+for+.NET+20.3+Release+Notes).
 
 ## Conversion File Formats
 
