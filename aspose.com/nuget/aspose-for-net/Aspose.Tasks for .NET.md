@@ -19,9 +19,19 @@ Aspose.Tasks for .NET on premise API enables you to work with projects, formulas
 - Encode MPX files.
 - Comprehensive project reporting (15+ types of reports).
 
-## Major features in Version 20.2.0
+## Major features in Version 20.3
 
-Support to work with the built-in and custom properties of a project.
+- Create or update an existing project in your Project Online account using `ProjectServerManager` class.
+- Create, read and update projects in on-premise *Project Server (2016 or 2019)* using `ProjectServerManager` class.
+- Ability to add a project in Microsoft Project Server.
+
+## Enhancements in Version 20.3
+
+- Ability to get page count using the provided instance of `SaveOptions`.
+- Improved the performance of auto recalculation for large sets of tasks.
+- Extended duration 1-10 fields are always displayed in hours regardless of a set format.
+
+For the detailed notes, please visit [Aspose.Tasks for .NET 20.3 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.3+Release+Notes).
 
 ### Old meta properties API
 
