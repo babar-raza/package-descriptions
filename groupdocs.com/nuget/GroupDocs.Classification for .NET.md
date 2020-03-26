@@ -9,11 +9,12 @@ A .NET component that enables your applications to [analyze text and files as we
 - Select precision/recall balance for Documents taxonomy.
 - Classify document from stream.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.3
 
-- Supports Metered Licensing.
+- Sentiment Classification (Analysis) is added.
+- Raw text classification speed has been increased several times.
 
-For the detailed list, please visit [GroupDocs.Classification for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/classificationnet/GroupDocs.Classification+for+.NET+20.2+Release+Notes).
+For the detailed list, please visit [GroupDocs.Classification for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/classificationnet/GroupDocs.Classification+for+.NET+20.3+Release+Notes).
   
 ## Other File Formats
 
