@@ -28,14 +28,12 @@ An on-premise [API to generate documents of various formats](https://products.gr
 - Load template documents from HTML with resources.
 - Save assembled documents to HTML with resources.
 
-## New Features in Version 20.1.0
+## New Features in Version 20.3
 
-- Support for dynamic insertion of bookmarks for the following:
-  - Word Processing documents.
-  - Emails with HTML and RTF bodies.
-- Support for dynamic naming of cell ranges for Spreadsheets.
+- Supports dynamic checkbox value setting for Word Processing documents.
+- Supports dynamic image and document insertion from Base64-encoded bytes.
 
-For a detailed list, please visit [GroupDocs.Assembly for .NET 20.1 Release Notes](https://docs.groupdocs.com/display/assemblynet/GroupDocs.Assembly+for+.NET+20.1+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Assembly for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/assemblynet/GroupDocs.Assembly+for+.NET+20.3+Release+Notes).
 
 ## Read & Write Microsoft Office Formats
 
