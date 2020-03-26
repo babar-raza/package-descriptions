@@ -21,16 +21,12 @@ It allows to read and write GIS data, [convert GIS file formats](https://docs.as
 - Perform vector analysis & [manipulate geometries](https://docs.aspose.com/display/gisnet/Working+with+Geometries).
 - Support for [Spatial Reference Systems](https://docs.aspose.com/display/gisnet/Spatial+Reference+Systems).
 
-## New Features in Version 20.2.0
+## Enhancements in Version 20.3
 
-- Export style properties to KML.
+- Added Easier Feature Attribute Value Access.
+- Truncated Decimals in `WKT` Strings.
 
-## Enhancements in Version 20.2.0
-
-- Read `BBOX` members from `GeoJSON`.
-- Generate `BBOX` members in created `GeoJSON`.
-
-For detailed notes, please visit [Aspose.GIS for .NET 20.02 Release Notes](https://docs.aspose.com/display/gisnet/Aspose.GIS+for+.NET+20.02+Release+Notes).
+For detailed notes, please visit [Aspose.GIS for .NET 20.3 Release Notes](https://docs.aspose.com/display/gisnet/Aspose.GIS+for+.NET+20.03+Release+Notes).
 
 ## Read & Write GIS Formats
 
