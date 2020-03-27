@@ -12,9 +12,11 @@ This cloud SDK assists to [process & manipulate images](https://products.aspose.
 - Rotate, flip, crop, resize or fetch properties of the selected TIFF frame.
 - Merge multiple TIFF images.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.3
 
-- Support for image grayscale feature.
+- In this release we have fixed some issues related to AI features and have improved AI examples.
+
+For the detailed notes, please visit [Aspose.Imaging Cloud 20.3 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.3+-+Release+Notes).
 
 ## Read & Write Image Formats
 
