@@ -24,35 +24,30 @@ A standalone .NET API to read, write, process & convert Adobe Photoshop PSD & PS
 - Color Balance or invert Adjustment Layer.
 - Draw basic objects such as lines, Ellipse, Rectangle, Arc, Bezier
 
-## New Features in Version 20.2.0
+## New Features in Version 20.3
 
-- Ability to render different colors text in Text Layer.
-- Support of `clbl` resource (Layer resource contains info about Blend clipping elements).
-- Support of `blwh` resource (Resource contains Black & White Adjustment Layer Data).
-- Support of `lspf` Resource (Contains settings about Layer Protected setting).
-- Support of `infx` resource (Contains data about Blending of interior elements).
-- Ability to export Layer Group to JPEG, PNG, TIFF, GIF, BMP, JPEG2000, PSD, PSB, PDF.
+- Support for .Net Core.
+- Convert Adobe Illustrator files into PDFs.
+- Ability to render different styles in one text layer.
+- Support for Black and White Adjustment Layer.
+- Export AI format (Version 8) to other formats.
+- Support for PassThrough Blending Mode processing (Used for Layer Group Only).
+
+For the detailed notes, please visit [Aspose.PSD for .NET 20.3 - Release Notes](https://docs.aspose.com/display/psdnet/Aspose.PSD+for+.NET+20.3+-+Release+Notes).
 
 ## New Feature Usage Example
 
-### PSDNET-206. Improvement of ability to render different colors text in Text Layer
+### Convert Adobe Illustrator files into PDFs
 
 ```csharp
-using (var psdImage = (PsdImage)Image.Load("text_ethalon_different_colors.psd")){
-    var txtLayer = (TextLayer)psdImage.Layers[1];
-    txtLayer.TextData.UpdateLayerData();
-    psdImage.Save("output.png", new PngOptions());
+string sourceFile = "rect2_color.ai";
+using (var aiImage = (AiImage)Image.Load(sourceFile))
+{
+    aiImage.Save("rect2_color.ai_output.pdf", new PdfOptions());
 }
 ```
 
-For detailed usage examples of all the new features, please visit  [Aspose.PSD for .NET 20.2 - Release Notes](https://docs.aspose.com/display/psdnet/Aspose.PSD+for+.NET+20.2+-+Release+Notes).
-
-## APIs Removed in Version 20.2.0
-
-- `M:Aspose.PSD.FileFormats.Ai.AiDataSection.Dispose`
-- `P:Aspose.PSD.FileFormats.Ai.AiRasterImageSection.ImageRectangle`
-- `M:Aspose.PSD.FileFormats.Psd.Layers.LayerResources.Lr16Resource.#ctor(System.Int32)`
-- `F:Aspose.PSD.Xmp.Types.Derived.RenditionClass.DefinedValues`
+For the detailed usage examples of all the new features, please visit [Aspose.PSD for .NET 20.3 - Release Notes](https://docs.aspose.com/display/psdnet/Aspose.PSD+for+.NET+20.3+-+Release+Notes).
 
 ## Read & Write Photoshop Formats
 
