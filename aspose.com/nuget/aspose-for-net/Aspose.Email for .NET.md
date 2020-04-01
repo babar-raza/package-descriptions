@@ -15,29 +15,12 @@
 - Tools to verify email addresses, email syntax, email domain, mail server & MX records.
 - Extract objects from various mail storage formats as well as [create email storage files from scratch](https://docs.aspose.com/display/emailnet/Create+New+PST+File+and+Add+SubFolders).
 
-## New Features in v.20.2
+## New Features in v.20.3
 
-- [Support for OAuth 2.0](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.2+Release+Notes) using POP3Client.
+- Added streaming interface to `OLMClient`.
+- Extraction of `OLM` files timeout.
 
-The following constructors are added to initialize POP3Client using OAuth:
-
-```csharp
-public Pop3Client(
-            string host, /*The host name*/
-            int port, /*The port number*/
-            string username, /*The user name*/
-            ITokenProvider tokenProvider, /*TokenProvider allowing to retrieve access token*/
-            SecurityOptions securityOptions) /*Security mode for a mail client*/
-
-public Pop3Client(
-            string host, /*The host name*/
-            int port, /*The port number*/
-            string username, /*The user name*/
-            string authInfo, /*The user password or XOAUTH2 access token*/
-            bool useOAuth, /*Defines whether SASL XOAUTH2 mechanism is used to login to the server*/
-            SecurityOptions securityOptions) /*Security mode for a mail client*/
-
-```
+For the detailed notes, please visit [Aspose.Email for .NET 20.3 Release Notes](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.3+Release+Notes).
 
 ## Read & Write Email Formats
 
