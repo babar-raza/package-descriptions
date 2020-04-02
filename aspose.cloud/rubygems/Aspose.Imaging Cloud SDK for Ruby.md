@@ -12,7 +12,7 @@ This cloud SDK assists to [process & manipulate images](https://products.aspose.
 - Rotate, flip, crop, resize or fetch properties of the selected TIFF frame.
 - Merge multiple TIFF images.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - Support for image grayscale feature.
 

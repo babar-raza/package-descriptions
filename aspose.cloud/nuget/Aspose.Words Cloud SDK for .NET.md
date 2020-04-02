@@ -14,7 +14,7 @@ This cloud SDK provides seamless integration of [cloud document processing & man
 - Convert an encrypted PDF document into MS Word document format.
 - So many more features.
 
-## Enhancements in Version 20.1.0
+## Enhancements in Version 20.1
 
 - Moved property `ColorMode` from `SaveOptionsData` to `FixedPageSaveOptionsData`.
 - Replaced `MemoryStream` and `byte[]` with `SixLabors.ImageSharp.IImage` in image processing.

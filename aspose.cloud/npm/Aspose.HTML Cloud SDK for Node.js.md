@@ -13,7 +13,7 @@ Node.js Cloud SDK wraps Aspose.HTML REST API so you could seamlessly integrate m
 - Convert HTML page to numerous other file formats.
 - Validate HTML for SEO & structure errors.
 
-## New Features in Version 19.11.0
+## New Features in Version 19.11
 
 - Added following SEO analysis points in the current version:
   - detection of broken links.

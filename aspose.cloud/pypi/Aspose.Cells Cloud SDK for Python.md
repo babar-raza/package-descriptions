@@ -16,7 +16,7 @@ Python Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate M
 - Convert worksheets to PDF, XPS & SVG formats.
 - Inter-convert files to popular Excel formats.
 
-## New Features in Version 20.3.0
+## New Features in Version 20.3
 
 - Support to export area or page of sheet to `JPEG`.
 - Support to add background for workbook.

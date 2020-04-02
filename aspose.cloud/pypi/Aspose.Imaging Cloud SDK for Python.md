@@ -19,7 +19,7 @@ Python Cloud SDK wraps Aspose.Imaging REST API so you could seamlessly integrate
   - Image comparison and similarity detection
   - Image features extraction (for now, AKAZE detector is supported)
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - Added image grayscale feature.
 

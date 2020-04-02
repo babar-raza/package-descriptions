@@ -10,7 +10,7 @@ Python Cloud SDK wraps Aspose.Diagram REST API so you could seamlessly integrate
 - Upload your business oriented Visio diagrams to cloud storage.
 - Export Visio files to raster images, fixed-layout and HTML formats.
 
-## New Features in Version 19.10.0
+## New Features in Version 19.10
 
 - Added `SaveOption` parameter for `saveAs` API.
 - Added support for multiple files exports that convert files to `HTML`.

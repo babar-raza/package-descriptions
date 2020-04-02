@@ -15,7 +15,7 @@ This Cloud SDK allows you to [easily build cloud-based PDF creator](https://prod
 - Extensive support for converting PDF documents to various other file formats.
 - Extract various elements of PDF file & make PDF document optimized.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - Convert PDFA to PDF and upload the resulting file to storage.
 - Convert PDFA to PDF and return resulting file in response.

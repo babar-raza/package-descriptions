@@ -12,7 +12,7 @@ Python Cloud SDK wraps Aspose.Email REST API so you could seamlessly integrate M
   - Business card recognition.
   - Parse and handle personal names.
 
-## New Features in Version 20.3.0
+## New Features in Version 20.3
 
 - Ability to determine whether an email address is disposable or not.
 - Ability to create virtual multi-account to search, fetch and delete messages from several accounts at the same time.

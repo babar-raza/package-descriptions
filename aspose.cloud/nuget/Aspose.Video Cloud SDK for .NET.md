@@ -17,7 +17,7 @@ This video manipulation REST API helps your cloud-based applications to [retriev
 - Fetch all properties of a particular video file.
 - Fetch video file from web and upload it to the cloud storage.
 
-## New Features in Version 18.2.1
+## New Features in Version 18.2
 
 - This is the first version of Aspose.Video for Cloud.
 

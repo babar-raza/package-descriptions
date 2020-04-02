@@ -10,7 +10,7 @@ Python Cloud SDK wraps Aspose.HTML REST API so you could seamlessly integrate ma
 - Use request body to [populate HTML document template](https://docs.aspose.cloud/display/htmlcloud/Populate+HTML+Document+Template+with+Data).
 - Convert HTML page to numerous other file formats.
 
-## New Features in Version 19.11.0
+## New Features in Version 19.11
 
 - Added following SEO analysis points in the current version:
   - detection of broken links.

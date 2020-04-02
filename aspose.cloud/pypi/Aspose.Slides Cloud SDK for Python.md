@@ -13,7 +13,7 @@ Python Cloud SDK wraps Aspose.Slides REST API so you could seamlessly integrate 
 - Full read & write access to Document Object Model, including slides, shapes, paragraphs, portions & more.
 - Access presentation's metadata.
 
-## Enhancements in Version 20.2.0
+## Enhancements in Version 20.2
 
 - Scalar type model properties which are not required are nullable in SDKs.
 - Path request property is optional in SDKs.

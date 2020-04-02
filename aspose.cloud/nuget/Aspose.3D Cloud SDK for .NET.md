@@ -17,7 +17,7 @@
 - Address nodes by object addressing path or remove nodes with attached light or camera.
 - Remove 3D objects from a scene.
 
-## New Features in Version 19.11.0
+## New Features in Version 19.11
 
 - This is the initial release. The key features are as follows:
   - **Read/Write:** Save or convert between a multitude of file types.

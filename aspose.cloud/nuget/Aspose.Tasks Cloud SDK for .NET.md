@@ -17,7 +17,7 @@ This task management REST API enhances your C#, ASP.NET & other .NET cloud-based
 - Fetch a project document in the desired format.
 - Delete project task with its related references & rebuild task tree.
 
-## New Features in Version 19.12.0
+## New Features in Version 19.12
 
 - Imported projects from Project Online (Server) can now be saved as `MPP` file.
 - Imported projects from a database can now be saved as `MPP` file.

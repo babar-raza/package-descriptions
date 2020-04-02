@@ -11,7 +11,7 @@ This REST API enables your C#, ASP.NET & other .NET cloud-based apps to [process
 - Merge multiple presentations or split single presentation into multiple ones.
 - Extract and replace text from specific slide or entire presentation.
 
-## Enhancements & Changes in Version 20.2.0
+## Enhancements & Changes in Version 20.2
 
 - Do not include empty & default field values in `JSON` response for Chart shape object.
 
