@@ -37,10 +37,6 @@ For the detailed notes, please visit [Aspose.Words Cloud 20.1 Release Notes](htt
 **Images:** JPEG, PNG, BMP, SVG, TIFF, EMF
 **Others:** PCL
 
-## Platform Independence
-
-Aspose.Words Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
 ## Getting Started with Aspose.Words Cloud SDK for Ruby
 
 You do not need to install anything to get started with Aspose.Words Cloud SDK for Ruby. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.

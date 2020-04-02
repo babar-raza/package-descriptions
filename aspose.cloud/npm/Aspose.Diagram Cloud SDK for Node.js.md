@@ -46,7 +46,7 @@ It gives you an ability to:
 - Copy and move files and folders across separate storages in scope of a single operation.
 - Check if certain file, folder or storage exists.
 
-## Getting Started with Aspose.Digram Cloud SDK for Node.js
+## Getting Started with Aspose.Diagram Cloud SDK for Node.js
 
 Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) to get your application information and free quota to use the API. Now execute `npm install aspose-diagram-cloud-node --save` from the command line to install Aspose.Diagram Cloud SDK for Node.js via NPM.
 

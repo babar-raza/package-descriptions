@@ -36,10 +36,6 @@ HTML, BMP, PNG, JPEG, TIFF, SVG, CSV, TXT, XLSX, PDF, XPS
 
 MPT
 
-## Platform Independence
-
-Aspose.Tasks Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
 ## Getting Started with Aspose.Tasks Cloud SDK for PHP
 
 This repository contains Aspose.Tasks Cloud SDK for PHP source code. To use these SDKs, you will need App SID and App Key which can be looked up at [Aspose Cloud Dashboard](https://dashboard.aspose.cloud/#/apps) ([free registration](https://id.containerize.com/signup?clientId=prod.discourse.aspose&redirectUrl=https://forum.aspose.cloud/session/sso) is required).
