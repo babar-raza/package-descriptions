@@ -43,10 +43,6 @@ For the detailed notes, please visit [GroupDocs.Viewer Cloud 19.5 Release Notes]
 **Image:** BMP, CGM, DCM, DJVU, DNG, EMF, EPS, GIF, ICO, JP2, JPF, JPX, J2K, J2C, JPM, JPG, JPEG, ODG, PCL, PNG, PS, PSD, SVG, TIF, TIFF, WEBP, WMF
 **eBook:** EPUB, MOBI
 
-## Platform Independence
-
-GroupDocs.Viewer Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
 ## Getting Started
 
 You do not need to install anything to get started with GroupDocs.Viewer Cloud SDK for .Net. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.

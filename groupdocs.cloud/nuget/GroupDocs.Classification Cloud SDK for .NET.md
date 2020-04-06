@@ -60,10 +60,6 @@ Resume
 Scientific - scientific papers.
 Other - the other classes of documents or cases where the classifier is not sure.
 
-## Platform Independence
-
-GroupDocs.Classification Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
 ## Getting Started
 
 You do not need to install anything to get started with GroupDocs.Classification Cloud SDK for .Net. Just create an account at [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) and get your application information.

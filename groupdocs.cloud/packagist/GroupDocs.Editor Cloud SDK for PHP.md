@@ -26,10 +26,6 @@ Use this REST API to enhance your PHP apps to [edit documents, spreadsheets, pre
 **Markup:** HTML, XML
 **Other:** TXT
 
-## Platform Independence
-
-GroupDocs.Editor Cloud's platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
 ## Dependencies
 
 - PHP 5.5 or later

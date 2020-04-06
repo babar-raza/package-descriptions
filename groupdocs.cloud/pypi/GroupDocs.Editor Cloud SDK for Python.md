@@ -23,7 +23,6 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/editor/) to k
 - Recognize email addresses and URIs in the XML files.
 - Enable pagination and protection while saving Word documents.
 
-
 ## Supported File Formats for Editing
 
 GroupDocs.Editor Cloud API [supports 40+ file formats](https://wiki.groupdocs.cloud/editorcloud/getting-started/supported-document-formats/) that it can load & edit.
