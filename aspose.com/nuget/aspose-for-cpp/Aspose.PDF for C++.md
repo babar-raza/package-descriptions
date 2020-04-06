@@ -70,4 +70,4 @@ auto doc = MakeObject<Document>(u"template.pdf");
 doc->Save(u"output.doc", MakeObject<DocSaveOptions>());
 ```
 
-[Product Page](https://products.aspose.com/pdf/cpp) | [Documentation](https://docs.aspose.com/display/pdfcpp/Home) | [API Reference](https://apireference.aspose.com/cpp/pdf) | [Code Examples](https://github.com/aspose-pdf/Aspose.Pdf-for-C) | [Blog](https://blog.aspose.com/category/pdf/) | [Free Support](https://forum.aspose.com/c/pdf) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/pdf/cpp) | [Documentation](https://docs.aspose.com/display/pdfcpp/Home) | [Live Demo](https://products.aspose.app/pdf/family) | [API Reference](https://apireference.aspose.com/cpp/pdf) | [Code Examples](https://github.com/aspose-pdf/Aspose.Pdf-for-C) | [Blog](https://blog.aspose.com/category/pdf/) | [Free Support](https://forum.aspose.com/c/pdf) |  [Temporary License](https://purchase.aspose.com/temporary-license)

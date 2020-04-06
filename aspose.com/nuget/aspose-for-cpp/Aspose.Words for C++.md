@@ -98,4 +98,4 @@ doc->Save(u"output.epub");
 - Limited and unstable support for rendering features.
 - No support for reporting features.
 
-[Product Page](https://products.aspose.com/words/cpp) | [Documentation](https://docs.aspose.com/display/wordscpp/Home) | [API Reference](https://apireference.aspose.com/cpp/words) | [Code Examples](https://github.com/aspose-words/Aspose.Words-for-C) | [Blog](https://blog.aspose.com/category/words/) | [Free Support](https://forum.aspose.com/c/words) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/words/cpp) | [Documentation](https://docs.aspose.com/display/wordscpp/Home) | [Live Demo](https://products.aspose.app/words/family) | [API Reference](https://apireference.aspose.com/cpp/words) | [Code Examples](https://github.com/aspose-words/Aspose.Words-for-C) | [Blog](https://blog.aspose.com/category/words/) | [Free Support](https://forum.aspose.com/c/words) |  [Temporary License](https://purchase.aspose.com/temporary-license)
