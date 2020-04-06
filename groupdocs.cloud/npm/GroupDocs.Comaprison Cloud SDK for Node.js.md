@@ -16,7 +16,7 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/comparison/) 
 - Add summary page to resultant document after comparison.
 - Show deleted components in the resultant document.
 
-## New Features in Version 19.5.0
+## New Features in Version 19.5
 
 - This is the first release of a completely new version of the API `GroupDocs.Comparison.Cloud v2.0`.
 - `V2` provides much simpler and intuitive API as compared to `V1`.

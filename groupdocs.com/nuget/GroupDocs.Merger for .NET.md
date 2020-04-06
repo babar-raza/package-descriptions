@@ -23,7 +23,7 @@ This .NET on-premise API lets your apps [perform merging, trimming, reordering, 
 - Ability to log document manipulation process information.
 - Load document from local disk, stream or from URL.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - Added support for the MHTML file format.
 

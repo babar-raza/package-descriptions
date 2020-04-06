@@ -12,7 +12,7 @@ This .NET component makes it very easy to [remove classified or sensitive data](
 - Apply multiple redaction in a single call.
 - Modify compliance level from PDF/A-1b to PDF/A-1a during rasterizing PDF.
 
-## Enhancements in the Version 20.2.0
+## Enhancements in the Version 20.2
 
 - Support for metadata redaction of raster images (i.e. ability to edit or erase image metadata).
 

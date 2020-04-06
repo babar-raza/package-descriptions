@@ -18,7 +18,7 @@ Use this REST API to [search, verify & create signatures](https://products.group
 - Get or set the time at which the document was digitally signed.
 - Option to search some type of signatures from the document.
 
-## New Features in Version 19.5.0
+## New Features in Version 19.5
 
 - This is the first release of a completely new version of the API `GroupDocs.Signature.Cloud v2.0`.
 - `V2` provides a much simpler and intuitive API comparing with `V1`.

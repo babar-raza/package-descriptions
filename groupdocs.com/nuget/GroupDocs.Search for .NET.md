@@ -30,13 +30,13 @@ This .NET API enhances your apps to [perform robust search & index operations](h
 - Thread safe search during indexing, updating or merging operation.
 - Search over several indexes simultaneously.
 
-## Enhancements in Version 20.1.0
+## Enhancements in Version 20.1
 
 - Support for `.Net Standard 2.0`.
 - Support for index statuses reflecting possible operations.
 - Support options for metadata indexing.
 
-## Breaking Changes in Version 20.1.0
+## Breaking Changes in Version 20.1
 
 - All types from the `GroupDocs.Search.Legacy` namespace have been removed.
 

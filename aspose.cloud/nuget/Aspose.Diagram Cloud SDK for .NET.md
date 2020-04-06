@@ -10,7 +10,7 @@ This cloud SDK enables your C#, ASP.NET & other .NET cloud apps to [create & pro
 - Upload your business oriented Visio diagrams to cloud storage.
 - Export Visio files to raster images, fixed-layout and HTML formats.
 
-## New Features in Version 19.10.0
+## New Features in Version 19.10
 
 - General enhancements to the Aspose.Diagram Cloud REST API.
 - Added `SaveOption` parameter for `saveAs` API.

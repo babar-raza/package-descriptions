@@ -26,14 +26,14 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/conversion/) 
 - Set page's DPI & zoom level while converting Word documents.
 - Render specific CAD layouts.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - **New Source Formats:** DIB, XLT, POT, XLAM, MPX, JPC, DWT, JPEG-LS.
 - **New Target Formats:** WMF, EMF, XLAM.
 - Supports encoding for source `CSV` and `TXT` documents.
 - Supports `TimeZoneOffset` and `ConvertAttachments` for source Email documents.
 
-## Enhancements in Version 20.2.0
+## Enhancements in Version 20.2
 
 - Improved quality of Diagram to Word document conversion.
 - Converting multi-page `TIFF` to `PDF`.

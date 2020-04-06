@@ -14,7 +14,7 @@ It is a powerful on-premise class library that can be used for numerous [documen
 - Generate reports with Mail Merge that allows populating documents with data from various sources.
 - [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) to fetch data from databases, XML, JSON, OData, external documents and more.
 
-## New Features in Version 20.3.0
+## New Features in Version 20.3
 
 - LINQ Reporting Engine - Option to fit the image within textbox bounds while maintaining ratio.
 - Ability to set different attributes of Shape inside `IFieldMergingCallback.ImageFieldMerging`.

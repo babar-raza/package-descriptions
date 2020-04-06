@@ -13,7 +13,7 @@ This REST API enhances your C#, ASP.NET & other .NET cloud apps to [import, expo
 - Render documents to PDF format with storage URL or stream output.
 - Add or remove document or image annotations of various types.
 
-## New Features in Version 19.5.0
+## New Features in Version 19.5
 
 - This is the first release of a completely new version of the API `GroupDocs.Annotation.Cloud v2.0`.
 - `V2` provides much simpler and intuitive API comparing with `V1`.

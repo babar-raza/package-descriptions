@@ -22,7 +22,7 @@ This REST API enhances your C#, ASP.NET, & other .NET based cloud apps to [rende
 - Get list of all email attachments in its HTML or image representation.
 - Download resources of a specific email attachment page for HTML representation.
 
-## Enhancements in Version 19.5.0
+## Enhancements in Version 19.5
 
 - Improved Cloud products API Reference grouping.
 

@@ -14,7 +14,7 @@ It is a standalone OCR API that enhances your .NET apps to perform the [OCR oper
 - Scan rotated images.
 - Application of various noise removal filters to assist image recognition.
 
-## Enhancements in Version 19.9.3
+## Enhancements in Version 19.9
 
 - New text recognition engine speed and quality with the introduction of a new Line Recognition Neural Network.  It allows to process the entire lines of text without splitting them into separate words which makes recognition faster and with higher quality.
 

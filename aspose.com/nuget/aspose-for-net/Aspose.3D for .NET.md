@@ -13,12 +13,12 @@
 - [Add 3D scene animation](https://docs.aspose.com/display/3dnet/Add+Animation+Property+and+Setup+Target+Camera+in+3D+document).
 - Work with 3D objects & models.
 
-## Enhancements in Version 20.3.0
+## Enhancements in Version 20.3
 
 - Text rendering support in web renderer.
 - Ruler render in web renderer.
 
-## New Members Added in Version 20.3.0
+## New Members Added in Version 20.3
 
 - Added new members in class `Aspose.ThreeD.Formats.HTML5SaveOptions`.
 

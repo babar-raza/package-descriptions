@@ -24,7 +24,7 @@ This robust .NET on-premise [file viewer API](https://products.groupdocs.com/vie
 - Render documents with comments, notes, and custom fonts.
 - Replace missing fonts while rendering.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - Supports retrieving an attachment file type.
 - Display folder name in the header when viewing archives.

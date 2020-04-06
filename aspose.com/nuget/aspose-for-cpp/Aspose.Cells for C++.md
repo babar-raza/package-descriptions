@@ -18,7 +18,7 @@ It allows the developers to work with spreadsheet [rows, columns](https://docs.a
 - [Insert an OLE object into the worksheet](https://docs.aspose.com/display/cellscpp/Inserting+OLE+Objects+into+the+Worksheet#InsertingOLEObjectsintotheWorksheet-InsertingOLEObjectsintotheWorksheet).
 - Access all the OLE objects contained in the worksheet for [extraction](https://docs.aspose.com/display/cellscpp/Extracting+OLE+Objects+from+Worksheet#ExtractingOLEObjectsfromWorksheet-ExtractingOLEObjectsfromWorksheet).
 
-## New Features in Version 19.11.0
+## New Features in Version 19.11
 
 - Support for adding Callback event/mechanism that notifies the progress of conversion (e.g Excel to PDF).
 

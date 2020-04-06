@@ -22,7 +22,7 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/viewer/) to k
 - Render email messages & Outlook data files.
 - Integrated storage API.
 
-## New Features in Version 19.5.0
+## New Features in Version 19.5
 
 - Improve Cloud products API Reference grouping.
 

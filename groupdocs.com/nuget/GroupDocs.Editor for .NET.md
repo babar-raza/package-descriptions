@@ -21,12 +21,12 @@ It is a .NET API that enhances your apps to perform document, spreadsheets, DSV 
 - Open any supported format file in HTML format and save to disk.
 - Fetch HTML markup from DB or remote storage.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - Set custom class name for all form-fields with corresponding public options.
 - Support for text direction in input plain text document.
 
-## Improvements in Version 20.2.0
+## Improvements in Version 20.2
 
 - Support for `PDF 1.7`.
 

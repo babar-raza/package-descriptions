@@ -13,7 +13,7 @@ This on-premise .NET API lets your app end-users [sign the electronic documents]
 - Distinguish created signatures from the actual document.
 - Put encrypted text into QR-code signature or embed custom data objects.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - Extended Image Signature with image data content for following:
   - Presentation Documents
@@ -23,7 +23,7 @@ This on-premise .NET API lets your app end-users [sign the electronic documents]
 - Support to implement Image Size filter for Image Search functionality.
 - Support to implement output Image format property for Image Search Options.
 
-## Enhancements in the Version 20.2.0
+## Enhancements in the Version 20.2
 
 - Extended Document Information with list of existing signatures and document Form Fields.
 - Improved ability to search over simple `SignatureType` argument or several.

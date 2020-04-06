@@ -16,11 +16,11 @@ Its an on-premise API that seamlessly [integrates document annotation features](
 - Remove previously added annotations from a document.
 - Update specific annotation properties (size, color etc.).
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - Ability to add Image annotation to Diagrams.
 
-## Enhancements in Version 20.2.0
+## Enhancements in Version 20.2
 
 - Added overloads for Annotator Remove Method.
 - Implement image extracting to `ImageAnnotation`.

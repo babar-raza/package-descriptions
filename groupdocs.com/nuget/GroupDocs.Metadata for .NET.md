@@ -20,7 +20,7 @@ This .NET API can be consumed to [integrate metadata viewer](https://products.gr
 - Traverse a whole metadata tree.
 - Work with the APEv2, ID3v1, ID3v2, Lyrics & other tags of MP3 metadata.
 
-## New Features in Version 20.3.0
+## New Features in Version 20.3
 
 - Ability to work with `EXIF` metadata in `PSD` images.
 - Ability to work with `XMP` metadata in `WEBP` images.

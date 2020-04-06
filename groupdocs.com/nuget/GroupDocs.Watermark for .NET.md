@@ -16,7 +16,7 @@ This .NET component offers [read & write watermark](https://products.groupdocs.c
 - Set background image for charts in Excel and PowerPoint documents.
 - Work with PDF and email attachments.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - Added the support for `.NET Standard 2.0`.
 

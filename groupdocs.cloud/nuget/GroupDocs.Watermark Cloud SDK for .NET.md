@@ -11,7 +11,7 @@ Use this REST API to enable your cloud-based C#, ASP.NET, & other .NET apps to [
 - Edit properties of the existing editable watermarks.
 - Remove watermarks from specific pages or remove specific watermarks from the document.
 
-## New features in Version 19.12.0
+## New features in Version 19.12
 
 - This is the first release of a completely new version of the GroupDocs.Watermark.Cloud API.
 

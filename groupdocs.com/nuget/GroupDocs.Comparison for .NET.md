@@ -14,7 +14,7 @@ A .NET component that enables your apps to [detect content, style & formatting d
 - Support to set metadata from the source, target files or keep it user-defined.
 - Make the resultant document password protected.
 
-## New Features in Version 20.2.0
+## New Features in Version 20.2
 
 - Implement file comparison for:
   - Groovy, JSON, ActionScript, Perl, Objective C\C++, Ruby, Shell\batch script, Log, Diff, Config, LESS, PHP, SQL, C-based, Scala, JavaScript, Assembler, Python, Java, C#.
