@@ -122,4 +122,4 @@ Task subtask = task.Children.Add("Subtask1");
 project.Save(dir + "output.xml", SaveFileFormat.XML);
 ```
 
-[Product Page](https://products.aspose.com/tasks/net) | [Documentation](https://docs.aspose.com/display/tasksnet/Home) | [API Reference](https://apireference.aspose.com/net/tasks) | [Code Examples](https://github.com/aspose-tasks/Aspose.Tasks-for-.NET) | [Blog](https://blog.aspose.com/category/tasks/) | [Free Support](https://forum.aspose.com/c/tasks) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/tasks/net) | [Documentation](https://docs.aspose.com/display/tasksnet/Home) | [Live Demo](https://products.aspose.app/tasks/family) | [API Reference](https://apireference.aspose.com/net/tasks) | [Code Examples](https://github.com/aspose-tasks/Aspose.Tasks-for-.NET) | [Blog](https://blog.aspose.com/category/tasks/) | [Free Support](https://forum.aspose.com/c/tasks) |  [Temporary License](https://purchase.aspose.com/temporary-license)

@@ -45,4 +45,4 @@ RecognitionResult result = templateProcessor.RecognizeImage(dir + "template.jpg"
 string csvResult = result.GetCsv();
 ```
 
-[Product Page](https://products.aspose.com/omr/net) | [Documentation](https://docs.aspose.com/display/omrnet/Home) | [API Reference](https://apireference.aspose.com/net/omr) | [Code Examples](https://github.com/aspose-omr/Aspose.OMR-for-.NET) | [Blog](https://blog.aspose.com/category/omr/) | [Free Support](https://forum.aspose.com/c/omr) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/omr/net) | [Documentation](https://docs.aspose.com/display/omrnet/Home) | [Live Demo](https://products.aspose.app/omr/family) | [API Reference](https://apireference.aspose.com/net/omr) | [Code Examples](https://github.com/aspose-omr/Aspose.OMR-for-.NET) | [Blog](https://blog.aspose.com/category/omr/) | [Free Support](https://forum.aspose.com/c/omr) |  [Temporary License](https://purchase.aspose.com/temporary-license)
