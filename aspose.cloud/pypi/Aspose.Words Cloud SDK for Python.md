@@ -76,4 +76,4 @@ result = words_api.delete_document_watermark(request)
 self.assertTrue(result.code == 200, 'Error has occurred while delete document watermark')
 ```
 
-[Product Page](https://products.aspose.cloud/words/python) | [Documentation](https://docs.aspose.cloud/display/wordscloud/Home) | [API Reference](https://apireference.aspose.cloud/words/) | [Code Samples](https://github.com/aspose-words-cloud/aspose-words-cloud-python) | [Blog](https://blog.aspose.cloud/category/words/) | [Free Support](https://forum.aspose.cloud/c/words) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/words/python) | [Documentation](https://docs.aspose.cloud/display/wordscloud/Home) | [Live Demo](https://products.aspose.app/words/family) | [API Reference](https://apireference.aspose.cloud/words/) | [Code Samples](https://github.com/aspose-words-cloud/aspose-words-cloud-python) | [Blog](https://blog.aspose.cloud/category/words/) | [Free Support](https://forum.aspose.cloud/c/words) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
