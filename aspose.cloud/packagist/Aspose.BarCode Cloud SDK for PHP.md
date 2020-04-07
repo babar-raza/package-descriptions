@@ -184,4 +184,4 @@ try {
 
 All Aspose.BarCode for Cloud SDKs, helper scripts and templates are licensed under [MIT License](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php/blob/HEAD/LICENSE).
 
-[Product Page](https://products.aspose.cloud/barcode/php) | [Documentation](https://docs.aspose.cloud/display/barcodecloud/Home) | [API Reference](https://apireference.aspose.cloud/barcode/) | [Code Samples](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) | [Blog](https://blog.aspose.cloud/category/barcode/) | [Free Support](https://forum.aspose.cloud/c/barcode) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/barcode/php) | [Documentation](https://docs.aspose.cloud/display/barcodecloud/Home) | [Live Demo](https://products.aspose.app/barcode/family) | [API Reference](https://apireference.aspose.cloud/barcode/) [Code Samples](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-php) | [Blog](https://blog.aspose.cloud/category/barcode/) | [Free Support](https://forum.aspose.cloud/c/barcode) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

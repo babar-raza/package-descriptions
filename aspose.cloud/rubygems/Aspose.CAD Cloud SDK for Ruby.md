@@ -105,4 +105,4 @@ end
 
 [Tests](https://github.com/aspose-cad-cloud/aspose-cad-cloud-ruby/blob/master/tests) contain various examples of using the SDK. Please put your credentials into [Configuration](https://github.com/aspose-cad-cloud/aspose-cad-cloud-ruby/blob/master/lib/configuration.rb).
 
-[Product Page](https://products.aspose.cloud/cad/ruby) | [Documentation](https://docs.aspose.cloud/display/cadcloud/Home) | [API Reference](https://apireference.aspose.cloud/cad/) | [Code Samples](https://github.com/aspose-cad-cloud/aspose-cad-cloud-ruby) | [Blog](https://blog.aspose.cloud/category/cad/) | [Free Support](https://forum.aspose.cloud/c/cad) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/cad/ruby) | [Documentation](https://docs.aspose.cloud/display/cadcloud/Home) | [Live Demo](https://products.aspose.app/cad/family) | [API Reference](https://apireference.aspose.cloud/cad/) | [Code Samples](https://github.com/aspose-cad-cloud/aspose-cad-cloud-ruby) | [Blog](https://blog.aspose.cloud/category/cad/) | [Free Support](https://forum.aspose.cloud/c/cad) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

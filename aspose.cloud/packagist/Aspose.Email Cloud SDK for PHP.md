@@ -88,4 +88,4 @@ echo $result->getValue()[0]->getGender(); //prints "Male"
 
 All Aspose.Email for Cloud SDKs, helper scripts and templates are licensed under [MIT License](https://github.com/aspose-email-cloud/aspose-email-cloud-php/blob/HEAD/LICENSE).
 
-[Product Page](https://products.aspose.cloud/email/php) | [Documentation](https://docs.aspose.cloud/display/emailcloud/Home) | [API Reference](https://apireference.aspose.cloud/email/) | [Code Samples](https://github.com/aspose-email-cloud/aspose-email-cloud-php) | [Blog](https://blog.aspose.cloud/category/email/) | [Free Support](https://forum.aspose.cloud/c/email) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/email/php) | [Documentation](https://docs.aspose.cloud/display/emailcloud/Home) | [Live Demo](https://products.aspose.app/email/family) | [API Reference](https://apireference.aspose.cloud/email/) | [Code Samples](https://github.com/aspose-email-cloud/aspose-email-cloud-php) | [Blog](https://blog.aspose.cloud/category/email/) | [Free Support](https://forum.aspose.cloud/c/email) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
