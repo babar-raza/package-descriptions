@@ -154,4 +154,4 @@ using (Signature signature = new Signature("signed.docx"))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/signature/net) | [Documentation](https://docs.groupdocs.com/display/signaturenet/Home) | [API Reference](https://apireference.groupdocs.com/net/signature) | [Code Samples](https://github.com/groupdocs-signature/GroupDocs.Signature-for.NET) | [Blog](https://blog.groupdocs.com/category/signature/) | [Free Support](https://forum.groupdocs.com/c/signature) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/signature/net) | [Documentation](https://docs.groupdocs.com/display/signaturenet/Home) | [Live Demo](https://products.groupdocs.app/signature/family) | [API Reference](https://apireference.groupdocs.com/net/signature) | [Code Samples](https://github.com/groupdocs-signature/GroupDocs.Signature-for.NET) | [Blog](https://blog.groupdocs.com/category/signature/) | [Free Support](https://forum.groupdocs.com/c/signature) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

@@ -110,4 +110,4 @@ using (Merger merger = new Merger(filePath))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/merger/net) | [Documentation](https://docs.groupdocs.com/display/mergernet/Home) | [API Reference](https://apireference.groupdocs.com/net/merger) | [Code Samples](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET) | [Blog](https://blog.groupdocs.com/category/merger/) | [Free Support](https://forum.groupdocs.com/c/merger) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/merger/net) | [Documentation](https://docs.groupdocs.com/display/mergernet/Home) | [Live Demo](https://products.groupdocs.app/assembly/family) | [API Reference](https://apireference.groupdocs.com/net/merger) | [Code Samples](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET) | [Blog](https://blog.groupdocs.com/category/merger/) | [Free Support](https://forum.groupdocs.com/c/merger) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

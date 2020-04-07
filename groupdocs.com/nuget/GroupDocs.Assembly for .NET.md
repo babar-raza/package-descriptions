@@ -94,4 +94,4 @@ assembler.AssembleDocument(CommonUtilities.GetSourceDocument(strDocumentTemplate
                            new DataSourceInfo(DataLayer.ExcelData(), "contracts"));
 ```
 
-[Product Page](https://products.groupdocs.com/assembly/net) | [Documentation](https://docs.groupdocs.com/display/assemblynet/Home) | [API Reference](https://apireference.groupdocs.com/net/assembly) | [Code Samples](https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-.NET) | [Blog](https://blog.groupdocs.com/category/assembly/) | [Free Support](https://forum.groupdocs.com/c/assembly) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/assembly/net) | [Documentation](https://docs.groupdocs.com/display/assemblynet/Home) | [Live Demo](https://products.groupdocs.app/assembly/family) | [API Reference](https://apireference.groupdocs.com/net/assembly) | [Code Samples](https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-.NET) | [Blog](https://blog.groupdocs.com/category/assembly/) | [Free Support](https://forum.groupdocs.com/c/assembly) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

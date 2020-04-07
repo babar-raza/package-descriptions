@@ -95,4 +95,4 @@ using (Watermarker watermarker = new Watermarker(Constants.InDocumentPdf))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/watermark/net) | [Documentation](https://docs.groupdocs.com/display/watermarknet) | [API Reference](https://apireference.groupdocs.com/net/watermark) | [Code Samples](https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET) | [Blog](https://blog.groupdocs.com/category/watermark/) | [Free Support](https://forum.groupdocs.com/c/watermark) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/watermark/net) | [Documentation](https://docs.groupdocs.com/display/watermarknet) | [Live Demo](https://products.groupdocs.app/watermark/family) | [API Reference](https://apireference.groupdocs.com/net/watermark) | [Code Samples](https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-.NET) | [Blog](https://blog.groupdocs.com/category/watermark/) | [Free Support](https://forum.groupdocs.com/c/watermark) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

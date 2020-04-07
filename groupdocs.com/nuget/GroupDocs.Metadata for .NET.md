@@ -113,4 +113,4 @@ foreach (string file in Directory.GetFiles(Constants.InputPath))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/metadata/net) | [Documentation](https://products.groupdocs.com/metadata/net) | [API Reference](https://apireference.groupdocs.com/net/metadata) | [Code Samples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET) | [Blog](https://blog.groupdocs.com/category/metadata/) | [Free Support](https://forum.groupdocs.com/c/metadata) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/metadata/net) | [Documentation](https://products.groupdocs.com/metadata/net) | [Live Demo](https://products.groupdocs.app/metadata/family) | [API Reference](https://apireference.groupdocs.com/net/metadata) | [Code Samples](https://github.com/groupdocs-metadata/GroupDocs.Metadata-for-.NET) | [Blog](https://blog.groupdocs.com/category/metadata/) | [Free Support](https://forum.groupdocs.com/c/metadata) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

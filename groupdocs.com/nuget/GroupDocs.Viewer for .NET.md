@@ -122,4 +122,4 @@ using (Viewer viewer = new Viewer("sample.docx"))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/viewer/net) | [Documentation](https://docs.groupdocs.com/display/viewernet/Home) | [API Reference](https://apireference.groupdocs.com/net/viewer) | [Code Samples](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET) | [Blog](https://blog.groupdocs.com/category/viewer/) | [Free Support](https://forum.groupdocs.com/c/viewer) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/viewer/net) | [Documentation](https://docs.groupdocs.com/display/viewernet/Home) | [Live Demo](https://products.groupdocs.app/viewer/family) | [API Reference](https://apireference.groupdocs.com/net/viewer) | [Code Samples](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET) | [Blog](https://blog.groupdocs.com/category/viewer/) | [Free Support](https://forum.groupdocs.com/c/viewer) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
