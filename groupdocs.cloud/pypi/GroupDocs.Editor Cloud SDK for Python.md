@@ -114,4 +114,4 @@ print("Document edited: " + saveResult.path)
 
 GroupDocs.Editor Cloud Python SDK licensed under [MIT License](http://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-python/LICENSE).
 
-[Product Page](https://products.groupdocs.cloud/editor/python) | [Documentation](https://wiki.groupdocs.cloud/editorcloud/) | [API Reference](https://apireference.groupdocs.cloud/editor/) | [Code Samples](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/editor/) | [Free Support](https://forum.groupdocs.cloud/c/editor) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+[Product Page](https://products.groupdocs.cloud/editor/python) | [Documentation](https://wiki.groupdocs.cloud/editorcloud/) | [Live Demo](https://products.groupdocs.app/editor/family) | [API Reference](https://apireference.groupdocs.cloud/editor/) | [Code Samples](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/editor/) | [Free Support](https://forum.groupdocs.cloud/c/editor) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

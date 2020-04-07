@@ -79,5 +79,4 @@ var request = new AddRequest(options);
 var response = apiInstance.Add(request);
 ```
 
-
-[Product Page](https://products.groupdocs.cloud/watermark/net) | [Documentation](https://wiki.groupdocs.cloud/watermarkcloud/) | [API Reference](https://apireference.groupdocs.cloud/watermark/) | [Code Samples](https://github.com/groupdocs-watermark-cloud/groupdocs-watermark-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/watermark/) | [Free Support](https://forum.groupdocs.cloud/c/watermark) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+[Product Page](https://products.groupdocs.cloud/watermark/net) | [Documentation](https://wiki.groupdocs.cloud/watermarkcloud/) | [Live Demo](https://products.groupdocs.app/watermark/family) | [API Reference](https://apireference.groupdocs.cloud/watermark/) | [Code Samples](https://github.com/groupdocs-watermark-cloud/groupdocs-watermark-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/watermark/) | [Free Support](https://forum.groupdocs.cloud/c/watermark) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
