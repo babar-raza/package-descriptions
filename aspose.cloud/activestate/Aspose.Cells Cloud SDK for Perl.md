@@ -43,7 +43,7 @@ SXC, FODS
 
 ## How to use the SDK
 
-The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [Packagist distribution](https://www.cpan.org) (recommended). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/cellscloud/Available+SDKs).
+The complete source code is available at the [GitHub repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-perl). You can either directly use it in your project via source code or get [Packagist distribution](https://www.cpan.org) (recommended). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/cellscloud/Available+SDKs).
 
 ## Prerequisites
 
@@ -69,4 +69,4 @@ To use Aspose.Cells Cloud SDK for Perl you need to register an account with [Asp
 
 All Aspose.Cells Cloud SDKs are licensed under [MIT License](https://github.com/aspose-cells-cloud/aspose-cells-cloud-perl/blob/master/LICENSE).
 
-[Product Page](https://products.aspose.cloud/cells/net) | [Documentation](https://docs.aspose.cloud/display/cellscloud/Home) | [Live Demo](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.cloud/cells/) | [Code Samples](https://github.com/aspose-cells-cloud/aspose-cells-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/cells/) | [Free Support](https://forum.aspose.cloud/c/cells) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/cells/net) | [Documentation](https://docs.aspose.cloud/display/cellscloud/Home) | [Live Demo](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.cloud/cells/) | [Code Samples](https://github.com/aspose-cells-cloud/aspose-cells-cloud-perl) | [Blog](https://blog.aspose.cloud/category/cells/) | [Free Support](https://forum.aspose.cloud/c/cells) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
