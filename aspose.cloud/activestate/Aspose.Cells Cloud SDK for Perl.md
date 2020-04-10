@@ -41,21 +41,17 @@ DIF, PDF, XPS, TIFF, SVG, MD (Markdown)
 
 SXC, FODS
 
-## Platform Independence
-
-Aspose.Cells Cloud’s platform independent document manipulation API is a true REST API that can be used from any platform. You can use it with any language or platform that supports REST, be it the web, desktop, mobile, or the cloud. The API integrates with other cloud services to provide you the flexibility you require for processing documents. It is suitable for the most types of businesses, documents, or content.
-
 ## How to use the SDK
 
-The complete source code is available in this repository folder. You can either directly use it in your project via source code or get Packagist distribution (recommended). For more details, please visit our documentation website.
+The complete source code is available in this repository folder. You can either directly use it in your project via source code or get [Packagist distribution](https://www.cpan.org) (recommended). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/cellscloud/Available+SDKs).
 
 ## Prerequisites
 
-To use Aspose.Cells Cloud SDK for Perl you need to register an account with [Aspose Cloud](https://www.aspose.cloud/) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
+To use Aspose.Cells Cloud SDK for Perl you need to register an account with [Aspose Cloud](https://www.aspose.cloud) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
 
 ## Installation & Usage
 
-## Sample usage
+### Sample usage
 
 ```perl
 @instance = AsposeCellsCloud::CellsApi.new("appsid","appkey")
@@ -64,5 +60,13 @@ To use Aspose.Cells Cloud SDK for Perl you need to register an account with [Asp
  folder = 'Temp'
  @instance.cells_workbook_post_workbooks_text_search(name, text, { :folder=>folder})
 ```
+
+## Tests
+
+[Tests](https://github.com/aspose-cells-cloud/aspose-cells-cloud-perl/tree/master/t) contain various examples of using the SDK.
+
+## Licensing
+
+All Aspose.Cells Cloud SDKs are licensed under [MIT License](https://github.com/aspose-cells-cloud/aspose-cells-cloud-perl/blob/master/LICENSE).
 
 [Product Page](https://products.aspose.cloud/cells/net) | [Documentation](https://docs.aspose.cloud/display/cellscloud/Home) | [Live Demo](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.cloud/cells/) | [Code Samples](https://github.com/aspose-cells-cloud/aspose-cells-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/cells/) | [Free Support](https://forum.aspose.cloud/c/cells) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
