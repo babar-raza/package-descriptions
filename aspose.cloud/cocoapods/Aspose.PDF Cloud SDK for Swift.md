@@ -1,6 +1,6 @@
 # .NET REST API to Process PDF in Cloud
 
-This Cloud SDK allows you to [easily build cloud-based PDF creator](https://products.aspose.cloud/pdf/swift), editor & converter apps in C#, ASP.NET or other .NET languages for various cloud platforms.
+This Cloud SDK allows you to [easily build cloud-based PDF creator](https://products.aspose.cloud/pdf/swift), editor & converter apps in Swift language for various cloud platforms.
 
 ## PDF Processing Features
 

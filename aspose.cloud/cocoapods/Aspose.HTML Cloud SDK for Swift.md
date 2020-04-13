@@ -1,6 +1,6 @@
 # HTML Rendering & Conversion .NET Cloud REST API
 
-This cloud SDK assists to develop cloud-based [HTML page rendering, processing, translation & conversion](https://products.aspose.cloud/html/swift) apps in C#, ASP.NET & other .NET languages via REST API.
+This cloud SDK assists to develop cloud-based [HTML page rendering, processing, translation & conversion](https://products.aspose.cloud/html/swift) apps in Swift language via REST API.
 
 ## HTML Processing Features
 

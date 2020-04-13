@@ -1,6 +1,6 @@
 # .NET REST API for Spreadsheet Processing in Cloud
 
-This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to [process & manipulate Microsoft Excel spreadsheets](https://products.aspose.cloud/cells/net) in the cloud, without MS Office.
+This Cloud SDK enhances your Swift cloud-based apps to [process & manipulate Microsoft Excel spreadsheets](https://products.aspose.cloud/words/swift) in the cloud, without MS Office.
 
 ## Spreadsheet Processing Features
 
@@ -38,39 +38,56 @@ DIF, PDF, XPS, TIFF, SVG, MD (Markdown)
 
 SXC, FODS
 
-## Getting Started with Aspose.Cells Cloud SDK for .NET
+## How to use the SDK
 
-You do not need to install anything to get started with Aspose.Cells Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+The complete source code is available in this repository folder. You can either directly use it in your project via source code or add this repository as dependency (recommended). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/wordscloud/Available+SDKs).
 
-Simply execute `Install-Package Aspose.Cells-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Cells assembly in your project. If you already have Aspose.Cells Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.Cells-Cloud` to get the latest version.
+## Prerequisites
 
-Please check the [GitHub Repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-dotnet) for other common usage scenarios.
+To use Aspose Words Cloud SDK for Swift you need to register an account with [Aspose Cloud](https://www.aspose.cloud/) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://dashboard.aspose.cloud/#/apps).
 
-## Using C# to Add a New Worksheet to an Excel File
+## Installation & Usage
 
-The following code snippet demonstrates how to add a new worksheet to a Microsoft Excel document using C# code:
+Add link to this repository as dependency to your Package.swift:
 
-```csharp
-CellsWorksheetsApi instance = new CellsWorksheetsApi(GetConfiguration());
-string name = "Input.xlsx";
-string sheetName = "Sheet1";
-int? position = 1;
-string sheettype = "VB";
-string folder = null;
-UpdateDataFile(folder, name);
-var response = instance.CellsWorksheetsPutAddNewWorksheet(name, sheetName, position, sheettype, folder);
+```swift
+dependencies: [
+    // Dependencies declare other packages that this package depends on.
+    .package(url: "https://github.com/aspose-words-cloud/aspose-words-cloud-swift", from: "20.4"),
+],
+targets: [
+    // Targets are the basic building blocks of a package. A target can define a module or a test suite.
+    // Targets can depend on other targets in this package, and on products in packages which this package depends on.
+    .target(
+        name: "YourTargetName",
+        dependencies: ["AsposeWordsCloud"]
+    ),
+]
 ```
 
-## Using C# to Convert an Excel File to another File Format
+## Getting Started
 
-The following code example elaborates how you can use C# code to convert an Excel document to another file format in the cloud:
+```swift
+import Foundation;
+import AsposeWordsCloud;
 
-```csharp
-// Upload source file to aspose cloud storage
-storageApi.PutCreate(inputfileName, "", "", System.IO.File.ReadAllBytes(Common.GetDataDir() + inputfileName));
-
-// Invoke Aspose.Cells Cloud SDK API to convert excel workbook to different format
-SaveResponse apiResponse = cellsApi.PostDocumentSaveAs(inputfileName, outputFileName, isAutoFitRows, isAutoFitColumns, storage, folder, body);
+let wordsApi = WordsAPI(appSid: "YOUR_APP_SID", appKey: "YOUR_APP_KEY");
+let fileName = "TestCreateDocument.doc";
+let request = CreateDocumentRequest(fileName: fileName);
+let response = try wordsApi.createDocument(request: request);
 ```
 
-[Product Page](https://products.aspose.cloud/cells/net) | [Documentation](https://docs.aspose.cloud/display/cellscloud/Home) | [Live Demo](https://products.aspose.app/words/family) | [API Reference](https://apireference.aspose.cloud/cells/) | [Code Samples](https://github.com/aspose-cells-cloud/aspose-cells-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/cells/) | [Free Support](https://forum.aspose.cloud/c/cells) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+## Tests
+
+[Tests](https://github.com/aspose-words-cloud/aspose-words-cloud-swift/blob/master/Tests/AsposeWordsCloudTests) contain various examples of using the SDK. Please put your credentials into "Settings/servercreds.json" for run tests.
+
+## Dependencies
+
+- Swift 4.2+
+- referenced packages (see [here](https://github.com/aspose-words-cloud/aspose-words-cloud-swift/blob/master/Tests/AsposeWordsCloudTests) for more details)
+
+## Licensing
+
+All Aspose.Words Cloud SDKs, helper scripts and templates are licensed under [MIT License](https://github.com/aspose-words-cloud/aspose-words-cloud-swift/blob/master/LICENSE).
+
+[Product Page](https://products.aspose.cloud/words/swift) | [Documentation](https://docs.aspose.cloud/display/wordscloud/Home) | [Live Demo](https://products.aspose.app/words/family) | [API Reference](https://apireference.aspose.cloud/words/) | [Code Samples](https://github.com/aspose-words-cloud/aspose-words-cloud-swift) | [Blog](https://blog.aspose.cloud/category/words/) | [Free Support](https://forum.aspose.cloud/c/words) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
