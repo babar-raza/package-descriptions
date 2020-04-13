@@ -1,6 +1,6 @@
 # .NET REST API for OMR Processing
 
-This Cloud SDK enables you to [perform Optical Mark Recognition (OMR)](https://products.aspose.cloud/omr/net) operations on human-marked data from within your cloud-based C#, ASP.NET & other .NET apps.
+This Cloud SDK enables you to [perform Optical Mark Recognition (OMR)](https://products.aspose.cloud/omr/net) operations on human-marked data from within your cloud-based Perl apps.
 
 ## OMR Processing Features
 
@@ -24,36 +24,145 @@ CSV
 
 JPEG, PNG, BMP, TIFF, PDF
 
-## Getting Started with Aspose.OMR Cloud SDK for .NET
+## SYNOPSIS
 
-You do not need to install anything to get started with Aspose.OMR Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+The Perl Swagger Codegen project builds a library of Perl modules to interact with a web service defined by a OpenAPI Specification. See below for how to build the library.
 
-Simply execute `Install-Package Aspose.OMR-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.OMR assembly in your project. If you already have Aspose.OMR Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.OMR-Cloud` to get the latest version.
+This module provides an interface to the generated library. All the classes, objects, and methods (well, not quite *all*, see below) are flattened into this role.
 
-Please check the [GitHub Repository](https://github.com/aspose-omr-cloud) for other common usage scenarios.
+```perl
+package MyApp;
+use Moose;
+with 'AsposeDiagramCloud::Role';
 
-## Use C# to Perform Optical Mark Recognition (OMR) on PNG Images
+package main;
 
-The following code sample demonstrates, how to perform Optical Mark Recognition (OMR) operation on an PNG image file using C# code:
+my $api = MyApp->new({ tokens => $tokens });
 
-```csharp
-// Please visit https://dashboard.aspose.cloud/#/apps to get your APIKEY & APPSID.
-StorageApi storageApi = new StorageApi(APIKEY, APPSID);
-OmrApi omrApi = new OmrApi(APIKEY, APPSID, BASEPATH);
+my $pet = $api->get_pet_by_id(pet_id => $pet_id);
+```
 
-string name = "AnswerSheet.png";
+## Configuring authentication
 
-OMRFunctionParam param = new OMRFunctionParam();
+In the normal case, the OpenAPI Spec will describe what parameters are required and where to put them. You just need to supply the tokens.
 
-param.FunctionParam = packedTemplateJson;
+```perl
+my $tokens = {
+    # basic
+    username => $username,
+    password => $password,
 
-string versionId = "";
-string storage = "";
-storageApi.PutCreate(name, versionId, storage, System.IO.File.ReadAllBytes(pathToTheImage + name));
+    # oauth
+    access_token => $oauth_token,
 
-string folder = null;
-Com.Aspose.OMR.Model.OMRResponse response = omrApi.PostRunOmrTask(name, "CorrectTemplate", param, storage, folder);
-FileInfo[] resultFiles = response.Payload.Result.ResponseFiles;
+    # keys
+    $some_key => { token => $token,
+        prefix => $prefix,
+        in => $in,             # 'head||query',
+    },
+
+    $another => { token => $token,
+        prefix => $prefix,
+        in => $in,              # 'head||query',
+    },
+...,
+
+};
+
+my $api = MyApp->new({ tokens => $tokens });
+```
+
+Note these are all optional, as are `prefix` and `in`, and depend on the API you are accessing. Usually `prefix` and `in` will be determined by the code generator from the spec and you will not need to set them at run time. If not, `in` will default to 'head' and `prefix` to the empty string.
+
+The tokens will be placed in a LAsposeDiagramCloud::Configuration instance as follows, but you don't need to know about this.
+
+- `$cfg->{username}`
+  - String. The username for basic auth.
+- `$cfg->{password}`
+  - String. The password for basic auth.
+- `$cfg->{api_key}`
+  - Hashref. Keyed on the name of each key (there can be multiple tokens).
+  ```perl
+    $cfg->{api_key} = {
+        secretKey => 'aaaabbbbccccdddd',
+        anotherKey => '1111222233334444',
+    };
+  ```
+- `$cfg->{api_key_prefix}`
+  - Hashref. Keyed on the name of each key (there can be multiple tokens). Note not all api keys require a prefix.
+  ```perl
+    $cfg->{api_key_prefix} = {
+        secretKey => 'string',
+        anotherKey => 'same or some other string',
+    };
+  ```
+- `$cfg->{access_token}`
+  - String. The OAuth access token.
+
+## LOAD THE MODULES
+
+To load the API packages:
+
+```perl
+use AsposeDiagramCloud::DiagramFileApi;
+use AsposeDiagramCloud::OAuthApi;
+```
+
+To load the models:
+
+```perl
+use AsposeDiagramCloud::Object::DiagramModel;
+use AsposeDiagramCloud::Object::Link;
+use AsposeDiagramCloud::Object::PageModel;
+use AsposeDiagramCloud::Object::SaaSposeResponse;
+use AsposeDiagramCloud::Object::SaveResult;
+use AsposeDiagramCloud::Object::SharpModel;
+use AsposeDiagramCloud::Object::DiagramResponse;
+use AsposeDiagramCloud::Object::SaveResponse;
+```
+
+## GETTING STARTED
+
+Put the Perl SDK under the 'lib' folder in your project directory, then run the following
+
+```perl
+#!/usr/bin/perl
+use lib 'lib';
+use strict;
+use warnings;
+# load the API package
+use AsposeDiagramCloud::DiagramFileApi;
+use AsposeDiagramCloud::OAuthApi;
+
+# load the models
+use AsposeDiagramCloud::Object::DiagramModel;
+use AsposeDiagramCloud::Object::Link;
+use AsposeDiagramCloud::Object::PageModel;
+use AsposeDiagramCloud::Object::SaaSposeResponse;
+use AsposeDiagramCloud::Object::SaveResult;
+use AsposeDiagramCloud::Object::SharpModel;
+use AsposeDiagramCloud::Object::DiagramResponse;
+use AsposeDiagramCloud::Object::SaveResponse;
+
+# for displaying the API response data
+use Data::Dumper;
+use AsposeDiagramCloud::;
+
+my $api_instance = AsposeDiagramCloud::->new(
+);
+
+my $name = 'name_example'; # string | The document name.
+my $format = 'format_example'; # string | The exported file format.
+my $folder = 'folder_example'; # string | The document folder.
+my $storage = 'storage_example'; # string | storage name.
+
+eval {
+    my $result = $api_instance->diagram_file_get_diagram(name => $name, format => $format, folder => $folder, storage => $storage);
+    print Dumper($result);
+};
+if ($@) {
+    warn "Exception when calling DiagramFileApi->diagram_file_get_diagram: $@\n";
+}
 ```
 
 ## Limitations
