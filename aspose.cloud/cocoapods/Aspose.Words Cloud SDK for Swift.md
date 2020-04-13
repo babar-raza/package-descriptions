@@ -1,42 +1,41 @@
-# .NET REST API for Spreadsheet Processing in Cloud
+# Swift REST API for Cloud Document Processing
 
-This Cloud SDK enhances your Swift cloud-based apps to [process & manipulate Microsoft Excel spreadsheets](https://products.aspose.cloud/words/swift) in the cloud, without MS Office.
+This cloud SDK provides seamless integration of [cloud document processing & manipulation features](https://products.aspose.cloud/words/swift) into your cloud-based Swift apps.
 
-## Spreadsheet Processing Features
+## Document Processing Features
 
-- Add, update or delete charts, worksheet pictures, shapes, hyperlinks & validations.
-- Add or remove cells area for conditional formatting, or OleObjects from Excel worksheets.
-- Insert or delete, horizontal or vertical page breaks
-- Add ListObject at a specific place within an Excel file & convert them to a range of cells.
-- Delete specific or all ListObjects in a worksheet or summarize its data with pivot table.
-- Apply custom criteria to list filters of various types.
-- Get, update, show or hide chart legend & titles.
-- Manipulate page setup, header & footer.
-- Create, update, fetch or delete document properties.
-- Fetch the required shape from worksheet.
-- Load & Process Excel Spreadsheets via Cloud SDK.
-- Cloud SDK to Read & Process Excel Worksheets.
-- Leverage the Power of Pivot Tables & Ranges.
+- Programmatically create new documents of various file formats.
+- Fetch a web page via its URL and save it in Microsoft Word file format.
+- Get document information, by default, in JSON/XML representation.
+- Fetch statistical data of a document.
+- Render complex elements (table, DrawingObject etc.) of the document in supported formats.
+- Remove all macros contained in a specific document.
+- Convert a document to desired file format along with detailed settings.
+- Convert an encrypted PDF document into MS Word document format.
+- So many more features.
 
-## Enhancements in Version 20.2
+## Enhancements in Version 20.1
 
-- Automatically refresh authorization Token in SDK.
+- Moved property `ColorMode` from `SaveOptionsData` to `FixedPageSaveOptionsData`.
+- Replaced `MemoryStream` and `byte[]` with `SixLabors.ImageSharp.IImage` in image processing.
+- Included support of `ICC` profiles and implement `ICCBased` color space.
 
-## Read & Write Spreadsheet Formats
+For the detailed notes, please visit [Aspose.Words Cloud 20.1 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.1+Release+Notes).
 
-**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM
-**OpenOffice:** ODS
-**SpreadsheetML:** XML
-**Text:** CSV, TSV, TXT (TabDelimited)
-**Web:** HTML, MHTML
+## Read & Write Document Formats
 
-## Save Spreadsheet As
+**Microsoft Word:** DOC, DOCX, RTF, DOT, DOTX, DOTM, FlatOPC (XML)
+**OpenOffice:** ODT, OTT
+**WordprocessingML:** XML
+**Web:** HTML, MHTML, HtmlFixed
+**Text:** TXT
+**Fixed Layout:** PDF
 
-DIF, PDF, XPS, TIFF, SVG, MD (Markdown)
+## Save Document As
 
-## Read Spreadsheet Formats
-
-SXC, FODS
+**Fixed Layout:** PDF/A, XPS, OpenXPS, PS
+**Images:** JPEG, PNG, BMP, SVG, TIFF, EMF
+**Others:** PCL
 
 ## How to use the SDK
 

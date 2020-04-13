@@ -1,28 +1,33 @@
-# .NET REST API for OMR Processing
+# Perl REST API to Process Presentation in Cloud
 
-This Cloud SDK enables you to [perform Optical Mark Recognition (OMR)](https://products.aspose.cloud/slides/perl) operations on human-marked data from within your cloud-based C#, ASP.NET & other .NET apps.
+This REST API enables your Perl cloud-based apps to [process & manipulate PPT, PPTX, ODP, OTP presentations](https://products.aspose.cloud/slides/perl) in the cloud.
 
-## OMR Processing Features
+## Presentation Processing Features
 
-- Perform recognition of scanned photos and images for OMR operations.
-- Ability to perform OMR on rotated & perspective (within 25 deg) photos.
-- Extract & recognize human-marked data from scanned tests, exams, surveys etc.
-- Supports the export of OMR results to CSV file format.
-- Use textual markup to generate OMR templates, generate surveys and test sheets.
-- Availability of GUI application for managing OMR templates.
-- Specify number of OMR based questions & answers in the template.
-- Availability of GUI OMR editor as a cloud client.
-- Provide JSON rules to perform OMR answer grading.
-- Clip an area of interest from an image, save it as JPEG & perform OMR on it.
-- Perform highly accurate optical mark recognition (OMR).
+- Fetch presentation images in any of the supported file formats.
+- Copy layout side or clone master slide from the source presentation.
+- Process slides shapes, slides notes, placeholders, colors & font theme info.
+- Programmatically create presentation from HTML & export it to various formats.
+- Merge multiple presentations or split single presentation into multiple ones.
+- Extract and replace text from specific slide or entire presentation.
 
-## Save OMR As
+## Enhancements & Changes in Version 20.2
 
-CSV
+- Do not include empty & default field values in `JSON` response for Chart shape object.
 
-## Read OMR Formats
+For the detailed notes, please visit [Aspose.Slides Cloud 20.2 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.2+Release+Notes).
 
-JPEG, PNG, BMP, TIFF, PDF
+## Read & Write Presentation Formats
+
+**Microsoft PowerPoint:** PPT, PPTX, PPS, PPSX, PPTM, PPSM, POTX, POTM
+**OpenOffice:** ODP, OTP
+
+## Save Presentation As
+
+**Fixed Layout:** PDF, PDF/A, XPS
+**Images:** JPEG, PNG, BMP, TIFF, SVG
+**Web:** HTML
+**Other:** SWF (export whole presentations)
 
 ## Getting Started
 
@@ -60,4 +65,4 @@ print $fh $result;
 close $fh;
 ```
 
-[Product Page](https://products.aspose.cloud/slides/perl) | [Documentation](https://docs.aspose.cloud/display/omrcloud/Home) | [Live Demo](https://products.aspose.app/slides/family) | [API Reference](https://apireference.aspose.cloud/omr/) | [Code Samples](https://github.com/aspose-omr-cloud) | [Blog](https://blog.aspose.cloud/category/omr/) | [Free Support](https://forum.aspose.cloud/c/omr) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/slides/perl) | [Documentation](https://docs.aspose.cloud/display/slidescloud/Home) | [Live Demo](https://products.aspose.app/slides/family) | [API Reference](https://apireference.aspose.cloud/slides/) | [Code Samples](https://github.com/aspose-slides-cloud/aspose-slides-cloud-perl) | [Blog](https://blog.aspose.cloud/category/slides/) | [Free Support](https://forum.aspose.cloud/c/slides) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

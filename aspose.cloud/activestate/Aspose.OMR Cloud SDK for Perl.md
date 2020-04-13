@@ -1,6 +1,6 @@
 # .NET REST API for OMR Processing
 
-This Cloud SDK enables you to [perform Optical Mark Recognition (OMR)](https://products.aspose.cloud/omr/perl) operations on human-marked data from within your cloud-based C#, ASP.NET & other .NET apps.
+This Cloud SDK enables you to [perform Optical Mark Recognition (OMR)](https://products.aspose.cloud/omr/perl) operations on human-marked data from within your cloud-based Perl apps.
 
 ## OMR Processing Features
 

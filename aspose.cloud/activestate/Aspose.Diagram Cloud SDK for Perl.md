@@ -1,28 +1,39 @@
-# .NET REST API for OMR Processing
+# Perl Cloud REST API for Visio Processing
 
-This Cloud SDK enables you to [perform Optical Mark Recognition (OMR)](https://products.aspose.cloud/diagram/perl) operations on human-marked data from within your cloud-based Perl apps.
+This cloud SDK enables your Perl cloud apps to [create & process Visio diagrams](https://products.aspose.cloud/diagram/perl) from within your apps without installing Microsoft Visio.
 
-## OMR Processing Features
+## Visio Processing Features
 
-- Perform recognition of scanned photos and images for OMR operations.
-- Ability to perform OMR on rotated & perspective (within 25 deg) photos.
-- Extract & recognize human-marked data from scanned tests, exams, surveys etc.
-- Supports the export of OMR results to CSV file format.
-- Use textual markup to generate OMR templates, generate surveys and test sheets.
-- Availability of GUI application for managing OMR templates.
-- Specify number of OMR based questions & answers in the template.
-- Availability of GUI OMR editor as a cloud client.
-- Provide JSON rules to perform OMR answer grading.
-- Clip an area of interest from an image, save it as JPEG & perform OMR on it.
-- Perform highly accurate optical mark recognition (OMR).
+- Retrieve document information of a Visio diagram.
+- Programmatically create a new Microsoft Visio diagram file.
+- Convert Visio flow-charts to other supported formats.
+- Upload your business oriented Visio diagrams to cloud storage.
+- Export Visio files to raster images, fixed-layout and HTML formats.
 
-## Save OMR As
+## New Features in Version 19.10
 
-CSV
+- General enhancements to the Aspose.Diagram Cloud REST API.
+- Added `SaveOption` parameter for `saveAs` API.
+- Enhancement in the `Convert` API.
+- Added support for multiple files exports that convert files to HTML.
+- Integrated Aspose.Storage Cloud feature into Aspose.Diagram Cloud.
 
-## Read OMR Formats
+For the detailed notes, please visit [Aspose.Diagram Cloud 19.10 Release Notes](https://docs.aspose.cloud/display/diagramcloud/Aspose.Diagram+Cloud+19.10+Release+Notes).
 
-JPEG, PNG, BMP, TIFF, PDF
+## Read & Write Visio Formats
+
+**Microsoft Visio:** VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM
+
+## Save Visio As
+
+**Fixed Layout:** PDF, XPS
+**Images:** JPEG, PNG, BMP, TIFF, SVG, EMF
+**Web:** HTML
+**Other:** XAML, SWF
+
+## Read Visio Formats
+
+**Microsoft Visio:** VDW, VSD, VSS, VST
 
 ## SYNOPSIS
 
@@ -165,4 +176,4 @@ if ($@) {
 }
 ```
 
-[Product Page](https://products.aspose.cloud/diagram/perl) | [Documentation](https://docs.aspose.cloud/display/omrcloud/Home) | [Live Demo](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.cloud/omr/) | [Code Samples](https://github.com/aspose-omr-cloud) | [Blog](https://blog.aspose.cloud/category/omr/) | [Free Support](https://forum.aspose.cloud/c/omr) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/diagram/perl) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [Live Demo](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-perl) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
