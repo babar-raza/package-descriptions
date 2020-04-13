@@ -1,6 +1,6 @@
 # .NET REST API to Process PDF in Cloud
 
-This Cloud SDK allows you to [easily build cloud-based PDF creator](https://products.aspose.cloud/pdf/net), editor & converter apps in C#, ASP.NET or other .NET languages for various cloud platforms.
+This Cloud SDK allows you to [easily build cloud-based PDF creator](https://products.aspose.cloud/pdf/swift), editor & converter apps in C#, ASP.NET or other .NET languages for various cloud platforms.
 
 ## PDF Processing Features
 
@@ -32,46 +32,60 @@ XLS, XLSX, PPTX, DOC, DOCX, MobiXML, JPEG, EMF, PNG, BMP, GIF, TIFF, Text
 
 MHT, PCL, PS, XSLFO, MD
 
-## Getting Started with Aspose.PDF Cloud SDK for .NET
+## Installation via CocoaPods
 
-You do not need to install anything to get started with Aspose.PDF Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+[CocoaPods](https://cocoapods.org/) is a dependency manager for Cocoa projects. You can install it with the following command:
 
-Simply execute `Install-Package Aspose.PDF-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.PDF assembly in your project. If you already have Aspose.PDF Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.PDF-Cloud` to get the latest version.
+```console
+$ gem install cocoapods
+```
 
-Please check the [GitHub Repository](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet) for other common usage scenarios.
+- *CocoaPods 1.1+ is required to build AsposePdfCloud 20.2+.*
 
-## Convert PDF File to DOC Format via C# Code
+To integrate AsposePdfCloud into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
-The following code sample demonstrates how to convert a PDF file to DOC format using C# code via REST API:
+```swift
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
 
-```csharp
-string name = "Input_Document.pdf";
-using (Stream stream = System.IO.File.OpenRead(Path.Combine("", name)))
-    {
-        string resFileName = "Output_Document.doc";
+target '<Your Target Name>' do
+    pod 'AsposePdfCloud', '~> 20.2'
+end
+```
 
-        var response = api.PutPdfInRequestToDoc(Path.Combine(FolderName, resFileName), file: stream);
-        Console.WriteLine(response);
+Then, run the following command:
+
+`$ pod install`
+
+## Getting Started
+
+Please follow the installation instructions and execute the following Java code:
+
+```java
+func testGetPageAnnotations() {
+    let name = "PdfWithAnnotations.pdf"
+
+    let pageNumber = 2
+    PdfAPI.getPageAnnotations(name: name, pageNumber: pageNumber, folder: self.tempFolder) {
+        (response, error) in
+        guard error == nil else {
+            // errror handle
+            return
+        }
+        if let response = response {
+            // do
+        }
     }
+}
 ```
 
-## Use C# Code to Optimize PDF Document
+## Unit Tests
 
-The following C# code elaborates how to optimize various factors, such as, image compression & image quality, of a PDF document via REST API:
+Aspose PDF SDK includes a suite of unit tests within the "test" subdirectory. These Unit Tests also serves as examples of how to use the Aspose PDF SDK.
 
-```csharp
-const string name = "Input_Document.pdf";
-UploadFile(name, name);
+## Licensing
 
-var options = new OptimizeOptions(
-    AllowReusePageContent: false,
-    CompressImages: true,
-    ImageQuality: 100,
-    RemoveUnusedObjects: true,
-    RemoveUnusedStreams: true,
-    UnembedFonts: true);
-var response = api.PostOptimizeDocument(name, options, folder: FolderName);
-Console.WriteLine(response);
-```
+All Aspose.PDF Cloud SDKs are licensed under [MIT License](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift/blob/master/LICENSE).
 
-[Product Page](https://products.aspose.cloud/pdf/net) | [Documentation](https://docs.aspose.cloud/display/pdfcloud/Home) | [Live Demo](https://products.aspose.app/pdf/family) | [API Reference](https://apireference.aspose.cloud/pdf/) | [Code Samples](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/pdf/) | [Free Support](https://forum.aspose.cloud/c/pdf) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/pdf/swift) | [Documentation](https://docs.aspose.cloud/display/pdfcloud/Home) | [Live Demo](https://products.aspose.app/pdf/family) | [API Reference](https://apireference.aspose.cloud/pdf/) | [Code Samples](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift) | [Blog](https://blog.aspose.cloud/category/pdf/) | [Free Support](https://forum.aspose.cloud/c/pdf) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
