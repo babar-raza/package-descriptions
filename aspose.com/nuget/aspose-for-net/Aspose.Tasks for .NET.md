@@ -19,62 +19,13 @@ Aspose.Tasks for .NET on premise API enables you to work with projects, formulas
 - Encode MPX files.
 - Comprehensive project reporting (15+ types of reports).
 
-## Major features in Version 20.3
+## Bug fixes in Version 20.4
 
-- Create or update an existing project in your Project Online account using `ProjectServerManager` class.
-- Create, read and update projects in on-premise *Project Server (2016 or 2019)* using `ProjectServerManager` class.
-- Ability to add a project in Microsoft Project Server.
+- Fixed ObjectDisposedException while Project.Print() and its overloads were called.
+- Fixed serialization of null tasks when project is created / updated using PWA.
+- Fixed Field.OutlineCode misfunctioning when saving to xlsx.
 
-## Enhancements in Version 20.3
-
-- Ability to get page count using the provided instance of `SaveOptions`.
-- Improved the performance of auto recalculation for large sets of tasks.
-- Extended duration 1-10 fields are always displayed in hours regardless of a set format.
-
-For the detailed notes, please visit [Aspose.Tasks for .NET 20.3 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.3+Release+Notes).
-
-### Old meta properties API
-
-```csharp
-// custom properties are available through the dictionary of untyped properties
-foreach (KeyValuePair<string, object> documentCustomProperty in document.CustomProperties)
-{
-  Console.WriteLine(documentCustomProperty.Key);
-  Console.WriteLine(documentCustomProperty.Value);
-}
-// built-in properties are available through the Project class
-var project = new Project("Project.mpp");
-Console.WriteLine(project.Get(Prj.Title));
-Console.WriteLine(project.Get(Prj.Author));
-// ... etc.
-```
-
-### New meta properties API
-
-```csharp
-// custom properties are available through the typed collection
-foreach (var property in project.CustomProps)
-{
-   Console.WriteLine(property.Type);
-   Console.WriteLine(property.Name);
-   Console.WriteLine(property.Value);
-}
- 
-// built-in properties are available directly
-Console.WriteLine(project.BuiltInProps.Author);
-Сonsole.WriteLine(project.BuiltInProps.Title);
-// ... etc.
- 
-// or as an item of built-in property collection
-foreach (var property in project.BuiltInProps)
-{
-   Console.WriteLine(property.Name);
-   Console.WriteLine(property.Value);
-   // ... etc.
-}
-```
-
-For the detailed notes, please visit [Aspose.Tasks for .NET 20.2 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.2+Release+Notes).
+For the detailed notes, please visit [Aspose.Tasks for .NET 20.4 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.4+Release+Notes).
 
 ## Read & Write Project Formats
 
@@ -83,7 +34,7 @@ For the detailed notes, please visit [Aspose.Tasks for .NET 20.2 Release Notes](
 ## Save Projects As
 
 **Primavera:** P6 XML, PM XER
-**Microsoft Offic:** XLSX
+**Microsoft Office:** XLSX
 **Fixed Layout:** PDF
 **Images:** JPEG, PNG, BMP, TIFF, SVG
 **Text:** TXT
