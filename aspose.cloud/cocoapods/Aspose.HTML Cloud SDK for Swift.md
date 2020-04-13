@@ -1,6 +1,6 @@
 # HTML Rendering & Conversion .NET Cloud REST API
 
-This cloud SDK assists to develop cloud-based [HTML page rendering, processing, translation & conversion](https://products.aspose.cloud/html/net) apps in C#, ASP.NET & other .NET languages via REST API.
+This cloud SDK assists to develop cloud-based [HTML page rendering, processing, translation & conversion](https://products.aspose.cloud/html/swift) apps in C#, ASP.NET & other .NET languages via REST API.
 
 ## HTML Processing Features
 
@@ -31,39 +31,50 @@ HTML, XHTML, zipped HTML, zipped XHTML, MHTML, HTML containing SVG markup, Markd
 **Other:** TXT, ZIP (images)
 
 ## Read HTML Formats
+
 **eBook:** EPUB
 **Other:** XML, SVG
 
-## Getting Started with Aspose.HTML Cloud SDK for .NET
+## Requirements
 
-You do not need to install anything to get started with Aspose.HTML Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+- mac OS X 10.12.6
+- XCode 9.2
+- Swift 4.0 and later
+- Alamofire 4.7.3 and later
 
-Simply execute `Install-Package Aspose.HTML-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.HTML assembly in your project. If you already have Aspose.HTML Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.HTML-Cloud` to get the latest version.
+## Prerequisites
 
-Please check the [GitHub Repository](https://github.com/aspose-html-cloud/aspose-html-cloud-dotnet) for other common usage scenarios.
+To use Aspose HTML for Cloud SDK you need to register an account with [Aspose Cloud](https://www.aspose.cloud/) and lookup/create App Key and SID at [Cloud Dashboard](https://dashboard.aspose.cloud/#/apps). There is free quota available. For more details, see [Aspose Cloud Pricing](https://purchase.aspose.cloud/pricing).
 
-## Convert HTML Page to PDF based on its URL
+## Getting Started
 
-The following code sample demonstrates, how to programmatically fetch an HTML web page via its URL and convert it into a PDF file using C# code:
+Firstly create configuration, then use `HtmlAPI` or `StorageAPI`.
 
-```csharp
-string appSID = "xxxxxxxx";
-string appKey = "xxxxxxxx";
-string basePath = "https://api.aspose.cloud/v3.0";
+### Example
 
-string sourceUrl = @"https://stallman.org/articles/anonymous-payments-thru-phones.html";
-
-Aspose.Html.Cloud.Sdk.Api.ConversionApi conversionApi = new Aspose.Html.Cloud.Sdk.Api.ConversionApi(appKey, appSID, basePath);
-var response = conversionApi.GetConvertDocumentToPdfByUrl(sourceUrl, 800, 1200);
+```swift
+ClientAPI.setConfig(
+  basePath: "https://api.aspose.cloud/v3.0",
+  authPath: "https://api.aspose.cloud/connect/token",
+  apiKey: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+  appSID: "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX",
+  debugging: true
+)
 ```
 
-## Extract all Images from a Web-based HTML Page using API
+## `oauth`
 
-The following C# code sample elaborates, how to programmatically extract all images of an HTML web page by providing its URL:
+- Type: OAuth2
+- Flow: application
+- Authorization URL: "https://api.aspose.cloud/connect/token"
+- Scopes: N/A
 
-```csharp
-var url = @"http://www.sukidog.com/jpierre/strings/why.htm";
-Stream stream = DocumentApi.GetDocumentImagesByUrl(url);
-```
+## Source Code
 
-[Product Page](https://products.aspose.cloud/html/net) | [Documentation](https://docs.aspose.cloud/display/htmlcloud/Home) | [Live Demo](https://products.aspose.app/html/family) | [API Reference](https://apireference.aspose.cloud/html/) | [Code Samples](https://github.com/aspose-html-cloud/aspose-html-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/html/) | [Free Support](https://forum.aspose.cloud/c/html) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+The complete source code is available at the [GitHub repository](https://github.com/aspose-html-cloud/aspose-html-cloud-swift).
+
+## Tests
+
+[Tests](https://github.com/aspose-html-cloud/aspose-html-cloud-swift/blob/master/Tests/AsposeHtmlTests) contain various examples of using the Aspose.HTML and Aspose.Storage SDK.
+
+[Product Page](https://products.aspose.cloud/html/swift) | [Documentation](https://docs.aspose.cloud/display/htmlcloud/Home) | [Live Demo](https://products.aspose.app/html/family) | [API Reference](https://apireference.aspose.cloud/html/) | [Code Samples](https://github.com/aspose-html-cloud/aspose-html-cloud-swift) | [Blog](https://blog.aspose.cloud/category/html/) | [Free Support](https://forum.aspose.cloud/c/html) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
