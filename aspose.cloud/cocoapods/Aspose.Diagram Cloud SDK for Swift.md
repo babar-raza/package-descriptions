@@ -1,76 +1,68 @@
-# .NET REST API for Spreadsheet Processing in Cloud
+# Swift Cloud REST API for Visio Processing
 
-This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to [process & manipulate Microsoft Excel spreadsheets](https://products.aspose.cloud/cells/net) in the cloud, without MS Office.
+This cloud SDK enables your Swift cloud apps to [create & process Visio diagrams](https://products.aspose.cloud/diagram/swift) from within your apps without installing Microsoft Visio.
 
-## Spreadsheet Processing Features
+## Visio Processing Features
 
-- Add, update or delete charts, worksheet pictures, shapes, hyperlinks & validations.
-- Add or remove cells area for conditional formatting, or OleObjects from Excel worksheets.
-- Insert or delete, horizontal or vertical page breaks
-- Add ListObject at a specific place within an Excel file & convert them to a range of cells.
-- Delete specific or all ListObjects in a worksheet or summarize its data with pivot table.
-- Apply custom criteria to list filters of various types.
-- Get, update, show or hide chart legend & titles.
-- Manipulate page setup, header & footer.
-- Create, update, fetch or delete document properties.
-- Fetch the required shape from worksheet.
-- Load & Process Excel Spreadsheets via Cloud SDK.
-- Cloud SDK to Read & Process Excel Worksheets.
-- Leverage the Power of Pivot Tables & Ranges.
+- Retrieve document information of a Visio diagram.
+- Programmatically create a new Microsoft Visio diagram file.
+- Convert Visio flow-charts to other supported formats.
+- Upload your business oriented Visio diagrams to cloud storage.
+- Export Visio files to raster images, fixed-layout and HTML formats.
 
-## Enhancements in Version 20.2
+## New Features in Version 19.10
 
-- Automatically refresh authorization Token in SDK.
+- General enhancements to the Aspose.Diagram Cloud REST API.
+- Added `SaveOption` parameter for `saveAs` API.
+- Enhancement in the `Convert` API.
+- Added support for multiple files exports that convert files to HTML.
+- Integrated Aspose.Storage Cloud feature into Aspose.Diagram Cloud.
 
-## Read & Write Spreadsheet Formats
+For the detailed notes, please visit [Aspose.Diagram Cloud 19.10 Release Notes](https://docs.aspose.cloud/display/diagramcloud/Aspose.Diagram+Cloud+19.10+Release+Notes).
 
-**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM
-**OpenOffice:** ODS
-**SpreadsheetML:** XML
-**Text:** CSV, TSV, TXT (TabDelimited)
-**Web:** HTML, MHTML
+## Read & Write Visio Formats
 
-## Save Spreadsheet As
+**Microsoft Visio:** VSDX, VSX, VTX, VDX, VSSX, VSTX, VSDM, VSSM, VSTM
 
-DIF, PDF, XPS, TIFF, SVG, MD (Markdown)
+## Save Visio As
 
-## Read Spreadsheet Formats
+**Fixed Layout:** PDF, XPS
+**Images:** JPEG, PNG, BMP, TIFF, SVG, EMF
+**Web:** HTML
+**Other:** XAML, SWF
 
-SXC, FODS
+## Read Visio Formats
 
-## Getting Started with Aspose.Cells Cloud SDK for .NET
+**Microsoft Visio:** VDW, VSD, VSS, VST
 
-You do not need to install anything to get started with Aspose.Cells Cloud SDK for .NET. Just create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/#/apps) and get your application information.
+## Getting Started
 
-Simply execute `Install-Package Aspose.Cells-Cloud` from the Package Manager Console in Visual Studio to fetch & reference Aspose.Cells assembly in your project. If you already have Aspose.Cells Cloud SDK for .NET and want to upgrade it, please execute `Update-Package Aspose.Cells-Cloud` to get the latest version.
+Please, add the following cocoapods to your project.
 
-Please check the [GitHub Repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-dotnet) for other common usage scenarios.
+You want to add pod `'AsposeDiagramCloud', '~> 19.10'` similar to the following to your Podfile:
 
-## Using C# to Add a New Worksheet to an Excel File
-
-The following code snippet demonstrates how to add a new worksheet to a Microsoft Excel document using C# code:
-
-```csharp
-CellsWorksheetsApi instance = new CellsWorksheetsApi(GetConfiguration());
-string name = "Input.xlsx";
-string sheetName = "Sheet1";
-int? position = 1;
-string sheettype = "VB";
-string folder = null;
-UpdateDataFile(folder, name);
-var response = instance.CellsWorksheetsPutAddNewWorksheet(name, sheetName, position, sheettype, folder);
+```console
+target 'MyApp' do
+  pod 'AsposeDiagramCloud', '~> 19.10'
+end
 ```
 
-## Using C# to Convert an Excel File to another File Format
+Then run a pod install inside your terminal, or from CocoaPods.app.
 
-The following code example elaborates how you can use C# code to convert an Excel document to another file format in the cloud:
+Alternatively to give it a test run, run the command:
 
-```csharp
-// Upload source file to aspose cloud storage
-storageApi.PutCreate(inputfileName, "", "", System.IO.File.ReadAllBytes(Common.GetDataDir() + inputfileName));
+`pod try AsposeDiagramCloud`
 
-// Invoke Aspose.Cells Cloud SDK API to convert excel workbook to different format
-SaveResponse apiResponse = cellsApi.PostDocumentSaveAs(inputfileName, outputFileName, isAutoFitRows, isAutoFitColumns, storage, folder, body);
-```
+## Examples
 
-[Product Page](https://products.aspose.cloud/cells/net) | [Documentation](https://docs.aspose.cloud/display/cellscloud/Home) | [Live Demo](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.cloud/cells/) | [Code Samples](https://github.com/aspose-cells-cloud/aspose-cells-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/cells/) | [Free Support](https://forum.aspose.cloud/c/cells) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+Please, look at [Examples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-swift/blob/master/EXAMPLES.md) document for basic usage or use the [Examples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-swift/blob/master/Examples) folder for more sophisticated scenarios.
+
+## Aspose Cloud-hosted service VS on-premise deployment (experimental feature)
+
+Starting from v19.10, you can choose either to use Aspose Cloud-hosted image processing service (the standard way) or the Docker image from Docker Hub deployed on-premise to serve the requests. The details about key differences and deployment process will be described on the dedicated Docker Hub page as soon as it's released.
+
+## Licensing
+
+All Aspose.Diagram Cloud SDKs, helper scripts and templates are licensed under [MIT License](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-swift/blob/master/LICENSE).
+
+[Product Page](https://products.aspose.cloud/diagram/swift) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [Live Demo](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Code Samples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-swift) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
