@@ -43,7 +43,7 @@ SXC, FODS
 
 ## How to use the SDK
 
-The complete source code is available at the [GitHub repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-perl). You can either directly use it in your project via source code or get [Packagist distribution](https://www.cpan.org) (recommended). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/cellscloud/Available+SDKs).
+The complete source code is available at the [GitHub repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-perl). For more details, please visit our [documentation website](https://docs.aspose.cloud/display/cellscloud/Available+SDKs).
 
 ## Prerequisites
 

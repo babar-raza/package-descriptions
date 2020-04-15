@@ -35,7 +35,7 @@ For the detailed notes, please visit [Aspose.Diagram Cloud 19.10 Release Notes](
 
 **Microsoft Visio:** VDW, VSD, VSS, VST
 
-## SYNOPSIS
+## Synopsis
 
 The Perl Swagger Codegen project builds a library of Perl modules to interact with a web service defined by a OpenAPI Specification. See below for how to build the library.
 
@@ -110,7 +110,7 @@ The tokens will be placed in a LAsposeDiagramCloud::Configuration instance as fo
 - `$cfg->{access_token}`
   - String. The OAuth access token.
 
-## LOAD THE MODULES
+## Load the Modules
 
 To load the API packages:
 
@@ -132,7 +132,7 @@ use AsposeDiagramCloud::Object::DiagramResponse;
 use AsposeDiagramCloud::Object::SaveResponse;
 ```
 
-## GETTING STARTED
+## Getting Started
 
 Put the Perl SDK under the 'lib' folder in your project directory, then run the following
 
