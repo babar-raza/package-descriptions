@@ -13,21 +13,18 @@
 - [Add 3D scene animation](https://docs.aspose.com/display/3dnet/Add+Animation+Property+and+Setup+Target+Camera+in+3D+document).
 - Work with 3D objects & models.
 
-## Enhancements in Version 20.3
+## New Features in Version 20.4
 
-- Text rendering support in web renderer.
-- Ruler render in web renderer.
+- Added Linux rendering support.
 
-## New Members Added in Version 20.3
+## Enhancements in Version 20.4
 
-- Added new members in class `Aspose.ThreeD.Formats.HTML5SaveOptions`.
+- Get data with custom `VertexDeclaration`.
+- Added orbital movement control.
+- Added line support in *A3DW* format.
+- Added rendering support of *TriMesh*.
 
-```csharp
-Scene s = new Scene("test.fbx");
-s.Save("output.html", new HTML5SaveOptions() { ShowRulers = true });
-```
-
-For a detailed list as well as the public API and backward incompatible changes, please visit [Aspose.3D for .NET 20.3 Release Notes](https://docs.aspose.com/display/3dnet/Aspose.3D+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.3D for .NET 20.4 Release Notes](https://docs.aspose.com/display/3dnet/Aspose.3D+for+.NET+20.4+Release+Notes).
 
 ## Read & Write 3D Formats
 

@@ -22,18 +22,15 @@ Integrate PDF creation, processing, manipulation & conversion features into your
 - Print PDF documents to physical or virtual printers with or without print dialog.
 - Set document viewer preferences as well as manipulate document information & XMP metadata.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Track the [progress of converting a PDF](https://docs.aspose.com/display/pdfnet/Convert+PDF+to+PowerPoint+PPTX#ConvertPDFtoPowerPointPPTX-ProgressDetailofPPTXConversion) to PowerPoint presentation.
+- Added the ability to use an image file stream as the background of a table cell.
 
-## Added API in Version 20.3
+## Added APIs in Version 20.4
 
-- Class `Aspose.Pdf.Annotations.CustomExplicitDestination`
-- Method `Aspose.Pdf.Annotations.CustomExplicitDestination.ToString`
-- Property `Aspose.Pdf.PclLoadOptions.BatchSize`
-- Property `Aspose.Pdf.PptxSaveOptions.CustomProgressHandler`
+- Property `Aspose.Pdf.Cell.BackgroundImage`.
 
-For the detailed notes, please visit [Aspose.PDF for .NET 20.3 Release Notes](https://docs.aspose.com/display/pdfnet/Aspose.PDF+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF for .NET 20.4 Release Notes](https://docs.aspose.com/display/pdfnet/Aspose.PDF+for+.NET+20.4+Release+Notes).
 
 ## Read & Write PDF & Other Formats
 

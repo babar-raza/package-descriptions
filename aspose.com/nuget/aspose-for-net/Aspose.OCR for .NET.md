@@ -14,11 +14,12 @@ It is a standalone OCR API that enhances your .NET apps to perform the [OCR oper
 - Scan rotated images.
 - Application of various noise removal filters to assist image recognition.
 
-## Enhancements in Version 19.9
+## Enhancements in Version 20.4
 
-- New text recognition engine speed and quality with the introduction of a new Line Recognition Neural Network.  It allows to process the entire lines of text without splitting them into separate words which makes recognition faster and with higher quality.
+- Improved performance using CPU/GPU.
+- New text search approach tuned for complex layouts.
 
-For the detailed notes, please visit [Aspose.OCR for .NET 19.9 - Release Notes](https://docs.aspose.com/display/ocrnet/Aspose.OCR+for+.NET+19.9+-+Release+Notes).
+For the detailed notes, please visit [Aspose.OCR for .NET 20.4 - Release Notes](https://docs.aspose.com/display/ocrnet/Aspose.OCR+for+.NET+20.4+-+Release+Notes).
 
 ## Read Image Formats for OCR
 
@@ -34,32 +35,20 @@ Are you ready to give Aspose.OCR for .NET a try? Simply execute `Install-Package
 
 Execute the following code snippet to see how Aspose.OCR API performs with your own samples or check the [GitHub Repository](https://github.com/aspose-ocr/Aspose.OCR-for-.NET) for other common usage scenarios.
 
-## Convert Image to Text via C# Code
+## Perform OCR on PNG Image via C# Code
 
 ```csharp
-// initialize an instance of OcrEngine
-OcrEngine ocrEngine = new OcrEngine();
-// set the Image property by loading the image from file path location or an instance of MemoryStream 
-ocrEngine.Image = ImageStream.FromFile(dataDir + "template.bmp");
-// process the image
-ocrEngine.Process();
-// display the recognized text
-Console.WriteLine(ocrEngine.Text);
-```
+// The path to the documents directory.
+string dataDir = RunExamples.GetDataDir_OCR();
 
-## Load a Remote Image for OCR Operation
+// Initialize an instance of AsposeOcr
+AsposeOcr api = new AsposeOcr();
 
-Aspose.OCR for .NET enables your .NET applications to perform OCR in various scenarios such as accessing a remote JPG image via URL.
+// Recognize image
+string result = api.RecognizeImage(dataDir + "sample.png");
 
-```csharp
-// initialize an instance of OcrEngine
-OcrEngine ocrEngine = new OcrEngine();
-// set the Image property by loading the image from remote location
-ocrEngine.Image = ImageStream.FromUrl("https://blog.aspose.com/wp-content/uploads/sites/2/2019/03/SampleTextOnline.jpg");
-// run recognition process
-ocrEngine.Process();
-// display the recognized text
-Console.WriteLine(ocrEngine.Text);
+// Display the recognized text
+Console.WriteLine(result);
 ```
 
 [Product Page](https://products.aspose.com/ocr/net) | [Documentation](https://docs.aspose.com/display/ocrnet/Home) | [Live Demo](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/net/ocr) | [Code Examples](https://github.com/aspose-ocr/Aspose.OCR-for-.NET) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) |  [Temporary License](https://purchase.aspose.com/temporary-license)

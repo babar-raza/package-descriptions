@@ -14,16 +14,17 @@ It is a powerful on-premise class library that can be used for numerous [documen
 - Generate reports with Mail Merge that allows populating documents with data from various sources.
 - [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) to fetch data from databases, XML, JSON, OData, external documents and more.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- LINQ Reporting Engine - Option to fit the image within textbox bounds while maintaining ratio.
-- Ability to set different attributes of Shape inside `IFieldMergingCallback.ImageFieldMerging`.
-- `FindReplaceOptions` new properties.
-- Ability to get column of table by bookmark.
-- Implement color change for side faces.
-- Implement correct contour rendering for volume shapes.
+- Starting from 20.4 version Aspose.Words also provides DLL for .NET 4.6.1. Like .NET Standard 2.0 it supports reading PDF documents.
+- Provided ability to change Asian paragraph spacing and indents.
+- Added image interpolation option for PDF rendering (new public property PdfSaveOptions.InterpolateImages).
+- Added a new mode 3D shapes rendering.
+- Extended API of chart data labels and series.
+- Supports subsetting OTF(CFF) fonts with composite accented glyphs.
+- Implemented rendering of ISO 29500 specific BorderArt styles.
 
-For a detailed list of new features, enhancements as well as public API and backward incompatible changes, please visit [Aspose.Words for .NET 20.3 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.Words for .NET 20.4 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.4+Release+Notes).
 
 ## Read & Write Document Formats
 
