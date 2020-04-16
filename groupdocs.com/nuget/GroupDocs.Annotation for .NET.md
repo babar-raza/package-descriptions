@@ -16,16 +16,16 @@ Its an on-premise API that seamlessly [integrates document annotation features](
 - Remove previously added annotations from a document.
 - Update specific annotation properties (size, color etc.).
 
-## New Features in Version 20.2
+## New Features in Version 20.4
 
-- Ability to add Image annotation to Diagrams.
+- Managing different versions of annotated file (supported formats: Words, PDF, Slides, SpreadSheets).
 
-## Enhancements in Version 20.2
+## Enhancements in Version 20.4
 
-- Added overloads for Annotator Remove Method.
-- Implement image extracting to `ImageAnnotation`.
+- Added to new API getting pages image size.
+- Added advanced rendering options for show\hide replies.
 
-For the detailed list, please visit [GroupDocs.Annotation for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/annotationnet/GroupDocs.Annotation+for+.NET+20.2+Release+Notes).
+For the detailed list, please visit [GroupDocs.Annotation for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/annotationnet/GroupDocs.Annotation+for+.NET+20.4+Release+Notes).
 
 ## Microsoft Office Annotation Formats
 
