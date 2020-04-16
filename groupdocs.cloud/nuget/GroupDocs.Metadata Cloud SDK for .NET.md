@@ -12,6 +12,19 @@ This REST API enables your C#, ASP.NET, & other .NET apps to [read & write metad
 - Get metadata tag information.
 - Get supported file formats.
 
+## New Features in Version 20.4
+
+This is the first release of a completely new version of the GroupDocs.Metadata.Cloud API.
+
+- Inclusion of Storage and File API which enables users to manage storage and files.
+- Retrieving Metadata
+- Adding Metadata
+- Searching Metadata
+- Modifying Metadata
+- Removing Metadata
+
+For the detailed notes, please visit [GroupDocs.Metadata for Cloud 20.4 Release Notes](https://wiki.groupdocs.cloud/metadatacloud/release-notes/2020/groupdocs-metadata-for-cloud-20-4-release-notes/).
+
 ## Read & Write File Formats
 
 **Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX
