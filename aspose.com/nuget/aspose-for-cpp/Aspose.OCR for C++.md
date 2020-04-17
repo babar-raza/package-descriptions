@@ -39,4 +39,4 @@ std::wcout << result << L'\n';
 
 The evaluation version of Aspose.OCR for C++ limits the number of characters extracted from an image to 300.
 
-[Product Page](https://products.aspose.com/ocr/cpp) | [Documentation](https://docs.aspose.com/display/ocrcpp/Home) | [Live Demo](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/cpp/ocr) | [Code Examples](https://github.com/aspose-ocr/Aspose.OCR-for-C) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/ocr/cpp) | [Documentation](https://docs.aspose.com/display/ocrcpp/Home) | [Live Demo](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/ocr/cpp) | [Code Examples](https://github.com/aspose-ocr/Aspose.OCR-for-C) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) |  [Temporary License](https://purchase.aspose.com/temporary-license)
