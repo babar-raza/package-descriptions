@@ -17,11 +17,13 @@ Node.js Cloud SDK wraps Aspose.PDF REST API so you could seamlessly integrate PD
 - Extensive support for converting PDF documents to various other file formats.
 - Extract various elements of PDF file & make PDF document optimized.
 
-## New features in Version 20.2
+## New Features in Version 20.4
 
-- Convert `PDF/A` to `PDF` and upload the resulting file to storage or return resulting file in response.
+- Insert an HTML fragment in a table cell.
+- Use image file from storage as a table cell background.
+- Add image files from storage into table cell.
 
-For the detailed notes, please visit [Aspose.PDF Cloud 20.2 Release Notes](https://docs.aspose.cloud/display/pdfcloud/Aspose.PDF+Cloud+20.2+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/pdfcloud/Aspose.PDF+Cloud+20.4+Release+Notes).
 
 ## Read & Write Formats
 
