@@ -17,21 +17,24 @@ Aspose.Cells for .NET provides Grid solution with two GUI based .NET controls. [
 - Convert Excel files to various other formats.
 - [Formula calculation engine](https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions) that supports all basic and advanced Excel functions.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Support for `FLOOR.MATH(-555,5,1)`.
-- Support for `FILTER` function.
-- Fetch worksheet Unique ID.
-- Support for setting `chart.series.dataLables.TextDirection` to vertical.
+- XLSX to CSV, commas required for blank cells also similar to MS Excel.
+- Supports union of multiple cells as a range.
+- Option to update source field of `PowerQueryFormulaItems`.
 
-## Enhancements in Version 20.3
+## Enhancements in Version 20.4
 
-- Make icons available for *IStreamProvider* like usual images while saving the document to `HTML`.
-- Reduce flickering in *GridDesktop* for smooth resizing.
-- Distinguish hidden or very hidden sheets in `Aspose.Cells.GridDesktop`.
-- Improve the performance of saving conditional formatting and validation with whole rows.
+- Set Latin text font and Asian text font for the chart category axis.
+- Supports databar, color scale and iconset conditional formattings of *ODS*.
+- Open the password-protected file using `Aspose.Cells.GridDesktop`.
+- Supports to enter new line as in MS-EXCEL in the formula bar.
 
-For a detailed list, please visit [Aspose.Cells for .NET 20.3 Release Notes](https://docs.aspose.com/display/cellsnet/Aspose.Cells+for+.NET+20.3+Release+Notes).
+## Performance Improvemens in Version 20.4
+
+- Improve the performance of refreshing pivotables.
+
+For the detailed notes, please visit [Aspose.Cells for .NET 20.4 Release Notes](https://docs.aspose.com/display/cellsnet/Aspose.Cells+for+.NET+20.4+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
