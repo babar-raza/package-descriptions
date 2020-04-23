@@ -102,4 +102,4 @@ using (FileStream inputStream = File.OpenRead(inputFilePath))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/editor/net) | [Documentation](https://docs.groupdocs.com/display/editornet/Home) | [Live Demo](https://products.groupdocs.app/editor/family) | [API Reference](https://apireference.groupdocs.com/net/editor) | [Code Samples](https://github.com/groupdocs-editor/GroupDocs.Editor-for-.NET) | [Blog](https://blog.groupdocs.com/category/editor/) | [Free Support](https://blog.groupdocs.com/category/editor/) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/editor/net) | [Documentation](https://docs.groupdocs.com/display/editornet/Home) | [Live Demo](https://products.groupdocs.app/editor/family) | [API Reference](https://apireference.groupdocs.com/net/editor) | [Examples](https://github.com/groupdocs-editor/GroupDocs.Editor-for-.NET) | [Blog](https://blog.groupdocs.com/category/editor/) | [Free Support](https://blog.groupdocs.com/category/editor/) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

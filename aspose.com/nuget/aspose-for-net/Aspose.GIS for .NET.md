@@ -70,4 +70,4 @@ You can execute below code snippet to see how Aspose.GIS API works after adding 
 VectorLayer.Convert(dir + "template.shp", Drivers.Shapefile, dir + "output.json", Drivers.GeoJson);
 ```
 
-[Product Page](https://products.aspose.com/gis/net) | [Documentation](https://docs.aspose.com/display/gisnet/Home) | [Live Demo](https://products.aspose.app/gis/family) | [API Reference](https://apireference.aspose.com/net/gis) | [Code Examples](https://github.com/aspose-gis/Aspose.GIS-for-.NET) | [Blog](https://blog.aspose.com/category/gis/) | [Free Support](https://forum.aspose.com/c/gis) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/gis/net) | [Documentation](https://docs.aspose.com/display/gisnet/Home) | [Live Demo](https://products.aspose.app/gis/family) | [API Reference](https://apireference.aspose.com/net/gis) | [Examples](https://github.com/aspose-gis/Aspose.GIS-for-.NET) | [Blog](https://blog.aspose.com/category/gis/) | [Free Support](https://forum.aspose.com/c/gis) |  [Temporary License](https://purchase.aspose.com/temporary-license)

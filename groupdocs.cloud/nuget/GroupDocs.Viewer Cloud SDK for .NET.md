@@ -110,4 +110,4 @@ Console.Write("File name:" + response.FileName);
 Console.Write("PageCount: " + response.Pages.Count);
 ```
 
-[Product Page](https://products.groupdocs.cloud/viewer/net) | [Documentation](https://wiki.groupdocs.cloud/viewercloud/) | [Live Demo](https://products.groupdocs.app/viewer/family) | [API Reference](https://apireference.groupdocs.cloud/viewer/) | [Code Samples](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/viewer/) | [Free Support](https://forum.groupdocs.cloud/c/viewer) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+[Product Page](https://products.groupdocs.cloud/viewer/net) | [Documentation](https://wiki.groupdocs.cloud/viewercloud/) | [Live Demo](https://products.groupdocs.app/viewer/family) | [API Reference](https://apireference.groupdocs.cloud/viewer/) | [Examples](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/viewer/) | [Free Support](https://forum.groupdocs.cloud/c/viewer) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

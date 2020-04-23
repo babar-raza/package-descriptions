@@ -43,4 +43,4 @@ using (var document = new SVGDocument(Path.Combine(dataDir, "sourcefile.svg"))){
 }
 ```
 
-[Product Page](https://products.aspose.com/svg/net) | [Documentation](https://docs.aspose.com/display/svgnet/Home) | [API Reference](https://apireference.aspose.com/net/svg) | [Code Examples](https://github.com/aspose-svg/Aspose.SVG-for-.NET) | [Blog](https://blog.aspose.com/category/svg/) | [Free Support](https://forum.aspose.com/c/svg) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/svg/net) | [Documentation](https://docs.aspose.com/display/svgnet/Home) | [API Reference](https://apireference.aspose.com/net/svg) | [Examples](https://github.com/aspose-svg/Aspose.SVG-for-.NET) | [Blog](https://blog.aspose.com/category/svg/) | [Free Support](https://forum.aspose.com/c/svg) |  [Temporary License](https://purchase.aspose.com/temporary-license)

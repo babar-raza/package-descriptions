@@ -61,4 +61,4 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(null, new Sev
 }
 ```
 
-[Product Page](https://products.aspose.com/zip/net) | [Documentation](https://docs.aspose.com/display/zipnet/Home) | [Live Demo](https://products.aspose.app/zip/family) | [API Reference](https://apireference.aspose.com/net/zip) | [Code Examples](https://github.com/aspose-zip/Aspose.ZIP-for-.NET) | [Blog](https://blog.aspose.com/category/zip/) | [Free Support](https://forum.aspose.com/c/zip) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/zip/net) | [Documentation](https://docs.aspose.com/display/zipnet/Home) | [Live Demo](https://products.aspose.app/zip/family) | [API Reference](https://apireference.aspose.com/net/zip) | [Examples](https://github.com/aspose-zip/Aspose.ZIP-for-.NET) | [Blog](https://blog.aspose.com/category/zip/) | [Free Support](https://forum.aspose.com/c/zip) | [Temporary License](https://purchase.aspose.com/temporary-license)

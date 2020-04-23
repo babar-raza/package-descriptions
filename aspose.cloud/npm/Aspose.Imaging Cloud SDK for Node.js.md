@@ -76,4 +76,4 @@ const response = await imagingApi.compareImages(
 const similarity = response.results[0].similarity;
 ```
 
-[Product Page](https://products.aspose.cloud/imaging/nodejs) | [Documentation](https://docs.aspose.cloud/display/imagingcloud/Home) | [Live Demo](https://products.aspose.app/imaging/family) | [API Reference](https://apireference.aspose.cloud/imaging/) | [Code Samples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-node) | [Blog](https://blog.aspose.cloud/category/imaging/) | [Free Support](https://forum.aspose.cloud/c/imaging) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/imaging/nodejs) | [Documentation](https://docs.aspose.cloud/display/imagingcloud/Home) | [Live Demo](https://products.aspose.app/imaging/family) | [API Reference](https://apireference.aspose.cloud/imaging/) | [Examples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-node) | [Blog](https://blog.aspose.cloud/category/imaging/) | [Free Support](https://forum.aspose.cloud/c/imaging) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

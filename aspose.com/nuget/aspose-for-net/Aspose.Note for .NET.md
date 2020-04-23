@@ -74,4 +74,4 @@ foreach (Aspose.Note.Image image in nodes)
 }
 ```
 
-[Product Page](https://products.aspose.com/note/net) | [Documentation](https://docs.aspose.com/display/notenet/Home) | [Live Demo](https://products.aspose.app/note/family) | [API Reference](https://apireference.aspose.com/net/note) | [Code Examples](https://github.com/aspose-note/Aspose.Note-for-.NET) | [Blog](https://blog.aspose.com/category/note/) | [Free Support](https://forum.aspose.com/c/note) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/note/net) | [Documentation](https://docs.aspose.com/display/notenet/Home) | [Live Demo](https://products.aspose.app/note/family) | [API Reference](https://apireference.aspose.com/net/note) | [Examples](https://github.com/aspose-note/Aspose.Note-for-.NET) | [Blog](https://blog.aspose.com/category/note/) | [Free Support](https://forum.aspose.com/c/note) |  [Temporary License](https://purchase.aspose.com/temporary-license)

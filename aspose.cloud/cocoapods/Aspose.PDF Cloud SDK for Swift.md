@@ -91,4 +91,4 @@ Aspose PDF SDK includes a suite of unit tests within the "test" subdirectory. Th
 
 All Aspose.PDF Cloud SDKs are licensed under [MIT License](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift/blob/master/LICENSE).
 
-[Product Page](https://products.aspose.cloud/pdf/swift) | [Documentation](https://docs.aspose.cloud/display/pdfcloud/Home) | [Live Demo](https://products.aspose.app/pdf/family) | [API Reference](https://apireference.aspose.cloud/pdf/) | [Code Samples](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift) | [Blog](https://blog.aspose.cloud/category/pdf/) | [Free Support](https://forum.aspose.cloud/c/pdf) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/pdf/swift) | [Documentation](https://docs.aspose.cloud/display/pdfcloud/Home) | [Live Demo](https://products.aspose.app/pdf/family) | [API Reference](https://apireference.aspose.cloud/pdf/) | [Examples](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-swift) | [Blog](https://blog.aspose.cloud/category/pdf/) | [Free Support](https://forum.aspose.cloud/c/pdf) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

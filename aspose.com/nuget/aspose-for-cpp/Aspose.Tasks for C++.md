@@ -73,4 +73,4 @@ project->Save(u"output.xml", Aspose::Tasks::Saving::SaveFileFormat::XML);
 - No support for the database I/O access of any kind.
 - No support for EMF/WMF format, neither itself nor as Project file inclusions.
 
-[Product Page](https://products.aspose.com/tasks/cpp) | [Documentation](https://docs.aspose.com/display/taskscpp/Home) | [Live Demo](https://products.aspose.app/tasks/family) | [API Reference](https://apireference.aspose.com/cpp/tasks) | [Code Examples](https://github.com/aspose-tasks/Aspose.Tasks-for-C) | [Blog](https://blog.aspose.com/category/tasks/) | [Free Support](https://forum.aspose.com/c/tasks) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/tasks/cpp) | [Documentation](https://docs.aspose.com/display/taskscpp/Home) | [Live Demo](https://products.aspose.app/tasks/family) | [API Reference](https://apireference.aspose.com/cpp/tasks) | [Examples](https://github.com/aspose-tasks/Aspose.Tasks-for-C) | [Blog](https://blog.aspose.com/category/tasks/) | [Free Support](https://forum.aspose.com/c/tasks) | [Temporary License](https://purchase.aspose.com/temporary-license)

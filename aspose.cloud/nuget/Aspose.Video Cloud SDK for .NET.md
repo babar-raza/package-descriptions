@@ -78,4 +78,4 @@ var request = new PostConvertVideoRequest(remoteName, "mp4", resultPath, options
 var actual = this.VideoApi.PostConvertVideo(request);
 ```
 
-[Product Page](https://products.aspose.cloud/video/net) | [Documentation](https://docs.aspose.cloud/display/videocloud/Home) | [API Reference](https://apireference.aspose.cloud/video/) | [Code Samples](https://github.com/aspose-video-cloud/aspose-video-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/video/) | [Free Support](https://forum.aspose.cloud/c/video) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/video/net) | [Documentation](https://docs.aspose.cloud/display/videocloud/Home) | [API Reference](https://apireference.aspose.cloud/video/) | [Examples](https://github.com/aspose-video-cloud/aspose-video-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/video/) | [Free Support](https://forum.aspose.cloud/c/video) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

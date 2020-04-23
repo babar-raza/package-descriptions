@@ -51,4 +51,4 @@ string result = api.RecognizeImage(dataDir + "sample.png");
 Console.WriteLine(result);
 ```
 
-[Product Page](https://products.aspose.com/ocr/net) | [Documentation](https://docs.aspose.com/display/ocrnet/Home) | [Live Demo](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/net/ocr) | [Code Examples](https://github.com/aspose-ocr/Aspose.OCR-for-.NET) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/ocr/net) | [Documentation](https://docs.aspose.com/display/ocrnet/Home) | [Live Demo](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/net/ocr) | [Examples](https://github.com/aspose-ocr/Aspose.OCR-for-.NET) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) |  [Temporary License](https://purchase.aspose.com/temporary-license)

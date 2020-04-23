@@ -41,4 +41,4 @@ OCRResponse response = api.PostOcrFromUrlOrContent(request);
 return response.Text;
 ```
 
-[Product Page](https://products.aspose.cloud/ocr/net) | [Documentation](https://docs.aspose.cloud/display/ocrcloud/Home) | [Live Demo](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.cloud/ocr/) | [Code Samples](https://github.com/aspose-ocr-cloud/aspose-ocr-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/ocr/) | [Free Support](https://forum.aspose.cloud/c/ocr) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/ocr/net) | [Documentation](https://docs.aspose.cloud/display/ocrcloud/Home) | [Live Demo](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.cloud/ocr/) | [Examples](https://github.com/aspose-ocr-cloud/aspose-ocr-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/ocr/) | [Free Support](https://forum.aspose.cloud/c/ocr) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

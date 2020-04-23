@@ -125,4 +125,4 @@ result = self.classification_api.classify(request)
 print(result)
 ```
 
-[Product Page](https://products.groupdocs.cloud/classification/python) | [Documentation](https://wiki.groupdocs.cloud/classificationcloud/) | [API Reference](https://apireference.groupdocs.cloud/classification/) | [Code Samples](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/classification/) | [Free Support](https://forum.groupdocs.cloud/c/classification) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+[Product Page](https://products.groupdocs.cloud/classification/python) | [Documentation](https://wiki.groupdocs.cloud/classificationcloud/) | [API Reference](https://apireference.groupdocs.cloud/classification/) | [Examples](https://github.com/groupdocs-classification-cloud/groupdocs-classification-cloud-python) | [Blog](https://blog.groupdocs.cloud/category/classification/) | [Free Support](https://forum.groupdocs.cloud/c/classification) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

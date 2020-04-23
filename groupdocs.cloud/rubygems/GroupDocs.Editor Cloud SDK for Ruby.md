@@ -122,4 +122,4 @@ puts("Document edited: " + saveResult.path)
 
 GroupDocs.Editor Cloud Ruby SDK licensed under [MIT License](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-ruby/blob/master/LICENSE).
 
-[Product Page](https://products.groupdocs.cloud/editor/ruby) | [Documentation](https://wiki.groupdocs.cloud/editorcloud/) | [Live Demo](https://products.groupdocs.app/editor/family) | [API Reference](https://apireference.groupdocs.cloud/editor/) | [Code Samples](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-ruby) | [Blog](https://blog.groupdocs.cloud/) | [Free Support](https://forum.groupdocs.cloud/c/editor) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+[Product Page](https://products.groupdocs.cloud/editor/ruby) | [Documentation](https://wiki.groupdocs.cloud/editorcloud/) | [Live Demo](https://products.groupdocs.app/editor/family) | [API Reference](https://apireference.groupdocs.cloud/editor/) | [Examples](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-ruby) | [Blog](https://blog.groupdocs.cloud/) | [Free Support](https://forum.groupdocs.cloud/c/editor) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

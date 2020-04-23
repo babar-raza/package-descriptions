@@ -154,4 +154,4 @@ SearchResult result = index.Search("Rleativity", options);
 
 ## Limitations
 
-[Product Page](https://products.groupdocs.com/search/net) | [Documentation](https://docs.groupdocs.com/display/searchnet/Home) | [Live Demo](https://products.groupdocs.app/search/family) | [API Reference](https://apireference.groupdocs.com/net/search) | [Code Samples](https://github.com/groupdocs-search/GroupDocs.Search-for-.NET) | [Blog](https://blog.groupdocs.com/category/search/) | [Free Support](https://forum.groupdocs.com/c/search) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/search/net) | [Documentation](https://docs.groupdocs.com/display/searchnet/Home) | [Live Demo](https://products.groupdocs.app/search/family) | [API Reference](https://apireference.groupdocs.com/net/search) | [Examples](https://github.com/groupdocs-search/GroupDocs.Search-for-.NET) | [Blog](https://blog.groupdocs.com/category/search/) | [Free Support](https://forum.groupdocs.com/c/search) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

@@ -119,4 +119,4 @@ var request = new ExtractRequest(options);
 var response = apiInstance.Extract(request);
 ```
 
-[Product Page](https://products.groupdocs.cloud/metadata/net) | [Documentation](https://wiki.groupdocs.cloud/metadatacloud/) | [Live Demo](https://products.groupdocs.app/metadata/family) | [API Reference](https://apireference.groupdocs.cloud/metadata/) | [Code Samples](https://github.com/groupdocs-metadata-cloud/groupdocs-metadata-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/metadata/) | [Free Support](https://forum.groupdocs.cloud/c/metadata) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+[Product Page](https://products.groupdocs.cloud/metadata/net) | [Documentation](https://wiki.groupdocs.cloud/metadatacloud/) | [Live Demo](https://products.groupdocs.app/metadata/family) | [API Reference](https://apireference.groupdocs.cloud/metadata/) | [Examples](https://github.com/groupdocs-metadata-cloud/groupdocs-metadata-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/metadata/) | [Free Support](https://forum.groupdocs.cloud/c/metadata) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
