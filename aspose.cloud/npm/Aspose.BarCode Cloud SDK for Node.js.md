@@ -79,4 +79,4 @@ storageApi.PutCreate(name  , null, null, data_path + name  , function(responseMe
 });
 ```
 
-[Product Page](https://products.aspose.cloud/barcode/nodejs) | [Documentation](https://docs.aspose.cloud/display/barcodecloud/Home) | [Live Demo](https://products.aspose.app/barcode/family) | [API Reference](https://apireference.aspose.cloud/barcode/) | [Examples](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-node) | [Blog](https://blog.aspose.cloud/category/barcode/) | [Free Support](https://forum.aspose.cloud/c/barcode) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/barcode/nodejs) | [Documentation](https://docs.aspose.cloud/display/barcodecloud/Home) | [Demo](https://products.aspose.app/barcode/family) | [API Reference](https://apireference.aspose.cloud/barcode/) | [Examples](https://github.com/aspose-barcode-cloud/aspose-barcode-cloud-node) | [Blog](https://blog.aspose.cloud/category/barcode/) | [Free Support](https://forum.aspose.cloud/c/barcode) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

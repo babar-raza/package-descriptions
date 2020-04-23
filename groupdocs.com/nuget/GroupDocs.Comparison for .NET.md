@@ -76,4 +76,4 @@ using (Comparer comparer = new Comparer(“source.docx”)
 }
 ```
 
-[Product Page](https://products.groupdocs.com/comparison/net) | [Documentation](https://docs.groupdocs.com/display/comparisonnet/home) | [Live Demo](https://products.groupdocs.app/comparison/family) | [API Reference](https://docs.groupdocs.com/display/comparisonnet/home) | [Examples](https://docs.groupdocs.com/display/comparisonnet/home) | [Blog](https://blog.groupdocs.com/category/comparison/) | [Free Support](https://blog.groupdocs.com/category/comparison/) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/comparison/net) | [Documentation](https://docs.groupdocs.com/display/comparisonnet/home) | [Demo](https://products.groupdocs.app/comparison/family) | [API Reference](https://docs.groupdocs.com/display/comparisonnet/home) | [Examples](https://docs.groupdocs.com/display/comparisonnet/home) | [Blog](https://blog.groupdocs.com/category/comparison/) | [Free Support](https://blog.groupdocs.com/category/comparison/) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

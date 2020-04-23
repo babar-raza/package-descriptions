@@ -89,4 +89,4 @@ Library uses `OAUTH2` internally.
 - OMR operation will show results only in text format.
 - Performing OCR operation is not supported for now.
 
-[Product Page](https://products.aspose.cloud/omr/perl) | [Documentation](https://docs.aspose.cloud/display/omrcloud/Home) | [Live Demo](https://products.aspose.app/omr/family) | [API Reference](https://apireference.aspose.cloud/omr/) | [Examples](https://github.com/aspose-omr-cloud) | [Blog](https://blog.aspose.cloud/category/omr/) | [Free Support](https://forum.aspose.cloud/c/omr) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/omr/perl) | [Documentation](https://docs.aspose.cloud/display/omrcloud/Home) | [Demo](https://products.aspose.app/omr/family) | [API Reference](https://apireference.aspose.cloud/omr/) | [Examples](https://github.com/aspose-omr-cloud) | [Blog](https://blog.aspose.cloud/category/omr/) | [Free Support](https://forum.aspose.cloud/c/omr) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

@@ -112,4 +112,4 @@ result = api.ai_name_format(
 puts result.name # prints 'Mr. Cane J. M.'
 ```
 
-[Product Page](https://products.aspose.cloud/email/net) | [Documentation](https://docs.aspose.cloud/display/emailcloud/Home) | [Live Demo](https://products.aspose.app/email/family) | [API Reference](https://apireference.aspose.cloud/email/) | [Examples](https://github.com/aspose-email-cloud/aspose-email-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/email/) | [Free Support](https://forum.aspose.cloud/c/email) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/email/net) | [Documentation](https://docs.aspose.cloud/display/emailcloud/Home) | [Demo](https://products.aspose.app/email/family) | [API Reference](https://apireference.aspose.cloud/email/) | [Examples](https://github.com/aspose-email-cloud/aspose-email-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/email/) | [Free Support](https://forum.aspose.cloud/c/email) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

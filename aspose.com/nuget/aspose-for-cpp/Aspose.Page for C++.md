@@ -48,4 +48,4 @@ doc->InsertPage(1, true);
 doc->Save(outDir() + u"AddPages_out.xps");
 ```
 
-[Product Page](https://products.aspose.com/page/cpp) | [Documentation](https://docs.aspose.com/display/pagecpp/Home) | [Live Demo](https://products.aspose.app/page/family) | [API Reference](https://apireference.aspose.com/cpp/page) | [Examples](https://github.com/aspose-page/Aspose.Page-for-C) | [Blog](https://blog.aspose.com/category/page/) | [Free Support](https://forum.aspose.com/c/page) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/page/cpp) | [Documentation](https://docs.aspose.com/display/pagecpp/Home) | [Demo](https://products.aspose.app/page/family) | [API Reference](https://apireference.aspose.com/cpp/page) | [Examples](https://github.com/aspose-page/Aspose.Page-for-C) | [Blog](https://blog.aspose.com/category/page/) | [Free Support](https://forum.aspose.com/c/page) |  [Temporary License](https://purchase.aspose.com/temporary-license)

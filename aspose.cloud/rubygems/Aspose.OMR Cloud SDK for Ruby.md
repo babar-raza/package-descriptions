@@ -104,4 +104,4 @@ You can check out [OMR Demo](https://github.com/aspose-omr-cloud/aspose-omr-clou
 - OMR operation will show results only in text format.
 - Performing OCR operation is not supported for now.
 
-[Product Page](https://products.aspose.cloud/omr/ruby) | [Documentation](https://docs.aspose.cloud/display/omrcloud/Home) | [Live Demo](https://products.aspose.app/omr/family) | [API Reference](https://apireference.aspose.cloud/omr/) | [Examples](https://github.com/aspose-omr-cloud/aspose-omr-cloud-ruby) | [Blog](https://blog.aspose.cloud/category/omr/) | [Free Support](https://forum.aspose.cloud/c/omr) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/omr/ruby) | [Documentation](https://docs.aspose.cloud/display/omrcloud/Home) | [Demo](https://products.aspose.app/omr/family) | [API Reference](https://apireference.aspose.cloud/omr/) | [Examples](https://github.com/aspose-omr-cloud/aspose-omr-cloud-ruby) | [Blog](https://blog.aspose.cloud/category/omr/) | [Free Support](https://forum.aspose.cloud/c/omr) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

@@ -54,4 +54,4 @@ recognizeImage(templateId, imagePath) {
     }
 ```
 
-[Product Page](https://products.aspose.cloud/omr/nodejs) | [Documentation](https://docs.aspose.cloud/display/omrcloud/Home) | [Live Demo](https://products.aspose.app/omr/family) | [API Reference](https://apireference.aspose.cloud/omr/) | [Examples](https://github.com/aspose-omr-cloud/aspose-omr-cloud-nodejs) | [Blog](https://blog.aspose.cloud/category/omr/) | [Free Support](https://forum.aspose.cloud/c/omr) | [Free Trial](https://dashboard.aspose.cloud)
+[Product Page](https://products.aspose.cloud/omr/nodejs) | [Documentation](https://docs.aspose.cloud/display/omrcloud/Home) | [Demo](https://products.aspose.app/omr/family) | [API Reference](https://apireference.aspose.cloud/omr/) | [Examples](https://github.com/aspose-omr-cloud/aspose-omr-cloud-nodejs) | [Blog](https://blog.aspose.cloud/category/omr/) | [Free Support](https://forum.aspose.cloud/c/omr) | [Free Trial](https://dashboard.aspose.cloud)

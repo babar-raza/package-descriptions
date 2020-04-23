@@ -59,4 +59,4 @@ tmp_0->get_Parameters()->get_Barcode()->get_CodeTextParameters()->set_Location(C
 generator->Save(dir + u"output.png", BarCodeImageFormat::Png);
 ```
 
-[Product Page](https://products.aspose.com/barcode/cpp) | [Documentation](https://docs.aspose.com/display/barcodecpp/Home) | [Live Demo](https://products.aspose.app/barcode/family) | [API Reference](https://apireference.aspose.com/cpp/barcode) | [Examples](https://github.com/aspose-barcode/Aspose.Barcode-for-C) | [Blog](https://blog.aspose.com/category/barcode/) | [Free Support](https://forum.aspose.com/c/barcode) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/barcode/cpp) | [Documentation](https://docs.aspose.com/display/barcodecpp/Home) | [Demo](https://products.aspose.app/barcode/family) | [API Reference](https://apireference.aspose.com/cpp/barcode) | [Examples](https://github.com/aspose-barcode/Aspose.Barcode-for-C) | [Blog](https://blog.aspose.com/category/barcode/) | [Free Support](https://forum.aspose.com/c/barcode) | [Temporary License](https://purchase.aspose.com/temporary-license)

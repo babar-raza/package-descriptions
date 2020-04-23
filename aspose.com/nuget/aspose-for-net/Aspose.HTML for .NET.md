@@ -61,4 +61,4 @@ using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", 
 }
 ```
 
-[Product Page](https://products.aspose.com/html/net) | [Documentation](https://docs.aspose.com/display/htmlnet/Home) | [Live Demo](https://products.aspose.app/html/family) | [API Reference](https://apireference.aspose.com/net/html) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/category/html/) | [Free Support](https://forum.aspose.com/c/html) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/html/net) | [Documentation](https://docs.aspose.com/display/htmlnet/Home) | [Demo](https://products.aspose.app/html/family) | [API Reference](https://apireference.aspose.com/net/html) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/category/html/) | [Free Support](https://forum.aspose.com/c/html) |  [Temporary License](https://purchase.aspose.com/temporary-license)

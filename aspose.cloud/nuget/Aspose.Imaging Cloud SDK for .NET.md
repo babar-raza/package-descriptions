@@ -57,4 +57,4 @@ using (Stream updatedImage = this.ImagingApi.CreateSavedImageAs(request))
     }
 ```
 
-[Product Page](https://products.aspose.cloud/imaging/net) | [Documentation](https://docs.aspose.cloud/display/imagingcloud/Home) | [Live Demo](https://products.aspose.app/imaging/family) | [API Reference](https://apireference.aspose.cloud/imaging/) | [Examples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/imaging/) | [Free Support](https://forum.aspose.cloud/c/imaging) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/imaging/net) | [Documentation](https://docs.aspose.cloud/display/imagingcloud/Home) | [Demo](https://products.aspose.app/imaging/family) | [API Reference](https://apireference.aspose.cloud/imaging/) | [Examples](https://github.com/aspose-imaging-cloud/aspose-imaging-cloud-dotnet) | [Blog](https://blog.aspose.cloud/category/imaging/) | [Free Support](https://forum.aspose.cloud/c/imaging) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

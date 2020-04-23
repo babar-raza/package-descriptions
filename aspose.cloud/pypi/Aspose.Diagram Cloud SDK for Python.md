@@ -67,4 +67,4 @@ result = diagramAPI.diagram_file_post_save_as(filename, folder=folder, newfilena
 print(result);
 ```
 
-[Product Page](https://products.aspose.cloud/diagram/python) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [Live Demo](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Examples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/diagram/python) | [Documentation](https://docs.aspose.cloud/display/diagramcloud/Home) | [Demo](https://products.aspose.app/diagram/family) | [API Reference](https://apireference.aspose.cloud/diagram/) | [Examples](https://github.com/aspose-diagram-cloud/aspose-diagram-cloud-python) | [Blog](https://blog.aspose.cloud/category/diagram/) | [Free Support](https://forum.aspose.cloud/c/diagram) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

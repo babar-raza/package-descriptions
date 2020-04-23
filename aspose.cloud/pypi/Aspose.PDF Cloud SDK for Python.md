@@ -56,4 +56,4 @@ response = pdf_api.put_pdf_in_request_to_html(
 pprint(response)
 ```
 
-[Product Page](https://products.aspose.cloud/pdf/python) | [Documentation](https://docs.aspose.cloud/display/pdfcloud/Home) | [Live Demo](https://products.aspose.app/pdf/family) | [API Reference](https://apireference.aspose.cloud/pdf/) | [Examples](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python) | [Blog](https://blog.aspose.cloud/category/pdf/) | [Free Support](https://forum.aspose.cloud/c/pdf) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+[Product Page](https://products.aspose.cloud/pdf/python) | [Documentation](https://docs.aspose.cloud/display/pdfcloud/Home) | [Demo](https://products.aspose.app/pdf/family) | [API Reference](https://apireference.aspose.cloud/pdf/) | [Examples](https://github.com/aspose-pdf-cloud/aspose-pdf-cloud-python) | [Blog](https://blog.aspose.cloud/category/pdf/) | [Free Support](https://forum.aspose.cloud/c/pdf) | [Free Trial](https://dashboard.aspose.cloud/#/apps)

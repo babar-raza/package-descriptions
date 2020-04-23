@@ -124,4 +124,4 @@ end
 
 GroupDocs.Viewer Cloud Ruby SDK licensed under [MIT License](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-ruby/blob/master/LICENSE).
 
-[Product Page](https://products.groupdocs.cloud/viewer/ruby) | [Documentation](https://wiki.groupdocs.cloud/viewercloud/) | [Live Demo](https://products.groupdocs.app/viewer/family) | [API Reference](https://apireference.groupdocs.cloud/viewer/) | [Examples](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-ruby) | [Blog](https://blog.groupdocs.cloud/category/viewer/) | [Free Support](https://forum.groupdocs.cloud/c/viewer) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+[Product Page](https://products.groupdocs.cloud/viewer/ruby) | [Documentation](https://wiki.groupdocs.cloud/viewercloud/) | [Demo](https://products.groupdocs.app/viewer/family) | [API Reference](https://apireference.groupdocs.cloud/viewer/) | [Examples](https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-ruby) | [Blog](https://blog.groupdocs.cloud/category/viewer/) | [Free Support](https://forum.groupdocs.cloud/c/viewer) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

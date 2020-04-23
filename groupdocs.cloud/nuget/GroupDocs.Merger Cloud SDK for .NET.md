@@ -110,4 +110,4 @@ foreach (var document in response.Documents)
 }
 ```
 
-[Product Page](https://products.groupdocs.cloud/merger/net) | [Documentation](https://wiki.groupdocs.cloud/mergercloud/) | [Live Demo](https://products.groupdocs.app/merger/family) | [API Reference](https://apireference.groupdocs.cloud/merger/) | [Examples](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/merger/) | [Free Support](https://forum.groupdocs.cloud/c/merger) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+[Product Page](https://products.groupdocs.cloud/merger/net) | [Documentation](https://wiki.groupdocs.cloud/mergercloud/) | [Demo](https://products.groupdocs.app/merger/family) | [API Reference](https://apireference.groupdocs.cloud/merger/) | [Examples](https://github.com/groupdocs-merger-cloud/groupdocs-merger-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/category/merger/) | [Free Support](https://forum.groupdocs.cloud/c/merger) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

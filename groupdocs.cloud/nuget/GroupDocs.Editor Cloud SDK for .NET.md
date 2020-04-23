@@ -77,4 +77,4 @@ var saveOptions = new PresentationSaveOptions
 var saveResult = editApi.Save(new SaveRequest(saveOptions));
 ```
 
-[Product Page](https://products.groupdocs.cloud/editor/net) | [Documentation](https://wiki.groupdocs.cloud/editorcloud/) | [Live Demo](https://products.groupdocs.app/editor/family) | [API Reference](https://apireference.groupdocs.cloud/editor/) | [Examples](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/) | [Free Support](https://forum.groupdocs.cloud/c/editor) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)
+[Product Page](https://products.groupdocs.cloud/editor/net) | [Documentation](https://wiki.groupdocs.cloud/editorcloud/) | [Demo](https://products.groupdocs.app/editor/family) | [API Reference](https://apireference.groupdocs.cloud/editor/) | [Examples](https://github.com/groupdocs-editor-cloud/groupdocs-editor-cloud-dotnet) | [Blog](https://blog.groupdocs.cloud/) | [Free Support](https://forum.groupdocs.cloud/c/editor) | [Free Trial](https://dashboard.groupdocs.cloud/#/apps)

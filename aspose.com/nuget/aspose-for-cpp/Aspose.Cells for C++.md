@@ -89,4 +89,4 @@ chart->GetNISeries()->GetObjectByIndex(1)->SetType(Aspose::Cells::Charts::ChartT
 workbook->Save(new String("output.xlsx")));
 ```
 
-[Product Page](https://products.aspose.com/cells/cpp) | [Documentation](https://docs.aspose.com/display/cellscpp/Home) | [Live Demo](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.com/cpp/cells) | [Examples](https://github.com/aspose-cells/Aspose.Cells-for-C) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/cells/cpp) | [Documentation](https://docs.aspose.com/display/cellscpp/Home) | [Demo](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.com/cpp/cells) | [Examples](https://github.com/aspose-cells/Aspose.Cells-for-C) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) |  [Temporary License](https://purchase.aspose.com/temporary-license)
