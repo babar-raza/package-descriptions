@@ -1,10 +1,10 @@
 # .NET API to Manipulate Finance-related Formats
 
-Aspose.Finance for .NET is a standalone on-premise API consisting of C# classes that allow you to process and manipuate finance-related formats, such as, XBRL and iXBRL from within your .NET applications.
+[Aspose.Finance for .NET](https://products.aspose.com/finance/net) is a standalone on-premise API consisting of C# classes that allow you to process and manipuate finance-related formats, such as, XBRL and iXBRL from within your .NET applications.
 
 ## Archive Processing Features
 
-- Create XBRL instance from scratch.
+- [Create XBRL instance](https://docs.aspose.com/display/financenet/Create+XBRL+files#CreateXBRLfiles-CreateXBRLInstance) from scratch.
 - Read XBRL & iXBRL format.
 - Supports XBRL & iXBRL validation.
 - Import and export XBRL & iXBRL format files.
@@ -42,4 +42,4 @@ if (roleType != null)
 document.Save(XbrlFilePath + @"output\document7.xbrl");
 ```
 
-[Product Page](https://products.aspose.com/finance/net) | [Documentation](https://docs.aspose.com/display/financenet/Home) | [Live Demo](https://products.aspose.app/finance/family) | [API Reference](https://apireference.aspose.com/finance/net) | [Code Examples](https://github.com/aspose-finance/Aspose.finance-for-.NET) | [Blog](https://blog.aspose.com/category/finance/) | [Free Support](https://forum.aspose.com/c/finance) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/finance/net) | [Documentation](https://docs.aspose.com/display/financenet/Home) | [Demo](https://products.aspose.app/finance/family) | [API Reference](https://apireference.aspose.com/finance/net) | [Examples](https://github.com/aspose-finance/Aspose.finance-for-.NET) | [Blog](https://blog.aspose.com/category/finance/) | [Free Support](https://forum.aspose.com/c/finance) | [Temporary License](https://purchase.aspose.com/temporary-license)
