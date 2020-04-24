@@ -22,28 +22,28 @@ A standalone C++ class library to load, save, format & convert Microsoft Word® 
 - [Clone VBA Project](https://docs.aspose.com/display/wordscpp/Working+with+VBA+Macros#WorkingwithVBAMacros-CloneVBAProject) or VBA Module.
 - So many more [features](https://docs.aspose.com/display/wordscpp/Developer+Guide).
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Ability to set different attributes of Shape inside `IFieldMergingCallback.ImageFieldMerging`.
-- New properties `FindReplaceOptions`.
-- Implemented color change for side faces.
-- Ability to get a column of table by bookmark.
-- Implemented correct contour rendering for volume shapes.
+- Added support for verifying and signing documents.
+- Added support for downloading remote resources from the Internet.
+- Provided ability to change Asian paragraph spacing and indents.
+- Added image interpolation option for PDF rendering (new public property `PdfSaveOptions.InterpolateImages`).
+- Extended API of chart data labels and series.
 
-## Limitations and API Differences in Version 20.3
+## Limitations and API Differences in Version 20.4
 
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release. The missing features will be added in future releases.
 
-- The current release does not support:
-  - Some cryptography features - it cannot verify and sign documents.
-  - Downloading remote resources from the Internet.
-  - The Metered license.
-  - Multipage TIFF format.
-  - LINQ and Reporting features.
-- Limited support for database features - C++ does not have a common API for DB like .Net System.Data.
+- Metered license.
+- Multipage TIFF format.
+- *LINQ* and Reporting features.
+- *OpenGL* 3D Shapes rendering.
+- Advanced typography based on the *HarfBuzz* shaper.
+- Loading PDF documents.
+- Limited support for database features - C++ doesn't have a common API for DB like .Net System.Data.
 - Only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
 
-For the detailed notes, please visit [Aspose.Words for CPP 20.3 Release Notes](https://docs.aspose.com/display/wordscpp/Aspose.Words+for+CPP+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.Words for CPP 20.4 Release Notes](https://docs.aspose.com/display/wordscpp/Aspose.Words+for+CPP+20.4+Release+Notes).
 
 ## Read & Write Word Processing Files
 
