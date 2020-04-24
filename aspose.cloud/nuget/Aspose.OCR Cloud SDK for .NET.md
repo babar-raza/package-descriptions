@@ -9,7 +9,13 @@ This cloud SDK helps you [perform optical character recognition (OCR)](https://p
 - Perform OCR to recognize text from whole or partial image.
 - Fetch character and font information from raster images.
 - Return the response in the JSON or XML format.
-- Supports English, French & Spanish text recognition.
+- Supports English text recognition.
+
+## New Features in Version 20.3
+
+- We are glad to introduce French and German languages support.
+
+For the detailed notes, please visit [Aspose.OCR for Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/ocrcloud/Aspose.OCR+for+Cloud+20.03+Release+Notes).
 
 ## Save OCR As
 
