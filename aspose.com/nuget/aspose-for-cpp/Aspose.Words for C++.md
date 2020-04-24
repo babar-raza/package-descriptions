@@ -43,7 +43,7 @@ Aspose.Words for C++ has some differences as compared to its equivalent .NET ver
 - Limited support for database features - C++ doesn't have a common API for DB like .Net System.Data.
 - Only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
 
-For the detailed notes, please visit [Aspose.Words for CPP 20.4 Release Notes](https://docs.aspose.com/display/wordscpp/Aspose.Words+for+CPP+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Words for C++ 20.4 Release Notes](https://docs.aspose.com/display/wordscpp/Aspose.Words+for+CPP+20.4+Release+Notes).
 
 ## Read & Write Word Processing Files
 

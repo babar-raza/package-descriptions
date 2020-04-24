@@ -13,16 +13,26 @@
 - Specify image area to scan barcode.
 - Create device resolution dependent images.
 
-## New Features in Version 20.3
+## Enhancements in Version 20.4
 
-- Generate *DataMatrix* barcode with `X12`, `EDIFACT` and `Base 256` encoding.
+- Option to set Barcode value while creating barcode of type *PatchCode*.
 
 ## Public API and Backward Incompatible Changes
 
-- Added property `Aspose.BarCode.DataMatrixEncodeMode.ANSIX12`
-- Added property `Aspose.BarCode.DataMatrixEncodeMode.EDIFACT`
+- Added property `Aspose.BarCode.Generation.BarcodeParameters.PatchCode`
+- Added class `Aspose.BarCode.Generation.PatchCodeParameters`
+- Added property `Aspose.BarCode.Generation.PatchCodeParameters.ExtraBarcodeText`
+- Added property `Aspose.BarCode.Generation.PatchCodeParameters.PatchFormat`
+- Added method `Aspose.BarCode.Generation.PatchCodeParameters.ToString`
+- Added type `Aspose.BarCode.Generation.PatchFormat`
+- Added field `Aspose.BarCode.Generation.PatchFormat.PatchOnly`
+- Added field `Aspose.BarCode.Generation.PatchFormat.A4`
+- Added field `Aspose.BarCode.Generation.PatchFormat.A4_LANDSCAPE`
+- Added field `Aspose.BarCode.Generation.PatchFormat.US_Letter`
+- Added field `Aspose.BarCode.Generation.PatchFormat.US_Letter_LANDSCAPE`
+- Added method `Aspose.BarCode.Metered.GetConsumptionCredit`
 
-For the detailed notes, please visit [Aspose.BarCode for .NET 20.3 Release Notes](https://docs.aspose.com/display/barcodenet/Aspose.BarCode+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.BarCode for .NET 20.4 Release Notes](https://docs.aspose.com/display/barcodenet/Aspose.BarCode+for+.NET+20.4+Release+Notes).
 
 ## Barcode Symbologies
 

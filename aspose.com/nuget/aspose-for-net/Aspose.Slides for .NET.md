@@ -10,11 +10,15 @@
 - Presentation Security: Load protected presentations or control access to presentations, slides or objects via advanced security features.
 - Availability of 24 pre-defined textures & 48 patterns for quick styling.
 
-## Enhancements in Version 20.3
+## New Features in Version 20.4
 
-- Keep the sequence of numbered list that has *NumberedBulletStartWith*.
+- Support for using formula recalculated cells in charting.
+- Added the possibility to specify *PDF/A-1a* compliance.
+- Added OpenDocument Flat XML Presentation (*.fodp*) file format support.
+- PP2019 "read-only recommended" Presentation.
+- Different line spacing of text.
 
-For the detailed notes, please visit [Aspose.Slides for .NET 20.3 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides for .NET 20.4 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.4+Release+Notes).
 
 ## Read & Write Presentations
 

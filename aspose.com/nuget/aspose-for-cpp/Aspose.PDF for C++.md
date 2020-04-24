@@ -22,14 +22,24 @@
 - [Configure various access privileges for the PDF](https://docs.aspose.com/display/pdfcpp/Encrypt%2C+Decrypt+and+set+Privileges+on+PDF+documents) document.
 - [Extract text from all pages of a PDF](https://docs.aspose.com/pages/viewpage.action?pageId=51479222) file.
 
-## APIs Added in Version 20.3
+## New Features in Version 20.4
 
-- Class `Aspose.Pdf.Annotations.CustomExplicitDestination`
-- Method `Aspose.Pdf.Annotations.CustomExplicitDestination.ToString`
-- Property `Aspose.Pdf.PclLoadOptions.BatchSize`
-- Property `Aspose.Pdf.PptxSaveOptions.CustomProgressHandler`
+- Support for Converting *PDF* to PowerPoint *PPTX* format.
+- Supports *TIFF* images based on the support in `asposecpplib` (`CodePorting.Native.Cs2Cpp.API`) by Aspose.Words API.
 
-For the detailed notes, please visit [Aspose.PDF for CPP 20.3 Release Notes](https://docs.aspose.com/display/pdfcpp/Aspose.PDF+for+CPP+20.3+Release+Notes).
+## Public API and Backward Incompatible Changes in Version 20.4
+
+### Added APIs
+
+- Property `Aspose.Pdf.Cell.BackgroundImage`.
+
+### Removed APIs
+
+- Class `Aspose.Pdf.LatexLoadOptions` is renamed to `Aspose.Pdf.TeXLoadOptions` (`Aspose.Pdf.LatexLoadOptions` is declared obsolete)
+- Class `Aspose.Pdf.LaTeXSaveOptions` is renamed to `Aspose.Pdf.TeXSaveOptions` (`Aspose.Pdf.LaTeXSaveOptions` is declared obsolete)
+- Class `Aspose.Pdf.LatexFragment` is renamed to `Aspose.Pdf.TeXFragment` (`Aspose.Pdf.LatexFragment` is declared obsolete)
+
+For the detailed notes, please visit [Aspose.PDF for C++ 20.4 Release Notes](https://docs.aspose.com/display/pdfcpp/Aspose.PDF+for+CPP+20.4+Release+Notes).
 
 ## Read & Write PDF & Other Formats
 
