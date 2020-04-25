@@ -22,26 +22,33 @@ This REST API enhances your C#, ASP.NET, & other .NET based cloud apps to [rende
 - Get list of all email attachments in its HTML or image representation.
 - Download resources of a specific email attachment page for HTML representation.
 
-## Enhancements in Version 19.5
+## New Features in Version 20.3
 
-- Improved Cloud products API Reference grouping.
+- Added `OutputPath` option to `DeleteViewOptions`.
+- Removed *BMP* View Format.
+- Added Options for rendering a document into *PDF*.
+- Added new render options.
+- Added support for new file formats: *XLTM*, *XLTX*, *JPC*, *XLAM*, *MPX*, *OXPS*, *FODS*, *SXC*, *DWT*, *OTG*.
+- Added support for programming languages code files (C++, Java, C# etc.).
+- Added support for archive file formats.
 
-For the detailed notes, please visit [GroupDocs.Viewer Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/viewercloud/release-notes/2019/groupdocs-viewer-cloud-19-5-release-notes/).
+For the detailed notes, please visit [GroupDocs.Viewer Cloud 20.3 Release Notes](https://wiki.groupdocs.cloud/viewercloud/release-notes/release-notes-2020/groupdocs-viewer-cloud-20-3-release-notes/).
 
 ## Supported File Formats
 
 **Word Processing:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, ODT, OTT, RTF, TXT
-**Spreadsheet:** XLS, XLSB, XLSM, XLSX, ODS, OTS, CSV, TSV
+**Spreadsheet:** XLS, XLSB, XLSM, XLSX, XLTM, XLTX, XLAM, ODS, FODS, OTS, CSV, TSV,SXC
 **Presentation:** PPT, PPTM, PPTX, PPS, PPSM, PPSX, POTX, POTM, ODP, OTP
-**Project Management:** MPP, MPT
+**Project Management:** MPP, MPT, MPX
 **Email:** EML, EMLX, MSG, OST, PST
 **AutoCAD:** DGN, DWF, DWG, DXF, IFC, STL
 **Markup:** HTML, MHTML
-**Diagram:** VDW, VDX, VSD, VSDM, VSDX, VSS, VSSM, VSSX, VST, VSTM, VSTX, VSX, VTX
+**Diagram:** VDW, VDX, VSD, VSDM, VSDX, VSS, VSSM, VSSX, VST, VSTM, VSTX, VSX, VTX, OTG
 **Note:** ONE
-**Portable:** PDF, TEX, XPS
-**Image:** BMP, CGM, DCM, DJVU, DNG, EMF, EPS, GIF, ICO, JP2, JPF, JPX, J2K, J2C, JPM, JPG, JPEG, ODG, PCL, PNG, PS, PSD, SVG, TIF, TIFF, WEBP, WMF
+**Portable:** PDF, TEX, XPS, OXPS
+**Image:** CGM, DCM, DJVU, DNG, EMF, EPS, GIF, ICO, JP2, JPF, JPX, J2K, J2C, JPM, JPG, JPEG, JPC, ODG, PCL, PNG, PS, PSD, SVG, TIF, TIFF, WEBP, WMF
 **eBook:** EPUB, MOBI
+**Other:** DWT
 
 ## Getting Started
 
