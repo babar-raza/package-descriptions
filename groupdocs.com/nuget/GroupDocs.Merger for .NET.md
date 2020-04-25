@@ -23,11 +23,15 @@ This .NET on-premise API lets your apps [perform merging, trimming, reordering, 
 - Ability to log document manipulation process information.
 - Load document from local disk, stream or from URL.
 
-## New Features in Version 20.2
+## New Features in Version 20.4
 
-- Added support for the MHTML file format.
+- This release implements the import of OLE objects into:
+  - Microsoft PowerPoint and Open Document presentations.
+  - Microsoft Word documents.
+  - Microsoft Excel and Open Document spreadsheets.
+- Ability to add PDF document attachments.
 
-For the detailed list, please visit [GroupDocs.Merger for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/mergernet/GroupDocs.Merger+for+.NET+20.2+Release+Notes).
+For the detailed list, please visit [GroupDocs.Merger for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/mergernet/GroupDocs.Merger+for+.NET+20.4+Release+Notes).
 
 ## Join & Split File Formats
 

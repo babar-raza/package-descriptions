@@ -28,12 +28,15 @@ An on-premise [API to generate documents of various formats](https://products.gr
 - Load template documents from HTML with resources.
 - Save assembled documents to HTML with resources.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Supports dynamic checkbox value setting for Word Processing documents.
-- Supports dynamic image and document insertion from Base64-encoded bytes.
+- This release provides the option to fit an image within textbox bounds while maintaining ratio for:
+  - Word Processing documents.
+  - Emails with *RTF* bodies.
+  - Spreadsheet documents.
+  - Presentation documents.
 
-For the detailed notes, please visit [GroupDocs.Assembly for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/assemblynet/GroupDocs.Assembly+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Assembly for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/assemblynet/GroupDocs.Assembly+for+.NET+20.4+Release+Notes).
 
 ## Read & Write Microsoft Office Formats
 
