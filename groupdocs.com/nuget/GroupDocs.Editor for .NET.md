@@ -21,16 +21,16 @@ It is a .NET API that enhances your apps to perform document, spreadsheets, DSV 
 - Open any supported format file in HTML format and save to disk.
 - Fetch HTML markup from DB or remote storage.
 
-## New Features in Version 20.2
+## New Features in Version 20.3
 
-- Set custom class name for all form-fields with corresponding public options.
-- Support for text direction in input plain text document.
+- Ability to extract fonts from the user folder in Windows 10.
+- New boolean flag named `ExtractOnlyUsedFont` is added to the `WordProcessingEditOptions` class. Setting this flag to true excludes the fonts which are not directly applied to textual content in the document.
 
-## Improvements in Version 20.2
+## Enhancements in Version 20.3
 
-- Support for `PDF 1.7`.
+- Supports new HTML elements: *COLGROUP*, *SECTION*, *OPTGROUP*, *BDI*, *BDO*, *CAPTION*, *ARTICLE*, and *WBR*.
 
-For the detailed notes, please visit [GroupDocs.Editor for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/editornet/GroupDocs.Editor+for+.NET+20.2+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Editor for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/editornet/GroupDocs.Editor+for+.NET+20.3+Release+Notes).
 
 ## Editable File Formats
 

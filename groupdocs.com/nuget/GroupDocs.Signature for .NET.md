@@ -13,22 +13,16 @@ This on-premise .NET API lets your app end-users [sign the electronic documents]
 - Distinguish created signatures from the actual document.
 - Put encrypted text into QR-code signature or embed custom data objects.
 
-## New Features in Version 20.2
+## New Features in Version 20.3
 
-- Extended Image Signature with image data content for following:
-  - Presentation Documents
-  - Word Processing Documents
-  - Spreadsheet Documents
-  - PDF Documents
-- Support to implement Image Size filter for Image Search functionality.
-- Support to implement output Image format property for Image Search Options.
+- Implemented `EPC/SEPA` standard *QR-code* entry.
+- Implemented `MeCard` contact details standard *QR-code* entry.
+- Implemented Event standard *QR-code* entry.
+- Ability to add Radio button Form Field signature to *PDF* Documents.
+- Ability to add Combobox Form Field signature to *PDF* Documents.
+- Implemented Border settings for Image signature options.
 
-## Enhancements in the Version 20.2
-
-- Extended Document Information with list of existing signatures and document Form Fields.
-- Improved ability to search over simple `SignatureType` argument or several.
-
-For the detailed notes, please visit [GroupDocs.Signature for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/signaturenet/GroupDocs.Signature+for+.NET+20.2+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Signature for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/signaturenet/GroupDocs.Signature+for+.NET+20.3+Release+Notes).
 
 ## Signature Supported Formats
 

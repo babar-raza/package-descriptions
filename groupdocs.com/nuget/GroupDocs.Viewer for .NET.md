@@ -24,17 +24,17 @@ This robust .NET on-premise [file viewer API](https://products.groupdocs.com/vie
 - Render documents with comments, notes, and custom fonts.
 - Replace missing fonts while rendering.
 
-## New Features in Version 20.2
+## New Features in Version 20.3
 
-- Supports retrieving an attachment file type.
-- Display folder name in the header when viewing archives.
+- Added support of Microsoft Excel 97-2003 Template (.XLT) file format.
+- Set filename when viewing archive files.
 
-For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.2 Release Notes](https://docs.groupdocs.com/display/viewernet/GroupDocs.Viewer+for+.NET+20.2+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/viewernet/GroupDocs.Viewer+for+.NET+20.3+Release+Notes).
 
 ## HTML, Image, PDF Rendering Supported Formats
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLS, XLSB, XLSM, XLSX, XLTX, XLAM
+**Microsoft Excel:** XLS, XLSB, XLSM, XLSX, XLT, XLTX, XLAM
 **Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTM, POTX
 **Microsoft Visio:** VDW, VDX, VSD, VSDM, VSDX, VSS, VSSM, VSSX, VST, VSTM, VSTX, VSX, VTX
 **Microsoft Project:** MPP, MPT, MPX
