@@ -17,20 +17,14 @@ This REST API allows your C#, ASP.NET & other .NET cloud-based apps to [convert 
 - Use PDF as an intermediary format while converting.
 - Apply watermark during conversion process.
 
-## New Features in Version 20.2
+## New Features in Version 20.3
 
-- **New Source Formats:** DIB, XLT, POT, XLAM, MPX, JPC, DWT, JPEG-LS.
-- **New Target Formats:** WMF, EMF, XLAM.
-- Supports encoding for source `CSV` and `TXT` documents.
-- Supports `TimeZoneOffset` and `ConvertAttachments` for source Email documents.
+- Hide/remove border while converting Wordprocessing to HTML format.
+- When converting from an email file, the field captions could be localized.
+- When converting from an email file, current set culture is respected when saving datetime.
+- Ability to add page numbering when converting HTML to Wordprocessing formats.
 
-## Enhancements in Version 20.2
-
-- Improved quality of Diagram to Word document conversion.
-- Converting multi-page `TIFF` to `PDF`.
-- Improvement in `MPP` to `XLS` conversion.
-
-For the detailed notes, please visit, [GroupDocs.Conversion Cloud 20.2 Release Notes](https://wiki.groupdocs.cloud/conversioncloud/release-notes/2020/groupdocs-conversion-cloud-20-2-release-notes/).
+For the detailed notes, please visit, [GroupDocs.Conversion Cloud 20.3 Release Notes](https://wiki.groupdocs.cloud/conversioncloud/release-notes/2020/groupdocs-conversion-cloud-20-3-release-notes/).
 
 ## Conversion File Formats
 
