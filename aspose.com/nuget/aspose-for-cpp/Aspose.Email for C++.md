@@ -22,7 +22,12 @@
 - Add [display or audio reminder](https://docs.aspose.com/display/emailcpp/Working+with+Outlook+Calendar+Items) to email calendar items.
 - So many more [features](https://docs.aspose.com/display/emailcpp/Developer+Guide).
 
-## Limitations and API Differences in Version 20.2
+## New Features in Version 20.3
+
+- Streaming interface to `OLMClient`.
+- Extraction of `OLM` files timeout.
+
+## Limitations and API Differences in Version 20.3
 
 Aspose.Email for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release.
 
@@ -31,7 +36,7 @@ The missing features are:
 - Microsoft Graph REST API v1.0
 - Exchange WebDav API
 
-For the detailed notes, please visit [Aspose.Email for CPP 20.2 Release Notes](https://docs.aspose.com/display/emailcpp/Aspose.Email+for+CPP+20.2+Release+Notes).
+For the detailed notes, please visit [Aspose.Email for C++ 20.3 Release Notes](https://docs.aspose.com/display/emailcpp/Aspose.Email+for+CPP+20.3+Release+Notes).
 
 ## Read & Write Email Formats
 
