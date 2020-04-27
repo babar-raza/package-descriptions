@@ -18,12 +18,11 @@ A standalone C++ library that enables the C++ developers to [generate, update, r
 - [Convert project data](https://docs.aspose.com/display/taskscpp/Converting+Project+Data) to other [supported file formats](https://docs.aspose.com/display/taskscpp/Supported+File+Formats).
 - So many more [features](https://docs.aspose.com/display/taskscpp/Developer+Guide).
 
-## Enhancements in Version 20.3
+## New Features in Version 20.4
 
-- Ability to get page count using the provided instance of `SaveOptions`.
-- Improved the performance of auto recalculation for large sets of tasks.
+- This release mainly covers some improved features.
 
-For the detailed notes, please visit [Aspose.Tasks for CPP 20.3 Release Notes](https://docs.aspose.com/display/taskscpp/Aspose.Tasks+for+CPP+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.Tasks for C++ 20.4 Release Notes](https://docs.aspose.com/display/taskscpp/Aspose.Tasks+for+CPP+20.4+Release+Notes).
 
 ## Read & Write Project Files
 
