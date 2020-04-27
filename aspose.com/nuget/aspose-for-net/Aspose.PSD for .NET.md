@@ -24,30 +24,19 @@ A standalone .NET API to read, write, process & convert Adobe Photoshop PSD & PS
 - Color Balance or invert Adjustment Layer.
 - Draw basic objects such as lines, Ellipse, Rectangle, Arc, Bezier
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Support for .Net Core.
-- Convert Adobe Illustrator files into PDFs.
-- Ability to render different styles in one text layer.
-- Support for Black and White Adjustment Layer.
-- Export AI format (Version 8) to other formats.
-- Support for PassThrough Blending Mode processing (Used for Layer Group Only).
+- Support of the 'Vector Origination Data' resource.
+- Support of `lclrResource` (Sheet color setting).
+- Support properties from `LengthRecord` data. (Path operations (boolean operations), index of the shape in the layer, count of the bezier knot records).
+- Support of Image Section *Resource #1010* Background color.
+- Support of Image Section *Resource #1009* Border information.
+- Adding of Fill Layers at runtime.
+- Support of Layers in AI Format Files.
+- Support Reading and Editing of Gradient Overlay Layer Effect.
+- Rendering of Gradient Overlay Layer Effect.
 
-For the detailed notes, please visit [Aspose.PSD for .NET 20.3 - Release Notes](https://docs.aspose.com/display/psdnet/Aspose.PSD+for+.NET+20.3+-+Release+Notes).
-
-## New Feature Usage Example
-
-### Convert Adobe Illustrator files into PDFs
-
-```csharp
-string sourceFile = "rect2_color.ai";
-using (var aiImage = (AiImage)Image.Load(sourceFile))
-{
-    aiImage.Save("rect2_color.ai_output.pdf", new PdfOptions());
-}
-```
-
-For the detailed usage examples of all the new features, please visit [Aspose.PSD for .NET 20.3 - Release Notes](https://docs.aspose.com/display/psdnet/Aspose.PSD+for+.NET+20.3+-+Release+Notes).
+For the detailed notes, please visit [Aspose.PSD for .NET 20.4 - Release Notes](https://docs.aspose.com/display/psdnet/Aspose.PSD+for+.NET+20.4+-+Release+Notes).
 
 ## Read & Write Photoshop Formats
 
