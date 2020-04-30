@@ -24,12 +24,13 @@ This robust .NET on-premise [file viewer API](https://products.groupdocs.com/vie
 - Render documents with comments, notes, and custom fonts.
 - Replace missing fonts while rendering.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Added support of Microsoft Excel 97-2003 Template (.XLT) file format.
-- Set filename when viewing archive files.
+- Added Plotter Document *(.PLT, .HPG)* file format support.
+- Ability to show spreadsheet column headings and row numbers.
+- Ability to set background color when viewing *CAD* Drawings.
 
-For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/viewernet/GroupDocs.Viewer+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/viewernet/GroupDocs.Viewer+for+.NET+20.4+Release+Notes).
 
 ## HTML, Image, PDF Rendering Supported Formats
 
