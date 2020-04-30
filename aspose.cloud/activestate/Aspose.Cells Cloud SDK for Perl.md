@@ -18,12 +18,17 @@ This Cloud SDK enhances your Perl cloud-based apps to [process & manipulate Micr
 - Cloud SDK to Read & Process Excel Worksheets.
 - Leverage the Power of Pivot Tables & Ranges.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Support to export area or page of sheet to JPEG.
-- Support to add background for workbook.
+- Supports to add workbook background.
+- Supports to delete workbook background.
 
-For the detailed notes, please visit [Aspose.Cells Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.3+Release+Notes).
+## Enhancements in Version 20.4
+
+- Support for splitting workbook.
+- Support for creating workbook.
+
+For the detailed notes, please visit [Aspose.Cells Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.4+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 

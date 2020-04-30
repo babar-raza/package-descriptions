@@ -18,9 +18,17 @@ This Cloud SDK enhances your Swift cloud-based apps to [process & manipulate Mic
 - Cloud SDK to Read & Process Excel Worksheets.
 - Leverage the Power of Pivot Tables & Ranges.
 
-## Enhancements in Version 20.2
+## New Features in Version 20.4
 
-- Automatically refresh authorization Token in SDK.
+- Supports to add workbook background.
+- Supports to delete workbook background.
+
+## Enhancements in Version 20.4
+
+- Support for splitting workbook.
+- Support for creating workbook.
+
+For the detailed notes, please visit [Aspose.Cells Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.4+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 

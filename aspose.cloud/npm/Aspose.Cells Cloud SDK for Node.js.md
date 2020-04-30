@@ -20,12 +20,17 @@ Node.js Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate 
 - Fetch the required shape from worksheet.
 - Leverage the Power of Pivot Tables & ranges.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Export area or page of worksheet to JPEG.
-- Add background to the workbook.
+- Supports to add workbook background.
+- Supports to delete workbook background.
 
-For the detailed notes, please visit [Aspose.Cells Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.3+Release+Notes).
+## Enhancements in Version 20.4
+
+- Support for splitting workbook.
+- Support for creating workbook.
+
+For the detailed notes, please visit [Aspose.Cells Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.4+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
@@ -61,6 +66,7 @@ Firstly, create an account at [Aspose for Cloud](https://dashboard.aspose.cloud/
 The complete source code is available at [GitHub Repository](https://github.com/aspose-cells-cloud/aspose-cells-cloud-node).
 
 ## Convert Excel to PDF via Node.js
+
 ```js
 var fs = require('fs');
 var path = require('path');

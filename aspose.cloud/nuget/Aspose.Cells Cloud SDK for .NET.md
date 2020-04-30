@@ -25,8 +25,10 @@ This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to [proc
 
 ## Enhancements in Version 20.4
 
-- Create workbook.
-- Split workbook.
+- Support for splitting workbook.
+- Support for creating workbook.
+
+For the detailed notes, please visit [Aspose.Cells Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.4+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 

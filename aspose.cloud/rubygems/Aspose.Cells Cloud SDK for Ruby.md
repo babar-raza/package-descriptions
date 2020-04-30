@@ -18,17 +18,17 @@ This Cloud SDK enhances your Ruby cloud-based apps to [process & manipulate Micr
 - Cloud SDK to Read & Process Excel Worksheets.
 - Leverage the Power of Pivot Tables & Ranges.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Support to export whole page of sheet or an area to `JPEG` format.
-- Support to add workbook background.
+- Supports to add workbook background.
+- Supports to delete workbook background.
 
-## Enhancements in Version 20.3
+## Enhancements in Version 20.4
 
-- Update `Aspose.Cells.DLL` to 20.2.4 for Aspose.Cells Cloud.
-- Enhancements in creating and splitting workbooks.
+- Support for splitting workbook.
+- Support for creating workbook.
 
-For the detailed notes, please visit [Aspose.Cells Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.Cells Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.4+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
