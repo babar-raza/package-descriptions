@@ -10,15 +10,18 @@ This cloud SDK enables your Ruby cloud apps to [create & process Visio diagrams]
 - Upload your business oriented Visio diagrams to cloud storage.
 - Export Visio files to raster images, fixed-layout and HTML formats.
 
-## New Features in Version 19.10
+## New Features in Version 20.3
 
-- General enhancements to the Aspose.Diagram Cloud REST API.
-- Added `SaveOption` parameter for `saveAs` API.
-- Enhancement in the `Convert` API.
-- Added support for multiple files exports that convert files to `HTML`.
-- Integrated Aspose.Storage Cloud feature into Aspose.Diagram Cloud.
+- Added support to:
+  - Set page setting.
+  - Add new empty page.
+  - Get pages info.
+- Added support to draw following objects on a page:
+  - Polyline
+  - Line
+  - Ellipse
 
-For the detailed notes, please visit [Aspose.Diagram Cloud 19.10 Release Notes](https://docs.aspose.cloud/display/diagramcloud/Aspose.Diagram+Cloud+19.10+Release+Notes).
+For the detailed notes, please visit [Aspose.Diagram Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/diagramcloud/Aspose.Diagram+Cloud+20.3+Release+Notes).
 
 ## Read & Write Visio Formats
 
