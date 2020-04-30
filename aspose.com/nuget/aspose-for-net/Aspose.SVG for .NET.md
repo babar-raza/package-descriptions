@@ -10,10 +10,13 @@ This .NET on-premise API helps you [seamlessly integrate SVG file processing & m
 - Support for content navigation via [XPath Query](https://docs.aspose.com/display/svgnet/Traverse+SVG+DOM#TraverseSVGDOM-UsingXPathQuery), [CSS Selectors](https://docs.aspose.com/display/svgnet/Traverse+SVG+DOM#TraverseSVGDOM-UsingCSSSelector), Element and Document Traversal features.
 - Support for quality rendering.
 
-## Enhancements in Version 20.2
+## Enhancements in Version 20.4
 
-- Improved pagination algorithm.
-- Improved element's bounding box calculation algorithm.
+- The issue with the calculation of the transformation matrix during pagination was fixed.
+- The text messages in watermarks have been changed in the evaluation mode with a purpose to be more informative. 
+- Moreover, several rules have been expanded to reach more understandable product behavior in evaluation mode.
+
+For the detailed notes, please visit [Aspose.SVG for .NET 20.4 Release Notes](https://docs.aspose.com/display/svgnet/Aspose.SVG+for+.NET+20.4+Release+Notes).
 
 ## Read Supported Formats
 
