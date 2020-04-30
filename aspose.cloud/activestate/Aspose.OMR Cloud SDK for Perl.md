@@ -16,6 +16,10 @@ This Cloud SDK enables you to [perform Optical Mark Recognition (OMR)](https://p
 - Clip an area of interest from an image, save it as JPEG & perform OMR on it.
 - Perform highly accurate optical mark recognition (OMR).
 
+## Enhancements in Version 20.2
+
+- Minor metadata updates.
+
 ## Save OMR As
 
 CSV

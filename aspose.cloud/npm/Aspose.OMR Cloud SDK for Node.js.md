@@ -14,19 +14,9 @@ Node.js Cloud SDK wraps Aspose.OMR REST API so you could seamlessly integrate OM
 - Provide JSON rules to perform OMR answer grading.
 - Clip an area of interest from an image, save it as JPEG & perform OMR on it.
 
-## Enhancements in OMR.Kernel for SDK Version 19.2
+## Enhancements in Version 20.2
 
-- Comprehensive and user-friendly messages on errors in `OMR.Kernel`.
-- Full `UTF8` support in `OMR.Kernel`.
-
-## Enhancements in GUI OMR Editor for SDK Version 19.2
-
-- Copy & Paste improvements:
-  - Improved positioning of pasted elements.
-  - Correct behavior of elements that are out of image bounds.
-- View fits width by default on image and template loading.
-
-For the detailed notes, please visit [Aspose.OMR Cloud 19.2 Release Notes](https://docs.aspose.cloud/display/omrcloud/Aspose.OMR+Cloud+19.2+Release+Notes).
+- Minor metadata updates.
 
 ## Save OMR Results As
 
