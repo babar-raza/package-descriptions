@@ -10,15 +10,14 @@
 - Presentation Security: Load protected presentations or control access to presentations, slides or objects via advanced security features.
 - Availability of 24 pre-defined textures & 48 patterns for quick styling.
 
-## New Features in Version 20.4
+## New Features in Version 20.5
 
-- Support for using formula recalculated cells in charting.
-- Added the possibility to specify *PDF/A-1a* compliance.
-- Added OpenDocument Flat XML Presentation (*.fodp*) file format support.
-- PP2019 "read-only recommended" Presentation.
-- Different line spacing of text.
+- Ability to validate password to modify.
+- Align Multiple shapes in one line.
+- Identify read-protected and write-protected presentations.
+- Support for Mathematical Equations (`OMML`).
 
-For the detailed notes, please visit [Aspose.Slides for .NET 20.4 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides for .NET 20.5 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.5+Release+Notes).
 
 ## Read & Write Presentations
 
