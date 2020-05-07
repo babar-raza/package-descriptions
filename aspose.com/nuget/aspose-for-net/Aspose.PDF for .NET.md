@@ -22,15 +22,12 @@ Integrate PDF creation, processing, manipulation & conversion features into your
 - Print PDF documents to physical or virtual printers with or without print dialog.
 - Set document viewer preferences as well as manipulate document information & XMP metadata.
 
-## New Features in Version 20.4
+## Enhancements in Version 20.5
 
-- Added the ability to use an image file stream as the background of a table cell.
+- Support of binding expression in `XFA` form set/get value.
+- Keep actual field names when `XFA` form is converted into standard form.
 
-## Added APIs in Version 20.4
-
-- Property `Aspose.Pdf.Cell.BackgroundImage`.
-
-For the detailed notes, please visit [Aspose.PDF for .NET 20.4 Release Notes](https://docs.aspose.com/display/pdfnet/Aspose.PDF+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF for .NET 20.5 Release Notes](https://docs.aspose.com/display/pdfnet/Aspose.PDF+for+.NET+20.5+Release+Notes).
 
 ## Read & Write PDF & Other Formats
 

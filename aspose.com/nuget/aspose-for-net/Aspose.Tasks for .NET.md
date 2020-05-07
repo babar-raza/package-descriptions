@@ -19,13 +19,17 @@ Aspose.Tasks for .NET on premise API enables you to work with projects, formulas
 - Encode MPX files.
 - Comprehensive project reporting (15+ types of reports).
 
-## Bug fixes in Version 20.4
+## New Features in Version 20.5
 
-- Fixed ObjectDisposedException while Project.Print() and its overloads were called.
-- Fixed serialization of null tasks when project is created / updated using PWA.
-- Fixed Field.OutlineCode misfunctioning when saving to xlsx.
+- Added support to read the shared resource assignments.
 
-For the detailed notes, please visit [Aspose.Tasks for .NET 20.4 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.4+Release+Notes).
+## Enhancements in Version 20.5
+
+- Support of `GridlineType.MiddleTierColumn`.
+- Fixed the invalid calculation of task's name indent when `ShowProjectSummaryTask = true`.
+- Provided descriptive error message when saving not supported Task property.
+
+For the detailed notes, please visit [Aspose.Tasks for .NET 20.5 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.5+Release+Notes).
 
 ## Read & Write Project Formats
 

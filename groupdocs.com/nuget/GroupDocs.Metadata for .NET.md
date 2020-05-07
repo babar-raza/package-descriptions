@@ -20,16 +20,16 @@ This .NET API can be consumed to [integrate metadata viewer](https://products.gr
 - Traverse a whole metadata tree.
 - Work with the APEv2, ID3v1, ID3v2, Lyrics & other tags of MP3 metadata.
 
-## New Features in Version 20.4
+## Breaking Changes in Version 20.5
 
-- Ability to work with *EXIF* metadata in *PNG* images.
-- Ability to work with *XMP* metadata in *MP3* files.
+- In version 20.5 the legacy API has been removed (all types from the `GroupDocs.Metadata.Legacy` namespace are removed).
 
-## Enhancements in Version 20.4
+## New Features in Version 20.5
 
-- Ability to parse most common *EXIF* Makernote metadata formats using the new API.
+- Ability to work with `EXIF` metadata in `WEBP` images.
+- Ability to work with `XMP` metadata in `MOV` files.
 
-For the detailed notes, please visit [GroupDocs.Metadata for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/metadatanet/GroupDocs.Metadata+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Metadata for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/metadatanet/GroupDocs.Metadata+for+.NET+20.5+Release+Notes).
 
 ## Read & Write Metadata Formats
 
