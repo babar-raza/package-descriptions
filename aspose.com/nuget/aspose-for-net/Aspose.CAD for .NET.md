@@ -1,16 +1,15 @@
-# AutoCAD File Conversion API for .NET
+# CAD File Conversion API for .NET
 
-[Aspose.CAD for .NET](https://products.aspose.com/cad/net) is a standalone class library to enhance ASP.NET & Windows applications to process & render AutoCAD® drawings without requiring AutoCAD or any other tools. The CAD .NET API allows high quality [conversion of AutoCAD DWG, DWF, DWT and DXF](https://docs.aspose.com/display/cadnet/Supported+File+Formats) files, layouts and layers to PDF & raster image formats.
+[Aspose.CAD for .NET](https://products.aspose.com/cad/net) is a standalone class library to enhance ASP.NET & Windows applications to process & render CAD drawings without requiring AutoCAD or any other rendering workflow. The CAD Class Library allows high quality [conversion of DWG, DWF, DWT and DXF](https://docs.aspose.com/display/cadnet/Supported+File+Formats) files, layouts and layers to PDF & raster image formats.
 
-## AutoCAD File Processing Features
+## CAD File Processing Features
 
-- Supports the latest versions of AutoCAD DWG, DWF, DWT and DXF formats.
-- Convert the [AutoCAD files to PDF](https://docs.aspose.com/display/cadnet/Converting+CAD+Drawings+to+PDF+and+Raster+Image+Formats).
-- Convert the AutoCAD files to raster images.
-- Select and convert specific layouts of AutoCAD drawings.
-- Select and convert specific layers of AutoCAD drawings.
-- [Adjust AutoCAD drawing size before rendering](https://docs.aspose.com/display/cadnet/Adjusting+CAD+Drawing+Size).
-- Track the file conversion process.
+- Supports the latest versions of DWG, DWF, DWT & DXF formats.
+- Convert [CAD to PDF](https://docs.aspose.com/display/cadnet/Converting+CAD+Drawings+to+PDF+and+Raster+Image+Formats).
+- Convert CAD to images.
+- Select and convert specific layouts of CAD drawings.
+- Select and convert specific layers of CAD drawings.
+- [Adjust CAD drawing size before rendering](https://docs.aspose.com/display/cadnet/Adjusting+CAD+Drawing+Size).
 
 ## New Features in Version 20.4
 
@@ -19,21 +18,21 @@
 
 For the detailed notes, please visit [Aspose.CAD for .NET 20.4 - Release Notes](https://docs.aspose.com/display/CADNET/Aspose.CAD+for+.NET+20.4+-+Release+Notes).
 
-## Read AutoCAD File Formats
+## Read CAD Formats
 
 **AutoCAD:** DWG, DWT, DWF, DWXF, IFC, PLT
 **MicroStation:** DGN
 **The Advanced Visualizer:** OBJ
 **Other:** STL, IGES, CFF2
 
-## Save AutoCAD Drawings As
+## Save CAD As
 
 **Fixed Layout:** PDF
 **Raster Images:** PNG, BMP, TIFF, JPEG, GIF
 
-## Read & Write Formats
+## Read & Write
 
-**AutoCAD:** DXF
+**CAD:** DXF
 (Write features is partially supported.)
 
 ## Platform Independence
@@ -44,7 +43,7 @@ Aspose.CAD for .NET supports .NET framework (ASP.NET applications & Windows appl
 
 Are you ready to give Aspose.CAD for .NET a try? Simply execute `Install-Package Aspose.CAD` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.CAD for .NET and want to upgrade the version, please execute `Update-Package Aspose.CAD` to get the latest version. 
 
-## Add Watermark to an AutoCAD File using C#
+## Add Watermark to CAD using C#
 
 You can execute below code snippet to see how the API performs in your environment or check the [GitHub Repository](https://github.com/aspose-cad/Aspose.CAD-for-.NET) for other common usage scenarios.
 
@@ -55,9 +54,9 @@ text.TextHeight = 40;
 text.FirstAlignment = new Cad3DPoint(300, 40);
 ```
 
-## Export DXF Drawing to PDF using C#
+## Export DXF to PDF using C#
 
-Aspose.CAD for .NET enables your applications to perform various export operations on AutoCAD files. It supports to read and export ACAD Proxy Entities as well as IGES files. Similarly you can [load and convert CAD drawings to raster images or PDF](https://docs.aspose.com/display/cadnet/Converting+CAD+Drawings+to+PDF+and+Raster+Image+Formats). 
+Aspose.CAD for .NET enables your applications to perform various export operations on CAD files. It supports to read and export ACAD Proxy Entities as well as IGES files. Similarly you can [load and convert CAD drawings to raster images or PDF](https://docs.aspose.com/display/cadnet/Converting+CAD+Drawings+to+PDF+and+Raster+Image+Formats). 
 
 ```csharp
 var rasterizationOptions = new CadRasterizationOptions();
