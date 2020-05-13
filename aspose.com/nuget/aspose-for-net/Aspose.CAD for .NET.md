@@ -12,14 +12,12 @@
 - [Adjust AutoCAD drawing size before rendering](https://docs.aspose.com/display/cadnet/Adjusting+CAD+Drawing+Size).
 - Track the file conversion process.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Interrupt or put a timeout on `Save`.
-- Support for `DXF` Version.
-- Support for `DWFX` files.
-- Automatic codepage detection for DWG and DXF.
+- Ability to convert a particular area of `DWG` to `PDF`.
+- DWG to PDF: Ability to automatically ignore hidden layers during rendering.
 
-For the detailed notes, please visit [Aspose.CAD for .NET 20.3 - Release Notes](https://docs.aspose.com/display/CADNET/Aspose.CAD+for+.NET+20.3+-+Release+Notes).
+For the detailed notes, please visit [Aspose.CAD for .NET 20.4 - Release Notes](https://docs.aspose.com/display/CADNET/Aspose.CAD+for+.NET+20.4+-+Release+Notes).
 
 ## Read AutoCAD File Formats
 
