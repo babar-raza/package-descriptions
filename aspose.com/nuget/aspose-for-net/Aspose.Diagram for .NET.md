@@ -14,11 +14,11 @@ Aspose.Diagram for .NET can also be used to [apply protection to the Microsoft V
 - Protect Visio diagrams via applying locks on various levels.
 - [Manipulate the embedded OLE objects in the Visio diagrams](https://docs.aspose.com/display/diagramnet/Manipulate+the+Embedded+OLE+Objects+in+Visio+Diagram).
 
-## Enhancements in Version 20.4
+## Enhancements in Version 20.5
 
-- Several enhancements are made in this version.
+- Ability to determine if one shape is intersecting another shape in the diagram.
 
-For the detailed notes, please visit [Aspose.Diagram for .NET 20.4 Release Notes](https://docs.aspose.com/display/diagramnet/Aspose.Diagram+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Diagram for .NET 20.5 Release Notes](https://docs.aspose.com/display/diagramnet/Aspose.Diagram+for+.NET+20.5+Release+Notes).
 
 ## Read & Write Visio Formats
 
