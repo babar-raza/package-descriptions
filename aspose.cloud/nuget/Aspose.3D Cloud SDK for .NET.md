@@ -17,13 +17,13 @@
 - Address nodes by object addressing path or remove nodes with attached light or camera.
 - Remove 3D objects from a scene.
 
-## New Features in Version 19.11
+## New Features in Version 20.5
 
-- This is the initial release. The key features are as follows:
-  - **Read/Write:** Save or convert between a multitude of file types.
-  - **Modeling & Data Processing:** Extract scene information from input files.
-  - **Utilities processing:** Miscellaneous functions to process 3D files.
-  - **Launch as Microservice:** Deploy as a set of loosely coupled services.
+- Added support to read/write more file formats.
+- Added support for HTML file format conversion.
+- New feature added to Triangulate part of the scene (Specified by `OAP`) and save the scene to different file.
+
+For the detailed notes, please visit [Aspose.3D Cloud Release Notes 20.5](https://docs.aspose.cloud/display/3dcloud/Aspose.3D+Cloud+Release+Notes+20.5).
 
 ## Read & Write 3D Formats
 
