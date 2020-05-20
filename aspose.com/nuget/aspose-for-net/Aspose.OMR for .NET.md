@@ -12,11 +12,16 @@ It is a standalone on-premise API that helps in [recognizing the human-marked da
 - High accuracy rate & ability to export the results in CSV format.
 - [Create OMR templates](https://docs.aspose.com/display/omrnet/Create+OMR+Template) from text markup.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Support for adding images to the template generation.
+- Support of exporting images to `PDF`.
+- Supports barcode creation and recognition.
 
-For the detailed notes, please visit [Aspose.OMR for .NET 20.3 Release Notes](https://docs.aspose.com/display/omrnet/Aspose.OMR+for+.NET+20.3+Release+Notes).
+## Enhancements in Version 20.4
+
+- Supports horizontal alignment for the grid element in template generation.
+
+For the detailed notes, please visit [Aspose.OMR for .NET 20.4 Release Notes](https://docs.aspose.com/display/omrnet/Aspose.OMR+for+.NET+20.4+Release+Notes).
 
 ## Save OMR Results As
 
