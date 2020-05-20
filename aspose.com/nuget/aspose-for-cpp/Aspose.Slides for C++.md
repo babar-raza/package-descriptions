@@ -8,13 +8,14 @@ A [standalone C++ class library](https://products.aspose.com/slides/cpp) to crea
 - [Convert presentation](https://docs.aspose.com/display/slidescpp/Converting+a+Presentation) to any of the [supported file formats](https://docs.aspose.com/display/slidescpp/Supported+File+Formats).
 - Adding, formatting, and manipulating [charts](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+Charts), [shapes](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+Shapes), [slides](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+Slides), [SmartArt](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+SmartArt), [tables](https://docs.aspose.com/display/slidescpp/Adding%2C+Updating+and+Manipulating+Tables), and [text](https://docs.aspose.com/display/slidescpp/Adding+Formatting+and+Manipulating+Text) in presentations.
 
-## New Features in Version 20.4
+## New Features in Version 20.5
 
-- Ability to specify `PDF/A-1a` compliance.
-- Added OpenDocument Flat XML Presentation `.FODP` file format support.
-- Support for using formula recalculated cells in charting.
+- Ability to identify read-protected and write-protected presentations.
+- Ability to validate password to modify.
+- Ability to align multiple shapes in one line.
+- Support for Mathematical Equations (`OMML`).
 
-For the detailed notes, please visit [Aspose.Slides for CPP 20.4 Release Notes](https://docs.aspose.com/display/slidescpp/Aspose.Slides+for+CPP+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides for CPP 20.5 Release Notes](https://docs.aspose.com/display/slidescpp/Aspose.Slides+for+CPP+20.5+Release+Notes).
 
 ## Read & Write PowerPoint Files
 
