@@ -22,15 +22,13 @@ A standalone C++ class library to load, save, format & convert Microsoft Word® 
 - [Clone VBA Project](https://docs.aspose.com/display/wordscpp/Working+with+VBA+Macros#WorkingwithVBAMacros-CloneVBAProject) or VBA Module.
 - So many more [features](https://docs.aspose.com/display/wordscpp/Developer+Guide).
 
-## New Features in Version 20.4
+## New Features in Version 20.5
 
-- Added support for verifying and signing documents.
-- Added support for downloading remote resources from the Internet.
-- Provided ability to change Asian paragraph spacing and indents.
-- Added image interpolation option for PDF rendering (new public property `PdfSaveOptions.InterpolateImages`).
-- Extended API of chart data labels and series.
+- Ability to show/hide Grammatical and Spelling errors.
+- New helper class to work with watermark inside document is introduced.
+- Added feature to set the compression level for `OOXML` documents.
 
-## Limitations and API Differences in Version 20.4
+## Limitations and API Differences in Version 20.5
 
 Aspose.Words for C++ has some differences as compared to its equivalent .NET version of the API. This section contains information about all such functionality that is not available in the current release. The missing features will be added in future releases.
 
@@ -41,9 +39,9 @@ Aspose.Words for C++ has some differences as compared to its equivalent .NET ver
 - Advanced typography based on the *HarfBuzz* shaper.
 - Loading PDF documents.
 - Limited support for database features - C++ doesn't have a common API for DB like .Net System.Data.
-- Only supports Microsoft Visual C++ version 2015 or higher and only for the x64 platform.
+- Only supports Microsoft Visual C++ version 2017 or higher and only for the x64 platform.
 
-For the detailed notes, please visit [Aspose.Words for C++ 20.4 Release Notes](https://docs.aspose.com/display/wordscpp/Aspose.Words+for+CPP+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Words for CPP 20.5 Release Notes](https://docs.aspose.com/display/wordscpp/Aspose.Words+for+CPP+20.5+Release+Notes).
 
 ## Read & Write Word Processing Files
 
