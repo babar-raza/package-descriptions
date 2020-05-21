@@ -14,17 +14,12 @@ A .NET component that enables your apps to [detect content, style & formatting d
 - Support to set metadata from the source, target files or keep it user-defined.
 - Make the resultant document password protected.
 
-## Major Features in Version 20.3.1
+## Enhancements in Version 20.4.2
 
-- This is a hotfix that fixes comparing SpreadSheet documents using .NET Core version of GroupDocs.Comparison.
+- Improved exception usage.
+- Added page preview sizes.
 
-For the detailed notes, please visit [GroupDocs.Comparison for .NET 20.3.1 Release Notes](https://docs.groupdocs.com/display/comparisonnet/GroupDocs.Comparison+for+.NET+20.3.1+Release+Notes).
-
-## Enhancements in Version 20.3
-
-- Increase performance for *TXT* MultiComparer.
-
-For the detailed notes, please visit [GroupDocs.Comparison for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/comparisonnet/GroupDocs.Comparison+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Comparison for .NET 20.4.2 Release Notes](https://docs.groupdocs.com/display/comparisonnet/GroupDocs.Comparison+for+.NET+20.4.2+Release+Notes).
 
 ## Microsoft Office Formats
 
