@@ -18,14 +18,14 @@ The classes and properties of Aspose.HTML for .NET API have similar names as tha
 - Extract CSS styling information.
 - Configuring Sandbox for the environment independent of the execution machine.
 
-## Enhancements in Version 20.4
+## Enhancements in Version 20.5
 
-- Increase in quality of inline styles serialization.
-- Updated parsing of the font-family property according to the CSS3 documentation.
-- Introduction of processing of the column group borders.
-- Improved positioning of the float images.
+- Increased precision of element size calculation using `BeginElement` that will contain the correct rectangle.
+- Much faster table layout algorithm, float positioning algorithm and many other algorithms.
+- Updated processing of many `CSS` properties according to the latest documentation.
+- Improved processing of the replaced elements which are correctly positioned and rendered.
 
-For the detailed notes, please visit [Aspose.HTML for .NET 20.4 Release Notes](https://docs.aspose.com/display/htmlnet/Aspose.HTML+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.HTML for .NET 20.5 Release Notes](https://docs.aspose.com/display/htmlnet/Aspose.HTML+for+.NET+20.5+Release+Notes).
 
 ## Read & Write Web Formats
 

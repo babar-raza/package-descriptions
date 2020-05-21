@@ -22,24 +22,13 @@
 - [Configure various access privileges for the PDF](https://docs.aspose.com/display/pdfcpp/Encrypt%2C+Decrypt+and+set+Privileges+on+PDF+documents) document.
 - [Extract text from all pages of a PDF](https://docs.aspose.com/pages/viewpage.action?pageId=51479222) file.
 
-## New Features in Version 20.4
+## Enhancements in Version 20.5
 
-- Support for Converting *PDF* to PowerPoint *PPTX* format.
-- Supports *TIFF* images based on the support in `asposecpplib` (`CodePorting.Native.Cs2Cpp.API`) by Aspose.Words API.
+- Build simply Qt application with the `Aspose.PDF.Cpp` library.
+- Fixed `XslCompiledTransform` to support `XmlReader`.
+- Support to save `PDF` document to `TeX` format.
 
-## Public API and Backward Incompatible Changes in Version 20.4
-
-### Added APIs
-
-- Property `Aspose.Pdf.Cell.BackgroundImage`.
-
-### Removed APIs
-
-- Class `Aspose.Pdf.LatexLoadOptions` is renamed to `Aspose.Pdf.TeXLoadOptions` (`Aspose.Pdf.LatexLoadOptions` is declared obsolete)
-- Class `Aspose.Pdf.LaTeXSaveOptions` is renamed to `Aspose.Pdf.TeXSaveOptions` (`Aspose.Pdf.LaTeXSaveOptions` is declared obsolete)
-- Class `Aspose.Pdf.LatexFragment` is renamed to `Aspose.Pdf.TeXFragment` (`Aspose.Pdf.LatexFragment` is declared obsolete)
-
-For the detailed notes, please visit [Aspose.PDF for C++ 20.4 Release Notes](https://docs.aspose.com/display/pdfcpp/Aspose.PDF+for+CPP+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF for C++ 20.5 Release Notes](https://docs.aspose.com/display/pdfcpp/Aspose.PDF+for+CPP+20.5+Release+Notes).
 
 ## Read & Write PDF & Other Formats
 
@@ -49,6 +38,7 @@ For the detailed notes, please visit [Aspose.PDF for C++ 20.4 Release Notes](htt
 
 **Microsoft Word:** DOC, DOCX
 **Images:** JPEG, PNG, BMP, SVG
+**Other:** TeX.
 
 ## Getting Started with Aspose.PDF for C++
 

@@ -14,22 +14,17 @@ Aspose.Imaging for .NET offers robust image compression and high processing spee
 - De-skew & transform images.
 - Set image properties.
 
-## New Features in Version 20.4
+## New Features in Version 20.5
 
-- Supports text in the *CDR* format on *X3* and below versions.
-- Export to *Html5* canvas format.
-- Allow speed or memory optimization strategies for *Webp* format.
-- Supports compressed vector formats.
-
-## PSD Off Notice
-
-Please switch to [Aspose.PSD](https://products.aspose.com/psd) for PSD loading functionality. The functionality is not supported from this release.
+- Support for extracting paths from `TIFF`.
+- Allow speed or memory optimization strategies for `DICOM` format.
+- Support of export readable full frame `GIF` to multipage image formats.
 
 ## Compact Framework Off Notice
 
-Please note in next Aspose.Imaging releases support of .NET Compact Framework in Aspose.Imaging will be removed.
+Please note in next Aspose.Imaging releases support of .NET Compact Framework will be removed.
 
-For the detailed notes, please visit [Aspose.Imaging for .NET 20.4 - Release notes](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+20.4+-+Release+notes).
+For the detailed notes, please visit [Aspose.Imaging for .NET 20.5 - Release Notes](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+20.5+-+Release+notes).
 
 ## Read & Write Image Formats
 

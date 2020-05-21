@@ -21,17 +21,15 @@ It allows to read and write GIS data, [convert GIS file formats](https://docs.as
 - Perform vector analysis & [manipulate geometries](https://docs.aspose.com/display/gisnet/Working+with+Geometries).
 - Support for [Spatial Reference Systems](https://docs.aspose.com/display/gisnet/Spatial+Reference+Systems).
 
-## Enhancements in Version 20.4
+## New Feature in Version 20.5
 
-- Read *EsriASCII*, *GeoTIFF* and *TIFF*.
-- Read georeference and raster sizes.
-- Read values of numeric types (Bit, SByte, Byte, Short, UShort, Integer, UInteger, Long, Float, Double).
-- Read raw bits for unknown data types.
-- Read raster data by blocks.
-- Supports *multy и single* bands.
-- Summary statistics (count, sum, mean, min and max)
+- Export data to `MapInfo TAB` format.
 
-For detailed notes, please visit [Aspose.GIS for .NET 20.4 Release Notes](https://docs.aspose.com/display/gisnet/Aspose.GIS+for+.NET+20.04+Release+Notes).
+## Enhancements in Version 20.5
+
+- Ability of Fields preprocessing during export.
+
+For detailed notes, please visit [Aspose.GIS for .NET 20.5 Release Notes](https://docs.aspose.com/display/gisnet/Aspose.GIS+for+.NET+20.05+Release+Notes).
 
 ## Read & Write GIS Formats
 
