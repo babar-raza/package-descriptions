@@ -18,18 +18,20 @@ This .NET API can seamlessly integrate and enables your C#, ASP.NET & other .NET
 - Load password protected documents.
 - Enable listening of conversion process stages.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Support for page numeration in the output document when convert `HTML` to *Wordprocessing* documents.
-- Hide / remove borders while converting `DOCX` to `HTML`.
-- Rename email fields when converting an Email file.
+- Support for auto page numbering while exporting to `PDF`.
+- Convert each email attachment to different type.
+- Convert *from* `PST`, `OST`, `OXPS`, `FODS`, `OTG`.
+- Implement conversion *to* `FODS`.
+- Introduced in-memory caching.
 
-## Enhancements in Version 20.3
+## Enhancements in Version 20.4
 
-- Change date format when converting from email formats.
-- Enhanced loading times in general / for Converter.
+- Improve font substitution when converting from `PDF`.
+- Improved caching.
 
-For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/conversionnet/GroupDocs.Conversion+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/conversionnet/GroupDocs.Conversion+for+.NET+20.4+Release+Notes).
 
 ## Conversion File Formats
 
