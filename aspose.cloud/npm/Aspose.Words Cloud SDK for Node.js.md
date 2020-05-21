@@ -16,16 +16,35 @@ Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/w
 - Add & remove watermarks and protection.
 - Read & write access to Document Object Model.
 
-## New Features in Version 20.4
+## New Features in Version 20.5
 
-- Added `UseTargetMachineFonts` option to `HtmlFixedSaveOptions` Data.
-- Added `Password` option to `OdtSaveOptions`.
-- Provision of Compare Options in Aspose.Words Cloud.
-- Added new `SaveOptionsData.UpdateLastPrintedProperty`.
-- Added new Saveoption Dml3DEffectsRenderingMode.
-- Added new PdfSaveOption "InterpolateImages".
-
-For the detailed notes, please visit [Aspose.Words Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.4+Release+Notes).
+- Added methods to work with Word document lists
+  - `GetLists`
+  - `GetList`
+  - `InsertList`
+  - `UpdateList`
+  - `UpdateListLevel`
+- Added methods to work with styles
+  - `GetStyles`
+  - `UpdateStyle`
+  - `InsertStyle`
+  - `CopyStyle`
+  - `GetStyleFromDocumentElement`
+  - `ApplyStyleToDocumentElement`
+- Added methods to work with paragraph list format
+  - `GetParagraphListFormat`
+  - `GetParagraphListFormatWithoutNodePath`
+  - `UpdateParagraphListFormat`
+  - `DeleteParagraphListFormat`
+- Added methods to work with paragraph tab stops
+  - `GetParagraphTabStops`
+  - `InsertOrUpdateParagraphTabStop`
+  - `DeleteAllParagraphTabStops`
+  - `DeleteParagraphTabStop`
+- Added methods to build reports
+  - `BuildReport`
+  - `BuildReportOnline`
+- Added `Shading` property to `ParagraphFormat`
 
 ## Read & Write Document Formats
 
