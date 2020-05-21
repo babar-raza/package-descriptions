@@ -13,16 +13,13 @@ This on-premise .NET API lets your app end-users [sign the electronic documents]
 - Distinguish created signatures from the actual document.
 - Put encrypted text into QR-code signature or embed custom data objects.
 
-## New Features in Version 20.3
+## New Features in Version 20.4
 
-- Implemented `EPC/SEPA` standard *QR-code* entry.
-- Implemented `MeCard` contact details standard *QR-code* entry.
-- Implemented Event standard *QR-code* entry.
-- Ability to add Radio button Form Field signature to *PDF* Documents.
-- Ability to add Combobox Form Field signature to *PDF* Documents.
-- Implemented Border settings for Image signature options.
+- Involved full featured `JSON` serialization and de-serialization support.
+- Extended `QR-Code` & `Barcode` Signature with image data content.
+- Implemented ability to store creation and update date for signatures.
 
-For the detailed notes, please visit [GroupDocs.Signature for .NET 20.3 Release Notes](https://docs.groupdocs.com/display/signaturenet/GroupDocs.Signature+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Signature for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/signaturenet/GroupDocs.Signature+for+.NET+20.4+Release+Notes).
 
 ## Signature Supported Formats
 
