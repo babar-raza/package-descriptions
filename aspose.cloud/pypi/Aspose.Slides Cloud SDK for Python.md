@@ -13,12 +13,17 @@ Python Cloud SDK wraps Aspose.Slides REST API so you could seamlessly integrate 
 - Full read & write access to Document Object Model, including slides, shapes, paragraphs, portions & more.
 - Access presentation's metadata.
 
-## Enhancements in Version 20.2
+## Enhancements  in Version 20.4
 
-- Scalar type model properties which are not required are nullable in SDKs.
-- Path request property is optional in SDKs.
+- Supports ViewProperties.
+- Supports new Powerpoint 2016 Chart types.
 
-For the detailed notes, please visit [Aspose.Slides Cloud 20.2 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.2+Release+Notes).
+## Public API Changes
+
+- Added `viewproperties` resource. It allows to GET and set (PUT) view properties of a document (`LastView`, `HorizontalBarState`, `VerticalBarState` etc.)
+- Added `Treemap`, `Sunburst`, `Histogram`, `ParetoLine`, `BoxAndWhisker`, `Waterfall`, and `Funnel` chart types.
+
+For the detailed notes, please visit [Aspose.Slides Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.4+Release+Notes).
 
 ## Read & Write Presentation Formats
 

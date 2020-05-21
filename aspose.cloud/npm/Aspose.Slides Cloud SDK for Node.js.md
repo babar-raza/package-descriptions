@@ -16,12 +16,17 @@ Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/s
 - Extract and replace text from specific slide or entire presentation.
 - Manage shapes, animation, text, images, theme, notes & more with REST Models.
 
-## Enhancements in Version 20.2
+## Enhancements  in Version 20.4
 
-- Scalar type model properties which are not required are nullable in SDKs.
-- Path request property is optional in SDKs.
+- Supports ViewProperties.
+- Supports new Powerpoint 2016 Chart types.
 
-For the detailed notes, please visit [Aspose.Slides Cloud 20.2 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.2+Release+Notes).
+## Public API Changes
+
+- Added `viewproperties` resource. It allows to GET and set (PUT) view properties of a document (`LastView`, `HorizontalBarState`, `VerticalBarState` etc.)
+- Added `Treemap`, `Sunburst`, `Histogram`, `ParetoLine`, `BoxAndWhisker`, `Waterfall`, and `Funnel` chart types.
+
+For the detailed notes, please visit [Aspose.Slides Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.4+Release+Notes).
 
 ## Read & Write Presentation Formats
 
