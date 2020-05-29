@@ -63,4 +63,4 @@ SharedPtr<Presentation> pres = MakeObject<Presentation>(u"template.pptx");
 pres->Save(u"output.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
 ```
 
-[Product Page](https://products.aspose.com/slides/cpp) | [Docs](https://docs.aspose.com/display/slidescpp/Home) | [Demos](https://products.aspose.app/slides/family) | [API Reference](https://apireference.aspose.com/cpp/slides) | [Examples](https://github.com/aspose-slides/Aspose.Slides-for-C) | [Blog](https://blog.aspose.com/category/slides/) | [Free Support](https://forum.aspose.com/c/slides) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/slides/cpp) | [Docs](https://docs.aspose.com/display/slidescpp/Home) | [Demos](https://products.aspose.app/slides/family) | [API Reference](https://apireference.aspose.com/slides/cpp) | [Examples](https://github.com/aspose-slides/Aspose.Slides-for-C) | [Blog](https://blog.aspose.com/category/slides/) | [Free Support](https://forum.aspose.com/c/slides) | [Temporary License](https://purchase.aspose.com/temporary-license)
