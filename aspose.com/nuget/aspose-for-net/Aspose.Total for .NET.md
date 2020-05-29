@@ -86,4 +86,4 @@ A light-weight .NET API to [read, convert & manipulate Microsoft Publisher files
 
 Use this simple standalone [.NET component to load, save and convert SVG files](https://products.aspose.com/svg/net). It also let you read and traverse the elements of an SVG file via its DOM which is compatible to the SVG specifications.
 
-[Product Page](https://products.aspose.com/total/net) | [Documentation](https://docs.aspose.com/display/totalnet/Home) | [API Reference](https://apireference.aspose.com/) | [Examples](http://aspose.github.io) | [Blog](https://blog.aspose.com/category/total/) | [Free Support](https://forum.aspose.com/) | [Temporary License](https://purchase.aspose.com/temporary-license) | [Policies](https://purchase.aspose.com/policies)
+[Product Page](https://products.aspose.com/total/net) | [Docs](https://docs.aspose.com/display/totalnet/Home) | [API Reference](https://apireference.aspose.com/) | [Examples](http://aspose.github.io) | [Blog](https://blog.aspose.com/category/total/) | [Free Support](https://forum.aspose.com/) | [Temporary License](https://purchase.aspose.com/temporary-license) | [Policies](https://purchase.aspose.com/policies)

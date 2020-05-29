@@ -131,4 +131,4 @@ chart.NSeries.Add("A1:B3", true);
 workbook.Save( dir + "output.xls");
 ```
 
-[Product Page](https://products.aspose.com/cells/net) | [Documentation](https://docs.aspose.com/display/cellsnet/Home) | [Demo](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.com/net/cells) | [Examples](https://github.com/aspose-cells/Aspose.Cells-for-.NET) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/cells/net) | [Docs](https://docs.aspose.com/display/cellsnet/Home) | [Demos](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.com/net/cells) | [Examples](https://github.com/aspose-cells/Aspose.Cells-for-.NET) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) |  [Temporary License](https://purchase.aspose.com/temporary-license)

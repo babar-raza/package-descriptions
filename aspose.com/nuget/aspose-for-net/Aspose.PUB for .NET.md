@@ -64,4 +64,4 @@ document.SummaryInfo.SetSubject("subject");
 
 At the moment API lacks the support to convert images of PUB file to PDF file. So such images wont show up in the resultant output PDF file. This feature is in our plan to be released with future release.
 
-[Product Page](https://products.aspose.com/pub/net) | [Documentation](https://docs.aspose.com/display/pubnet/Home) | [API Reference](https://apireference.aspose.com/net/pub) | [Examples](https://github.com/aspose-pub/Aspose.PUB-for-.NET) | [Blog](https://blog.aspose.com/category/pub/) | [Free Support](https://forum.aspose.com/c/pub) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/pub/net) | [Docs](https://docs.aspose.com/display/pubnet/Home) | [API Reference](https://apireference.aspose.com/net/pub) | [Examples](https://github.com/aspose-pub/Aspose.PUB-for-.NET) | [Blog](https://blog.aspose.com/category/pub/) | [Free Support](https://forum.aspose.com/c/pub) |  [Temporary License](https://purchase.aspose.com/temporary-license)

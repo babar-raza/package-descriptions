@@ -84,4 +84,4 @@ using (Image image = new PsdImage(100, 100))
 }
 ```
 
-[Product Page](https://products.aspose.com/psd/net) | [Documentation](https://docs.aspose.com/display/psdnet/Home) | [Demo](https://products.aspose.app/psd/family) | [API Reference](https://apireference.aspose.com/net/psd) | [Examples](https://github.com/aspose-psd/Aspose.PSD-for-.NET) | [Blog](https://blog.aspose.com/category/psd/) | [Free Support](https://forum.aspose.com/c/psd) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/psd/net) | [Docs](https://docs.aspose.com/display/psdnet/Home) | [Demos](https://products.aspose.app/psd/family) | [API Reference](https://apireference.aspose.com/net/psd) | [Examples](https://github.com/aspose-psd/Aspose.PSD-for-.NET) | [Blog](https://blog.aspose.com/category/psd/) | [Free Support](https://forum.aspose.com/c/psd) |  [Temporary License](https://purchase.aspose.com/temporary-license)

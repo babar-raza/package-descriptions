@@ -81,4 +81,4 @@ generator.Parameters.Barcode.CodeTextParameters.Location = CodeLocation.None;
 generator.Save(dir + "output.png", BarCodeImageFormat.Png);
 ```
 
-[Product Page](https://products.aspose.com/barcode/net) | [Documentation](https://docs.aspose.com/display/barcodenet/Home) | [Demo](https://products.aspose.app/barcode/family) | [API Reference](https://apireference.aspose.com/net/barcode) | [Examples](https://github.com/aspose-barcode/Aspose.BarCode-for-.NET) | [Blog](https://blog.aspose.com/category/barcode/) | [Free Support](https://forum.aspose.com/c/barcode) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/barcode/net) | [Docs](https://docs.aspose.com/display/barcodenet/Home) | [Demos](https://products.aspose.app/barcode/family) | [API Reference](https://apireference.aspose.com/net/barcode) | [Examples](https://github.com/aspose-barcode/Aspose.BarCode-for-.NET) | [Blog](https://blog.aspose.com/category/barcode/) | [Free Support](https://forum.aspose.com/c/barcode) | [Temporary License](https://purchase.aspose.com/temporary-license)

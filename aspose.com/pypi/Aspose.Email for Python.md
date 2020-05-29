@@ -77,4 +77,4 @@ while (eml is not None):
 reader.dispose();
 ```
 
-[Product Page](https://products.aspose.com/email/python-net) | [Documentation](https://docs.aspose.com/display/emailpythonnet/Home) | [API Reference](https://apireference.aspose.com/net/email) | [Examples](https://github.com/aspose-email/aspose-email-python-dotnet) | [Blog](https://blog.aspose.com/category/email/) | [Free Support](https://forum.aspose.com/c/email) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/email/python-net) | [Docs](https://docs.aspose.com/display/emailpythonnet/Home) | [API Reference](https://apireference.aspose.com/net/email) | [Examples](https://github.com/aspose-email/aspose-email-python-dotnet) | [Blog](https://blog.aspose.com/category/email/) | [Free Support](https://forum.aspose.com/c/email) | [Temporary License](https://purchase.aspose.com/temporary-license)
