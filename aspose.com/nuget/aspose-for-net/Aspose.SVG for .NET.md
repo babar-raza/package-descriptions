@@ -10,13 +10,18 @@ This .NET on-premise API helps you [seamlessly integrate SVG file processing & m
 - Support for content navigation via [XPath Query](https://docs.aspose.com/display/svgnet/Traverse+SVG+DOM#TraverseSVGDOM-UsingXPathQuery), [CSS Selectors](https://docs.aspose.com/display/svgnet/Traverse+SVG+DOM#TraverseSVGDOM-UsingCSSSelector), Element and Document Traversal features.
 - Support for quality rendering.
 
-## Enhancements in Version 20.4
+## Added APIs in Version 20.5
 
-- The issue with the calculation of the transformation matrix during pagination was fixed.
-- The text messages in watermarks have been changed in the evaluation mode with a purpose to be more informative. 
-- Moreover, several rules have been expanded to reach more understandable product behavior in evaluation mode.
+- Added new signatures to the Document creation methods. Now you can specify a base URL using the `Aspose.Svg.Url class`.
+- Added new service `IRuntimeService`, which provides `JavaScriptTimeout` property, that allows you to specify JavaScript processing timeout. It can be used to speed up the rendering process or to stop the execution of infinite JavaScripts.
+- We have also added the empty constructor to the `ImageSaveOptions` class.
 
-For the detailed notes, please visit [Aspose.SVG for .NET 20.4 Release Notes](https://docs.aspose.com/display/svgnet/Aspose.SVG+for+.NET+20.4+Release+Notes).
+## Enhancements in Version 20.5
+
+- Updated the processing of many `CSS` properties according to the latest documentation.
+- Made some usability improvements, like, clarified the URL parsing exceptions and added new signatures to the Document creation methods.
+
+For the detailed notes, please visit [Aspose.SVG for .NET 20.5 Release Notes](https://docs.aspose.com/display/svgnet/Aspose.SVG+for+.NET+20.5+Release+Notes).
 
 ## Read Supported Formats
 

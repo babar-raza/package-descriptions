@@ -15,11 +15,11 @@ It is a standalone .NET API to create, manipulate, extract & protect archive for
 - Supports `LZMA` or `LZMA2` compression & optional encryption to create `7z` archives.
 - Create self-extracting compressed archives.
 
-## Enhancements in Version 20.3
+## Enhancements in Version 20.5
 
-- `ZIP` entry with `PPMd` compression.
+- Support for `RAR4` archive extraction.
 
-For the detailed notes, please visit [Aspose.ZIP for .NET 20.3 Release Notes](https://docs.aspose.com/display/zipnet/Aspose.ZIP+for+.NET+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.ZIP for .NET 20.5 Release Notes](https://docs.aspose.com/display/zipnet/Aspose.ZIP+for+.NET+20.5+Release+Notes).
 
 ## Compress Files As
 
