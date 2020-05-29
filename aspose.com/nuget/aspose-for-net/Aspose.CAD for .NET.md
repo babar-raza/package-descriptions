@@ -69,4 +69,4 @@ pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 cadImage.Save(dir + "output.pdf", pdfOptions);
 ```
 
-[Product Page](https://products.aspose.com/cad/net) | [Docs](https://docs.aspose.com/display/cadnet/Home) | [Demos](https://products.aspose.app/cad/family) | [API Reference](https://apireference.aspose.com/net/cad/) | [Examples](https://github.com/aspose-cad/Aspose.CAD-for-.NET) | [Blog](https://blog.aspose.com/category/cad/) | [Free Support](https://forum.aspose.com/c/cad) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/cad/net) | [Docs](https://docs.aspose.com/display/cadnet/Home) | [Demos](https://products.aspose.app/cad/family) | [API Reference](https://apireference.aspose.com/cad/net) | [Examples](https://github.com/aspose-cad/Aspose.CAD-for-.NET) | [Blog](https://blog.aspose.com/category/cad/) | [Free Support](https://forum.aspose.com/c/cad) |  [Temporary License](https://purchase.aspose.com/temporary-license)

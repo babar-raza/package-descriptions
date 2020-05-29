@@ -70,4 +70,4 @@ using (Presentation presentation = new Presentation(dir + "template.pptx"))
 }
 ```
 
-[Product Page](https://products.aspose.com/slides/net) | [Docs](https://docs.aspose.com/display/slidesnet/Home) | [Demos](https://products.aspose.app/slides/family) | [API Reference](https://apireference.aspose.com/net/slides) | [Examples](https://github.com/aspose-slides/Aspose.Slides-for-.NET) | [Blog](https://blog.aspose.com/category/slides/) | [Free Support](https://forum.aspose.com/c/slides) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Product Page](https://products.aspose.com/slides/net) | [Docs](https://docs.aspose.com/display/slidesnet/Home) | [Demos](https://products.aspose.app/slides/family) | [API Reference](https://apireference.aspose.com/slides/net) | [Examples](https://github.com/aspose-slides/Aspose.Slides-for-.NET) | [Blog](https://blog.aspose.com/category/slides/) | [Free Support](https://forum.aspose.com/c/slides) | [Temporary License](https://purchase.aspose.com/temporary-license)
