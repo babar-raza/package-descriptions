@@ -21,18 +21,14 @@ It is a .NET API that enhances your apps to perform document, spreadsheets, DSV 
 - Open any supported format file in HTML format and save to disk.
 - Fetch HTML markup from DB or remote storage.
 
-## New Features in Version 20.4
+## Enhancements in Version 20.5
 
-- Ability to insert edited slide into existing presentation with substitution or injection by index.
-- Support of paginal mode in backward HTML-to-PDF converter.
-- Support of TIFF images.
+- Implemented new `HTML` elements structure for the paged mode.
+- Developed correct rendering of rectangular textboxes.
+- Added support of several `HTML5` sectioning elements.
+- Implemented page settings during roundtrip.
 
-## Enhancements in Version 20.4
-
-- Support for repeat table header in HTML and backward converter.
-- Support for ActiveX checkbox.
-
-For the detailed notes, please visit [GroupDocs.Editor for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/editornet/GroupDocs.Editor+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Editor for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/editornet/GroupDocs.Editor+for+.NET+20.5+Release+Notes).
 
 ## Editable File Formats
 
