@@ -15,16 +15,15 @@
 - Tools to verify email addresses, email syntax, email domain, mail server & MX records.
 - Extract objects from various mail storage formats as well as [create email storage files from scratch](https://docs.aspose.com/display/emailnet/Create+New+PST+File+and+Add+SubFolders).
 
-## New Features in Version 20.4
+## New Features in Version 20.5
 
-- Ability to enable mail clients activity logging in the .NET Core projects.
-- Support for the ability to ignore exceptions.
+- Added support for Email Threading using `ImapClient`.
 
-## Enhancements in Version 20.4
+## Enhancements in Version 20.5
 
-- Get message information by unique identifiers for *Pop3Client* and *ImapClient*.
+- `IEWSClient`: Get folder info by path.
 
-For the detailed notes, please visit [Aspose.Email for .NET 20.4 Release Notes](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Email for .NET 20.5 Release Notes](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.5+Release+Notes).
 
 ## Read & Write Email Formats
 
