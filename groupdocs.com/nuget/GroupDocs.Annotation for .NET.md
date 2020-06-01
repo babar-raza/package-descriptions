@@ -16,11 +16,15 @@ Its an on-premise API that seamlessly [integrates document annotation features](
 - Remove previously added annotations from a document.
 - Update specific annotation properties (size, color etc.).
 
-## Enhancements in Version 20.4.1
+## New Features in Version 20.5
 
-- Some bugs have been fixed in this release.
+- Implemented managing different versions of annotated documents for Images and Diagrams.
 
-For the detailed notes, please visit [GroupDocs.Annotation for .NET 20.4.1 Release Notes](https://docs.groupdocs.com/display/annotationnet/GroupDocs.Annotation+for+.NET+20.4.1+Release+Notes).
+## Public API and Backward Incompatible Changes
+
+Starting from version `20.5` several Save methods overloads are added for user convenience. Now you can call Empty Save to save documents as input file for annotator. If you need to add some options, you may call `Save` method with only one parameter - `SaveOptions`, it will do the same as empty but will consider your options.
+
+For the detailed notes, please visit [GroupDocs.Annotation for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/annotationnet/GroupDocs.Annotation+for+.NET+20.5+Release+Notes).
 
 ## Microsoft Office Annotation Formats
 
