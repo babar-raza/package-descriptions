@@ -1,20 +1,29 @@
-This cloud SDK assists you to seamlessly integrate barcode generation, processing & conversion functionality into your C#, ASP.NET & other .NET cloud apps.
+# Barcode Proecssing in the Cloud via REST API
 
-Generate new barcodes (Linear, 2D & Postal), configure barcode properties and attributes, such as, barcode height, dimensions, image format, and more. Scan existing barcodes belonging to 60+ symbologies, including, Codabar, PDF417, QR, MicroQR, EAN, Postnet, UPC, RM4SCC and many more.
+This [cloud SDK assists you to seamlessly integrate barcode generation](https://products.aspose.cloud/barcode/net), processing & conversion functionality into your C#, ASP.NET & other .NET cloud apps.
+
+Generate new barcodes (Linear, 2D & Postal), configure barcode properties and attributes, such as, barcode height, dimensions, image format, and more. Scan existing barcodes belonging to 60+ symbologies, including, `Codabar`, `PDF417`, `QR`, `MicroQR`, `EAN`, `Postnet`, `UPC`, `RM4SCC` and many more.
 
 ## BarCode Processing Features
 
-- Generate, san and customize 1D (linear), 2D and postal barcodes.
-- Generate and recognize barcodes with checksum option.
+- [Generate](https://docs.aspose.cloud/display/barcodecloud/Generate%2C+Format+and+Manipulate+a+Barcode+using+Cloud+Storage#Generate,FormatandManipulateaBarcodeusingCloudStorage-SDKExamples), scan and customize `1D` (linear), `2D` and `postal` barcodes.
+- Generate and recognize [barcodes with `checksum` option](https://docs.aspose.cloud/display/barcodecloud/Generate%2C+Format+and+Manipulate+a+Barcode+using+Cloud+Storage#Generate,FormatandManipulateaBarcodeusingCloudStorage-GenerateBarcodewithChecksumOption).
 - Fetch barcode as an image stream or save barcode to the local disk.
 - Configure barcode height, width, angle quality, margin & resolution.
-- Configure barcode to be auto-sized or set X & Y dimensions.
+- Configure barcode to be auto-sized or [set `X` & `Y` dimensions](https://docs.aspose.cloud/display/barcodecloud/Generate%2C+Format+and+Manipulate+a+Barcode+using+Cloud+Storage#Generate,FormatandManipulateaBarcodeusingCloudStorage-SetXandYDimensionsofaBarcode).
 - Generate a new barcode with specified code text location.
 - Apply bar height and barcode image format.
 - Rotate barcode image at a certain angle & generate multiple barcodes.
 - Scan image to recognize barcode from a specific region of that image.
 - Recognize specified number of barcodes.
 - Apply image processing algorithms to read barcodes.
+
+## Enhancements in Version 20.5
+
+- Improved the Barcode recognition API.
+- Exposed all Barcode-specific generator parameters to API.
+
+For the detailed notes, please visit [Aspose.BarCode Cloud 20.5 Release Notes](https://docs.aspose.cloud/display/barcodecloud/Aspose.BarCode+Cloud+20.5+Release+Notes).
 
 ## Read & Write BarCode Formats
 
