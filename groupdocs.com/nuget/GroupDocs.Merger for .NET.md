@@ -23,15 +23,17 @@ This .NET on-premise API lets your apps [perform merging, trimming, reordering, 
 - Ability to log document manipulation process information.
 - Load document from local disk, stream or from URL.
 
-## New Features in Version 20.4
+## New Features in Version 20.5
 
-- This release implements the import of OLE objects into:
-  - Microsoft PowerPoint and Open Document presentations.
-  - Microsoft Word documents.
-  - Microsoft Excel and Open Document spreadsheets.
-- Ability to add PDF document attachments.
+- Support for Cross-format merging to PDF.
 
-For the detailed list, please visit [GroupDocs.Merger for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/mergernet/GroupDocs.Merger+for+.NET+20.4+Release+Notes).
+## Public API and Backward Incompatible Changes
+
+[Join](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/join) method of the GroupDocs.Merger for .NET product is expanded, please refer to the following documentation articles for more details:
+- [Supported Document Types](https://docs.groupdocs.com/display/mergernet/Supported+Document+Types)
+- [Merge documents to PDF](https://docs.groupdocs.com/display/mergernet/Merge+documents+to+PDF)
+
+For the detailed list, please visit [GroupDocs.Merger for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/mergernet/GroupDocs.Merger+for+.NET+20.5+Release+Notes).
 
 ## Join & Split File Formats
 
