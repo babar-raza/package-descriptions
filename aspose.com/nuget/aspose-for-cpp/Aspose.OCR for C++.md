@@ -7,6 +7,14 @@
 - Recognize characters from images.
 - Calculate the skew angle of images.
 - Currently it supports English language.
+- Auto-align image and autodetect text areas.
+- Get a single line and recognize it.
+
+## New Features in Version 20.6
+
+- New API for recognition in rectangle and limited symbol set.
+
+For the detailed notes, pelase visit [Aspose.OCR for CPP 20.6 Release Notes](https://docs.aspose.com/display/ocrcpp/Aspose.OCR+for+CPP+20.6+Release+Notes).
 
 ## Read Image Formats for OCR
 
