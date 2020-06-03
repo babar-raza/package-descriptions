@@ -14,7 +14,7 @@ This cloud SDK assists to develop cloud-based [HTML page rendering, processing, 
 
 - Added `Configuration.AddDefaultHeader`. It provides ability to specify custom headers which will be added to each `HTTP` request beneath API calls.
 
-For the detailed notes, please visit [Release Notes - 2020 ](https://docs.aspose.cloud/display/htmlcloud/Release+Notes+-+2020).
+For the detailed notes, please visit [Release Notes - 2020](https://docs.aspose.cloud/display/htmlcloud/Release+Notes+-+2020).
 
 ## Read & Write HTML Formats
 
