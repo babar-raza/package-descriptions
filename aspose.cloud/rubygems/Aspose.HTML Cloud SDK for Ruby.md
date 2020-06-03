@@ -10,15 +10,11 @@ This cloud SDK assists to develop cloud-based [HTML page rendering, processing, 
 - Use request body to populate HTML document template.
 - Convert HTML page to numerous other file formats.
 
-## New Features in Version 19.11
+## New Features in Version 20.5
 
-- Added following SEO analysis points in the current version:
-  - detection of broken links.
-  - validation of e-mail addresses.
-  - checking of `IMG` tags for the absence of `ALT` attribute.
-  - checking for duplicated `H1` elements.
+- Added `Configuration.AddDefaultHeader`. It provides ability to specify custom headers which will be added to each `HTTP` request beneath API calls.
 
-For the detailed notes, please visit [Aspose.HTML Cloud 19.11 Release Notes](https://docs.aspose.cloud/display/htmlcloud/Aspose.HTML+Cloud+19.11+Release+Notes).
+For the detailed notes, please visit [Release Notes - 2020](https://docs.aspose.cloud/display/htmlcloud/Release+Notes+-+2020).
 
 ## Read & Write HTML Formats
 
