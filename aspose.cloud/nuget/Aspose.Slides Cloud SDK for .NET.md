@@ -11,17 +11,16 @@ This REST API enables your C#, ASP.NET & other .NET cloud-based apps to [process
 - Merge multiple presentations or split single presentation into multiple ones.
 - Extract and replace text from specific slide or entire presentation.
 
-## Enhancements  in Version 20.4
+## New Features  in Version 20.5
 
-- Supports ViewProperties.
-- Supports new Powerpoint 2016 Chart types.
+- Ability to read Slide Notes from the request body.
 
 ## Public API Changes
 
-- Added `viewproperties` resource. It allows to GET and set (PUT) view properties of a document (`LastView`, `HorizontalBarState`, `VerticalBarState` etc.)
-- Added `Treemap`, `Sunburst`, `Histogram`, `ParetoLine`, `BoxAndWhisker`, `Waterfall`, and `Funnel` chart types.
+- Added `slides/{slideIndex}/notesSlide` resource at the root level (not connected to a storage document). Its POST method allows us to get notes to slide information for a document provided in the request body.
+- POST for new `slides/{slideIndex}/notesSlide/{format}` subresource allows to get notes slide in a specified image format.
 
-For the detailed notes, please visit [Aspose.Slides Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides Cloud 20.5 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.5+Release+Notes).
 
 ## Read & Write Presentation Formats
 
