@@ -14,13 +14,22 @@ It is a powerful on-premise class library that can be used for numerous [documen
 - Generate reports with Mail Merge that allows populating documents with data from various sources.
 - [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) to fetch data from databases, XML, JSON, OData, external documents and more.
 
-## New Features in Version 20.5
+## New Features in Version 20.6
 
-- Provided ability to show/hide Grammatical and Spelling errors.
-- Added New helper class to work with watermark inside document.
-- Added feature to set compression level for `OOXML` documents.
+- `Font.EmphasisMark` is exposed to the public.
+- Added a new public property `ImportFormatOptions.IgnoreHeaderFooter`.
+- `MarkdownSaveOptions` class is introduced.
+- Provided options to control `JSON` simple values’ recognition for `LINQ` Reporting Engine.
 
-For the detailed notes, please visit [Aspose.Words for .NET 20.5 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.5+Release+Notes).
+## Public API and Backward Incompatible Changes
+
+- Added a new public class `MarkdownSaveOptions`.
+- Added a new public property `Font.EmphasisMark`.
+- Added a new public property `ImportFormatOptions.IgnoreHeaderFooter`.
+- Added a new public property `MarkdownSaveOptions.TableContentAlignment`.
+- PDF version 1.5 is marked as obsolete.
+
+For the detailed notes, please visit [Aspose.Words for .NET 20.6 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.6+Release+Notes).
 
 ## Read & Write Document Formats
 
