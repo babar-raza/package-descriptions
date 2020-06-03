@@ -20,16 +20,12 @@ Node.js Cloud SDK wraps Aspose.Imaging REST API so you could seamlessly integrat
 	- Image comparison and similarity detection.
 	- Image features extraction (for now, AKAZE detector is supported).
 
-## New Features in Version 20.4
+## New Features in Version 20.5
 
-- Added stream response feature and tests for TIFF to fax requests.
-- Added support for Frames API for all applicable formats.
+- Extended `SaveAs` functionality.
+- Add the object detection and classification feature.
 
-## Important Notes about Version 20.4
-
-- Starting from version 20.4 we do not support conversion from `PSD` to `WEBP`.
-
-For the detailed notes, please visit [Aspose.Imaging Cloud 20.4 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.4+-+Release+Notes).
+For the detailed notes, please visit [Aspose.Imaging Cloud 20.5 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.5+-+Release+Notes).
 
 ## Read & Write Image Formats
 
