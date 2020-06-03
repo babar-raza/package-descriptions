@@ -15,13 +15,11 @@ Python Cloud SDK wraps Aspose.PDF REST API so you could seamlessly integrate PDF
 - Extensive support for [converting PDF documents](https://docs.aspose.cloud/display/pdfcloud/Convert+PDF+to+Other+File+Formats) to various other file formats.
 - Extract various elements of PDF file & make PDF document optimized.
 
-## New Features in Version 20.4
+## New Features in Version 20.5
 
-- Insert an HTML fragment in a table cell.
-- Use image file from storage as a table cell background.
-- Add image files from storage into table cell.
+- Replace `LaTex` with `Tex` in Cloud methods.
 
-For the detailed notes, please visit [Aspose.PDF Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/pdfcloud/Aspose.PDF+Cloud+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF Cloud 20.5 Release Notes](https://docs.aspose.cloud/display/pdfcloud/Aspose.PDF+Cloud+20.5+Release+Notes).
 
 ## Read & Write Formats
 
