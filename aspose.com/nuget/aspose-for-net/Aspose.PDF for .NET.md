@@ -22,12 +22,11 @@ Integrate PDF creation, processing, manipulation & conversion features into your
 - Print PDF documents to physical or virtual printers with or without print dialog.
 - Set document viewer preferences as well as manipulate document information & XMP metadata.
 
-## Enhancements in Version 20.5
+## Enhancements in Version 20.6
 
-- Support of binding expression in `XFA` form set/get value.
-- Keep actual field names when `XFA` form is converted into standard form.
+- There are various improvements in this version.
 
-For the detailed notes, please visit [Aspose.PDF for .NET 20.5 Release Notes](https://docs.aspose.com/display/pdfnet/Aspose.PDF+for+.NET+20.5+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF for .NET 20.6 Release Notes](https://docs.aspose.com/display/pdfnet/Aspose.PDF+for+.NET+20.6+Release+Notes).
 
 ## Read & Write PDF & Other Formats
 
