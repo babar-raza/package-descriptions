@@ -19,17 +19,13 @@ Aspose.Tasks for .NET on premise API enables you to work with projects, formulas
 - Encode MPX files.
 - Comprehensive project reporting (15+ types of reports).
 
-## Bug fixes in Version 20.5
+## Enhancements in Version 20.6
 
-- Added support of reading of shared resource assignments
-- Added support of GridlineType.MiddleTierColumn
-- Provided descriptive error message when saving not supported Task property
-- Fixed invalid calculation of task's name indent when ShowProjectSummaryTask = true
-- Fixed reading/writing of Created field of a resource for MPP format
-- Fixed Gantt bar styling for summary tasks and milestones
-- Fixed calculation of Overallocated property for shared resources
+- Improved performance of timephased data calculation.
+- Added rendering of customized Gridlines for `Middleopottom Tier Column` in Gantt chart view.
+- Added the ability to render 3 and 1 tier(s) on timescale.
 
-For the detailed notes, please visit [Aspose.Tasks for .NET 20.5 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.5+Release+Notes).
+For the detailed notes, please visit [Aspose.Tasks for .NET 20.6 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.6+Release+Notes).
 
 ## Read & Write Project Formats
 
