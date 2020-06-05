@@ -20,16 +20,23 @@ This .NET API can be consumed to [integrate metadata viewer](https://products.gr
 - Traverse a whole metadata tree.
 - Work with the APEv2, ID3v1, ID3v2, Lyrics & other tags of MP3 metadata.
 
-## Breaking Changes in Version 20.5
+## New Features in Version 20.6
 
-- In version 20.5 the legacy API has been removed (all types from the `GroupDocs.Metadata.Legacy` namespace are removed).
+- Implemented the ability to add, update and remove `IPTC` metadata in `TIFF` images.
 
-## New Features in Version 20.5
+## Enhancements in Version 20.6
 
-- Ability to work with `EXIF` metadata in `WEBP` images.
-- Ability to work with `XMP` metadata in `MOV` files.
+- Implemented the ability to export metadata properties to an `XLS/XLSX` worksheet.
 
-For the detailed notes, please visit [GroupDocs.Metadata for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/metadatanet/GroupDocs.Metadata+for+.NET+20.5+Release+Notes).
+## Public API and Backward Incompatible Changes
+
+- The `TiffRootPackage` class now implements the `IIptc` interface.
+- The setter has bee added to the `TiffRootPackage.IptcPackage` property.
+- The `GroupDocs.Metadata.Export` namespace has been introduced.
+- The `ExportFormat` enum has been added to the `GroupDocs.Metadata.Export` namespace.
+- The `ExportManager` class has been added to the `GroupDocs.Metadata.Export` namespace.
+
+For the detailed notes, please visit [GroupDocs.Metadata for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/metadatanet/GroupDocs.Metadata+for+.NET+20.6+Release+Notes).
 
 ## Read & Write Metadata Formats
 
