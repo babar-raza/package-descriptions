@@ -2,7 +2,7 @@
 
 [Aspose.Finance for .NET](https://products.aspose.com/finance/net) is a standalone on-premise API consisting of C# classes that allow you to process and manipuate finance-related formats, such as, XBRL and iXBRL from within your .NET applications.
 
-## Archive Processing Features
+## Finance Processing Features
 
 - [Create XBRL instance](https://docs.aspose.com/display/financenet/Create+XBRL+files#CreateXBRLfiles-CreateXBRLInstance) from scratch.
 - Read XBRL & iXBRL format.
