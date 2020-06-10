@@ -21,15 +21,12 @@ It allows to read and write GIS data, [convert GIS file formats](https://docs.as
 - Perform vector analysis & [manipulate geometries](https://docs.aspose.com/display/gisnet/Working+with+Geometries).
 - Support for [Spatial Reference Systems](https://docs.aspose.com/display/gisnet/Spatial+Reference+Systems).
 
-## New Feature in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Export data to `MapInfo TAB` format.
+- Updated `EPSG` Dataset.
+- Updated security.
 
-## Enhancements in Version 20.5
-
-- Ability of Fields preprocessing during export.
-
-For detailed notes, please visit [Aspose.GIS for .NET 20.5 Release Notes](https://docs.aspose.com/display/gisnet/Aspose.GIS+for+.NET+20.05+Release+Notes).
+For detailed notes, please visit [Aspose.GIS for .NET 20.6 Release Notes](https://docs.aspose.com/display/gisnet/Aspose.GIS+for+.NET+20.06+Release+Notes).
 
 ## Read & Write GIS Formats
 
