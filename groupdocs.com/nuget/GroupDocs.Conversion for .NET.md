@@ -18,27 +18,21 @@ This .NET API can seamlessly integrate and enables your C#, ASP.NET & other .NET
 - Load password protected documents.
 - Enable listening of conversion process stages.
 
-## New Features in Version 20.4
+## New Features & Enhancements in Version 20.6
 
-- Support for auto page numbering while exporting to `PDF`.
-- Convert each email attachment to different type.
-- Convert *from* `PST`, `OST`, `OXPS`, `FODS`, `OTG`.
-- Implement conversion *to* `FODS`.
-- Introduced in-memory caching.
+- Implemented conversion from/to `FODP` format.
+- Implemented conversion from/to `MD` format.
+- Ability to convert `XML` files as data source.
+- Improved document info for `PST`/`OST` documents.
 
-## Enhancements in Version 20.4
-
-- Improve font substitution when converting from `PDF`.
-- Improved caching.
-
-For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/conversionnet/GroupDocs.Conversion+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/conversionnet/GroupDocs.Conversion+for+.NET+20.6+Release+Notes).
 
 ## Conversion File Formats
 
 GroupDocs.Conversion allows you to convert any of the following type of file formats:
 **Spreadsheet:** XLSX, XLSB, XLS2003, XLT, XLTX, XLTM, XLAM, XLS, XLSM, ODS, TSV, CSV
 **Document:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT, ODT, OTT
-**Presentation:** PPT, PPS, PPTX, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM
+**Presentation:** PPT, PPS, PPTX, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
 **Image:** JPEG-LS, TIFF, TIF, JPEG, JPG, PNG, GIF, BMP, ICO, CMX, DIB, JPC
 **Portable Document:** PDF, XPS, EPUB
 **Web:** HTM, HTML, MHTML
@@ -48,15 +42,17 @@ GroupDocs.Conversion allows you to convert any of the following type of file for
 **Microsoft Visio:** VSD, VSDX, VSS, VST, VSX, VTX, VDW, VDX, SVG, VSDM, VSSM, VSTM
 **AutoCAD:** DXF, DWG, DWF, STL, IFC, DWT
 **Page Description:** EPS, PCL, PS, CGM
+**Markup:** MD
 
 to the following formats:
 **Microsoft Excel:** XLS, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, XLTM, XLAM
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT
 **Microsoft PowerPoint:** PPT, PPS, PPTX, PPSX, POT, POTX, POTM, PPTM, PPSM
-**OpenDocument:** ODT, OTT, ODS, ODP, OTP
+**OpenDocument:** ODT, OTT, ODS, ODP, OTP, FODP
 **Images:** TIFF, TIF, JPEG, JPG, PNG, GIF, BMP, ICO, EMF, WMF
-**Fixed Layout:** PDF, XPS  
+**Fixed Layout:** PDF, XPS
 **Web:** HTM, HTML, MHTML
+**Markup:** MD
 
 ## Supported Platforms
 
