@@ -1,6 +1,6 @@
 # .NET API to Process Drawing File Formats
 
-[Aspose.Drawing for .NET](https://products.aspose.com/drawing/net) is a cross-platform library that provides `System.Drawing` and `GDI+` compatible API.
+[Aspose.Drawing for .NET](https://products.aspose.com/drawing/net) is a cross-platform library that provides drawing capabilities, identical to `GDI+`, within your .NET applications.
 
 Our drawing engine supports rendering vector graphics (such as lines, curves, and figures) and text (in a variety of fonts, sizes, and styles) onto raster images in popularly used graphics file formats (BMP, PNG, JPEG, GIF, TIFF).
 
