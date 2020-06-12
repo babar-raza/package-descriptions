@@ -1,22 +1,23 @@
-# .NET API to Process Drawing File Formats
+# 2D Drawing Engine for .NET Platforms
 
-[Aspose.Drawing for .NET](https://products.aspose.com/drawing/net) is a cross-platform library that provides drawing capabilities, identical to `GDI+`, within your .NET applications.
+[Aspose.Drawing for .NET](https://products.aspose.com/drawing/net) is a cross-platform 2D drawing engine with System.Drawing compatible API.
 
-Our drawing engine supports rendering vector graphics (such as lines, curves, and figures) and text (in a variety of fonts, sizes, and styles) onto raster images in popularly used graphics file formats (BMP, PNG, JPEG, GIF, TIFF).
+Our drawing engine supports rendering vector graphics (such as lines, curves, and figures) and text (in a variety of fonts, sizes, and styles) onto raster images represented by array of pixels in memory. Images can be saved in some of popularly used graphics file formats (BMP, PNG, JPEG, GIF, TIFF).
+
+Aspose.Drawing is a pure .NET library. We don’t use any external native rendering engine, so Aspose.Drawing can be safely run from any restricted environment such as Windows of ASP.NET service.
 
 ## Graphic File Processing Features
 
-- [Create bitmap](https://docs.aspose.com/display/drawingnet/Create+Image#CreateImage-CreateNewBitmap) from scratch or load from file.
-- [Convert images](https://docs.aspose.com/display/drawingnet/Convert+Images#ConvertImages-ConvertImageinC#) from one format to another.
-- [Draw arc](https://docs.aspose.com/display/drawingnet/Working+with+Vector+Graphics#WorkingwithVectorGraphics-DrawArc), bezier spline, cardinal spline, closed curve.
-- Draw eclipse, lines, path, polygon, rectangle.
-- Fill region.
-- Set pen width and [pen color to Draw Graphics](https://docs.aspose.com/display/drawingnet/Working+with+Pens#WorkingwithPens-SetPenColortoDrawGraphics).
-- Join paths using pen.
-- Using [solid brush to draw graphics](https://docs.aspose.com/display/drawingnet/Working+with+Brushes#WorkingwithBrushes-UsingSolidBrushtoDrawGraphicsinC#).
-- Work with [alpha blending](https://docs.aspose.com/display/drawingnet/Working+with+Image+Rendering#WorkingwithImageRendering-AlphaBlending), antialiasing, and clipping.
-- Support for transformations, such as, [matrix](https://docs.aspose.com/display/drawingnet/Working+with+Coordinate+System+Transformations#WorkingwithCoordinateSystemTransformations-MatrixTransformation), page, world, local & global.
-- Format fonts and [text styles](https://docs.aspose.com/display/drawingnet/Working+with+Text+and+Fonts#WorkingwithTextandFonts-TextStyles-Hinting) to draw text during graphics drawing.
+- [Creating bitmaps](https://docs.aspose.com/display/drawingnet/Create+Image#CreateImage-CreateNewBitmap) from scratch or loading from files.
+- Drawing lines, Bézier curves, splines and [arcs](https://docs.aspose.com/display/drawingnet/Working+with+Vector+Graphics#WorkingwithVectorGraphics-DrawArc).
+- Drawing shapes such as rectangle, polygon, eclipse, etc.
+- Processing and drawing graphics paths.
+- Rendering text with different fonts and styles.
+- Using different pen widths and styles.
+- Using [solid and texture brushes](https://docs.aspose.com/display/drawingnet/Working+with+Brushes#WorkingwithBrushes-UsingSolidBrushtoDrawGraphicsinC#).
+- [Alpha blending](https://docs.aspose.com/display/drawingnet/Working+with+Image+Rendering#WorkingwithImageRendering-AlphaBlending) and anti-aliasing lines and shapes.
+- Working with clip regions.
+- Using affine transformations.
 
 ## New Features & Enhancements in Version 20.6
 
@@ -36,8 +37,6 @@ Aspose.Drawing for .NET supports any 32-bit or 64-bit operating system where .NE
 
 - Microsoft Windows desktop (XP, Vista, 7, 8, 10) and server operating systems (2003, 2008, 2012, 2016, 2019)
 - Windows Azure
-- Linux
-- Mac OS X
 
 It also supports .NET Framework version 2.0 and .NET Core 2.0 or later. You can use Aspose.Drawing for .NET to develop applications in any development environment that targets the .NET platform. However, Microsoft Visual Studio 2012, 2013, 2015, 2017, 2019 are explicitly supported.
 
