@@ -10,6 +10,13 @@
 - Import and export XBRL & iXBRL format files.
 - Handle the abstract element in XBRL taxonomy.
 
+## New Features & Enhancements in Version 20.6
+
+- Implemented `OFX1.x` file import & export.
+- Implemented `OFX2.x` file import & export.
+
+For the detailed notes, please visit [Aspose.Finance for .NET 20.6 Release Notes](https://docs.aspose.com/display/financenet/Aspose.Finance+for+.NET+20.6+Release+Notes).
+
 ## Read Finance Formats
 
 XBRL, iXBRL
