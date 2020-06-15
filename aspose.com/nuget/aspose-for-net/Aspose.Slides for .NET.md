@@ -10,14 +10,14 @@
 - Presentation Security: Load protected presentations or control access to presentations, slides or objects via advanced security features.
 - Availability of 24 pre-defined textures & 48 patterns for quick styling.
 
-## New Features in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Ability to validate password to modify.
-- Align Multiple shapes in one line.
-- Identify read-protected and write-protected presentations.
-- Support for Mathematical Equations (`OMML`).
+- Support for Conversion to `PDF`, accessibility standards.
+- Support for `PDF/UA` compliance.
+- Support for Open Type Font (`OTF`).
+- Support for tagged `PDF` export.
 
-For the detailed notes, please visit [Aspose.Slides for .NET 20.5 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.5+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides for .NET 20.6 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.6+Release+Notes).
 
 ## Read & Write Presentations
 
