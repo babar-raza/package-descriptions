@@ -22,11 +22,11 @@ This REST API enhances your PHP based cloud apps to [render](https://products.gr
 - Get list of all email attachments in its HTML or image representation.
 - Download resources of a specific email attachment page for HTML representation.
 
-## Enhancements in Version 19.5
+## New Features in Version 20.5
 
-- Improved Cloud products API Reference grouping.
+- Added support for [Docker version of GroupDocs.Viewer Cloud](https://hub.docker.com/r/groupdocs/viewer-cloud) by SDKs.
 
-For the detailed notes, please visit [GroupDocs.Viewer Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/viewercloud/release-notes/2019/groupdocs-viewer-cloud-19-5-release-notes/).
+For the detailed notes, please visit [GroupDocs.Viewer Cloud 20.5 Release Notes](https://wiki.groupdocs.cloud/viewercloud/release-notes/release-notes-2020/groupdocs-viewer-cloud-20-5-release-notes/).
 
 ## Supported File Formats
 

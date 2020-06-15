@@ -24,11 +24,11 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/viewer/) to k
 - Render email messages & Outlook data files.
 - Integrated storage API.
 
-## New Features in Version 19.5
+## New Features in Version 20.5
 
-- Improve Cloud products API Reference grouping.
+- Added support for [Docker version of GroupDocs.Viewer Cloud](https://hub.docker.com/r/groupdocs/viewer-cloud) by SDKs.
 
-For the detailed notes, please visit [GroupDocs.Viewer Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/viewercloud/release-notes/2019/groupdocs-viewer-cloud-19-5-release-notes/).
+For the detailed notes, please visit [GroupDocs.Viewer Cloud 20.5 Release Notes](https://wiki.groupdocs.cloud/viewercloud/release-notes/release-notes-2020/groupdocs-viewer-cloud-20-5-release-notes/).
 
 ## Supported File Formats
 
