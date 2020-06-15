@@ -14,12 +14,14 @@ It is a standalone OCR API that enhances your .NET apps to perform the [OCR oper
 - Scan rotated images.
 - Application of various noise removal filters to assist image recognition.
 
-## Enhancements in Version 20.4
+## New Features & Enhancements in Version 20.6
 
-- Improved performance using CPU/GPU.
-- New text search approach tuned for complex layouts.
+- Improved recognition quality.
+- Added API support for working with streams and recognition areas.
+- Added ability to specify characters for recognition.
+- Added the ability to calculate skew of the image.
 
-For the detailed notes, please visit [Aspose.OCR for .NET 20.4 - Release Notes](https://docs.aspose.com/display/ocrnet/Aspose.OCR+for+.NET+20.4+-+Release+Notes).
+For the detailed notes, please visit [Aspose.OCR for .NET 20.6 - Release Notes](https://docs.aspose.com/display/ocrnet/Aspose.OCR+for+.NET+20.6+-+Release+Notes).
 
 ## Read Image Formats for OCR
 
