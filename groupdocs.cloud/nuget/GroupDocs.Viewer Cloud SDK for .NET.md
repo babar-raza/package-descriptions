@@ -22,17 +22,11 @@ This REST API enhances your C#, ASP.NET, & other .NET based cloud apps to [rende
 - Get list of all email attachments in its HTML or image representation.
 - Download resources of a specific email attachment page for HTML representation.
 
-## New Features in Version 20.3
+## New Features in Version 20.5
 
-- Added `OutputPath` option to `DeleteViewOptions`.
-- Removed *BMP* View Format.
-- Added Options for rendering a document into *PDF*.
-- Added new render options.
-- Added support for new file formats: *XLTM*, *XLTX*, *JPC*, *XLAM*, *MPX*, *OXPS*, *FODS*, *SXC*, *DWT*, *OTG*.
-- Added support for programming languages code files (C++, Java, C# etc.).
-- Added support for archive file formats.
+- Added support for [Docker version of GroupDocs.Viewer Cloud](https://hub.docker.com/r/groupdocs/viewer-cloud) by SDKs.
 
-For the detailed notes, please visit [GroupDocs.Viewer Cloud 20.3 Release Notes](https://wiki.groupdocs.cloud/viewercloud/release-notes/release-notes-2020/groupdocs-viewer-cloud-20-3-release-notes/).
+For the detailed notes, please visit [GroupDocs.Viewer Cloud 20.5 Release Notes](https://wiki.groupdocs.cloud/viewercloud/release-notes/release-notes-2020/groupdocs-viewer-cloud-20-5-release-notes/).
 
 ## Supported File Formats
 
