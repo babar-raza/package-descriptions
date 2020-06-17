@@ -17,7 +17,7 @@ It is a standalone .NET API to create, manipulate, extract & protect archive for
 
 ## Enhancements in Version 20.6
 
-- Handle entry names with `Unicode` characters.
+- Handled entry names with `Unicode` characters.
 
 For the detailed notes, please visit [Aspose.ZIP for .NET 20.6 Release Notes](https://docs.aspose.com/display/zipnet/Aspose.ZIP+for+.NET+20.6+Release+Notes).
 
