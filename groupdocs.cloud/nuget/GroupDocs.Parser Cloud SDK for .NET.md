@@ -20,6 +20,14 @@ This [document parser & data extraction REST API](https://products.groupdocs.clo
 - Obtain basic information about documents, archives, emails, and attachments etc.
 - Extract data from a document contained inside a ZIP archive, email or PDF portfolio.
 
+## New Features & Enhancements in Version 20.6
+
+- Added `Node.js`, `PHP`, `Python`, and `Ruby` SDK for GroupDocs.Parser Cloud.
+- Implemented extraction of encoding.
+- Implemented additional image information extraction.
+
+For the detailed notes, pelase visit [GroupDocs.Parser for Cloud 20.6 Release Notes](https://wiki.groupdocs.cloud/parsercloud/release-notes/release-notes-2020/groupdocs-parser-for-cloud-20-6-release-notes).
+
 ## Parse Document By Template Supported Formats
 
 **Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
