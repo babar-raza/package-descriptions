@@ -22,13 +22,15 @@
 - [Configure various access privileges for the PDF](https://docs.aspose.com/display/pdfcpp/Encrypt%2C+Decrypt+and+set+Privileges+on+PDF+documents) document.
 - [Extract text from all pages of a PDF](https://docs.aspose.com/pages/viewpage.action?pageId=51479222) file.
 
-## Enhancements in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Build simply Qt application with the `Aspose.PDF.Cpp` library.
-- Fixed `XslCompiledTransform` to support `XmlReader`.
-- Support to save `PDF` document to `TeX` format.
+- Support to convert `PDF` documents to Excel format using `SaveFormat::Excel` or `ExcelSaveOptions`.
+- Ability to load `TeX` documents via `TeXLoadOptions` and save them into `PDF` format.
+- Support to save `PDF` documents into `TeX` format using `SaveFormat::TeX` or `TeXSaveOptions`.
+- Ability to create `PDF` documents from `XSLFO` and `PS` format files.
+- Fixed memory leaks while converting `PDF` document into `PPTX` and `TeX` formats.
 
-For the detailed notes, please visit [Aspose.PDF for C++ 20.5 Release Notes](https://docs.aspose.com/display/pdfcpp/Aspose.PDF+for+CPP+20.5+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF for C++ 20.6 Release Notes](https://docs.aspose.com/display/pdfcpp/Aspose.PDF+for+CPP+20.6+Release+Notes).
 
 ## Read & Write PDF & Other Formats
 

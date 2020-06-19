@@ -14,17 +14,17 @@ Aspose.Imaging for .NET offers robust image compression and high processing spee
 - De-skew & transform images.
 - Set image properties.
 
-## New Features in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Support for extracting paths from `TIFF`.
-- Allow speed or memory optimization strategies for `DICOM` format.
-- Support of export readable full frame `GIF` to multipage image formats.
+- Implemented support of `APNG` (animated PNG) file format.
+- Support of a new compression method `DXT1` for `BMP`.
+- Support batch export to `WebP` for multi-page images.
 
 ## Compact Framework Off Notice
 
-Please note in next Aspose.Imaging releases support of .NET Compact Framework will be removed.
+Please note, since 20.6 release of Aspose.Imaging support of .NET Compact Framework has been removed.
 
-For the detailed notes, please visit [Aspose.Imaging for .NET 20.5 - Release Notes](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+20.5+-+Release+notes).
+For the detailed notes, please visit [Aspose.Imaging for .NET 20.6 - Release notes](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+20.6+-+Release+notes).
 
 ## Read & Write Image Formats
 

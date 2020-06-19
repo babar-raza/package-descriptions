@@ -15,25 +15,21 @@
 - Add default print tickets into new `XPS` document or preserve print tickets in opened `XPS`.
 - Save `XPS` documents in various [supported file formats](https://docs.aspose.com/display/pagecpp/Supported+File+Formats).
 
-## Public API and Backwards Incompatible Changes in Version 20.4
+## Public API and Backwards Incompatible Changes in Version 20.6
 
-Since Aspose.Page for C++ is auto-ported from Aspose.Page for .NET API, it includes the same API changes as the equivalent .NET API. Additional changes include:
+The following public classes, methods and properties have been defined:
 
-- New Types
-  - XpsContext
-  - FixedPage
-  - FixedPart
-  - FixedDocument
-- Properties
-  - XpsContext.ActivePage
-  - FixedPage.Page
-  - XpsElement.Parent
-- Methods
-  - XpsDocument.Assert()  
-  - XpsContext.Restict(System.Int32)
-  - XpsObject.AssertObject()
+- class `Aspose.Page.XPS.XpsModel.XpsContext`
+- member `Aspose.Page.XPS.XpsModel.XpsContext.Restrict`
+- property `Aspose.Page.XPS.XpsModel.XpsContext.ActivePage`
+- property `Aspose.Page.XPS.XpsModel.XpsElement.Parent`
+- member `Aspose.Page.XPS.XpsModel.XpsObject.AssertObject`
+- class `Aspose.Page.XPS.XpsPackageParts.FixedDocument`
+- class `Aspose.Page.XPS.XpsPackageParts.FixedPage`
+- property `Aspose.Page.XPS.XpsPackageParts.FixedPage.Page`
+- class `Aspose.Page.XPS.XpsPackageParts.FixedPart`
 
-For the detailed notes, please visit [Aspose.Page for CPP 20.4 Release Notes](https://docs.aspose.com/display/pagecpp/Aspose.Page+for+CPP+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Page for C++ 20.6 Release Notes](https://docs.aspose.com/display/pagecpp/Aspose.Page+for+CPP+20.6+Release+Notes).
 
 ## Save XPS as
 
