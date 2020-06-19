@@ -16,35 +16,30 @@ Python Cloud SDK wraps Aspose.Words Cloud API so you could seamlessly integrate 
 - [Convert a document to desired file format](https://docs.aspose.cloud/display/wordscloud/Convert+Document+to+Destination+Format+with+Detailed+Settings+and+Save+Result+to+Storage) along with detailed settings.
 - Convert an encrypted PDF document into Word document format.
 
-## New Features in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Added methods to work with Word document lists
-  - `GetLists`
-  - `GetList`
-  - `InsertList`
-  - `UpdateList`
-  - `UpdateListLevel`
-- Added methods to work with styles
-  - `GetStyles`
-  - `UpdateStyle`
-  - `InsertStyle`
-  - `CopyStyle`
-  - `GetStyleFromDocumentElement`
-  - `ApplyStyleToDocumentElement`
-- Added methods to work with paragraph list format
-  - `GetParagraphListFormat`
-  - `GetParagraphListFormatWithoutNodePath`
-  - `UpdateParagraphListFormat`
+### Words Cloud changes
+
+- Added new `OoxmlSaveOption` CompressionLevel.
+- Added group of methods without nodePath property:
+  - `DeleteAllParagraphTabStops`
   - `DeleteParagraphListFormat`
-- Added methods to work with paragraph tab stops
+  - `DeleteParagraphTabStop`
   - `GetParagraphTabStops`
   - `InsertOrUpdateParagraphTabStop`
-  - `DeleteAllParagraphTabStops`
-  - `DeleteParagraphTabStop`
-- Added methods to build reports
-  - `BuildReport`
-  - `BuildReportOnline`
-- Added `Shading` property to `ParagraphFormat`
+  - `InsertParagraph`
+  - `UpdateParagraphFormat`
+  - `UpdateParagraphListFormat`
+
+### PDF to Word conversion improvements
+
+- Implemented clipping path detection for `W` and `W*` operators.
+- Added support for `PDF` files with early `EOFs`.
+- Slightly improved speed of `PDF` recognition workflow.
+- Corrected space detection between links on the same row.
+- Fixed a rare concurrency error in font loading code.
+
+For the detiled notes, please visit [Aspose.Words Cloud 20.6 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.6+Release+Notes).
 
 ## Read & Write Document Formats
 
