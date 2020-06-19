@@ -12,10 +12,15 @@
 
 ## New Features & Enhancements in Version 20.6
 
-- Implemented `OFX1.x` file import & export.
-- Implemented `OFX2.x` file import & export.
+- Ability to create `OFX` file from scratch.
+- Ability to import & export `OFX 1.x` files.
+- Ability to import & export `OFX 2.x` files.
 
 For the detailed notes, please visit [Aspose.Finance for .NET 20.6 Release Notes](https://docs.aspose.com/display/financenet/Aspose.Finance+for+.NET+20.6+Release+Notes).
+
+## Read & Write Finance Formats
+
+OFX 1.x, OFX 2.x
 
 ## Read Finance Formats
 
