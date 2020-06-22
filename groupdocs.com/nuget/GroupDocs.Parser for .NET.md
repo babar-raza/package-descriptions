@@ -14,15 +14,12 @@ This text parser on-premise API works well to [search & extract formatted text](
 - Extract table of contents for some supported document formats.
 - Parse form data from PDF documents.
 
-## New Features in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Implemented the ability to create Parser object with `DbConnection` and `EmailConnection`.
+- Implemented the API to extract data from documents.
+- Ability to detect media types for `Zip` container.
 
-## Enhancements in Version 20.5
-
-- Added `RawPageCount` property to `IDocumentInfo` interface.
-
-For the detailed notes, please visit [GroupDocs.Parser for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/parsernet/GroupDocs.Parser+for+.NET+20.5+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Parser for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/parsernet/GroupDocs.Parser+for+.NET+20.6+Release+Notes).
 
 ## Parse Document by Template
 
