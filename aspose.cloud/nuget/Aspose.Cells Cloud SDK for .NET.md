@@ -1,4 +1,4 @@
-# .NET REST API for Spreadsheet Processing in Cloud
+# .NET Cloud SDK for Spreadsheet Processing in the Cloud
 
 This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to [process & manipulate Microsoft Excel spreadsheets](https://products.aspose.cloud/cells/net) in the cloud, without MS Office.
 
