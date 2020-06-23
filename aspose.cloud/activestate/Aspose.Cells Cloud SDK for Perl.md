@@ -1,4 +1,4 @@
-# Perl REST API for Spreadsheet Processing in Cloud
+# Perl SDK for Spreadsheet Processing in Cloud
 
 This Cloud SDK enhances your Perl cloud-based apps to [process & manipulate Microsoft Excel spreadsheets](https://products.aspose.cloud/cells/perl) in the cloud, without MS Office.
 
@@ -18,24 +18,21 @@ This Cloud SDK enhances your Perl cloud-based apps to [process & manipulate Micr
 - Cloud SDK to Read & Process Excel Worksheets.
 - Leverage the Power of Pivot Tables & Ranges.
 
-## New Features in Version 20.4
+## New Features & Enhancements in Version 20.6
 
-- Supports to add workbook background.
-- Supports to delete workbook background.
+- Ability to support the text water marker.
+- Support to convert images in `get` workbook API.
+- Upgrade `Dynabic.Billing` for Aspose.Cells Cloud.
+- Enhancement for `Cells` object operating in `Task` API.
 
-## Enhancements in Version 20.4
-
-- Support for splitting workbook.
-- Support for creating workbook.
-
-For the detailed notes, please visit [Aspose.Cells Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Cells Cloud 20.6 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.6+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
-**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM
-**OpenOffice:** ODS
-**SpreadsheetML:** XML
-**Text:** CSV, TSV, TXT (TabDelimited)
+**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM\
+**OpenOffice:** ODS\
+**SpreadsheetML:** XML\
+**Text:** CSV, TSV, TXT (TabDelimited)\
 **Web:** HTML, MHTML
 
 ## Save Spreadsheet As

@@ -1,6 +1,8 @@
+# # Python SDK for Spreadsheet Cloud Processing
+
 Python Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate Microsoft Excel® spreadsheet generation, manipulation, conversion & inspection features into your own Python applications.
 
-[Aspose.Cells Cloud SDK for Python](https://products.aspose.cloud/cells/python) offers Excel® file creation, manipulation, conversion, & rendering. Developers can format worksheets, rows, columns or cells to the most granular level, create & manipulate chart & pivot tables, render worksheets, charts and specific data ranges to PDF & images, add & calculate Excel's built-in and custom formulas and much more. Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/cellscloud/Developer+Guide) for all usage scenarios. 
+[Aspose.Cells Cloud SDK for Python](https://products.aspose.cloud/cells/python) offers Excel® file creation, manipulation, conversion, & rendering. Developers can format worksheets, rows, columns or cells to the most granular level, create & manipulate chart & pivot tables, render worksheets, charts and specific data ranges to PDF & images, add & calculate Excel's built-in and custom formulas and much more. Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/cellscloud/Developer+Guide) for all usage scenarios.
 
 ## Manipulate Excel Files in the Cloud with Python
 
@@ -16,24 +18,21 @@ Python Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate M
 - Convert worksheets to PDF, XPS & SVG formats.
 - Inter-convert files to popular Excel formats.
 
-## New Features in Version 20.4
+## New Features & Enhancements in Version 20.6
 
-- Supports to add workbook background.
-- Supports to delete workbook background.
+- Ability to support the text water marker.
+- Support to convert images in `get` workbook API.
+- Upgrade `Dynabic.Billing` for Aspose.Cells Cloud.
+- Enhancement for `Cells` object operating in `Task` API.
 
-## Enhancements in Version 20.4
-
-- Support for splitting workbook.
-- Support for creating workbook.
-
-For the detailed notes, please visit [Aspose.Cells Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Cells Cloud 20.6 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.6+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
-**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM
-**OpenOffice:** ODS
-**SpreadsheetML:** XML
-**Text:** CSV, TSV, TXT (TabDelimited)
+**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM\
+**OpenOffice:** ODS\
+**SpreadsheetML:** XML\
+**Text:** CSV, TSV, TXT (TabDelimited)\
 **Web:** HTML, MHTML
 
 ## Save Spreadsheets As

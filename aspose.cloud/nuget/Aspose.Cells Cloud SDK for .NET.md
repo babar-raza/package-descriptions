@@ -1,4 +1,4 @@
-# .NET Cloud SDK for Spreadsheet Processing in the Cloud
+# .NET SDK for Cloud Spreadsheet Processing
 
 This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to [process & manipulate Microsoft Excel spreadsheets](https://products.aspose.cloud/cells/net) in the cloud, without MS Office.
 

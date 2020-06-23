@@ -1,12 +1,10 @@
-Node.js Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate Excel® file generation, manipulation, conversion & processing features into your own Node.js applications.
-
 # Process Excel® Files in the Cloud with Node.js
 
 [Aspose.Cells Cloud SDK for Node.js](https://products.aspose.cloud/cells/nodejs) allows developers to create, edit, process & convert Excel spreadsheets in the Cloud. The Excel Cloud SDK gets its functionality from Aspose.Cells Cloud API, allowing your Node.js apps to work with all Excel file formats and features including worksheet & cell management, conditional formatting, auto-filters, auto-shapes, charts, OleObjects, page breaks, ListObjects, Pivot Tables, charts and much more. 
 
 ## Excel File Processing Features
 
-- Create Excel files from scratch using the API. 
+- Create Excel files from scratch using the API.
 - Load, process & convert spreadsheets via Cloud SDK.
 - Add, update or delete worksheet, charts, pictures, shapes, hyperlinks & validations.
 - Add or remove cells area for conditional formatting from Excel worksheets.
@@ -20,24 +18,21 @@ Node.js Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate 
 - Fetch the required shape from worksheet.
 - Leverage the Power of Pivot Tables & ranges.
 
-## New Features in Version 20.4
+## New Features & Enhancements in Version 20.6
 
-- Supports to add workbook background.
-- Supports to delete workbook background.
+- Ability to support the text water marker.
+- Support to convert images in `get` workbook API.
+- Upgrade `Dynabic.Billing` for Aspose.Cells Cloud.
+- Enhancement for `Cells` object operating in `Task` API.
 
-## Enhancements in Version 20.4
-
-- Support for splitting workbook.
-- Support for creating workbook.
-
-For the detailed notes, please visit [Aspose.Cells Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Cells Cloud 20.6 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.6+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
-**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM
-**OpenOffice:** ODS
-**SpreadsheetML:** XML
-**Text:** CSV, TSV, TXT (TabDelimited)
+**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM\
+**OpenOffice:** ODS\
+**SpreadsheetML:** XML\
+**Text:** CSV, TSV, TXT (TabDelimited)\
 **Web:** HTML, MHTML
 
 ## Save Spreadsheet As
