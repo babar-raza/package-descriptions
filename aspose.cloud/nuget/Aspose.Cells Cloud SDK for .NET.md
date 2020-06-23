@@ -29,10 +29,10 @@ For the detailed notes, please visit [Aspose.Cells Cloud 20.6 Release Notes](htt
 
 ## Read & Write Spreadsheet Formats
 
-**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM
-**OpenOffice:** ODS
-**SpreadsheetML:** XML
-**Text:** CSV, TSV, TXT (TabDelimited)
+**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM\
+**OpenOffice:** ODS\
+**SpreadsheetML:** XML\
+**Text:** CSV, TSV, TXT (TabDelimited)\
 **Web:** HTML, MHTML
 
 ## Save Spreadsheet As
