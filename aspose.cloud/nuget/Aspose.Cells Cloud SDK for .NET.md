@@ -18,7 +18,7 @@ This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to [proc
 - Cloud SDK to Read & Process Excel Worksheets.
 - Leverage the Power of Pivot Tables & Ranges.
 
-## New Features & Enhancements
+## New Features & Enhancements in Version 20.6
 
 - Ability to support the text water marker.
 - Support to convert images in `get` workbook API.
