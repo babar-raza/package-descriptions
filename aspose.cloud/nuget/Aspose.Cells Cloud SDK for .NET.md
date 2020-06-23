@@ -18,17 +18,14 @@ This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to [proc
 - Cloud SDK to Read & Process Excel Worksheets.
 - Leverage the Power of Pivot Tables & Ranges.
 
-## New Features in Version 20.4
+## New Features & Enhancements
 
-- Supports to add workbook background.
-- Supports to delete workbook background.
+- Ability to support the text water marker.
+- Support to convert images in `get` workbook API.
+- Upgrade `Dynabic.Billing` for Aspose.Cells Cloud.
+- Enhancement for `Cells` object operating in `Task` API.
 
-## Enhancements in Version 20.4
-
-- Support for splitting workbook.
-- Support for creating workbook.
-
-For the detailed notes, please visit [Aspose.Cells Cloud 20.4 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Cells Cloud 20.6 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.6+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
