@@ -28,25 +28,22 @@ An on-premise [API to generate documents of various formats](https://products.gr
 - Load template documents from HTML with resources.
 - Save assembled documents to HTML with resources.
 
-## New Features in Version 20.4
+## New Features in Version 20.6
 
-- This release provides the option to fit an image within textbox bounds while maintaining ratio for:
-  - Word Processing documents.
-  - Emails with *RTF* bodies.
-  - Spreadsheet documents.
-  - Presentation documents.
+- Support for working with `POT` and `OTP` Presentation document formats.
+- Support for ordered lists in `Markdown` format.
 
-For the detailed notes, please visit [GroupDocs.Assembly for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/assemblynet/GroupDocs.Assembly+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Assembly for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/assemblynet/GroupDocs.Assembly+for+.NET+20.6+Release+Notes).
 
 ## Read & Write Microsoft Office Formats
 
 **Microsoft Word:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, RTF
 **Microsoft Excel:** XLSX, XLSM, XLTX, XLTM, XLSB, XLS, XLT
-**Microsoft PowerPoint:** PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, PPS
+**Microsoft PowerPoint:** PPTX, PPTM, PPSX, PPSM, POT, POTX, POTM, PPT, PPS
 
 ## Read & Write Other Formats
 
-**OpenOffice:** ODS, ODT, OTT, ODP, OXPS
+**OpenOffice:** ODS, ODT, OTT, OTP, ODP, OXPS
 **Email:** EML, MSG, EMLX
 **Fixed Layout:** PDF, XPS
 **Web:** HTML, MHTML
