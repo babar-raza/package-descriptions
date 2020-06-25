@@ -1,18 +1,16 @@
-# .NET API for Word File Formats
+# .NET API for Various Document Formats
 
-Aspose.Words for .NET is a [Word Document Processing API](https://products.aspose.com/words/net) that allows the developers to work with Microsoft Word® documents without needing Office Automation.
-
-It is a powerful on-premise class library that can be used for numerous [document processing tasks](https://docs.aspose.com/display/wordsnet/Developer+Guide), enabling the developers to enhance their own applications with feature such as, document generation, modification, conversion, rendering and printing without relying on Microsoft Word or automation.
+[Aspose.Words for .NET](https://products.aspose.com/words/net) is a powerful on-premise class library that can be used for numerous document processing tasks. It enables developers to enhance their own applications with features such as generating, modifying, converting, rendering, and printing documents, without relying on third-party applications, for example, Microsoft Word, or automation.
 
 ## Word API Features
 
-- Comprehensive document import and export with [35+ supported file formats](https://docs.aspose.com/display/wordsnet/Supported+Document+Formats).
-- [High fidelity rendering](https://docs.aspose.com/display/wordsnet/Rendering) of document pages - exactly like Microsoft Word would have rendered.
-- [Rich object model](https://docs.aspose.com/display/wordsnet/Aspose.Words+Document+Object+Model) that allows to generate, combine, modify, parse or otherwise examine loaded documents.
-- Programmatic access to formatting properties of all document elements.
-- .NET printing infrastructure to [print documents](https://docs.aspose.com/display/wordsnet/Print+a+Document).
-- Generate reports with Mail Merge that allows populating documents with data from various sources.
-- [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) to fetch data from databases, XML, JSON, OData, external documents and more.
+- Aspose.Words can be used to develop applications for a vast range of operating systems such as Windows or Linux & Mac OS and [platforms](https://docs.aspose.com/display/wordsnet/Feature+Overview#FeatureOverview-SupportedPlatforms) such as [Windows Azure](https://docs.aspose.com/display/wordsnet/Windows+Azure+Platform), Xamarin.Android, or Xamarin.iOS&Xamarin.Mac.
+- Comprehensive [document import and export](https://docs.aspose.com/display/wordsnet/Loading%2C+Saving+and+Converting) with [35+ supported file formats](https://docs.aspose.com/display/wordsnet/Supported+Document+Formats). This allows users to convert documents from one popular format to another, for example, from DOCX into PDF or Markdown, or from PDF into various Word formats.
+- Programmatic access to the formatting properties of all document elements. For example, using Aspose.Words users can [split a document](https://docs.aspose.com/display/wordsnet/Split+a+Document) into parts or [compare two documents](https://docs.aspose.com/display/wordsnet/Compare+Documents).
+- [High fidelity rendering](https://docs.aspose.com/display/wordsnet/Rendering) of document pages. For example, if it is needed to render a document as in Microsoft Word, Aspose.Words will successfully cope with this task.
+- Ability to [print a document programmatically](https://docs.aspose.com/display/wordsnet/Print+a+Document+Programmatically+or+Using+Dialogs) using Aspose.Words and the XpsPrint API or via dialog boxes.
+- [Generate reports with Mail Merge](https://docs.aspose.com/display/wordsnet/Mail+Merge+and+Reporting), which allows filling in merge templates with data from various sources to create merged documents.
+- [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) to fetch data from databases, XML, JSON, OData, external documents, and much more.
 
 ## New Features in Version 20.6
 
@@ -55,7 +53,7 @@ You can also build applications with Mono as well as on Windows Azure, Microsoft
 
 ## Getting Started with Aspose.Words for .NET
 
-Are you ready to give Aspose.Words for .NET a try? Simply execute `Install-Package Aspose.Words` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Words for .NET and want to upgrade the version, please execute `Update-Package Aspose.Words` to get the latest version.
+Ready to give Aspose.Words for .NET a try? Simply run `Install-Package Aspose.Words` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.Words for .NET and want to upgrade the version, please run `Update-Package Aspose.Words` to get the latest version.
 
 ## Using C# to Create a DOC File from Scratch
 
