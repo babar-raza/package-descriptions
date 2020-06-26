@@ -30,12 +30,12 @@ This .NET API enhances your apps to [perform robust search & index operations](h
 - Thread safe search during indexing, updating or merging operation.
 - Search over several indexes simultaneously.
 
-## New Features in Version 20.4
+## New Features & Enhancements in Version 20.6
 
-- Implemented changing path without reindexing for renamed documents.
-- Implemented the ability to change attributes of indexed documents without reindexing.
+- Support of `Linux` for GroupDocs.Search for `.NET Core`.
+- Improved formatting of text extracted from `index`.
 
-For the detailed notes, please visit [GroupDocs.Search for .NET 20.4 Release Notes](https://docs.groupdocs.com/display/searchnet/GroupDocs.Search+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Search for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/searchnet/GroupDocs.Search+for+.NET+20.6+Release+Notes).
 
 ## Indexing Content File Formats
 
