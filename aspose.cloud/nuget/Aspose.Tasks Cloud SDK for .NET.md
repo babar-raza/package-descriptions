@@ -17,12 +17,18 @@ This task management REST API enhances your C#, ASP.NET & other .NET cloud-based
 - Fetch a project document in the desired format.
 - Delete project task with its related references & rebuild task tree.
 
-## New Features in Version 19.12
+## New Features & Enhancements in Version 20.6
 
-- Imported projects from Project Online (Server) can now be saved as `MPP` file.
-- Imported projects from a database can now be saved as `MPP` file.
+- Possibility to render comments when saving as image, HTML or PDF.
+- Option to use username and password to connect Project Online (Server) instead of `auth` token, incase you don't have it.
+- Ability to add assignments to your project file along with specifying its cost.
+- Quickly adding new tasks to project, when calculation mode is set to automatic.
+- Ability to add project in Microsoft Project Server.
+- Added support of reading shared resource assignments.
+- Improved performance of `autorecalculation` for large sets of tasks.
+- Improved performance of `timephased` data calculation.
 
-For the detailed notes, please visit [Aspose.Tasks Cloud 19.12 Release Notes](https://docs.aspose.cloud/display/taskscloud/Aspose.Tasks+Cloud+19.12+Release+Notes).
+For the detailed notes, please visit [Release Notes](https://docs.aspose.cloud/display/taskscloud/Release+Notes).
 
 ## Read & Write MS Project Formats
 
