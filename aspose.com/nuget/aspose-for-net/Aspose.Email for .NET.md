@@ -15,15 +15,14 @@
 - Tools to verify email addresses, email syntax, email domain, mail server & MX records.
 - Extract objects from various mail storage formats as well as [create email storage files from scratch](https://docs.aspose.com/display/emailnet/Create+New+PST+File+and+Add+SubFolders).
 
-## New Features in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Added support for Email Threading using `ImapClient`.
+- Implemented the support for `AQS` search for `EWS` client.
+- Added the Support for getting Email Category in `MHTML`.
+- Added `overload` for `SaveAs` with Stream input in `PersonalStorage`.
+- Added `overload` for `MergeWith` with Streams in `PersonalStorage`.
 
-## Enhancements in Version 20.5
-
-- `IEWSClient`: Get folder info by path.
-
-For the detailed notes, please visit [Aspose.Email for .NET 20.5 Release Notes](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.5+Release+Notes).
+For the detailed notes, please visit [Aspose.Email for .NET 20.6 Release Notes](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.6+Release+Notes).
 
 ## Read & Write Email Formats
 
