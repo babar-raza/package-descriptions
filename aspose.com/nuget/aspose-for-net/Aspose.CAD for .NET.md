@@ -11,12 +11,50 @@
 - Select and convert specific layers of CAD drawings.
 - [Adjust CAD drawing size before rendering](https://docs.aspose.com/display/cadnet/Adjusting+CAD+Drawing+Size).
 
-## New Features in Version 20.4
+## New Features & Enhancements in Version 20.6
 
-- Ability to convert a particular area of `DWG` to `PDF`.
-- DWG to PDF: Ability to automatically ignore hidden layers during rendering.
+- There are several enhancements in this version.
 
-For the detailed notes, please visit [Aspose.CAD for .NET 20.4 - Release Notes](https://docs.aspose.com/display/CADNET/Aspose.CAD+for+.NET+20.4+-+Release+Notes).
+For the detailed notes, please visit [Aspose.CAD for .NET 20.6 - Release Notes](https://docs.aspose.com/display/CADNET/Aspose.CAD+for+.NET+20.6+-+Release+Notes).
+
+## Added APIs in Version 20.6
+
+- **Class**:         `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellElement`
+- **Field/Enum**:    `Aspose.CAD.ImageOptions.RenderErrorCode.PdfRendererFailed`
+- **Method**:        `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellDefinitionElement.AddChild(Aspose.CAD.FileFormats.Dgn.DgnElements.DgnElement)`
+- **Method**:        `Aspose.CAD.FileFormats.Dgn.DgnTransform.DgnQuaternion.#ctor(System.Int64,System.Int64,System.Int64,System.Int64)`
+- **Method**:        `Aspose.CAD.Point.op_Explicit(Aspose.CAD.Point)`
+- **Method**:        `Aspose.CAD.PointF.op_Explicit(Aspose.CAD.PointF)`
+- **Method**:        `Aspose.CAD.Xmp.XmpPackage.SetValue(System.String,)`
+- **Property**:      `Aspose.CAD.FileFormats.Cad.CadAciColor.White`
+- **Property**:      `Aspose.CAD.FileFormats.Cad.CadObjects.AttEntities.CadAttrib.Visible`
+- **Property**:      `Aspose.CAD.FileFormats.Cad.CadObjects.CadMaterial.Attribute282`
+- **Property**:      `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnShapeElement.Filled`
+- **Property**:      `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellDefinitionElement.Childs`
+- **Property**:      `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellDefinitionElement.Name`
+- **Property**:      `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellElement.Definition`
+- **Property**:      `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellElement.Id`
+- **Property**:      `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellElement.MaxPoint`
+- **Property**:      `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellElement.MinPoint`
+- **Property**:      `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellElement.Name`
+- **Property**:      `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellElement.Origin`
+- **Property**:      `Aspose.CAD.ImageOptions.CadRenderResult.Failures`
+- **Property**:      `Aspose.CAD.LoadOptions.CustomFontFolders`
+
+## Removed APIs in Version 20.6
+
+- **Class**:        `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellDefinition`
+- **Field/Enum**:   `Aspose.CAD.ImageOptions.CadRenderResult.Failures`
+- **Method**:       `Aspose.CAD.FileFormats.Dgn.DgnTransform.DgnQuaternion.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)`
+- **Method**:       `Aspose.CAD.Point.op_Explicit(Aspose.CAD.Point)`
+- **Method**:       `Aspose.CAD.PointF.op_Explicit(Aspose.CAD.PointF)`
+- **Method**:       `Aspose.CAD.Xmp.XmpPackage.SetValue(System.String)`
+- **Class**:        `Aspose.CAD.FileFormats.Dgn.DgnElements.DgnSharedCellDefinition`
+- **Field/Enum**:   `Aspose.CAD.ImageOptions.CadRenderResult.Failures`
+- **Method**:       `Aspose.CAD.FileFormats.Dgn.DgnTransform.DgnQuaternion.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)`
+- **Method**:       `Aspose.CAD.Point.op_Explicit(Aspose.CAD.Point)`
+- **Method**:       `Aspose.CAD.PointF.op_Explicit(Aspose.CAD.PointF)`
+- **Method**:       `Aspose.CAD.Xmp.XmpPackage.SetValue(System.String)`
 
 ## Read CAD Formats
 
