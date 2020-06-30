@@ -13,26 +13,53 @@
 - Specify image area to scan barcode.
 - Create device resolution dependent images.
 
-## Enhancements in Version 20.4
+## New Features & Enhancements in Version 20.6
 
-- Option to set Barcode value while creating barcode of type *PatchCode*.
+- Added check digit calculation to `ITF-6`.
+- Added check digit recognition to `ITF-6`.
+- Removed obsolete API from `BarcodeReader`.
+
+For the detailed notes, please visit [Aspose.BarCode for .NET 20.6 Release Notes](https://docs.aspose.com/display/barcodenet/Aspose.BarCode+for+.NET+20.6+Release+Notes).
 
 ## Public API and Backward Incompatible Changes
 
-- Added property `Aspose.BarCode.Generation.BarcodeParameters.PatchCode`
-- Added class `Aspose.BarCode.Generation.PatchCodeParameters`
-- Added property `Aspose.BarCode.Generation.PatchCodeParameters.ExtraBarcodeText`
-- Added property `Aspose.BarCode.Generation.PatchCodeParameters.PatchFormat`
-- Added method `Aspose.BarCode.Generation.PatchCodeParameters.ToString`
-- Added type `Aspose.BarCode.Generation.PatchFormat`
-- Added field `Aspose.BarCode.Generation.PatchFormat.PatchOnly`
-- Added field `Aspose.BarCode.Generation.PatchFormat.A4`
-- Added field `Aspose.BarCode.Generation.PatchFormat.A4_LANDSCAPE`
-- Added field `Aspose.BarCode.Generation.PatchFormat.US_Letter`
-- Added field `Aspose.BarCode.Generation.PatchFormat.US_Letter_LANDSCAPE`
-- Added method `Aspose.BarCode.Metered.GetConsumptionCredit`
+### Added in Version 20.6
 
-For the detailed notes, please visit [Aspose.BarCode for .NET 20.4 Release Notes](https://docs.aspose.com/display/barcodenet/Aspose.BarCode+for+.NET+20.4+Release+Notes).
+- added *property* `Aspose.BarCode.Generation.Pdf417Parameters.Pdf417ECIEncoding`
+- added *field* `Aspose.BarCode.ECIEncodings.NONE`
+
+### Removed in Version 20.6
+
+- removed *type* `Aspose.BarCode.BarCodeRecognition.ICOMBarCodeReader`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.ICOMBarCodeReader.SetBarCodeImage(System.String)`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.ICOMBarCodeReader.SetBarCodeReadType(Aspose.BarCode.BarCodeRecognition.BaseDecodeType)`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.ICOMBarCodeReader.Read`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetCodeType`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetCodeTypeName`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.Close`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.Read`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetCodeText`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetCodeText(System.Text.Encoding)`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetCodeText(System.Boolean)`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetCheckSum`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetAngle`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetRecognitionQuality`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetCodeBytes`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetMacroPdf417FileID`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetMacroPdf417SegmentID`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetMacroPdf417SegmentsCount`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetQRStructuredAppendModeBarCodesQuantity`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetQRStructuredAppendModeBarCodeIndex`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetQRStructuredAppendModeParityData`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetRegion`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetCode128DataPortions`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetDetectEncoding`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.SetDetectEncoding(System.Boolean)`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeReader.GetIsDeniable`
+- removed *type* `Aspose.BarCode.BarCodeRecognition.BarCodeRegion`
+- removed *property* `Aspose.BarCode.BarCodeRecognition.BarCodeRegion.Points`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeRegion.DrawBarCodeEdges(System.Drawing.Graphics,System.Drawing.Pen)`
+- removed *method* `Aspose.BarCode.BarCodeRecognition.BarCodeRegion.FillBarCodeRegion(System.Drawing.Graphics,System.Drawing.Brush)`
 
 ## Barcode Symbologies
 
