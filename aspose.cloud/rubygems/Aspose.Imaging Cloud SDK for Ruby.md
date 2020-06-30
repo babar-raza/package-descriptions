@@ -12,12 +12,12 @@ This cloud SDK assists to [process & manipulate images](https://products.aspose.
 - Rotate, flip, crop, resize or fetch properties of the selected TIFF frame.
 - Merge multiple TIFF images.
 
-## New Features in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Extended `SaveAs` functionality.
-- Add the object detection and classification feature.
+- Renamed the `saveAs` API method to convert.
+- Added `allowlabels` and `blocklabels` parameters to object detection api requests.
 
-For the detailed notes, please visit [Aspose.Imaging Cloud 20.5 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.5+-+Release+Notes).
+For the detailed notes, please visit [Aspose.Imaging Cloud 20.6 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.6+-+Release+Notes).
 
 ## Read & Write Image Formats
 
