@@ -24,18 +24,13 @@ A standalone .NET API to read, write, process & convert Adobe Photoshop PSD & PS
 - Color Balance or invert Adjustment Layer.
 - Draw basic objects such as lines, Ellipse, Rectangle, Arc, Bezier
 
-## New Features in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Support of Layer Masks for Layer Groups.
-- Support for document conversion progress.
-- Support of `Nvrt` Resource (Invert Adjustment Layer Resource).
-- Support of Grayscale ColorMode PSD Image saving with 16 bit per channel.
+- Added support of `LnkE` Resource.
+- Added support of `britResource` (Resource of Brightness/Contrast Adjustment Layer).
+- Moved the `DefaultReplacementFont` setting into `ImageOptionsBase` class.
 
-## Enhancements in Version 20.5
-
-- Refactoring of [Examples on GitHub](https://github.com/aspose-psd/Aspose.PSD-for-.NET).
-
-For the detailed notes, please visit [Aspose.PSD for .NET 20.5 - Release Notes](https://docs.aspose.com/display/psdnet/Aspose.PSD+for+.NET+20.5+-+Release+Notes).
+For the detailed notes, please visit [Aspose.PSD for .NET 20.6 - Release Notes](https://docs.aspose.com/display/psdnet/Aspose.PSD+for+.NET+20.6+-+Release+Notes).
 
 ## Read & Write Photoshop Formats
 
