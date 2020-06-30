@@ -14,11 +14,11 @@ A .NET component that enables your apps to [detect content, style & formatting d
 - Support to set metadata from the source, target files or keep it user-defined.
 - Make the resultant document password protected.
 
-## Enhancements in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Improved `GetTargetText` function (for showing target text) for PDF, Notes, and Text.
+- There are few minor fixes done in this release.
 
-For the detailed notes, please visit [GroupDocs.Comparison for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/comparisonnet/GroupDocs.Comparison+for+.NET+20.5+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Comparison for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/comparisonnet/GroupDocs.Comparison+for+.NET+20.6+Release+Notes).
 
 ## Microsoft Office Formats
 

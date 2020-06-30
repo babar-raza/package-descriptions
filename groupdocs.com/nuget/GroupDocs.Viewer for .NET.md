@@ -24,25 +24,14 @@ This robust .NET on-premise [file viewer API](https://products.groupdocs.com/vie
 - Render documents with comments, notes, and custom fonts.
 - Replace missing fonts while rendering.
 
-## New Features in Version 20.5
+## New Featrues & Enhancements in Version 20.6
 
-- Supports viewing MS Project documents with notes.
-- Added OpenDocument Flat XML Presentation (`.FODP`) file format support.
-- Added Flat XML ODF Template (`.FODG`) file format support.
-- Added IGES Drawing File (`.IGS`) file format support.
-- Added Common File Format File (`.CF2`) file-format support.
-- Added Wavefront 3D Object File (`.OBJ`) file-format support.
-- Convert `CAD` drawings to `SVG`.
+- Ability to get sheet names from an Excel file.
+- Ability to show spreadsheet column heading and row numbers.
+- Support file format detection for passed stream.
+- Improved rendering of the Outlook files (`PST`, `OST`) to `HTML`.
 
-## Enhancements in Version 20.5
-
-- Improved default font support when converting PowerPoint files.
-
-## Behavior changes
-
-Starting from `20.5` the `CAD` drawings are converted to `SVG` instead of `PNG` for better quality. For more detailes, please refer to [How to convert CAD drawings to HTML](https://docs.groupdocs.com/display/viewernet/How+to+convert+CAD+drawings+to+HTML) article.
-
-For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/viewernet/GroupDocs.Viewer+for+.NET+20.5+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/viewernet/GroupDocs.Viewer+for+.NET+20.6+Release+Notes).
 
 ## HTML, Image, PDF Rendering Supported Formats
 
