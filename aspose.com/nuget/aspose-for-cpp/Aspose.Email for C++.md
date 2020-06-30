@@ -22,19 +22,18 @@
 - Add [display or audio reminder](https://docs.aspose.com/display/emailcpp/Working+with+Outlook+Calendar+Items) to email calendar items.
 - So many more [features](https://docs.aspose.com/display/emailcpp/Developer+Guide).
 
-## New Features in Version 20.4
+## New Features & Enhancements in Version 20.5
 
-- Support For The Ability To Ignore Exceptions. `ExceptionManager` class has been added to provide ignore exceptions ability.
+- Email Threading Using `ImapClient`.
+- Added the `GetMessageThreads` method for receiving message threads by `ImapClient`.
 
-## Limitations and API Differences in Version 20.4
+## Limitations and API Differences in Version 20.5
 
-Aspose.Email for C++ has some differences as compared to its equivalent [.NET version of the API](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.4+Release+Notes). This section contains information about all such functionality that is not available in the current release.
-
-The missing features are:
+The following features are not implemented in Aspose.Email for C++ 20.5 but they are implemented in the [Aspose.Email for .NET 20.5](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.5+Release+Notes):
 
 - Microsoft Graph REST API v1.0
 
-For the detailed notes, please visit [Aspose.Email for C++ 20.4 Release Notes](https://docs.aspose.com/display/emailcpp/Aspose.Email+for+CPP+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.Email for C++ 20.5 Release Notes](https://docs.aspose.com/display/emailcpp/Aspose.Email+for+CPP+20.5+Release+Notes).
 
 ## Read & Write Email Formats
 
