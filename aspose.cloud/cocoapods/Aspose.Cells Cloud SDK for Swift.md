@@ -21,9 +21,9 @@ This Cloud SDK enhances your Swift cloud-based apps to [process & manipulate Mic
 ## New Features & Enhancements in Version 20.6
 
 - Ability to support the text water marker.
-- Support to convert images in `get` workbook API.
-- Upgrade `Dynabic.Billing` for Aspose.Cells Cloud.
-- Enhancement for `Cells` object operating in `Task` API.
+- Added support to convert images in `get` workbook API.
+- Upgraded `Dynabic.Billing` for Aspose.Cells Cloud.
+- Made enhancement for `Cells` object operating in `Task` API.
 
 For the detailed notes, please visit [Aspose.Cells Cloud 20.6 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.6+Release+Notes).
 
