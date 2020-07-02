@@ -18,17 +18,13 @@ A standalone C++ library that enables the C++ developers to [generate, update, r
 - [Convert project data](https://docs.aspose.com/display/taskscpp/Converting+Project+Data) to other [supported file formats](https://docs.aspose.com/display/taskscpp/Supported+File+Formats).
 - So many more [features](https://docs.aspose.com/display/taskscpp/Developer+Guide).
 
-## New Features in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Support of reading of shared resource assignments.
+- Improved performance of timephased data calculation.
+- Added rendering of customized Gridlines for `Middleopottom` Tier Column in Gantt chart view.
+- Added the ability to render 3 and 1 tier(s) on timescale.
 
-## Enhancements in Version 20.5
-
-- Support of `GridlineType.MiddleTierColumn`.
-- Fixed invalid calculation of task's name indent when `ShowProjectSummaryTask = true`.
-- Provided a descriptive error message when saving not supported `Task` property.
-
-For the detailed notes, please visit [Aspose.Tasks for C++ 20.5 Release Notes](https://docs.aspose.com/display/taskscpp/Aspose.Tasks+for+CPP+20.5+Release+Notes).
+For the detailed notes, please visit [Aspose.Tasks for C++ 20.6 Release Notes](https://docs.aspose.com/display/taskscpp/Aspose.Tasks+for+CPP+20.6+Release+Notes).
 
 ## Read & Write Project Files
 
