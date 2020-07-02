@@ -13,32 +13,6 @@ This on-premise .NET API lets your app end-users [sign the electronic documents]
 - Distinguish created signatures from the actual document.
 - Put encrypted text into QR-code signature or embed custom data objects.
 
-## New Features in Version 20.5
-
-- Implemented support of digitally signing the presentation document types.
-- Implemented support of digital signature verification for presentation document types.
-- Implemented support of digital signature search for presentation document types.
-- Implemented Metadata values convertion across various types.
-
-## Enhancements in Version 20.5
-
-- Implemented property `XAdES` for Digital Signature.
-- Set up additional properties for digital signatures in `SignResult`.
-- Implemented support of `XAdES` signatures for Spreadsheet documents for .Net Standard.
-- Update using `Transparency` property of Text and Image Options.
-
-## Removed Features in Version 20.5
-
-- Removed support of signing `.PSD` files.
-
-## Public API and Backward Incompatible Changes
-
-- Public class `DigitalSignature` is updated with new properties and ability to set `XAdES` type. Supported only for Spreadsheet documents.
-- Public class `MetadataSignature` is updated with new conversion methods to retrieve its values with various data types.
-- Public class `PdfDigitalSignature` property string Authority is marked as *obsolete* and will be removed since 20.9 version.
-
-For the detailed notes, please visit [GroupDocs.Signature for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/signaturenet/GroupDocs.Signature+for+.NET+20.5+Release+Notes).
-
 ## Signature Supported Formats
 
 The following section lists the supported file formats for the barcode, image, QR-code, stamp, and text signature types:

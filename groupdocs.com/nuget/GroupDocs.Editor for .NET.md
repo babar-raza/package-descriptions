@@ -21,15 +21,6 @@ It is a .NET API that enhances your apps to perform document, spreadsheets, DSV 
 - Open any supported format file in HTML format and save to disk.
 - Fetch HTML markup from DB or remote storage.
 
-## Enhancements in Version 20.5
-
-- Implemented new `HTML` elements structure for the paged mode.
-- Developed correct rendering of rectangular textboxes.
-- Added support of several `HTML5` sectioning elements.
-- Implemented page settings during roundtrip.
-
-For the detailed notes, please visit [GroupDocs.Editor for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/editornet/GroupDocs.Editor+for+.NET+20.5+Release+Notes).
-
 ## Editable File Formats
 
 **Word Processing:** DOC, DOCX, DOCM, DOT, DOTM, DOTX, FlatOPC, ODT, OTT, RTF, WordML
