@@ -20,22 +20,22 @@ Aspose.Tasks for .NET on premise API enables you to work with projects, formulas
 - Comprehensive project reporting (15+ types of reports).
 
 ## Enhancements in Version 20.7
-- Added an ability to specify the non-default path for Project Server's PWA URL 
-- Fixed default columns for Task sheet in XLSX export 
-- Fixed "IsMilestone" flag is not reset when the duration of a task is changed to non zero value and vice versa 
+
+- Added an ability to specify the non-default path for Project Server's `PWA` URL.
+- Fixed default columns for Task sheet in `XLSX` export.
+- Fixed `IsMilestone` flag is not reset when the duration of a task is changed to non zero value and vice versa.
 
 ## Bug fixes in Version 20.7
 
-- Fixed InvalidCastException while converting of MPP to graphic formats 
-- Fixed TasksWritingException while saving the project 
-- Fixed incorrect milestone property after a task was changed 
-- Fixed exception on loading of MPP file 
-- Fixed reading of time-phased data in the case when assignment' start of finish is a non-working day 
-- Fixed inability to set assignment's OutlineCode lookup values in a file saved by Aspose.Tasks 
-- Fixed calculation of time-phased data and task duration in case of custom TDs 
-- Fixed missing resource notes in project saved by Aspose.Tasks 
-- Fixed incorrect written .xml when enterprise fields are present in a project 
-
+- Fixed `InvalidCastException` while converting of `MPP` to graphic formats.
+- Fixed `TasksWritingException` while saving the project.
+- Fixed incorrect milestone property after a task was changed.
+- Fixed exception on loading of `MPP` file.
+- Fixed reading of time-phased data in the case when assignment' start of finish is a non-working day.
+- Fixed inability to set assignment's OutlineCode lookup values in a file saved by Aspose.Tasks.
+- Fixed calculation of time-phased data and task duration in case of custom `TDs`.
+- Fixed missing resource notes in project saved by Aspose.Tasks.
+- Fixed incorrect written `.XML` when enterprise fields are present in a project.
 
 For the detailed notes, please visit [Aspose.Tasks for .NET 20.7 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.7+Release+Notes).
 
