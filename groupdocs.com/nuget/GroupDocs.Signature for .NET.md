@@ -13,6 +13,17 @@ This on-premise .NET API lets your app end-users [sign the electronic documents]
 - Distinguish created signatures from the actual document.
 - Put encrypted text into QR-code signature or embed custom data objects.
 
+## New Features & Enhancements in Version 20.6
+
+- Implemented native Watermark signature for Word Processing documents.
+- Implemented `AES` encryption algorithm for `Net` Standard platform.
+- Implemented modification of native Watermark sugantures for Word processing documents.
+- Implemented ability to keep digital signature meta info layer for Document Info.
+- Improved validation for unsupported text implementation scenarios.
+- Updated implementation of signature rotation for Image documents.
+
+For the detailed notes, please visit [GroupDocs.Signature for .NET 20.6 Release Notes](https://docs.groupdocs.com/signature/net/groupdocs-signature-for-net-20-6-release-notes/).
+
 ## Signature Supported Formats
 
 The following section lists the supported file formats for the barcode, image, QR-code, stamp, and text signature types:
