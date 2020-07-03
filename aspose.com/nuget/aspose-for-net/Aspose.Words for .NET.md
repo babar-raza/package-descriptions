@@ -12,22 +12,14 @@
 - [Generate reports with Mail Merge](https://docs.aspose.com/display/wordsnet/Mail+Merge+and+Reporting), which allows filling in merge templates with data from various sources to create merged documents.
 - [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) to fetch data from databases, XML, JSON, OData, external documents, and much more.
 
-## New Features in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- `Font.EmphasisMark` is exposed to the public.
-- Added a new public property `ImportFormatOptions.IgnoreHeaderFooter`.
-- `MarkdownSaveOptions` class is introduced.
-- Provided options to control `JSON` simple values’ recognition for `LINQ` Reporting Engine.
+- Added new nodes to handle multi-section structured document tags.
+- Added a new public property `MailMerge.RetainFirstSectionStart`.
+- `RevisionOptions` class has been extended with new properties.
+- Improved performance of *SmartArt* cold rendering.
 
-## Public API and Backward Incompatible Changes
-
-- Added a new public class `MarkdownSaveOptions`.
-- Added a new public property `Font.EmphasisMark`.
-- Added a new public property `ImportFormatOptions.IgnoreHeaderFooter`.
-- Added a new public property `MarkdownSaveOptions.TableContentAlignment`.
-- PDF version 1.5 is marked as obsolete.
-
-For the detailed notes, please visit [Aspose.Words for .NET 20.6 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.Words for .NET 20.7 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.7+Release+Notes).
 
 ## Read & Write Document Formats
 
