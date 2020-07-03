@@ -14,6 +14,12 @@ This text parser on-premise API works well to [search & extract formatted text](
 - Extract table of contents for some supported document formats.
 - Parse form data from PDF documents.
 
+## New Features & Enhancements in Version 20.6.1
+
+- Fixed the Misspelling in `GetHyperlinks` method name.
+
+For the detailed notes, please visit [GroupDocs.Parser for .NET 20.6.1 Release Notes](https://docs.groupdocs.com/parser/net/groupdocs-parser-for-net-20-6-1-release-notes/).
+
 ## Parse Document by Template
 
 **Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF, TXT
