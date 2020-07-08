@@ -49,18 +49,17 @@ Please check the [GitHub Repository](https://github.com/aspose-barcode-cloud/asp
 - `github.com/google/uuid`
 - `golang.org/x/oauth2`
 
-
 ## Installation
 
 ### Using Go Modules (recommended)
 
 - Go to existing module directory, or [create a new module](https://blog.golang.org/using-go-modules).
-- Run `go get` command.
+- Run `go get` command.\
   `go get -u github.com/aspose-barcode-cloud/aspose-barcode-cloud-go@v0.2006.1`
 
 ### Using GOPATH (for Go < 1.11 )
 
-- Run `go get` command outside module directory.
+- Run `go get` command outside module directory.\
   `go get -u github.com/aspose-barcode-cloud/aspose-barcode-cloud-go/barcode`
 
 ## Generate an Image with Barcode using Golang
