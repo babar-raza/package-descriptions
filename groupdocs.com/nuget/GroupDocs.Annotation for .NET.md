@@ -5,8 +5,7 @@ Its an on-premise API that seamlessly [integrates document annotation features](
 ## Document Annotation via .NET
 
 - Import document annotations.
-- Support for adding, removing or replying to annotation comments.
-- Export annotated document back to its original format.
+- Add, remove or reply to annotation comments.
 - Render document pages as images.
 - Generate document thumbnails or document image preview.
 - Support for default cache (local disk) or custom cache (Amazon S3,Dropbox etc.).
@@ -18,39 +17,41 @@ Its an on-premise API that seamlessly [integrates document annotation features](
 
 ## New Features in Version 20.6
 
-- Improved `PDF` document *annotation accuracy*, *refactoring* and *optimized annotating* process.
+- Improved `PDF` document *annotation accuracy*, *refactoring* and *annotation optimization* process.
 
 For the detailed notes, please visit [GroupDocs.Annotation for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/annotationnet/GroupDocs.Annotation+for+.NET+20.6+Release+Notes).
 
-Annotation | Supported Types
+## Annottaion Objects
+
+Annotation type | Supported Objects
 --------- | -----------
 **Graphic Annotation** | Area, Arrow, Distance, Ellipse, Point, Polyline, Resource Redaction, TextField 
 **Text Annotation** | Highlight, Link, Replacement, Strikeout, Reduction, Underline
 **Watermark** | Diagonal, Horizontal
 
-## Microsoft Office Annotation Formats
+## Microsoft Office Formats
 
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
-**Microsoft Excel:** XLS, XLSB, XLSM, XLSX
-**Microsoft PowerPoint:** PPT, PPTX, PPSX, PPS
+**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF\
+**Microsoft Excel:** XLS, XLSB, XLSM, XLSX\
+**Microsoft PowerPoint:** PPT, PPTX, PPSX, PPS\
 **Microsoft Visio:** VSD, VSDX, VSS, VST
 
-## Other Annotation Formats
+## Other Document Formats
 
-**Portable:** PDF (PDF/A-1a, PDF/A-1b, PDF/A-2a)
-**OpenDocument:** ODT, ODS, ODP
-**Images:** TIF, TIFF, JPG, JPEG, PNG, BMP
-**AutoCAD:** DWG, DXF
-**Email:** EML
-**Web:** HTML
+**Portable:** PDF (PDF/A-1a, PDF/A-1b, PDF/A-2a)\
+**OpenDocument:** ODT, ODS, ODP\
+**Images:** TIF, TIFF, JPG, JPEG, PNG, BMP\
+**AutoCAD:** DWG, DXF\
+**Email:** EML\
+**Web:** HTML\
 **Others:** DCM
 
 ## Supported Platforms
 
 GroupDocs.Annotation for .NET supported platforms are listed below:
-**.NET Standard 2.0:** Any type of .NET Standard 2.0 application is supported (since Q4 2019).
-**.NET Framework:** Any type of .NET Framework version 2.0 (or later) application is supported - ASP.NET, Web Services, WinForms, WPF and others. Full support for 32-bit and 64-bit.
-**Windows Azure:** GroupDocs.Annotation for .NET runs on Windows Azure.
+**.NET Standard 2.0:** Any type of .NET Standard 2.0 application is supported (since Q4 2019).\
+**.NET Framework:** Any type of .NET Framework version 2.0 (or later) application is supported - ASP.NET, Web Services, WinForms, WPF and others. Full support for 32-bit and 64-bit.\
+**Windows Azure:** GroupDocs.Annotation for .NET runs on Windows Azure.\
 **Mono:** You can use GroupDocs.Annotation for .NET to build applications with Mono.
 
 ## Getting Started with GroupDocs.Annotation for .Net
