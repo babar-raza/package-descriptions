@@ -10,11 +10,12 @@
 - Auto-align image and autodetect text areas.
 - Get a single line and recognize it.
 
-## New Features in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- New API for recognition in rectangle and limited symbol set.
+- New `ML` model with improved recognition.
+- Ability to recognize text in the tables.
 
-For the detailed notes, pelase visit [Aspose.OCR for CPP 20.6 Release Notes](https://docs.aspose.com/display/ocrcpp/Aspose.OCR+for+CPP+20.6+Release+Notes).
+For the detailed notes, pelase visit [Aspose.OCR for C++ 20.7 Release Notes](https://docs.aspose.com/display/ocrcpp/Aspose.OCR+for+CPP+20.7+Release+Notes).
 
 ## Read Image Formats for OCR
 
