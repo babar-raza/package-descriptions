@@ -14,30 +14,20 @@ This cloud SDK provides seamless integration of [cloud document processing & man
 - Convert an encrypted PDF document into MS Word document format.
 - So many more features.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
 ### Words Cloud changes
 
-- Added new `OoxmlSaveOption` CompressionLevel.
-- Added group of methods without nodePath property:
-  - `DeleteAllParagraphTabStops`
-  - `DeleteParagraphListFormat`
-  - `DeleteParagraphTabStop`
-  - `GetParagraphTabStops`
-  - `InsertOrUpdateParagraphTabStop`
-  - `InsertParagraph`
-  - `UpdateParagraphFormat`
-  - `UpdateParagraphListFormat`
+- Added `Markdown` save format.
 
 ### PDF to Word conversion improvements
 
-- Implemented clipping path detection for `W` and `W*` operators.
-- Added support for `PDF` files with early `EOFs`.
-- Slightly improved speed of `PDF` recognition workflow.
-- Corrected space detection between links on the same row.
-- Fixed a rare concurrency error in font loading code.
+- Corrected `KeyNotFoundException` and `InvalidOperationException` errors while loading a PDF.
+- Implemented first version of footnote detection.
+- Corrected recognition for page headers with image and text.
+- Fixed an `ObjectDisposedException` when `PDF` is loaded from a stream.
 
-For the detiled notes, please visit [Aspose.Words Cloud 20.6 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.6+Release+Notes).
+For the detiled notes, please visit [Aspose.Words Cloud 20.7 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.7+Release+Notes).
 
 ## Read & Write Document Formats
 
@@ -52,7 +42,7 @@ For the detiled notes, please visit [Aspose.Words Cloud 20.6 Release Notes](http
 
 **Fixed Layout:** PDF/A, XPS, OpenXPS, PS
 **Images:** JPEG, PNG, BMP, SVG, TIFF, EMF
-**Others:** PCL
+**Others:** PCL, Markdown
 
 ## Getting Started with Aspose.Words Cloud SDK for .NET
 
