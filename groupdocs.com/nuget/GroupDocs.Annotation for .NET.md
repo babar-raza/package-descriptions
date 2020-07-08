@@ -2,7 +2,7 @@
 
 Its an on-premise API that seamlessly [integrates document annotation features](https://products.groupdocs.com/annotation/net) into your .NET applications. Apply graphic, text and watermark annotations.
 
-## Document Annotation Processing Features
+## Document Annotation via .NET
 
 - Import document annotations.
 - Support for adding, removing or replying to annotation comments.
@@ -22,6 +22,12 @@ Its an on-premise API that seamlessly [integrates document annotation features](
 
 For the detailed notes, please visit [GroupDocs.Annotation for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/annotationnet/GroupDocs.Annotation+for+.NET+20.6+Release+Notes).
 
+Annotation | Supported Types
+--------- | -----------
+**Graphic Annotation** | Area, Arrow, Distance, Ellipse, Point, Polyline, Resource Redaction, TextField 
+**Text Annotation** | Highlight, Link, Replacement, Strikeout, Reduction, Underline
+**Watermark** | Diagonal, Horizontal
+
 ## Microsoft Office Annotation Formats
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF
@@ -38,31 +44,6 @@ For the detailed notes, please visit [GroupDocs.Annotation for .NET 20.6 Release
 **Email:** EML
 **Web:** HTML
 **Others:** DCM
-
-## Supported Graphic Annotation Types
-
-**Area:** marks an area with a rectangle
-**Arrow:** draws an arrow on a document
-**Distance:** measures a distance between objects in a document
-**Ellipse:** draws elliptic annotation in a document
-**Point:** sticks comments to any point in a document
-**Polyline:** draws shapes and freehand lines
-**Resource Redaction:** fills black rectangle with fixed position
-**TextField:** adds rectangle with a text inside
-
-## Supported Text Annotation Types
-
-**Highlight:** highlights and comments selected text
-**Link:** adds a hyperlink to the document
-**Replacement:** replaces original text with user’s text
-**Strikeout:** marks text with a strikethrough styling
-**Text Redaction:** fills part of text with black rectangle
-**Underline:** marks text with an underline styling
-
-## Supported Watermark Annotation Types
-
-**Diagonal:** adds diagonal text watermark
-**Horizontal:** adds horizontal text watermark
 
 ## Supported Platforms
 
