@@ -24,14 +24,11 @@ This robust .NET on-premise [file viewer API](https://products.groupdocs.com/vie
 - Render documents with comments, notes, and custom fonts.
 - Replace missing fonts while rendering.
 
-## New Featrues & Enhancements in Version 20.6
+## New Featrues & Enhancements in Version 20.6.1
 
-- Ability to get sheet names from an Excel file.
-- Ability to show spreadsheet column heading and row numbers.
-- Support file format detection for passed stream.
-- Improved rendering of the Outlook files (`PST`, `OST`) to `HTML`.
+- This is hot-fix release that includes single bug-fix.
 
-For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/viewernet/GroupDocs.Viewer+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.6.1 Release Notes](https://docs.groupdocs.com/viewer/net/groupdocs-viewer-for-net-20-6-1-release-notes/).
 
 ## HTML, Image, PDF Rendering Supported Formats
 
