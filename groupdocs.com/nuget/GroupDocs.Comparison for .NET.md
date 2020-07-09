@@ -1,49 +1,57 @@
-# .NET API for Comparing Documents
+# .NET Document Comparison API
 
-On-premise library to [compare documents](https://products.groupdocs.com/comparison/net) in cross-platform applications based on .NET platform. Results show line-by-line difference of content, paragraphs, characters, styles, shapes and position.
+On-premise library to [compare documents](https://products.groupdocs.com/comparison/net) in applications based on .NET platform. Retrieve list of changes in desired format with line-by-line comparison of content, paragraphs, characters, styles, shapes and position.
 
-## Document Comparison Processing Features
+<p align="center">
 
-- [Compare and detect differences](https://docs.groupdocs.com/comparison/net/compare-documents/) among source and target documents.
+  <a title="Download complete GroupDocs.Comparison for .NET source code" href="https://codeload.github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET/zip/master">
+	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
+  </a>
+</p>
+
+Directory | Description
+--------- | -----------
+[Docs](https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET/tree/master/Docs) | Product documentation containing Developer's Guide, Release Notes & more.
+[Examples](https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET/tree/master/Examples)  | C# based source code examples and sample files to quickly get started.
+[Showcases](https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET/tree/master/Showcases)  | Frontend examples to helps in implementing different product features in a Web-UI based application.
+[Plugins](https://github.com/groupdocs-comparison/GroupDocs.Comparison-for-.NET/tree/master/Plugins)  | Visual Studio Plugins which will download examples and GroupDocs.Comparison Library without any efforts.
+
+## Document Comparison Features
+
+- [Compare and detect differences](https://docs.groupdocs.com/comparison/net/compare-documents/) among similar documents.
 - Support for [55+ popular document formats](https://docs.groupdocs.com/comparison/net/supported-document-formats/) from various categories.
-- Compare paragraph, word as well as the characters.
-- Identify content styling and formatting changes.
 - Visual separation of detected changes with the ability to [accept or reject modifications](https://docs.groupdocs.com/comparison/net/accept-or-reject-detected-changes/).
 - [Generate document preview](https://docs.groupdocs.com/comparison/net/generate-document-pages-preview/).
+- Compare paragraph, word as well as the characters.
+- Identify content styling and formatting changes.
 - Set metadata from the source, target files or keep it user-defined.
 - Make the resultant document password protected.
 
-## New Features & Enhancements in Version 20.6
+## Supported Microsoft Office Formats
 
-- There are few minor fixes done in this release.
+**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX\
+**Microsoft Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX\
+**Microsoft PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT\
+**Microsoft OneNote:** ONE\
+**Microsoft Visio:** VSDX, VSD, VSS, VST, VDX
 
-For the detailed notes, please visit [GroupDocs.Comparison for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/comparisonnet/GroupDocs.Comparison+for+.NET+20.6+Release+Notes).
+## Other Supported Formats
 
-## Microsoft Office Formats
-
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX/
-**Microsoft Excel:** XLS, XLT, XLSX, XLTM, XLSB, XLSM, XLSX/
-**Microsoft PowerPoint:** POT, POTX, PPS, PPSX, PPTX, PPT/
-**Microsoft OneNote:** ONE/
-**Microsoft Visio:** VSDX, VSD, VSS, VST, VDX/
-
-## Other Popular Formats
-
-**OpenDocument:** ODT, ODP, OTP, ODS, OTT/
-**Portable:** PDF/
-**AutoCAD:** DWG, DXF/
-**Email:** EML, EMLX, MSG/
-**Images:** BMP, GIF, JPG, JPEG, PNG, DICOM/
-**Web:** HTM, HTML, MHT, MHTML/
-**Text:** TXT, CSV/
+**OpenDocument:** ODT, ODP, OTP, ODS, OTT\
+**Portable:** PDF\
+**AutoCAD:** DWG, DXF\
+**Email:** EML, EMLX, MSG\
+**Images:** BMP, GIF, JPG, JPEG, PNG, DICOM\
+**Web:** HTM, HTML, MHT, MHTML\
+**Text:** TXT, CSV\
 **eBook:** MOBI, DJVU
 
-## Supported Platforms
+## Develop & Deploy GroupDocs.Comparison Anywhere
 
-**Microsoft Windows:** Windows Azure, Microsoft Windows Desktop (x86, x64), Microsoft Windows Server (x86, x64)/
-**macOS:** Mac OS X/
-**Linux:** Ubuntu, OpenSUSE, CentOS and others/
-**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later/
+**Microsoft Windows:** Windows Azure, Microsoft Windows Desktop (x86, x64), Microsoft Windows Server (x86, x64)\
+**macOS:** Mac OS X\
+**Linux:** Ubuntu, OpenSUSE, CentOS, and others\
+**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later\
 **Supported Frameworks:** .NET Standard 2.0, .NET Framework 2.0 or higher, .NET Core 2.0 or higher, Mono Framework 1.2 or higher
 
 ## Getting Started with GroupDocs.Comparison for .NET
