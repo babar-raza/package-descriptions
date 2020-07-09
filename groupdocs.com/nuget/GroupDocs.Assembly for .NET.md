@@ -1,26 +1,23 @@
 # .NET Document Automation & Reporting API
 
-An on-premise [Document Automation Engine](https://products.groupdocs.com/assembly/net) that accepts a template document and some data to assemble documents as per syntax defined by the template. Data can be fetched from various sources including CSV, XML, OData, JSON, .NET Objects & more.
+An on-premise [Document Automation Engine](https://products.groupdocs.com/assembly/net) that accepts a template document and data to generate documents as per syntax defined by the template. Data can be merged from various sources including CSV, XML, OData, JSON, .NET Objects & more.
 
 ## Report Generation via .NET
 
 - Wide range of supported [document formats](https://docs.groupdocs.com/display/assemblynet/Supported+Document+Formats).
-- Capable to manipulate data using formulae & [sequential data](https://docs.groupdocs.com/display/assemblynet/Template+Syntax+-+Part+2+of+2#TemplateSyntax-Part2of2-OutputtingSequentialData) operations.
-- Supports upper, lower, capital, first-cap formatting.
-- Apply Ordinal, Cardinal, Alphabetic & Numeric formatting in template syntax.
-- Dynamically insert document content & hyperlinks in reports.
-- Apply attributes to email message body and dynamically add email attachments.
-- [Generate barcode labels](https://docs.groupdocs.com/display/assemblynet/Working+with+Barcode+Image+Generation) in reports.
-- Dynamically set background color of HTML documents.
-- Apply formatting to numeric, text, image, date-time & chart elements in template.
-- Apply conditional formatting on text elements.
+- Document generation using data from [various sources](https://docs.groupdocs.com/assembly/net/working-with-multiple-data-sources/).
 - LINQ-based template syntax.
+- Manipulate data using formulae & [sequential data](https://docs.groupdocs.com/display/assemblynet/Template+Syntax+-+Part+2+of+2#TemplateSyntax-Part2of2-OutputtingSequentialData) operations.
+- Supports Upper, Lower, Capital, First-Cap content formatting.
+- Apply Ordinal, Cardinal, Alphabetic & Numeric formatting to template syntax.
+- Apply attributes to email message body and dynamically add attachments.
+- [Generate barcode labels](https://docs.groupdocs.com/display/assemblynet/Working+with+Barcode+Image+Generation) in reports.
+- Apply conditional formatting & formatting based on type such as numeric, text, image & date-time.
 - Supports NEXT field analogue of Microsoft Word.
 - Update fields during Word document assembly.
 - Apply & calculate formula during Excel file assembly.
-- Automatically remove empty paragraphs.
-- Generate various report types, such as, charts, lists, tables etc.
-- Load templates from HTML as well as save assembled documents to HTML with resources.
+- Generate various report types, such as, Charts, Lists, Tables etc.
+- Load templates from HTML as well as save assembled documents as HTML with resources.
 
 ## Read & Write Microsoft Office Formats
 
