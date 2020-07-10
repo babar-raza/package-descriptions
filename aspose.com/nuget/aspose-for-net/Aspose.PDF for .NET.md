@@ -22,11 +22,11 @@ Integrate PDF creation, processing, manipulation & conversion features into your
 - Print PDF documents to physical or virtual printers with or without print dialog.
 - Set document viewer preferences as well as manipulate document information & XMP metadata.
 
-## Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- There are various improvements in this version.
+- Support for `PDF` to `CSV` conversion.
 
-For the detailed notes, please visit [Aspose.PDF for .NET 20.6 Release Notes](https://docs.aspose.com/display/pdfnet/Aspose.PDF+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF for .NET 20.7 Release Notes](https://docs.aspose.com/display/pdfnet/Aspose.PDF+for+.NET+20.7+Release+Notes).
 
 ## Read & Write PDF & Other Formats
 

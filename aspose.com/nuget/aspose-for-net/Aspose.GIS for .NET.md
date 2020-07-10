@@ -21,12 +21,12 @@ It allows to read and write GIS data, [convert GIS file formats](https://docs.as
 - Perform vector analysis & [manipulate geometries](https://docs.aspose.com/display/gisnet/Working+with+Geometries).
 - Support for [Spatial Reference Systems](https://docs.aspose.com/display/gisnet/Spatial+Reference+Systems).
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Updated `EPSG` Dataset.
-- Updated security.
+- Support to Warp\reproject raster layers.
+- Ability to draw raster layers on a map.
 
-For detailed notes, please visit [Aspose.GIS for .NET 20.6 Release Notes](https://docs.aspose.com/display/gisnet/Aspose.GIS+for+.NET+20.06+Release+Notes).
+For detailed notes, please visit [Aspose.GIS for .NET 20.7 Release Notes](https://docs.aspose.com/display/gisnet/Aspose.GIS+for+.NET+20.07+Release+Notes).
 
 ## Read & Write GIS Formats
 
