@@ -86,4 +86,12 @@ A light-weight .NET API to [read, convert & manipulate Microsoft Publisher files
 
 Use this simple standalone [.NET component to load, save and convert SVG files](https://products.aspose.com/svg/net). It also let you read and traverse the elements of an SVG file via its DOM which is compatible to the SVG specifications.
 
+## Aspose.Finance for .NET
+
+[On-premise API to create, read, and validate `XBRL` and `iXBRL` formats](https://products.aspose.com/finance/net) for management of business processes, financial analysis and reporting solutions from within your .NET apps.
+
+## Aspose.Drawing for .NET
+
+Aspose.Drawing is a pure .NET library that lets your .NET apps utilize a cross-platform 2D drawing engine with `System.Drawing` compatible API. [Render vector graphics](https://products.aspose.com/drawing/net) (such as lines, curves, and figures) and text (in a variety of fonts, sizes, and styles) onto raster images represented by array of pixels in memory.
+
 [Product Page](https://products.aspose.com/total/net) | [Docs](https://docs.aspose.com/display/totalnet/Home) | [API Reference](https://apireference.aspose.com/) | [Examples](http://aspose.github.io) | [Blog](https://blog.aspose.com/category/total/) | [Free Support](https://forum.aspose.com/) | [Temporary License](https://purchase.aspose.com/temporary-license) | [Policies](https://purchase.aspose.com/policies)
