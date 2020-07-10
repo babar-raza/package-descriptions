@@ -60,4 +60,4 @@ A .NET component that enables your applications to [analyze text and files as we
 
 ## Additional Resources
 
-[Product Page](https://products.groupdocs.com/total/net) | [Documentation](https://docs.groupdocs.com/display/gdtotalnet) | [API Reference](https://apireference.groupdocs.com/) | [Examples](https://groupdocs.github.io/) | [Blog](https://blog.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/) |  [Temporary License](https://purchase.groupdocs.com/temporary-license) | [Policies](https://purchase.groupdocs.com/policies)
+[Product Page](https://products.groupdocs.com/total/net) | [Documentation](https://docs.groupdocs.com/total/net/) | [API Reference](https://apireference.groupdocs.com/) | [Examples](https://groupdocs.github.io/) | [Blog](https://blog.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/) |  [Temporary License](https://purchase.groupdocs.com/temporary-license) | [Policies](https://purchase.groupdocs.com/policies)
