@@ -1,66 +1,48 @@
-# .NET API for Document Assembly
+# .NET Document Automation & Reporting API
 
-An on-premise [API to generate documents of various formats](https://products.groupdocs.com/assembly/net) based on user-defined templates as well as from other data sources, such as, XML, OData, JSON etc.
+An on-premise [Document Automation Engine](https://products.groupdocs.com/assembly/net) that accepts a template document and data to generate documents as per syntax defined by the template. Data can be merged from various sources including CSV, XML, OData, JSON, .NET Objects & more.
 
-## Document Assembly Processing Features
+## Report Generation via .NET
 
-- Support for [multiple data formats](https://docs.groupdocs.com/display/assemblynet/Supported+Document+Formats).
-- Perform [sequential data](https://docs.groupdocs.com/display/assemblynet/Template+Syntax+-+Part+2+of+2#TemplateSyntax-Part2of2-OutputtingSequentialData) operations.
-- Supports upper, lower, capital, first-cap formatting to template syntax strings.
-- Apply ordinal, cardinal, alphabetic, numeric formatting in template syntax.
-- Use custom variables in the template documents.
-- Support for text comments within template syntax tags.
-- Dynamically insert document content & hyperlinks in reports.
-- Apply attributes to email message body.
-- Dynamically apply email attachments.
-- [Generate barcode](https://docs.groupdocs.com/display/assemblynet/Working+with+Barcode+Image+Generation) in reports.
-- Dynamically set background color of HTML documents.
-- Supports formatting of numeric, text, image, date-time, chart elements in template.
-- Apply conditional formatting on template text elements.
-- Linq-based template syntax.
-- Use explicit specifications or file extensions to change format of assembled file.
-- Supports next field analogue of Microsoft Word.
-- Update fields during word processing document assembly.
-- Support for applying formula during spreadsheet file assembly.
-- Automatically remove empty paragraphs.
-- Generate various report types, such as, charts, lists, tables etc.
-- Instead of exception throwing, support for inline template syntax errors in generated docs.
-- Load template documents from HTML with resources.
-- Save assembled documents to HTML with resources.
-
-## New Features in Version 20.6
-
-- Support for working with `POT` and `OTP` Presentation document formats.
-- Support for ordered lists in `Markdown` format.
-
-For the detailed notes, please visit [GroupDocs.Assembly for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/assemblynet/GroupDocs.Assembly+for+.NET+20.6+Release+Notes).
+- Wide range of supported [document formats](https://docs.groupdocs.com/display/assemblynet/Supported+Document+Formats).
+- Document generation using data from [various sources](https://docs.groupdocs.com/assembly/net/working-with-multiple-data-sources/).
+- LINQ-based template syntax.
+- Manipulate data using formulae & [sequential data](https://docs.groupdocs.com/display/assemblynet/Template+Syntax+-+Part+2+of+2#TemplateSyntax-Part2of2-OutputtingSequentialData) operations.
+- Supports Upper, Lower, Capital, First-Cap content formatting.
+- Apply Ordinal, Cardinal, Alphabetic & Numeric formatting to template syntax.
+- Apply attributes to email message body and dynamically add attachments.
+- [Generate barcode labels](https://docs.groupdocs.com/display/assemblynet/Working+with+Barcode+Image+Generation) in reports.
+- Apply conditional formatting & formatting based on type such as numeric, text, image & date-time.
+- Supports NEXT field analogue of Microsoft Word.
+- Update fields during Word document assembly.
+- Apply & calculate formula during Excel file assembly.
+- Generate various report types, such as, Charts, Lists, Tables etc.
+- Load templates from HTML as well as save assembled documents as HTML with resources.
 
 ## Read & Write Microsoft Office Formats
 
-**Microsoft Word:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, RTF
-**Microsoft Excel:** XLSX, XLSM, XLTX, XLTM, XLSB, XLS, XLT
+**Microsoft Word:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, RTF\
+**Microsoft Excel:** XLSX, XLSM, XLTX, XLTM, XLSB, XLS, XLT\
 **Microsoft PowerPoint:** PPTX, PPTM, PPSX, PPSM, POT, POTX, POTM, PPT, PPS
 
-## Read & Write Other Formats
+## Other Supported Formats
 
-**OpenOffice:** ODS, ODT, OTT, OTP, ODP, OXPS
-**Email:** EML, MSG, EMLX
-**Fixed Layout:** PDF, XPS
-**Web:** HTML, MHTML
-**Images:** TIFF, SVG
+**OpenOffice:** ODS, ODT, OTT, OTP, ODP, OXPS\
+**Email:** EML, MSG, EMLX\
+**Fixed Layout:** PDF, XPS\
+**Web:** HTML, MHTML\
+**Images:** TIFF, SVG\
 **Other:** XML, XAML, TXT, EPUB, PS, PCL, MD
 
 ## Platform Independence
 
-GroupDocs.Assembly  for .Net can be used to build applications for Windows, Mac OS X x64 as well as for Linux x64. Developers may also code in PHP, VBScript, Delphi & C++ programming languages while using GroupDocs.Assembly for .Net via COM Interop.
+GroupDocs.Assembly  for .NET can be used to build applications for Windows, Mac OS X as well as for Linux. Developers may code in PHP, VBScript, Delphi & C++ programming languages while using GroupDocs.Assembly for .BET via COM Interop.
 
 ## Getting Started with GroupDocs.Assembly for .NET
 
 Are you ready to give GroupDocs.Assembly for .NET a try? Simply execute `Install-Package GroupDocs.Assembly` from Package Manager Console in Visual Studio to fetch & reference GroupDocs.Assembly assembly in your project. If you already have GroupDocs.Assembly for .Net and want to upgrade it, please execute `Update-Package GroupDocs.Assembly` to get the latest version.
 
-Please check the [GitHub Repository](https://github.com/groupdocs-assembly/GroupDocs.Assembly-for-.NET) for other common usage scenarios.
-
-## Generate a DOCX File from Markdown (MD) template via C# Code
+## Generate DOCX from Markdown (MD) Template via C# Code
 
 ```csharp
 //Setting up source document template
@@ -82,7 +64,7 @@ new DataSourceInfo(description, "description"));
 }
 ```
 
-## Use Spreadsheet as a Data Source to Assemble a Document
+## Use Excel File as a Data Source to Assemble a Document
 
 ```csharp
 string strDocumentTemplate = "Word Templates/Using Spreadsheet as Table of Data.docx";
