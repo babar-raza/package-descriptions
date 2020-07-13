@@ -27,39 +27,39 @@ For the detailed notes, please visit [GroupDocs.Signature for .NET 20.6 Release 
 ## Signature Supported Formats
 
 The following section lists the supported file formats for the barcode, image, QR-code, stamp, and text signature types:
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**Microsoft PowerPoint:** PPTX, PPTM, PPT, PPSX, PPSM, PPS, POTX, POTM
-**OpenOffice:** ODT, OTT, ODS, OTS, ODP, OTP
-**Image:** BMP, GIF, JPG, JPEG, PNG, SVG, TIF, TIFF, WEBP
-**CorelDraw:** CDR, CMX
-**Photoshop:** PSD
-**eBook:** DJVU
-**Metafile:** WMF
+**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX\
+**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM\
+**Microsoft PowerPoint:** PPTX, PPTM, PPT, PPSX, PPSM, PPS, POTX, POTM\
+**OpenOffice:** ODT, OTT, ODS, OTS, ODP, OTP\
+**Image:** BMP, GIF, JPG, JPEG, PNG, SVG, TIF, TIFF, WEBP\
+**CorelDraw:** CDR, CMX\
+**Photoshop:** PSD\
+**eBook:** DJVU\
+**Metafile:** WMF\
 **Portable:** PDF
 
 ## Digital Signature Supported Formats
 
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**OpenOffice:** ODS, OTS
+**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX\
+**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM\
+**OpenOffice:** ODS, OTS\
 **Portable:** PDF
 
 ## FormField Signature Supported Formats
 
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**OpenOffice:** ODS, OTS, ODP
+**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX\
+**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM\
+**OpenOffice:** ODS, OTS, ODP\
 **Portable:** PDF
 
 ## Metadata Signature Supported Formats
 
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**Microsoft PowerPoint:** PPTX, PPTM, PPT, PPSX, PPSM, PPS, POTX, POTM
-**OpenOffice:** ODT, OTT, ODS, OTS, ODP, OTP
-**Image:** JPG, JPEG, PNG, SVG, TIF, TIFF
-**Photoshop:** PSD
+**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX\
+**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM\
+**Microsoft PowerPoint:** PPTX, PPTM, PPT, PPSX, PPSM, PPS, POTX, POTM\
+**OpenOffice:** ODT, OTT, ODS, OTS, ODP, OTP\
+**Image:** JPG, JPEG, PNG, SVG, TIF, TIFF\
+**Photoshop:** PSD\
 **Portable:** PDF
 
 ## Supported Signature Types
@@ -78,10 +78,10 @@ The following section lists the supported file formats for the barcode, image, Q
 
 GroupDocs.Signature for .NET does not require any external software or third party tool to be installed. GroupDocs.Signature for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed. The other details are as follows:
 
-**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure
-**Mac OS:** Mac OS X
-**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)
-**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.
+**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure\
+**Mac OS:** Mac OS X\
+**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)\
+**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.\
 **Supported Frameworks:** GroupDocs.Conversion for .NET  supports .NET and Mono frameworks.
 
 ## Getting Started with GroupDocs.Signature for .NET
@@ -148,4 +148,4 @@ using (Signature signature = new Signature("signed.docx"))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/signature/net) | [Documentation](https://docs.groupdocs.com/display/signaturenet/Home) | [Demo](https://products.groupdocs.app/signature/family) | [API Reference](https://apireference.groupdocs.com/net/signature) | [Examples](https://github.com/groupdocs-signature/GroupDocs.Signature-for.NET) | [Blog](https://blog.groupdocs.com/category/signature/) | [Free Support](https://forum.groupdocs.com/c/signature) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/signature/net) | [Documentation](https://docs.groupdocs.com/signature/net/) | [Demo](https://products.groupdocs.app/signature/family) | [API Reference](https://apireference.groupdocs.com/net/signature) | [Examples](https://github.com/groupdocs-signature/GroupDocs.Signature-for.NET) | [Blog](https://blog.groupdocs.com/category/signature/) | [Free Support](https://forum.groupdocs.com/c/signature) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

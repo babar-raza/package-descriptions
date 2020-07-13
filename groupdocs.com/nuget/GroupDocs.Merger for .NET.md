@@ -1,6 +1,6 @@
 # Document Merger .NET API
 
-This .NET on-premise API lets your apps [perform merging, trimming, reordering, swapping](https://products.groupdocs.com/merger/net) and lots of other operations on document pages of [various file formats](https://docs.groupdocs.com/display/mergernet/Supported+Document+Types).
+This .NET on-premise API lets your apps [perform merging, trimming, reordering, swapping](https://products.groupdocs.com/merger/net) and lots of other operations on document pages of [various file formats](https://docs.groupdocs.com/merger/net/supported-document-formats/).
 
 ## Document Merger Processing Features
 
@@ -30,51 +30,51 @@ This .NET on-premise API lets your apps [perform merging, trimming, reordering, 
 ## Public API and Backward Incompatible Changes
 
 [Join](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/join) method of the GroupDocs.Merger for .NET product is expanded, please refer to the following documentation articles for more details:
-- [Supported Document Types](https://docs.groupdocs.com/display/mergernet/Supported+Document+Types)
-- [Merge documents to PDF](https://docs.groupdocs.com/display/mergernet/Merge+documents+to+PDF)
+- [Supported Document Types](https://docs.groupdocs.com/merger/net/supported-document-formats/)
+- [Merge documents to PDF](https://docs.groupdocs.com/merger/net/merge-documents-to-pdf/)
 
-For the detailed list, please visit [GroupDocs.Merger for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/mergernet/GroupDocs.Merger+for+.NET+20.5+Release+Notes).
+For the detailed list, please visit [GroupDocs.Merger for .NET 20.5 Release Notes](https://docs.groupdocs.com/merger/net/groupdocs-merger-for-net-20-5-release-notes/).
 
 ## Join & Split File Formats
 
-**Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF
-**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM, XLAM
-**Microsoft PowerPoint:** PPT, PPTX, PPS, PPSX
-**Microsoft Visio:** VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX
-**Microsoft OneNote:** ONE
-**OpenOffice:** ODT, OTT, ODP, OTP, ODS
-**Web:** HTML, MHT
-**Portable:** PDF, XPS
-**Text:** TXT
+**Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF\
+**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM, XLAM\
+**Microsoft PowerPoint:** PPT, PPTX, PPS, PPSX\
+**Microsoft Visio:** VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX\
+**Microsoft OneNote:** ONE\
+**OpenOffice:** ODT, OTT, ODP, OTP, ODS\
+**Web:** HTML, MHT\
+**Portable:** PDF, XPS\
+**Text:** TXT\
 **Other:** TEX, EPUB, CSV, TSV
 
 ## Rotate Pages File Formats
 
-**Portable:** PDF, XPS
+**Portable:** PDF, XPS\
 **Other:** TEX, EPUB
 
 ## Other Supported File Formats
 
 GroupDocs.Merger for .NET supports the following file formats to trim page, move/remove page, swap page and change page orientation operations:
-**Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF
-**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM, XLAM
-**Microsoft PowerPoint:** PPT, PPTX, PPS, PPSX
-**Microsoft Visio:** VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX
-**Microsoft OneNote:** ONE
-**OpenOffice:** ODT, OTT, ODP, OTP, ODS
-**Web:** HTML, MHT, MHTML
-**Portable:** PDF, XPS
-**Text:** TXT
+**Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM, RTF\
+**Microsoft Excel:** XLS, XLSX, XLSB, XLSM, XLT, XLTX, XLTM, XLAM\
+**Microsoft PowerPoint:** PPT, PPTX, PPS, PPSX\
+**Microsoft Visio:** VSDX, VSDM, VSSX, VSSM, VSTX, VSTM, VDX, VSX, VTX\
+**Microsoft OneNote:** ONE\
+**OpenOffice:** ODT, OTT, ODP, OTP, ODS\
+**Web:** HTML, MHT, MHTML\
+**Portable:** PDF, XPS\
+**Text:** TXT\
 **Other:** TEX, EPUB
 
 ## Platform Independence
 
 GroupDocs.Merger for .NET does not require any external software or third party tool to be installed. GroupDocs.Merger for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed. The other details are as follows:
 
-**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure
-**Mac OS:** Mac OS X
-**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)
-**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.
+**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure\
+**Mac OS:** Mac OS X\
+**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)\
+**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.\
 **Supported Frameworks:** GroupDocs.Conversion for .NET  supports .NET and Mono frameworks.
 
 ## Getting Started with GroupDocs.Merger for .NET
@@ -116,4 +116,4 @@ using (Merger merger = new Merger(filePath))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/merger/net) | [Documentation](https://docs.groupdocs.com/display/mergernet/Home) | [Demo](https://products.groupdocs.app/assembly/family) | [API Reference](https://apireference.groupdocs.com/net/merger) | [Examples](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET) | [Blog](https://blog.groupdocs.com/category/merger/) | [Free Support](https://forum.groupdocs.com/c/merger) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/merger/net) | [Documentation](https://docs.groupdocs.com/merger/net/) | [Demo](https://products.groupdocs.app/assembly/family) | [API Reference](https://apireference.groupdocs.com/net/merger) | [Examples](https://github.com/groupdocs-merger/GroupDocs.Merger-for-.NET) | [Blog](https://blog.groupdocs.com/category/merger/) | [Free Support](https://forum.groupdocs.com/c/merger) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

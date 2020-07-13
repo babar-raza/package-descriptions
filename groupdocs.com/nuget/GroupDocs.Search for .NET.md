@@ -35,38 +35,38 @@ This .NET API enhances your apps to [perform robust search & index operations](h
 - Support of `Linux` for GroupDocs.Search for `.NET Core`.
 - Improved formatting of text extracted from `index`.
 
-For the detailed notes, please visit [GroupDocs.Search for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/searchnet/GroupDocs.Search+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Search for .NET 20.6 Release Notes](https://docs.groupdocs.com/search/net/groupdocs-search-for-net-20-6-release-notes/).
 
 ## Indexing Content File Formats
 
-**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, TXT, ODT, OTT, RTF
-**Spreadsheets:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, XLA, XLAM, ODS, OTS, CSV, TSV, XML
-**Presentations:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP
-**Emails:** PST, OST, EML, EMLX, MSG
-**Notes:** ONE
-**Archives:** ZIP
-**Portable:** PDF
-**Markup:** HTML, XHTML, MHTML, MD, XML
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, TXT, ODT, OTT, RTF\
+**Spreadsheets:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, XLA, XLAM, ODS, OTS, CSV, TSV, XML\
+**Presentations:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP\
+**Emails:** PST, OST, EML, EMLX, MSG\
+**Notes:** ONE\
+**Archives:** ZIP\
+**Portable:** PDF\
+**Markup:** HTML, XHTML, MHTML, MD, XML\
 **eBook:** CHM, EPUB, FB2
 
 ## Indexing Metadata File Formats
 
-**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, TXT, ODT, OTT, RTF
-**Spreadsheets:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, XLA, XLAM, ODS, OTS, CSV, TSV, XML
-**Presentations:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP
-**Emails:** PST, OST, EML, EMLX, MSG
-**Notes:** ONE
-**Archives:** ZIP
-**Audio:** MP3, WAV
-**Portable:** PDF
-**Markup:** HTML, XHTML, MHTML, MD, XML
-**eBook:** CHM, EPUB, FB2
-**Image:** BMP, GIF, JP2, PNG, WEBP, TIFF, JPG, PSD, DJVU
-**Metafiles:** EMF, WMF
-**Project Management:** MPP
-**Torrent:** TORRENT
-**Visio Diagram:** VSD, VSS
-**Medical Imagery:** DCM
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, TXT, ODT, OTT, RTF\
+**Spreadsheets:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, XLA, XLAM, ODS, OTS, CSV, TSV, XML\
+**Presentations:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP\
+**Emails:** PST, OST, EML, EMLX, MSG\
+**Notes:** ONE\
+**Archives:** ZIP\
+**Audio:** MP3, WAV\
+**Portable:** PDF\
+**Markup:** HTML, XHTML, MHTML, MD, XML\
+**eBook:** CHM, EPUB, FB2\
+**Image:** BMP, GIF, JP2, PNG, WEBP, TIFF, JPG, PSD, DJVU\
+**Metafiles:** EMF, WMF\
+**Project Management:** MPP\
+**Torrent:** TORRENT\
+**Visio Diagram:** VSD, VSS\
+**Medical Imagery:** DCM\
 **Video:** AVI, MOV, QT, FLV, ASF
 
 ## Supported Search Types
@@ -90,10 +90,10 @@ For the detailed notes, please visit [GroupDocs.Search for .NET 20.6 Release Not
 
 GroupDocs.Search for .NET does not require any external software or third party tool to be installed. GroupDocs.Search for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed. The other details are as follows:
 
-**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure
-**Mac OS:** Mac OS X
-**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)
-**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.
+**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure\
+**Mac OS:** Mac OS X\
+**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)\
+**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.\
 **Supported Frameworks:** GroupDocs.Conversion for .NET  supports .NET and Mono frameworks.
 
 ## Getting Started with GroupDocs.Search for .NET
@@ -154,4 +154,4 @@ SearchResult result = index.Search("Rleativity", options);
 
 ## Limitations
 
-[Product Page](https://products.groupdocs.com/search/net) | [Documentation](https://docs.groupdocs.com/display/searchnet/Home) | [Demo](https://products.groupdocs.app/search/family) | [API Reference](https://apireference.groupdocs.com/net/search) | [Examples](https://github.com/groupdocs-search/GroupDocs.Search-for-.NET) | [Blog](https://blog.groupdocs.com/category/search/) | [Free Support](https://forum.groupdocs.com/c/search) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/search/net) | [Documentation](https://docs.groupdocs.com/search/net/) | [Demo](https://products.groupdocs.app/search/family) | [API Reference](https://apireference.groupdocs.com/net/search) | [Examples](https://github.com/groupdocs-search/GroupDocs.Search-for-.NET) | [Blog](https://blog.groupdocs.com/category/search/) | [Free Support](https://forum.groupdocs.com/c/search) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

@@ -1,6 +1,6 @@
 # Document Editor .NET API
 
-It is a .NET API that enhances your apps to perform document, spreadsheets, DSV & XML [files editing operations](https://products.groupdocs.com/editor/net) for a wide range of [file formats](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats).
+It is a .NET API that enhances your apps to perform document, spreadsheets, DSV & XML [files editing operations](https://products.groupdocs.com/editor/net) for a wide range of [file formats](https://docs.groupdocs.com/editor/net/supported-document-formats/).
 
 ## Document Editor Processing Features
 
@@ -104,4 +104,4 @@ using (FileStream inputStream = File.OpenRead(inputFilePath))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/editor/net) | [Documentation](https://docs.groupdocs.com/display/editornet/Home) | [Demo](https://products.groupdocs.app/editor/family) | [API Reference](https://apireference.groupdocs.com/net/editor) | [Examples](https://github.com/groupdocs-editor/GroupDocs.Editor-for-.NET) | [Blog](https://blog.groupdocs.com/category/editor/) | [Free Support](https://blog.groupdocs.com/category/editor/) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/editor/net) | [Documentation](https://docs.groupdocs.com/editor/net/) | [Demo](https://products.groupdocs.app/editor/family) | [API Reference](https://apireference.groupdocs.com/net/editor) | [Examples](https://github.com/groupdocs-editor/GroupDocs.Editor-for-.NET) | [Blog](https://blog.groupdocs.com/category/editor/) | [Free Support](https://blog.groupdocs.com/category/editor/) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

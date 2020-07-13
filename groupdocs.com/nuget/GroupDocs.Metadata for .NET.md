@@ -31,34 +31,34 @@ For the detailed notes, please visit [GroupDocs.Metadata for .NET 20.7 Release N
 
 ## Read & Write Metadata Formats
 
-**Microsoft Word:** DOC, DOT, DOCX, DOCM, DOTX
-**Microsoft Excel:** XLSX, XLSM, XLTM, XLS
-**Microsoft PowerPoint:** PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, PPS
-**Microsoft Visio:** VSD, VDX, VSDX, VSS, VSX
-**Microsoft OneNote:** ONE
-**Microsoft Project:** MPP
-**OpenOffice:** ODS, ODT, OTF, OTC
-**Audio:** MP3, WAV
-**Video:** AVI, MOV / QT, ASF, FLV
-**Email:** EML, MSG, VCF, VCR
-**Image:** BMP, GIF, JPG, JPEG, JPE, JP2, PNG, TIFF, DICOM, WEBP
-**Archive:** ZIP
-**Font:** TTF, TTC
-**Metafile:** EMF, WMF
-**Adobe Photoshop:** PSD
-**AutoCAD:** DWG, DXF
-**Portable:** PDF
-**eBook:** EPUB, DJVU, DJV
+**Microsoft Word:** DOC, DOT, DOCX, DOCM, DOTX\
+**Microsoft Excel:** XLSX, XLSM, XLTM, XLS\
+**Microsoft PowerPoint:** PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, PPS\
+**Microsoft Visio:** VSD, VDX, VSDX, VSS, VSX\
+**Microsoft OneNote:** ONE\
+**Microsoft Project:** MPP\
+**OpenOffice:** ODS, ODT, OTF, OTC\
+**Audio:** MP3, WAV\
+**Video:** AVI, MOV / QT, ASF, FLV\
+**Email:** EML, MSG, VCF, VCR\
+**Image:** BMP, GIF, JPG, JPEG, JPE, JP2, PNG, TIFF, DICOM, WEBP\
+**Archive:** ZIP\
+**Font:** TTF, TTC\
+**Metafile:** EMF, WMF\
+**Adobe Photoshop:** PSD\
+**AutoCAD:** DWG, DXF\
+**Portable:** PDF\
+**eBook:** EPUB, DJVU, DJV\
 **Other:** TORRENT
 
 ## Platform Independence
 
 GroupDocs.Metadata for .NET does not require any external software or third party tool to be installed. GroupDocs.Metadata for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed. The other details are as follows:
 
-**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure
-**Mac OS:** Mac OS X
-**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)
-**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.
+**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure\
+**Mac OS:** Mac OS X\
+**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)\
+**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.\
 **Supported Frameworks:** GroupDocs.Conversion for .NET  supports .NET and Mono frameworks.
 
 ## Getting Started with GroupDocs.Metadata for .NET

@@ -32,55 +32,55 @@ For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.6.1 Release N
 
 ## HTML, Image, PDF Rendering Supported Formats
 
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLS, XLSB, XLSM, XLSX, XLT, XLTX, XLAM
-**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTM, POTX
-**Microsoft Visio:** VDW, VDX, VSD, VSDM, VSDX, VSS, VSSM, VSSX, VST, VSTM, VSTX, VSX, VTX
-**Microsoft Project:** MPP, MPT, MPX
-**Microsoft OneNote:** ONE
-**OpenOffice:** ODG, OTG, OXPS, ODP, OTP, ODS, OTS, ODT, OTT, OXPS
-**AutoCAD:** DGN, DWF, DWT, DWG, DXF
-**CorelDraw:** CDR
-**Adobe Photoshop:** PSD
-**Programming:** CS, VB, AS, AS3, ASM, BAT, C, CC, CMAKE, CPP, CSS, CXX, ERB, GROOVY, H, HAML, HH, JAVA, JS, JSON, LESS, LOG, M, MAKE, MD, ML, MM, PHP, PL, PROPERTIES, PY, RB, RST, SASS, SCALA, SCM, SCRIPT, SH, SML, SQL, VIM, YAML
-**Image:** GIF, ICO, JP2, JPF, JPX, JPM, J2C, J2K, JPC, JPG, JPEG, SVG, TIF, TIFF
-**Markup:** HTML, MHT, MHTML, MD
-**Portable:** PDF
-**Archive:** TAR, ZIP, BZ2
-**Email:** EML, EMLX, MSG, OST, PST
-**Metafile:** CGM, EMF, WMF
+**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX\
+**Microsoft Excel:** XLS, XLSB, XLSM, XLSX, XLT, XLTX, XLAM\
+**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTM, POTX\
+**Microsoft Visio:** VDW, VDX, VSD, VSDM, VSDX, VSS, VSSM, VSSX, VST, VSTM, VSTX, VSX, VTX\
+**Microsoft Project:** MPP, MPT, MPX\
+**Microsoft OneNote:** ONE\
+**OpenOffice:** ODG, OTG, OXPS, ODP, OTP, ODS, OTS, ODT, OTT, OXPS\
+**AutoCAD:** DGN, DWF, DWT, DWG, DXF\
+**CorelDraw:** CDR\
+**Adobe Photoshop:** PSD\
+**Programming:** CS, VB, AS, AS3, ASM, BAT, C, CC, CMAKE, CPP, CSS, CXX, ERB, GROOVY, H, HAML, HH, JAVA, JS, JSON, LESS, LOG, M, MAKE, MD, ML, MM, PHP, PL, PROPERTIES, PY, RB, RST, SASS, SCALA, SCM, SCRIPT, SH, SML, SQL, VIM, YAML\
+**Image:** GIF, ICO, JP2, JPF, JPX, JPM, J2C, J2K, JPC, JPG, JPEG, SVG, TIF, TIFF\
+**Markup:** HTML, MHT, MHTML, MD\
+**Portable:** PDF\
+**Archive:** TAR, ZIP, BZ2\
+**Email:** EML, EMLX, MSG, OST, PST\
+**Metafile:** CGM, EMF, WMF\
 **Other:** IFC, STL, PS, XPS, TEX, SXC, DJVU, DNG, DIB, EPS
 
 ## Supported Formats for Auto Detection
 
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLS, XLSB, XLSM, XLSX, XLTX, XLAM
-**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTM, POTX
-**Microsoft Visio:** VDW, VDX, VSD, VSDM, VSDX, VSS, VSSM, VSSX, VST, VSTM, VSTX, VSX, VTX
-**Microsoft Project:** MPP, MPT, MPX
-**Microsoft OneNote:** ONE
-**OpenOffice:** ODG, OTG, OXPS, ODP, OTP, ODS, OTS, ODT, OTT, OXPS
-**AutoCAD:** DGN, DWF, DWT, DWG, DXF
-**CorelDraw:** CDR
-**Adobe Photoshop:** PSD
-**Programming:** CS, VB
-**Image:** GIF, ICO, JP2, JPF, JPX, JPM, J2C, J2K, JPC, JPG, JPEG, SVG, TIF, TIFF
-**Markup:** HTML, MD
-**Portable:** PDF
-**Archive:** TAR, ZIP, BZ2
-**Email:** EML, EMLX, MSG, OST, PST
-**Metafile:** CGM, EMF, WMF
+**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX\
+**Microsoft Excel:** XLS, XLSB, XLSM, XLSX, XLTX, XLAM\
+**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTM, POTX\
+**Microsoft Visio:** VDW, VDX, VSD, VSDM, VSDX, VSS, VSSM, VSSX, VST, VSTM, VSTX, VSX, VTX\
+**Microsoft Project:** MPP, MPT, MPX\
+**Microsoft OneNote:** ONE\
+**OpenOffice:** ODG, OTG, OXPS, ODP, OTP, ODS, OTS, ODT, OTT, OXPS\
+**AutoCAD:** DGN, DWF, DWT, DWG, DXF\
+**CorelDraw:** CDR\
+**Adobe Photoshop:** PSD\
+**Programming:** CS, VB\
+**Image:** GIF, ICO, JP2, JPF, JPX, JPM, J2C, J2K, JPC, JPG, JPEG, SVG, TIF, TIFF\
+**Markup:** HTML, MD\
+**Portable:** PDF\
+**Archive:** TAR, ZIP, BZ2\
+**Email:** EML, EMLX, MSG, OST, PST\
+**Metafile:** CGM, EMF, WMF\
 **Other:** IFC, STL, PS, XPS, TEX, SXC, DJVU, DNG, DIB, EPS
 
 ## Platform Independence
 
 GroupDocs.Viewer for .NET does not require any external software or third party tool to be installed. GroupDocs.Viewer for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed. The other details are as follows:
 
-**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure
-**Mac OS:** Mac OS X
-**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)
-**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.
-**Supported Frameworks:** GroupDocs.Conversion for .NET  supports .NET and Mono frameworks.
+**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure\
+**Mac OS:** Mac OS X\
+**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)\
+**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.\
+**Supported Frameworks:** GroupDocs.Conversion for .NET supports .NET and Mono frameworks.
 
 ## Getting Started with GroupDocs.Viewer for .NET
 
@@ -121,4 +121,4 @@ using (Viewer viewer = new Viewer("sample.docx"))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/viewer/net) | [Documentation](https://docs.groupdocs.com/display/viewernet/Home) | [Demo](https://products.groupdocs.app/viewer/family) | [API Reference](https://apireference.groupdocs.com/net/viewer) | [Examples](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET) | [Blog](https://blog.groupdocs.com/category/viewer/) | [Free Support](https://forum.groupdocs.com/c/viewer) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/viewer/net) | [Documentation](https://docs.groupdocs.com/viewer/net/) | [Demo](https://products.groupdocs.app/viewer/family) | [API Reference](https://apireference.groupdocs.com/net/viewer) | [Examples](https://github.com/groupdocs-viewer/GroupDocs.Viewer-for-.NET) | [Blog](https://blog.groupdocs.com/category/viewer/) | [Free Support](https://forum.groupdocs.com/c/viewer) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

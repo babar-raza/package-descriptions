@@ -1,6 +1,6 @@
 # Document Parser .NET API
 
-This text parser on-premise API works well to [search & extract formatted text](https://products.groupdocs.com/parser/net) as well as the raw text from a variety of documents of [supported file formats](https://docs.groupdocs.com/display/parsernet/Supported+Document+Formats).
+This text parser on-premise API works well to [search & extract formatted text](https://products.groupdocs.com/parser/net) as well as the raw text from a variety of documents of [supported file formats](https://docs.groupdocs.com/parser/net/supported-document-formats/).
 
 ## Document Parser Processing Features
 
@@ -22,67 +22,67 @@ For the detailed notes, please visit [GroupDocs.Parser for .NET 20.6.1 Release N
 
 ## Parse Document by Template
 
-**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF, TXT
-**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, CSV, XLA, XLAM, NUMBERS
-**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF, TXT\
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, CSV, XLA, XLAM, NUMBERS\
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP\
 **Portable:** PDF
 
 ## Extract Text (Accurate)
 
-**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF, TXT
-**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, CSV, XLA, XLAM, NUMBERS
-**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
-**Email:** EML, EMLX, MSG
-**Markup:** HTML, XHTML, MHTML, MD, XML
-**eBooks:** CHM, EPUB, FB2
-**Portable:** PDF
-**Notes:** ONE
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF, TXT\
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, CSV, XLA, XLAM, NUMBERS\
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP\
+**Email:** EML, EMLX, MSG\
+**Markup:** HTML, XHTML, MHTML, MD, XML\
+**eBooks:** CHM, EPUB, FB2\
+**Portable:** PDF\
+**Notes:** ONE\
 **Databases:** Databases are supported via ADO.NET. To work with the corresponding database format install its database provider.
 
 ## Extract Text (Raw)
 
-**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, XLA, XLAM
-**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, XLA, XLAM\
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM\
 **Portable:** PDF
 
 ## Extract Structured Text and Formatted Text
 
-**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
-**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLTX, XLTM, XLA, XLAM
-**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
-**Email:** EML, EMLX, MSG
-**Markup:** MD (Formatted Text is Not supported)
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF\
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLTX, XLTM, XLA, XLAM\
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP\
+**Email:** EML, EMLX, MSG\
+**Markup:** MD (Formatted Text is Not supported)\
 **eBooks:** CHM, EPUB, FB2
 
 ## Extract Text Areas
 
-**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
-**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, XLA, XLAM, NUMBERS
-**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF\
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, XLA, XLAM, NUMBERS\
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP\
 **Portable:** PDF
 
 ## Extract Metadata
 
-**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
-**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, XLA, XLAM
-**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
-**Email:** EML, EMLX, MSG
-**eBooks:** EPUB, FB2
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF\
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, XLA, XLAM\
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP\
+**Email:** EML, EMLX, MSG\
+**eBooks:** EPUB, FB2\
 **Portable:** PDF
 
 ## Extract Images
 
-**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
-**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, XLA, XLAM, NUMBERS
-**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP
-**Email:** EML, EMLX, MSG
-**Portable:** PDF
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF\
+**Spreadsheet:** XLS, XLT, XLSX, XLSM, XLSB, XLTX, XLTM, ODS, OTS, XLA, XLAM, NUMBERS\
+**Presentation:** PPT, PPS, POT, PPTX, PPTM, POTX, POTM, PPSX, PPSM, ODP, OTP\
+**Email:** EML, EMLX, MSG\
+**Portable:** PDF\
 **Archive:** ZIP
 
 ## Extract Containers and Attachments
 
-**Email:** PST, OST, EML, EMLX, MSG
-**Portable:** PDF
+**Email:** PST, OST, EML, EMLX, MSG\
+**Portable:** PDF\
 **Archive:** ZIP
 
 ## Parse Form Data
@@ -91,19 +91,19 @@ For the detailed notes, please visit [GroupDocs.Parser for .NET 20.6.1 Release N
 
 ## Extract Table of Contents
 
-**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF
-**eBooks:** CHM, EPUB
-**Portable:** PDF
+**Word Processing:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, ODT, OTT, RTF\
+**eBooks:** CHM, EPUB\
+**Portable:** PDF\
 **Databases:** Databases are supported via ADO.NET. To work with the corresponding database format install its database provider.
 
 ## Platform Independence
 
 GroupDocs.Parser for .NET does not require any external software or third party tool to be installed. GroupDocs.Parser for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed. The other details are as follows:
 
-**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure
-**Mac OS:** Mac OS X
-**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)
-**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.
+**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure\
+**Mac OS:** Mac OS X\
+**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)\
+**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.\
 **Supported Frameworks:** GroupDocs.Conversion for .NET  supports .NET and Mono frameworks.
 
 ## Getting Started with GroupDocs.Parser for .NET
@@ -175,4 +175,4 @@ using (Parser parser = new Parser(Constants.SampleZip))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/parser/net) | [Documentation](https://docs.groupdocs.com/display/parsernet/Home) | [Demo](https://products.groupdocs.app/parser/family) | [API Reference](https://apireference.groupdocs.com/net/parser) | [Examples](https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET) | [Blog](https://blog.groupdocs.com/category/parser/) | [Free Support](https://forum.groupdocs.com/c/parser) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/parser/net) | [Documentation](https://docs.groupdocs.com/parser/net/) | [Demo](https://products.groupdocs.app/parser/family) | [API Reference](https://apireference.groupdocs.com/net/parser) | [Examples](https://github.com/groupdocs-parser/GroupDocs.Parser-for-.NET) | [Blog](https://blog.groupdocs.com/category/parser/) | [Free Support](https://forum.groupdocs.com/c/parser) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

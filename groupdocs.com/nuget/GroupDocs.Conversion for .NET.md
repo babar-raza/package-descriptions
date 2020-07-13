@@ -25,53 +25,53 @@ This .NET API can seamlessly integrate and enables your C#, ASP.NET & other .NET
 - Ability to convert `XML` files as data source.
 - Improved document info for `PST`/`OST` documents.
 
-For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/conversionnet/GroupDocs.Conversion+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.6 Release Notes](https://docs.groupdocs.com/conversion/net/groupdocs-conversion-for-net-20-6-release-notes/).
 
 ## Conversion File Formats
 
 GroupDocs.Conversion allows you to convert any of the following type of file formats:
-**Spreadsheet:** XLSX, XLSB, XLS2003, XLT, XLTX, XLTM, XLAM, XLS, XLSM, ODS, TSV, CSV
-**Document:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT, ODT, OTT
-**Presentation:** PPT, PPS, PPTX, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP
-**Image:** JPEG-LS, TIFF, TIF, JPEG, JPG, PNG, GIF, BMP, ICO, CMX, DIB, JPC
-**Portable Document:** PDF, XPS, EPUB
-**Web:** HTM, HTML, MHTML
-**Adobe Photoshop:** PSD
-**Microsoft Project:** MPT, MPP, MPX
-**Email:** MSG, EML, EMLX
-**Microsoft Visio:** VSD, VSDX, VSS, VST, VSX, VTX, VDW, VDX, SVG, VSDM, VSSM, VSTM
-**AutoCAD:** DXF, DWG, DWF, STL, IFC, DWT
-**Page Description:** EPS, PCL, PS, CGM
+**Spreadsheet:** XLSX, XLSB, XLS2003, XLT, XLTX, XLTM, XLAM, XLS, XLSM, ODS, TSV, CSV\
+**Document:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT, ODT, OTT\
+**Presentation:** PPT, PPS, PPTX, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP\
+**Image:** JPEG-LS, TIFF, TIF, JPEG, JPG, PNG, GIF, BMP, ICO, CMX, DIB, JPC\
+**Portable Document:** PDF, XPS, EPUB\
+**Web:** HTM, HTML, MHTML\
+**Adobe Photoshop:** PSD\
+**Microsoft Project:** MPT, MPP, MPX\
+**Email:** MSG, EML, EMLX\
+**Microsoft Visio:** VSD, VSDX, VSS, VST, VSX, VTX, VDW, VDX, SVG, VSDM, VSSM, VSTM\
+**AutoCAD:** DXF, DWG, DWF, STL, IFC, DWT\
+**Page Description:** EPS, PCL, PS, CGM\
 **Markup:** MD
 
 to the following formats:
-**Microsoft Excel:** XLS, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, XLTM, XLAM
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT
-**Microsoft PowerPoint:** PPT, PPS, PPTX, PPSX, POT, POTX, POTM, PPTM, PPSM
-**OpenDocument:** ODT, OTT, ODS, ODP, OTP, FODP
-**Images:** TIFF, TIF, JPEG, JPG, PNG, GIF, BMP, ICO, EMF, WMF
-**Fixed Layout:** PDF, XPS
-**Web:** HTM, HTML, MHTML
+**Microsoft Excel:** XLS, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, XLTM, XLAM\
+**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT\
+**Microsoft PowerPoint:** PPT, PPS, PPTX, PPSX, POT, POTX, POTM, PPTM, PPSM\
+**OpenDocument:** ODT, OTT, ODS, ODP, OTP, FODP\
+**Images:** TIFF, TIF, JPEG, JPG, PNG, GIF, BMP, ICO, EMF, WMF\
+**Fixed Layout:** PDF, XPS\
+**Web:** HTM, HTML, MHTML\
 **Markup:** MD
 
 ## Supported Platforms
 
 GroupDocs.Conversion for .NET does not require any external software or third party tool to be installed. GroupDocs.Conversion for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed. The other details are as follows:
 
-**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure
-**Mac OS:** Mac OS X
-**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)
-**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.
+**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up), Windows Azure\
+**Mac OS:** Mac OS X\
+**Linux:** Linux (Ubuntu, OpenSUSE, CentOS and others)\
+**Development Environments:** Microsoft Visual Studio (2010 & up), Xamarin.Android, Xamarin.IOS, Xamarin.Mac, MonoDevelop 2.4 and later.\
 **Supported Frameworks:** GroupDocs.Conversion for .NET  supports .NET and Mono frameworks.
 
 ## Document Information Retrieval
 
-**Word Processing:** word count, line count, page count, author, creation date.
-**Spreadsheet:** worksheet count, author, creation date.
-**Presentation:** slide count, author, creation date, presentation format.
-**Email:** attachment count, is HTML body, is encrypted, is signed.
-**Image:** image width, image height, image format.
-**CAD Drawing:** collections of layout and layers.
+**Word Processing:** word count, line count, page count, author, creation date.\
+**Spreadsheet:** worksheet count, author, creation date.\
+**Presentation:** slide count, author, creation date, presentation format.\
+**Email:** attachment count, is HTML body, is encrypted, is signed.\
+**Image:** image width, image height, image format.\
+**CAD Drawing:** collections of layout and layers.\
 **PDF Document:** page count, is landscaped, is encrypted, author, creation date.
 
 ## Getting Started with GroupDocs.Conversion for .NET
@@ -111,4 +111,4 @@ foreach (var possibleConversions in allPossibleConversions)
 }
 ```
 
-[Product Page](https://products.groupdocs.com/conversion/net) | [Documentation](https://docs.groupdocs.com/display/conversionnet/Home) | [Demo](https://products.groupdocs.app/conversion/family) | [API Reference](https://apireference.groupdocs.com/net/conversion) | [Examples](https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET) | [Blog](https://blog.groupdocs.com/category/conversion/) | [Free Support](https://forum.groupdocs.com/c/conversion) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/conversion/net) | [Documentation](https://docs.groupdocs.com/conversion/net/) | [Demo](https://products.groupdocs.app/conversion/family) | [API Reference](https://apireference.groupdocs.com/net/conversion) | [Examples](https://github.com/groupdocs-conversion/GroupDocs.Conversion-for-.NET) | [Blog](https://blog.groupdocs.com/category/conversion/) | [Free Support](https://forum.groupdocs.com/c/conversion) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

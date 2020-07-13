@@ -1,6 +1,6 @@
 # .NET API to Watermark Documents
 
-This .NET component offers [read & write watermark](https://products.groupdocs.com/watermark/net) support for the documents of [40+ file formats](https://docs.groupdocs.com/display/watermarknet/Supported+Document+Formats). Supports watermark search, customization & extraction as well.
+This .NET component offers [read & write watermark](https://products.groupdocs.com/watermark/net) support for the documents of [40+ file formats](https://docs.groupdocs.com/watermark/net/supported-document-formats/). Supports watermark search, customization & extraction as well.
 
 ## Document Watermark Processing Features
 
@@ -29,21 +29,21 @@ For the detailed notes, please visit [GroupDocs.Watermark for .NET 20.7 Release 
 
 ## Read & Write Watermark Formats
 
-**Microsoft Word:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, RTF
-**Microsoft Excel:** XLSX, XLSM, XLTM, XLT, XLTX, XLS
-**Microsoft PowerPoint:** PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, PPS
-**Microsoft Visio:** VSD, VDX, VSDX, VSTX, VSS, VSSX, VSDM, VSSM, VSTM, VTX, VSX
-**OpenOffice:** ODT
-**Email:** EML, EMLX, OFT, MSG
-**Fixed Layout:** PDF
+**Microsoft Word:** DOC, DOT, DOCX, DOCM, DOTX, DOTM, RTF\
+**Microsoft Excel:** XLSX, XLSM, XLTM, XLT, XLTX, XLS\
+**Microsoft PowerPoint:** PPTX, PPTM, PPSX, PPSM, POTX, POTM, PPT, PPS\
+**Microsoft Visio:** VSD, VDX, VSDX, VSTX, VSS, VSSX, VSDM, VSSM, VSTM, VTX, VSX\
+**OpenOffice:** ODT\
+**Email:** EML, EMLX, OFT, MSG\
+**Fixed Layout:** PDF\
 **Image:** BMP, GIF, JPG/JPEG/JPE, JP2, PNG, TIFF, WEBP
 
 ## Platform Independence
 
 GroupDocs.Watermark for .NET does not require any external software or third party tool to be installed. GroupDocs.Watermark for .NET supports any 32-bit or 64-bit operating system where .NET or Mono framework is installed. The other details are as follows:
 
-**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up)
-**Development Environments:** Microsoft Visual Studio (2010 & up)
+**Microsoft Windows:** Microsoft Windows Desktop (x86, x64) (XP & up), Microsoft Windows Server (x86, x64) (2000 & up)\
+**Development Environments:** Microsoft Visual Studio (2010 & up)\
 **Supported Frameworks:** GroupDocs.Conversion for .NET  supports .NET frameworks.
 
 ## Getting Started with GroupDocs.Watermark for .NET

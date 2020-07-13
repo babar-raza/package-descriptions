@@ -36,19 +36,19 @@ This .NET API enhances your apps to [perform robust search & index operations](h
 
 ## GroupDocs.Parser for .NET
 
-This text parser on-premise API works well to [search & extract formatted text](https://products.groupdocs.com/parser/net) as well as the raw text from a variety of documents of [supported file formats](https://docs.groupdocs.com/display/parsernet/Supported+Document+Formats).
+This text parser on-premise API works well to [search & extract formatted text](https://products.groupdocs.com/parser/net) as well as the raw text from a variety of documents of [supported file formats](https://docs.groupdocs.com/parser/net/supported-document-formats/).
 
 ## GroupDocs.Watermark for .NET
 
-This .NET component offers [read & write watermark](https://products.groupdocs.com/watermark/net) support for the documents of [40+ file formats](https://docs.groupdocs.com/display/watermarknet/Supported+Document+Formats). Supports watermark search, customization & extraction as well.
+This .NET component offers [read & write watermark](https://products.groupdocs.com/watermark/net) support for the documents of [40+ file formats](https://docs.groupdocs.com/watermark/net/supported-document-formats/). Supports watermark search, customization & extraction as well.
 
 ## GroupDocs.Editor for .NET
 
-It is a .NET API that enhances your apps to perform document, spreadsheets, DSV & XML [files editing operations](https://products.groupdocs.com/editor/net) for a wide range of [file formats](https://docs.groupdocs.com/display/editornet/Supported+Document+Formats).
+It is a .NET API that enhances your apps to perform document, spreadsheets, DSV & XML [files editing operations](https://products.groupdocs.com/editor/net) for a wide range of [file formats](https://docs.groupdocs.com/editor/net/supported-document-formats/).
 
 ## GroupDocs.Merger for .NET
 
-This .NET on-premise API lets your apps [perform merging, trimming, reordering, swapping](https://products.groupdocs.com/merger/net) and lots of other operations on document pages of [various file formats](https://docs.groupdocs.com/display/mergernet/Supported+Document+Types).
+This .NET on-premise API lets your apps [perform merging, trimming, reordering, swapping](https://products.groupdocs.com/merger/net) and lots of other operations on document pages of [various file formats](https://docs.groupdocs.com/merger/net/supported-document-formats/).
 
 ## GroupDocs.Redaction for .NET
 
@@ -56,7 +56,7 @@ This .NET component makes it very easy to [remove classified or sensitive data](
 
 ## GroupDocs.Classification for .NET
 
-A .NET component that enables your applications to [analyze text and files as well as classify](https://products.groupdocs.com/classification/net) them based on [IAB-2 and Documents taxonomies](https://docs.groupdocs.com/display/classificationnet/Taxonomies).
+A .NET component that enables your applications to [analyze text and files as well as classify](https://products.groupdocs.com/classification/net) them based on [IAB-2 and Documents taxonomies](https://docs.groupdocs.com/classification/net/taxonomies/).
 
 ## Additional Resources
 

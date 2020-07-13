@@ -9,9 +9,9 @@ Its an on-premise API that seamlessly [integrates document annotation features](
 - Render document pages as images.
 - Generate document thumbnails or document image preview.
 - Support for default cache (local disk) or custom cache (Amazon S3,Dropbox etc.).
-- [Get list](https://docs.groupdocs.com/display/annotationnet/Get+supported+file+formats) of [supported file formats](https://docs.groupdocs.com/display/annotationnet/Supported+Document+Formats).
+- [Get list](https://docs.groupdocs.com/annotation/net/get-supported-file-formats/) of [supported file formats](https://docs.groupdocs.com/annotation/net/supported-document-formats/).
 - Fetch document information, such as, page count & file size.
-- [Extract annotations from a document](https://docs.groupdocs.com/display/annotationnet/Extract+annotations+from+document) and serialize to XML format.
+- [Extract annotations from a document](https://docs.groupdocs.com/annotation/net/extract-annotations-from-document/) and serialize to XML format.
 - Remove previously added annotations from a document.
 - Update specific annotation properties (size, color etc.).
 
@@ -19,7 +19,7 @@ Its an on-premise API that seamlessly [integrates document annotation features](
 
 - Improved `PDF` document *annotation accuracy*, *refactoring* and *annotation optimization* process.
 
-For the detailed notes, please visit [GroupDocs.Annotation for .NET 20.6 Release Notes](https://docs.groupdocs.com/display/annotationnet/GroupDocs.Annotation+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [GroupDocs.Annotation for .NET 20.6 Release Notes](https://docs.groupdocs.com/annotation/net/groupdocs-annotation-for-net-20-6-release-notes/).
 
 ## Annottaion Objects
 
@@ -83,4 +83,4 @@ using (Annotator annotator = new Annotator(“input.pdf”))
 }
 ```
 
-[Product Page](https://products.groupdocs.com/annotation/net) | [Documentation](https://docs.groupdocs.com/display/annotationnet/Home) | [API Reference](https://apireference.groupdocs.com/net/annotation) | [Examples](https://github.com/groupdocs-annotation/GroupDocs.Annotation-for-.NET) | [Blog](https://blog.groupdocs.com/category/annotation/) | [Free Support](https://forum.groupdocs.com/c/annotation) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
+[Product Page](https://products.groupdocs.com/annotation/net) | [Documentation](https://docs.groupdocs.com/annotation/net/) | [API Reference](https://apireference.groupdocs.com/net/annotation) | [Examples](https://github.com/groupdocs-annotation/GroupDocs.Annotation-for-.NET) | [Blog](https://blog.groupdocs.com/category/annotation/) | [Free Support](https://forum.groupdocs.com/c/annotation) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
