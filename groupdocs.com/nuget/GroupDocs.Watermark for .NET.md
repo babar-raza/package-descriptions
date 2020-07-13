@@ -16,13 +16,16 @@ This .NET component offers [read & write watermark](https://products.groupdocs.c
 - Set background image for charts in Excel and PowerPoint documents.
 - Work with PDF and email attachments.
 
-## Enhancements in Version 20.5
+## New Features & Enhancements in Version 20.7
 
-- Ability to edit minor shape properties in Visio documents.
-- Watermarking of Word document uses existing paragraph if available.
-- After removing found watermark in Word document, the empty parent paragraph is removed too.
+- Support of Linux for GroupDocs.Watermark for .NET Core.
+- Removal of Legacy namespace.
 
-For the detailed notes, please visit [GroupDocs.Watermark for .NET 20.5 Release Notes](https://docs.groupdocs.com/display/watermarknet/GroupDocs.Watermark+for+.NET+20.5+Release+Notes).
+## Important Notice
+
+- In this version we have removed the Legacy API of GroupDocs.Watermark. So from version 20.7 `GroupDocs.Watermark.Legacy` does not exist anymore.
+
+For the detailed notes, please visit [GroupDocs.Watermark for .NET 20.7 Release Notes](https://docs.groupdocs.com/watermark/net/groupdocs-watermark-for-net-20-7-release-notes/).
 
 ## Read & Write Watermark Formats
 
