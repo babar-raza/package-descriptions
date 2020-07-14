@@ -9,12 +9,13 @@ A .NET component that enables your applications to [analyze text and files as we
 - Select precision/recall balance for Documents taxonomy.
 - Classify document from stream.
 
-## New Features in Version 20.3
+## New Features & Enhancements in Version 20.6
 
-- Sentiment Classification (Analysis) is added.
-- Raw text classification speed has been increased several times.
+- Sentiment Classification (Analysis) performance is doubled.
+- Sentiment Classification (Analysis) probability model has been reworked and have became more accurate.
+- `SentimentClassifier.PositiveProbability` can be used for a fine-grained sentiment analysis now.
 
-For the detailed list, please visit [GroupDocs.Classification for .NET 20.3 Release Notes](https://docs.groupdocs.com/classification/net/groupdocs-classification-for-net-20-3-release-notes/).
+For the detailed list, please visit [GroupDocs.Classification for .NET 20.6 Release Notes](https://docs.groupdocs.com/classification/net/groupdocs-classification-for-net-20-6-release-notes/).
   
 ## Other File Formats
 
