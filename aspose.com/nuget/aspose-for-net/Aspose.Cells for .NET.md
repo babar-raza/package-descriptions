@@ -17,12 +17,12 @@ Aspose.Cells for .NET provides Grid solution with two GUI based .NET controls. [
 - Convert Excel files to various other formats.
 - [Formula calculation engine](https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions) that supports all basic and advanced Excel functions.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Support for storing temp file for session info in `GridWeb`.
-- Improved the performance of picture/shape loading.
+- Added support for the  `FilterString()` criteria.
+- Ability to check whether the struct or window of the workbook is protected with a password.
 
-For the detailed notes, please visit [Aspose.Cells for .NET 20.6 Release Notes](https://docs.aspose.com/display/cellsnet/Aspose.Cells+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.Cells for .NET 20.7 Release Notes](https://docs.aspose.com/display/cellsnet/Aspose.Cells+for+.NET+20.7+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
