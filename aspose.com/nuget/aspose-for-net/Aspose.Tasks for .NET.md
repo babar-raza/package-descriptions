@@ -21,17 +21,17 @@ Aspose.Tasks for .NET on premise API enables you to work with projects, formulas
 
 ## Enhancements in Version 20.7.1
 
-- Added Aspose Tasks for .NET 4.5.
+- Added Aspose Tasks for `.NET 4.5`.
 
 ## Bug fixes in Version 20.7.1
 
 - Fixed allocation of a certain number of hours over the duration of a task.
-- Fixed infinite loop while converting the file from MPP to PDF.
+- Fixed infinite loop while converting the file from `MPP` to `PDF`.
 - Fixed calculation of time-phased data and task duration in case of custom TDs.
-- Fixed reading the writing of null resources to PWA.
-- Fixed calculation of Asn.Peak, Asn.LateStart, Rsc.Peak.
+- Fixed reading the writing of null resources to `PWA`.
+- Fixed calculation of `Asn.Peak`, `Asn.LateStart`, `Rsc.Peak`.
 
-For the detailed notes, please visit [Aspose.Tasks for .NET 20.7 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.7+Release+Notes).
+For the detailed notes, please visit [Aspose.Tasks for .NET 20.7.1 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.7.1+Release+Notes).
 
 ## Read & Write Project Formats
 
