@@ -14,11 +14,13 @@ Aspose.Diagram for .NET can also be used to [apply protection to the Microsoft V
 - Protect Visio diagrams via applying locks on various levels.
 - [Manipulate the embedded OLE objects in the Visio diagrams](https://docs.aspose.com/display/diagramnet/Manipulate+the+Embedded+OLE+Objects+in+Visio+Diagram).
 
-## Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Added support of `.NET Framework 5.0`.
+- Support for shapes' Fill Colors for `VSDX` to `PDF` conversion.
+- Support the ability to preserve gradient colors while converting to `EMF`.
+- While converting Visio formats to `PDF`, reflect the diagram properties in the output `PDF`.
 
-For the detailed notes, please visit [Aspose.Diagram for .NET 20.6 Release Notes](https://docs.aspose.com/display/diagramnet/Aspose.Diagram+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.Diagram for .NET 20.7 Release Notes](https://docs.aspose.com/display/diagramnet/Aspose.Diagram+for+.NET+20.7+Release+Notes).
 
 ## Read & Write Visio Formats
 
