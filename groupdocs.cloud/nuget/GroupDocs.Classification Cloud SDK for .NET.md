@@ -10,7 +10,7 @@ This cloud REST API enables your C#, ASP.NET & other .NET apps to [perform class
 ## New Features & Enhancements in Version 20.7
 
 - Enhanced sentiment Classification probability model for English and Chinese.
-- Integrated the fain-grained sentiment classification model for English and Chinese.
+- Integrated the fine-grained sentiment classification model for English and Chinese.
 
 For the detailed notes, please visit [GroupDocs.Classification Cloud 20.7](https://wiki.groupdocs.cloud/classificationcloud/release-notes/groupdocs-classification-cloud-20-7/).
 
