@@ -7,6 +7,13 @@ This cloud REST API enables your C#, ASP.NET & other .NET apps to [perform class
 - Perform raw text classification.
 - Perform document classification for the supported file formats.
 
+## New Features & Enhancements in Version 20.7
+
+- Enhanced sentiment Classification probability model for English and Chinese.
+- Integrated the fain-grained sentiment classification model for English and Chinese.
+
+For the detailed notes, please visit [GroupDocs.Classification Cloud 20.7](https://wiki.groupdocs.cloud/classificationcloud/release-notes/groupdocs-classification-cloud-20-7/).
+
 ## Supported Document Formats
 
 **Microsoft Word:** DOC, DOCX, DOCM, DOT, DOTX, DOTM
