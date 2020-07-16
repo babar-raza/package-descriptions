@@ -15,21 +15,9 @@
 - Add default print tickets into new `XPS` document or preserve print tickets in opened `XPS`.
 - Save `XPS` documents in various [supported file formats](https://docs.aspose.com/display/pagecpp/Supported+File+Formats).
 
-## Public API and Backwards Incompatible Changes in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-The following public classes, methods and properties have been defined:
-
-- class `Aspose.Page.XPS.XpsModel.XpsContext`
-- member `Aspose.Page.XPS.XpsModel.XpsContext.Restrict`
-- property `Aspose.Page.XPS.XpsModel.XpsContext.ActivePage`
-- property `Aspose.Page.XPS.XpsModel.XpsElement.Parent`
-- member `Aspose.Page.XPS.XpsModel.XpsObject.AssertObject`
-- class `Aspose.Page.XPS.XpsPackageParts.FixedDocument`
-- class `Aspose.Page.XPS.XpsPackageParts.FixedPage`
-- property `Aspose.Page.XPS.XpsPackageParts.FixedPage.Page`
-- class `Aspose.Page.XPS.XpsPackageParts.FixedPart`
-
-For the detailed notes, please visit [Aspose.Page for C++ 20.6 Release Notes](https://docs.aspose.com/display/pagecpp/Aspose.Page+for+CPP+20.6+Release+Notes).
+This release has some minor enhancements. For the detailed notes, please visit [Aspose.Page for C++ 20.7 Release Notes](https://docs.aspose.com/display/pagecpp/Aspose.Page+for+CPP+20.7+Release+Notes).
 
 ## Save XPS as
 
