@@ -13,12 +13,12 @@ Aspose.Note for .NET can be used for printing ONE documents as well as manipulat
 - Extract text from any part of an OneNote document.
 - Export OneNote documents as other popular formats.
 
-## Enhancements in Version 20.5
+## New Featues & Enhancements in Version 20.7
 
-- Refactoring of processing of `ONETOC2` files.
-- Refactoring of rendering algorithm to properly work under Linux.
+- Support for `.NET 5.0`.
+- New license type support.
 
-For the detailed notes, please visit [Aspose.Note for .NET 20.5 Release Notes](https://docs.aspose.com/display/notenet/Aspose.Note+for+.NET+20.5+Release+Notes).
+For the detailed notes, please visit [Aspose.Note for .NET 20.7 Release Notes](https://docs.aspose.com/display/notenet/Aspose.Note+for+.NET+20.7+Release+Notes).
 
 ## Read & Write OneNote Format
 

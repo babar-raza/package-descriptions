@@ -10,14 +10,14 @@
 - Presentation Security: Load protected presentations or control access to presentations, slides or objects via advanced security features.
 - Availability of 24 pre-defined textures & 48 patterns for quick styling.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Support for Conversion to `PDF`, accessibility standards.
-- Support for `PDF/UA` compliance.
-- Support for Open Type Font (`OTF`).
-- Support for tagged `PDF` export.
+- Convert `Mathematival` Text to `MathML` Format.
+- Ability to render `SVG` image as `PNG` image in the generated `PDF`.
+- Ability to extract equation from `PPT` to `LaTeX`.
+- Support for rotation options for the Line shape.
 
-For the detailed notes, please visit [Aspose.Slides for .NET 20.6 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides for .NET 20.7 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.7+Release+Notes).
 
 ## Read & Write Presentations
 
