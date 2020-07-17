@@ -19,12 +19,11 @@ GroupDocs.Translation Cloud SDK for .NET is a simple SDK used to add the transla
 - **Microsoft Word:** DOC, DOCX, DOCM
 - **Microsoft Excel:** XLS, XLSX, XLSM
 
-## New Features in Version 20.6
+## New Features in Version 20.7
 
-- Support for translation of plain text.
-- `English-Arabic` and `English-Portuguese` language pairs support.
+- Made the `English-Polish` language pair support available.
 
-For the previous release notes, please visit [Release Notes — 2020](https://wiki.groupdocs.cloud/translationcloud/release-notes/release-notes-2020/).
+For the detailed notes, please visit [GroupDocs.Translation for Cloud 20.7 Release Notes](https://wiki.groupdocs.cloud/translationcloud/release-notes/release-notes-2020/groupdocs-translation-for-cloud-20-7-release-notes/).
 
 ## How to use the SDK
 
