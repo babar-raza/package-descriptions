@@ -22,15 +22,13 @@
 - [Configure various access privileges for the PDF](https://docs.aspose.com/display/pdfcpp/Encrypt%2C+Decrypt+and+set+Privileges+on+PDF+documents) document.
 - [Extract text from all pages of a PDF](https://docs.aspose.com/pages/viewpage.action?pageId=51479222) file.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Support to convert `PDF` documents to Excel format using `SaveFormat::Excel` or `ExcelSaveOptions`.
-- Ability to load `TeX` documents via `TeXLoadOptions` and save them into `PDF` format.
-- Support to save `PDF` documents into `TeX` format using `SaveFormat::TeX` or `TeXSaveOptions`.
-- Ability to create `PDF` documents from `XSLFO` and `PS` format files.
-- Fixed memory leaks while converting `PDF` document into `PPTX` and `TeX` formats.
+- `C++`-styled iteration has been added over the library containers. `begin/end/cbegin/cend/rbegin/rend` methods are now present where possible.
+- Translation of `System::String` class to and from various `STL` string types have been improved. Respective constructors and conversion operators were added (yet explicit, to avoid undesired invocations of suboptimal operations). Also, the `String` class is now working fine with `STL` streams.
+- Various other enhancements of the API in terms of performance and memory-related issues.
 
-For the detailed notes, please visit [Aspose.PDF for C++ 20.6 Release Notes](https://docs.aspose.com/display/pdfcpp/Aspose.PDF+for+CPP+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF for C++ 20.7 Release Notes](https://docs.aspose.com/display/pdfcpp/Aspose.PDF+for+CPP+20.7+Release+Notes).
 
 ## Read & Write PDF & Other Formats
 

@@ -7,6 +7,10 @@
 - Read Microsoft Publisher [(PUB) files for conversion to PDF](https://docs.aspose.com/display/pubcpp/PUB+to+PDF) format.
 - [Read & Edit metadata of PUB files](https://docs.aspose.com/display/pubcpp/Programming+with+Documents#ProgrammingwithDocuments-EditMetaDataofPUBFilesinC++) via API.
 
+## New Features & Enhancements in Version 20.7
+
+This month's release uses the latest version of the shared codeporting library. The `API` has also been updated to include the latest implementation of Aspose.PDF for C++ library, thus enhancing the overall functionality of the `API`. For the detailed notes, please visit [Aspose.PUB for C++ 20.7 Release Notes](https://docs.aspose.com/display/pubcpp/Aspose.PUB+for+CPP+20.7+Release+Notes).
+
 ## Read PUB Files
 
 **Microsoft Publisher:** PUB
