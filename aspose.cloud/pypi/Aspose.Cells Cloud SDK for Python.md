@@ -18,14 +18,11 @@ Python Cloud SDK wraps Aspose.Cells REST API so you could seamlessly integrate M
 - Convert worksheets to PDF, XPS & SVG formats.
 - Inter-convert files to popular Excel formats.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Ability to support the text water marker.
-- Added support to convert images in `get` workbook API.
-- Upgraded `Dynabic.Billing` for Aspose.Cells Cloud.
-- Made enhancement for `Cells` object operating in `Task` API.
+- Applied enhancement to the `CellsApi` constructor.
 
-For the detailed notes, please visit [Aspose.Cells Cloud 20.6 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.Cells Cloud 20.7 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.7+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
