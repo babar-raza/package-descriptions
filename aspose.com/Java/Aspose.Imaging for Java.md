@@ -1,4 +1,4 @@
-## Aspose.Imaging for Java
+# Aspose.Imaging for Java
 
 This package contains Java example code for [Aspose.Imaging for Java](https://products.aspose.com/imaging/java).
 
@@ -8,7 +8,7 @@ This package contains Java example code for [Aspose.Imaging for Java](https://pr
   </a>
 </p>
 
-# .NET API for Image Processing
+## .NET API for Image Processing
 
 It is a [standalone Imaging API](https://products.aspose.com/imaging/java) that enable your Java apps to draw as well as perform basic to advanced level processing of raster & vector images.
 
