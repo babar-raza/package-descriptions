@@ -13,17 +13,28 @@ This cloud SDK enhances your C#, ASP.NET & other .NET cloud-based apps to work w
 - Get email properties.
 - Create, list or delete email folders.
 
-## New Features in Version 20.3
+## New Features & Enhancements in Version 20.7
 
-- Ability to determine whether an email address is disposable or not.
-- Ability to create virtual multi-account to search, fetch and delete messages from several accounts at the same time.
+- New models for representing `MAPI` message files have been added to Aspose Email Cloud.
+- All these models can be converted to corresponding `DTO` objects.
+- The methods to save these models to `MSG` files are also provided.
+- A new `Recurrence` property has been added, so there is a better way to set recurrence patterns.
+- Some corrections are made in the `null` value handling during a model serialization.
+- Discriminator property has been added to `ContactPhoto` because it is now inherited by `MapiContactPhotoDto`.
+- Bug with the lost model property types information has been fixed.
+- Added `TNEF` format support to email message converters.
 
-For the detailed notes, please visit [Aspose.Email Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/emailcloud/Aspose.Email+Cloud+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.Email Cloud 20.7 Release Notes](https://docs.aspose.cloud/display/emailcloud/Aspose.Email+Cloud+20.7+Release+Notes).
 
-## Read & Write Email Formats
+## Supported File Formats
 
 **Microsoft Outlook:** MSG
 **Email:** EML
+**Markup:** HTML, MHTML
+**Contact:** VCF, MSG
+**iCalendar:** ICS
+**MAPI:** TNEF, EMLX
+**BCR AI:** PNG, JPG, JPEG, TIFF, BMP, GIF
 
 ## Getting Started with Aspose.Email Cloud SDK for .NET
 
