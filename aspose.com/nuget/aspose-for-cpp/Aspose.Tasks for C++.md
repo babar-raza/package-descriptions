@@ -18,13 +18,32 @@ A standalone C++ library that enables the C++ developers to [generate, update, r
 - [Convert project data](https://docs.aspose.com/display/taskscpp/Converting+Project+Data) to other [supported file formats](https://docs.aspose.com/display/taskscpp/Supported+File+Formats).
 - So many more [features](https://docs.aspose.com/display/taskscpp/Developer+Guide).
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Improved performance of timephased data calculation.
-- Added rendering of customized Gridlines for `Middleopottom` Tier Column in Gantt chart view.
-- Added the ability to render 3 and 1 tier(s) on timescale.
+- Aspose.Tasks for C++ is based on the .NET version of the API and provides strictly the same functionality as Aspose.Tasks for .NET provides, excluding printing, database I/O operations, and `EMF`/`WMF` format support.
+- Added the ability to specify the non-default path for Project Server's PWA URL.
 
-For the detailed notes, please visit [Aspose.Tasks for C++ 20.6 Release Notes](https://docs.aspose.com/display/taskscpp/Aspose.Tasks+for+CPP+20.6+Release+Notes).
+## Breaking change in Project Server credential usage
+
+In Aspose.Tasks for .NET 20.7 the requirements to a site URL for Project Server credentials have been changed.
+
+Users now should specify the full URL of *PWA* endpoint when using `ProjectServerCredentials`:
+
+Before Aspose.Tasks for .NET 20.7:
+
+```c#
+var windowsCredentials = ...
+var projectServerCredentials = new ProjectServerCredentials("http://project_server_instance.local", windowsCredentials);
+```
+
+Since Aspose.Tasks for .NET 20.7:
+
+```c#
+var windowsCredentials = ...
+var projectServerCredentials = new ProjectServerCredentials("http://project_server_instance.local/sites/pwa", windowsCredentials);
+```
+
+For the detailed notes, please visit [Aspose.Tasks for C++ 20.7 Release Notes](https://docs.aspose.com/display/taskscpp/Aspose.Tasks+for+CPP+20.7+Release+Notes).
 
 ## Read & Write Project Files
 

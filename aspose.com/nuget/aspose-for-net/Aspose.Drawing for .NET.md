@@ -19,11 +19,14 @@ Aspose.Drawing is a pure .NET library. We don’t use any external native render
 - Working with clip regions.
 - Using affine transformations.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- This is the first release of this new product.
+- Addition of the `LinearGradientBrush` functionality.
+- Updated the `TextureBrush`.
+- Reworked the `PrivateFontCollection` implementation.
+- Addition of the functionality for `EncoderParameter(Encoder, long)`.
 
-For the detailed notes, please visit [Aspose.Drawing for .NET 20.6](https://docs.aspose.com/display/drawingnet/Aspose.Drawing+for+.NET+20.6).
+For the detailed notes, please visit [Aspose.Drawing for .NET 20.7 Release Notes](https://docs.aspose.com/display/drawingnet/Aspose.Drawing+for+.NET+20.7+Release+Notes).
 
 ## Read & Write Drawing Formats
 
