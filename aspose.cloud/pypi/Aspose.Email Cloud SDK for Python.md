@@ -12,12 +12,14 @@ Python Cloud SDK wraps Aspose.Email REST API so you could seamlessly integrate M
   - Business card recognition.
   - Parse and handle personal names.
 
-## New Features in Version 20.3
+## New Features & Enhancements in Version 20.7
 
-- Ability to determine whether an email address is disposable or not.
-- Ability to create virtual multi-account to search, fetch and delete messages from several accounts at the same time.
+- New models for representing `MAPI` message files have been added to Aspose Email Cloud.
+- All these models can be converted to corresponding `DTO` objects.
+- The methods to save these models to `MSG` files are also provided.
+- A new `Recurrence` property has been added, so there is a better way to set recurrence patterns.
 
-For the detailed notes, please visit [Aspose.Email Cloud 20.3 Release Notes](https://docs.aspose.cloud/display/emailcloud/Aspose.Email+Cloud+20.3+Release+Notes).
+For the detailed notes, please visit [Aspose.Email Cloud 20.7 Release Notes](https://docs.aspose.cloud/display/emailcloud/Aspose.Email+Cloud+20.7+Release+Notes).
 
 ## Read & Write
 
