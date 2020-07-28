@@ -23,17 +23,9 @@ This .NET on-premise API lets your apps [perform merging, trimming, reordering, 
 - Ability to log document manipulation process information.
 - Load document from local disk, stream or from URL.
 
-## New Features in Version 20.5
+## New Features & Enhancements in Version 20.7
 
-- Support for Cross-format merging to PDF.
-
-## Public API and Backward Incompatible Changes
-
-[Join](https://apireference.groupdocs.com/merger/net/groupdocs.merger/merger/methods/join) method of the GroupDocs.Merger for .NET product is expanded, please refer to the following documentation articles for more details:
-- [Supported Document Types](https://docs.groupdocs.com/merger/net/supported-document-formats/)
-- [Merge documents to PDF](https://docs.groupdocs.com/merger/net/merge-documents-to-pdf/)
-
-For the detailed list, please visit [GroupDocs.Merger for .NET 20.5 Release Notes](https://docs.groupdocs.com/merger/net/groupdocs-merger-for-net-20-5-release-notes/).
+This release contains some bug fixes. For the detailed notes, please visit [GroupDocs.Merger for .NET 20.7 Release Notes](https://docs.groupdocs.com/merger/net/groupdocs-merger-for-net-20-7-release-notes/).
 
 ## Join & Split File Formats
 
