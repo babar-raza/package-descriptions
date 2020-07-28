@@ -20,9 +20,7 @@ This Cloud SDK enhances your C#, ASP.NET, & other .NET cloud-based apps to [proc
 
 ## New Features & Enhancements in Version 20.7
 
-- Applied enhancement to the `CellsApi` constructor.
-
-For the detailed notes, please visit [Aspose.Cells Cloud 20.7 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.7+Release+Notes).
+There are some minor enhancements in this release. For the detailed notes, please visit [Aspose.Cells Cloud 20.7 Release Notes](https://docs.aspose.cloud/display/cellscloud/Aspose.Cells+Cloud+20.7+Release+Notes).
 
 ## Read & Write Spreadsheet Formats
 
