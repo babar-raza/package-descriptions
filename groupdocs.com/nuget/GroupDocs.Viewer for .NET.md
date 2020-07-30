@@ -24,11 +24,17 @@ This robust .NET on-premise [file viewer API](https://products.groupdocs.com/vie
 - Render documents with comments, notes, and custom fonts.
 - Replace missing fonts while rendering.
 
-## New Featrues & Enhancements in Version 20.6.1
+## New Featrues & Enhancements in Version 20.7
 
-- This is hot-fix release that includes single bug-fix.
+- Ability to render text files into single `HTML` page.
+- Support of setting margins when converting `HTML` files.
+- Added feature to identify if the file is Password Protected.
+- Added Apple numbers (`.numbers`) file-format support.
+- Added Excel 2003 XML file (SpreadsheetML) (`.xml`) file-format support.
+- Added WinRAR Compressed Archive (`.rar`) file-format support.
+- Ability to split up archives into multiple pages.
 
-For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.6.1 Release Notes](https://docs.groupdocs.com/viewer/net/groupdocs-viewer-for-net-20-6-1-release-notes/).
+For the detailed notes, please visit [GroupDocs.Viewer for .NET 20.7 Release Notes](https://docs.groupdocs.com/viewer/net/groupdocs-viewer-for-net-20-7-release-notes/).
 
 ## HTML, Image, PDF Rendering Supported Formats
 
