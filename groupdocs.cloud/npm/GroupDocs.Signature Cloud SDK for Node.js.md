@@ -6,15 +6,6 @@ Node.js Cloud SDK wraps GroupDocs.Signature Cloud API so you could seamlessly in
 
 Check out the [API Reference](https://apireference.groupdocs.cloud/signature/) to know all about the GroupDocs.Signature REST API. Get your application information from [GroupDocs for Cloud](https://dashboard.groupdocs.cloud/#/apps) first so you could try different functions from Swagger UI.
 
-## Supported Signature Types
-
-- Text
-- Image
-- Barcode
-- QR-code
-- Digital
-- Stamp
-
 ## Document Signing Features
 
 - Specify pages (even, odd, specific etc.) to apply the signature.
@@ -30,43 +21,64 @@ Check out the [API Reference](https://apireference.groupdocs.cloud/signature/) t
 - Get or set the time at which the document was digitally signed.
 - Option to search some type of signatures from the document.
 
-## Supported File Formats
+## New Features & Enhancements in Version 20.7
 
-GroupDocs.Signature Cloud API [supports 35+ file formats](https://wiki.groupdocs.cloud/signaturecloud/getting-started/supported-document-formats/) that it can load & add barcode, image, QR-code, stamp or text signatures.
+- Added support for new file formats.
+- Implemented `Z-Order` for Text Signature.
+- Implemented border for Image Signature.
+- Ability to set up additional properties for digital signatures.
+- `Opacity` option has been renamed to `Transparency`.
+- `Border` options replaced with `BorderLine` class.
+
+For the detailed notes, please visit [GroupDocs.Signature Cloud 20.7 Release Notes](https://wiki.groupdocs.cloud/signaturecloud/release-notes/release-notes-2020/groupdocs-signature-cloud-20-7-release-notes/).
+
+## Signature Supported File Formats
+
+The following file formats are supported for the image, stamp and text type of signatures:
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSM, PPSX, POTX, POTM
-**OpenOffice:** ODT, OTT, ODS, OTS, ODP, OTP
-**Image:** BMP, GIF, JPG, JPEG, PNG, SVG, TIF, TIFF, WEBP, DJVU
-**Metafile:** WMF
-**CorelDraw:** CDR, CMX
-**Adobe Photoshop:** PSD
+**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLT, XLTX, XLTM
+**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSM, PPSX, POT, POTX, POTM
+**OpenOffice:** ODT, OTT, ODS, ODP
+**Image:** JPG, PNG, BMP, GIF, TIFF, CDR
+**Rich Text:** RTF
 **Adobe Acrobat:** PDF
 
 ## Digital Signature Supported Formats
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**OpenOffice:** ODS, OTS
+**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLT, XLTX, XLTM
+**Microsoft PowerPoint:** PPTM, PPTX
+**OpenOffice:** ODT
 **Adobe Acrobat:** PDF
 
-## FormField Signature Supported Formats
+## Barcode Signature Supported Formats
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**OpenOffice:** ODS, OTS, ODP
+**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLT, XLTX, XLTM
+**Microsoft PowerPoint:** POT, POTM, PPSX, PPTX
+**OpenOffice:** ODT, ODP, ODS, OTT
+**Image:** JPG, PNG, BMP, GIF, TIFF, CDR
+**Rich Text:** RTF
 **Adobe Acrobat:** PDF
 
-## Metadata Signature Supported Formats
+## QR-Code Signature Supported Formats
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSM, PPSX, POTX, POTM
-**OpenOffice:** ODT, OTT, ODS, OTS, ODP, OTP
-**Image:** JPG, JPEG, PNG, SVG, TIF, TIFF
-**Adobe Photoshop:** PSD
+**Microsoft Excel:** XLSX, XLS, XLSM, XLT, XLTX, XLTM
+**OpenOffice:** OTT
+**Image:** JPG, PNG, BMP, GIF, TIFF, CDR
+**Rich Text:** RTF
 **Adobe Acrobat:** PDF
+
+## Supported Signature Types
+
+- Text
+- Image
+- Barcode
+- QR-code
+- Digital
+- Stamp
 
 ## Getting Started with GroupDocs.Signature Cloud SDK for Node.js
 

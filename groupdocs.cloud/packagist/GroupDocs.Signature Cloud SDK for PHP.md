@@ -18,49 +18,54 @@ Use this REST API to [search, verify & create signatures](https://products.group
 - Get or set the time at which the document was digitally signed.
 - Option to search some type of signatures from the document.
 
-## New Features in Version 19.5
+## New Features & Enhancements in Version 20.7
 
-- This is the first release of a completely new version of the API `GroupDocs.Signature.Cloud v2.0`.
-- `V2` provides a much simpler and intuitive API comparing with `V1`.
-- `V2` includes Storage and File API which enables you to manage storage and files.
+- Added support for new file formats.
+- Implemented `Z-Order` for Text Signature.
+- Implemented border for Image Signature.
+- Ability to set up additional properties for digital signatures.
+- `Opacity` option has been renamed to `Transparency`.
+- `Border` options replaced with `BorderLine` class.
 
-For the detailed notes, please visit [GroupDocs.Signature Cloud 19.5 Release Notes](https://wiki.groupdocs.cloud/signaturecloud/release-notes/release-notes-2019/groupdocs-signature-cloud-19-5-release-notes/).
+For the detailed notes, please visit [GroupDocs.Signature Cloud 20.7 Release Notes](https://wiki.groupdocs.cloud/signaturecloud/release-notes/release-notes-2020/groupdocs-signature-cloud-20-7-release-notes/).
 
 ## Signature Supported File Formats
 
-The following file formats are supported for the barcode, image, QR-code, stamp and text type of signatures:
+The following file formats are supported for the image, stamp and text type of signatures:
+
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSM, PPSX, POTX, POTM
-**OpenOffice:** ODT, OTT, ODS, OTS, ODP, OTP
-**Image:** BMP, GIF, JPG, JPEG, PNG, SVG, TIF, TIFF, WEBP, DJVU
-**Metafile:** WMF
-**CorelDraw:** CDR, CMX
-**Adobe Photoshop:** PSD
+**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLT, XLTX, XLTM
+**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSM, PPSX, POT, POTX, POTM
+**OpenOffice:** ODT, OTT, ODS, ODP
+**Image:** JPG, PNG, BMP, GIF, TIFF, CDR
+**Rich Text:** RTF
 **Adobe Acrobat:** PDF
 
 ## Digital Signature Supported Formats
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**OpenOffice:** ODS, OTS
+**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLT, XLTX, XLTM
+**Microsoft PowerPoint:** PPTM, PPTX
+**OpenOffice:** ODT
 **Adobe Acrobat:** PDF
 
-## FormField Signature Supported Formats
+## Barcode Signature Supported Formats
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**OpenOffice:** ODS, OTS, ODP
+**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLT, XLTX, XLTM
+**Microsoft PowerPoint:** POT, POTM, PPSX, PPTX
+**OpenOffice:** ODT, ODP, ODS, OTT
+**Image:** JPG, PNG, BMP, GIF, TIFF, CDR
+**Rich Text:** RTF
 **Adobe Acrobat:** PDF
 
-## Metadata Signature Supported Formats
+## QR-Code Signature Supported Formats
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX
-**Microsoft Excel:** XLSX, XLS, XLSB, XLSM, XLTX, XLTM
-**Microsoft PowerPoint:** PPT, PPTX, PPTM, PPS, PPSM, PPSX, POTX, POTM
-**OpenOffice:** ODT, OTT, ODS, OTS, ODP, OTP
-**Image:** JPG, JPEG, PNG, SVG, TIF, TIFF
-**Adobe Photoshop:** PSD
+**Microsoft Excel:** XLSX, XLS, XLSM, XLT, XLTX, XLTM
+**OpenOffice:** OTT
+**Image:** JPG, PNG, BMP, GIF, TIFF, CDR
+**Rich Text:** RTF
 **Adobe Acrobat:** PDF
 
 ## Supported Signature Types
