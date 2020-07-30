@@ -15,11 +15,14 @@ This Cloud SDK allows you to [easily build cloud-based PDF creator](https://prod
 - Extensive support for converting PDF documents to various other file formats.
 - Extract various elements of PDF file & make PDF document optimized.
 
-## New Features in Version 20.5
+## New Features & Enhancements in Version 20.7
 
-- Replace `LaTex` with `Tex` in Cloud methods.
+- Added Support for `PDF_A_3A` Format.
+- Added Support of `MaxResolution` option in `OptimizeOption`.
+- Added Support of `ImageCompressionOptions` in `OptimizeOptions`.
+- Implemented Info action.
 
-For the detailed notes, please visit [Aspose.PDF Cloud 20.5 Release Notes](https://docs.aspose.cloud/display/pdfcloud/Aspose.PDF+Cloud+20.5+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF Cloud 20.7 Release Notes](https://docs.aspose.cloud/display/pdfcloud/Aspose.PDF+Cloud+20.7+Release+Notes).
 
 ## Read & Write PDF Formats
 
