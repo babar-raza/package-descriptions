@@ -1,18 +1,18 @@
-# Aspose.Cells for Java
+# Java API for Excel File Formats
 
 [Aspose.Cells for Java](https://products.aspose.com/cells/java) is an award-winning Excel Spreadsheet Processing API that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF, and image file formats into their own Java applications without needing to rely on Microsoft Excel®.
 
-This repository contains [Examples](Examples), [Examples.GridWeb](Examples.GridWeb) and [Plugins](Plugins) for [Aspose.Cells for Java](https://products.aspose.com/cells/java)
+Directory | Description
+--------- | -----------
+[Examples](Examples) | A collection of Java examples that help you learn the product features.
+[Examples.GridWeb](Examples.GridWeb) | A collection of Java examples that help you learn and explore Aspose.GridWeb features.
+[Plugins](Plugins) | Plugins that will demonstrate one or more features of Aspose.Cells for Java.
 
 <p align="center">
   <a title="Download ZIP" href="https://github.com/aspose-cells/Aspose.Cells-for-Java/archive/master.zip">
-    <img src="http://i.imgur.com/hwNhrGZ.png" alt="Download Aspose.Cells for Java Examples, Plugins and Showcases" />
+    <img src="https://raw.githubusercontent.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" alt="Download Aspose.Cells for Java Examples, Plugins and Showcases" />
   </a>
 </p>
-
-## Java API for Excel File Formats
-
-[Aspose.Cells for Java](https://products.aspose.com/cells/java) is an Excel Spreadsheet Programming API to speed up spreadsheet management and processing tasks. Excel .NET API supports to build cross-platform applications having the ability to generate, modify, convert, render and print spreadsheets. It allows developers to manage worksheets, rows, columns & cells, create spreadsheet contents and styles from scratch, import data onto the worksheets from different data sources, add common and complex mathematical, financial and text formulas, create & manipulate pivot tables, charts, hyperlinks, comments, drawing objects and much more.
 
 ## Excel File Processing Features
 
@@ -24,7 +24,6 @@ This repository contains [Examples](Examples), [Examples.GridWeb](Examples.GridW
 - Convert to Tagged Image File Format (`TIFF`).
 - Read and Write OpenDocument Spreadsheet (`ODS`) format.
 - Modify the document properties of Excel files.
-- many more.
 
 ### Worksheet Features
 
@@ -36,7 +35,6 @@ This repository contains [Examples](Examples), [Examples.GridWeb](Examples.GridW
 - Protection support for worksheet content, objects as well as scenarios.
 - Perform and apply page setup configuration to worksheets.
 - Perform various actions on individual or group of rows and columns.
-- many more.
 
 ### Data Management Features
 
@@ -46,7 +44,6 @@ This repository contains [Examples](Examples), [Examples.GridWeb](Examples.GridW
 - Get data from worksheet cells and export to array.
 - Apply conditional formatting.
 - Perform numerous formatting actions on data, such as, font setting.
-- many more.
 
 ### Charting & Graphics Features
 
@@ -54,7 +51,6 @@ This repository contains [Examples](Examples), [Examples.GridWeb](Examples.GridW
 - Add custom charts to the worksheet.
 - Add pictures to worksheets at the runtime.
 - Ability to print worksheets.
-- many more.
 
 ### Advanced Features
 
@@ -64,64 +60,28 @@ This repository contains [Examples](Examples), [Examples.GridWeb](Examples.GridW
 
 ## Read & Write Spreadsheet Formats
 
-**Microsoft Excel:** XLS, XLSX, XLSB, XLT, XLTX, XLTM, XLSM, XML
-**OpenOffice:** ODS
-**Text:** CSV, TSV
-**Web:** HTML, MHTML
+**Microsoft Excel:** XLS, XLSX, XLSB, XLT, XLTX, XLTM, XLSM, XML\
+**OpenOffice:** ODS\
+**Text:** CSV, TSV\
+**Web:** HTML, MHTML\
 **Numbers:** Apple's iWork office suite Numbers app documents
 
 ## Save Excel Files As
 
-**Fixed Layout:** PDF, PDF/A, XPS
-**Data Interchange:** DIF
+**Fixed Layout:** PDF, PDF/A, XPS\
+**Data Interchange:** DIF\
 **Images:** JPEG, PNG, BMP, SVG, TIFF, EMF, GIF
 
-## Supported Platforms
+## Supported Environments
 
-- Enterprise Web Application
-- Linux
-- Unix.
+- **Microsoft Windows:** Windows Desktop & Server (x86, x64)
+- **macOS:** Mac OS X
+- **Linux:** Ubuntu, OpenSUSE, CentOS, and others
+- **Java Versions:** `J2SE 7.0 (1.7)`, or above
 
 ## Get Started with Aspose.Cells for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells). You can easily use Aspose.Cells for Java API directly in your Maven projects with simple configurations.
-
-First you need to specify Aspose Repository configuration / location in your Maven `pom.xml` as below:
-
-```xml
-<repositories>
-    <repository>
-          <id>AsposeJavaAPI</id>
-          <name>Aspose Java API</name>
-          <url>http://repository.aspose.com/repo/</url>
-    </repository>
-</repositories>
-```
-
-Then define Aspose.Cells for Java API dependency in your `pom.xml` as follows:
-
-```xml
-<dependencies>
-    <dependency>
-        <groupId>com.aspose</groupId>
-        <artifactId>aspose-cells</artifactId>
-        <version>20.7</version>
-    </dependency>
-    <dependency>
-        <groupId>com.aspose</groupId>
-        <artifactId>aspose-cells</artifactId>
-        <version>20.7</version>
-        <classifier>javadoc</classifier>
-    </dependency>
-    <dependency>
-        <groupId>org.bouncycastle</groupId>
-        <artifactId>bcprov-jdk15on</artifactId>
-        <version>1.60</version>
-    </dependency>
-</dependencies>
-```
-
-Congratulations! You have successfully defined the Aspose.Cells for Java Maven dependency in your Maven project.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells). You can easily use Aspose.Cells for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Cells for Java from Maven Repository](https://docs.aspose.com/display/cellsjava/Installation#Installation-InstallingAspose.CellsforJavafromMavenRepository) documentation page.
 
 ## Convert Table to Range with Options using Java
 

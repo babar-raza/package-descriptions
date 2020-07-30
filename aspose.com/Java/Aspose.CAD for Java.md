@@ -1,19 +1,17 @@
-# Aspose.CAD for Java
+# CAD File Conversion API for Java
 
 [Aspose.CAD for Java](https://products.aspose.com/cad/java) allows developers to convert AutoCAD DWG and DXF files to PDF and Raster images. It is a native API and does not require AutoCAD or any other software to be installed. You can also convert the selected layers and layouts from the AutoCAD files. The conversion to PDF and Raster images is of very high quality.
 
-This repository contains [Examples](Examples), Plugins and Showcases for [Aspose.CAD for Java](https://products.aspose.com/cad/java) to help you learn and write your own applications.
+Directory | Description
+--------- | -----------
+[Examples](Examples) | A collection of Java examples that help you learn the product features.
 
 <p align="center">
 
   <a title="Download complete Aspose.CAD for Java source code" href="https://github.com/aspose-cad/Aspose.CAD-for-Java/archive/master.zip">
-	<img src="http://i.imgur.com/hwNhrGZ.png" />
+	<img src="https://raw.githubusercontent.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
-
-# CAD File Conversion API for Java
-
-[Aspose.CAD for Java](https://products.aspose.com/cad/java) is a standalone class library to enhance your Java applications to process & render CAD drawings without requiring AutoCAD or any other rendering workflow. The CAD Class Library allows high quality [conversion of DWG, DWF, DWT and DXF](https://docs.aspose.com/display/cadjava/Supported+File+Formats) files, layouts and layers to PDF & raster image formats.
 
 ## CAD File Processing Features
 
@@ -25,63 +23,31 @@ This repository contains [Examples](Examples), Plugins and Showcases for [Aspose
 
 ## Read CAD Formats
 
-**AutoCAD:** DWG, DWT, DWF, DWXF, IFC, PLT
-**MicroStation:** DGN
-**The Advanced Visualizer:** OBJ
+**AutoCAD:** DWG, DWT, DWF, DWXF, IFC, PLT\
+**MicroStation:** DGN\
+**The Advanced Visualizer:** OBJ\
 **Other:** STL, IGES, CFF2
 
 ## Save CAD As
 
-**Fixed Layout:** PDF
+**Fixed Layout:** PDF\
 **Raster Images:** PNG, BMP, TIFF, JPEG, GIF
 
 ## Read & Write
 
-**CAD:** DXF
+**CAD:** DXF\
 (Write features is partially supported.)
 
-## Supported Platforms
+## Supported Environments
 
-- Desktop Applications in MS Windows and Servers
-- Enterprise Web Applications
-- Linux (Ubuntu, openSUSE, CentOS and others)
-- Unix
+- **Microsoft Windows:** Windows Desktop & Server (x86, x64)
+- **macOS:** Mac OS X
+- **Linux:** Ubuntu, OpenSUSE, CentOS, and others
+- **Java Versions:** `J2SE 7.0 (1.7)`, `J2SE 8.0 (1.8)`
 
-## Supported Java Versions
+## Get Started with Aspose.CAD for Java
 
-- `J2SE 6.0 (1.6)`
-- `J2SE 7.0 (1.7)`
-- `J2SE 8.0 (1.8)`
-
-# Get Started with Aspose.CAD for Java
-
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cad). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations.
-
-First you need to specify Aspose Repository configuration / location in your Maven `pom.xml` as below:
-
-```xml
-<repositories>
-    <repository>
-        <id>AsposeJavaAPI</id>
-        <name>Aspose Java API</name>
-        <url>http://repository.aspose.com/repo/</url>
-    </repository>
-</repositories>
-```
-
-Then define Aspose.CAD for Java API dependency in your `pom.xml` as follows:
-
-```xml
-<dependencies>
-    <dependency>
-        <groupId>com.aspose</groupId>
-        <artifactId>aspose-cad</artifactId>
-        <version>20.6</version>
-    </dependency>
-</dependencies>
-```
-
-Congratulations! You have successfully defined the Aspose.CAD for Java Maven dependency in your Maven project.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cad). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.CAD for Java from Maven Repository](https://docs.aspose.com/display/cadjava/Installation#Installation-InstallingAspose.CADforJavafromMavenRepository) documentation page.
 
 ## Converting .DXF CAD Drawing to .PNG Format using Java
 

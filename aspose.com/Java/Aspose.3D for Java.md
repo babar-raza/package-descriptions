@@ -1,18 +1,16 @@
-# Aspose.3D for Java
+# Java API for 3D Image Processing
 
 [Aspose.3D for Java API](https://products.aspose.com/3d/java) is built to create, edit, manipulate and save 3D formats. It empowers Java applications to connect with 3D documents without installing any software package on the computer. Aspose.3D for Java API assist developers to model and create massive worlds in games, superb scenes for design visualization, and engage virtual reality experiences. The API is user friendly and saves time and money than creating a similar solution from scratch.
 
-This repository contains [Java Example Projects](https://github.com/aspose-3d/Aspose.3D-for-Java/tree/master/src/java/examples) for [Aspose.3D for Java](https://products.aspose.com/3d/java).
+Directory | Description
+--------- | -----------
+[Examples](Examples) | A collection of Java examples that help you learn the product features.
 
 <p align="center">
   <a title="Download Examples ZIP" href="https://github.com/aspose-3d/Aspose.3D-for-Java/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
-
-## Java API for 3D Image Processing
-
-[Aspose.3D for Java](http://products.aspose.com/3d/java) empowers Java applications to connect with 3D file formats. This 3D Java on-premise API lets your Java apps to read, load, , build, manipulate and modify various supported [3D document formats](https://docs.aspose.com/display/3djava/Feature+List) without  the need to locally install any 3D modeling and rendering software.
 
 ## 3D Processing API Features
 
@@ -41,41 +39,16 @@ HTML
 
 3MF, ASE, DXF, JT, VRML 1.0, X
 
-## Supported Java Versions
+## Supported Environments
 
-Aspose.3D for Java supports the following Java versions:
-
-- `J2SE 9.0 (1.9+)` or above (for example Java 11)
+- **Microsoft Windows:** Windows Desktop & Server (x86, x64)
+- **macOS:** Mac OS X
+- **Linux:** Ubuntu, CentOS, and others
+- **Java Versions:** `J2SE 9.0 (1.9+)` or above (for example Java 11)
 
 ## Get Started with Aspose.3D for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-3d). You can easily use Aspose.3D for Java API directly in your Maven projects with simple configurations.
-
-First you need to specify Aspose Repository configuration / location in your Maven `pom.xml` as below:
-
-```xml
-<repositories>
-    <repository>
-    <id>AsposeJavaAPI</id>
-    <name>Aspose Java API</name>
-    <url>http://repository.aspose.com/repo/</url>
-    </repository>
-</repositories>
-```
-
-Then define Aspose.3D for Java API dependency in your `pom.xml` as follows:
-
-```xml
-<dependencies>
-    <dependency>
-     <groupId>com.aspose</groupId>
-     <artifactId>aspose-3d</artifactId>
-     <version>20.7</version>
-    </dependency>
-</dependencies>
-```
-
-Congratulations! You have successfully defined the Aspose.3D for Java Maven dependency in your Maven project.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-3d). You can easily use Aspose.3D for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.3D for Java from Aspose Repository](https://docs.aspose.com/display/3djava/Installation#Installation-InstallingAspose.3DforJavafromAsposeRepository) documentation page.
 
 ## Create 3D Mesh using Polygons via java Code
 

@@ -1,12 +1,15 @@
-# Aspose.Note for Java
+# Java API for OneNote Document Processing
 
 [Aspose.Note for Java](https://products.aspose.com/note/java) is a class library that enables applications to interact with Microsoft Office OneNote programmatically without its installation on the server. It is a pure alternate for MS OneNote Object Model provides much better performance and ease of use to manage OneNote documents. Aspose.Note for Java API delivers the features to read, convert, create and edit/manipulate the content of the Microsoft OneNote file format.
 
-This repository contains [Examples](Examples), [Plugins](Plugins) and projects that will help you to write your own application using [Aspose.Note for Java](https://products.aspose.com/note/java).
+Directory | Description
+--------- | -----------
+[Examples](Examples) | A collection of Java examples that help you learn the product features.
+[Plugins](Plugins) | Plugins that will demonstrate one or more features of Aspose.Note for Java.
 
 <p align="center">
   <a title="Download complete Aspose.Note for Java source code" href="https://github.com/asposenote/Aspose_Note_Java/archive/master.zip">
-    <img src="http://i.imgur.com/hwNhrGZ.png" />
+    <img src="https://raw.githubusercontent.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
 
@@ -20,7 +23,6 @@ This repository contains [Examples](Examples), [Plugins](Plugins) and projects t
 - Create a Table with Locked Columns in the OneNote Document.
 - [Attach a File to the OneNote Document](https://docs.aspose.com/display/notejava/Working+with+Attachments).
 - Ceate,save, read, convert [OneNote Notebook](https://docs.aspose.com/display/notejava/Working+with+OneNote+Notebook).
-- [Many, many more](https://docs.aspose.com/display/notejava/Developer+Guide).
 
 ## Read & Write OneNote Format
 
@@ -28,65 +30,21 @@ This repository contains [Examples](Examples), [Plugins](Plugins) and projects t
 
 ## Save OneNote Files As
 
-**Fixed Layout:** PDF
+**Fixed Layout:** PDF\
 **Images:** GIF, JPEG, PNG, BMP, TIFF
 
 ## Read Formats
 
 ONETOC2
 
-## Supported Operating Systems
+## Supported Environments
 
-Aspose.Note for Java supports any operating system where Java runtime is installed including, but not limited to:
-
-### Windows
-
-- Microsoft Windows 2003 Server ( x64, x86)
-- Microsoft Windows 2008 Server ( x64, x86)
-- Microsoft Windows 2012 Server ( x64, x86)
-- Microsoft Windows 2012 R2 Server ( x64, x86)
-- Microsoft Windows Vista ( x64, x86)
-- Microsoft Windows XP ( x64, x86)
-- Microsoft Windows 7 ( x64, x86)
-- Microsoft Windows 8, 8.1 ( x64, x86)
-- Microsoft Windows 10 ( x64, x86)
-
-## Supported Java Versions
-
-- `J2SE 7.0 (1.7)`
-- `J2SE 8.0 (1.8)`
-- or above
+- **Microsoft Windows:** Windows Desktop & Server (x86, x64)
+- **Java Versions:** `J2SE 7.0 (1.7)`, `J2SE 8.0 (1.8)` or above
 
 ## Get Started with Aspose.Note for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-note). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations.
-
-First you need to specify Aspose Repository configuration / location in your Maven `pom.xml` as below:
-
-```xml
-<repositories>
-    <repository>
-        <id>AsposeJavaAPI</id>
-        <name>Aspose Java API</name>
-        <url>https://repository.aspose.com/repo/</url>
-    </repository>
-</repositories>
-```
-
-Then define Aspose.Note for Java API dependency in your `pom.xml` as follows:
-
-```xml
-<dependencies>
-    <dependency>
-        <groupId>com.aspose</groupId>
-        <artifactId>aspose-note</artifactId>
-        <version>20.5</version>
-        <classifier>jdk17</classifier>
-    </dependency>
-</dependencies>
-```
-
-Congratulations! You have successfully defined the Aspose.Note for Java Maven dependency in your Maven project.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-note). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Note for Java from Maven Repository](https://docs.aspose.com/display/notejava/Installation#Installation-InstallingAspose.NoteforJavafromMavenRepository) documentation page.
 
 ## Convert OneNote document to PDF with the Default Options using Java
 

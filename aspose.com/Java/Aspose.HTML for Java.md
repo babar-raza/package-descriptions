@@ -6,6 +6,18 @@ Aspose.HTML for Java API works as a headless browser that allows you to [create 
 
 The classes and properties of Aspose.HTML for Java API have similar names as that of W3C HTML specification.
 
+Directory | Description
+--------- | -----------
+[Examples](Examples) | A collection of Java examples that help you learn the product features.
+[Plugins](Plugins) | Plugins that will demonstrate one or more features of Aspose.HTML for Java.
+
+<p align="center">
+
+  <a title="Download complete Aspose.HTML for Java source code" href="https://github.com/aspose-html/Aspose.HTML-for-Java/archive/master.zip">
+	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
+  </a>
+</p>
+
 ## HTML Processing API Features
 
 ### General Features
@@ -53,63 +65,16 @@ The classes and properties of Aspose.HTML for Java API have similar names as tha
 
 EPUB
 
-## Supported Operating Systems
+## Supported Environments
 
-### Windows
-
-- Microsoft Windows 2003 Server
-- Microsoft Windows 2008 Server
-- Microsoft Windows 2012 Server
-- Microsoft Windows XP
-- Microsoft Windows Vista
-- Microsoft Windows 7
-- Microsoft Windows 8, 8.1
-- Microsoft Windows 10
-
-### Linux
-
-- Linux (Ubuntu, CentOS, and others)
-
-### Mac OS
-
-- Mac OS X
-
-## Supported Java Versions
-
-Aspose.Words for Java supports the following Java versions:
-
-- J2SE 8.0 (1.8) or above (for example Java 10)
+- **Microsoft Windows:** Windows Desktop & Server (x86, x64)
+- **macOS:** Mac OS X
+- **Linux:** Ubuntu, OpenSUSE, CentOS, and others
+- **Java Versions:** `J2SE 8.0 (1.8)` or above
 
 ## Get Started with Aspose.HTML for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html). You can easily use Aspose.HTML for Java API directly in your Maven projects with simple configurations.
-
-First you need to specify Aspose Repository configuration / location in your Maven `pom.xml` as below:
-
-```xml
-<repositories>
-    <repository>
-          <id>AsposeJavaAPI</id>
-          <name>Aspose Java API</name>
-          <url>http://repository.aspose.com/repo/</url>
-    </repository>
-</repositories>
-```
-
-Then define Aspose.HTML for Java API dependency in your `pom.xml` as follows:
-
-```xml
-<dependencies>
-    <dependency>
-        <groupId>com.aspose</groupId>
-        <artifactId>aspose-html</artifactId>
-        <version>20.6</version>
-        <type>pom</type>
-    </dependency>
-</dependencies>
-```
-
-Congratulations! You have successfully defined the Aspose.HTML for Java Maven dependency in your Maven project.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html). You can easily use Aspose.HTML for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.HTML for Java from Aspose Repository](https://docs.aspose.com/display/htmljava/Installation#Installation-InstallingAspose.HTMLforJavafromAsposeRepository) documentation page.
 
 ## Load HTML File from a remote URL / Server using Java
 

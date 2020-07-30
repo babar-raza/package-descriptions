@@ -1,17 +1,18 @@
-# Aspose.Diagram for Java
+# Java API for Microsoft Visio® File Formats
 
-This repository contains Java Example Projects for [Aspose.Diagram for Java](https://products.aspose.com/diagram/java).
+[Aspose.Diagram for Java](https://products.aspose.com/diagram/net) API is a solution for Microsoft Visio file manipulation requirements. It allows the Java applications to read, write, export and process Microsoft Visio diagrams while supporting all Visio objects & properties including shapes, pages, images, shape masters, stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, geometries, text boxes, and comments.
+
+Aspose.Diagram for Java can also be used to [apply protection to the Microsoft Visio drawings](https://docs.aspose.com/display/diagramjava/Working+with+Protection) by locking backgrounds, stencils (master) as well as  shapes and styles to avoid any accidental amendments.
+
+Directory | Description
+--------- | -----------
+[Examples](Examples) | A collection of Java examples that help you learn the product features
+
 <p align="center">
   <a title="Download Examples ZIP" href="https://github.com/asposediagram/Aspose_Diagram_Java/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
-
-## Java API for Microsoft Visio® File Formats
-
-[Aspose.Diagram for Java](https://products.aspose.com/diagram/net) API is a solution for Microsoft Visio file manipulation requirements. It allows the Java applications to read, write, export and process Microsoft Visio diagrams while supporting all Visio objects & properties including shapes, pages, images, shape masters, stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, geometries, text boxes, and comments.
-
-Aspose.Diagram for Java can also be used to [apply protection to the Microsoft Visio drawings](https://docs.aspose.com/display/diagramjava/Working+with+Protection) by locking backgrounds, stencils (master) as well as  shapes and styles to avoid any accidental amendments.
 
 ## Visio File Processing Features
 
@@ -21,7 +22,6 @@ Aspose.Diagram for Java can also be used to [apply protection to the Microsoft V
 - Modify Geometry Section of a Connector Shape.
 - Insert an ActiveX Control in the Visio Diagram.
 - [Printing to specific printer](https://docs.aspose.com/display/diagramjava/Working+with+Print#WorkingwithPrint-Printingtospecificprinter) or set printer and document name.
-- [Many, many more](https://docs.aspose.com/display/diagramjava/Developer+Guide).
 
 ## Read & Write Visio Formats
 
@@ -29,58 +29,25 @@ Aspose.Diagram for Java can also be used to [apply protection to the Microsoft V
 
 ## Save Visio Diagrams As
 
-**Fixed Layout:** PDF, XPS
-**Images:** JPEG, PNG, BMP, TIFF, SVG, EMF
-**Web:** HTML
+**Fixed Layout:** PDF, XPS\
+**Images:** JPEG, PNG, BMP, TIFF, SVG, EMF\
+**Web:** HTML\
 **Other:** XAML, SWF
 
 ## Read Visio Formats
 
 **Microsoft Visio:** VDW, VSD, VSS, VST
 
-## Supported Platforms
+## Supported Environments
 
-- Enterprise Web Application
-- Linux (Ubuntu, openSUSE, CentOS and others)
-- Mac OS X
-
-## Supported Java Versions
-
-- `J2SE 6.0 (1.6)`
-- `J2SE 7.0 (1.7)`
-- `J2SE 8.0 (1.8)`
-- or higher.
+- **Microsoft Windows:** Windows Desktop & Server (x86, x64)
+- **macOS:** Mac OS X
+- **Linux:** Ubuntu, OpenSUSE, CentOS, and others
+- **Java Versions:** `J2SE 7.0 (1.7)`, `J2SE 8.0 (1.8)`
 
 ## Get Started with Aspose.Diagram for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations.
-
-First you need to specify Aspose Repository configuration / location in your Maven `pom.xml` as below:
-
-```xml
-<repositories>
-    <repository>
-        <id>AsposeJavaAPI</id>
-        <name>Aspose Java API</name>
-        <url>http://repository.aspose.com/repo/</url>
-    </repository>
-</repositories>
-```
-
-Then define Aspose.Diagram for Java API dependency in your `pom.xml` as follows:
-
-```xml
-<dependencies>
-    <dependency>
-        <groupId>com.aspose</groupId>
-        <artifactId>aspose-diagram</artifactId>
-        <version>20.7</version>
-        <classifier>jdk16</classifier>
-    </dependency>
-</dependencies>
-```
-
-Congratulations! You have successfully defined the Aspose.Diagram for Java Maven dependency in your Maven project.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-diagram). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Diagram for Java from Aspose Repository](https://docs.aspose.com/display/diagramjava/Installation#Installation-InstallingAspose.DiagramforJavafromAsposeRepository) documentation page.
 
 ## Auto-fit the Visio Diagram using Java
 

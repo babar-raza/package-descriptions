@@ -1,38 +1,40 @@
-# Aspose.Imaging for Java
+# Java API for Image Processing
 
-This package contains Java example code for [Aspose.Imaging for Java](https://products.aspose.com/imaging/java).
+It is a [standalone Imaging API](https://products.aspose.com/imaging/java) consists of Java routines that enable your Java applications to draw as well as perform basic to advanced level processing of raster & vector images.
+
+Aspose.Imaging for Java offers robust image compression and high processing speed through native byte access and a range of efficient algorithms. It not only manipulate, export and convert images but also lets you dynamically draw objects using pixel manipulation and Graphics Path.
+
+Directory | Description
+--------- | -----------
+[Examples](Examples) | A collection of Java examples that help you learn the product features.
+[Plugins](Plugins) | Plugins that will demonstrate one or more features of Aspose.Imaging for Java.
 
 <p align="center">
   <a title="Download ZIP" href="https://github.com/asposeimaging/Aspose_Imaging_Java/archive/master.zip">
-     <img src="http://i.imgur.com/hwNhrGZ.png" />
+     <img src="https://raw.githubusercontent.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
 
-## .NET API for Image Processing
-
-It is a [standalone Imaging API](https://products.aspose.com/imaging/java) that enable your Java apps to draw as well as perform basic to advanced level processing of raster & vector images.
-
-Aspose.Imaging for Java offers robust image compression and high processing speed through native byte access and a range of efficient algorithms. It has the ability to manipulate, export, and convert images.
-
 ## Imaging API Features
 
-- Create, Open and Save Images.
-- Manipulate and convert images from one format to the other supported formats.
-- Crop, rotate, resize, and deskew images.
-- Ability to export images in multi threaded environment.
-- Modify Text In Text layer inside a `PSD` file.
-- [Many, many more](https://docs.aspose.com/display/imagingjava/Developer+Guide).
+- Draw raster images with graphics.
+- Draw vector images.
+- Converting images to various formats.
+- [Apply masking](https://docs.aspose.com/display/imagingjava/Applying+Masking+to+Images) as well as [Median & Wiener](https://docs.aspose.com/display/imagingjava/Applying+Median+and+Wiener+Filters) filters.
+- Crop, rotate & resize images via API.
+- De-skew & transform images.
+- Set image properties.
 
 ## Read & Write Image Formats
 
-**Raster Formats:** JPEG2000, JPEG, BMP, TIFF, GIF, PNG, APNG
-**Metafiles:** EMF, EMZ, WMF, WMZ
+**Raster Formats:** JPEG2000, JPEG, BMP, TIFF, GIF, PNG, APNG\
+**Metafiles:** EMF, EMZ, WMF, WMZ\
 **Other:** SVG, SVGZ, DICOM
 
 ## Save Images As
 
-**Fixed:** PDF
-**Photoshop:** PSD
+**Fixed:** PDF\
+**Photoshop:** PSD\
 **Markup:** HTML5 Canvas
 
 ## Read Image Formats
@@ -54,34 +56,7 @@ Aspose.Imaging works for both x86 and x64 versions of the above listed operating
 
 ## Get Started with Aspose.Imaging for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-imaging). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations.
-
-First you need to specify Aspose Repository configuration / location in your Maven `pom.xml` as below:
-
-```xml
-<repositories>
-    <repository>
-        <id>AsposeJavaAPI</id>
-        <name>Aspose Java API</name>
-        <url>https://repository.aspose.com/repo/</url>
-    </repository>
-</repositories>
-```
-
-Then define Aspose.Imaging for Java API dependency in your `pom.xml` as follows:
-
-```xml
-<dependencies>
-    <dependency>
-        <groupId>com.aspose</groupId>
-        <artifactId>aspose-imaging</artifactId>
-        <version>20.6</version>
-        <classifier>jdk16</classifier>
-   </dependency>
-</dependencies>
-```
-
-Congratulations! You have successfully defined the Aspose.Imaging for Java Maven dependency in your Maven project.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-imaging). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Imaging for Java from Maven Repository](https://docs.aspose.com/display/imagingjava/Installation#Installation-InstallingAspose.ImagingforJavafromMavenRepository) documentation page.
 
 ## Crop EMF Image by Rectangle using Java
 
