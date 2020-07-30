@@ -20,12 +20,11 @@ Node.js Cloud SDK wraps Aspose.Imaging REST API so you could seamlessly integrat
 	- Image comparison and similarity detection.
 	- Image features extraction (for now, AKAZE detector is supported).
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Renamed the `saveAs` API method to convert.
-- Added `allowlabels` and `blocklabels` parameters to object detection api requests.
+- Support of saving image files to `DICOM` format.
 
-For the detailed notes, please visit [Aspose.Imaging Cloud 20.6 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.6+-+Release+Notes).
+For the detailed notes, please visit [Aspose.Imaging Cloud 20.7 - Release Notes](https://docs.aspose.cloud/display/imagingcloud/Aspose.Imaging+Cloud+20.7+-+Release+Notes).
 
 ## Read & Write Image Formats
 
@@ -33,7 +32,7 @@ BMP, GIF, JPEG, JPEG2000, PSD, TIFF, WEBP, PNG, WMF, EMF, SVG
 
 ## Save Images As
 
-PDF
+PDF, DICOM
 
 ## Read Images From
 
