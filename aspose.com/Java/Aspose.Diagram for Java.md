@@ -1,12 +1,13 @@
 # Java API for Microsoft Visio® File Formats
 
-[Aspose.Diagram for Java](https://products.aspose.com/diagram/net) API is a solution for Microsoft Visio file manipulation requirements. It allows the Java applications to read, write, export and process Microsoft Visio diagrams while supporting all Visio objects & properties including shapes, pages, images, shape masters, stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, geometries, text boxes, and comments.
+[Aspose.Diagram for Java](https://products.aspose.com/diagram/java) API is a solution for Microsoft Visio file manipulation requirements. It allows the Java applications to read, write, export and process Microsoft Visio diagrams while supporting all Visio objects & properties including shapes, pages, images, shape masters, stencils, text, layers, header, footers, user-defined cells, hyperlinks, file protection, geometries, text boxes, and comments.
 
 Aspose.Diagram for Java can also be used to [apply protection to the Microsoft Visio drawings](https://docs.aspose.com/display/diagramjava/Working+with+Protection) by locking backgrounds, stencils (master) as well as  shapes and styles to avoid any accidental amendments.
 
 Directory | Description
 --------- | -----------
-[Examples](Examples) | A collection of Java examples that help you learn the product features
+[Examples](https://github.com/aspose-diagram/Aspose.Diagram-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
+[Plugins](https://github.com/aspose-diagram/Aspose.Diagram-for-Java/tree/master/Plugins) | Plugins that will demonstrate one or more features of Aspose.Diagram for Java.
 
 <p align="center">
   <a title="Download Examples ZIP" href="https://github.com/asposediagram/Aspose_Diagram_Java/archive/master.zip">

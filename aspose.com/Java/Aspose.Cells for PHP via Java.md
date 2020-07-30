@@ -60,7 +60,7 @@ Aspose.Cells for PHP via Java is platform independent API and can be used on any
 
 Aspose.Cells for PHP via Java consists of two individual parts, the script wrapper (aspose.cells.php) and Aspose.Cells for Java. These components communicate via PHP/Java Bridge whereas both require separate environments & processes for execution. For the detailed instructions please visit [Installation and Usage](https://docs.aspose.com/display/cellsjava/Setup+and+Installation+Guidelines#SetupandInstallationGuidelines-InstallationandUsage) documentation page.
 
-### Sample Usage
+## Create a New XLSX File and Insert Data using Java
 
 ```php
 <?php

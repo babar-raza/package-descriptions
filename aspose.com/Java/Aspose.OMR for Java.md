@@ -4,7 +4,7 @@
 
 Directory | Description
 --------- | -----------
-[Examples](Examples) | A collection of Java examples that help you learn the product features.
+[Examples](https://github.com/aspose-omr/Aspose.OMR-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
 
 <p align="center">
   <a title="Download Examples ZIP" href="https://github.com/aspose-omr/Aspose.omr-for-Java/archive/master.zip">

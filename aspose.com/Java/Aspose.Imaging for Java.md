@@ -6,8 +6,8 @@ Aspose.Imaging for Java offers robust image compression and high processing spee
 
 Directory | Description
 --------- | -----------
-[Examples](Examples) | A collection of Java examples that help you learn the product features.
-[Plugins](Plugins) | Plugins that will demonstrate one or more features of Aspose.Imaging for Java.
+[Examples](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
+[Plugins](https://github.com/aspose-imaging/Aspose.Imaging-for-Java/tree/master/Plugins) | Plugins that will demonstrate one or more features of Aspose.Imaging for Java.
 
 <p align="center">
   <a title="Download ZIP" href="https://github.com/asposeimaging/Aspose_Imaging_Java/archive/master.zip">

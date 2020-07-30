@@ -4,8 +4,8 @@
 
 Directory | Description
 --------- | -----------
-[Examples](Examples) | A collection of Java examples that help you learn the product features.
-[Plugins](Plugins) | Plugins that will demonstrate one or more features of Aspose.BarCode for Java.
+[Examples](https://github.com/aspose-barcode/Aspose.BarCode-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
+[Plugins](https://github.com/aspose-barcode/Aspose.BarCode-for-Java/tree/master/Plugins) | Plugins that will demonstrate one or more features of Aspose.BarCode for Java.
 
 <p align="center">
     <a title="Download complete Aspose.BarCode for Java source code" href="https://github.com/asposebarcode/Aspose_BarCode_Java/archive/master.zip">

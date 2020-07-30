@@ -4,9 +4,9 @@
 
 Directory | Description
 --------- | -----------
-[Examples](Examples) | A collection of Java examples that help you learn the product features.
-[Examples.GridWeb](Examples.GridWeb) | A collection of Java examples that help you learn and explore Aspose.GridWeb features.
-[Plugins](Plugins) | Plugins that will demonstrate one or more features of Aspose.Cells for Java.
+[Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
+[Examples.GridWeb](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb) | A collection of Java examples that help you learn and explore Aspose.GridWeb features.
+[Plugins](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins) | Plugins that will demonstrate one or more features of Aspose.Cells for Java.
 
 <p align="center">
   <a title="Download ZIP" href="https://github.com/aspose-cells/Aspose.Cells-for-Java/archive/master.zip">

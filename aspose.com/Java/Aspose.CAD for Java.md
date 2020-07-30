@@ -4,7 +4,7 @@
 
 Directory | Description
 --------- | -----------
-[Examples](Examples) | A collection of Java examples that help you learn the product features.
+[Examples](https://github.com/aspose-cad/Aspose.CAD-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
 
 <p align="center">
 

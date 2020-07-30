@@ -4,8 +4,8 @@
 
 Directory | Description
 --------- | -----------
-[Examples](Examples) | A collection of Java examples that help you learn the product features.
-[Plugins](Plugins) | Plugins that will demonstrate one or more features of Aspose.Note for Java.
+[Examples](https://github.com/aspose-note/Aspose.Note-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
+[Plugins](https://github.com/aspose-note/Aspose.Note-for-Java/tree/master/Plugins) | Plugins that will demonstrate one or more features of Aspose.Note for Java.
 
 <p align="center">
   <a title="Download complete Aspose.Note for Java source code" href="https://github.com/asposenote/Aspose_Note_Java/archive/master.zip">

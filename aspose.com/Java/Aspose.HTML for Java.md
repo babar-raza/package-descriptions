@@ -8,8 +8,7 @@ The classes and properties of Aspose.HTML for Java API have similar names as tha
 
 Directory | Description
 --------- | -----------
-[Examples](Examples) | A collection of Java examples that help you learn the product features.
-[Plugins](Plugins) | Plugins that will demonstrate one or more features of Aspose.HTML for Java.
+[Examples](https://github.com/aspose-html/Aspose.HTML-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
 
 <p align="center">
 

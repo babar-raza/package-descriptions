@@ -4,8 +4,8 @@
 
 Directory | Description
 --------- | -----------
-[Examples](Examples) | A collection of Java examples that help you learn the product features.
-[Plugins](Plugins) | Plugins that will demonstrate one or more features of Aspose.Email for Java.
+[Examples](https://github.com/aspose-email/Aspose.Email-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
+[Plugins](https://github.com/aspose-email/Aspose.Email-for-Java/tree/master/Plugins) | Plugins that will demonstrate one or more features of Aspose.Email for Java.
 
 <p align="center">
   <a title="Download complete Aspose.Email for Java source code" href="https://github.com/asposeemail/Aspose_Email_Java/archive/master.zip">
