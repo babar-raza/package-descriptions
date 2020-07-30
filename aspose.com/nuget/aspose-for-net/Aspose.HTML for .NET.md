@@ -18,18 +18,13 @@ The classes and properties of Aspose.HTML for .NET API have similar names as tha
 - Extract CSS styling information.
 - Configuring Sandbox for the environment independent of the execution machine.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Support to convert `HTML` to Word format (`DOC` and `DOCX`).
-- Various rendering quality improvements including;
-  - Improved size calculation of `BODY` and `HTML` elements that are now correctly rendered in different DOCTYPEs.
-  - Improved handling of the `TABLE` elements which have multiple CAPTIONs.
-  - Increased document loading speed.
-  - Updated the clipping processing algorithm according to the latest documentation
-  - Increased precision of the `LEGEND` element positioning.
-  - Updated the `URL` parsing algorithm according to the latest documentation.
+- Improvement in font matching algorithm.
+- Improved rendering of the `SVG` anchor element.
+- Ability to process of page bookmarks.
 
-For the detailed notes, please visit [Aspose.HTML for .NET 20.6 Release Notes](https://docs.aspose.com/display/htmlnet/Aspose.HTML+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.HTML for .NET 20.7 Release Notes](https://docs.aspose.com/display/htmlnet/Aspose.HTML+for+.NET+20.7+Release+Notes).
 
 ## Read & Write Web Formats
 
