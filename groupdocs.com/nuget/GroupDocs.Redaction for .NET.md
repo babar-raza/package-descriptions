@@ -12,11 +12,14 @@ This .NET component makes it very easy to [remove classified or sensitive data](
 - Apply multiple redaction in a single call.
 - Modify compliance level from PDF/A-1b to PDF/A-1a during rasterizing PDF.
 
-## Enhancements in the Version 20.2
+## Enhancements in the Version 20.7
 
-- Support for metadata redaction of raster images (i.e. ability to edit or erase image metadata).
+- Ability to redact embedded images in `PDF`, *textual* and p*resentation* documents.
+- Allow `ImageAreaRedaction` to be applied to rasterized `PDF`.
+- Added support for embedded image redaction with `Aspose.Words`.
+- Added support for embedded image redaction with `Aspose.Slides`.
 
-For the detailed notes, please visit [GroupDocs.Redaction for .NET 20.2 Release Notes](https://docs.groupdocs.com/redaction/net/groupdocs-redaction-for-net-20-2-release-notes/).
+For the detailed notes, please visit [GroupDocs.Redaction for .NET 20.7 Release Notes](https://docs.groupdocs.com/redaction/net/groupdocs-redaction-for-net-20-7-release-notes/).
 
 ## Document Body & Metadata Redaction Formats
 

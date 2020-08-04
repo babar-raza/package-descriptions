@@ -13,6 +13,15 @@ On-premise library to [compare documents](https://products.groupdocs.com/compari
 - Set metadata from the source, target files or keep it user-defined.
 - Make the resultant document password protected.
 
+## New Features & Enhancements in Version 20.7
+
+- Refactor `GetDocumentInfo` Method for Cells.
+- Improved comparison of `DocumentTags` Word.
+- Improved *sheet rendering* for Cells.
+- Added ability to *merge* source code file.
+
+For the detailed notes, please visit [GroupDocs.Comparison for .NET 20.7 Release Notes](https://docs.groupdocs.com/comparison/net/groupdocs-comparison-for-net-20-7-release-notes/).
+
 ## Supported Microsoft Office Formats
 
 **Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTX\

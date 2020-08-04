@@ -15,11 +15,14 @@ Its an on-premise API that seamlessly [integrates document annotation features](
 - Remove previously added annotations from a document.
 - Update specific annotation properties (size, color etc.).
 
-## New Features in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Improved `PDF` document *annotation accuracy*, *refactoring* and *annotation optimization* process.
+- Implemented `Angle` property for Image Annotation.
+- Implemented *horizontal* and *vertical* alignment for Watermark.
+- Implemented text horizontal alignment (`TextHorizontalAlignment`) for `TextField`.
+- Improved exceptions usage.
 
-For the detailed notes, please visit [GroupDocs.Annotation for .NET 20.6 Release Notes](https://docs.groupdocs.com/annotation/net/groupdocs-annotation-for-net-20-6-release-notes/).
+For the detailed notes, please visit [GroupDocs.Annotation for .NET 20.7 Release Notes](https://docs.groupdocs.com/annotation/net/groupdocs-annotation-for-net-20-7-release-notes/).
 
 ## Annottaion Objects
 

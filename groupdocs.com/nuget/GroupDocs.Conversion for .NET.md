@@ -18,22 +18,30 @@ This .NET API can seamlessly integrate and enables your C#, ASP.NET & other .NET
 - Load password protected documents.
 - Enable listening of conversion process stages.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Implemented conversion from/to `FODP` format.
-- Implemented conversion from/to `MD` format.
-- Ability to convert `XML` files as data source.
-- Improved document info for `PST`/`OST` documents.
+- Added conversion support for following:
+  - Conversions from `AI`
+  - Conversions to `DIF`
+  - Conversions from/to `SXC`
+  - Conversions from/to `EMZ`
+  - Conversions from/to `WMZ`
+  - Conversions from/to `SVGZ`
+- Ability to change watermark font property from `System.Drawing.Font` to own class.
 
-For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.6 Release Notes](https://docs.groupdocs.com/conversion/net/groupdocs-conversion-for-net-20-6-release-notes/).
+## Important Notice
+
+`GroupDocs.Conversion.Options.Convert.WatermarkOptions` property `Font` - will be removed in **v20.10**. Property `WatermarkFont` must be used instead.
+
+For the detailed notes, please visit [GroupDocs.Conversion for .NET 20.7 Release Notes](https://docs.groupdocs.com/conversion/net/groupdocs-conversion-for-net-20-7-release-notes/).
 
 ## Conversion File Formats
 
 GroupDocs.Conversion allows you to convert any of the following type of file formats:
-**Spreadsheet:** XLSX, XLSB, XLS2003, XLT, XLTX, XLTM, XLAM, XLS, XLSM, ODS, TSV, CSV\
+**Spreadsheet:** XLSX, XLSB, XLS2003, XLT, XLTX, XLTM, XLAM, XLS, XLSM, ODS, TSV, CSV, SXC\
 **Document:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT, ODT, OTT\
 **Presentation:** PPT, PPS, PPTX, PPSX, ODP, POT, POTX, POTM, PPTM, PPSM, FODP\
-**Image:** JPEG-LS, TIFF, TIF, JPEG, JPG, PNG, GIF, BMP, ICO, CMX, DIB, JPC\
+**Image:** JPEG-LS, TIFF, TIF, JPEG, JPG, PNG, GIF, BMP, ICO, CMX, DIB, JPC, AI, SVGZ\
 **Portable Document:** PDF, XPS, EPUB\
 **Web:** HTM, HTML, MHTML\
 **Adobe Photoshop:** PSD\
@@ -43,16 +51,17 @@ GroupDocs.Conversion allows you to convert any of the following type of file for
 **AutoCAD:** DXF, DWG, DWF, STL, IFC, DWT\
 **Page Description:** EPS, PCL, PS, CGM\
 **Markup:** MD
+**Metafile:** EMZ, WMZ
 
 to the following formats:
-**Microsoft Excel:** XLS, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, XLTM, XLAM\
-**Microsoft Word:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT\
-**Microsoft PowerPoint:** PPT, PPS, PPTX, PPSX, POT, POTX, POTM, PPTM, PPSM\
-**OpenDocument:** ODT, OTT, ODS, ODP, OTP, FODP\
-**Images:** TIFF, TIF, JPEG, JPG, PNG, GIF, BMP, ICO, EMF, WMF\
+**Spreadsheet:** XLS, XLSM, XLSB, CSV, XLS2003, TSV, XLTX, XLTM, XLAM, ODS, DIF, SXC\
+**Document:** DOC, DOCM, DOCX, DOT, DOTM, DOTX, RTF, TXT, ODT, OTT\
+**Presentation:** PPT, PPS, PPTX, PPSX, POT, POTX, POTM, PPTM, PPSM, ODP, OTP, FODP\
+**Images:** TIFF, TIF, JPEG, JPG, PNG, GIF, BMP, ICO, EMF, WMF, SVGZ\
 **Fixed Layout:** PDF, XPS\
 **Web:** HTM, HTML, MHTML\
 **Markup:** MD
+**Metafile:** EMZ, WMZ
 
 ## Supported Platforms
 

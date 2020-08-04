@@ -21,31 +21,28 @@ It is a .NET API that enhances your apps to perform document, spreadsheets, DSV 
 - Open any supported format file in HTML format and save to disk.
 - Fetch HTML markup from DB or remote storage.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Added [support of fields](https://docs.groupdocs.com/editor/net/groupdocs-editor-for-net-20-6-release-notes/#add-support-of-fields-located-across-multiple-adjacent-consequent-paragraphs), located across multiple adjacent consequent paragraphs.
-- Support of [`FILENAME` field](https://docs.groupdocs.com/editor/net/groupdocs-editor-for-net-20-6-release-notes/#support-of-time-html-field).
-- Support of [interleaved lists and complex list](https://docs.groupdocs.com/editor/net/groupdocs-editor-for-net-20-6-release-notes/#support-of-interleaved-lists-and-complex-list-item-marks) item marks.
-- Support of `TIME` HTML field.
-- Support of all date- and time-related fields.
-- Better processing of incompatible markup in WordProcessing converter in paged mode.
-- Support of collapsed borders between adjacent paragraphs.
-- Improved compatibility with Linux.
+- [Support of `MOBI` format](https://docs.groupdocs.com/editor/net/groupdocs-editor-for-net-20-7-release-notes/#support-of-mobi-format) (currently only load, detect and edit operations are supported).
+- Ability to embed fonts in resultant WordProcessing document during saving.
+- Support of new [`CSS` properties](https://docs.groupdocs.com/editor/net/groupdocs-editor-for-net-20-7-release-notes/#support-of-new-css-properties).
+- Support of new [`HTML` elements](https://docs.groupdocs.com/editor/net/groupdocs-editor-for-net-20-7-release-notes/#support-of-new-html-elements).
 
-For the detailed notes, please visit [GroupDocs.Editor for .NET 20.6 Release Notes](https://docs.groupdocs.com/editor/net/groupdocs-editor-for-net-20-6-release-notes/).
+For the detailed notes, please visit [GroupDocs.Editor for .NET 20.7 Release Notes](https://docs.groupdocs.com/editor/net/groupdocs-editor-for-net-20-7-release-notes/).
 
 ## Editable File Formats
 
 **Word Processing:** DOC, DOCX, DOCM, DOT, DOTM, DOTX, FlatOPC, ODT, OTT, RTF, WordML
 **Spreadsheet:** XLS, XLT, XLSX, XLSM, XLTX, XLTM, XLSB, XLAM, SXC, SpreadsheetML, ODS, FODS, DIF, DSV, CSV, TSV
 **Presentation:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTX, ODP, OTP
-**Other:** TXT, HTML, XML
+**Other:** TXT, HTML, XML, MOBI
 
 ## Auto-detect File Formats
 
 **Word Processing:** DOC, DOCX, DOCM, DOT, DOTM, DOTX, ODT, OTT, RTF
 **Spreadsheet:** XLS, XLT, XLSX, XLSM, XLTX, XLTM, XLSB, XLAM, SXC, SpreadsheetML, ODS, FODS, DIF
 **Presentation:** PPT, PPTX, PPTM, PPS, PPSX, PPSM, POT, POTX, ODP, OTP
+**Ebook:** MOBI
 
 ## Platform Independence
 
