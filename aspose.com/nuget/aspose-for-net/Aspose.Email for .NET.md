@@ -15,14 +15,11 @@
 - Tools to verify email addresses, email syntax, email domain, mail server & MX records.
 - Extract objects from various mail storage formats as well as [create email storage files from scratch](https://docs.aspose.com/display/emailnet/Create+New+PST+File+and+Add+SubFolders).
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Implemented the support for `AQS` search for `EWS` client.
-- Added the Support for getting Email Category in `MHTML`.
-- Added `overload` for `SaveAs` with Stream input in `PersonalStorage`.
-- Added `overload` for `MergeWith` with Streams in `PersonalStorage`.
+- Ability to stop the stuck operation of saving message to the `MHT` format, handle the event, and continue executing the application.
 
-For the detailed notes, please visit [Aspose.Email for .NET 20.6 Release Notes](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.Email for .NET 20.7 Release Notes](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.7+Release+Notes).
 
 ## Read & Write Email Formats
 
