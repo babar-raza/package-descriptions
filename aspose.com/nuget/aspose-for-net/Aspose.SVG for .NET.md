@@ -10,11 +10,14 @@ This .NET on-premise API helps you [seamlessly integrate SVG file processing & m
 - Support for content navigation via [XPath Query](https://docs.aspose.com/display/svgnet/Traverse+SVG+DOM#TraverseSVGDOM-UsingXPathQuery), [CSS Selectors](https://docs.aspose.com/display/svgnet/Traverse+SVG+DOM#TraverseSVGDOM-UsingCSSSelector), Element and Document Traversal features.
 - Support for quality rendering.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Support for rendering `(X)HTML` content inside of the `<foreignObject>` `SVG` elements. This new feature enables the correct rendering of the `HTML` and `XHTML` elements embedded into `SVG` document (during conversion to the [supported formats](https://docs.aspose.com/display/svgnet/How+to+Convert+SVG+Files))
+- Added support for the *comp-op* property with the following list of values: `clear`, `src`, `dst`, `src-over`, `dst-over`, `src-in`, `dst-in`, `src-out`, `dst-out`, `src-atop`, `dst-atop`, `xor`, `plus`, `overlay`, `color-dodge`, `color-burn`, `hard-light`, `soft-light`, `difference`, `exclusion`.
+- The algorithm processing the type of the *discrete transfer function* has been fixed;
+- Improved precision of the `GetBBox` method.
+- Added new signatures to the `SVGFEBlendElement` class
 
-For the detailed notes, please visit [Aspose.SVG for .NET 20.6 Release Notes](https://docs.aspose.com/display/svgnet/Aspose.SVG+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.SVG for .NET 20.7 Release Notes](https://docs.aspose.com/display/svgnet/Aspose.SVG+for+.NET+20.7+Release+Notes).
 
 ## Read Supported Formats
 
