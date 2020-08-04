@@ -1,6 +1,6 @@
 [Aspose.Words for .NET](https://products.aspose.com/words/net) is a powerful on-premise class library that can be used for numerous document processing tasks. It enables developers to enhance their own applications with features such as generating, modifying, converting, rendering, and printing documents, without relying on third-party applications, for example, Microsoft Word, or automation.
 
-### Word API Features
+## Word API Features
 
 The following are some popular features of Aspose.Words for .NET:
 
@@ -12,7 +12,7 @@ The following are some popular features of Aspose.Words for .NET:
 - [Generate reports with Mail Merge](https://docs.aspose.com/display/wordsnet/Mail+Merge+and+Reporting), which allows filling in merge templates with data from various sources to create merged documents.
 - [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) to fetch data from databases, XML, JSON, OData, external documents, and much more.
 
-### New Features & Enhancements in Version 20.8
+## New Features & Enhancements in Version 20.8
 
 - Implemented Markdown *Inline Images* feature.
 - Added new font substitution rule for font name processing.
@@ -21,7 +21,7 @@ The following are some popular features of Aspose.Words for .NET:
 
 For the detailed notes, please visit [Aspose.Words for .NET 20.8 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.8+Release+Notes).
 
-### Read & Write Document Formats
+## Read & Write Document Formats
 
 Aspose.Words for .NET supports the following formats,
 
@@ -34,13 +34,13 @@ Aspose.Words for .NET supports the following formats,
 
 For a complete list of formats supported by Aspose.Words, see the [Supported Document Formats](https://docs.aspose.com/display/wordsnet/Supported+Document+Formats) page.
 
-### Platform Independence
+## Platform Independence
 
 Aspose.Words for .NET API can be used to develop applications for a vast range of operating systems, such as Windows, Linux and Mac OS, and platforms. You can build both 32-bit and 64-bit applications, including ASP.NET, WCF, and WinForms. Aspose.Words for .NET can also be used via COM Interop from ASP, PHP, Perl, and Python.
 
 You can also build applications with Mono, as well as on Windows Azure, Microsoft SharePoint, Microsoft Silverlight, Xamarin.Android, Xamarin.iOS, and Xamarin.Mac.
 
-### Getting Started with Aspose.Words for .NET
+## Getting Started with Aspose.Words for .NET
 
 Ready to give Aspose.Words for .NET a try?
 
@@ -49,7 +49,7 @@ If you already have Aspose.Words for .NET and want to upgrade the version, pleas
 
 You can run the following snippets in your environment to see how Aspose.Words works, or check out the [GitHub Repository](https://github.com/aspose-words/Aspose.Words-for-.NET) for other common use cases.
 
-### Using C# to Create a DOCX File from Scratch
+## Using C# to Create a DOCX File from Scratch
 
 Aspose.Words for .NET allows you to create a new blank document and add content to this document.
 
@@ -66,7 +66,7 @@ builder.Writeln("Hello World!");
 doc.Save(dir + "output.docx");
 ```
 
-### Using C# to Convert a Word Document to HTML
+## Using C# to Convert a Word Document to HTML
 
 Aspose.Words for .NET also allows you to convert Microsoft Word formats to PDF, XPS, Markdown, HTML, JPEG, TIFF, and other file formats. Following snippet demonstrates the conversion from DOCX to HTML:
 
@@ -78,7 +78,7 @@ Document doc = new Document(dir + "TestDocument.docx");
 doc.Save(dir + "output.html");
 ```
 
-### Using C# to Import PDF and Save as a DOCX File
+## Using C# to Import PDF and Save as a DOCX File
 
 In addition, you can import a PDF document into your .NET application and export it as a DOCX format file without the need to install the Microsoft Word:
 
