@@ -18,11 +18,11 @@ Generate new barcodes (Linear, 2D & Postal), configure barcode properties and at
 - Recognize specified number of barcodes.
 - Apply image processing algorithms to read barcodes.
 
-## Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.8
 
-- Made `ApiException` class public in C# SDK.
+- Added `patchCode.ExtraBarcodeText` & `patchCode.PatchFormat` parameters.
 
-For the detailed notes, please visit [Aspose.BarCode Cloud 20.6 Release Notes](https://docs.aspose.cloud/display/barcodecloud/Aspose.BarCode+Cloud+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.BarCode Cloud 20.8 Release Notes](https://docs.aspose.cloud/display/barcodecloud/Aspose.BarCode+Cloud+20.8+Release+Notes).
 
 ## Read & Write BarCode Formats
 

@@ -18,12 +18,11 @@ Node.js Cloud SDK wraps Aspose.BarCode Cloud API so you could seamlessly integra
 - Recognize specified number of barcodes.
 - Apply image processing algorithms to read barcodes.
 
-## Enhancements in Version 20.5
+## New Features & Enhancements in Version 20.8
 
-- Improved the Barcode recognition API.
-- Exposed all Barcode-specific generator parameters to API.
+- Added `patchCode.ExtraBarcodeText` & `patchCode.PatchFormat` parameters.
 
-For the detailed notes, please visit [Aspose.BarCode Cloud 20.5 Release Notes](https://docs.aspose.cloud/display/barcodecloud/Aspose.BarCode+Cloud+20.5+Release+Notes).
+For the detailed notes, please visit [Aspose.BarCode Cloud 20.8 Release Notes](https://docs.aspose.cloud/display/barcodecloud/Aspose.BarCode+Cloud+20.8+Release+Notes).
 
 ## Generate & Recognize Barcode As
 

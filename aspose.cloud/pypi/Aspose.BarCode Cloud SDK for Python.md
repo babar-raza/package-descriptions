@@ -21,6 +21,12 @@ This repository contains Aspose.BarCode Cloud SDK for Python source code. This S
 - Recognize specified number of barcodes.
 - Apply image processing algorithms to read barcodes.
 
+## New Features & Enhancements in Version 20.8
+
+- Added `patchCode.ExtraBarcodeText` & `patchCode.PatchFormat` parameters.
+
+For the detailed notes, please visit [Aspose.BarCode Cloud 20.8 Release Notes](https://docs.aspose.cloud/display/barcodecloud/Aspose.BarCode+Cloud+20.8+Release+Notes).
+
 ## Read & Write BarCode Formats
 
 JPEG, TIFF, PNG, BMP, GIF
