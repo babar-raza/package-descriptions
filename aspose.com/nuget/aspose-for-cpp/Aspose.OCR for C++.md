@@ -14,6 +14,7 @@
 
 - New `ML` model with improved recognition.
 - Ability to recognize text in the tables.
+- Added image recognition using `GPU` and `CUDA` technology (available in separate assembly `Aspose.Ocr.Cpp.Gpu`).
 
 For the detailed notes, pelase visit [Aspose.OCR for C++ 20.7 Release Notes](https://docs.aspose.com/display/ocrcpp/Aspose.OCR+for+CPP+20.7+Release+Notes).
 
