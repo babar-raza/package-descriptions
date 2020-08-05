@@ -11,14 +11,11 @@ This REST API enables your C#, ASP.NET & other .NET cloud-based apps to [process
 - Merge multiple presentations or split single presentation into multiple ones.
 - Extract and replace text from specific slide or entire presentation.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Added method to check if the `NotesSilde` exists.
-- Created separate endpoints for shape resources with empty `subshape` paths.
-- Support for `FODP` save & load format.
-- Support `PDF/A-1a` and `PDF/UA` options for `PdfCompliance` enumeration.
+- Added methods to modify chart series. The new resource is a subresource of shape. It works only for *Chart* shapes and allows to *add*, *modify* & *delete* chart series.
 
-For the detailed notes, please visit [Aspose.Slides Cloud 20.6 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides Cloud 20.7 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.7+Release+Notes).
 
 ## Read & Write Presentation Formats
 
