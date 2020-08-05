@@ -22,18 +22,12 @@
 - Add [display or audio reminder](https://docs.aspose.com/display/emailcpp/Working+with+Outlook+Calendar+Items) to email calendar items.
 - So many more [features](https://docs.aspose.com/display/emailcpp/Developer+Guide).
 
-## New Features & Enhancements in Version 20.5
+## New Features & Enhancements in Version 20.6
 
-- Email Threading Using `ImapClient`.
-- Added the `GetMessageThreads` method for receiving message threads by `ImapClient`.
+- Support to perform Advanced Query Search (AQS) queries in Exchange.
+- Ability to work with Microsoft Graph API.
 
-## Limitations and API Differences in Version 20.5
-
-The following features are not implemented in Aspose.Email for C++ 20.5 but they are implemented in the [Aspose.Email for .NET 20.5](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.5+Release+Notes):
-
-- Microsoft Graph REST API v1.0
-
-For the detailed notes, please visit [Aspose.Email for C++ 20.5 Release Notes](https://docs.aspose.com/display/emailcpp/Aspose.Email+for+CPP+20.5+Release+Notes).
+For the detailed notes, please visit [Aspose.Email for C++ 20.6 Release Notes](https://docs.aspose.com/display/emailcpp/Aspose.Email+for+CPP+20.6+Release+Notes).
 
 ## Read & Write Email Formats
 
