@@ -1,6 +1,6 @@
-# Optical Character Recognition (OCR) C++ API
+# C++ API to Perform OCR via GPU
 
-[Aspose.OCR for C++](https://products.aspose.com/ocr/cpp) is a standalone OCR API that enhances your C++ apps to perform the [OCR operation on JPEG, PNG, & BMP images](https://docs.aspose.com/display/ocrcpp/Supported+File+Formats) for extraction of English content.
+It is an OCR API that enhances your C++ apps to perform image recognition using `GPU` and `CUDA` technology.
 
 ## Image OCR API Features
 
@@ -32,7 +32,7 @@ Aspose OCR library requires `onnxruntime.dll` in the system path.
 
 ## Getting Started with Aspose.OCR for C++
 
-Are you ready to give Aspose.OCR for C++ a try? Simply execute `Install-Package Aspose.OCR.Cpp` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.OCR for C++ and want to upgrade the version, please execute `Update-Package Aspose.OCR.Cpp` to get the latest version.
+Are you ready to give Aspose.OCR for C++ a try? Simply execute `Install-Package Aspose.Ocr.Cpp-GPU` from Package Manager Console in Visual Studio to fetch the NuGet package. If you already have Aspose.OCR for C++ and want to upgrade the version, please execute `Update-Package Aspose.Ocr.Cpp-GPU` to get the latest version.
 
 Execute the following code snippet to see how Aspose.OCR API performs with your own samples or check the [GitHub Repository](https://github.com/aspose-ocr/Aspose.OCR-for-C) for other common usage scenarios.
 
