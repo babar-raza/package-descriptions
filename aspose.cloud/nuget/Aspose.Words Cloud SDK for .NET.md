@@ -14,20 +14,11 @@ This cloud SDK provides seamless integration of [cloud document processing & man
 - Convert an encrypted PDF document into MS Word document format.
 - So many more features.
 
-## New Features & Enhancements in Version 20.7
+## New Features & Enhancements in Version 20.8
 
-### Words Cloud changes
-
-- Added `Markdown` save format.
-
-### PDF to Word conversion improvements
-
-- Corrected `KeyNotFoundException` and `InvalidOperationException` errors while loading a PDF.
-- Implemented first version of footnote detection.
-- Corrected recognition for page headers with image and text.
-- Fixed an `ObjectDisposedException` when `PDF` is loaded from a stream.
-
-For the detiled notes, please visit [Aspose.Words Cloud 20.7 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.7+Release+Notes).
+- Added new API method `(PUT '/words/{name}/compatibility/optimize')` that allows to optimize the document contents as well as default Aspose.Words behavior to a particular version of MS Word.
+- Added `ApplyBaseDocumentHeadersAndFootersToAppendingDocuments` option to `DocumentEntryList` for `AppendDocument` API.
+- `WithoutNodePath` methods have been removed, pass `null` values instead.
 
 ## Read & Write Document Formats
 
