@@ -18,7 +18,10 @@ This cloud SDK provides seamless integration of [cloud document processing & man
 
 - Added new API method `(PUT '/words/{name}/compatibility/optimize')` that allows to optimize the document contents as well as default Aspose.Words behavior to a particular version of MS Word.
 - Added `ApplyBaseDocumentHeadersAndFootersToAppendingDocuments` option to `DocumentEntryList` for `AppendDocument` API.
-- `WithoutNodePath` methods have been removed, pass `null` values instead.
+- `WithoutNodePath` methods have been removed.
+- Numerous `PDF` to `Word` conversion improvements.
+
+For the detailed notes, please visit [Aspose.Words Cloud 20.8 Release Notes](https://docs.aspose.cloud/display/wordscloud/Aspose.Words+Cloud+20.8+Release+Notes).
 
 ## Read & Write Document Formats
 
