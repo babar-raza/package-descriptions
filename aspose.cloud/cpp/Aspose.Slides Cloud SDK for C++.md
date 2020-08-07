@@ -11,6 +11,16 @@ This REST API enables your C++ cloud-based apps to [process & manipulate PPT, PP
 - Fetch presentation statistics and metadata.
 - Suport of Aspose Storage API.
 
+## New Features & Enhancements in Version 20.7
+
+- Added methods to modify chart series.
+- The new resource is a subresource of **shape**. It works only for Chart shapes and allows to add, modify & delete chart series.
+- `Paragraph` class now has `PortionList` property which allows you to retrieve text and other properties for paragraph portions.
+- Similarly, `Portions` class now has `Items` property of the same kind.
+- Portion list now returns portion contents along with portion links.
+
+For the detailed notes, please visit [Aspose.Slides Cloud 20.7 Release Notes](https://docs.aspose.cloud/display/slidescloud/Aspose.Slides+Cloud+20.7+Release+Notes).
+
 ## Read & Write Presentation Formats
 
 **Microsoft PowerPoint:** PPT, PPTX, PPS, PPSX, PPTM, PPSM, POTX, POTM\
