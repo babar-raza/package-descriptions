@@ -21,12 +21,12 @@ Feel free to explore the [Developer's Guide](https://docs.aspose.cloud/display/t
 - Fetch a project document in the desired format.
 - Delete project task with its related references & rebuild task tree.
 
-## Enhancements in Version 19.12
+## New Features & Enhancements in Version 20.8
 
-- Imported projects from Project Online (Server) now can be saved as `MPP` file.
-- Imported projects from a database now can be saved as `MPP` file.
+- Ability to specify the non-default path for Project Server's `PWA` URL.
+- Ability to modify `timephasedData` collection in assignments.
 
-For the detailed notes, please visit [Aspose.Tasks Cloud 19.12 Release Notes](https://docs.aspose.cloud/display/taskscloud/Aspose.Tasks+Cloud+19.12+Release+Notes).
+For the detailed notes, please visit [Aspose.Tasks Cloud 20.8 Release Notes](https://docs.aspose.cloud/display/taskscloud/Aspose.Tasks+Cloud+20.8+Release+Notes).
 
 ## Read & Write Project Formats
 
