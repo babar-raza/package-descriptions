@@ -20,14 +20,12 @@ This .NET API can be consumed to [integrate metadata viewer](https://products.gr
 - Traverse a whole metadata tree.
 - Work with the APEv2, ID3v1, ID3v2, Lyrics & other tags of MP3 metadata.
 
-## New Features & Enhancements in Version 20.7
+## New Features & Enhancements in Version 20.8
 
-- Implemented the ability to work with `EXIF` metadata in `JPEG2000` images.
-- Added support for the `HEIF`/`HEIC` format.
-- Implemented the ability to extract metadata from encrypted MS Project files.
-- Implemented the ability to manage custom properties in Project files. Added support for additional built-in properties.
+- Implemented the ability to add/update `EXIF` & metadata properties of arbitrary types using the search API.
+- Implemented the ability to add/update `XMP` metadata properties of arbitrary types using the search API.
 
-For the detailed notes, please visit [GroupDocs.Metadata for .NET 20.7 Release Notes](https://docs.groupdocs.com/metadata/net/groupdocs-metadata-for-net-20-7-release-notes/).
+For the detailed notes, please visit [GroupDocs.Metadata for .NET 20.8 Release Notes](https://docs.groupdocs.com/metadata/net/groupdocs-metadata-for-net-20-8-release-notes/).
 
 ## Read & Write Metadata Formats
 
