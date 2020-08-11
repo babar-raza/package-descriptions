@@ -13,14 +13,15 @@
 - [Add 3D scene animation](https://docs.aspose.com/display/3dnet/Add+Animation+Property+and+Setup+Target+Camera+in+3D+document).
 - Work with 3D objects & models.
 
-## New Features & Enhancements in Version 20.7
+## New Features & Enhancements in Version 20.8
 
-- Implemented `IfcSweptDiskSolid` compatible procedural modeling algorithm.
-- Added revolved area extrusion support.
-- Added support for the Hollow shape.
-- Improved the rendering performance of `CAD` files.
+- Added support of importing zipped `3D` files.
+- Added `FBX 6.0` import support.
+- Added `FBX 6.1` import support.
+- Added `FBX 7.0/7.1` import support.
+- Added `FBX 7.7` import support.
 
-For the detailed notes, please visit [Aspose.3D for .NET 20.7 Release Notes](https://docs.aspose.com/display/3dnet/Aspose.3D+for+.NET+20.7+Release+Notes).
+For the detailed notes, please visit [Aspose.3D for .NET 20.8 Release Notes](https://docs.aspose.com/3d/net/aspose-3d-for-net-20-8-release-notes/).
 
 ## Read & Write 3D Formats
 
