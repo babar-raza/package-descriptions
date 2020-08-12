@@ -4,8 +4,8 @@
 
 ## PUB File Processing Features
 
-- Read Microsoft Publisher [(PUB) files for conversion to PDF](https://docs.aspose.com/display/pubnet/PUB+to+PDF) format.
-- [Read & write metadata of PUB files](https://docs.aspose.com/display/pubnet/Programming+with+Documents#ProgrammingwithDocuments-EditMetaDataofPUBFiles) via API.
+- Read Microsoft Publisher [(PUB) files for conversion to PDF](https://docs.aspose.com/pub/net/pub-to-pdf/) format.
+- [Read & write metadata of PUB files](https://docs.aspose.com/pub/net/programming-with-documents/) via API.
 
 ## New Features in Version 20.4
 
@@ -13,7 +13,7 @@
 - Create static shape entities.
 - Supports vector graphics in the converter.
 
-For the detailed notes, please visit [Aspose.PUB for .NET 20.4 Release Notes](https://docs.aspose.com/display/pubnet/Aspose.PUB+for+.NET+20.4+Release+Notes).
+For the detailed notes, please visit [Aspose.PUB for .NET 20.4 Release Notes](https://docs.aspose.com/pub/net/aspose-pub-for-net-20-4-release-notes/).
 
 ## Read PUB Files
 
@@ -64,4 +64,4 @@ document.SummaryInfo.SetSubject("subject");
 
 At the moment API lacks the support to convert images of PUB file to PDF file. So such images wont show up in the resultant output PDF file. This feature is in our plan to be released with future release.
 
-[Product Page](https://products.aspose.com/pub/net) | [Docs](https://docs.aspose.com/display/pubnet/Home) | [API Reference](https://apireference.aspose.com/pub/net) | [Examples](https://github.com/aspose-pub/Aspose.PUB-for-.NET) | [Blog](https://blog.aspose.com/category/pub/) | [Free Support](https://forum.aspose.com/c/pub) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/pub/net) | [Docs](https://docs.aspose.com/pub/net/) | [API Reference](https://apireference.aspose.com/pub/net) | [Examples](https://github.com/aspose-pub/Aspose.PUB-for-.NET) | [Blog](https://blog.aspose.com/category/pub/) | [Free Support](https://forum.aspose.com/c/pub) | [Temporary License](https://purchase.aspose.com/temporary-license)
