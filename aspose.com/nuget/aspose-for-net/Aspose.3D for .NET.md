@@ -1,16 +1,16 @@
 # .NET API for 3D File Formats
 
-[Aspose.3D for .NET](http://products.aspose.com/3d/net) empowers .NET applications to connect with 3D document formats. 3D .NET API lets engineers read, convert, build, alter and control the substance of the [3D document formats](https://docs.aspose.com/display/3dnet/Supported+File+Formats) without any 3D modeling and rendering software installed on the machine.
+[Aspose.3D for .NET](http://products.aspose.com/3d/net) empowers .NET applications to connect with 3D document formats. 3D .NET API lets engineers read, convert, build, alter and control the substance of the [3D document formats](https://docs.aspose.com/3d/net/supported-file-formats/) without any 3D modeling and rendering software installed on the machine.
 
 ## 3D File Processing Features
 
-- [Import 3D scenes from PDF](https://docs.aspose.com/display/3dnet/Import+3D+Scenes+and+Contents+from+a+PDF).
+- [Import 3D scenes from PDF](https://docs.aspose.com/3d/net/import-3d-scenes-and-contents-from-a-pdf/).
 - Import, create, customize, & save 3D scenes.
-- [Create 3D mesh](https://docs.aspose.com/display/3dnet/Create+3D+Mesh+and+Scene) & [scale geometries of a 3D scene](https://docs.aspose.com/display/3dnet/Scale+geometries+of+a+3D+Scene).
+- [Create 3D mesh](https://docs.aspose.com/3d/net/create-3d-mesh-and-scene/) & [scale geometries of a 3D scene](https://docs.aspose.com/3d/net/scale-geometries-of-a-3d-scene/).
 - Configure cube by setting up normals or UV.
 - Perform element formatting using 3D transformations.
 - Share geometry data among multiple nodes of a mesh.
-- [Add 3D scene animation](https://docs.aspose.com/display/3dnet/Add+Animation+Property+and+Setup+Target+Camera+in+3D+document).
+- [Add 3D scene animation](https://docs.aspose.com/3d/net/add-animation-property-and-setup-target-camera-in-3d-document/).
 - Work with 3D objects & models.
 
 ## New Features & Enhancements in Version 20.8
@@ -93,4 +93,4 @@ scene.RootNode.CreateChildNode().CreateChildNode(box);
 scene.Save(dir + "output.amf", new AMFSaveOptions() { EnableCompression = true });
 ```
 
-[Product Page](https://products.aspose.com/3d/net) | [Docs](https://docs.aspose.com/display/3dnet/Home) | [Demos](https://products.aspose.app/3d/family) | [API Reference](https://apireference.aspose.com/3d/net) | [Examples](https://github.com/aspose-3d/Aspose.3D-for-.NET) | [Blog](https://blog.aspose.com/category/3d/) | [Free Support](https://forum.aspose.com/c/3d) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/3d/net) | [Docs](https://docs.aspose.com/3d/net/) | [Demos](https://products.aspose.app/3d/family) | [API Reference](https://apireference.aspose.com/3d/net) | [Examples](https://github.com/aspose-3d/Aspose.3D-for-.NET) | [Blog](https://blog.aspose.com/category/3d/) | [Free Support](https://forum.aspose.com/c/3d) | [Temporary License](https://purchase.aspose.com/temporary-license)
