@@ -2,31 +2,29 @@
 
 [Aspose.GIS for .NET](https://products.aspose.com/gis/net) API helps developers render maps, read, write & convert geographic information fetched from vector-based geospatial data formats without needing any other GIS software. The GIS .NET API supports working with Shapefile, GeoJSON, ESRI File Geodatabase (FileGDB), Geography Markup Language (GML), Keyhole Markup Language (KML), Scalable Vector Graphics (SVG) and many others.
 
-It allows to read and write GIS data, [convert GIS file formats](https://docs.aspose.com/display/gisnet/Conversion), and [render maps](https://docs.aspose.com/display/gisnet/Map+Rendering) to SVG format. You can also create and analyze feature geometries as well as create basic geometries, such as, Point, MultiPoint, Line, Multiline and Polygon from scratch. The API supports to build non-linear (curve) geometries, linearize non-linear geometries, and control precision mode of calculations.
+It allows to read and write GIS data, [convert GIS file formats](https://docs.aspose.com/gis/net/conversion/), and [render maps](https://docs.aspose.com/gis/net/map-rendering/) to SVG format. You can also create and analyze feature geometries as well as create basic geometries, such as, Point, MultiPoint, Line, Multiline and Polygon from scratch. The API supports to build non-linear (curve) geometries, linearize non-linear geometries, and control precision mode of calculations.
 
 ## GIS API Features
 
-- [Render maps to PNG, JPEG, BMP, or SVG](https://docs.aspose.com/display/gisnet/Map+Rendering).
+- Render maps to PNG, JPEG, BMP, or SVG.
 - Iterate through layer features.
 - Read layer features by index.
 - Fetch metadata about vector layers.
 - Create new layers and datasets as well as work with multi-layer dataset.
-- Convert vector data to [popular file formats](https://docs.aspose.com/display/gisnet/Supported+File+Formats).
+- Convert vector data to [popular file formats](https://docs.aspose.com/gis/net/supported-file-formats/).
 - Perform re-projection during data conversion.
 - Adjust feature attributes while converting.
 - Customize styling of each geometry type.
 - Perform complex drawing by combining several symbolizers.
 - Apply layer rendering rules to control feature visual representation.
 - Use value attributes to calculate styling parameters of a feature.
-- Perform vector analysis & [manipulate geometries](https://docs.aspose.com/display/gisnet/Working+with+Geometries).
-- Support for [Spatial Reference Systems](https://docs.aspose.com/display/gisnet/Spatial+Reference+Systems).
+- Perform vector analysis & [manipulate geometries](https://docs.aspose.com/gis/net/working-with-geometries/).
+- Support for [Spatial Reference Systems](https://docs.aspose.com/gis/net/spatial-reference-systems/).
 
 ## New Features & Enhancements in Version 20.8
 
 - Support of client for `XYZ` tile servers.
 - Ability to draw `XYZ` tiles on Map.
-
-For detailed notes, please visit [Aspose.GIS for .NET 20.8 Release Notes](https://docs.aspose.com/display/gisnet/Aspose.GIS+for+.NET+20.08+Release+Notes).
 
 ## Read & Write GIS Formats
 
@@ -65,4 +63,4 @@ You can execute below code snippet to see how Aspose.GIS API works after adding 
 VectorLayer.Convert(dir + "template.shp", Drivers.Shapefile, dir + "output.json", Drivers.GeoJson);
 ```
 
-[Product Page](https://products.aspose.com/gis/net) | [Docs](https://docs.aspose.com/display/gisnet/Home) | [Demos](https://products.aspose.app/gis/family) | [API Reference](https://apireference.aspose.com/gis/net) | [Examples](https://github.com/aspose-gis/Aspose.GIS-for-.NET) | [Blog](https://blog.aspose.com/category/gis/) | [Free Support](https://forum.aspose.com/c/gis) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/gis/net) | [Docs](https://docs.aspose.com/gis/net/) | [Demos](https://products.aspose.app/gis/family) | [API Reference](https://apireference.aspose.com/gis/net) | [Examples](https://github.com/aspose-gis/Aspose.GIS-for-.NET) | [Blog](https://blog.aspose.com/category/gis/) | [Free Support](https://forum.aspose.com/c/gis) | [Temporary License](https://purchase.aspose.com/temporary-license)
