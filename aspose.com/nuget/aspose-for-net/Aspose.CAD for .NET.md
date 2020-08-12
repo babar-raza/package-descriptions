@@ -1,21 +1,19 @@
 # CAD File Conversion API for .NET
 
-[Aspose.CAD for .NET](https://products.aspose.com/cad/net) is a standalone class library to enhance ASP.NET & Windows applications to process & render CAD drawings without requiring AutoCAD or any other rendering workflow. The CAD Class Library allows high quality [conversion of DWG, DWF, DWT and DXF](https://docs.aspose.com/display/cadnet/Supported+File+Formats) files, layouts and layers to PDF & raster image formats.
+[Aspose.CAD for .NET](https://products.aspose.com/cad/net) is a standalone class library to enhance ASP.NET & Windows applications to process & render CAD drawings without requiring AutoCAD or any other rendering workflow. The CAD Class Library allows high quality [conversion of DWG, DWF, DWT and DXF](https://docs.aspose.com/cad/net/supported-file-formats/) files, layouts and layers to PDF & raster image formats.
 
 ## CAD File Processing Features
 
 - Supports the latest versions of DWG, DWF, DWT & DXF formats.
-- Convert [CAD to PDF](https://docs.aspose.com/display/cadnet/Converting+CAD+Drawings+to+PDF+and+Raster+Image+Formats).
+- Convert [CAD to PDF](https://docs.aspose.com/cad/net/converting-cad-drawings-to-pdf-and-raster-image-formats/).
 - Convert CAD to images.
 - Select and convert specific layouts of CAD drawings.
 - Select and convert specific layers of CAD drawings.
-- [Adjust CAD drawing size before rendering](https://docs.aspose.com/display/cadnet/Adjusting+CAD+Drawing+Size).
+- [Adjust CAD drawing size before rendering](https://docs.aspose.com/cad/net/adjusting-cad-drawing-size/).
 
 ## New Features & Enhancements in Version 20.6
 
 - There are several enhancements in this version.
-
-For the detailed notes, please visit [Aspose.CAD for .NET 20.6 - Release Notes](https://docs.aspose.com/display/CADNET/Aspose.CAD+for+.NET+20.6+-+Release+Notes).
 
 ## Added APIs in Version 20.6
 
@@ -107,4 +105,4 @@ pdfOptions.VectorRasterizationOptions = rasterizationOptions;
 cadImage.Save(dir + "output.pdf", pdfOptions);
 ```
 
-[Product Page](https://products.aspose.com/cad/net) | [Docs](https://docs.aspose.com/display/cadnet/Home) | [Demos](https://products.aspose.app/cad/family) | [API Reference](https://apireference.aspose.com/cad/net) | [Examples](https://github.com/aspose-cad/Aspose.CAD-for-.NET) | [Blog](https://blog.aspose.com/category/cad/) | [Free Support](https://forum.aspose.com/c/cad) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/cad/net) | [Docs](https://docs.aspose.com/cad/net/) | [Demos](https://products.aspose.app/cad/family) | [API Reference](https://apireference.aspose.com/cad/net) | [Examples](https://github.com/aspose-cad/Aspose.CAD-for-.NET) | [Blog](https://blog.aspose.com/category/cad/) | [Free Support](https://forum.aspose.com/c/cad) | [Temporary License](https://purchase.aspose.com/temporary-license)
