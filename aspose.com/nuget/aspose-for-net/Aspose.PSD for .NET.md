@@ -7,17 +7,17 @@ A standalone .NET API to read, write, process & convert Adobe Photoshop PSD & PS
 ## Photoshop File Processing Features
 
 - Create Photoshop PSD & PSB files via API.
-- Export PSD images to [popular image formats](https://docs.aspose.com/display/psdnet/Supported+File+Formats).
+- Export PSD images to [popular image formats](https://docs.aspose.com/psd/net/supported-file-formats/).
 - Binarization with fixed & Otsu threshold.
-- [Convert GIF image layers to TIFF](https://docs.aspose.com/display/psdnet/Converting+Images#ConvertingImages-ConvertGIFImageLayersToTIFFImage) & CMYK PSD to CMYK TIFF.
+- [Convert GIF image layers to TIFF](https://docs.aspose.com/psd/net/converting-images/) & CMYK PSD to CMYK TIFF.
 - Combine, expand or crop images.
 - Create, read and write XMP data.
 - Set default font as a replacement for all the missing fonts.
 - Apply Median & Wiener filters to reduce image noise.
 - Transform images to black-n-white or grayscale.
-- [Crop images](https://docs.aspose.com/display/psdnet/Crop%2C+Rotate+and+Resize+Images#Crop,RotateandResizeImages-CroppingImages) by shifts or rectangle.
-- [Rotate an image](https://docs.aspose.com/display/psdnet/Crop%2C+Rotate+and+Resize+Images#Crop,RotateandResizeImages-RotateandFlipanImage) on a specific angle
-- Perform simple [image resize](https://docs.aspose.com/display/psdnet/Crop%2C+Rotate+and+Resize+Images#Crop,RotateandResizeImages-ResizingImages), or by image proportions.
+- Crop images by shifts or rectangle.
+- Rotate an image on a specific angle
+- Perform simple image resize, or by image proportions.
 - Support for dithering of raster images.
 - Adjust image brightness, contrast and gamma.
 - Implement Lossy GIF Compression & Bicubic Resampling.
@@ -29,7 +29,7 @@ A standalone .NET API to read, write, process & convert Adobe Photoshop PSD & PS
 - Support of `lnk2` / `lnk3` Resources.
 - Support of `britResource` (Resource of Brightness/Contrast Adjustment Layer).
 
-For the detailed notes, please visit [Aspose.PSD for .NET 20.7 - Release Notes](https://docs.aspose.com/display/psdnet/Aspose.PSD+for+.NET+20.7+-+Release+Notes).
+For the detailed notes, please visit [Aspose.PSD for .NET 20.7 - Release Notes](https://docs.aspose.com/psd/net/aspose-psd-for-net-20-7-release-notes/).
 
 ## Read & Write Photoshop Formats
 
@@ -77,4 +77,4 @@ using (Image image = new PsdImage(100, 100))
 }
 ```
 
-[Product Page](https://products.aspose.com/psd/net) | [Docs](https://docs.aspose.com/display/psdnet/Home) | [Demos](https://products.aspose.app/psd/family) | [API Reference](https://apireference.aspose.com/psd/net) | [Examples](https://github.com/aspose-psd/Aspose.PSD-for-.NET) | [Blog](https://blog.aspose.com/category/psd/) | [Free Support](https://forum.aspose.com/c/psd) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/psd/net) | [Docs](https://docs.aspose.com/psd/net/) | [Demos](https://products.aspose.app/psd/family) | [API Reference](https://apireference.aspose.com/psd/net) | [Examples](https://github.com/aspose-psd/Aspose.PSD-for-.NET) | [Blog](https://blog.aspose.com/category/psd/) | [Free Support](https://forum.aspose.com/c/psd) | [Temporary License](https://purchase.aspose.com/temporary-license)
