@@ -8,14 +8,14 @@ Aspose.Drawing is a pure .NET library. We don’t use any external native render
 
 ## Graphic File Processing Features
 
-- [Creating bitmaps](https://docs.aspose.com/display/drawingnet/Create+Image#CreateImage-CreateNewBitmap) from scratch or loading from files.
-- Drawing lines, Bézier curves, splines and [arcs](https://docs.aspose.com/display/drawingnet/Working+with+Vector+Graphics#WorkingwithVectorGraphics-DrawArc).
+- Creating bitmaps from scratch or loading from files.
+- Drawing lines, Bézier curves, splines and arcs.
 - Drawing shapes such as rectangle, polygon, eclipse, etc.
 - Processing and drawing graphics paths.
 - Rendering text with different fonts and styles.
 - Using different pen widths and styles.
-- Using [solid and texture brushes](https://docs.aspose.com/display/drawingnet/Working+with+Brushes#WorkingwithBrushes-UsingSolidBrushtoDrawGraphicsinC#).
-- [Alpha blending](https://docs.aspose.com/display/drawingnet/Working+with+Image+Rendering#WorkingwithImageRendering-AlphaBlending) and anti-aliasing lines and shapes.
+- Using solid and texture brushes.
+- Alpha blending and anti-aliasing lines and shapes.
 - Working with clip regions.
 - Using affine transformations.
 
@@ -25,8 +25,6 @@ Aspose.Drawing is a pure .NET library. We don’t use any external native render
 - Updated the `TextureBrush`.
 - Reworked the `PrivateFontCollection` implementation.
 - Addition of the functionality for `EncoderParameter(Encoder, long)`.
-
-For the detailed notes, please visit [Aspose.Drawing for .NET 20.7 Release Notes](https://docs.aspose.com/display/drawingnet/Aspose.Drawing+for+.NET+20.7+Release+Notes).
 
 ## Read & Write Drawing Formats
 
@@ -62,4 +60,4 @@ graphics.DrawArc(pen, 0, 0, 700, 700, 0, 180);
 bitmap.Save(RunExamples.GetDataDir() + @"LinesCurvesShapes\DrawArc_out.png");
 ```
 
-[Product Page](https://products.aspose.com/drawing/net) | [Docs](https://docs.aspose.com/display/drawingnet/Home) | [API Reference](https://apireference.aspose.com/net/drawing) | [Examples](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET) | [Blog](https://blog.aspose.com/category/drawing/) | [Free Support](https://forum.aspose.com/c/drawing) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/drawing/net) | [Docs](docs.aspose.com/drawing/net) | [API Reference](https://apireference.aspose.com/net/drawing) | [Examples](https://github.com/aspose-drawing/Aspose.Drawing-for-.NET) | [Blog](https://blog.aspose.com/category/drawing/) | [Free Support](https://forum.aspose.com/c/drawing) | [Temporary License](https://purchase.aspose.com/temporary-license)
