@@ -2,7 +2,7 @@
 
 [Aspose.Cells for .NET](https://products.aspose.com/cells/net) is an Excel Spreadsheet Programming API to speed up spreadsheet management and processing tasks. Excel .NET API supports to build cross-platform applications having the ability to generate, modify, convert, render and print spreadsheets. It allows developers to manage worksheets, rows, columns & cells, create spreadsheet contents and styles from scratch, import data onto the worksheets from different data sources, add common and complex mathematical, financial and text formulas, create & manipulate pivot tables, charts, hyperlinks, comments, drawing objects and much more.
 
-Aspose.Cells for .NET provides Grid solution with two GUI based .NET controls. [Aspose.Cells.GridDesktop](https://docs.aspose.com/display/cellsnet/Aspose.Cells.GridDesktop) supports desktop applications and [Aspose.Cells.GridWeb](https://docs.aspose.com/display/cellsnet/Aspose.Cells.GridWeb) is specifically designed for .NET based web applications. Both Gird controls allow to import/export Excel files, manipulate data & formatting, customize grid design and layout, manage multiple worksheets, create and calculate Excel formulas and numerous other Excel-like operations.
+Aspose.Cells for .NET provides Grid solution with two GUI based .NET controls. Aspose.Cells.GridDesktop supports desktop applications and Aspose.Cells.GridWeb is specifically designed for .NET based web applications. Both Gird controls allow to import/export Excel files, manipulate data & formatting, customize grid design and layout, manage multiple worksheets, create and calculate Excel formulas and numerous other Excel-like operations.
 
 ## Excel File Processing Features
 
@@ -12,17 +12,17 @@ Aspose.Cells for .NET provides Grid solution with two GUI based .NET controls. [
 - Combine, modify, protect or parse Excel sheets.
 - Apply worksheet formatting.
 - Configure and apply page setup for the worksheets.
-- Create & customize [Excel charts](https://docs.aspose.com/display/cellsnet/Creating+and+Customizing+Charts), [Pivot Tables](https://docs.aspose.com/display/cellsnet/Pivot+Tables), conditional formatting rules, [slicers](https://docs.aspose.com/display/cellsnet/Slicers), [tables](https://docs.aspose.com/display/cellsnet/Tables) & spark-lines.
+- Create & customize [Excel charts](https://docs.aspose.com/cells/net/creating-and-customizing-charts/), Pivot Tables, conditional formatting rules, slicers, tables & spark-lines.
 - Convert Excel charts to images & PDF.
 - Convert Excel files to various other formats.
-- [Formula calculation engine](https://docs.aspose.com/display/cellsnet/Supported+Formula+Functions) that supports all basic and advanced Excel functions.
+- [Formula calculation engine](https://docs.aspose.com/cells/net/supported-formula-functions/) that supports all basic and advanced Excel functions.
 
 ## New Features & Enhancements in Version 20.7
 
 - Added support for the  `FilterString()` criteria.
 - Ability to check whether the struct or window of the workbook is protected with a password.
 
-For the detailed notes, please visit [Aspose.Cells for .NET 20.7 Release Notes](https://docs.aspose.com/display/cellsnet/Aspose.Cells+for+.NET+20.7+Release+Notes).
+For the detailed notes, please visit [Aspose.Cells for .NET 20.7 Release Notes](https://docs.aspose.com/cells/net/aspose-cells-for-net-20-7-release-notes/).
 
 ## Read & Write Spreadsheet Formats
 
@@ -126,4 +126,4 @@ chart.NSeries.Add("A1:B3", true);
 workbook.Save( dir + "output.xls");
 ```
 
-[Product Page](https://products.aspose.com/cells/net) | [Docs](https://docs.aspose.com/display/cellsnet/Home) | [Demos](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.com/cells/net) | [Examples](https://github.com/aspose-cells/Aspose.Cells-for-.NET) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/cells/net) | [Docs](https://docs.aspose.com/cells/net/) | [Demos](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.com/cells/net) | [Examples](https://github.com/aspose-cells/Aspose.Cells-for-.NET) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) | [Temporary License](https://purchase.aspose.com/temporary-license)
