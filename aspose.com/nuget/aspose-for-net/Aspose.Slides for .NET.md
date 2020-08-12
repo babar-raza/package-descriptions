@@ -4,8 +4,8 @@
 
 ## Presentation Processing Features
 
-- Intuitive Document Object Model: Aspose.Slides' object model gives complete control over presentation elements such as [slides](https://docs.aspose.com/display/slidesnet/Presentation+Slide), [shapes](https://docs.aspose.com/display/slidesnet/Powerpoint+Shapes), frames, [charts](https://docs.aspose.com/display/slidesnet/Powerpoint+Charts), multimedia, embedded [objects](https://docs.aspose.com/display/slidesnet/OLE), [controls](https://docs.aspose.com/display/slidesnet/ActiveX), [tables](https://docs.aspose.com/display/slidesnet/Powerpoint+Table), text, [transitions](https://docs.aspose.com/display/slidesnet/PowerPoint+Animation) and formatting. Developers can use this object model to create complex PowerPoint File Processing applications that can dynamically generate presentations, create or manipulate presentation slides, apply transitions or add animation effects.
-- [File Format Conversion](https://docs.aspose.com/display/slidesnet/Supported+File+Formats#SupportedFileFormats-SupportedFileFormats): API allows to load & convert PowerPoint presentation, template & slideshow file formats to other supported formats without needing to understand the underlying structure of source or destination formats. The conversion process is simple yet reliable with results identical to the original file in its native application.
+- Intuitive Document Object Model: Aspose.Slides' object model gives complete control over presentation elements such as slides, shapes, frames, charts, multimedia, embedded [objects](https://docs.aspose.com/slides/net/ole/), [controls](https://docs.aspose.com/slides/net/activex/), tables, text, [transitions](https://docs.aspose.com/slides/net/powerpoint-animation/) and formatting. Developers can use this object model to create complex PowerPoint File Processing applications that can dynamically generate presentations, create or manipulate presentation slides, apply transitions or add animation effects.
+- [File Format Conversion](https://docs.aspose.com/slides/net/supported-file-formats/): API allows to load & convert PowerPoint presentation, template & slideshow file formats to other supported formats without needing to understand the underlying structure of source or destination formats. The conversion process is simple yet reliable with results identical to the original file in its native application.
 - Rendering & Printing: Developers can render the whole presentation or selective slides to fixed layout formats such as PDF & XPS as well as raster & vector image formats including PNG, JPEG, SVG and so on. It is also possible to print presentations via physical or virtual printers.
 - Presentation Security: Load protected presentations or control access to presentations, slides or objects via advanced security features.
 - Availability of 24 pre-defined textures & 48 patterns for quick styling.
@@ -17,7 +17,7 @@
 - Ability to extract equation from `PPT` to `LaTeX`.
 - Support for rotation options for the Line shape.
 
-For the detailed notes, please visit [Aspose.Slides for .NET 20.7 Release Notes](https://docs.aspose.com/display/slidesnet/Aspose.Slides+for+.NET+20.7+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides for .NET 20.7 Release Notes](https://docs.aspose.com/slides/net/aspose-slides-for-net-20-7-release-notes/).
 
 ## Read & Write Presentations
 
@@ -70,4 +70,4 @@ using (Presentation presentation = new Presentation(dir + "template.pptx"))
 }
 ```
 
-[Product Page](https://products.aspose.com/slides/net) | [Docs](https://docs.aspose.com/display/slidesnet/Home) | [Demos](https://products.aspose.app/slides/family) | [API Reference](https://apireference.aspose.com/slides/net) | [Examples](https://github.com/aspose-slides/Aspose.Slides-for-.NET) | [Blog](https://blog.aspose.com/category/slides/) | [Free Support](https://forum.aspose.com/c/slides) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/slides/net) | [Docs](https://docs.aspose.com/slides/net/) | [Demos](https://products.aspose.app/slides/family) | [API Reference](https://apireference.aspose.com/slides/net) | [Examples](https://github.com/aspose-slides/Aspose.Slides-for-.NET) | [Blog](https://blog.aspose.com/category/slides/) | [Free Support](https://forum.aspose.com/c/slides) | [Temporary License](https://purchase.aspose.com/temporary-license)
