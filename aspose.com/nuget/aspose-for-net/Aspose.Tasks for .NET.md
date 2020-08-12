@@ -8,20 +8,16 @@ Aspose.Tasks for .NET on premise API enables you to work with projects, formulas
 
 - Set project schedule type, start date & finish date.
 - Modify project standard rate, overtime rate, task type, fixed cost accrual etc.
-- Manage [project extended attributes](https://docs.aspose.com/display/tasksnet/Working+with+Extended+Attributes+of+a+Project).
-- Define [project calendar](https://docs.aspose.com/display/tasksnet/Working+with+Calendars) and weekdays.
+- Manage [project extended attributes](https://docs.aspose.com/tasks/net/working-with-extended-attributes-of-a-project/).
+- Define project calendar and weekdays.
 - Task baseline scheduling and duration.
 - Work with task constraints.
 - Apply links among tasks.
 - Create task milestone, estimated critical or effort driven tasks.
 - Manage resource cost and variance.
-- Assignment [cost](https://docs.aspose.com/display/tasksnet/Managing+Task+Costs) and [budget](https://docs.aspose.com/display/tasksnet/Assignment+Budget).
+- Assignment [cost](https://docs.aspose.com/tasks/net/managing-task-costs/) and [budget](https://docs.aspose.com/tasks/net/assignment-budget/).
 - Encode MPX files.
 - Comprehensive project reporting (15+ types of reports).
-
-## New Features & Enhancements in Version 20.7.2
-
-This release offers some minor fixes. For the detailed notes, please visit [Aspose.Tasks for .NET 20.7.2 Release Notes](https://docs.aspose.com/display/tasksnet/Aspose.Tasks+for+.NET+20.7.2+Release+Notes).
 
 ## Read & Write Project Formats
 
@@ -69,4 +65,4 @@ Task subtask = task.Children.Add("Subtask1");
 project.Save(dir + "output.xml", SaveFileFormat.XML);
 ```
 
-[Product Page](https://products.aspose.com/tasks/net) | [Docs](https://docs.aspose.com/display/tasksnet/Home) | [Demos](https://products.aspose.app/tasks/family) | [API Reference](https://apireference.aspose.com/tasks/net) | [Examples](https://github.com/aspose-tasks/Aspose.Tasks-for-.NET) | [Blog](https://blog.aspose.com/category/tasks/) | [Free Support](https://forum.aspose.com/c/tasks) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/tasks/net) | [Docs](https://docs.aspose.com/tasks/net/) | [Demos](https://products.aspose.app/tasks/family) | [API Reference](https://apireference.aspose.com/tasks/net) | [Examples](https://github.com/aspose-tasks/Aspose.Tasks-for-.NET) | [Blog](https://blog.aspose.com/category/tasks/) | [Free Support](https://forum.aspose.com/c/tasks) |  [Temporary License](https://purchase.aspose.com/temporary-license)
