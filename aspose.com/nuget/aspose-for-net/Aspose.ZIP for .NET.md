@@ -6,9 +6,9 @@ It is a standalone .NET API to create, manipulate, extract & protect archive for
 
 ## Archive Processing Features
 
-- [Compress files](https://docs.aspose.com/display/zipnet/Compressing+and+Decompressing+Files#CompressingandDecompressingFiles-CompressingFiles) and [folders](https://docs.aspose.com/display/zipnet/Compressing+and+Decompressing+Folders#CompressingandDecompressingFolders-CompressingDirectoryContents) into standard ZIP formats.
+- [Compress files](https://docs.aspose.com/zip/net/compressing-and-decompressing-files/) and folders into standard ZIP formats.
 - Supports Deflate, `Bzip2` & `LZMA` compression algorithms.
-- Apply simple password or [`AES128`](https://docs.aspose.com/display/zipnet/Password+Protecting+Archives#PasswordProtectingArchives-EncryptionofFileswithAES128), [`AES192`](https://docs.aspose.com/display/zipnet/Password+Protecting+Archives#PasswordProtectingArchives-EncryptionofFileswithAES192), [`AES256`](https://docs.aspose.com/display/zipnet/Password+Protecting+Archives#PasswordProtectingArchives-EncryptionofFileswithAES256) encryption to archives.
+- [Apply simple password](https://docs.aspose.com/zip/net/password-protecting-archives/) or `AES128`, `AES192`, `AES256` encryption to archives.
 - Employ different protection scheme to each file within an archive.
 - Append more files to an existing zipped archive.
 - Use `Gzip` or `Bzip2` to pack files & folders into a `TAR` archive.
@@ -19,7 +19,7 @@ It is a standalone .NET API to create, manipulate, extract & protect archive for
 
 - Handled entry names with `Unicode` characters.
 
-For the detailed notes, please visit [Aspose.ZIP for .NET 20.6 Release Notes](https://docs.aspose.com/display/zipnet/Aspose.ZIP+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.ZIP for .NET 20.6 Release Notes](https://docs.aspose.com/zip/net/aspose-zip-for-net-20-6-release-notes/).
 
 ## Compress Files As
 
@@ -61,4 +61,4 @@ using (var archive = new SevenZipArchive(new SevenZipEntrySettings(null, new Sev
 }
 ```
 
-[Product Page](https://products.aspose.com/zip/net) | [Docs](https://docs.aspose.com/display/zipnet/Home) | [Demos](https://products.aspose.app/zip/family) | [API Reference](https://apireference.aspose.com/zip/net) | [Examples](https://github.com/aspose-zip/Aspose.ZIP-for-.NET) | [Blog](https://blog.aspose.com/category/zip/) | [Free Support](https://forum.aspose.com/c/zip) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/zip/net) | [Docs](https://docs.aspose.com/zip/net/) | [Demos](https://products.aspose.app/zip/family) | [API Reference](https://apireference.aspose.com/zip/net) | [Examples](https://github.com/aspose-zip/Aspose.ZIP-for-.NET) | [Blog](https://blog.aspose.com/category/zip/) | [Free Support](https://forum.aspose.com/c/zip) | [Temporary License](https://purchase.aspose.com/temporary-license)
