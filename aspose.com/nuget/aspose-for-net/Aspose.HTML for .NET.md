@@ -2,17 +2,17 @@
 
 The [.NET HTML API](https://products.aspose.com/html/net) assists developers to write, read, modify, navigate and convert (X)HTML documents from within .NET applications.
 
-Aspose.HTML for .NET API works as a headless browser that allows you to [create or open existing HTML documents](https://docs.aspose.com/display/htmlnet/Create+Document) from various sources in order to perform manipulation operations such as remove and replace HTML nodes, save HTML documents, extract CSS from HTML, configure a document sandbox and more. You may navigate HTML documents by using various methods, such as, element traversal, document traversal, XPath queries, and CSS selector queries as well as manipulate HTML DOM via JavaScript, convert HTML file to images or fixed layout formats, and convert (X)HTML and EPUB files to other file formats.
+Aspose.HTML for .NET API works as a headless browser that allows you to [create or open existing HTML documents](https://docs.aspose.com/html/net/creating-a-document/) from various sources in order to perform manipulation operations such as remove and replace HTML nodes, save HTML documents, extract CSS from HTML, configure a document sandbox and more. You may navigate HTML documents by using various methods, such as, element traversal, document traversal, XPath queries, and CSS selector queries as well as manipulate HTML DOM via JavaScript, convert HTML file to images or fixed layout formats, and convert (X)HTML and EPUB files to other file formats.
 
 The classes and properties of Aspose.HTML for .NET API have similar names as that of W3C HTML specification.
 
 ## HTML Processing API Features
 
-- Convert HTML to [many popular formats](https://docs.aspose.com/display/htmlnet/Supported+File+Formats) including PDF, XPS and images.
+- Convert HTML to [many popular formats](https://docs.aspose.com/html/net/supported-file-formats/) including PDF, XPS and images.
 - Load & convert SVG & EPUB to XPS, PDF and images.
 - Navigate through document either by NodeIterator or TreeWalker.
 - Control the timeout of rendering process.
-- [MutationObserver](https://docs.aspose.com/display/htmlnet/Working+with+MutationObserver) to watch over DOM modifications.
+- [MutationObserver](https://docs.aspose.com/html/net/dom-mutationobserver/) to watch over DOM modifications.
 - Populate HTML document with external data (XML & JSON).
 - Support of single (PDF, XPS) or multiple (image formats) output file streams.
 - Extract CSS styling information.
@@ -24,7 +24,7 @@ The classes and properties of Aspose.HTML for .NET API have similar names as tha
 - Improved rendering of the `SVG` anchor element.
 - Ability to process of page bookmarks.
 
-For the detailed notes, please visit [Aspose.HTML for .NET 20.7 Release Notes](https://docs.aspose.com/display/htmlnet/Aspose.HTML+for+.NET+20.7+Release+Notes).
+For the detailed notes, please visit [Aspose.HTML for .NET 20.7 Release Notes](https://docs.aspose.com/html/net/aspose-html-for-net-20-7-release-notes/).
 
 ## Read & Write Web Formats
 
@@ -61,4 +61,4 @@ using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", 
 }
 ```
 
-[Product Page](https://products.aspose.com/html/net) | [Docs](https://docs.aspose.com/display/htmlnet/Home) | [Demos](https://products.aspose.app/html/family) | [API Reference](https://apireference.aspose.com/html/net) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/category/html/) | [Free Support](https://forum.aspose.com/c/html) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/html/net) | [Docs](https://docs.aspose.com/html/net/) | [Demos](https://products.aspose.app/html/family) | [API Reference](https://apireference.aspose.com/html/net) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/category/html/) | [Free Support](https://forum.aspose.com/c/html) | [Temporary License](https://purchase.aspose.com/temporary-license)
