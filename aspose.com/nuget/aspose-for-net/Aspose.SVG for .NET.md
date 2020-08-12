@@ -4,10 +4,10 @@ This .NET on-premise API helps you [seamlessly integrate SVG file processing & m
 
 ## SVG File Processing Features
 
-- [Create, read](https://docs.aspose.com/display/svgnet/Create+and+Read+SVG+Documents) and [write SVG](https://docs.aspose.com/display/svgnet/Save+SVG+Files) format files.
-- [Convert SVG](https://docs.aspose.com/display/svgnet/How+to+Convert+SVG+Files) to other [supported file formats](https://docs.aspose.com/display/svgnet/Supported+File+Formats).
+- [Create, read](https://docs.aspose.com/svg/net/create-and-read-svg-documents/) and [write SVG](https://docs.aspose.com/svg/net/save-svg-files/) format files.
+- [Convert SVG](https://docs.aspose.com/svg/net/how-to-convert-svg-files/) to other [supported file formats](https://docs.aspose.com/svg/net/supported-file-formats/).
 - DOM Tree manipulation as per official SVG specs.
-- Support for content navigation via [XPath Query](https://docs.aspose.com/display/svgnet/Traverse+SVG+DOM#TraverseSVGDOM-UsingXPathQuery), [CSS Selectors](https://docs.aspose.com/display/svgnet/Traverse+SVG+DOM#TraverseSVGDOM-UsingCSSSelector), Element and Document Traversal features.
+- Support for content navigation via [XPath Query](https://docs.aspose.com/svg/net/traverse-svg-dom/), CSS Selectors, Element and Document Traversal features.
 - Support for quality rendering.
 
 ## New Features & Enhancements in Version 20.7
@@ -17,7 +17,7 @@ This .NET on-premise API helps you [seamlessly integrate SVG file processing & m
 - Improved precision of the `GetBBox` method.
 - Added new signatures to the `SVGFEBlendElement` class
 
-For the detailed notes, please visit [Aspose.SVG for .NET 20.7 Release Notes](https://docs.aspose.com/display/svgnet/Aspose.SVG+for+.NET+20.7+Release+Notes).
+For the detailed notes, please visit [Aspose.SVG for .NET 20.7 Release Notes](https://docs.aspose.com/svg/net/aspose-svg-for-net-20-7-release-notes/).
 
 ## Read Supported Formats
 
@@ -47,4 +47,4 @@ using (var document = new SVGDocument(Path.Combine(dataDir, "sourcefile.svg"))){
 }
 ```
 
-[Product Page](https://products.aspose.com/svg/net) | [Docs](https://docs.aspose.com/display/svgnet/Home) | [API Reference](https://apireference.aspose.com/svg/net) | [Examples](https://github.com/aspose-svg/Aspose.SVG-for-.NET) | [Blog](https://blog.aspose.com/category/svg/) | [Free Support](https://forum.aspose.com/c/svg) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/svg/net) | [Docs](https://docs.aspose.com/svg/net/) | [API Reference](https://apireference.aspose.com/svg/net) | [Examples](https://github.com/aspose-svg/Aspose.SVG-for-.NET) | [Blog](https://blog.aspose.com/category/svg/) | [Free Support](https://forum.aspose.com/c/svg) | [Temporary License](https://purchase.aspose.com/temporary-license)
