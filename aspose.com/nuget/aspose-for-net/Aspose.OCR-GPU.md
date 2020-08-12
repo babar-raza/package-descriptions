@@ -4,7 +4,7 @@ It is an OCR API that enhances your .NET apps to perform the image recognition u
 
 ## GPU OCR API Features
 
-- Programmatically [detect, identify and read characters](https://docs.aspose.com/display/ocrnet/Performing+OCR+on+an+Image) from images.
+- Programmatically [detect, identify and read characters](https://docs.aspose.com/ocr/net/performing-ocr-on-an-image/) from images.
 - Support English, French, Spanish and Portuguese text.
 - Detect and read popular font faces such as Arial, Times New Roman, Courier New, Tahoma, Calibri & Verdana.
 - Supports regular, bold and italic font styles.
@@ -42,4 +42,4 @@ string result = api.RecognizeImage(dataDir + "sample.png");
 Console.WriteLine(result);
 ```
 
-[Product Page](https://products.aspose.com/ocr/net) | [Docs](https://docs.aspose.com/display/ocrnet/Home) | [Demos](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/ocr/net) | [Examples](https://github.com/aspose-ocr/Aspose.OCR-for-.NET) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/ocr/net) | [Docs](https://docs.aspose.com/ocr/net/) | [Demos](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/ocr/net) | [Examples](https://github.com/aspose-ocr/Aspose.OCR-for-.NET) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) | [Temporary License](https://purchase.aspose.com/temporary-license)
