@@ -2,12 +2,12 @@
 
 [Aspose.Page for .NET](https://products.aspose.com/page/net) is an on premise .NET API that allows you to add XPS manipulation features to your own applications. The API also supports to convert XPS, EPS & PS documents to other formats.
 
-Developers can perform various operations on XPS documents, such as, add [text](https://docs.aspose.com/display/pagenet/Working+with+Text), [images](https://docs.aspose.com/display/pagenet/Working+with+Images), [pages](https://docs.aspose.com/display/pagenet/Working+with+Pages), [gradient](https://docs.aspose.com/display/pagenet/Working+with+Gradient), grid using [visual brush](https://docs.aspose.com/display/pagenet/Working+with+Visual+Brush), [transparency object](https://docs.aspose.com/display/pagenet/Add+Transparent+Object+inside+XPS+Document) and [set opacity mask](https://docs.aspose.com/display/pagenet/Set+Opacity+Mask). It allows to create, edit and convert the file pages as well as the ability to manipulate documents and elements, create vector graphics, group shapes and specifying colors in different color spaces including sRGB, scRGB, and any space based on ICC profile.
+Developers can perform various operations on XPS documents, such as, add text, images, pages, gradient, grid using visual brush, [transparency object](https://docs.aspose.com/page/net/add-transparent-object-inside-xps-document/) and [set opacity mask](https://docs.aspose.com/page/net/set-opacity-mask/). It allows to create, edit and convert the file pages as well as the ability to manipulate documents and elements, create vector graphics, group shapes and specifying colors in different color spaces including sRGB, scRGB, and any space based on ICC profile.
 
 ## XPS, EPS & PS Processing Features
 
 - Create & modify XPS documents via API.
-- [Add pages to XPS](https://docs.aspose.com/display/pagenet/Add+Pages+to+XPS+Document) documents.
+- [Add pages to XPS](https://docs.aspose.com/page/net/add-pages-to-xps-document/) documents.
 - Create vector graphic shapes (Path element) and text strings (Glyphs element).
 - Group various elements as well as modify the appearance of text strings and graphics.
 - Support for visual brush, image brush, solid color brush and more.
@@ -16,10 +16,6 @@ Developers can perform various operations on XPS documents, such as, add [text](
 - Perform cross-package operations such as, inserting a page from another document.
 - Conversion of XPS, PS & EPS documents to other popular formats.
 - Supports PostScript language levels 1-3 with an exception of font types: Type2 (CFF), Type14 (Chameleon), Types 9, 10, 11, 32 (CID-Keyed).
-
-## Enhancements in Version 20.7
-
-There are some minor enhancements in this release. For the detailed notes, please visit [Aspose.Page for .NET 20.7 Release Notes](https://docs.aspose.com/display/pagenet/Aspose.Page+for+.NET+20.7+Release+Notes).
 
 ## Read & Write XPS Format
 
@@ -81,4 +77,4 @@ finally
 }
 ```
 
-[Product Page](https://products.aspose.com/page/net) | [Docs](https://docs.aspose.com/display/pagenet/Home) | [Demos](https://products.aspose.app/page/family) | [API Reference](https://apireference.aspose.com/page/net) | [Examples](https://github.com/aspose-page/Aspose.Page-for-.NET) | [Blog](https://blog.aspose.com/category/page/) | [Free Support](https://forum.aspose.com/c/page) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/page/net) | [Docs](https://docs.aspose.com/page/net/) | [Demos](https://products.aspose.app/page/family) | [API Reference](https://apireference.aspose.com/page/net) | [Examples](https://github.com/aspose-page/Aspose.Page-for-.NET) | [Blog](https://blog.aspose.com/category/page/) | [Free Support](https://forum.aspose.com/c/page) | [Temporary License](https://purchase.aspose.com/temporary-license)
