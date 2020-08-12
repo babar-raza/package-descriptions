@@ -9,7 +9,7 @@ Aspose.Imaging for .NET offers robust image compression and high processing spee
 - Draw raster images with graphics.
 - Draw vector images.
 - Converting images to various formats.
-- [Apply masking](https://docs.aspose.com/display/imagingnet/Applying+Masking+to+Images) as well as [Median & Wiener](https://docs.aspose.com/display/imagingnet/Applying+Median+and+Wiener+Filters) filters.
+- [Apply masking](https://docs.aspose.com/imaging/net/applying-masking-to-images/) as well as [Median & Wiener](https://docs.aspose.com/imaging/net/applying-median-and-wiener-filters/) filters.
 - Crop, rotate & resize images via API.
 - De-skew & transform images.
 - Set image properties.
@@ -18,7 +18,7 @@ Aspose.Imaging for .NET offers robust image compression and high processing spee
 
 - Support of convertion to 1 bitdepth `PNG`.
 
-For the detailed notes, please visit [Aspose.Imaging for .NET 20.7 - Release notes](https://docs.aspose.com/display/imagingnet/Aspose.Imaging+for+.NET+20.7+-+Release+notes).
+For the detailed notes, please visit [Aspose.Imaging for .NET 20.7 - Release notes](https://docs.aspose.com/imaging/net/aspose-imaging-for-net-20-7-release-notes/).
 
 ## Read & Write Image Formats
 
@@ -72,4 +72,4 @@ using (var image = Image.Load(dir + "template.tiff", loadOptions))
 }
 ```
 
-[Product Page](https://products.aspose.com/imaging/net) | [Docs](https://docs.aspose.com/display/imagingnet/Home) | [Demos](https://products.aspose.app/imaging/family) | [API Reference](https://apireference.aspose.com/imaging/net) | [Examples](https://github.com/aspose-imaging/Aspose.Imaging-for-.NET) | [Blog](https://blog.aspose.com/category/imaging/) | [Free Support](https://forum.aspose.com/c/imaging) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/imaging/net) | [Docs](https://docs.aspose.com/imaging/net/) | [Demos](https://products.aspose.app/imaging/family) | [API Reference](https://apireference.aspose.com/imaging/net) | [Examples](https://github.com/aspose-imaging/Aspose.Imaging-for-.NET) | [Blog](https://blog.aspose.com/category/imaging/) | [Free Support](https://forum.aspose.com/c/imaging) | [Temporary License](https://purchase.aspose.com/temporary-license)
