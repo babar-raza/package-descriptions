@@ -1,12 +1,12 @@
 # Optical Character Recognition (OCR) .NET API
 
-It is a standalone OCR API that enhances your .NET apps to perform the [OCR operation on JPEG, PNG, GIF, BMP & TIFF images](https://docs.aspose.com/display/ocrnet/Supported+File+Formats) for extraction of English, French, Spanish & Portuguese content.
+It is a standalone OCR API that enhances your .NET apps to perform the [OCR operation on JPEG, PNG, GIF, BMP & TIFF images](https://docs.aspose.com/ocr/net/supported-file-formats/) for extraction of English, French, Spanish & Portuguese content.
 
 [Aspose.OCR for .NET](https://products.aspose.com/ocr/net) not only provides the Optical Character Recognition engine but more. You can also apply Blur, Gaussian Blur, and Median filter to reduce noise before document recognition and can set the OcrEngine to ignore non-textual blocks, maintain correct text order during document text recognition & automatically correct spellings of the document text.
 
 ## Image OCR API Features
 
-- Programmatically [detect, identify and read characters](https://docs.aspose.com/display/ocrnet/Performing+OCR+on+an+Image) from images.
+- Programmatically [detect, identify and read characters](https://docs.aspose.com/ocr/net/performing-ocr-on-an-image/) from images.
 - Support English, French, Spanish and Portuguese text.
 - Detect and read popular font faces such as Arial, Times New Roman, Courier New, Tahoma, Calibri & Verdana.
 - Supports regular, bold and italic font styles.
@@ -14,14 +14,12 @@ It is a standalone OCR API that enhances your .NET apps to perform the [OCR oper
 - Scan rotated images.
 - Application of various noise removal filters to assist image recognition.
 
-## New Features & Enhancements in Version 20.6
+## New Features & Enhancements in Version 20.7
 
-- Improved recognition quality.
-- Added API support for working with streams and recognition areas.
-- Added ability to specify characters for recognition.
-- Added the ability to calculate skew of the image.
+- Ability to remove vertical and horizontal lines from tables.
+- Added the support of image recognition using `GPU` and `CUDA` technology (available in separate assembly `Aspose.OCR.Gpu`).
 
-For the detailed notes, please visit [Aspose.OCR for .NET 20.6 - Release Notes](https://docs.aspose.com/display/ocrnet/Aspose.OCR+for+.NET+20.6+-+Release+Notes).
+For the detailed notes, pelase visit [Aspose.OCR for .NET 20.7 - Release Notes](https://docs.aspose.com/ocr/net/aspose-ocr-for-net-20-7-release-notes/).
 
 ## Read Image Formats for OCR
 
@@ -53,4 +51,4 @@ string result = api.RecognizeImage(dataDir + "sample.png");
 Console.WriteLine(result);
 ```
 
-[Product Page](https://products.aspose.com/ocr/net) | [Docs](https://docs.aspose.com/display/ocrnet/Home) | [Demos](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/ocr/net) | [Examples](https://github.com/aspose-ocr/Aspose.OCR-for-.NET) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/ocr/net) | [Docs](https://docs.aspose.com/ocr/net/) | [Demos](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/ocr/net) | [Examples](https://github.com/aspose-ocr/Aspose.OCR-for-.NET) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) | [Temporary License](https://purchase.aspose.com/temporary-license)
