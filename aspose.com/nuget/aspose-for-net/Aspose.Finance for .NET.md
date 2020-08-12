@@ -4,7 +4,7 @@
 
 ## Finance Processing Features
 
-- [Create XBRL instance](https://docs.aspose.com/display/financenet/Create+XBRL+files#CreateXBRLfiles-CreateXBRLInstance) from scratch.
+- [Create XBRL instance](https://docs.aspose.com/finance/net/create-xbrl-files/#CreateXBRLfiles-CreateXBRLInstance) from scratch.
 - Read XBRL & iXBRL format.
 - Supports XBRL & iXBRL validation.
 - Import and export XBRL & iXBRL format files.
@@ -21,7 +21,7 @@
 - Improved `iXBRL` ID management.
 - Improved `iXBRL` to `XBRL` conversion.
 
-For the detailed notes, please visit [Aspose.Finance for .NET 20.7 Release Notes](https://docs.aspose.com/display/financenet/Aspose.Finance+for+.NET+20.7+Release+Notes).
+For the detailed notes, please visit [Aspose.Finance for .NET 20.7 Release Notes](https://docs.aspose.com/finance/net/aspose-finance-for-net-20-7-release-notes/).
 
 ## Read & Write Finance Formats
 
@@ -59,4 +59,4 @@ if (roleType != null)
 document.Save(XbrlFilePath + @"output\document7.xbrl");
 ```
 
-[Product Page](https://products.aspose.com/finance/net) | [Docs](https://docs.aspose.com/display/financenet/Home) | [Demos](https://products.aspose.app/finance/family) | [API Reference](https://apireference.aspose.com/finance/net) | [Examples](https://github.com/aspose-finance/Aspose.finance-for-.NET) | [Blog](https://blog.aspose.com/category/finance/) | [Free Support](https://forum.aspose.com/c/finance) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/finance/net) | [Docs](https://docs.aspose.com/finance/net/) | [Demos](https://products.aspose.app/finance/family) | [API Reference](https://apireference.aspose.com/finance/net) | [Examples](https://github.com/aspose-finance/Aspose.finance-for-.NET) | [Blog](https://blog.aspose.com/category/finance/) | [Free Support](https://forum.aspose.com/c/finance) | [Temporary License](https://purchase.aspose.com/temporary-license)
