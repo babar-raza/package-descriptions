@@ -4,11 +4,11 @@
 
 ## Barcode API Features
 
-- [Generate](https://docs.aspose.com/display/barcodenet/Generate+Barcodes+with+Aspose.BarCode+APIs) & [recognize](https://docs.aspose.com/display/barcodenet/Read+Barcodes+with+Aspose.BarCode+APIs) 40+ barcode symbologies with just a few lines of code.
+- [Generate](https://docs.aspose.com/barcode/net/generate-barcodes-with-aspose-barcode-apis/) & [recognize](https://docs.aspose.com/barcode/net/read-barcodes-with-aspose-barcode-apis/) 40+ barcode symbologies with just a few lines of code.
 - Read 1D & 2D barcodes at any angle.
 - Easily print barcode labels to physical or virtual printers.
-- [Export barcode as XML](https://docs.aspose.com/display/barcodenet/Barcode+in+XML).
-- Support for [barcode supplement data and checksum](https://docs.aspose.com/display/barcodenet/Use+Checksum+and+Supplement+Data).
+- [Export barcode as XML](https://docs.aspose.com/barcode/net/barcode-in-xml/).
+- Support for [barcode supplement data and checksum](https://docs.aspose.com/barcode/net/use-checksum-and-supplement-data/).
 - Optimized code128 encoding.
 - Specify image area to scan barcode.
 - Create device resolution dependent images.
@@ -16,8 +16,6 @@
 ## New Features & Enhancements in Version 20.7
 
 - Support of Reader Initialization mode for `Pdf417` and `MacroPdf417`.
-
-For the detailed notes, please visit [Aspose.BarCode for .NET 20.7 Release Notes](https://docs.aspose.com/display/barcodenet/Aspose.BarCode+for+.NET+20.7+Release+Notes).
 
 ## Barcode Symbologies
 
@@ -66,4 +64,4 @@ generator.Parameters.Barcode.CodeTextParameters.Location = CodeLocation.None;
 generator.Save(dir + "output.png", BarCodeImageFormat.Png);
 ```
 
-[Product Page](https://products.aspose.com/barcode/net) | [Docs](https://docs.aspose.com/display/barcodenet/Home) | [Demos](https://products.aspose.app/barcode/family) | [API Reference](https://apireference.aspose.com/barcode/net) | [Examples](https://github.com/aspose-barcode/Aspose.BarCode-for-.NET) | [Blog](https://blog.aspose.com/category/barcode/) | [Free Support](https://forum.aspose.com/c/barcode) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/barcode/net) | [Docs](https://docs.aspose.com/barcode/net/) | [Demos](https://products.aspose.app/barcode/family) | [API Reference](https://apireference.aspose.com/barcode/net) | [Examples](https://github.com/aspose-barcode/Aspose.BarCode-for-.NET) | [Blog](https://blog.aspose.com/category/barcode/) | [Free Support](https://forum.aspose.com/c/barcode) | [Temporary License](https://purchase.aspose.com/temporary-license)
