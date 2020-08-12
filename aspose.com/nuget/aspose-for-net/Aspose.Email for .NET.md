@@ -1,25 +1,23 @@
 # .NET Email API
 
-[Aspose.Email for .NET](https://products.aspose.com/email/net) allows you to work with MIME messages, appointments, Microsoft Outlook® items, Outlook storage files, various clients & protocols ([SMTP](https://docs.aspose.com/display/emailnet/Working+with+SMTP+Client), [POP3](https://docs.aspose.com/display/emailnet/Working+with+POP3+Client), [IMAP](https://docs.aspose.com/display/emailnet/Working+with+IMAP+Client), [Exchange EWS](https://docs.aspose.com/display/emailnet/Working+with+Exchange+EWS+Client), [Exchange WebDav](https://docs.aspose.com/display/emailnet/Working+with+Exchange+WebDav+Client), [Gmail](https://docs.aspose.com/display/emailnet/Programming+with+Gmail), [Thunderbird](https://docs.aspose.com/display/emailnet/Programming+with+Thunderbird), [Zimbra](https://docs.aspose.com/display/emailnet/Working+with+Zimbra), [IBM Notes](https://docs.aspose.com/display/emailnet/Working+with+IBM+Notes) & AMP HTML emails and more.
+[Aspose.Email for .NET](https://products.aspose.com/email/net) allows you to work with MIME messages, appointments, Microsoft Outlook® items, Outlook storage files, various clients & protocols SMTP, POP3, IMAP, Exchange EWS, Exchange WebDav, Gmail, [Thunderbird](https://docs.aspose.com/email/net/programming-with-thunderbird/), [Zimbra](https://docs.aspose.com/email/net/working-with-zimbra/), [IBM Notes](https://docs.aspose.com/email/net/working-with-ibm-notes/) & AMP HTML emails and more.
 
 ## Email API Features
 
 - Open or save emails in Microsoft Outlook & other formats.
 - Conversion of email files to various formats.
 - Parse, read & save MS Outlook emails, PST & OST files.
-- [Comprehensive support for MIME messages](https://docs.aspose.com/display/emailnet/Working+with+MIME+Messages).
+- Comprehensive support for MIME messages.
 - Send & receive emails via POP3, IMAP, Microsoft Exchange Server.
 - Send emails in bulk while performing mail merge via various types of data sources.
 - Send iCalendar compliant messages.
 - Consume and produce recurrence patterns in the iCalendar (RFC 2445) format.
 - Tools to verify email addresses, email syntax, email domain, mail server & MX records.
-- Extract objects from various mail storage formats as well as [create email storage files from scratch](https://docs.aspose.com/display/emailnet/Create+New+PST+File+and+Add+SubFolders).
+- Extract objects from various mail storage formats as well as [create email storage files from scratch](https://docs.aspose.com/email/net/create-new-pst-file-and-add-subfolders/).
 
 ## New Features & Enhancements in Version 20.7
 
 - Ability to stop the stuck operation of saving message to the `MHT` format, handle the event, and continue executing the application.
-
-For the detailed notes, please visit [Aspose.Email for .NET 20.7 Release Notes](https://docs.aspose.com/display/emailnet/Aspose.Email+for+.NET+20.7+Release+Notes).
 
 ## Read & Write Email Formats
 
@@ -95,4 +93,4 @@ var appointment = new Appointment(
 appointment.Save("output.ics", AppointmentSaveFormat.Ics);
 ```
 
-[Product Page](https://products.aspose.com/email/net) | [Docs](https://docs.aspose.com/display/emailnet/Home) | [Demos](https://products.aspose.app/email/family) | [API Reference](https://apireference.aspose.com/email/net) | [Examples](https://github.com/aspose-email/Aspose.Email-for-.NET) | [Blog](https://blog.aspose.com/category/email/) | [Free Support](https://forum.aspose.com/c/email) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/email/net) | [Docs](https://docs.aspose.com/email/net/) | [Demos](https://products.aspose.app/email/family) | [API Reference](https://apireference.aspose.com/email/net) | [Examples](https://github.com/aspose-email/Aspose.Email-for-.NET) | [Blog](https://blog.aspose.com/category/email/) | [Free Support](https://forum.aspose.com/c/email) | [Temporary License](https://purchase.aspose.com/temporary-license)
