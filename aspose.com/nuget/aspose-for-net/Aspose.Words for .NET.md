@@ -4,13 +4,13 @@
 
 The following are some popular features of Aspose.Words for .NET:
 
-- Aspose.Words can be used to develop applications for a vast range of operating systems such as Windows or Linux & Mac OS and [platforms](https://docs.aspose.com/display/wordsnet/Feature+Overview#FeatureOverview-SupportedPlatforms) such as [Windows Azure](https://docs.aspose.com/display/wordsnet/Windows+Azure+Platform), Xamarin.Android, or Xamarin.iOS & Xamarin.Mac.
-- Comprehensive [document import and export](https://docs.aspose.com/display/wordsnet/Loading%2C+Saving+and+Converting) with [35+ supported file formats](https://docs.aspose.com/display/wordsnet/Supported+Document+Formats). This allows users to [convert documents](https://docs.aspose.com/display/wordsnet/Converting+a+Document) from [one popular format](https://apireference.aspose.com/words/net/aspose.words/loadformat) to [another](https://apireference.aspose.com/words/net/aspose.words/saveformat), for example, from DOCX into PDF or Markdown, or from PDF into various Word formats.
-- Programmatic access to the formatting properties of all document elements. For example, using Aspose.Words users can [split a document](https://docs.aspose.com/display/wordsnet/Split+a+Document) into parts or [compare two documents](https://docs.aspose.com/display/wordsnet/Compare+Documents).
-- [High fidelity rendering](https://docs.aspose.com/display/wordsnet/Rendering) of document pages. For example, if it is needed to render a document as in Microsoft Word, Aspose.Words will successfully cope with this task.
-- Ability to [print a document](https://docs.aspose.com/display/wordsnet/Print+a+Document+Programmatically+or+Using+Dialogs) programmatically using Aspose.Words and the XpsPrint API or via dialog boxes.
-- [Generate reports with Mail Merge](https://docs.aspose.com/display/wordsnet/Mail+Merge+and+Reporting), which allows filling in merge templates with data from various sources to create merged documents.
-- [LINQ Reporting Engine](https://docs.aspose.com/display/wordsnet/LINQ+Reporting+Engine) to fetch data from databases, XML, JSON, OData, external documents, and much more.
+- Aspose.Words can be used to develop applications for a vast range of operating systems such as Windows or Linux & Mac OS and [platforms](https://docs.aspose.com/words/net/feature-overview/#supported-platforms) such as [Windows Azure](https://docs.aspose.com/words/net/windows-azure-platform/), Xamarin.Android, or Xamarin.iOS & Xamarin.Mac.
+- Comprehensive [document import and export](https://docs.aspose.com/words/net/loading-saving-and-converting/) with [35+ supported file formats](https://docs.aspose.com/words/net/supported-document-formats/). This allows users to [convert documents](https://docs.aspose.com/words/net/converting-a-document/) from [one popular format](https://apireference.aspose.com/words/net/aspose.words/loadformat) to [another](https://apireference.aspose.com/words/net/aspose.words/saveformat), for example, from DOCX into PDF or Markdown, or from PDF into various Word formats.
+- Programmatic access to the formatting properties of all document elements. For example, using Aspose.Words users can [split a document](https://docs.aspose.com/words/net/split-a-document/) into parts or [compare two documents](https://docs.aspose.com/words/net/split-a-document/).
+- [High fidelity rendering](https://docs.aspose.com/words/net/rendering/) of document pages. For example, if it is needed to render a document as in Microsoft Word, Aspose.Words will successfully cope with this task.
+- Ability to [print a document](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) programmatically using Aspose.Words and the XpsPrint API or via dialog boxes.
+- [Generate reports with Mail Merge](https://docs.aspose.com/words/net/mail-merge-and-reporting/), which allows filling in merge templates with data from various sources to create merged documents.
+- LINQ Reporting Engine to fetch data from databases, XML, JSON, OData, external documents, and much more.
 
 ## New Features & Enhancements in Version 20.8
 
@@ -19,7 +19,7 @@ The following are some popular features of Aspose.Words for .NET:
 - Added flag indicating whether images must be skipped while loading PDF documents.
 - Implemented support for `SVG` images embedded using data URLs upon HTML import.
 
-For the detailed notes, please visit [Aspose.Words for .NET 20.8 Release Notes](https://docs.aspose.com/display/wordsnet/Aspose.Words+for+.NET+20.8+Release+Notes).
+For the detailed notes, please visit [Aspose.Words for .NET 20.8 Release Notes](https://docs.aspose.com/words/net/aspose-words-for-net-20-8-release-notes/).
 
 ## Read & Write Document Formats
 
@@ -32,7 +32,7 @@ Aspose.Words for .NET supports the following formats,
 - JPEG, TIFF, PNG,
 - and others.
 
-For a complete list of formats supported by Aspose.Words, see the [Supported Document Formats](https://docs.aspose.com/display/wordsnet/Supported+Document+Formats) page.
+For a complete list of formats supported by Aspose.Words, see the [Supported Document Formats](https://docs.aspose.com/words/net/supported-document-formats/) page.
 
 ## Platform Independence
 
@@ -90,4 +90,4 @@ Document doc = new Document(dir + "TestDocument.pdf");
 doc.Save(dir + "output.docx");
 ```
 
-[Product Page](https://products.aspose.com/words/net) | [Docs](https://docs.aspose.com/display/wordsnet/Home) | [Demos](https://products.aspose.app/words/family) | [API Reference](https://apireference.aspose.com/words/net) | [Examples](https://github.com/aspose-words/Aspose.Words-for-.NET) | [Blog](https://blog.aspose.com/category/words/) | [Free Support](https://forum.aspose.com/c/words) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/words/net) | [Docs](https://docs.aspose.com/words/net/) | [Demos](https://products.aspose.app/words/family) | [API Reference](https://apireference.aspose.com/words/net) | [Examples](https://github.com/aspose-words/Aspose.Words-for-.NET) | [Blog](https://blog.aspose.com/category/words/) | [Free Support](https://forum.aspose.com/c/words) | [Temporary License](https://purchase.aspose.com/temporary-license)
