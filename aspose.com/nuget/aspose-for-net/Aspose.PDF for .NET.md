@@ -6,14 +6,14 @@ Integrate PDF creation, processing, manipulation & conversion features into your
 
 ## PDF Processing Features
 
-- [Generate PDF documents](https://docs.aspose.com/display/pdfnet/Create+Document) on the fly through the API or via XML templates.
+- [Generate PDF documents](https://docs.aspose.com/pdf/net/create-document/) on the fly through the API or via XML templates.
 - Supports 14 core, Type 1, TruType, Type 3, CJK & Unicode fonts.
-- [Extract text](https://docs.aspose.com/display/pdfnet/Extract+Text+from+PDF) from PDF pages or search for particular text segment using regular expressions.
+- [Extract text](https://docs.aspose.com/pdf/net/extract-text-from-pdf/) from PDF pages or search for particular text segment using regular expressions.
 - Add or extract text & images to & from PDF documents.
-- [Concatenate](https://docs.aspose.com/display/pdfnet/Concatenate+PDF+Files) or split PDF files.
+- [Concatenate](https://docs.aspose.com/pdf/net/concatenate-pdf-files/) or split PDF files.
 - Linearization of PDF documents for web optimization.
 - Validation support for PDF/A-1a, PDF/A-1b & PDF/A-2a.
-- Manage [PDF tables](https://docs.aspose.com/display/pdfnet/Working+with+Tables) & [graphs](https://docs.aspose.com/display/pdfnet/Working+with+Graphs) using easy to understand object model.
+- Manage [PDF tables](https://docs.aspose.com/pdf/net/working-with-tables/) & [graphs](https://docs.aspose.com/pdf/net/working-with-graphs/) using easy to understand object model.
 - Convert PDF documents to Office, web, image & PS formats with highest visual fidelity.
 - Manipulate PDF files to manage bookmarks, hyperlinks, watermarks, attachments & annotation.
 - Encrypt or decrypt PDF documents as well as set document privileges or modify passwords.
@@ -26,7 +26,7 @@ Integrate PDF creation, processing, manipulation & conversion features into your
 
 - Support for `PDF` to `CSV` conversion.
 
-For the detailed notes, please visit [Aspose.PDF for .NET 20.7 Release Notes](https://docs.aspose.com/display/pdfnet/Aspose.PDF+for+.NET+20.7+Release+Notes).
+For the detailed notes, please visit [Aspose.PDF for .NET 20.7 Release Notes](https://docs.aspose.com/pdf/net/aspose-pdf-for-net-20-7-release-notes/).
 
 ## Read & Write PDF & Other Formats
 
@@ -83,4 +83,4 @@ pfile.Save(dir + "output.pptx", Aspose.Pdf.SaveFormat.Pptx);
 pfile.Save(dir + "output.html", Aspose.Pdf.SaveFormat.Html);
 ```
 
-[Product Page](https://products.aspose.com/pdf/net) | [Docs](https://docs.aspose.com/display/pdfnet/Home) | [Demos](https://products.aspose.app/pdf/family) | [API Reference](https://apireference.aspose.com/pdf/net) | [Examples](https://github.com/aspose-pdf/Aspose.Pdf-for-.NET) | [Blog](https://blog.aspose.com/category/pdf/) | [Free Support](https://forum.aspose.com/c/pdf) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/pdf/net) | [Docs](https://docs.aspose.com/pdf/net/) | [Demos](https://products.aspose.app/pdf/family) | [API Reference](https://apireference.aspose.com/pdf/net) | [Examples](https://github.com/aspose-pdf/Aspose.Pdf-for-.NET) | [Blog](https://blog.aspose.com/category/pdf/) | [Free Support](https://forum.aspose.com/c/pdf) | [Temporary License](https://purchase.aspose.com/temporary-license)
