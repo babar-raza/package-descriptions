@@ -1,22 +1,22 @@
 # .NET API to Perform OMR
 
-It is a standalone on-premise API that helps in [recognizing the human-marked data](https://docs.aspose.com/display/omrnet/Perform+OMR+on+Images) from images of scanned documents, surveys, questionnaires, quizzes and examination papers.
+It is a standalone on-premise API that helps in [recognizing the human-marked data](https://docs.aspose.com/omr/net/perform-omr-on-images/) from images of scanned documents, surveys, questionnaires, quizzes and examination papers.
 
-[Aspose.OMR for .NET](https://products.aspose.com/omr/net) not only acts as an Optical Mark Recognition engine. It also provides a handy [graphical control](https://docs.aspose.com/display/omrnet/Working+with+Graphical+Control) which can be used for manual tuning of the threshold and markup to see changes in the real-time.
+[Aspose.OMR for .NET](https://products.aspose.com/omr/net) not only acts as an Optical Mark Recognition engine. It also provides a handy graphical control which can be used for manual tuning of the threshold and markup to see changes in the real-time.
 
 ## OMR API Features
 
-- [Recognition of scanned images](https://docs.aspose.com/display/omrnet/Perform+OMR+on+Images) and photos.
+- Recognition of scanned images and photos.
 - Ability to process rotated and perspective (side viewed) images.
 - Recognize data from tests, exams, questionnaires, surveys etc.
 - High accuracy rate & ability to export the results in CSV format.
-- [Create OMR templates](https://docs.aspose.com/display/omrnet/Create+OMR+Template) from text markup.
+- [Create OMR templates](https://docs.aspose.com/omr/net/create-omr-template/) from text markup.
 
 ## New Features & Enhancements in Version 20.6
 
 - Absolute positioning for an image element in template generation.
 
-For the detailed notes, please visit [Aspose.OMR for .NET 20.6 Release Notes](https://docs.aspose.com/display/omrnet/Aspose.OMR+for+.NET+20.6+Release+Notes).
+For the detailed notes, please visit [Aspose.OMR for .NET 20.6 Release Notes](https://docs.aspose.com/omr/net/aspose-omr-for-net-20-6-release-notes/).
 
 ## Save OMR Results As
 
@@ -45,4 +45,4 @@ RecognitionResult result = templateProcessor.RecognizeImage(dir + "template.jpg"
 string csvResult = result.GetCsv();
 ```
 
-[Product Page](https://products.aspose.com/omr/net) | [Docs](https://docs.aspose.com/display/omrnet/Home) | [Demos](https://products.aspose.app/omr/family) | [API Reference](https://apireference.aspose.com/omr/net) | [Examples](https://github.com/aspose-omr/Aspose.OMR-for-.NET) | [Blog](https://blog.aspose.com/category/omr/) | [Free Support](https://forum.aspose.com/c/omr) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/omr/net) | [Docs](https://docs.aspose.com/omr/net/) | [Demos](https://products.aspose.app/omr/family) | [API Reference](https://apireference.aspose.com/omr/net) | [Examples](https://github.com/aspose-omr/Aspose.OMR-for-.NET) | [Blog](https://blog.aspose.com/category/omr/) | [Free Support](https://forum.aspose.com/c/omr) | [Temporary License](https://purchase.aspose.com/temporary-license)
