@@ -4,9 +4,9 @@ A [standalone C++ class library](https://products.aspose.com/slides/cpp) to crea
 
 ## Presentation Processing Features
 
-- Create, open and [work with presentations](https://docs.aspose.com/display/slidescpp/Creating%2C+Saving+and+Converting+a+Presentation) without Microsoft PowerPoint.
-- [Convert presentation](https://docs.aspose.com/display/slidescpp/Converting+a+Presentation) to any of the [supported file formats](https://docs.aspose.com/display/slidescpp/Supported+File+Formats).
-- Adding, formatting, and manipulating [charts](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+Charts), [shapes](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+Shapes), [slides](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+Slides), [SmartArt](https://docs.aspose.com/display/slidescpp/Adding%2C+Formatting+and+Manipulating+SmartArt), [tables](https://docs.aspose.com/display/slidescpp/Adding%2C+Updating+and+Manipulating+Tables), and [text](https://docs.aspose.com/display/slidescpp/Adding+Formatting+and+Manipulating+Text) in presentations.
+- Create, open and work with presentations without Microsoft PowerPoint.
+- [Convert presentation](https://docs.aspose.com/slides/cpp/converting-a-presentation/) to any of the [supported file formats](https://docs.aspose.com/slides/cpp/supported-file-formats/).
+- Adding, formatting, and manipulating charts, shapes, slides, SmartArt, [tables](https://docs.aspose.com/slides/cpp/adding-updating-and-manipulating-tables/), and text in presentations.
 
 ## New Features & Enhancements in Version 20.7
 
@@ -17,7 +17,7 @@ A [standalone C++ class library](https://products.aspose.com/slides/cpp) to crea
 - Automatic wrapped text exported with line breaks in `PDF`.
 - Improved thumbnails rendering quality.
 
-For the detailed notes, please visit [Aspose.Slides for C++ 20.7 Release Notes](https://docs.aspose.com/display/slidescpp/Aspose.Slides+for+CPP+20.7+Release+Notes).
+For the detailed notes, please visit [Aspose.Slides for C++ 20.7 Release Notes](https://docs.aspose.com/slides/cpp/aspose-slides-for-cpp-20-7-release-notes/).
 
 ## Read & Write PowerPoint Files
 
@@ -65,4 +65,4 @@ SharedPtr<Presentation> pres = MakeObject<Presentation>(u"template.pptx");
 pres->Save(u"output.pdf", Aspose::Slides::Export::SaveFormat::Pdf);
 ```
 
-[Product Page](https://products.aspose.com/slides/cpp) | [Docs](https://docs.aspose.com/display/slidescpp/Home) | [Demos](https://products.aspose.app/slides/family) | [API Reference](https://apireference.aspose.com/slides/cpp) | [Examples](https://github.com/aspose-slides/Aspose.Slides-for-C) | [Blog](https://blog.aspose.com/category/slides/) | [Free Support](https://forum.aspose.com/c/slides) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/slides/cpp) | [Docs](https://docs.aspose.com/slides/cpp/) | [Demos](https://products.aspose.app/slides/family) | [API Reference](https://apireference.aspose.com/slides/cpp) | [Examples](https://github.com/aspose-slides/Aspose.Slides-for-C) | [Blog](https://blog.aspose.com/category/slides/) | [Free Support](https://forum.aspose.com/c/slides) | [Temporary License](https://purchase.aspose.com/temporary-license)
