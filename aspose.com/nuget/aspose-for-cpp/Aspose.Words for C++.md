@@ -2,25 +2,24 @@
 
 A standalone C++ class library to load, save, format & convert Microsoft Word® documents without Office Automation.
 
-[Aspose.Words for C++](https://products.aspose.com/words/cpp) is a powerful on premise API that can be used for a great range of document processing tasks such as; working with [documents](https://docs.aspose.com/display/wordscpp/Working+with+Document), [sections](https://docs.aspose.com/display/wordscpp/Working+with+Sections), [tables](https://docs.aspose.com/display/wordscpp/Working+with+Tables), [bookmarks](https://docs.aspose.com/display/wordscpp/Working+with+Bookmarks), [fields](https://docs.aspose.com/display/wordscpp/Working+with+Fields), [form fields](https://docs.aspose.com/display/wordscpp/Working+with+Form+Fields), [DocumentBuilder](https://docs.aspose.com/display/wordscpp/Use+DocumentBuilder+to+Insert+Document+Elements), [ranges](https://docs.aspose.com/display/wordscpp/Working+with+Ranges), [comments](https://docs.aspose.com/display/wordscpp/Working+with+Comments), [content control SDT](https://docs.aspose.com/display/wordscpp/Working+with+Content+Control+SDT), [images](https://docs.aspose.com/display/wordscpp/Working+with+Images), [styles](https://docs.aspose.com/display/wordscpp/Working+with+Styles), [charts](https://docs.aspose.com/display/wordscpp/Working+with+Charts), [watermarks](https://docs.aspose.com/display/wordscpp/Working+with+Watermark), lists, [shapes](https://docs.aspose.com/display/wordscpp/Working+with+Shapes), [mail merge](https://docs.aspose.com/display/wordscpp/How+to+Use+Advanced+Mail+Merge+Features), rendering, printing and much more.
+[Aspose.Words for C++](https://products.aspose.com/words/cpp) is a powerful on premise API that can be used for a great range of document processing tasks such as; working with documents, sections, tables, bookmarks, fields, form fields, DocumentBuilder, ranges, comments, content control SDT, images, styles, charts, watermarks, lists, shapes, mail merge, rendering, printing and much more.
 
 ## Word File Processing Features
 
-- Call the Document constructor without parameters to [programmatically create a new blank document](https://docs.aspose.com/display/wordscpp/Creating+or+Loading+a+Document#CreatingorLoadingaDocument-CreatingaNewDocument).
-- Detect the file format and [check file format compatibility](https://docs.aspose.com/display/wordscpp/Creating+or+Loading+a+Document#CreatingorLoadingaDocument-HowtoDetecttheFileFormatandCheckFormatCompatibility).
-- [Convert Word Documents](https://docs.aspose.com/display/wordscpp/Converting+a+Document) to other supported formats.
-- [Serialize a document object](https://docs.aspose.com/display/wordscpp/Converting+a+Document#ConvertingaDocument-ConvertaDocumenttoByteArray) to fetch a byte array and vice versa.
-- Supports [conversion compliance to various PDF standards](https://docs.aspose.com/display/wordscpp/Converting+a+Document#ConvertingaDocument-ConvertusingPdfCompliance).
-- [Export fonts to HTML](https://docs.aspose.com/display/wordscpp/Converting+a+Document#ConvertingaDocument-ExportFontstoHTMLinBase64Encoding) in `Base64` encoding.
-- [Save any password encrypted word document](https://docs.aspose.com/display/wordscpp/Working+With+OOXML#WorkingWithOOXML-EncryptDocumentwithPassword).
-- [Specify the OOXML specification](https://docs.aspose.com/display/wordscpp/Working+With+OOXML#WorkingWithOOXML-SettingtheComplianceLevel).
-- [Apply password to encrypted documents](https://docs.aspose.com/display/wordscpp/Working+with+SaveOptions#WorkingwithSaveOptions-EncryptDocumentWithPassword) and ignore `RoutingSlip` data while saving.
-- [Compress all the metafiles](https://docs.aspose.com/display/wordscpp/Working+with+SaveOptions#WorkingwithSaveOptions-CompressMetafiles), be it small or large.
+- Call the Document constructor without parameters to [programmatically create a new blank document](https://docs.aspose.com/words/cpp/creating-or-loading-a-document/).
+- Detect the file format and check file format compatibility.
+- [Convert Word Documents](https://docs.aspose.com/words/cpp/converting-a-document/) to other supported formats.
+- Serialize a document object to fetch a byte array and vice versa.
+- Supports conversion compliance to various PDF standards.
+- Export fonts to HTML in `Base64` encoding.
+- Save any password encrypted word document.
+- [Specify the OOXML specification](https://docs.aspose.com/words/cpp/working-with-ooxml/).
+- [Apply password to encrypted documents](https://docs.aspose.com/words/cpp/working-with-saveoptions/) and ignore `RoutingSlip` data while saving.
+- Compress all the metafiles, be it small or large.
 - Enable bi-directional marks to add support for right to left languages.
 - Access the VBA Project to extend the functionality.
-- Read, write or modify [VBA Macros](https://docs.aspose.com/display/wordscpp/Working+with+VBA+Macros).
-- [Clone VBA Project](https://docs.aspose.com/display/wordscpp/Working+with+VBA+Macros#WorkingwithVBAMacros-CloneVBAProject) or VBA Module.
-- So many more [features](https://docs.aspose.com/display/wordscpp/Developer+Guide).
+- Read, write or modify [VBA Macros](https://docs.aspose.com/words/cpp/working-with-vba-macros/).
+- Clone VBA Project or VBA Module.
 
 ## New Features & Enhancements in Version 20.7
 
@@ -29,8 +28,6 @@ A standalone C++ class library to load, save, format & convert Microsoft Word® 
 - Added a new public property `MailMerge.RetainFirstSectionStart`.
 - `RevisionOptions` class is extended with new properties.
 - Improved performance of SmartArt cold rendering.
-
-For the detailed notes, please visit [Aspose.Words for C++ 20.7 Release Notes](https://docs.aspose.com/display/wordscpp/Aspose.Words+for+CPP+20.7+Release+Notes).
 
 ## Read & Write Word Processing Files
 
@@ -85,4 +82,4 @@ doc->Save(u"output.epub");
 - Limited and unstable support for rendering features.
 - No support for reporting features.
 
-[Product Page](https://products.aspose.com/words/cpp) | [Docs](https://docs.aspose.com/display/wordscpp/Home) | [Demos](https://products.aspose.app/words/family) | [API Reference](https://apireference.aspose.com/words/cpp) | [Examples](https://github.com/aspose-words/Aspose.Words-for-C) | [Blog](https://blog.aspose.com/category/words/) | [Free Support](https://forum.aspose.com/c/words) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/words/cpp) | [Docs](https://docs.aspose.com/words/cpp/) | [Demos](https://products.aspose.app/words/family) | [API Reference](https://apireference.aspose.com/words/cpp) | [Examples](https://github.com/aspose-words/Aspose.Words-for-C) | [Blog](https://blog.aspose.com/category/words/) | [Free Support](https://forum.aspose.com/c/words) |  [Temporary License](https://purchase.aspose.com/temporary-license)
