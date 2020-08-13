@@ -1,6 +1,6 @@
 # Optical Character Recognition (OCR) C++ API
 
-[Aspose.OCR for C++](https://products.aspose.com/ocr/cpp) is a standalone OCR API that enhances your C++ apps to perform the [OCR operation on JPEG, PNG, & BMP images](https://docs.aspose.com/display/ocrcpp/Supported+File+Formats) for extraction of English content.
+[Aspose.OCR for C++](https://products.aspose.com/ocr/cpp) is a standalone OCR API that enhances your C++ apps to perform the [OCR operation on JPEG, PNG, & BMP images](https://docs.aspose.com/ocr/cpp/supported-file-formats/) for extraction of English content.
 
 ## Image OCR API Features
 
@@ -16,7 +16,7 @@
 - Ability to recognize text in the tables.
 - Added image recognition using `GPU` and `CUDA` technology (available in separate assembly `Aspose.Ocr.Cpp.Gpu`).
 
-For the detailed notes, pelase visit [Aspose.OCR for C++ 20.7 Release Notes](https://docs.aspose.com/display/ocrcpp/Aspose.OCR+for+CPP+20.7+Release+Notes).
+For the detailed notes, pelase visit [Aspose.OCR for C++ 20.7 Release Notes](https://docs.aspose.com/ocr/cpp/aspose-ocr-for-cpp-20-7-release-notes/).
 
 ## Read Image Formats for OCR
 
@@ -49,4 +49,4 @@ std::wcout << result << L'\n';
 
 The evaluation version of Aspose.OCR for C++ limits the number of characters extracted from an image to 300.
 
-[Product Page](https://products.aspose.com/ocr/cpp) | [Docs](https://docs.aspose.com/display/ocrcpp/Home) | [Demos](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/ocr/cpp) | [Examples](https://github.com/aspose-ocr/Aspose.OCR-for-C) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/ocr/cpp) | [Docs](https://docs.aspose.com/ocr/cpp/) | [Demos](https://products.aspose.app/ocr/family) | [API Reference](https://apireference.aspose.com/ocr/cpp) | [Examples](https://github.com/aspose-ocr/Aspose.OCR-for-C) | [Blog](https://blog.aspose.com/category/ocr/) | [Free Support](https://forum.aspose.com/c/ocr) | [Temporary License](https://purchase.aspose.com/temporary-license)
