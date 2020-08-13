@@ -20,7 +20,7 @@ Directory | Description
 - Draw raster images with graphics.
 - Draw vector images.
 - Converting images to various formats.
-- [Apply masking](https://docs.aspose.com/display/imagingjava/Applying+Masking+to+Images) as well as [Median & Wiener](https://docs.aspose.com/display/imagingjava/Applying+Median+and+Wiener+Filters) filters.
+- [Apply masking](https://docs.aspose.com/imaging/java/applying-masking-to-images/) as well as [Median & Wiener](https://docs.aspose.com/imaging/java/applying-median-and-wiener-filters/) filters.
 - Crop, rotate & resize images via API.
 - De-skew & transform images.
 - Set image properties.
@@ -56,7 +56,7 @@ Aspose.Imaging works for both x86 and x64 versions of the above listed operating
 
 ## Get Started with Aspose.Imaging for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-imaging). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Imaging for Java from Maven Repository](https://docs.aspose.com/display/imagingjava/Installation#Installation-InstallingAspose.ImagingforJavafromMavenRepository) documentation page.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-imaging). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Imaging for Java from Maven Repository](https://docs.aspose.com/imaging/java/installation/) documentation page.
 
 ## Crop EMF Image by Rectangle using Java
 
@@ -73,4 +73,4 @@ metaImage.crop(rectangle);
 metaImage.save(dataDir + "CropbyRectangle_out.png", new PngOptions());
 ```
 
-[Product Page](https://products.aspose.com/imaging/java) | [Docs](https://docs.aspose.com/display/imagingjava/Home) | [Demos](https://products.aspose.app/imaging/family) | [API Reference](https://apireference.aspose.com/java/imaging) | [Examples](https://github.com/aspose-imaging/Aspose.Imaging-for-Java) | [Blog](https://blog.aspose.com/category/imaging/) | [Free Support](https://forum.aspose.com/c/imaging) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/imaging/java) | [Docs](https://docs.aspose.com/imaging/java/) | [Demos](https://products.aspose.app/imaging/family) | [API Reference](https://apireference.aspose.com/java/imaging) | [Examples](https://github.com/aspose-imaging/Aspose.Imaging-for-Java) | [Blog](https://blog.aspose.com/category/imaging/) | [Free Support](https://forum.aspose.com/c/imaging) | [Temporary License](https://purchase.aspose.com/temporary-license)

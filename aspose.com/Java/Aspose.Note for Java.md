@@ -16,13 +16,13 @@ Directory | Description
 ## Microsoft OneNote File Processing Features
 
 - Load, Save and Convert ONeNote documents.
-- [Generate Root and Sub Level Pages in OneNote](https://docs.aspose.com/display/notejava/Working+with+Pages#WorkingwithPages-GeneratingRootandSubLevelPagesinOneNote).
+- [Generate Root and Sub Level Pages in OneNote](https://docs.aspose.com/note/java/working-with-pages/).
 - Get page revisions and roll back to previous version.
 - Extract images from a OneNote document.
-- [Extract or replace text from a Specified Page](https://docs.aspose.com/display/notejava/Working+with+Text) of a OneNote Document.
+- [Extract or replace text from a Specified Page](https://docs.aspose.com/note/java/working-with-text/) of a OneNote Document.
 - Create a Table with Locked Columns in the OneNote Document.
-- [Attach a File to the OneNote Document](https://docs.aspose.com/display/notejava/Working+with+Attachments).
-- Ceate,save, read, convert [OneNote Notebook](https://docs.aspose.com/display/notejava/Working+with+OneNote+Notebook).
+- [Attach a File to the OneNote Document](https://docs.aspose.com/note/java/working-with-attachments/).
+- Ceate,save, read, convert [OneNote Notebook](https://docs.aspose.com/note/java/working-with-onenote-notebook/).
 
 ## Read & Write OneNote Format
 
@@ -44,7 +44,7 @@ ONETOC2
 
 ## Get Started with Aspose.Note for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-note). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Note for Java from Maven Repository](https://docs.aspose.com/display/notejava/Installation#Installation-InstallingAspose.NoteforJavafromMavenRepository) documentation page.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-note). You can easily use Aspose.BarCode for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Note for Java from Maven Repository](https://docs.aspose.com/note/java/installation/) documentation page.
 
 ## Convert OneNote document to PDF with the Default Options using Java
 
@@ -63,4 +63,4 @@ Document oneFile = new Document(inputPath.toString());
 oneFile.save(outputPath.toString(), new PdfSaveOptions());
 ```
 
-[Product Page](https://products.aspose.com/note/java) | [Docs](https://docs.aspose.com/display/notejava/Home) | [Demos](https://products.aspose.app/note/family) | [API Reference](https://apireference.aspose.com/java/note) | [Examples](https://github.com/aspose-note/Aspose.Note-for-Java) | [Blog](https://blog.aspose.com/category/note/) | [Free Support](https://forum.aspose.com/c/note) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/note/java) | [Docs](https://docs.aspose.com/note/java/) | [Demos](https://products.aspose.app/note/family) | [API Reference](https://apireference.aspose.com/java/note) | [Examples](https://github.com/aspose-note/Aspose.Note-for-Java) | [Blog](https://blog.aspose.com/category/note/) | [Free Support](https://forum.aspose.com/c/note) | [Temporary License](https://purchase.aspose.com/temporary-license)
