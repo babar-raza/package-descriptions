@@ -44,4 +44,4 @@ Aspose.PUB for C++ is a standalone and reliable [Microsoft Publisher files proce
 
 ## Additional Resources
 
-[Product Page](https://products.aspose.com/total/cpp) | [Docs](https://docs.aspose.com/display/totalcpp/Home) | [API Reference](https://apireference.aspose.com/) | [Examples](http://aspose.github.io/) | [Blog](https://blog.aspose.com/) | [Free Support](https://forum.aspose.com/) | [Temporary License](https://purchase.aspose.com/temporary-license) | [Policies](https://purchase.aspose.com/policies)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/total/cpp) | [Docs](https://docs.aspose.com/total/cpp/) | [API Reference](https://apireference.aspose.com/) | [Examples](http://aspose.github.io/) | [Blog](https://blog.aspose.com/) | [Free Support](https://forum.aspose.com/) | [Temporary License](https://purchase.aspose.com/temporary-license) | [Policies](https://purchase.aspose.com/policies)
