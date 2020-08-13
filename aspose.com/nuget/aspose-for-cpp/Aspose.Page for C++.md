@@ -4,26 +4,22 @@
 
 ## XPS Processing Features
 
-- Create and [edit `XPS` documents](https://docs.aspose.com/display/pagecpp/Add+Text+in+XPS+Document).
-- Add or remove [pages of `XPS` document](https://docs.aspose.com/display/pagecpp/Add+Pages+to+XPS+Document).
+- Create and [edit `XPS` documents](https://docs.aspose.com/page/cpp/add-text-in-xps-document/).
+- Add or remove [pages of `XPS` document](https://docs.aspose.com/page/cpp/add-pages-to-xps-document/).
 - Create vector graphics shapes (Path element) using a set of primitives (elliptical arcs, Bezier curve segments, and straight-line segments).
 - Create text strings (Glyphs element).
 - Group elements (Canvas element) to manipulate a group as a whole.
-- [Supports brushes of various types](https://docs.aspose.com/display/pagecpp/Add+Grid+using+Visual+Brush), such as, solid color brush, image brush, visual brush, etc.
+- [Supports brushes of various types](https://docs.aspose.com/page/cpp/add-grid-using-visual-brush/), such as, solid color brush, image brush, visual brush, etc.
 - Supports different color spaces including `sRGB`, `scRGB` and any space-based on `ICC` profile.
 - Works for multiple documents inside an `XPS` document.
 - Add default print tickets into new `XPS` document or preserve print tickets in opened `XPS`.
-- Save `XPS` documents in various [supported file formats](https://docs.aspose.com/display/pagecpp/Supported+File+Formats).
-
-## New Features & Enhancements in Version 20.7
-
-This release has some minor enhancements. For the detailed notes, please visit [Aspose.Page for C++ 20.7 Release Notes](https://docs.aspose.com/display/pagecpp/Aspose.Page+for+CPP+20.7+Release+Notes).
+- Save `XPS` documents in various [supported file formats](https://docs.aspose.com/page/cpp/supported-file-formats/).
 
 ## Save XPS as
 
 PDF, BMP, TIFF, JPEG, PNG
 
-# Save EPS/PS as
+## Save EPS/PS as
 
 PDF, BMP, TIFF, JPEG, PNG, EMF, WMF, GIF
 
@@ -48,4 +44,4 @@ doc->InsertPage(1, true);
 doc->Save(outDir() + u"AddPages_out.xps");
 ```
 
-[Product Page](https://products.aspose.com/page/cpp) | [Docs](https://docs.aspose.com/display/pagecpp/Home) | [Demos](https://products.aspose.app/page/family) | [API Reference](https://apireference.aspose.com/page/cpp) | [Examples](https://github.com/aspose-page/Aspose.Page-for-C) | [Blog](https://blog.aspose.com/category/page/) | [Free Support](https://forum.aspose.com/c/page) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/page/cpp) | [Docs](https://docs.aspose.com/page/cpp/) | [Demos](https://products.aspose.app/page/family) | [API Reference](https://apireference.aspose.com/page/cpp) | [Examples](https://github.com/aspose-page/Aspose.Page-for-C) | [Blog](https://blog.aspose.com/category/page/) | [Free Support](https://forum.aspose.com/c/page) |  [Temporary License](https://purchase.aspose.com/temporary-license)
