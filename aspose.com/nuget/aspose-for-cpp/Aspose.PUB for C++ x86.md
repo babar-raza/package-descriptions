@@ -4,12 +4,12 @@
 
 ## PUB File Processing Features
 
-- Read Microsoft Publisher [(PUB) files for conversion to PDF](https://docs.aspose.com/display/pubcpp/PUB+to+PDF) format.
-- [Read & Edit metadata of PUB files](https://docs.aspose.com/display/pubcpp/Programming+with+Documents#ProgrammingwithDocuments-EditMetaDataofPUBFilesinC++) via API.
+- Read Microsoft Publisher [(PUB) files for conversion to PDF](https://docs.aspose.com/pub/cpp/pub-to-pdf/) format.
+- [Read & Edit metadata of PUB files](https://docs.aspose.com/pub/cpp/programming-with-documents/) via API.
 
 ## New Features & Enhancements in Version 20.7
 
-This month's release uses the latest version of the shared codeporting library. The `API` has also been updated to include the latest implementation of Aspose.PDF for C++ library, thus enhancing the overall functionality of the `API`. For the detailed notes, please visit [Aspose.PUB for C++ 20.7 Release Notes](https://docs.aspose.com/display/pubcpp/Aspose.PUB+for+CPP+20.7+Release+Notes).
+This month's release uses the latest version of the shared codeporting library. The `API` has also been updated to include the latest implementation of Aspose.PDF for C++ library, thus enhancing the overall functionality of the `API`.
 
 ## Read PUB Files
 
@@ -53,4 +53,4 @@ System::Console::WriteLine(u"Convert done.");
 
 At the moment API lacks the support to convert images of PUB file to PDF file. So such images wont show up in the resultant output PDF file. This feature is in our plan to be released in some future release.
 
-[Product Page](https://products.aspose.com/pub/cpp) | [Docs](https://docs.aspose.com/display/pubcpp/Home) | [API Reference](https://apireference.aspose.com/pub/cpp) | [Examples](https://github.com/aspose-pub/Aspose.PUB-for-C) | [Blog](https://blog.aspose.com/category/pub/) | [Free Support](https://forum.aspose.com/c/pub) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/pub/cpp) | [Docs](https://docs.aspose.com/pub/cpp/) | [API Reference](https://apireference.aspose.com/pub/cpp) | [Examples](https://github.com/aspose-pub/Aspose.PUB-for-C) | [Blog](https://blog.aspose.com/category/pub/) | [Free Support](https://forum.aspose.com/c/pub) | [Temporary License](https://purchase.aspose.com/temporary-license)
