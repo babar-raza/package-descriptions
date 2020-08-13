@@ -2,25 +2,25 @@
 
 [Aspose.Cells for C++](https://products.aspose.com/cells/cpp) is a native C++ library to create, manipulate, process and convert Microsoft Excel® files without needing Microsoft Office® or Automation. The Excel C++ API supports Excel 97-2003 (XLS), Excel 2007-2013/2016 (XLSX, XLSM, XLSB), OpenOffice XML and other formats such as CSV, TSV and more.
 
-It allows the developers to work with spreadsheet [rows, columns](https://docs.aspose.com/display/cellscpp/Rows+and+Columns), [data](https://docs.aspose.com/display/cellscpp/Data), [formulas](https://docs.aspose.com/display/cellscpp/Formulas), [pivot tables](https://docs.aspose.com/display/cellscpp/Pivot+Tables), [worksheets](https://docs.aspose.com/display/cellscpp/Worksheets), [tables](https://docs.aspose.com/display/cellscpp/Tables), [charts](https://docs.aspose.com/display/cellscpp/Tables), and [drawing objects](https://docs.aspose.com/display/cellscpp/Drawing+Objects) from their own C++ applications.
+It allows the developers to work with spreadsheet rows, columns, data, formulas, pivot tables, worksheets, tables, charts, and drawing objects from their own C++ applications.
 
 ## Excel File Processing Features
 
 - Open a spreadsheet file without Microsoft Excel.
-- [Open an Excel file](https://docs.aspose.com/display/cellscpp/Opening+Files) via a path on local computer or using a stream.
-- [Convert worksheet](https://docs.aspose.com/display/cellscpp/Converting+Worksheet+to+Different+Image+Formats) to different image formats.
-- [Apply conditional formatting](https://docs.aspose.com/display/cellscpp/Apply+Conditional+Formatting+in+Worksheet#ApplyConditionalFormattinginWorksheet-ApplyConditionalFormattinginWorksheet) as per your choice.
-- [Manipulate pivot tables](https://docs.aspose.com/display/cellscpp/Manipulate+Pivot+Table) in your spreadsheets.
-- [Convert table to range](https://docs.aspose.com/display/cellscpp/Tables+and+Ranges#TablesandRanges-UsingAspose.Cells) without losing formatting.
-- [Fetch a cell's name](https://docs.aspose.com/display/cellscpp/Names+and+Indices#NamesandIndices-GetCellNamefromRowandColumnIndices) by providing the row and column index, similarly, [fetch row and column index of cell](https://docs.aspose.com/display/cellscpp/Names+and+Indices#NamesandIndices-GetRowandColumnIndicesfromCellName) from its name.
-- Create [Pyramid chart, Line chart, Bubble chart](https://docs.aspose.com/display/cellscpp/Creating+and+Customizing+Charts), or a custom chart.
-- [Render](https://docs.aspose.com/display/cellscpp/Chart+Rendering) [supported chart types](https://docs.aspose.com/display/cellscpp/Chart+Rendering#ChartRendering-SupportedChartTypesforRendering) to images or PDF.
-- [Insert an OLE object into the worksheet](https://docs.aspose.com/display/cellscpp/Inserting+OLE+Objects+into+the+Worksheet#InsertingOLEObjectsintotheWorksheet-InsertingOLEObjectsintotheWorksheet).
-- Access all the OLE objects contained in the worksheet for [extraction](https://docs.aspose.com/display/cellscpp/Extracting+OLE+Objects+from+Worksheet#ExtractingOLEObjectsfromWorksheet-ExtractingOLEObjectsfromWorksheet).
+- [Open an Excel file](https://docs.aspose.com/cells/cpp/opening-files/) via a path on local computer or using a stream.
+- [Convert worksheet](https://docs.aspose.com/cells/cpp/converting-worksheet-to-different-image-formats/) to different image formats.
+- [Apply conditional formatting](https://docs.aspose.com/cells/cpp/apply-conditional-formatting-in-worksheet/) as per your choice.
+- [Manipulate pivot tables](https://docs.aspose.com/cells/cpp/manipulate-pivot-table/) in your spreadsheets.
+- [Convert table to range](https://docs.aspose.com/cells/cpp/tables-and-ranges/) without losing formatting.
+- Fetch a cell's name by providing the row and column index, similarly, [fetch row and column index of cell](https://docs.aspose.com/cells/cpp/names-and-indices/) from its name.
+- Create [Pyramid chart, Line chart, Bubble chart](https://docs.aspose.com/cells/cpp/creating-and-customizing-charts/), or a custom chart.
+- [Render](https://docs.aspose.com/cells/cpp/chart-rendering/) supported chart types to images or PDF.
+- [Insert an OLE object into the worksheet](https://docs.aspose.com/cells/cpp/inserting-ole-objects-into-the-worksheet/).
+- Access all the OLE objects contained in the worksheet for [extraction](https://docs.aspose.com/cells/cpp/extracting-ole-objects-from-worksheet/).
 
 ## New Features in Version 20.7
 
-This release offers some enhancements. For the detailed notes, please visit [Aspose.Cells for C++ 20.7 Release Notes Windows](https://docs.aspose.com/display/cellscpp/Aspose.Cells+for+CPP+20.7+Release+Notes+Windows).
+This release offers some enhancements. For the detailed notes, please visit [Aspose.Cells for C++ 20.7 Release Notes Windows](https://docs.aspose.com/cells/cpp/aspose-cells-for-cpp-20-7-release-notes-windows/).
 
 ## Read & Write Formats
 
@@ -87,4 +87,4 @@ chart->GetNISeries()->GetObjectByIndex(1)->SetType(Aspose::Cells::Charts::ChartT
 workbook->Save(new String("output.xlsx")));
 ```
 
-[Product Page](https://products.aspose.com/cells/cpp) | [Docs](https://docs.aspose.com/display/cellscpp/Home) | [Demos](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.com/cells/cpp) | [Examples](https://github.com/aspose-cells/Aspose.Cells-for-C) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/cells/cpp) | [Docs](https://docs.aspose.com/cells/cpp/) | [Demos](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.com/cells/cpp) | [Examples](https://github.com/aspose-cells/Aspose.Cells-for-C) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) |  [Temporary License](https://purchase.aspose.com/temporary-license)
