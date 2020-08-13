@@ -4,30 +4,27 @@
 
 ## Email File Processing Features
 
-- [Create a new email message](https://docs.aspose.com/display/emailcpp/Creating+and+setting+contents+of+Emails#CreatingandsettingcontentsofEmails-CreateNewEmailMessage) with properties, such as, From, To, Subject, and Body.
+- [Create a new email message](https://docs.aspose.com/email/cpp/creating-and-setting-contents-of-emails/) with properties, such as, From, To, Subject, and Body.
 - Save the email message in EML, MSG, and MHTML formats.
-- Associate [human-friendly names to email addresses](https://docs.aspose.com/display/emailcpp/Creating+and+setting+contents+of+Emails#CreatingandsettingcontentsofEmails-Changingemailaddressestoafriendlyname), to improve accessibility.
-- An email can have [HTML as well as Text body](https://docs.aspose.com/display/emailcpp/Creating+and+setting+contents+of+Emails#CreatingandsettingcontentsofEmails-SetMailBody).
-- [Set alternate text of email messages](https://docs.aspose.com/display/emailcpp/Creating+and+setting+contents+of+Emails#CreatingandsettingcontentsofEmails-SettingAlternateText) for the Email Readers that cannot display HTML content.
-- [Fetch and display email header information](https://docs.aspose.com/display/emailcpp/Extracting+Message+Contents+from+Emails) and email body on screen.
-- Save and convert email messages to the [supported file formats](https://docs.aspose.com/display/emailcpp/Supported+File+Formats).
-- [Read email messages with TNEF attachments](https://docs.aspose.com/display/emailcpp/Utility+Features+-+MailMessage#UtilityFeatures-MailMessage-MailMessagesContainingTNEFattachments) and modify the contents of the attachment.
-- Check if the [email message is regular or a bounced](https://docs.aspose.com/display/emailcpp/Utility+Features+-+MailMessage#UtilityFeatures-MailMessage-CheckBouncedMessages) one.
+- Associate human-friendly names to email addresses, to improve accessibility.
+- An email can have HTML as well as Text body.
+- Set alternate text of email messages for the Email Readers that cannot display HTML content.
+- [Fetch and display email header information](https://docs.aspose.com/email/cpp/extracting-message-contents-from-emails/) and email body on screen.
+- Save and convert email messages to the [supported file formats](https://docs.aspose.com/email/cpp/supported-file-formats/).
+- [Read email messages with TNEF attachments](https://docs.aspose.com/email/cpp/utility-features-mailmessage/) and modify the contents of the attachment.
+- Check if the email message is regular or a bounced one.
 - Add, remove, display and extract email attachments.
-- [Embed objects in emails](https://docs.aspose.com/display/emailcpp/Working+with+Attachments+and+Embedded+Objects#WorkingwithAttachmentsandEmbeddedObjects-EmbeddingObjectsintoanEmail), the size of attachment depends on the email server.
-- [Extract embedded objects](https://docs.aspose.com/display/emailcpp/Working+with+Attachments+and+Embedded+Objects#WorkingwithAttachmentsandEmbeddedObjects-ExtractingEmbeddedObjects) from email messages.
-- [Export email to MHT with customized time zone](https://docs.aspose.com/display/emailcpp/Loading+and+Saving+Message#LoadingandSavingMessage-ExportingEmailtoMHTwithcustomizedTimeZone).
-- [Create distribution list](https://docs.aspose.com/display/emailcpp/Working+with+Distribution+Lists#WorkingwithDistributionLists-CreatingandSavingaDistributionList) of multiple email contacts and save to storage in MSG format.
-- Support to [work with MAPI properties](https://docs.aspose.com/display/emailcpp/Working+with+MAPI+Properties).
-- Add [display or audio reminder](https://docs.aspose.com/display/emailcpp/Working+with+Outlook+Calendar+Items) to email calendar items.
-- So many more [features](https://docs.aspose.com/display/emailcpp/Developer+Guide).
+- [Embed objects in emails](https://docs.aspose.com/email/cpp/working-with-attachments-and-embedded-objects/), the size of attachment depends on the email server.
+- Extract embedded objects from email messages.
+- [Export email to MHT with customized time zone](https://docs.aspose.com/email/cpp/loading-and-saving-message/).
+- [Create distribution list](https://docs.aspose.com/email/cpp/working-with-distribution-lists/) of multiple email contacts and save to storage in MSG format.
+- Support to [work with MAPI properties](https://docs.aspose.com/email/cpp/working-with-mapi-properties/).
+- Add [display or audio reminder](https://docs.aspose.com/email/cpp/working-with-outlook-calendar-items/) to email calendar items.
 
 ## New Features & Enhancements in Version 20.6
 
 - Support to perform Advanced Query Search (AQS) queries in Exchange.
 - Ability to work with Microsoft Graph API.
-
-For the detailed notes, please visit [Aspose.Email for C++ 20.6 Release Notes](https://docs.aspose.com/display/emailcpp/Aspose.Email+for+CPP+20.6+Release+Notes).
 
 ## Read & Write Email Formats
 
@@ -92,4 +89,4 @@ msg->set_HtmlBody(u"<h3>sending message from exchange server</h3>");
 client->Send(msg);
 ```
 
-[Product Page](https://products.aspose.com/email/cpp) | [Docs](https://docs.aspose.com/display/emailcpp/Home) | [Demos](https://products.aspose.app/email/family) | [API Reference](https://apireference.aspose.com/email/cpp) | [Examples](https://github.com/aspose-email/Aspose.Email-for-C) | [Blog](https://blog.aspose.com/category/email/) | [Free Support](https://forum.aspose.com/c/email) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/email/cpp) | [Docs](https://docs.aspose.com/email/cpp/) | [Demos](https://products.aspose.app/email/family) | [API Reference](https://apireference.aspose.com/email/cpp) | [Examples](https://github.com/aspose-email/Aspose.Email-for-C) | [Blog](https://blog.aspose.com/category/email/) | [Free Support](https://forum.aspose.com/c/email) |  [Temporary License](https://purchase.aspose.com/temporary-license)
