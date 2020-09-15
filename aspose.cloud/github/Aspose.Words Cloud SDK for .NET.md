@@ -9,11 +9,12 @@
 - Join, split, append, compare & classify documents with simple API calls.
 - Access, edit or add Word document elements such as hyperlinks, comments, paragraphs, tables, footnotes, math & drawing objects, watermarks and so on.
 - Insert, update, copy or apply styles to supported document elements.
-- Render document pages, complex objects or whole documents in raster & vector image formats.
+- Render document pages, objects or whole documents in raster & vector image formats.
 - [Add, update & remove FormFields in Word documents](https://docs.aspose.cloud/display/wordscloud/Working+with+FormFields).
 - Encrypt or decrypt documents as well as load protected documents for all possible manipulation operations.
+- Find text via regular expression & replace all occurrences of the captured string.
 
-## Enhancements in Version 20.8 of Aspose.Words Cloud
+## Enhancements in Aspose.Words Cloud v20.8
 
 - Added new API method `(PUT '/words/{name}/compatibility/optimize')` that allows to optimize the document contents as well as default Aspose.Words behavior to a particular version of MS Word.
 - Added `ApplyBaseDocumentHeadersAndFootersToAppendingDocuments` option to `DocumentEntryList` for `AppendDocument` API.
@@ -39,7 +40,7 @@ Execute `Install-Package Aspose.Words-Cloud` from the Package Manager Console in
 - [.NET Framework 2.0 or later](https://dotnet.microsoft.com/download)
 - [Json.NET](https://dotnet.microsoft.com/download)
 
-## Convert DOCX Document to PDF via C# Code
+## Convert DOCX to PDF in the Cloud
 
 ```csharp
 var fileName = "template.docx";
