@@ -4,7 +4,7 @@
 
 ## Cloud Word Processor in a Nutshell
 
-- Create documents from scratch via APIs, using [MailMerge](https://docs.aspose.cloud/display/wordscloud/Working+with+Mail+Merge) or importing web-pages.
+- Generate documents from APIs, using [MailMerge Reporting](https://docs.aspose.cloud/display/wordscloud/Working+with+Mail+Merge) or importing web-pages.
 - [Convert between 40+ diverse file formats](https://docs.aspose.cloud/display/wordscloud/Supported+File+Formats) including DOC, DOCX, ODT, OTT, OPC, HTML, PDF, XPS, WordML, PS, MD & more.
 - Join, split, append, compare & classify documents with simple API calls.
 - Access, edit or add Word document elements such as hyperlinks, comments, paragraphs, tables, footnotes, math & drawing objects, watermarks and so on.
