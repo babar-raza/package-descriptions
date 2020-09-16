@@ -4,7 +4,7 @@
 
 ## Cloud Word Processor in a Nutshell
 
-- Generate documents from APIs, using [MailMerge Reporting](https://docs.aspose.cloud/display/wordscloud/Working+with+Mail+Merge) or importing web-pages.
+- Generate documents via APIs, using [MailMerge Reporting](https://docs.aspose.cloud/display/wordscloud/Working+with+Mail+Merge) or importing web-pages.
 - [Convert between 40+ diverse file formats](https://docs.aspose.cloud/display/wordscloud/Supported+File+Formats) including DOC, DOCX, ODT, OTT, OPC, HTML, PDF, XPS, WordML, PS, MD & more.
 - Join, split, append, compare & classify documents with simple API calls.
 - Access, edit or add Word document elements such as hyperlinks, comments, paragraphs, tables, footnotes, math & drawing objects, watermarks and so on.
@@ -13,6 +13,21 @@
 - [Add, update & remove FormFields in Word documents](https://docs.aspose.cloud/display/wordscloud/Working+with+FormFields).
 - Encrypt or decrypt documents as well as load protected documents for all possible manipulation operations.
 - Find text via regular expression & replace all occurrences of the captured string.
+
+## Read & Write Document Formats
+
+**Microsoft Word:** DOC, DOCX, RTF, DOT, DOTX, DOTM, FlatOPC (XML)
+**OpenOffice:** ODT, OTT
+**WordprocessingML:** XML
+**Web:** HTML, MHTML, HtmlFixed
+**Text:** TXT
+**Fixed Layout:** PDF
+
+## Save Documents As
+
+**Fixed Layout:** PDF/A, XPS, OpenXPS, PS
+**Images:** JPEG, PNG, BMP, SVG, TIFF, EMF
+**Others:** PCL
 
 ## Enhancements in Aspose.Words Cloud v20.8
 
@@ -50,7 +65,7 @@ var request = new PutConvertDocumentRequest(File.OpenRead(@"c:\Data\" + fileName
 var result = wordsApi.PutConvertDocument(request);
 ```
 
-## Aspose.Words Cloud SDKs in Popular Programming Languages
+## All Aspose.Words Cloud SDKs
 
 | Java | C++ | PHP | Python | Ruby | Node.js | Android | Swift | GO |
 |---|---|---|---|---|---|---|---|---|
