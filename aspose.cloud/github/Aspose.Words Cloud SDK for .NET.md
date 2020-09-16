@@ -13,7 +13,7 @@
 - Encrypt or decrypt documents as well as load protected documents for all possible operations.
 - Find text via regular expression & replace occurrences of the captured string.
 
-## Read & Write Document Formats
+### Read & Write Document Formats
 
 **Microsoft Word:** DOC, DOCX, RTF, DOT, DOTX, DOTM, FlatOPC (XML)
 **OpenOffice:** ODT, OTT
@@ -22,7 +22,7 @@
 **Text:** TXT
 **Fixed Layout:** PDF
 
-## Save Documents As
+### Save Documents As
 
 **Fixed Layout:** PDF/A, XPS, OpenXPS, PS
 **Images:** JPEG, PNG, BMP, SVG, TIFF, EMF
