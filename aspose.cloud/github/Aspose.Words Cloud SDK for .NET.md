@@ -50,4 +50,10 @@ var request = new PutConvertDocumentRequest(File.OpenRead(@"c:\Data\" + fileName
 var result = wordsApi.PutConvertDocument(request);
 ```
 
-[Product Page](https://products.aspose.cloud/words/net) | [Documentation](https://docs.aspose.cloud/display/wordscloud/Home) | [Demo](https://products.aspose.app/words/family) | [API Reference](https://apireference.aspose.cloud/words/) | [Blog](https://blog.aspose.cloud/category/words/) | [Free Support](https://forum.aspose.cloud/c/words) | [Free Trial](https://dashboard.aspose.cloud/#/apps)
+## Aspose.Words Cloud SDKs in Popular Programming Languages
+
+|   |   |   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|
+| [Java](https://github.com/aspose-words-cloud/aspose-words-cloud-java) | [C++](https://github.com/aspose-words-cloud/aspose-words-cloud-cpp) | [PHP](https://github.com/aspose-words-cloud/aspose-words-cloud-cpp) | [Python](https://github.com/aspose-words-cloud/aspose-words-cloud-python) | [Ruby](https://github.com/aspose-words-cloud/aspose-words-cloud-ruby)  | [Node.js](https://github.com/aspose-words-cloud/aspose-words-cloud-node) | [Android](https://github.com/aspose-words-cloud/aspose-words-cloud-android)  | [Swift](https://github.com/aspose-words-cloud/aspose-words-cloud-swift) | [GO](https://github.com/aspose-words-cloud/aspose-words-cloud-go) |
+
+[Home](https://www.aspose.cloud/) | [Product Page](https://products.aspose.cloud/words/net) | [Docs](https://docs.aspose.cloud/display/wordscloud/Home) | [Demos](https://products.aspose.app/words/family) | [API Reference](https://apireference.aspose.cloud/words/) | [Blog](https://blog.aspose.cloud/category/words/) | [Free Support](https://forum.aspose.cloud/c/words) | [Free Trial](https://purchase.aspose.cloud/trial)
