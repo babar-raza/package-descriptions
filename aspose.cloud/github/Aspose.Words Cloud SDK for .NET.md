@@ -28,7 +28,7 @@
 **Images:** JPEG, PNG, BMP, SVG, TIFF, EMF
 **Others:** PCL
 
-## Enhancements in Aspose.Words Cloud v20.8
+## New Features & Enhancements in Version 20.8
 
 - Added new API method `(PUT '/words/{name}/compatibility/optimize')` that allows to optimize the document contents as well as default Aspose.Words behavior to a particular version of MS Word.
 - Added `ApplyBaseDocumentHeadersAndFootersToAppendingDocuments` option to `DocumentEntryList` for `AppendDocument` API.
