@@ -64,7 +64,7 @@ var request = new PutConvertDocumentRequest(File.OpenRead(@"c:\Data\" + fileName
 var result = wordsApi.PutConvertDocument(request);
 ```
 
-## All Aspose.Words Cloud SDKs
+## Other Aspose.Words Cloud SDKs
 
 | Java | C++ | PHP | Python | Ruby | Node.js | Android | Swift | GO |
 |---|---|---|---|---|---|---|---|---|
