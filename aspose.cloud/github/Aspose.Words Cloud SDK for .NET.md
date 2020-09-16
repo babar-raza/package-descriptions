@@ -7,12 +7,11 @@
 - Generate documents via APIs, using [MailMerge Reporting](https://docs.aspose.cloud/display/wordscloud/Working+with+Mail+Merge) or importing web-pages.
 - [Convert between 40+ diverse file formats](https://docs.aspose.cloud/display/wordscloud/Supported+File+Formats) including DOC, DOCX, ODT, OTT, OPC, HTML, PDF, XPS, WordML, PS, MD & more.
 - Join, split, append, compare & classify documents with simple API calls.
-- Access, edit or add Word document elements such as hyperlinks, comments, paragraphs, tables, footnotes, math & drawing objects, watermarks and so on.
-- Insert, update, copy or apply styles to supported document elements.
+- Access & manipulate all document elements such as hyperlinks, comments, paragraphs, tables, footnotes, math & drawing objects, watermarks and so on.
 - Render document pages, objects or whole documents in raster & vector image formats.
-- [Add, update & remove FormFields in Word documents](https://docs.aspose.cloud/display/wordscloud/Working+with+FormFields).
-- Encrypt or decrypt documents as well as load protected documents for all possible manipulation operations.
-- Find text via regular expression & replace all occurrences of the captured string.
+- [Manipulate FormFields in Word documents](https://docs.aspose.cloud/display/wordscloud/Working+with+FormFields).
+- Encrypt or decrypt documents as well as load protected documents for all possible operations.
+- Find text via regular expression & replace occurrences of the captured string.
 
 ## Read & Write Document Formats
 
