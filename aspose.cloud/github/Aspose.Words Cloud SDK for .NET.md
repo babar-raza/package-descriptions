@@ -49,7 +49,7 @@ Execute `Install-Package Aspose.Words-Cloud` from the Package Manager Console in
 
 [Get & set up NuGet CLI](https://docs.microsoft.com/en-us/nuget/reference/nuget-exe-cli-reference) then execute `nuget install Aspose.Words-Cloud` from the command line.
 
-## SDK Dependencies
+### SDK Dependencies
 
 - [.NET Framework 2.0 or later](https://dotnet.microsoft.com/download)
 - [Json.NET](https://dotnet.microsoft.com/download)
