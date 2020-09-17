@@ -30,7 +30,7 @@
 **Images:** JPEG, PNG, BMP, SVG, TIFF, EMF
 **Others:** PCL
 
-## New Features & Enhancements in Version 20.8
+## New Features & Enhancements ![GitHub release (latest by date)](https://img.shields.io/github/v/release/aspose-words-cloud/aspose-words-cloud-dotnet)
 
 - Added new API method `(PUT '/words/{name}/compatibility/optimize')` that allows to optimize the document contents as well as default Aspose.Words behavior to a particular version of MS Word.
 - Added `ApplyBaseDocumentHeadersAndFootersToAppendingDocuments` option to `DocumentEntryList` for `AppendDocument` API.
