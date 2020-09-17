@@ -1,5 +1,6 @@
 # .NET SDK for Document Processing in the Cloud
-[![GitHub issues](https://img.shields.io/github/issues/babar-raza/package-descriptions)](https://github.com/babar-raza/package-descriptions/issues)
+![Nuget](https://img.shields.io/nuget/v/aspose.words-cloud) ![Nuget](https://img.shields.io/nuget/dt/aspose.words-cloud) [![GitHub stars](https://img.shields.io/github/stars/aspose-words-cloud/aspose-words-cloud-dotnet)](https://github.com/aspose-words-cloud/aspose-words-cloud-dotnet/stargazers) [![GitHub license](https://img.shields.io/github/license/aspose-words-cloud/aspose-words-cloud-dotnet)](https://github.com/aspose-words-cloud/aspose-words-cloud-dotnet)
+
 
 [Aspose.Words Cloud SDK for .NET](https://products.aspose.cloud/words/net) wraps Aspose.Words REST API to provide seamless integration of Word Processing features in your own .NET applications.
 
