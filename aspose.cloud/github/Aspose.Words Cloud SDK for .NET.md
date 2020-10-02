@@ -1,3 +1,4 @@
+[![](https://img.shields.io/badge/REST%20API-v4.0-green)](https://apireference.aspose.cloud/words/)
 ![Nuget](https://img.shields.io/nuget/v/aspose.words-cloud) ![Nuget](https://img.shields.io/nuget/dt/aspose.words-cloud) [![GitHub stars](https://img.shields.io/github/stars/aspose-words-cloud/aspose-words-cloud-dotnet)](https://github.com/aspose-words-cloud/aspose-words-cloud-dotnet/stargazers) [![GitHub license](https://img.shields.io/github/license/aspose-words-cloud/aspose-words-cloud-dotnet)](https://github.com/aspose-words-cloud/aspose-words-cloud-dotnet)
 
 # .NET SDK for Document Processing in the Cloud
